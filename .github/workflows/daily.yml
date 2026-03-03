@@ -2,7 +2,7 @@ name: Daily Job Check
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # Runs daily at 13:00 UTC
+    - cron: '0 13 * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,16 +10,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: 3.11
 
       - name: Install dependencies
         run: |
-          pip install requests pyyaml beautifulsoup4
+          pip install requests pyyaml beautifulsoup4 playwright
+          python -m playwright install chromium
 
       - name: Run script
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: python check_jobs.py
