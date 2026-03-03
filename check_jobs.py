@@ -42,20 +42,47 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
 
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
-        if not href:
+
+        if href.startswith("#"):
             continue
 
-        # Drop pure anchors and JS pseudo-links
-        if href == "#" or href.startswith("javascript:"):
+        url = urljoin(base_url, href)
+        url = urldefrag(url)[0]
+
+        u = url.lower()
+
+        # reject obvious junk
+        if any(x in u for x in [
+            "linkedin.com",
+            "facebook.com",
+            "twitter.com",
+            "x.com",
+            "youtube.com",
+            "privacy",
+            "terms",
+            "cookie",
+            "legal",
+            "contact",
+            "blog",
+            ".pdf",
+            "mailto:"
+        ]):
             continue
 
-        # Resolve relative to absolute
-        abs_url = urljoin(base_url, href)
-
-        # Remove fragment so we do not treat same page section links as unique jobs
-        abs_url, _frag = urldefrag(abs_url)
-
-        links.add(abs_url)
+        # allow only things that look like job pages
+        if any(x in u for x in [
+            "/job",
+            "/jobs",
+            "/apply",
+            "lever.co",
+            "greenhouse.io",
+            "workable.com",
+            "applicantstack.com/x/detail",
+            "applytojob.com/apply",
+            "recruitee.com",
+            "gohire.io"
+        ]):
+            links.add(url)
 
     return links
 
