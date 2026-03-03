@@ -33,7 +33,15 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
-        run: python check_jobs.py
+        run: |
+          echo "ABOUT TO RUN PYTHON"
+          python -c "print('PYTHON PRINT WORKS')"
+          python -u check_jobs.py
+          echo "PYTHON FINISHED"
+          echo "LIST FILES:"
+          ls -la
+          echo "SHOW DIGEST (if present):"
+          tail -n 120 latest_digest.txt || true
 
       - name: Commit updated memory files
         run: |
