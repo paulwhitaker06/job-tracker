@@ -1,0 +1,22 @@
+companies:
+  - name: Satelligence
+    type: html_links
+    url: https://satelligence.com/careers/
+    link_contains: homerun.co
+
+  - name: ICEYE
+    type: html_links
+    url: https://apply.workable.com/iceye/
+    link_contains: iceye
+
+  - name: Satellogic
+    type: html_links
+    url: https://satellogic.bamboohr.com/jobs/
+
+  - name: Treefera
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/treefera
+
+  - name: Pixxel
+    type: playwright
+    url: https://pixxel.darwinbox.in/ms/candidate/careers
