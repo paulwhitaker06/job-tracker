@@ -156,6 +156,7 @@ def send_email(subject: str, body: str) -> None:
         server.sendmail(user, [to_email], msg.as_string())
 
 def main():
+    print("JOB TRACKER STARTED")
     with open("companies.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
