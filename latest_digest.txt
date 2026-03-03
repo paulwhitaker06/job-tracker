@@ -1,4 +1,2359 @@
 Daily job tracker digest
-Run time: 2026-03-03 21:14 UTC
+Run time: 2026-03-03 22:49 UTC
 
-No new items today.
+New items: 1164
+
+- ICEYE: ICEYE | LinkedIn
+  https://fi.linkedin.com/company/iceye
+- ICEYE: ICEYE
+  https://iceye.com/es/
+- ICEYE: ICEYE
+  https://iceye.com/ja-jp/
+- ICEYE: ICEYE
+  https://iceye.com/pl-pl/
+- ICEYE: ICEYE US
+  https://iceye.us/
+- ICEYE: Our Constellation | Satellites | ICEYE
+  https://www-iceye-com.sandbox.hs-sites.com/our-constellation?hsLang=en
+- ICEYE: ICEYE
+  https://www.facebook.com/iceye/
+- ICEYE: ICEYE
+  https://www.iceye.com/?hsLang=en
+- ICEYE: Federation: The next step in space-based ISR
+  https://www.iceye.com/blog/beyond-the-echo-federation-the-next-step-in-space-based-isr?hsLang=en
+- ICEYE: Cyclones Senyar and Ditwah: Flooding impact across Sri Lanka, Indonesia, and Thailand
+  https://www.iceye.com/blog/cyclones-senyar-and-ditwah-flooding-impact-across-sri-lanka-indonesia-and-thailand?hsLang=en
+- ICEYE: Using near-real time data to expedite Hurricane Melissa disaster response
+  https://www.iceye.com/blog/government-and-ngos-using-near-real-time-data-to-expedite-hurricane-melissa-disaster-response?hsLang=en
+- ICEYE: ICEYE Blog
+  https://www.iceye.com/blog?hsLang=en
+- ICEYE: Blue Horizons
+  https://www.iceye.com/blue-horizons?hsLang=en
+- ICEYE: Careers | Join our team | ICEYE
+  https://www.iceye.com/careers
+- ICEYE: History | About us | ICEYE
+  https://www.iceye.com/company/history?hsLang=en
+- ICEYE: About us | Sustainability
+  https://www.iceye.com/company/sustainability?hsLang=en
+- ICEYE: About us | Company | ICEYE
+  https://www.iceye.com/company?hsLang=en
+- ICEYE: Contact us | Business inquiries | ICEYE
+  https://www.iceye.com/contact/general-business?hsLang=en
+- ICEYE: Contact us | SAR data | ICEYE
+  https://www.iceye.com/contact/sar-data?hsLang=en
+- ICEYE: Contact us | Satellites | ICEYE
+  https://www.iceye.com/contact/satellites?hsLang=en
+- ICEYE: Contact us | Natural Catastrophe solutions | ICEYE
+  https://www.iceye.com/contact/solutions?hsLang=en
+- ICEYE: Contact us | Natural Catastrophe solutions | ICEYE
+  https://www.iceye.com/contact/solutions?industry=Government&hsLang=en
+- ICEYE: Contact us | Natural Catastrophe solutions | ICEYE
+  https://www.iceye.com/contact/solutions?industry=Insurance&hsLang=en
+- ICEYE: Contact us | ICEYE
+  https://www.iceye.com/contact?hsLang=en
+- ICEYE: (no title captured)
+  https://www.iceye.com/hubfs/Code-of-Conduct-v3.pdf?hsLang=en
+- ICEYE: Invoicing | ICEYE
+  https://www.iceye.com/iceye-invoicing?hsLang=en
+- ICEYE: Missions | CONNECT
+  https://www.iceye.com/missions-connect?hsLang=en
+- ICEYE: Missions | Federate
+  https://www.iceye.com/missions-federate?hsLang=en
+- ICEYE: Missions | Gen4
+  https://www.iceye.com/missions-gen4?hsLang=en
+- ICEYE: Missions | ISR
+  https://www.iceye.com/missions-isr?hsLang=en
+- ICEYE: Missions
+  https://www.iceye.com/missions?hsLang=en
+- ICEYE: Modern slavery act | ICEYE
+  https://www.iceye.com/modern-slavery-act-transparency-statement?hsLang=en
+- ICEYE: ICEYE Press Releases
+  https://www.iceye.com/newsroom/press-releases?hsLang=en
+- ICEYE: Your HQ for news, media assets and more | Press | ICEYE
+  https://www.iceye.com/newsroom?hsLang=en
+- ICEYE: ESA CCM | Partnerships | ICEYE
+  https://www.iceye.com/partnerships/esa-ccm?hsLang=en
+- ICEYE: ESA TPM | Partnerships | ICEYE
+  https://www.iceye.com/partnerships/esa-tpm?hsLang=en
+- ICEYE: Partnerships | Become a partner | ICEYE
+  https://www.iceye.com/partnerships?hsLang=en
+- ICEYE: Projekty: ADCS
+  https://www.iceye.com/pl-pl/projekty/adcs?hsLang=en
+- ICEYE: Projekty: ICU
+  https://www.iceye.com/pl-pl/projekty/icu?hsLang=en
+- ICEYE: Projekty: RAMON
+  https://www.iceye.com/pl-pl/projekty/ramon?hsLang=en
+- ICEYE: ICEYE
+  https://www.iceye.com/pl?hsLang=en
+- ICEYE: SAR application studies | Resources | ICEYE
+  https://www.iceye.com/resources/application-studies?hsLang=en
+- ICEYE: Download | Case studies
+  https://www.iceye.com/resources/case-studies?hsLang=en
+- ICEYE: Datasets | Resources | ICEYE
+  https://www.iceye.com/resources/datasets?hsLang=en
+- ICEYE: Ebooks & Industry materials | Resources | ICEYE
+  https://www.iceye.com/resources/ebooks?hsLang=en
+- ICEYE: Flood briefings | Resources | ICEYE
+  https://www.iceye.com/resources/flood-briefings?hsLang=en
+- ICEYE: Product documents | Resources | ICEYE
+  https://www.iceye.com/resources/product-documents?hsLang=en
+- ICEYE: Tutorials | Resources | ICEYE
+  https://www.iceye.com/resources/tutorials?hsLang=en
+- ICEYE: Webinars | Resources | ICEYE
+  https://www.iceye.com/resources/webinars?hsLang=en
+- ICEYE: Resources | ICEYE
+  https://www.iceye.com/resources?hsLang=en
+- ICEYE: SAR data | API  | ICEYE
+  https://www.iceye.com/sar-data/api?hsLang=en
+- ICEYE: Derivatives | SAR data | ICEYE
+  https://www.iceye.com/sar-data/derivatives?hsLang=en
+- ICEYE: Imaging modes | SAR data | ICEYE
+  https://www.iceye.com/sar-data/imaging-modes?hsLang=en
+- ICEYE: Tactical Access | SAR data | ICEYE
+  https://www.iceye.com/sar-data/tactical-access?hsLang=en
+- ICEYE: Tasking | SAR data | ICEYE
+  https://www.iceye.com/sar-data/tasking?hsLang=en
+- ICEYE: Use cases | SAR data | ICEYE
+  https://www.iceye.com/sar-data/use-cases?hsLang=en
+- ICEYE: SAR data | ICEYE
+  https://www.iceye.com/sar-data?hsLang=en
+- ICEYE: Design | Satellites | ICEYE
+  https://www.iceye.com/satellites/design?hsLang=en
+- ICEYE: Missions
+  https://www.iceye.com/satellites?hsLang=en
+- ICEYE: Banking Solutions | ICEYE
+  https://www.iceye.com/solutions/banking?hsLang=en
+- ICEYE: Deforestation Solution | Government | ICEYE
+  https://www.iceye.com/solutions/government/deforestation?hsLang=en
+- ICEYE: Flood Insights | Government solutions | ICEYE
+  https://www.iceye.com/solutions/government/flood-insights?hsLang=en
+- ICEYE: Wildfire Insights | Government solutions | ICEYE
+  https://www.iceye.com/solutions/government/wildfire-insights?hsLang=en
+- ICEYE: Government solutions | disaster response | ICEYE
+  https://www.iceye.com/solutions/government?hsLang=en
+- ICEYE: Flood Insights | Insurance solutions | ICEYE
+  https://www.iceye.com/solutions/insurance/flood-insights?hsLang=en
+- ICEYE: Hurricane Solution | Insurance solutions | ICEYE
+  https://www.iceye.com/solutions/insurance/hurricane-solution?hsLang=en
+- ICEYE: Wildfire Insights | Insurance solutions | ICEYE
+  https://www.iceye.com/solutions/insurance/wildfire-insights?hsLang=en
+- ICEYE: Insurance solutions | ICEYE
+  https://www.iceye.com/solutions/insurance?hsLang=en
+- ICEYE: Utilities | ICEYE
+  https://www.iceye.com/solutions/utilities?hsLang=en
+- ICEYE: Natural catastrophe solutions | ICEYE
+  https://www.iceye.com/solutions?hsLang=en
+- ICEYE: Value of SAR talk series | Resources | ICEYE
+  https://www.iceye.com/the-value-of-sar?hsLang=en
+- ICEYE: Privacy notice | ICEYE.com | ICEYE
+  https://www.iceye.com/website-privacy-notice?hsLang=en
+- ICEYE: ICEYE
+  https://www.iceye.com?hsLang=en
+- ICEYE: Instagram
+  https://www.instagram.com/iceye_global/
+- ICEYE: ICEYE - YouTube
+  https://www.youtube.com/c/ICEYEcom
+- ICEYE: (no title captured)
+  https://x.com/iceye_global
+- ICEYE: (no title captured)
+  mailto:recruiting@iceye.fi
+- Hawkeye360: Applicant Tracking System | HR Software | ApplicantStack
+  https://applicantstack.com
+- Hawkeye360: Submit a General Application - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/apply/a2rlcjeweely
+- Hawkeye360: Senior RF Systems Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcje0ls2f
+- Hawkeye360: Principal Software-Systems Architect - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcje1bkcr
+- Hawkeye360: Senior Software Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcje4cdk8
+- Hawkeye360: Senior Solutions Engineer, US Government - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjed10yv
+- Hawkeye360: Senior Solutions Engineer, APAC - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjedhtg9
+- Hawkeye360: Cloud Cybersecurity Engineer  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjee94w9
+- Hawkeye360: Senior Software Engineer, Software Operations - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjee97dl
+- Hawkeye360: Senior Systems Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeez6fg
+- Hawkeye360: ELINT Analyst - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjehliy1
+- Hawkeye360: Principal Systems Engineer - RF/SATCOM - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjekot4i
+- Hawkeye360: Account Executive, Japan  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeneaiy
+- Hawkeye360: Senior Spacecraft Electrical Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeo87d9
+- Hawkeye360: Senior Staff Accountant  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeod7mg
+- Hawkeye360: Senior Solutions Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeogv7d
+- Hawkeye360: Account Executive, Space Force - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjep1s18
+- Hawkeye360: Principal Software Engineer- Signal Processing  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjep6o55
+- Hawkeye360: Senior Analytics Engineer  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeq2nyx
+- Hawkeye360: Corporate Strategy Manager - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjerfpio
+- Hawkeye360: Systems Engineer - Modeling & Sim  - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjerqqe8
+- Hawkeye360: Principal Solutions Engineer, US Government - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjet7qe3
+- Hawkeye360: Lead Intelligence Solutions Analyst - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjewn88p
+- Hawkeye360: Director, Special Programs - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexb9f8
+- Hawkeye360: Associate System Operations Engineer - Japan - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexoeps
+- Hawkeye360: Senior Satellite Embedded Engineer - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexyz20
+- Hawkeye360: Controller - HawkEye 360/ISA - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/detail/a2rlcjey0t0o
+- Hawkeye360: Current Job Openings - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/openings
+- Hawkeye360: RF Spectrum, Maritime & GNSS Monitoring - Mapping Radio Frequency Emissions
+  https://www.he360.com/about-us/
+- Hawkeye360: HawkEye 360 Careers | Join RF Spectrum, Maritime & GNSS Teams
+  https://www.he360.com/careers/
+- Hawkeye360: HawkEye 360 Newsroom | RF, Maritime, Air Defense & GNSS Updates
+  https://www.he360.com/newsroom/
+- Hawkeye360: HawkEye 360 Technology | RF Geolocation via Satellite Constellation
+  https://www.he360.com/technology/
+- Hawkeye360: HawkEye 360 Spectrum Monitoring | RF Geolocation & GNSS Security
+  https://www.he360.com/technology/missions
+- Loft Orbital: Careers - Loft Orbital
+  http://loftorbital.com/careers
+- Loft Orbital: Loft Orbital: Space Made Simple - Loft Orbital
+  http://www.loftorbital.com
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital
+- Loft Orbital: Loft Orbital Solutions - Sr. Edge Compute Software Engineer
+  https://jobs.lever.co/loftorbital/00dcbe89-075d-42b2-96d9-615e265e5eba
+- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/0b56a50e-0e96-4954-95bf-7908d34a688e
+- Loft Orbital: Loft Orbital Solutions - Open Application
+  https://jobs.lever.co/loftorbital/0e976afb-4243-4951-9000-b52daa5f6d10
+- Loft Orbital: Loft Orbital Solutions - Manufacturing Engineer
+  https://jobs.lever.co/loftorbital/181e4924-ed45-47eb-b27b-d9bc6c8c52e2
+- Loft Orbital: Loft Orbital Solutions - Business Development Manager
+  https://jobs.lever.co/loftorbital/1deb3851-0a9c-41bc-b369-7be65336a0d7
+- Loft Orbital: Loft Orbital Solutions - Manufacturing Software Engineer
+  https://jobs.lever.co/loftorbital/200bdc0a-274a-49ef-89a5-0cd6bdc6fcdb
+- Loft Orbital: Loft Orbital Solutions - Satellite Operations Lead (Orbitworks - UAE)
+  https://jobs.lever.co/loftorbital/20e5693b-d7ab-427b-bd5c-0d809aa5d22e
+- Loft Orbital: Loft Orbital Solutions - FPGA Engineer
+  https://jobs.lever.co/loftorbital/21dd991a-fcec-42c9-ad5b-94cef5d3818e
+- Loft Orbital: Loft Orbital Solutions - Senior Contracts Manager
+  https://jobs.lever.co/loftorbital/23beae0e-d350-4cdd-b431-9fd014356d07
+- Loft Orbital: Loft Orbital Solutions - Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/26ccf1ca-b425-4733-8e1b-4f79848e2c31
+- Loft Orbital: Loft Orbital Solutions - Senior Satellite Program Manager
+  https://jobs.lever.co/loftorbital/2d6d3053-c88b-480a-bcc2-883aa69bb246
+- Loft Orbital: Loft Orbital Solutions - Technical Program Manager, Hardware
+  https://jobs.lever.co/loftorbital/31bd80f9-6650-415b-aae3-8ec1403b4b65
+- Loft Orbital: Loft Orbital Solutions - Technical Recruiter
+  https://jobs.lever.co/loftorbital/3413b776-6e99-4ed8-85c6-52948c3751e9
+- Loft Orbital: Loft Orbital Solutions - Senior Site Reliability Engineer
+  https://jobs.lever.co/loftorbital/3ae5c3e3-c1e0-4311-83b5-0b6cea03b390
+- Loft Orbital: Loft Orbital Solutions - Senior Security Engineer
+  https://jobs.lever.co/loftorbital/4752a280-0eb9-4ce1-b369-0652d4445dfb
+- Loft Orbital: Loft Orbital Solutions - Supply Chain Manager
+  https://jobs.lever.co/loftorbital/47a4dd1e-e3c7-4aa3-aaa1-9ada5d1664cc
+- Loft Orbital: Loft Orbital Solutions - Senior Electrical Systems Engineer
+  https://jobs.lever.co/loftorbital/4fc6ad27-050a-4d1b-aaa2-26a08760e53d
+- Loft Orbital: Loft Orbital Solutions - Open Application
+  https://jobs.lever.co/loftorbital/530e3539-90dd-4355-ac1e-b2beaeab7a31
+- Loft Orbital: Loft Orbital Solutions - Security & Compliance Team Lead
+  https://jobs.lever.co/loftorbital/5646ef12-7bf9-4eb1-8cb1-a185a0f5d647
+- Loft Orbital: Loft Orbital Solutions - VP of Business Development
+  https://jobs.lever.co/loftorbital/5fb9c139-3bdc-4ee8-8944-f02a44ab8921
+- Loft Orbital: Loft Orbital Solutions - Facilities Lead
+  https://jobs.lever.co/loftorbital/63fc16b4-61d6-48d0-a22e-522abf7d8acf
+- Loft Orbital: Loft Orbital Solutions - Satellite Operations Software Engineer
+  https://jobs.lever.co/loftorbital/664a2c37-e865-479c-ba51-2d946c8f209e
+- Loft Orbital: Loft Orbital Solutions - Senior FPGA Engineer
+  https://jobs.lever.co/loftorbital/670d4214-83ab-498d-a95e-2d13949d716a
+- Loft Orbital: Loft Orbital Solutions - Senior Sales Engineer - EMEA
+  https://jobs.lever.co/loftorbital/67d3789d-edfc-4bbb-a753-239da59d4d0d
+- Loft Orbital: Loft Orbital Solutions - Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/67dc78e0-25b1-4f62-a6bf-1e865469821e
+- Loft Orbital: Loft Orbital Solutions - Senior Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/6914d685-4e2f-45c5-a75a-33d903ef8363
+- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/6a588112-01a4-425b-8ec8-90a57866a0df
+- Loft Orbital: Loft Orbital Solutions - Technical Recruiter
+  https://jobs.lever.co/loftorbital/6b017c07-ad42-4a98-a9c1-dee5bc62447a
+- Loft Orbital: Loft Orbital Solutions - Sr. Director, Business Development - US
+  https://jobs.lever.co/loftorbital/6c07424a-607b-4970-9569-103abbfe4177
+- Loft Orbital: Loft Orbital Solutions - Test Engineer
+  https://jobs.lever.co/loftorbital/6d4675f6-4a3f-4e2f-b303-818f6b0d2c61
+- Loft Orbital: Loft Orbital Solutions - Director, Business Development - Germany
+  https://jobs.lever.co/loftorbital/6fd96b61-515b-41fa-b410-91ed6e5451bb
+- Loft Orbital: Loft Orbital Solutions - AIT Technician
+  https://jobs.lever.co/loftorbital/711360ce-0c82-4032-9e57-a01f778792eb
+- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Data Management Services
+  https://jobs.lever.co/loftorbital/750c2cdf-e914-4bd4-a86b-abb6044956bd
+- Loft Orbital: Loft Orbital Solutions - Security & Compliance Team Lead
+  https://jobs.lever.co/loftorbital/75c0ab4a-7bfd-478f-9fee-8e149af061ed
+- Loft Orbital: Loft Orbital Solutions - Sr. Edge Compute Software Engineer
+  https://jobs.lever.co/loftorbital/819447a3-1664-4a63-8c28-df2fdde43526
+- Loft Orbital: Loft Orbital Solutions - Onboard Software Engineer - Peripheral Services
+  https://jobs.lever.co/loftorbital/8d4c888e-2a6b-4f39-a262-88cef3d119d1
+- Loft Orbital: Loft Orbital Solutions - Production Engineer
+  https://jobs.lever.co/loftorbital/949981ab-8420-4a1f-9003-7fefb0819280
+- Loft Orbital: Loft Orbital Solutions - Technical Program Manager, Hardware
+  https://jobs.lever.co/loftorbital/9b5a2fd9-3c57-497a-add7-163541d8f07d
+- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Cutest
+  https://jobs.lever.co/loftorbital/a4173f92-10bb-455c-b658-07b3ab208bee
+- Loft Orbital: Loft Orbital Solutions - Sr. Onboard Software Engineer
+  https://jobs.lever.co/loftorbital/a693e044-c07e-421f-bdb3-897f796f63fe
+- Loft Orbital: Loft Orbital Solutions - Office Manager
+  https://jobs.lever.co/loftorbital/ac154bf7-8f55-42e6-8bf2-1d5cab5386da
+- Loft Orbital: Loft Orbital Solutions - Senior Software Engineer - Space Infrastructure
+  https://jobs.lever.co/loftorbital/aceef547-b747-47fc-bc42-e490e8caeded
+- Loft Orbital: Loft Orbital Solutions - Senior Full-Stack Engineer
+  https://jobs.lever.co/loftorbital/b1fd9465-963c-4fec-812e-2f8ab3139e97
+- Loft Orbital: Loft Orbital Solutions - Jr. Test Technician [Only Emirati]
+  https://jobs.lever.co/loftorbital/b3d584ac-fc51-40a1-8eaf-36b01c0e5273
+- Loft Orbital: Loft Orbital Solutions - Receiving Specialist
+  https://jobs.lever.co/loftorbital/b99dbe3d-bafb-43c0-a0ce-232aa13111aa
+- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/c49e5ba7-e040-4a2f-b28c-4bff3c398178
+- Loft Orbital: Loft Orbital Solutions - System Verification Architect
+  https://jobs.lever.co/loftorbital/c5e85019-1606-44f5-8fb6-f3a4e494814d
+- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Mission Operations Services
+  https://jobs.lever.co/loftorbital/c6ac5dfa-5292-483c-adff-a8f17e79b7f5
+- Loft Orbital: Loft Orbital Solutions - Accounting Manager
+  https://jobs.lever.co/loftorbital/c741bdcd-cb66-4c28-b8dc-a5d4d2acc8ca
+- Loft Orbital: Loft Orbital Solutions - Inventory & Logistics Lead
+  https://jobs.lever.co/loftorbital/c8fc8b5c-b907-427b-9c26-5fe64f711a15
+- Loft Orbital: Loft Orbital Solutions - Senior Environmental Test Engineer
+  https://jobs.lever.co/loftorbital/cc276128-3c4b-4422-a0bf-e2ed8e7b6267
+- Loft Orbital: Loft Orbital Solutions - Director, Strategic Initiatives - EMEA
+  https://jobs.lever.co/loftorbital/d0a54a5b-fa85-4593-99b3-3a1274fdb1ab
+- Loft Orbital: Loft Orbital Solutions - Director, Space Infrastructure
+  https://jobs.lever.co/loftorbital/d13da42f-1326-4f95-8ce2-2a776e199ca1
+- Loft Orbital: Loft Orbital Solutions - Security Officer
+  https://jobs.lever.co/loftorbital/d25b3cff-61ca-42ac-8721-bf156f2b98f1
+- Loft Orbital: Loft Orbital Solutions - Director of Industrial Management
+  https://jobs.lever.co/loftorbital/d93e18fd-bf05-4a02-82d2-8d549797fe16
+- Loft Orbital: Loft Orbital Solutions - Satellite Program Manager
+  https://jobs.lever.co/loftorbital/dc1538b5-d315-4993-9e3a-81ec8cc6bbf2
+- Loft Orbital: Loft Orbital Solutions - Senior Security Engineer
+  https://jobs.lever.co/loftorbital/deb55e7c-d282-478d-90c8-a812aea47a68
+- Loft Orbital: Loft Orbital Solutions - Satellite Program Manager
+  https://jobs.lever.co/loftorbital/ec358375-0c36-4f71-9d2e-6935aaa4f619
+- Loft Orbital: Loft Orbital Solutions - Ground Software Solutions Engineer
+  https://jobs.lever.co/loftorbital/ef1ea76a-2ee7-4e07-a120-e0a2844ca625
+- Loft Orbital: Loft Orbital Solutions - Test Infrastructure Engineer
+  https://jobs.lever.co/loftorbital/ef8685ea-6642-4128-9d57-3d481fead175
+- Loft Orbital: Loft Orbital Solutions - Senior Sales Manager, Americas
+  https://jobs.lever.co/loftorbital/f48e757b-27c8-4b8c-87b3-f56dd6954102
+- Loft Orbital: Loft Orbital Solutions - Senior Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/f7aa6c31-b60b-49ba-a731-10254d908f89
+- Loft Orbital: Loft Orbital Solutions - VP, Business Development - EMEA
+  https://jobs.lever.co/loftorbital/f8362e60-5914-4a0c-ab59-dfac9a0df52d
+- Loft Orbital: Loft Orbital Solutions - Spacecraft Deployment Engineer
+  https://jobs.lever.co/loftorbital/ffc9033f-bad2-4bd9-a625-d6c6bd5fdec3
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?commitment=
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?commitment=Full%20time
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Business%20Operations
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=Compliance%20%26%20Regulatory%20Affairs
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=Finance
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=People
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Customer%20Engineering%20%26%20Experience
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Customer%20Engineering%20%26%20Experience&team=Customer%20Delivery
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Hardware
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Hardware&team=Embedded%20Software
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Hardware&team=Technical%20Program%20Management
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Infrastructure
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Cloud%20Infrastructure
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Security%20and%20Compliance
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Space%20Infrastructure
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Mission%20%26%20Program%20Engineering
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Mission%20%26%20Program%20Engineering&team=Software%20Solutions
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Operations
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Operations&team=Assembly%2C%20Integration%20%26%20Test
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Operations&team=Facilities
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Operations&team=Supply%20Chain
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Orbitworks
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Business%20Development
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Engineering%20Infrastructure
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Operations
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Satellite%20%26%20Customer%20Operations
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Business%20Development
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Sales
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Sales%20Engineering
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Satellite%20Program%20Management
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Satellite%20Program%20Management&team=Satellite%20Program%20Management
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Software
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Software&team=Cockpit
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Software&team=Cutest
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Software&team=Onboard%20Software
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Software&team=Oort
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Uncategorized
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?department=Uncategorized&team=General
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Abu%20Dhabi
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Germany
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Golden%2C%20CO
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Golden%2C%20CO%20or%20San%20Francisco
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Remote%20EU
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Remote%20US
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Remote%2C%20France
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=San%20Francisco%2C%20CA
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?location=Toulouse
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?workplaceType=hybrid
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?workplaceType=onsite
+- Loft Orbital: Loft Orbital Solutions
+  https://jobs.lever.co/loftorbital?workplaceType=remote
+- Loft Orbital: Job Seeker Support - Lever
+  https://www.lever.co/job-seeker-support/
+- EarthDaily: EarthDaily Analytics - Career Page
+  http://earthdaily.applytojob.com/apply/
+- EarthDaily: Change Detection at scale | Daily Earth Observation Data | EarthDaily
+  http://www.earthdaily.com
+- EarthDaily: EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/
+- EarthDaily: IT Systems Administrator - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/2tLibX5Lex/IT-Systems-Administrator
+- EarthDaily: Sr. Software Engineer - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/AcXUJLBsep/Sr-Software-Engineer
+- EarthDaily: Senior Remote Sensing Geologist - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/E9DxgZB76i/Senior-Remote-Sensing-Geologist
+- EarthDaily: Sr. Software Engineer (ML Researcher) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/EOBQ4K7cne/Sr-Software-Engineer-ML-Researcher
+- EarthDaily: Spectral Geologist - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/IHRuMXVdnz/Spectral-Geologist
+- EarthDaily: Account Executive, United States - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/Ih6szCNTia/Account-Executive-United-States
+- EarthDaily: Senior Corporate Accountant - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/RPS5fG8MkO/Senior-Corporate-Accountant
+- EarthDaily: Account Executive, Northern LATAM - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/WaHizPbFLH/Account-Executive-Northern-LATAM
+- EarthDaily: Director, Sales - Defence (Europe) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/Ys1Hg8vOwP/Director-Sales-Defence-Europe
+- EarthDaily: Director, Product Management - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/bXkSoveoyd/Director-Product-Management
+- EarthDaily: Account Executive, MEA - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/fqhMsQGi3y/Account-Executive-MEA
+- EarthDaily: Intermediate Software Engineer III (ML Infrastructure) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/hEUzcEVKIB/Intermediate-Software-Engineer-III-ML-Infrastructure
+- EarthDaily: Intermediate Software Engineer II - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/hYpa2de6RE/Intermediate-Software-Engineer-II
+- EarthDaily: Accounting Manager - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/j6zQn3q1Vf/Accounting-Manager
+- EarthDaily: Senior Account Executive/Account Executive, North and Southeast Asia (NSEA) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/k8xmF1k7IB/Senior-Account-ExecutiveAccount-Executive-North-And-Southeast-Asia-NSEA
+- EarthDaily: Sales Development Representative (EMEA) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/p0YHb8WEYG/Sales-Development-Representative-EMEA
+- EarthDaily: Enterprise Account Executive/Senior Enterprise Account Executive D&I - Australia - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/qVEixHdBrU/Enterprise-Account-ExecutiveSenior-Enterprise-Account-Executive-DI-Australia
+- EarthDaily: Account Executive, Government Sales - Africa - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/sJKcpgJ5QB/Account-Executive-Government-Sales-Africa
+- EarthDaily: Job Seeker Resources
+  https://info.jazzhr.com/job-seekers.html
+- Watershed: Watershed
+  https://dashboard.watershedclimate.com
+- Watershed: Watershed — The enterprise sustainability platform
+  https://watershed.com/
+- Watershed: Watershed — The enterprise sustainability platform
+  https://watershed.com/about-us
+- Watershed: Blog – Watershed
+  https://watershed.com/blog
+- Watershed: Branding – Watershed
+  https://watershed.com/brand
+- Watershed: Careers – Watershed
+  https://watershed.com/careers
+- Watershed: Strategy and operations - sustainability advisory & services – Watershed Careers
+  https://watershed.com/careers/010e3efc-strategy-and-operations-sustainability-advisory-services
+- Watershed: Staff software engineer, AI product  – Watershed Careers
+  https://watershed.com/careers/04da72b7-staff-software-engineer-ai-product
+- Watershed: Manager, sales development – Watershed Careers
+  https://watershed.com/careers/0e2a8ea0-manager-sales-development
+- Watershed: Customer success manager, strategic – Watershed Careers
+  https://watershed.com/careers/13d85f28-customer-success-manager-strategic
+- Watershed: Technical support engineer - sustainability – Watershed Careers
+  https://watershed.com/careers/1c7bca67-technical-support-engineer-sustainability
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/21b44d18-software-engineer-full-stack
+- Watershed: Staff machine learning engineer – Watershed Careers
+  https://watershed.com/careers/225b7390-staff-machine-learning-engineer
+- Watershed: Account executive, enterprise, nordics – Watershed Careers
+  https://watershed.com/careers/2a3dffdd-account-executive-enterprise-nordics
+- Watershed: Account executive, enterprise  – Watershed Careers
+  https://watershed.com/careers/364e8ebb-account-executive-enterprise
+- Watershed: Staff software engineer, product – Watershed Careers
+  https://watershed.com/careers/38d22d94-staff-software-engineer-product
+- Watershed: Account executive, enterprise, ANZ  – Watershed Careers
+  https://watershed.com/careers/3d1a3973-account-executive-enterprise-anz
+- Watershed: Data Consulting Team Lead – Watershed Careers
+  https://watershed.com/careers/417bb1fc-data-consulting-team-lead
+- Watershed: Sustainability advisor – Watershed Careers
+  https://watershed.com/careers/41c22c1c-sustainability-advisor
+- Watershed: Global head of sustainability data advisory – Watershed Careers
+  https://watershed.com/careers/444fa37a-global-head-of-sustainability-data-advisory
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/46cd57bd-software-engineer-full-stack
+- Watershed: Customer success manager, strategic – Watershed Careers
+  https://watershed.com/careers/4ad7e858-customer-success-manager-strategic
+- Watershed: Global payroll manager – Watershed Careers
+  https://watershed.com/careers/52dffb54-global-payroll-manager
+- Watershed: Solutions consultant, enterprise – Watershed Careers
+  https://watershed.com/careers/62f1ac4f-solutions-consultant-enterprise
+- Watershed: Software engineer, cloud infrastructure – Watershed Careers
+  https://watershed.com/careers/6d42629d-software-engineer-cloud-infrastructure
+- Watershed: Technical recruiter – Watershed Careers
+  https://watershed.com/careers/727a3103-technical-recruiter
+- Watershed: Sustainability advisor, finance – Watershed Careers
+  https://watershed.com/careers/737bd987-sustainability-advisor-finance
+- Watershed: Support operations specialist - sustainability – Watershed Careers
+  https://watershed.com/careers/759c58a3-support-operations-specialist-sustainability
+- Watershed: Manager, strategy & operations - sustainability advisory & services – Watershed Careers
+  https://watershed.com/careers/7c64dc7b-manager-strategy-operations-sustainability-advisory-services
+- Watershed: Engineering manager, product – Watershed Careers
+  https://watershed.com/careers/80d6b3ea-engineering-manager-product
+- Watershed: Customer success manager, enterprise – Watershed Careers
+  https://watershed.com/careers/880d3850-customer-success-manager-enterprise
+- Watershed: Sr Product manager, supply chain data products – Watershed Careers
+  https://watershed.com/careers/898baadc-sr-product-manager-supply-chain-data-products
+- Watershed: Senior security engineer – Watershed Careers
+  https://watershed.com/careers/8eaa2d23-senior-security-engineer
+- Watershed: Staff machine learning engineer – Watershed Careers
+  https://watershed.com/careers/9067cd1d-staff-machine-learning-engineer
+- Watershed: Account executive, enterprise, southern Europe – Watershed Careers
+  https://watershed.com/careers/93e8ec93-account-executive-enterprise-southern-europe
+- Watershed: Sales development representative (German speaking) – Watershed Careers
+  https://watershed.com/careers/9c98fdd9-sales-development-representative-german-speaking
+- Watershed: Technical recruiter – Watershed Careers
+  https://watershed.com/careers/9f786744-technical-recruiter
+- Watershed: Engineering manager, cloud infrastructure – Watershed Careers
+  https://watershed.com/careers/a03fccc3-engineering-manager-cloud-infrastructure
+- Watershed: Account executive, enterprise, northern Europe – Watershed Careers
+  https://watershed.com/careers/ab8de98d-account-executive-enterprise-northern-europe
+- Watershed: Business Recruiter – Watershed Careers
+  https://watershed.com/careers/b536a702-business-recruiter
+- Watershed: Senior full-stack software engineer – Watershed Careers
+  https://watershed.com/careers/b9e30cb8-senior-full-stack-software-engineer
+- Watershed: Data specialist manager – Watershed Careers
+  https://watershed.com/careers/baef57ff-data-specialist-manager
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/c012d2c7-software-engineer-full-stack
+- Watershed: Lead software engineer, product – Watershed Careers
+  https://watershed.com/careers/c0dec657-lead-software-engineer-product
+- Watershed: Outbound sales development representative, enterprise – Watershed Careers
+  https://watershed.com/careers/c1defefd-outbound-sales-development-representative-enterprise
+- Watershed: Solutions consultant, EMEA – Watershed Careers
+  https://watershed.com/careers/c93f4e1a-solutions-consultant-emea
+- Watershed: Data specialist – Watershed Careers
+  https://watershed.com/careers/d3a2b6ae-data-specialist
+- Watershed: Software engineer, AI product  – Watershed Careers
+  https://watershed.com/careers/d75ec4f0-software-engineer-ai-product
+- Watershed: Customer success manager, enterprise – Watershed Careers
+  https://watershed.com/careers/e428e968-customer-success-manager-enterprise
+- Watershed: Service delivery manager – Watershed Careers
+  https://watershed.com/careers/f69fbf34-service-delivery-manager
+- Watershed: Customer success operations – Watershed Careers
+  https://watershed.com/careers/f8053080-customer-success-operations
+- Watershed: Account manager, enterprise  – Watershed Careers
+  https://watershed.com/careers/fe457103-account-manager-enterprise
+- Watershed: Customer stories – Watershed
+  https://watershed.com/category/customer-stories
+- Watershed: Climate Leads: Profiles in Climate Action – Watershed
+  https://watershed.com/climate-leads
+- Watershed: Watershed Community
+  https://watershed.com/community
+- Watershed: Customers – Watershed
+  https://watershed.com/customers
+- Watershed: Request a demo – Watershed
+  https://watershed.com/demo
+- Watershed: Events – Watershed
+  https://watershed.com/events
+- Watershed: Guides – Watershed
+  https://watershed.com/guides
+- Watershed: Sustainability disclosure for companies: 2026 edition – Watershed
+  https://watershed.com/guides/climate-disclosure
+- Watershed: Mastering scope 3 guide: Measurement, strategy, and impact  – Watershed
+  https://watershed.com/guides/mastering-scope-3
+- Watershed: Creating a shareable Earth Day campaign in 1 week – Watershed
+  https://watershed.com/inside/creating-a-shareable-earth-day-campaign-in-1-week
+- Watershed: Evolving MDX publishing with a headless CMS – Watershed
+  https://watershed.com/inside/evolving-mdx-publishing-with-a-headless-cms
+- Watershed: Instant forecasting with incremental computation – Watershed
+  https://watershed.com/inside/incremental-calculation
+- Watershed: The Day 1 ship at Watershed – Watershed
+  https://watershed.com/inside/the-day-one-ship
+- Watershed: Working at Watershed – Watershed
+  https://watershed.com/inside/working-at-watershed
+- Watershed: Press – Watershed
+  https://watershed.com/news
+- Watershed: Explore Watershed’s ecosystem of technology and consulting partners – Watershed
+  https://watershed.com/partners
+- Watershed: How to build a sustainability program with Watershed – Watershed
+  https://watershed.com/platform
+- Watershed: How to cut carbon emissions at scale with Watershed – Watershed
+  https://watershed.com/platform/act
+- Watershed: Sustainability Reporting Software – Watershed
+  https://watershed.com/platform/climate-disclosures
+- Watershed: How to Prepare for ESG Reporting Requirements – Watershed
+  https://watershed.com/platform/climate-disclosures/esg
+- Watershed: Preparing RFPs for sustainability tools: what every company should know – Watershed
+  https://watershed.com/platform/climate-disclosures/rfp-guide
+- Watershed: Watershed Marketplace: Reduce emissions by supporting carbon removal
+  https://watershed.com/platform/marketplace
+- Watershed: How to measure your carbon footprint  – Watershed
+  https://watershed.com/platform/measure
+- Watershed: How to get started with carbon accounting  – Watershed
+  https://watershed.com/platform/measure/carbon-accounting
+- Watershed: Watershed’s approach to sustainability AI
+  https://watershed.com/platform/sustainability-ai
+- Watershed: Privacy Policy – Watershed
+  https://watershed.com/privacy
+- Watershed: Take an interactive product tour – Watershed
+  https://watershed.com/product-tours
+- Watershed: Security – Watershed
+  https://watershed.com/security
+- Watershed: California SB 253 and SB 261 reporting solution – Watershed
+  https://watershed.com/solutions/california
+- Watershed: CEDA by Watershed: Carbon emissions data to drive climate action – Watershed
+  https://watershed.com/solutions/ceda
+- Watershed: CSRD software for reporting and assurance – Watershed
+  https://watershed.com/solutions/csrd
+- Watershed: Watershed Finance: The complete climate solution for financed emissions
+  https://watershed.com/solutions/finance
+- Watershed: Watershed Product Footprints: AI for Sustainable Procurement
+  https://watershed.com/solutions/product-footprints
+- Watershed: Watershed Supply Chain: Reduce supply chain emissions at scale
+  https://watershed.com/solutions/supply-chain
+- Watershed: State of corporate sustainability 2026: AI edition – Watershed
+  https://watershed.com/state-of-corporate-sustainability-ai-2026
+- Watershed: Website Terms of Service – Watershed
+  https://watershed.com/terms
+- Watershed: Watershed named a leader in ESG & Reporting sustainability software
+  https://watershed.com/verdantix
+- Watershed: Watershed | LinkedIn
+  https://www.linkedin.com/company/watershedclimate
+- Watershed: - YouTube
+  https://youtu.be/Tx3c3pmLPdw
+- NatureMetrics: Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.com/privacy-policy?language=en
+- NatureMetrics: Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/?language=en
+- NatureMetrics: Conservation Account Manager | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2494074?language=en
+- NatureMetrics: Solutions Ecologist | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2497851?language=en
+- NatureMetrics: Senior Product Engineer | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2542374?language=en
+- NatureMetrics: Turning Nature Risk into Business Advantage | NatureMetrics
+  https://www.naturemetrics.com/
+- NatureMetrics: (no title captured)
+  https://www.personio.com
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel
+- Jupiter Intelligence: Jupiter Intelligence, Inc. - Flood Modeler (Contract)
+  https://jobs.lever.co/jupiterintel/6f31ac96-b71e-44ff-84aa-1b6b4bb808ec
+- Jupiter Intelligence: Jupiter Intelligence, Inc. - Principal, Customer Success
+  https://jobs.lever.co/jupiterintel/e949533a-02ef-4d41-939e-8020b6d7e469
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?commitment=Contractor
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?commitment=Full%20Time
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?location=All%20-%20San%20Mateo%2C%20CA%20%20%7C%20%20Boulder%2C%20CO%20%20%7C%20%20%20New%20York%2C%20NY
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?team=Earth%20%26%20Ocean%20Systems
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?team=Solutions
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?workplaceType=hybrid
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?workplaceType=onsite
+- Jupiter Intelligence: Jupiter Intelligence, Inc.
+  https://jobs.lever.co/jupiterintel?workplaceType=remote
+- Jupiter Intelligence: Jupiter Intelligence | Climate Resilience Experts
+  https://jupiterintel.com/
+- Jupiter Intelligence: Job Seeker Support - Lever
+  https://www.lever.co/job-seeker-support/
+- Tomorrow.io: Tomorrow.io
+  https://app.tomorrow.io/signin/
+- Tomorrow.io: Recipes
+  https://docs.tomorrow.io/recipes/
+- Tomorrow.io: Weather Maps
+  https://docs.tomorrow.io/reference/get-map-tile
+- Tomorrow.io: Historical API
+  https://docs.tomorrow.io/reference/historical-overview/
+- Tomorrow.io: Air
+  https://docs.tomorrow.io/reference/insights-categories-air/
+- Tomorrow.io: Locations API
+  https://docs.tomorrow.io/reference/locations-overview/
+- Tomorrow.io: Realtime Weather
+  https://docs.tomorrow.io/reference/realtime-weather/
+- Tomorrow.io: Weather Forecast
+  https://docs.tomorrow.io/reference/weather-forecast/
+- Tomorrow.io: Tomorrow.io APIs
+  https://docs.tomorrow.io/reference/welcome
+- Tomorrow.io: Tomorrow.io APIs
+  https://docs.tomorrow.io/reference/welcome/
+- Tomorrow.io: Tomorrow.io Weather API · GitHub
+  https://github.com/tomorrow-io-API/
+- Tomorrow.io: Privacy Policy – Privacy & Terms – Google
+  https://policies.google.com/privacy
+- Tomorrow.io: Google Terms of Service – Privacy & Terms – Google
+  https://policies.google.com/terms
+- Tomorrow.io: Tomorrow.io Status
+  https://status.tomorrow.io/
+- Tomorrow.io: (no title captured)
+  https://support.tomorrow.io/hc/en-us
+- Tomorrow.io: (no title captured)
+  https://tomorrowio.zendesk.com/hc/en-us/
+- Tomorrow.io: (no title captured)
+  https://twitter.com/tomorrowio_
+- Tomorrow.io: Tomorrow.io
+  https://www.facebook.com/Tomorrow.io/
+- Tomorrow.io: Instagram
+  https://www.instagram.com/tomorrow_io/
+- Tomorrow.io: Tomorrow.io | LinkedIn
+  https://www.linkedin.com/company/tomorrow-io
+- Tomorrow.io: Postman
+  https://www.postman.com/tomorrow-io/
+- Tomorrow.io: The World’s Weather Intelligence & Resilience Platform
+  https://www.tomorrow.io/
+- Tomorrow.io: 6 Years to Launch
+  https://www.tomorrow.io/6yearstolaunch/
+- Tomorrow.io: Answers to Weather and Climate Security Questions...
+  https://www.tomorrow.io/a/faq/
+- Tomorrow.io: Tomorrow.io Press Releases
+  https://www.tomorrow.io/all-press-releases/
+- Tomorrow.io: Tomorrow.io Weather and Climate Security Blog
+  https://www.tomorrow.io/blog/
+- Tomorrow.io: Weather API Archives - Tomorrow.io
+  https://www.tomorrow.io/blog/category/weather-api/
+- Tomorrow.io: Tomorrow.io Announces $175M Financing to Deploy DeepSky, The World's First AI-Native Weather Satellite Constellation
+  https://www.tomorrow.io/blog/tomorrow-io-announces-175m-financing-to-deploy-deepsky-the-worlds-first-ai-native-weather-satellite-constellation/
+- Tomorrow.io: Your Impact Starts Here | Tomorrow.io
+  https://www.tomorrow.io/careers/
+- Tomorrow.io: (no title captured)
+  https://www.tomorrow.io/cdn-cgi/l/email-protection
+- Tomorrow.io: Climacon 4
+  https://www.tomorrow.io/climacon4
+- Tomorrow.io: About Tomorrow.io : The Weather Intelligence Company
+  https://www.tomorrow.io/company/
+- Tomorrow.io: Consumer App
+  https://www.tomorrow.io/consumer-app/
+- Tomorrow.io: Customer Stories Archive - Tomorrow.io
+  https://www.tomorrow.io/customer-stories/
+- Tomorrow.io: Data Discovery
+  https://www.tomorrow.io/data-discovery
+- Tomorrow.io: Best Alternative to DTN: Tomorrow.io
+  https://www.tomorrow.io/dtn/
+- Tomorrow.io: Government and Defense - Tomorrow.io
+  https://www.tomorrow.io/government-and-defense/
+- Tomorrow.io: Civil/Federal - Tomorrow.io
+  https://www.tomorrow.io/government-and-defense/civil-federal/
+- Tomorrow.io: National Security - Tomorrow.io
+  https://www.tomorrow.io/government-and-defense/national-security/
+- Tomorrow.io: State/Local - Tomorrow.io
+  https://www.tomorrow.io/government-and-defense/state-local/
+- Tomorrow.io: Latest Features | Tomorrow.io
+  https://www.tomorrow.io/latest-features/
+- Tomorrow.io: Legal | Tomorrow.io
+  https://www.tomorrow.io/legal
+- Tomorrow.io: Terms of Service | Tomorrow.io
+  https://www.tomorrow.io/legal/terms-of-service/
+- Tomorrow.io: Website Privacy Policy | Tomorrow.io
+  https://www.tomorrow.io/legal/website-privacy-policy/
+- Tomorrow.io: Get Demo Resilience - Tomorrow.io
+  https://www.tomorrow.io/lp/get-demo-resilience-3/
+- Tomorrow.io: Tomorrow.io Partnerships
+  https://www.tomorrow.io/partnerships/
+- Tomorrow.io: Resilience Now
+  https://www.tomorrow.io/resiliencenow/
+- Tomorrow.io: Satellite Data - Tomorrow.io
+  https://www.tomorrow.io/satellite-data/
+- Tomorrow.io: Satellite Data Catalog - Tomorrow.io
+  https://www.tomorrow.io/satellite-data/data-catalog
+- Tomorrow.io: Tomorrow.io - The World's Weather Resilience Platform
+  https://www.tomorrow.io/software/
+- Tomorrow.io: Weather Intelligence Solutions - Tomorrow.io
+  https://www.tomorrow.io/solutions/
+- Tomorrow.io: Aviation Weather Solutions - Tomorrow.io
+  https://www.tomorrow.io/solutions/aviation/
+- Tomorrow.io: Insurance Weather Intelligence - Tomorrow.io
+  https://www.tomorrow.io/solutions/insurance/
+- Tomorrow.io: Trucking & Road Logistics Weather Intelligence - Tomorrow.io
+  https://www.tomorrow.io/solutions/logistics-transportation/
+- Tomorrow.io: Pharmaceuticals Weather Intelligence - Tomorrow.io
+  https://www.tomorrow.io/solutions/pharmaceuticals/
+- Tomorrow.io: Space
+  https://www.tomorrow.io/space/
+- Tomorrow.io: Tomorrow.io Arena Team
+  https://www.tomorrow.io/space/arena/
+- Tomorrow.io: DeepSky
+  https://www.tomorrow.io/space/deepsky/
+- Tomorrow.io: Pathfinder
+  https://www.tomorrow.io/space/pathfinder/
+- Tomorrow.io: Products
+  https://www.tomorrow.io/space/products/
+- Tomorrow.io: Radar Satellites
+  https://www.tomorrow.io/space/radar-satellites/
+- Tomorrow.io: Sounder
+  https://www.tomorrow.io/space/sounder/
+- Tomorrow.io: Weather Technology | Tomorrow.io
+  https://www.tomorrow.io/technology/
+- Tomorrow.io: Tomorrow.io Weather Forecast Modeling Software
+  https://www.tomorrow.io/technology/cbam/
+- Tomorrow.io: Best Alternative to The Weather Company: Tomorrow.io
+  https://www.tomorrow.io/the-weather-company/
+- Tomorrow.io: Best Alternative to WSI Fusion: Tomorrow.io
+  https://www.tomorrow.io/tomorrow-io-vs-wsi-fusion/
+- Tomorrow.io: Tomorrow.io Video Library
+  https://www.tomorrow.io/video-library/
+- Tomorrow.io: Free Weather API - 60+ Data Layers, 99.9% Uptime | Tomorrow.io
+  https://www.tomorrow.io/weather-api/
+- Tomorrow.io: Data Layers - Tomorrow.io
+  https://www.tomorrow.io/weather-api/data-layers/
+- Tomorrow.io: Tomorrow.io's Historical Weather Data
+  https://www.tomorrow.io/weather-api/historical-weather-data/
+- Tomorrow.io: Tomorrow.io - The World's Weather Resilience Platform
+  https://www.tomorrow.io/weather-intelligence-platform/
+- Tomorrow.io: (no title captured)
+  https://www.tomorrow.io/weather/
+- Tomorrow.io: (no title captured)
+  https://www.tomorrow.io/weather/widget/
+- Tomorrow.io: Home - TomorrowNow
+  https://www.tomorrownow.org/
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/a11335b1-81bd-4118-83cf-c6753ec70cb8
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/c39274c4-ccf7-47ff-afb1-a7f4e58131b9
+- Sylvera: Field Operations Intern
+  https://jobs.ashbyhq.com/sylvera/753f2bb9-0e5a-41b7-9e91-553af4d7d73a
+- Sylvera: Sales Development Representative
+  https://jobs.ashbyhq.com/sylvera/03752697-fa8d-40ba-b6d0-80e5dbc7cbf6
+- Sylvera: Lead Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/af1238fd-2dec-4100-addf-163b8c23ccd6
+- Sylvera: Carbon Analyst Intern
+  https://jobs.ashbyhq.com/sylvera/16872b9b-e850-451e-a46e-38c297a2cc5a
+- Sylvera: Demand Generation Manager
+  https://jobs.ashbyhq.com/sylvera/f3084ece-a244-478b-9822-d92ea3545936
+- Sylvera: Client Delivery Associate
+  https://jobs.ashbyhq.com/sylvera/7d8b634f-7ff8-4dd1-82d1-37180f7b07e5
+- Upstream Tech: Open Call for Applications at Upstream Tech
+  https://jobs.upstream.tech/23408
+- Upstream Tech: Upstream Tech
+  https://upstream.tech?src=polymer.co
+- Upstream Tech: Polymer: Hiring made simple
+  https://www.polymer.co?utm_source=polymerJobsPage
+- WindBorne Systems: WindBorne API Docs
+  https://api.windbornesystems.com
+- WindBorne Systems: Benchmarks || WindBorne Systems
+  https://benchmarks.windbornesystems.com/
+- WindBorne Systems: @windbornewx.bsky.social on Bluesky
+  https://bsky.app/profile/windbornewx.bsky.social
+- WindBorne Systems: (no title captured)
+  https://twitter.com/WindBorneWx
+- WindBorne Systems: WindBorne | Better Forecasts
+  https://windbornesystems.com/
+- WindBorne Systems: Blog | WindBorne
+  https://windbornesystems.com/blog
+- WindBorne Systems: Careers | WindBorne
+  https://windbornesystems.com/careers
+- WindBorne Systems: (no title captured)
+  https://windbornesystems.com/cdn-cgi/l/email-protection
+- WindBorne Systems: Community Launches | WindBorne
+  https://windbornesystems.com/community-launches
+- WindBorne Systems: Contact | WindBorne
+  https://windbornesystems.com/contact
+- WindBorne Systems: WindBorne Systems | Better Weather Prediction
+  https://windbornesystems.com/dashboard
+- WindBorne Systems: Legal Policy | WindBorne
+  https://windbornesystems.com/ext/legal
+- WindBorne Systems: FAQ | WindBorne
+  https://windbornesystems.com/faq
+- WindBorne Systems: Mission | WindBorne
+  https://windbornesystems.com/mission
+- WindBorne Systems: Open Roles | WindBorne
+  https://windbornesystems.com/open-roles
+- WindBorne Systems: Energy Trading | WindBorne
+  https://windbornesystems.com/products/energy-trading
+- WindBorne Systems: Forecasts | WindBorne
+  https://windbornesystems.com/products/forecasts
+- WindBorne Systems: Observations | WindBorne
+  https://windbornesystems.com/products/observations
+- WindBorne Systems: Solutions | WindBorne
+  https://windbornesystems.com/products/solutions
+- WindBorne Systems: Instagram
+  https://www.instagram.com/windbornewx?igsh=MzRlODBiNWFlZA%3D%3D
+- WindBorne Systems: WindBorne Systems | LinkedIn
+  https://www.linkedin.com/company/windborne/
+- WindBorne Systems: WindBorne Systems - YouTube
+  https://www.youtube.com/@WindBorne
+- OroraTech: OroraTech Wildfire Solution
+  https://app.ororatech.com/login
+- OroraTech: OroraTech | LinkedIn
+  https://de.linkedin.com/company/ororatech
+- OroraTech: The leading wildfire management platform globally – OroraTech
+  https://ororatech.com
+- OroraTech: Burnt Area – Products – OroraTech
+  https://ororatech.com/all-products/burnt-area
+- OroraTech: Fire Spread – Products – OroraTech
+  https://ororatech.com/all-products/fire-spread
+- OroraTech: Land Surface Temperature – Products – OroraTech
+  https://ororatech.com/all-products/land-surface-temperature
+- OroraTech: Wildfire Solution – Products – OroraTech
+  https://ororatech.com/all-products/wildfire-solution
+- OroraTech: We empower those who protect our world – OroraTech
+  https://ororatech.com/company/about-us
+- OroraTech: Visit our careers page to learn about job opportunities – OroraTech
+  https://ororatech.com/company/careers
+- OroraTech: Senior Manager Tenders and Proposals - Government Solutions (m/f/d) – Vacancies – Permanent employee, Full-time · Munich – OroraTech
+  https://ororatech.com/company/careers/2478490
+- OroraTech: OroraTech: Technology – OroraTech
+  https://ororatech.com/company/technology
+- OroraTech: Connect with us today – OroraTech
+  https://ororatech.com/contact
+- OroraTech: Connect with us today – OroraTech
+  https://ororatech.com/contact/live-demo
+- OroraTech: Protect carbon projects from wildfire risks – Industries – OroraTech
+  https://ororatech.com/industries/carbon
+- OroraTech: Wildfire solutions for civil protection – Industries – OroraTech
+  https://ororatech.com/industries/civil-protection
+- OroraTech: Thermal satellite data for climate resilience – Industries – OroraTech
+  https://ororatech.com/industries/climate
+- OroraTech: Detect and monitor fires to protect forests – Industries – OroraTech
+  https://ororatech.com/industries/forestry
+- OroraTech: Wildfire monitoring for critical infrastructure – Industries – OroraTech
+  https://ororatech.com/industries/infrastructure-and-energy
+- OroraTech: Read the newest blog posts & stories from us – OroraTech
+  https://ororatech.com/resources/latest-blogs
+- OroraTech: Read the newest updates & announcements
+  https://ororatech.com/resources/news-blog
+- OroraTech: Subscribe to our monthly newsletter – OroraTech
+  https://ororatech.com/resources/newsletter
+- OroraTech: OroraTech newsroom – OroraTech
+  https://ororatech.com/resources/newsroom
+- OroraTech: Palisades Fire 2025 Visualized | Fire Stories – OroraTech
+  https://ororatech.com/resources/the-palisades-fire-visualized
+- OroraTech: Global wildfire library
+  https://ororatech.com/resources/wildfire-library
+- OroraTech: Imprint | OroraTech GmbH – OroraTech
+  https://ororatech.com/terms-and-conditions/imprint
+- OroraTech: Privacy Policy | OroraTech GmbH – OroraTech
+  https://ororatech.com/terms-and-conditions/privacy-policy
+- OroraTech: OroraTech: Supplier Code of Conduct – OroraTech
+  https://ororatech.com/terms-and-conditions/supplier-code-of-conduct
+- OroraTech: OroraTech customer testimonials and case-studies – OroraTech
+  https://ororatech.com/testimonials
+- OroraTech: Whitepapers | OroraTech – OroraTech
+  https://ororatech.com/whitepapers
+- OroraTech: The leading wildfire management platform globally – OroraTech
+  https://ororatechusa.com
+- OroraTech: (no title captured)
+  https://preview.orora.tech/storage/files/ororatech-gtcp.pdf
+- OroraTech: OroraTech | Denver CO
+  https://www.facebook.com/ororatech/
+- OroraTech: Instagram
+  https://www.instagram.com/ororatech/
+- OroraTech: (no title captured)
+  https://x.com/OroraTech
+- Overstory: Job Application for Staff Software Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4367081101
+- Overstory: Job Application for Engineering Manager, Full Stack at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4393265101
+- Overstory: Job Application for Engineering Manager, Machine Learning at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4488307101
+- Overstory: Job Application for Senior Software Engineer, Full Stack at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4600037101
+- Overstory: Job Application for Senior Product Designer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4606796101
+- Overstory: Job Application for Staff Machine Learning Ops Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4629943101
+- Overstory: Job Application for Senior Site Reliability Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4631318101
+- Overstory: Job Application for Project Manager, Customer Delivery Support at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4634030101
+- Overstory: Job Application for Security Engineer  at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4699324101
+- Overstory: Job Application for Staff Machine Learning Engineer - Wildfire at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4702478101
+- Overstory: Job Application for Senior Manager, Demand Generation  at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4711988101
+- Overstory: Job Application for Chief Technology Officer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4724552101
+- Overstory: Job Application for Director of Platform Engineering at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4777118101
+- Overstory: Job Application for Enterprise Account Executive at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4777899101
+- Overstory: Job Application for Staff Software Engineer, Geospatial Data at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4779122101
+- Overstory: Greenhouse | Applicant tracking software & hiring platform
+  https://www.greenhouse.com
+- Hydrosat: Careers - Hydrosat
+  https://careers.hydrosat.com/
+- Hydrosat: Hydrosat - Accounting Manager (US)
+  https://careers.hydrosat.com/o/accounting-manager-us
+- Hydrosat: Hydrosat - Agricultural Field Engineer
+  https://careers.hydrosat.com/o/agricultural-field-engineer
+- Hydrosat: Hydrosat - Data Engineer
+  https://careers.hydrosat.com/o/data-engineer
+- Hydrosat: Hydrosat - Machine Learning Engineering Manager
+  https://careers.hydrosat.com/o/machine-learning-engineering-manager
+- Hydrosat: Hydrosat - Platform Engineer
+  https://careers.hydrosat.com/o/platform-engineer
+- Hydrosat: Hydrosat - Science Manager – Biophysical Modeling
+  https://careers.hydrosat.com/o/science-manager-biophysical-modeling
+- Hydrosat: Customizable ATS & hiring software | Tellent Recruitee
+  https://recruitee.com
+- Hydrosat: Instagram
+  https://www.instagram.com/hydrosat_earth/
+- Hydrosat: LinkedIn Login, Sign in | LinkedIn
+  https://www.linkedin.com/company/hydrosat/posts/?feedView=all
+- LiveEO: LiveEO l Imprint
+  https://live-eo.com/imprint/
+- LiveEO: Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de
+- LiveEO: Jobs bei LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/?language=de
+- LiveEO: Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/?language=en
+- LiveEO: Account Executive North America (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=en
+- LiveEO: Business Development Representative North America (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2489283?language=en
+- LiveEO: Senior Project Manager (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2510452?language=en
+- LiveEO: Senior Account Executive (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=en
+- LiveEO: Senior Space Systems Engineer (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2518661?language=en
+- LiveEO: Business Development Representative Australia (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2529262?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2529480?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2535340?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2537538?language=en
+- LiveEO: Senior ML Engineer (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2540514?language=en
+- LiveEO: Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/privacy-policy?language=en
+- LiveEO: (no title captured)
+  https://www.personio.com
+- Kayrros: Homepage
+  https://kayrros1.recruitee.com/
+- Kayrros: Kayrros - Junior Data Scientist (6-month Internship) 2025-2026
+  https://kayrros1.recruitee.com/o/junior-data-scientist-6-month-internship-2025-2026
+- Kayrros: Kayrros - Postdoc H/F - Biomass (24 months)
+  https://kayrros1.recruitee.com/o/postdoc-hf-biomass-24-months
+- Kayrros: Kayrros - Spontaneous Application
+  https://kayrros1.recruitee.com/o/spontaneous-application
+- Kayrros: Customizable ATS & hiring software | Tellent Recruitee
+  https://recruitee.com
+- Kayrros: (no title captured)
+  https://twitter.com/Kayrros?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+- Kayrros: (no title captured)
+  https://www.kayrros.com/
+- Kayrros: Kayrros | LinkedIn
+  https://www.linkedin.com/company/kayrros/
+- Planet Labs: Job Application for Software Engineer, Embedded Security Focus at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7099388
+- Planet Labs: Job Application for Industry Account Executive at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7201307
+- Planet Labs: Job Application for AI Solutions Architect, Digital Employee Experience at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7233410
+- Planet Labs: Job Application for Corporate Security Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7363174
+- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7374533
+- Planet Labs: Job Application for Industry Account Executive at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7374535
+- Planet Labs: Job Application for Solutions Architect Deployment Strategist at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7377997
+- Planet Labs: Job Application for Global Performance Marketing Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7411511
+- Planet Labs: Job Application for D&I Project Manager, Professional Services at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7439060
+- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7439062
+- Planet Labs: Job Application for Senior Analyst, International Trade Compliance at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7463366
+- Planet Labs: Job Application for Account Executive NATO at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7476617
+- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7490275
+- Planet Labs: Job Application for Workplace Coordinator at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7512765
+- Planet Labs: Job Application for Senior Manager, Revenue Accounting at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7512767
+- Planet Labs: Job Application for Software Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7524903
+- Planet Labs: Job Application for FP&A Revenue Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7527437
+- Planet Labs: Job Application for Education & Research Program Manager & Evangelist at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7532263
+- Planet Labs: Job Application for Technical Program Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7542179
+- Planet Labs: Job Application for Account Executive NATO at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543660
+- Planet Labs: Job Application for Account Executive NATO at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543661
+- Planet Labs: Job Application for Account Executive – Civil Government (EU Institutions & Northern Europe) at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543717
+- Planet Labs: page_title
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543719
+- Planet Labs: Job Application for Director of Government Affairs at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543721
+- Planet Labs: Job Application for Senior Product Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555003
+- Planet Labs: Job Application for Senior Technical Program Manager, Infrastructure at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555017
+- Planet Labs: Job Application for Global Stock Plan Administrator at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555021
+- Planet Labs: Job Application for Account Executive, Defence & Intelligence at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7564777
+- Planet Labs: Job Application for Senior Product Manager, AI Geo Assistant at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7572102
+- Planet Labs: page_title
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589138
+- Planet Labs: Job Application for Senior Product Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589140
+- Planet Labs: Job Application for Senior Product Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589144
+- Planet Labs: Job Application for Global Performance Marketing Manager at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589174
+- Planet Labs: Job Application for Senior Site Reliability Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7590719
+- Planet Labs: Job Application for Senior Product Designer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7590757
+- Planet Labs: Job Application for ABM Marketing Manager, North America at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7592241
+- Planet Labs: Job Application for Senior Engineering Manager - AI Geospatial Assistant Team at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603801
+- Planet Labs: Job Application for Senior Software Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603823
+- Planet Labs: Job Application for Account Executive, Defence & Intelligence, France at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603831
+- Planet Labs: Job Application for PreSales Sr. Solutions Architect - French Defense and Intelligence at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7622544
+- Planet Labs: Job Application for Head of Global Total Rewards at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7625350
+- Planet Labs: Job Application for Head of Global Total Rewards at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7642956
+- Planet Labs: Job Application for Senior Forward Deployed Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7644692
+- Planet Labs: Job Application for Events Marketing Manager, North America at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7644694
+- Planet Labs: Job Application for Events Marketing Manager, North America at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7652458
+- Planet Labs: Job Application for Senior Software Engineer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7657604
+- Planet Labs: Job Application for Senior Product Designer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664694
+- Planet Labs: Job Application for Senior Product Designer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664728
+- Planet Labs: Job Application for Senior Product Designer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664731
+- Planet Labs: Job Application for Senior Product Designer at Planet
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664733
+- Planet Labs: Greenhouse | Applicant tracking software & hiring platform
+  https://www.greenhouse.com
+- Planet Labs: Planet Labs: Satellite Imagery & Earth Data Analytics
+  https://www.planet.com
+- Spire Global: Spire Aviation | Spire Aviation
+  https://aviation-docs.spire.com/
+- Spire Global: @spire.com on Bluesky
+  https://bsky.app/profile/spire.com
+- Spire Global: Spire Space Services | Spire Space Services
+  https://developers.spire.com/
+- Spire Global: Spire Weather API Documentation
+  https://developers.wx.spire.com/
+- Spire Global: (no title captured)
+  https://faq.spire.com
+- Spire Global: Investor Relations :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com
+- Spire Global: Investor Relations :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com/
+- Spire Global: Contacts :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com/contacts
+- Spire Global: Corporate Governance :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com/corporate-governance
+- Spire Global: SEC Filings :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com/sec-filings
+- Spire Global: Quote :: Spire Global, Inc. (SPIR)
+  https://ir.spire.com/stock-data
+- Spire Global: Spire : Global Data and Analytics
+  https://spire.com
+- Spire Global: About Us - Spire : Global Data and Analytics
+  https://spire.com/about-us/
+- Spire Global: Contact Us - Spire : Global Data and Analytics
+  https://spire.com/about-us/contact-us/
+- Spire Global: Office Locations - Spire : Global Data and Analytics
+  https://spire.com/about-us/office-locations/
+- Spire Global: Accessibility - Spire : Global Data and Analytics
+  https://spire.com/accessibility/
+- Spire Global: Space-based flight tracking data and aviation intelligence - Spire : Global Data and Analytics
+  https://spire.com/aviation/
+- Spire Global: Blog - Spire : Global Data and Analytics
+  https://spire.com/blog/
+- Spire Global: Canada Modern Slavery Act Statement - Spire : Global Data and Analytics
+  https://spire.com/canada-modern-slavery-act-statement/
+- Spire Global: Careers - Spire : Global Data and Analytics
+  https://spire.com/careers/
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=business-operations
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=engineering
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=sales
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=science-research
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=boulder
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=cambridge-ont
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=glasgow
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=harwell
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=luxembourg
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=munich
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=washington
+- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=6521832
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=6930485
+- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7059026
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7164661
+- Spire Global: Senior Software Engineer (SatOS Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7168090
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7236571
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7236574
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7237378
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7237381
+- Spire Global: RF Test Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7276326
+- Spire Global: Senior Communications Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7279833
+- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7294480
+- Spire Global: GNC Engineer - Avionics  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7307780
+- Spire Global: Senior Firmware Engineer   - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7317042
+- Spire Global: Software Engineer - Manufacturing - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7351741
+- Spire Global: Software Engineer - Yocto/Linux - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7353388
+- Spire Global: Business Development Manager, Canadian Government  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7368132
+- Spire Global: Software Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7369625
+- Spire Global: Principal Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411336
+- Spire Global: Snr Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411357
+- Spire Global: Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411466
+- Spire Global: Full Stack Developer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7458209
+- Spire Global: Senior RFGL Product Solution Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7458263
+- Spire Global: Quality Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7483571
+- Spire Global: Senior Optical Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7486619
+- Spire Global: Telecommunications Test Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7512106
+- Spire Global: Senior Embedded Software Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7512196
+- Spire Global: Product Assurance Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7574420
+- Spire Global: Senior Systems Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7591185
+- Spire Global: Senior Program Manager - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7593723
+- Spire Global: Lead Business Development Manager, Federal ISR - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7600288
+- Spire Global: Global Head of Total Rewards - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7650960
+- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7663049
+- Spire Global: Case Studies - Spire : Global Data and Analytics
+  https://spire.com/case-studies/
+- Spire Global: Cookie policy - Spire : Global Data and Analytics
+  https://spire.com/cookie-policy/
+- Spire Global: Data Stories - Spire : Global Data and Analytics
+  https://spire.com/data-stories/
+- Spire Global: Europas sicherheit der zukunft entsteht im weltraum - Spire : Global Data and Analytics
+  https://spire.com/de/
+- Spire Global: Developer resources - Spire : Global Data and Analytics
+  https://spire.com/developers/
+- Spire Global: Do not sell or share my personal information - CA Residents - Spire : Global Data and Analytics
+  https://spire.com/do-not-sell-or-share-my-personal-information/
+- Spire Global: Events - Spire : Global Data and Analytics
+  https://spire.com/events/
+- Spire Global: Spire Federal - Spire : Global Data and Analytics
+  https://spire.com/federal/
+- Spire Global: Global Government - Spire : Global Data and Analytics
+  https://spire.com/global-government/
+- Spire Global: Legal disclaimer - Spire : Global Data and Analytics
+  https://spire.com/legal-disclaimer/
+- Spire Global: Our Data - Spire : Global Data and Analytics
+  https://spire.com/our-data/
+- Spire Global: Terms of use - Spire : Global Data and Analytics
+  https://spire.com/our-data/terms-of-use/
+- Spire Global: Our purpose - Spire : Global Data and Analytics
+  https://spire.com/our-purpose/
+- Spire Global: Plans - Spire : Global Data and Analytics
+  https://spire.com/plans/
+- Spire Global: Press & media - Spire : Global Data and Analytics
+  https://spire.com/press-media/
+- Spire Global: Privacy policy - Spire : Global Data and Analytics
+  https://spire.com/privacy-policy/
+- Spire Global: Resources - Spire : Global Data and Analytics
+  https://spire.com/resources/
+- Spire Global: Spirepedia - Spire : Global Data and Analytics
+  https://spire.com/spirepedia/
+- Spire Global: Talk to Sales - Spire : Global Data and Analytics
+  https://spire.com/talk-to-sales/
+- Spire Global: Tutorials - Spire : Global Data and Analytics
+  https://spire.com/tutorials/
+- Spire Global: UK Modern Slavery Act Statement - Spire : Global Data and Analytics
+  https://spire.com/uk-modern-slavery-act-statement/
+- Spire Global: Spire Weather - Spire : Global Data and Analytics
+  https://spire.com/weather-climate/
+- Spire Global: Webinars - Spire : Global Data and Analytics
+  https://spire.com/webinars/
+- Spire Global: Whitepapers - Spire : Global Data and Analytics
+  https://spire.com/whitepapers/
+- Spire Global: Wiki - Spire : Global Data and Analytics
+  https://spire.com/wiki/
+- Spire Global: (no title captured)
+  https://twitter.com/SpireGlobal
+- Spire Global: Spire | LinkedIn
+  https://www.linkedin.com/company/spireglobal/
+- Sust Global: Sust Global Developer Center | Home of Sust Global’s developer tools, guides and reference documentation.
+  https://developers.sustglobal.com/
+- Sust Global: Log In
+  https://explorer.sustglobal.io/account/login/
+- Sust Global: (no title captured)
+  https://medium.com/sust-insights/about
+- Sust Global: (no title captured)
+  https://mortarpestle.studio/
+- Sust Global: (no title captured)
+  https://twitter.com/sustglobal
+- Sust Global: Sust Global (acq. by ISS STOXX) | LinkedIn
+  https://www.linkedin.com/company/sustglobal/
+- Sust Global: Sust Global | Home Page
+  https://www.sustglobal.com/
+- Sust Global: Sust Global | Careers
+  https://www.sustglobal.com/careers
+- Sust Global: Sust Global | Case Studies
+  https://www.sustglobal.com/case-studies
+- Sust Global: Sust Global | Contact
+  https://www.sustglobal.com/contact
+- Sust Global: Sust Global | Insights
+  https://www.sustglobal.com/insights
+- Sust Global: Sust Global Developer Center | Home of Sust Global’s developer tools, guides and reference documentation.
+  https://www.sustglobal.com/resources
+- Sust Global: Sust Global | Solutions
+  https://www.sustglobal.com/solutions
+- Sust Global: (no title captured)
+  https://x.com/sustglobal
+- Sust Global: (no title captured)
+  mailto:careers@sustglobal.com
+- ClimateAI: Minimize Climate Risk | Maximize Future Opportunities | ClimateAi
+  https://climate.ai
+- ClimateAI: (no title captured)
+  https://climate.ai/?page_id=2207
+- ClimateAI: About ClimateAi | Leading the Charge in Climate Adaptation
+  https://climate.ai/about-us/
+- ClimateAI: The ClimateAi Blog | Climate Risk, Adaptation, and Resilience
+  https://climate.ai/blog/
+- ClimateAI: Values and Vision - The ClimateAi Culture Catalyst Series: Unlocking Innovation with Micro-Entrepreneurship - ClimateAi
+  https://climate.ai/blog/culture-microentrepreneurship/
+- ClimateAI: Highlights of Our Conversations at ClimateAi Interview with Agronomist Sabi Ibarra Guerrero - ClimateAi
+  https://climate.ai/blog/highlights-of-our-conversations-at-climateai-interview-with-agronomist-sabi-ibarra-guerrero/
+- ClimateAI: Highlights of Our Conversations at ClimateAi Interview with Business Operations Manager Ariel Avgi - ClimateAi
+  https://climate.ai/blog/highlights-of-our-conversations-at-climateai-interview-with-business-operations-manager-ariel-avgi/
+- ClimateAI: Careers at ClimateAi | Join Our Team
+  https://climate.ai/careers/
+- ClimateAI: Careers at ClimateAi | Join Our Team
+  https://climate.ai/careers/?id=4854550007
+- ClimateAI: Case Studies | ClimateAi
+  https://climate.ai/case-studies/
+- ClimateAI: Decision Accuracy | Precise and Actionable Forecasts | ClimateAi
+  https://climate.ai/decision-accuracy/
+- ClimateAI: Downloadable Content | ClimateAi
+  https://climate.ai/downloadable-content/
+- ClimateAI: Get Started with ClimateAi | Contact Us
+  https://climate.ai/get-started/
+- ClimateAI: Climate Risk Assessment Tools for Finance | ClimateAi
+  https://climate.ai/industries/
+- ClimateAI: Custom-Built for Agriculture | Build Climate Resilience | ClimateAi
+  https://climate.ai/industries/agriculture/
+- ClimateAI: Predictive Weather Risk Solutions for Federal & Defense Agencies
+  https://climate.ai/industries/federal-defense/
+- ClimateAI: Climate Risk Assessment Tools for Finance | ClimateAi
+  https://climate.ai/industries/finance/
+- ClimateAI: Optimize Your Food and Beverage Operations | ClimateAi
+  https://climate.ai/industries/food-beverage/
+- ClimateAI: Climate Risk Assessment Tools for Finance | ClimateAi
+  https://climate.ai/industries/other-industries/
+- ClimateAI: Podcast: Agriculture Adapts by ClimateAi
+  https://climate.ai/podcast/
+- ClimateAI: ClimateAi in the News | ClimateAi
+  https://climate.ai/press/
+- ClimateAI: Privacy Policy | ClimateAi
+  https://climate.ai/privacy-policy/
+- ClimateAI: ClimateLens Monitor | ClimateAi Products
+  https://climate.ai/solutions-products/
+- ClimateAI: Asset Diligence & Portfolio Management | ClimateAi
+  https://climate.ai/solutions-products/asset-diligence-portfolio-management/
+- ClimateAI: ClimateLens-Adapt | ClimateAi Products
+  https://climate.ai/solutions-products/climatelens-adapt/
+- ClimateAI: ClimateLens Monitor | ClimateAi Products
+  https://climate.ai/solutions-products/climatelens-monitor/
+- ClimateAI: ClimateLens Overview - ClimateAi
+  https://climate.ai/solutions-products/climatelens-overview/
+- ClimateAI: Plan for Upcoming Demand Before Weather Events | ClimateAi
+  https://climate.ai/solutions-products/demand-planning/
+- ClimateAI: LensConnect™ API | ClimateAi Product
+  https://climate.ai/solutions-products/lensconnect-api/
+- ClimateAI: ClimateLens-Monitor Yield Outlook | ClimateAi Products
+  https://climate.ai/solutions-products/monitor-yield-outlook-2/
+- ClimateAI: Operations | Optimize Operational Decisions | ClimateAi
+  https://climate.ai/solutions-products/operations/
+- ClimateAI: Research & Development | ClimateAi
+  https://climate.ai/solutions-products/research-development/
+- ClimateAI: Sourcing & Supply Chain Solutions | ClimateAi
+  https://climate.ai/solutions-products/sourcing-procurement/
+- ClimateAI: Sustainability & TCFD Reporting | ClimateAi
+  https://climate.ai/solutions-products/sustainability-esg/
+- ClimateAI: Asset Diligence & Portfolio Management | ClimateAi
+  https://climate.ai/solutions-products/water-risk/
+- ClimateAI: Terms of Use - ClimateAi
+  https://climate.ai/terms-of-use/
+- ClimateAI: ClimateLens 2.0 | Actions Through Climate Intelligence | ClimateAi
+  https://get-access.climate.ai/climatelens2.0
+- ClimateAI: Climate Insights Platform
+  https://insights.climate.ai
+- ClimateAI: ClimateAI FE Template
+  https://lens.climate.ai/
+- SkyFi: Welcome | SkyFi
+  https://app.skyfi.com
+- SkyFi: âSkyFi App App - App Store
+  https://apps.apple.com/us/app/skyfi-app/id6443393891
+- SkyFi: Decimal.
+  https://decimalstudios.com
+- SkyFi: SkyFi App - Apps on Google Play
+  https://play.google.com/store/apps/details?id=com.skyfi&referrer=utm_source%3DWeb%26utm_content%3DSkyFi_Android_ZZ_DownloadAppPage%26utm_campaign%3DWeb_SkyFi_Android_ZZ_DownloadAppPage%26utm_medium%3DWeb
+- SkyFi: Satellite Imagery, SAR & Analytics | Earth Intelligence by SkyFi
+  https://skyfi.com/
+- SkyFi: (no title captured)
+  https://skyfi.com/cdn-cgi/l/email-protection
+- SkyFi: Satellite Imagery, SAR & Analytics | Earth Intelligence by SkyFi
+  https://skyfi.com/en
+- SkyFi: Trust at SkyFi
+  https://skyfi.com/en//trust
+- SkyFi: About | SkyFi
+  https://skyfi.com/en/about
+- SkyFi: API | SkyFi
+  https://skyfi.com/en/api
+- SkyFi: Available Upon Request | SkyFi
+  https://skyfi.com/en/available-upon-request
+- SkyFi: The SkyFi Blog
+  https://skyfi.com/en/blog
+- SkyFi: SkyFi
+  https://skyfi.com/en/book-demo
+- SkyFi: Opportunities for Careers | SkyFi
+  https://skyfi.com/en/careers
+- SkyFi: Contact Us | SkyFi
+  https://skyfi.com/en/contact
+- SkyFi: End User License Agreement (EULA) | SkyFi
+  https://skyfi.com/en/end-user-license-agreement
+- SkyFi: Frequently Asked Questions (FAQs) | SkyFi
+  https://skyfi.com/en/faqs
+- SkyFi: Satellite Imagery Details & Specs
+  https://skyfi.com/en/imagery-details
+- SkyFi: Our Partners | SkyFi
+  https://skyfi.com/en/partners
+- SkyFi: Press & Media | SkyFi
+  https://skyfi.com/en/press
+- SkyFi: Buy Satellite & Geospatial Data | SkyFi Pricing
+  https://skyfi.com/en/pricing
+- SkyFi: Privacy Policy | SkyFi
+  https://skyfi.com/en/privacy-policy
+- SkyFi: Geospatial Intelligence Products
+  https://skyfi.com/en/products
+- SkyFi: Terms and Conditions | SkyFi
+  https://skyfi.com/en/terms-conditions
+- SkyFi: Trust at SkyFi
+  https://skyfi.com/en/trust
+- SkyFi: SkyFi – Store
+ – SkyFi Merch Store
+  https://store.skyfi.com
+- SkyFi: (no title captured)
+  https://twitter.com/SkyfiApp
+- SkyFi: Instagram
+  https://www.instagram.com/skyfi.app
+- SkyFi: SkyFi | LinkedIn
+  https://www.linkedin.com/company/skyfi-imaging
+- Satlantis: Whistleblower Software
+  https://whistleblowersoftware.com/secure/9a9090cc-c8e8-4b8b-9bc9-adc7a745e5c9
+- Satlantis: SATLANTIS | LinkedIn
+  https://www.linkedin.com/company/satlantis/?originalSubdomain=es
+- Satlantis: Home - Satlantis
+  https://www.satlantis.com
+- Satlantis: About us - Satlantis
+  https://www.satlantis.com/about-us/
+- Satlantis: Accessibility statement - Satlantis
+  https://www.satlantis.com/accessibility-statement/
+- Satlantis: Astrophysics and Science - Satlantis
+  https://www.satlantis.com/aplications/astrophysics-and-science/
+- Satlantis: Defence & security - Satlantis
+  https://www.satlantis.com/aplications/defence-security/
+- Satlantis: (no title captured)
+  https://www.satlantis.com/aplications/defense-security/
+- Satlantis: Methane - Satlantis
+  https://www.satlantis.com/aplications/methane/
+- Satlantis: Other applications - Satlantis
+  https://www.satlantis.com/aplications/other-applications/
+- Satlantis: Contact - Satlantis
+  https://www.satlantis.com/contact/
+- Satlantis: Cookie Policy - Satlantis
+  https://www.satlantis.com/cookie-policy/
+- Satlantis: E2E Solutions - Satlantis
+  https://www.satlantis.com/e2e-solutions/
+- Satlantis: Equality Commitment - Satlantis
+  https://www.satlantis.com/equality-commitment/
+- Satlantis: Flight Heritage - Satlantis
+  https://www.satlantis.com/flight-heritage-2/
+- Satlantis: Job Openings - Satlantis
+  https://www.satlantis.com/job-offers/
+- Satlantis: Job Openings - Satlantis
+  https://www.satlantis.com/job-offers/?job_listing_category=72
+- Satlantis: AI ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/ai-engineer-vacancy/
+- Satlantis: ELECTRONICS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/electronics-engineer-vacancy/
+- Satlantis: GROUND SEGMENT SOFTWARE ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/ground-segment-software-engineer/
+- Satlantis: IMAGE PROCESSING DEVELOPER VACANCY - Satlantis
+  https://www.satlantis.com/job/image-processing-developer/
+- Satlantis: LEGAL & CONTRACTS SPECIALIST VACANCY - Satlantis
+  https://www.satlantis.com/job/legal-contracts-specialist-vacancy/
+- Satlantis: MECHANICS AIT ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/mechanics-ait-engineer-vacancy/
+- Satlantis: MECHANICS DESIGN ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/mechanics-design-engineer-vacancy/
+- Satlantis: OPERATIONS ENGINEER (INFRASTRUCTURE) VACANCY - Satlantis
+  https://www.satlantis.com/job/operations-engineer-vacancy-3/
+- Satlantis: OPTICS AIT ENGINEER - Satlantis
+  https://www.satlantis.com/job/optics-ait-engineer/
+- Satlantis: OPTICS ENGINEER - Satlantis
+  https://www.satlantis.com/job/optics-engineer/
+- Satlantis: PRODUCT/QUALITY ASSURANCE ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/product-quality-assurance-engineer-vacancy/
+- Satlantis: SATELLITE OPERATIONS & SYSTEMS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/satellite-operations-systems-engineer-vacancy/
+- Satlantis: SENIOR DATA SCIENTIST - REMOTE SENSING DATA - Satlantis
+  https://www.satlantis.com/job/senior-data-scientist/
+- Satlantis: SENIOR SOFTWARE ENGINEER - Satlantis
+  https://www.satlantis.com/job/senior-software-engineer/
+- Satlantis: SOFTWARE TEST & VALIDATION ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/software-test-validation-engineer-vacancy/
+- Satlantis: SPACE THERMAL & SYSTEMS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/space-thermal-systems-engineer-vacancy/
+- Satlantis: SYSTEMS AND MECHANICS ENGINEER - SATELLITE DESIGN VACANCY - Satlantis
+  https://www.satlantis.com/job/systems-and-mechanics-engineer-satellite-design-vacancy/
+- Satlantis: TECHNICAL TEAM LEADER VACANCY - Satlantis
+  https://www.satlantis.com/job/technical-team-leader-vacancy/
+- Satlantis: VACANTE DE TÉCNICO/A DE CALIDAD - Satlantis
+  https://www.satlantis.com/job/vacante-de-tecnico-a-de-calidad/
+- Satlantis: News - Satlantis
+  https://www.satlantis.com/news/
+- Satlantis: Privacy Policy - Satlantis
+  https://www.satlantis.com/privacy-policy/
+- Satlantis: Quality Policy - Satlantis
+  https://www.satlantis.com/quality-policy/
+- Satlantis: Satlantis France - Satlantis
+  https://www.satlantis.com/satlantis-france/
+- Satlantis: Satlantis USA - Satlantis
+  https://www.satlantis.com/satlantis-usa/
+- Satlantis: Site map - Satlantis
+  https://www.satlantis.com/site-map/
+- Satlantis: Space Cameras - Satlantis
+  https://www.satlantis.com/space-cameras/
+- Satlantis: Work with us - Satlantis
+  https://www.satlantis.com/work-at-satlantis/
+- Satlantis: Work with us - Satlantis
+  https://www.satlantis.com/work-with-us/
+- Satlantis: (no title captured)
+  https://www.satlantis.com/wp-content/uploads/2024/07/Politica-de-seguridad-Satlantis-V.Web_.pdf
+- Satlantis: (no title captured)
+  https://www.satlantis.com/wp-content/uploads/2024/08/CERTIFICADO-ENS-SATLANTIS-MICROSATS_signed.pdf
+- Satlantis: (no title captured)
+  https://www.satlantis.com/wp-content/uploads/2024/09/ESBIL_000842_GenericCertificate_Final.pdf
+- Satlantis: Home - Supersharp
+  https://www.supersharp.space/
+- Satlantis: SATLANTIS - YouTube
+  https://www.youtube.com/@satlantis9378
+- Satlantis: (no title captured)
+  https://x.com/satlantis_?ref_src=twsrc%5Etfw
+- Carbon Direct: Rippling
+  https://app.rippling.com/benefits/preview/7j4kkl9kxaa4k8b3
+- Carbon Direct: page_title
+  https://boards.greenhouse.io/carbondirect/jobs/4117885007
+- Carbon Direct: Carbon Direct
+  https://platform.carbondirect.io/
+- Carbon Direct: (no title captured)
+  https://twitter.com/Carbon_Direct
+- Carbon Direct: Carbon Direct | Science-Backed Carbon Management Solutions
+  https://www.carbon-direct.com/
+- Carbon Direct: Careers | Carbon Direct
+  https://www.carbon-direct.com/careers
+- Carbon Direct: About | Carbon Direct
+  https://www.carbon-direct.com/company
+- Carbon Direct: Contact | Carbon Direct
+  https://www.carbon-direct.com/contact
+- Carbon Direct: Insights | Carbon Direct
+  https://www.carbon-direct.com/insights
+- Carbon Direct: Carbon Direct | Leadership team
+  https://www.carbon-direct.com/leadership-team
+- Carbon Direct: AI Guidelines in Our Interview Process | Carbon Direct
+  https://www.carbon-direct.com/legal/ai-guidelines-in-our-interview-process
+- Carbon Direct: Cookie notice | Carbon Direct
+  https://www.carbon-direct.com/legal/cookie-notice
+- Carbon Direct: Privacy policy | Carbon Direct
+  https://www.carbon-direct.com/legal/privacy-policy
+- Carbon Direct: Terms of service | Carbon Direct
+  https://www.carbon-direct.com/legal/terms-of-service
+- Carbon Direct: Press | Carbon Direct
+  https://www.carbon-direct.com/press
+- Carbon Direct: Science team | Carbon Direct
+  https://www.carbon-direct.com/science-team
+- Carbon Direct: Scientific expertise | Carbon Direct
+  https://www.carbon-direct.com/scientific-expertise
+- Carbon Direct: Carbon management services | Carbon Direct
+  https://www.carbon-direct.com/services
+- Carbon Direct: Bespoke advisory | Carbon Direct
+  https://www.carbon-direct.com/services/bespoke-advisory
+- Carbon Direct: Bespoke carbon procurement services | Carbon Direct
+  https://www.carbon-direct.com/services/bespoke-carbon-procurement
+- Carbon Direct: Purchase high-quality carbon removal credits from curated portfolios
+  https://www.carbon-direct.com/services/carbon-credits
+- Carbon Direct: Climate policy services | Carbon Direct
+  https://www.carbon-direct.com/services/climate-policy
+- Carbon Direct: Climate strategy solutions | Carbon Direct
+  https://www.carbon-direct.com/services/climate-strategy
+- Carbon Direct: Sustainable Aviation Fuel for Emissions Reduction | Carbon Direct
+  https://www.carbon-direct.com/services/sustainable-aviation-fuel
+- Carbon Direct: Measure Your Carbon Footprint | Carbon Direct
+  https://www.carbon-direct.com/solutions/measure
+- Carbon Direct: Carbon dioxide reduction solutions | Carbon Direct
+  https://www.carbon-direct.com/solutions/reduce
+- Carbon Direct: High-quality carbon removal solutions | Carbon Direct
+  https://www.carbon-direct.com/solutions/remove
+- Carbon Direct: Climate disclosure reporting solutions | Carbon Direct
+  https://www.carbon-direct.com/solutions/report
+- Carbon Direct: Subscribe | Carbon Direct
+  https://www.carbon-direct.com/subscribe
+- Carbon Direct: Carbon Direct | Peter Psarras, PhD
+  https://www.carbon-direct.com/team/dr-peter-psarras
+- Carbon Direct: Carbon Direct | Maria Mendieta
+  https://www.carbon-direct.com/team/maria-mendieta
+- Carbon Direct: Carbon Direct Capital
+  https://www.carbondirectcapital.com/
+- Carbon Direct: Carbon Direct | LinkedIn
+  https://www.linkedin.com/company/carbon-direct
+- Carbon Direct: Carbon Direct - YouTube
+  https://www.youtube.com/channel/UChIKm6A7x8396Iit8noekvA
+- Carbon Direct: (no title captured)
+  mailto:people@carbon-direct.com
+- Carbon Direct: (no title captured)
+  mailto:recruiting@carbon-direct.com
+- Persefoni: Jobs at Persefoni AI, Inc.
+  https://boards.greenhouse.io/persefoniaiinc
+- Persefoni: auth.login.title
+  https://platform.persefoni.com/api/auth/login
+- Persefoni: Persefoni Status
+  https://status.persefoni.com/
+- Persefoni: (no title captured)
+  https://twitter.com/Persefoni
+- Persefoni: Persefoni Legal Center
+  https://vault.pactsafe.io/s/e6a31fd3-3c2a-4061-97c5-8f70751f4404/legal.html
+- Persefoni: Persefoni
+  https://www.facebook.com/PersefoniAI
+- Persefoni: Persefoni | LinkedIn
+  https://www.linkedin.com/company/persefoni/
+- Persefoni: Persefoni – Carbon Accounting and Sustainability Management Platform
+  https://www.persefoni.com/
+- Persefoni: Persefoni – Carbon Accounting and Sustainability Management Platform
+  https://www.persefoni.com/?r=0
+- Persefoni: Persefoni for Business: Assurance-Grade Carbon Measurement, Disclosure, and Reduction
+  https://www.persefoni.com/business
+- Persefoni: Carbon Accounting Software for Transparent, Accurate Emissions Data | Persefoni
+  https://www.persefoni.com/business/carbon-footprint-measurement-analytics
+- Persefoni: Tailored Decarbonization for Your Business | Persefoni
+  https://www.persefoni.com/business/decarbonization-management
+- Persefoni: Regulatory GHG Emissions Reporting | Persefoni
+  https://www.persefoni.com/business/regulatory-ghg-emissions-reporting
+- Persefoni: Scope 3 Supplier Engagement | Persefoni
+  https://www.persefoni.com/business/scope-3-supplier-engagement
+- Persefoni: Stakeholder GHG Emissions Reporting | Persefoni
+  https://www.persefoni.com/business/stakeholder-ghg-emissions-reporting
+- Persefoni: Careers & Opportunities - Persefoni
+  https://www.persefoni.com/company/careers
+- Persefoni: Certifications - Persefoni
+  https://www.persefoni.com/company/certifications
+- Persefoni: Employee Spotlights - Persefoni
+  https://www.persefoni.com/company/employee-spotlights
+- Persefoni: Logos & Brand Assets - Persefoni
+  https://www.persefoni.com/company/logos-and-brand-assets
+- Persefoni: People & Leadership - Persefoni
+  https://www.persefoni.com/company/people-and-leadership
+- Persefoni: Persefoni Annual Impact Report 2024
+  https://www.persefoni.com/company/persefoni-annual-impact-report
+- Persefoni: Sustainability Advisory Board - Persefoni
+  https://www.persefoni.com/company/sustainability-advisory-board
+- Persefoni: Contact Us - Persefoni
+  https://www.persefoni.com/contact-us
+- Persefoni: Customers - Persefoni
+  https://www.persefoni.com/customers
+- Persefoni: At Home brings carbon accounting in-house with Persefoni, unlocking key emissions insights - Persefoni
+  https://www.persefoni.com/customers/at-home
+- Persefoni: Caliber partners with Persefoni to measure their footprint and meet investor expectations - Persefoni
+  https://www.persefoni.com/customers/caliber
+- Persefoni: CGE Partners leverages Persefoni to align with responsible investing goals - Persefoni
+  https://www.persefoni.com/customers/cge-partners
+- Persefoni: FM Conway Partners with Persefoni to Strengthen Net Zero Commitment - Persefoni
+  https://www.persefoni.com/customers/fm-conway
+- Persefoni: Natera partners with Persefoni to build confidence in ESG reporting - Persefoni
+  https://www.persefoni.com/customers/natera
+- Persefoni: Pittsburgh Penguins partner with Persefoni to meet sustainability goals  - Persefoni
+  https://www.persefoni.com/customers/pittsburgh-penguins
+- Persefoni: Persefoni Supports Xerox with Comprehensive, Audit-Grade Carbon Accounting  - Persefoni
+  https://www.persefoni.com/customers/xerox
+- Persefoni: Careers & Opportunities - Persefoni
+  https://www.persefoni.com/de/company/careers
+- Persefoni: Japan Commercial Disclosure | Persefoni
+  https://www.persefoni.com/documents/japan-commercial-disclosure
+- Persefoni: Persefoni Legal Center
+  https://www.persefoni.com/documents/persefoni-privacy-policy
+- Persefoni: Security | Persefoni
+  https://www.persefoni.com/documents/security
+- Persefoni: Careers & Opportunities - Persefoni
+  https://www.persefoni.com/en-gb/company/careers
+- Persefoni: Persefoni for Financial Services: Investor-Grade Carbon Management, Disclosure, and Reduction
+  https://www.persefoni.com/financial-services
+- Persefoni: Tailored Decarbonization for Your Portfolio | Persefoni
+  https://www.persefoni.com/financial-services/decarbonization-management
+- Persefoni: Financed Emissions Accounting & Analytics | Persefoni
+  https://www.persefoni.com/financial-services/financed-emissions-accounting-analytics
+- Persefoni: Investor GHG Emissions Reporting | Persefoni
+  https://www.persefoni.com/financial-services/investor-ghg-emissions-reporting
+- Persefoni: Investment Portfolio Engagement | Persefoni
+  https://www.persefoni.com/financial-services/portfolio-company-engagement
+- Persefoni: Carrières et opportunités - Persefoni
+  https://www.persefoni.com/fr/company/careers
+- Persefoni: Blog - Persefoni
+  https://www.persefoni.com/insights/blog
+- Persefoni: Events & Webinars - Persefoni
+  https://www.persefoni.com/insights/events
+- Persefoni: Expert Publications - Persefoni
+  https://www.persefoni.com/insights/expert-publications
+- Persefoni: Persefoni Academy - Free Carbon Accounting Courses and Certifications
+  https://www.persefoni.com/insights/persefoni-academy
+- Persefoni: Careers & Opportunities - Persefoni
+  https://www.persefoni.com/ja/company/careers
+- Persefoni: Partners
+  https://www.persefoni.com/partners
+- Persefoni: Persefoni AI: AI-Powered Climate Management and Reporting
+  https://www.persefoni.com/persefoniai
+- Persefoni: Persefoni Pricing: Free Carbon Accounting & Advanced Climate Solutions
+  https://www.persefoni.com/pricing
+- Persefoni: Pricing | California Compliance Services
+  https://www.persefoni.com/pricing-compliance-services
+- Persefoni: Request a Demo - Persefoni
+  https://www.persefoni.com/schedule-demo
+- Persefoni: Sign Up Free | Persefoni
+  https://www.persefoni.com/sign-up
+- Persefoni: SB 253 Compliance Platform | Persefoni
+  https://www.persefoni.com/solutions/sb-253
+- Persefoni: SB 261 Compliance Solution | Persefoni
+  https://www.persefoni.com/solutions/sb-261
+- Persefoni: Sustainability Reporting Software | Simplify Disclosures with Persefoni
+  https://www.persefoni.com/sustainability-reporting
+- Persefoni: SpydySense | AI-Powered Supply Chain Risk Management
+  https://www.spydysense.ai/
+- Persefoni: Persefoni - YouTube
+  https://www.youtube.com/channel/UCd3yGB2Y9P-Qx1KThAVbD0Q
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope
+- Terrascope: Terrascope - Senior Decarbonisation Specialist (Japanese-speaking)
+  https://jobs.lever.co/terrascope/92641fb5-8541-4ead-9ec8-936482d10589
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?commitment=Permanent
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?location=Japan
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?location=Remote
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?team=Sustainability
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?workplaceType=hybrid
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?workplaceType=onsite
+- Terrascope: Terrascope
+  https://jobs.lever.co/terrascope?workplaceType=remote
+- Terrascope: Job Seeker Support - Lever
+  https://www.lever.co/job-seeker-support/
+- Terrascope: Smart Carbon Measurement & Management SaaS Platform | Terrascope
+  https://www.terrascope.com/
+- Downforce Technologies: (no title captured)
+  https://searsdavies.com/
+- Downforce Technologies: Downforce Technologies
+  https://www.downforce.tech/
+- Downforce Technologies: About Us • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/about-us
+- Downforce Technologies: Careers • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/careers
+- Downforce Technologies: View • 
+      Careers • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/careers/view/senior-marketing-manager
+- Downforce Technologies: Compliance • 
+      Compliance • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/compliance/compliance
+- Downforce Technologies: Privacy Policy • 
+      Compliance • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/compliance/privacy-policy
+- Downforce Technologies: Contact Us • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/contact-us
+- Downforce Technologies: News And Events • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/news-and-events
+- Downforce Technologies: Our Clients And Partners • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/our-clients-and-partners
+- Downforce Technologies: Our Product • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/our-product
+- Downforce Technologies: Fashion And Textile • 
+      Our Solutions • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/our-solutions/fashion-and-textile
+- Downforce Technologies: Food And Beverage • 
+      Our Solutions • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/our-solutions/food-and-beverage
+- Downforce Technologies: Landowners And Farmers • 
+      Our Solutions • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/our-solutions/landowners-and-farmers
+- Downforce Technologies: Case Studies Group • 
+      Resources • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/resources/case-studies-group
+- Downforce Technologies: Regenerative Agriculture Group • 
+      Resources • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/resources/regenerative-agriculture-group
+- Downforce Technologies: Science Group • 
+      Resources • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/resources/science-group
+- Downforce Technologies: Downforce Technologies | LinkedIn
+  https://www.linkedin.com/company/downforce-technologies/
+- Downforce Technologies: (no title captured)
+  mailto:careers@downforce.tech
+- Downforce Technologies: (no title captured)
+  mailto:info@downforce.tech
+- Capella Space: IonQ | IonQ Completes Acquisition of Capella Space, Advancing Vision for Space-Based Quantum Communications
+  https://ionq.com/news/ionq-completes-acquisition-of-capella-space-advancing-vision-for-space-based
+- Capella Space: Google Maps
+  https://maps.app.goo.gl/9r98kdfk2QS2MBWu5
+- Capella Space: Google Maps
+  https://maps.app.goo.gl/Uz9jmznHTd5UfVYr9
+- Capella Space: Google Maps
+  https://maps.app.goo.gl/WevK578Eszq4RPCj6
+- Capella Space: (no title captured)
+  https://twitter.com/capellaspace
+- Capella Space: Capella
+  https://www.capellaspace.com/
+- Capella Space: Company
+  https://www.capellaspace.com/company
+- Capella Space: About Capella
+  https://www.capellaspace.com/company/about
+- Capella Space: About Capella
+  https://www.capellaspace.com/company/about-us
+- Capella Space: Careers at Capella | We're Hiring!
+  https://www.capellaspace.com/company/careers
+- Capella Space: Contact Capella
+  https://www.capellaspace.com/contact
+- Capella Space: Capella Customer Support
+  https://www.capellaspace.com/customer-support
+- Capella Space: Earth Observation
+  https://www.capellaspace.com/earth-observation
+- Capella Space: Data
+  https://www.capellaspace.com/earth-observation/data
+- Capella Space: Capella Open Data Gallery
+  https://www.capellaspace.com/earth-observation/gallery
+- Capella Space: Legal
+  https://www.capellaspace.com/legal/data-licensing
+- Capella Space: Legal
+  https://www.capellaspace.com/legal/privacy-policy
+- Capella Space: Legal
+  https://www.capellaspace.com/legal/terms-of-service
+- Capella Space: Media
+  https://www.capellaspace.com/media
+- Capella Space: Capella Media Kit
+  https://www.capellaspace.com/media-kit
+- Capella Space: Solutions
+  https://www.capellaspace.com/solutions
+- Capella Space: Mission Solutions
+  https://www.capellaspace.com/solutions/applications
+- Capella Space: Technology
+  https://www.capellaspace.com/technology
+- Capella Space: (no title captured)
+  https://www.linkedin.com/company/capella-space/
+- Umbra Space: (no title captured)
+  https://twitter.com/umbraspace
+- Umbra Space: Spacecraft Assembly, Integration and Test (AI&T) Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5135265
+- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144028
+- Umbra Space: Space Mission Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144273
+- Umbra Space: Senior GNC Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5170363
+- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5195084
+- Umbra Space: Senior Digital Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5270349
+- Umbra Space: Senior Flight Software Engineer (Rust) - Umbra
+  https://umbra-1.workable.com/jobs/5289958
+- Umbra Space: Senior Spacecraft Mechanical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5382754
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5383612
+- Umbra Space: Senior Radar Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5390825
+- Umbra Space: Microwave Electronics Design Engineer, High Power Amplifiers - Umbra
+  https://umbra-1.workable.com/jobs/5391610
+- Umbra Space: Capture and Program Manager (Global) - Umbra
+  https://umbra-1.workable.com/jobs/5391700
+- Umbra Space: Microwave Electronics Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391758
+- Umbra Space: Antenna & RF Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391762
+- Umbra Space: Senior Ground Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5418616
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5421225
+- Umbra Space: Director, Defense - Umbra
+  https://umbra-1.workable.com/jobs/5434175
+- Umbra Space: Spacecraft Aerospace Technician - Umbra
+  https://umbra-1.workable.com/jobs/5436122
+- Umbra Space: Systems Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5436654
+- Umbra Space: Director, National Security - Umbra
+  https://umbra-1.workable.com/jobs/5440743
+- Umbra Space: Finance Systems Analyst - Umbra
+  https://umbra-1.workable.com/jobs/5441504
+- Umbra Space: Director of Marketing - Umbra
+  https://umbra-1.workable.com/jobs/5483044
+- Umbra Space: Senior Planner/Buyer - Umbra
+  https://umbra-1.workable.com/jobs/5490979
+- Umbra Space: Events Specialist - Umbra
+  https://umbra-1.workable.com/jobs/5491116
+- Umbra Space: Product Marketing Manager - Umbra
+  https://umbra-1.workable.com/jobs/5491199
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5507154
+- Umbra Space: Senior Program Manager - Umbra
+  https://umbra-1.workable.com/jobs/5520393
+- Umbra Space: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5529627
+- Umbra Space: Spacecraft Electrical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538070
+- Umbra Space: Senior Site Reliability Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538623
+- Umbra Space: Core Infrastructure Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5546249
+- Umbra Space: Senior Microwave Engineer, Space Systems - Umbra
+  https://umbra-1.workable.com/jobs/5566307
+- Umbra Space: Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5568911
+- Umbra Space: Spacecraft Manufacturing Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5580913
+- Umbra Space: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5581009
+- Umbra Space: We Know Space • Umbra
+  https://umbra.space/
+- Umbra Space: About • Umbra
+  https://umbra.space/about/
+- Umbra Space: Career Opportunities • Umbra Careers
+  https://umbra.space/careers/
+- Umbra Space: Equal Opportunity Employer • Umbra Careers
+  https://umbra.space/careers/equal-opportunity-employer/
+- Umbra Space: Job Openings • Umbra Careers
+  https://umbra.space/careers/job-openings/
+- Umbra Space: Contact • Umbra
+  https://umbra.space/contact/
+- Umbra Space: Cookie Policy • Umbra
+  https://umbra.space/cookie-policy/
+- Umbra Space: In Our Own Words • Umbra
+  https://umbra.space/in-our-own-words/
+- Umbra Space: Media Center • Umbra
+  https://umbra.space/media-center-v2/
+- Umbra Space: Mission Solutions • Umbra
+  https://umbra.space/mission-solutions/
+- Umbra Space: Open Data Program • Umbra
+  https://umbra.space/open-data/
+- Umbra Space: Press Releases • Umbra
+  https://umbra.space/press-releases/
+- Umbra Space: Pricing • Umbra
+  https://umbra.space/pricing/
+- Umbra Space: Privacy Notice • Umbra
+  https://umbra.space/privacy-notice/
+- Umbra Space: Remote Sensing. • Umbra
+  https://umbra.space/remote-sensing-2/
+- Umbra Space: Remote Sensing • Umbra
+  https://umbra.space/remote-sensing/
+- Umbra Space: Dwell mode • Umbra
+  https://umbra.space/remote-sensing/dwell/
+- Umbra Space: Scan mode • Umbra
+  https://umbra.space/remote-sensing/scan-mode/
+- Umbra Space: Spotlight mode • Umbra
+  https://umbra.space/remote-sensing/spotlight/
+- Umbra Space: Space Systems • Umbra
+  https://umbra.space/space-systems/
+- Umbra Space: Terms of Use • Umbra
+  https://umbra.space/terms-of-use/
+- Umbra Space: Umbra in the News • Umbra
+  https://umbra.space/umbra-in-the-news/
+- Umbra Space: Umbra Space | Santa Barbara CA
+  https://www.facebook.com/umbraspace/
+- Umbra Space: Instagram
+  https://www.instagram.com/umbraspace/
+- Umbra Space: Umbra | LinkedIn
+  https://www.linkedin.com/company/umbraspace/
+- Umbra Space: (no title captured)
+  tel:+18053513001
+- BlackSky: Home - BlackSky
+  https://blacksky.com/
+- BlackSky: Terms of use - BlackSky
+  https://blacksky.com/blacksky-terms-of-use/
+- BlackSky: Company - BlackSky
+  https://blacksky.com/company/
+- BlackSky: Careers - BlackSky
+  https://blacksky.com/company/careers/
+- BlackSky: Contact us - BlackSky
+  https://blacksky.com/company/contact-us/
+- BlackSky: Leadership - BlackSky
+  https://blacksky.com/company/leadership/
+- BlackSky: News - BlackSky
+  https://blacksky.com/company/news/
+- BlackSky: Partners - BlackSky
+  https://blacksky.com/company/partners/
+- BlackSky: General terms for order agreement subscription packages - BlackSky
+  https://blacksky.com/general-terms-for-order-agreement-subscription-packages/
+- BlackSky: Blog - BlackSky
+  https://blacksky.com/insights/
+- BlackSky: Offerings - BlackSky
+  https://blacksky.com/offerings/
+- BlackSky: BlackSky privacy statement - BlackSky
+  https://blacksky.com/privacy-statement/
+- BlackSky: Start a conversation - BlackSky
+  https://blacksky.com/start-a-conversation/
+- BlackSky: Technology - BlackSky
+  https://blacksky.com/technology/
+- BlackSky: (no title captured)
+  https://ir.blacksky.com/
+- BlackSky: BlackSky Login
+  https://tasking.blacksky.com/
+- BlackSky: BlackSky | LinkedIn
+  https://www.linkedin.com/company/blackskyinc/
+- BlackSky: BlackSky - YouTube
+  https://www.youtube.com/@blacksky_inc
+- BlackSky: (no title captured)
+  https://x.com/BlackSky_Inc
+- GeoOptics: Home - GeoOptics, Inc.
+  http://geooptics.wpengine.com/
+- GeoOptics: Home - GeoOptics, Inc.
+  https://geooptics.com/
+- GeoOptics: (no title captured)
+  https://geooptics.com/?page_id=3857
+- GeoOptics: About - GeoOptics, Inc.
+  https://geooptics.com/about-3/
+- GeoOptics: Blog - GeoOptics, Inc.
+  https://geooptics.com/blog/
+- GeoOptics: Careers - GeoOptics, Inc.
+  https://geooptics.com/careers-2-2/
+- GeoOptics: Careers - GeoOptics, Inc.
+  https://geooptics.com/careers-2-2/?s=
+- GeoOptics: Privacy Policy - GeoOptics, Inc.
+  https://geooptics.com/careers-2-2/privacy-policy
+- GeoOptics: Contact - GeoOptics, Inc.
+  https://geooptics.com/contact/
+- GeoOptics: Data Solutions - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/
+- GeoOptics: Agriculture & Forestry - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/agriculture-forestry/
+- GeoOptics: Built Environment - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/built-environment-cmdraft/
+- GeoOptics: Ecosystems - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/ecosystems/
+- GeoOptics: Freshwater - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/freshwater/
+- GeoOptics: Ocean Environment - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/ocean-environment/
+- GeoOptics: Weather - GeoOptics, Inc.
+  https://geooptics.com/data-solutions/weather/
+- GeoOptics: People & Partnerships - GeoOptics, Inc.
+  https://geooptics.com/people-partnerships/
+- GeoOptics: Privacy Policy - GeoOptics, Inc.
+  https://geooptics.com/privacy-policy/
+- GeoOptics: (no title captured)
+  mailto:info@geooptics.com
+- Western Resource Advocates: 1% for the Planet Directory: Find Certified Businesses & Environmental
+      Nonprofits
+  https://directories.onepercentfortheplanet.org/profile/western-resource-advocates?referrer=%2F%3FmemberType%3Dnonprofit%26q%3DWestern%2520Resource%26page%3D1
+- Western Resource Advocates: Instagram
+  https://instagram.com/westernresourceadvocates/
+- Western Resource Advocates: Western Resource Advocates
+  https://westernresourceadvocates.org/
+- Western Resource Advocates: 2024 Impact Report - Western Resource Advocates
+  https://westernresourceadvocates.org/2024-impact-report/
+- Western Resource Advocates: Action Center - Western Resource Advocates
+  https://westernresourceadvocates.org/actions
+- Western Resource Advocates: Action Center - Western Resource Advocates
+  https://westernresourceadvocates.org/actions/
+- Western Resource Advocates: Annual Reports - Western Resource Advocates
+  https://westernresourceadvocates.org/annual-reports/
+- Western Resource Advocates: Blog - Western Resource Advocates
+  https://westernresourceadvocates.org/blog
+- Western Resource Advocates: Blog - Western Resource Advocates
+  https://westernresourceadvocates.org/blog/
+- Western Resource Advocates: Creating a Sustainable Future for the Colorado River - Western Resource Advocates
+  https://westernresourceadvocates.org/blog/creating-a-sustainable-future-for-the-colorado-river/
+- Western Resource Advocates: Board Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/board-directors
+- Western Resource Advocates: Board Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/board-directors/
+- Western Resource Advocates: Careers at WRA - Western Resource Advocates
+  https://westernresourceadvocates.org/careers-at-wra/
+- Western Resource Advocates: Climate Change - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change
+- Western Resource Advocates: Climate Change - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change/
+- Western Resource Advocates: Drought - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change/drought/
+- Western Resource Advocates: Habitat Loss - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change/habitat-loss/
+- Western Resource Advocates: Pollution - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change/pollution/
+- Western Resource Advocates: Wildfire - Western Resource Advocates
+  https://westernresourceadvocates.org/climate-change/wildfire/
+- Western Resource Advocates: Contact Us - Western Resource Advocates
+  https://westernresourceadvocates.org/contact-us/
+- Western Resource Advocates: Corporate Giving & Sponsors - Western Resource Advocates
+  https://westernresourceadvocates.org/corporate-giving-sponsors/
+- Western Resource Advocates: Decision Maker Hub - Western Resource Advocates
+  https://westernresourceadvocates.org/decision-maker-hub/
+- Western Resource Advocates: Diversity, Equity & Inclusion - Western Resource Advocates
+  https://westernresourceadvocates.org/diversity-equity-inclusion/
+- Western Resource Advocates: Make a Gift - Western Resource Advocates
+  https://westernresourceadvocates.org/donate-now
+- Western Resource Advocates: Make a Gift - Western Resource Advocates
+  https://westernresourceadvocates.org/donate-now/
+- Western Resource Advocates: Email Sign Up - Western Resource Advocates
+  https://westernresourceadvocates.org/email-sign-up
+- Western Resource Advocates: Email Sign Up - Western Resource Advocates
+  https://westernresourceadvocates.org/email-sign-up/
+- Western Resource Advocates: Field Notes - Western Resource Advocates
+  https://westernresourceadvocates.org/field-notes
+- Western Resource Advocates: Field Notes - Western Resource Advocates
+  https://westernresourceadvocates.org/field-notes/
+- Western Resource Advocates: Internships - Western Resource Advocates
+  https://westernresourceadvocates.org/internships-at-wra/
+- Western Resource Advocates: Media Center - Western Resource Advocates
+  https://westernresourceadvocates.org/media-center/
+- Western Resource Advocates: Monthly Giving - Western Resource Advocates
+  https://westernresourceadvocates.org/monthly-giving/
+- Western Resource Advocates: News - Western Resource Advocates
+  https://westernresourceadvocates.org/news
+- Western Resource Advocates: Our Expertise - Western Resource Advocates
+  https://westernresourceadvocates.org/our-expertise
+- Western Resource Advocates: Our Expertise - Western Resource Advocates
+  https://westernresourceadvocates.org/our-expertise/
+- Western Resource Advocates: Our Impact - Western Resource Advocates
+  https://westernresourceadvocates.org/our-impact
+- Western Resource Advocates: Our Impact - Western Resource Advocates
+  https://westernresourceadvocates.org/our-impact/
+- Western Resource Advocates: Our Solutions - Western Resource Advocates
+  https://westernresourceadvocates.org/our-solutions
+- Western Resource Advocates: Our Solutions - Western Resource Advocates
+  https://westernresourceadvocates.org/our-solutions/
+- Western Resource Advocates: Partners & Coalitions - Western Resource Advocates
+  https://westernresourceadvocates.org/partners-coalitions/
+- Western Resource Advocates: Planned Giving - Western Resource Advocates
+  https://westernresourceadvocates.org/planned-giving/
+- Western Resource Advocates: Podcasts Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/podcasts
+- Western Resource Advocates: Privacy Policy - Western Resource Advocates
+  https://westernresourceadvocates.org/privacy-policy/
+- Western Resource Advocates: Publications Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/publications
+- Western Resource Advocates: See Your Donation at Work - Western Resource Advocates
+  https://westernresourceadvocates.org/see-your-donation-at-work/
+- Western Resource Advocates: Social Media Comment Policy - Western Resource Advocates
+  https://westernresourceadvocates.org/social-media-comment-policy
+- Western Resource Advocates: Staff Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/staff
+- Western Resource Advocates: Urgent State Action - Western Resource Advocates
+  https://westernresourceadvocates.org/urgent-state-action
+- Western Resource Advocates: Urgent State Action - Western Resource Advocates
+  https://westernresourceadvocates.org/urgent-state-action/
+- Western Resource Advocates: Vision & Mission - Western Resource Advocates
+  https://westernresourceadvocates.org/vision-mission/
+- Western Resource Advocates: Ways to Give - Western Resource Advocates
+  https://westernresourceadvocates.org/ways-to-give
+- Western Resource Advocates: Ways to Give - Western Resource Advocates
+  https://westernresourceadvocates.org/ways-to-give/
+- Western Resource Advocates: We Advance Clean Energy & Reduce Climate Pollution - Western Resource Advocates
+  https://westernresourceadvocates.org/we-advance-clean-energy-and-reduce-climate-pollution/
+- Western Resource Advocates: We Protect Lands, Improve Habitat & Access - Western Resource Advocates
+  https://westernresourceadvocates.org/we-protect-lands-and-improve-habitat-and-access/
+- Western Resource Advocates: We Save Water & Protect Rivers - Western Resource Advocates
+  https://westernresourceadvocates.org/we-save-water-and-protect-rivers/
+- Western Resource Advocates: Webinars Archive - Western Resource Advocates
+  https://westernresourceadvocates.org/webinars
+- Western Resource Advocates: Why I Give - Western Resource Advocates
+  https://westernresourceadvocates.org/why-i-give/
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&&source=EN&selectedMenuKey=CurrentOpenings
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200801181714_1&&source=EN
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805741693_1&&source=EN
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805878916_1&&source=EN
+- Western Resource Advocates: Charity Ratings and Donor Resources | Charity Navigator
+  https://www.charitynavigator.org/index.cfm?bay=search.summary&orgid=10844
+- Western Resource Advocates: Western Resource Advocates | Boulder CO
+  https://www.facebook.com/westernresourceadvocates
+- Western Resource Advocates: Western Resource Advocates - GuideStar Profile
+  https://www.guidestar.org/profile/shared/f4f3943f-c11a-448f-a076-5084db2f98ca
+- Western Resource Advocates: Western Resource Advocates | LinkedIn
+  https://www.linkedin.com/company/western-resource-advocates
+- Western Resource Advocates: Western Resource Advocates - YouTube
+  https://www.youtube.com/user/westernresources
+- ADP Workforce: Supported Internet Browsers and Operating Systems
+  https://support.adp.com/pub/paas/login_page/common/en_US/empl/netscr/base/logon/wfn_req.htm
+- Piersight: The Best Hiring Software & Recruitment Platform - GoHire
+  https://gohire.io
+- Piersight: Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/
+- Piersight: AOCS / Flight Dynamics Engineer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/aocs-flight-dynamics-engineer-270088/
+- Piersight: Backend Developer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/backend-developer-274388/
+- Piersight: Electrical AIT Engineer  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/electrical-ait-engineer-253866/
+- Piersight: Embedded Hardware Intern at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/embedded-hardware-intern-270357/
+- Piersight: Lead - RF & Antenna Design Engineer  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/lead-rf-and-antenna-design-engineer-274982/
+- Piersight: Mission Control Software Engineer - Backend  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/mission-control-software-engineer-backend-255575/
+- Piersight: Power Electronics Engineer  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/power-electronics-engineer-272885/
+- Piersight: RF Design Engineer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/rf-design-engineer-274986/
+- Piersight: Satellite Systems Engineer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/satellite-systems-engineer-267521/
+- Piersight: Senior Electrical Assembly Integration & Test Engineer  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/senior-electrical-assembly-integration-and-test-engineer-266338/
+- Piersight: Senior Satellite Ground Checkout/EGSE Engineer  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/senior-satellite-ground-checkout-egse-engineer-266339/
+- Piersight: Senior Satellite Systems Engineer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/senior-satellite-systems-engineer-267808/
+- Piersight: Structural Analysis Engineer – Electronics & Mechanical Packaging  at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/structural-analysis-engineer-electronics-and-mechanical-packaging-272887/
+- Piersight: Thermal Analysis Engineer at PierSight | Jobs at PierSight
+  https://jobs.gohire.io/piersight-rfd9c90d/thermal-analysis-engineer-263035/
+- Piersight: PierSight - Persistent Surveillance for the Maritime Industry
+  https://www.piersight.space
