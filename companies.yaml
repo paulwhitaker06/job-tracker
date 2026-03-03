@@ -1,5 +1,6 @@
 companies:
-  - name: Satelligence
+
+ - name: Satelligence
     type: html_links
     url: https://satelligence.com/careers/
     link_contains: homerun.co
@@ -20,3 +21,196 @@ companies:
   - name: Pixxel
     type: playwright
     url: https://pixxel.darwinbox.in/ms/candidate/careers
+    
+  - name: Hawkeye 360
+    type: html_links
+    url: https://hawkeye360.applicantstack.com/x/openings
+    link_contains: applicantstack.com
+
+  - name: Loft Orbital
+    type: html_links
+    url: https://jobs.lever.co/loftorbital/
+    link_contains: jobs.lever.co
+
+  - name: Jupiter Intelligence
+    type: html_links
+    url: https://jobs.lever.co/jupiterintel
+    link_contains: jobs.lever.co
+
+  - name: Terrascope
+    type: html_links
+    url: https://jobs.lever.co/terrascope
+    link_contains: jobs.lever.co
+
+  - name: EarthDaily
+    type: html_links
+    url: https://earthdaily.applytojob.com/apply/
+    link_contains: applytojob.com
+
+  - name: Watershed
+    type: html_links
+    url: https://watershed.com/careers
+    link_contains: watershed.com
+
+  - name: NatureMetrics
+    type: html_links
+    url: https://naturemetrics.jobs.personio.de/?language=en
+    link_contains: jobs.personio.de
+
+  - name: LiveEO
+    type: html_links
+    url: https://liveeo-gmbh.jobs.personio.de/?language=en
+    link_contains: jobs.personio.de
+
+  - name: GHG Sat
+    type: html_links
+    url: https://apply.workable.com/ghgsat/?lng=en
+    link_contains: apply.workable.com
+
+  - name: Kayrros
+    type: html_links
+    url: https://kayrros1.recruitee.com/
+    link_contains: recruitee.com
+
+  - name: Carbon Mapper
+    type: html_links
+    url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
+    link_contains: jobs.gusto.com/boards
+
+  - name: Planet Labs
+    type: html_links
+    url: https://job-boards.greenhouse.io/planetlabs
+    link_contains: job-boards.greenhouse.io
+
+  - name: Overstory
+    type: html_links
+    url: https://job-boards.eu.greenhouse.io/overstory
+    link_contains: greenhouse.io
+
+  - name: Persefoni
+    type: html_links
+    url: https://job-boards.greenhouse.io/persefoniaiinc
+    link_contains: job-boards.greenhouse.io
+
+  - name: Carbon Direct
+    type: html_links
+    url: https://job-boards.greenhouse.io/carbondirect
+    link_contains: job-boards.greenhouse.io
+
+  - name: Treefera
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/treefera
+
+  - name: Sylvera
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/sylvera
+
+  - name: Piersight
+    type: html_links
+    url: https://jobs.gohire.io/piersight-rfd9c90d/
+    link_contains: gohire.io
+
+  - name: Upstream Tech
+    type: html_links
+    url: https://jobs.upstream.tech/
+    link_contains: jobs.upstream.tech
+
+  - name: WindBorne Systems
+    type: html_links
+    url: https://windbornesystems.com/open-roles
+    link_contains: windbornesystems.com
+
+  - name: OroraTech
+    type: html_links
+    url: https://ororatech.com/company/careers
+    link_contains: /company/careers/
+
+  - name: Hydrosat
+    type: html_links
+    url: https://careers.hydrosat.com/
+    link_contains: hydrosat.com
+
+  - name: Spire Global
+    type: html_links
+    url: https://spire.com/careers/job-openings/
+    link_contains: spire.com
+
+  - name: Sust Global
+    type: html_links
+    url: https://www.sustglobal.com/careers
+    link_contains: sustglobal.com
+
+  - name: ClimateAi
+    type: html_links
+    url: https://climate.ai/careers/
+    link_contains: climate.ai
+
+  - name: SkyFi
+    type: html_links
+    url: https://skyfi.com/en/careers
+    link_contains: skyfi.com
+
+  - name: Orbio
+    type: html_links
+    url: https://www.orbio.earth/careers
+    link_contains: orbio.earth
+
+  - name: Satlantis
+    type: html_links
+    url: https://www.satlantis.com/job-offers/?job_listing_category=72
+    link_contains: satlantis.com
+
+  - name: Downforce Technologies
+    type: html_links
+    url: https://www.downforce.tech/careers
+    link_contains: downforce.tech
+
+  - name: Capella Space
+    type: html_links
+    url: https://www.capellaspace.com/company/careers#open-positions
+    link_contains: capellaspace.com
+
+  - name: Umbra
+    type: html_links
+    url: https://umbra.space/careers/job-openings/
+    link_contains: umbra.space
+
+  - name: BlackSky
+    type: html_links
+    url: https://blacksky.com/company/careers/
+    link_contains: blacksky.com
+
+  - name: GeoOptics
+    type: html_links
+    url: https://geooptics.com/careers-2-2/
+    link_contains: geooptics.com
+
+  - name: EarthDaily (alternate page)
+    type: html_links
+    url: https://earthdaily.com/job-openings
+    link_contains: earthdaily.com
+
+  - name: Western Resource Advocates
+    type: html_links
+    url: https://westernresourceadvocates.org/careers-at-wra/
+    link_contains: westernresourceadvocates.org
+
+  - name: Axiom Space (Workday)
+    type: playwright
+    url: https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site
+
+  - name: ADP Workforce Now board
+    type: playwright
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&&source=EN&selectedMenuKey=CurrentOpenings
+
+  - name: Pixxel (Darwinbox)
+    type: playwright
+    url: https://pixxel.darwinbox.in/ms/candidate/careers
+
+  - name: Kanop (Notion careers)
+    type: playwright
+    url: https://kanop.notion.site/Careers-kanop-c3b4779be5f34baea604292bc737da2c
+
+  - name: Tomorrow.io
+    type: playwright
+    url: https://www.tomorrow.io/careers/
