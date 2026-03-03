@@ -120,7 +120,19 @@ def get_playwright_page_change(company: dict) -> list[dict]:
             "title": "Careers page changed (JS site)",
         }
     ]
+def fetch_title(url: str) -> str:
+    try:
+        r = requests.get(url, timeout=30, headers={"User-Agent": "job-tracker/1.0"})
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
 
+        if soup.title and soup.title.string:
+            return soup.title.string.strip()
+
+    except Exception:
+        pass
+
+    return ""
 
 def send_email(subject: str, body: str) -> None:
     host = os.environ.get("SMTP_HOST")
