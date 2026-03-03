@@ -1,19 +1,4 @@
 Daily job tracker digest
-Run time: 2026-03-03 21:10 UTC
+Run time: 2026-03-03 21:14 UTC
 
-New items: 7
-
-- Satelligence: (no title captured)
-  https://satelligence.homerun.co/full-stack-developer/en
-- Satelligence: (no title captured)
-  https://satelligence.homerun.co/junior-data-engineer/en
-- Satelligence: (no title captured)
-  https://satelligence.homerun.co/open-application/en/
-- Satelligence: (no title captured)
-  https://satelligence.homerun.co/sales-marketing-intern/en
-- Treefera: Career Returners & Career Changers
-  https://jobs.ashbyhq.com/treefera/adbd4942-81a9-4633-9489-54387e366a53
-- Treefera: Treefera's Future Talent Community
-  https://jobs.ashbyhq.com/treefera/1ecd78ad-9512-494b-a492-e87c45b65fad
-- Pixxel: Careers page changed (JS site)
-  https://pixxel.darwinbox.in/ms/candidate/careers
+No new items today.
