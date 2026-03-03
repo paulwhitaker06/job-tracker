@@ -205,8 +205,7 @@ def main():
     with open("latest_digest.txt", "w", encoding="utf-8") as f:
         f.write(body)
 
-    # Email only when something new appears
-    if new_items:
+
         send_email(subject, body)
 
     print(body)
