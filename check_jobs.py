@@ -150,10 +150,16 @@ def send_email(subject: str, body: str) -> None:
     msg["From"] = user
     msg["To"] = to_email
 
-    with smtplib.SMTP(host, port) as server:
-        server.starttls()
-        server.login(user, password)
-        server.sendmail(user, [to_email], msg.as_string())
+    try:
+        with smtplib.SMTP(host, port, timeout=30) as server:
+            server.ehlo()
+            server.starttls()
+            server.ehlo()
+            server.login(user, password)
+            server.sendmail(user, [to_email], msg.as_string())
+        print(f"Email sent to {to_email}")
+    except Exception as e:
+        print(f"Email send failed: {type(e).__name__}: {e}")
 
 def main():
     print("JOB TRACKER STARTED")
