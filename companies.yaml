@@ -1,6 +1,6 @@
 companies:
 
- - name: Satelligence
+ -  name: Satelligence
     type: html_links
     url: https://satelligence.com/careers/
     link_contains: homerun.co
