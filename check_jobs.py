@@ -1,4 +1,4 @@
-print("CHECK_JOBS.PY LOADED")
+
 import os
 import json
 import hashlib
@@ -243,3 +243,5 @@ def main():
     print("EMAIL FUNCTION RETURNED")
 
     print(body)
+if __name__ == "__main__":
+    main()
