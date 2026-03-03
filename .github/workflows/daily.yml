@@ -1,0 +1,25 @@
+name: Daily Job Check
+
+on:
+  schedule:
+    - cron: '0 13 * * *'  # Runs daily at 13:00 UTC
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: |
+          pip install requests pyyaml beautifulsoup4
+
+      - name: Run script
+        run: python check_jobs.py
