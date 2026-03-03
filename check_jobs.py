@@ -237,6 +237,8 @@ def main():
     with open("latest_digest.txt", "w", encoding="utf-8") as f:
         f.write(body)
 
+    print("ABOUT TO SEND EMAIL")
     send_email(subject, body)
+    print("EMAIL FUNCTION RETURNED")
 
     print(body)
