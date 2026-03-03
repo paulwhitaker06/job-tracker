@@ -155,7 +155,6 @@ def send_email(subject: str, body: str) -> None:
         server.login(user, password)
         server.sendmail(user, [to_email], msg.as_string())
 
-
 def main():
     with open("companies.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
@@ -181,14 +180,27 @@ def main():
 
             for item in items:
                 item_id = item["id"]
+
                 if item_id not in seen:
+                    title = item.get("title") or ""
+
+                    if not title and item.get("url"):
+                        title = fetch_title(item["url"])
+
                     seen[item_id] = {
                         "company": name,
                         "url": item["url"],
-                        "title": item.get("title"),
+                        "title": title,
                         "first_seen_utc": datetime.now(timezone.utc).isoformat(),
                     }
-                    new_items.append({"company": name, **item})
+
+                    new_items.append(
+                        {
+                            "company": name,
+                            "url": item["url"],
+                            "title": title,
+                        }
+                    )
 
         except Exception as e:
             print(f"Error with {name}: {e}")
@@ -200,6 +212,7 @@ def main():
     lines.append("Daily job tracker digest")
     lines.append(f"Run time: {now_utc}")
     lines.append("")
+
     if new_items:
         lines.append(f"New items: {len(new_items)}")
         lines.append("")
@@ -217,11 +230,6 @@ def main():
     with open("latest_digest.txt", "w", encoding="utf-8") as f:
         f.write(body)
 
-
-        send_email(subject, body)
+    send_email(subject, body)
 
     print(body)
-
-
-if __name__ == "__main__":
-    main()
