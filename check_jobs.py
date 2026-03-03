@@ -1,3 +1,4 @@
+print("CHECK_JOBS.PY LOADED")
 import os
 import json
 import hashlib
