@@ -1,797 +1,129 @@
 Daily job tracker digest
-Run time: 2026-03-04 00:11 UTC
+Run time: 2026-03-04 00:19 UTC
 
-New items: 396
+New items: 62
 
-- Pixxel: Careers page changed (JS site)
-  https://pixxel.darwinbox.in/ms/candidate/careers
-- Treefera: Career Returners & Career Changers
-  https://jobs.ashbyhq.com/treefera/adbd4942-81a9-4633-9489-54387e366a53
-- Treefera: Treefera's Future Talent Community
-  https://jobs.ashbyhq.com/treefera/1ecd78ad-9512-494b-a492-e87c45b65fad
-- Hawkeye360: Submit a General Application - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/apply/a2rlcjeweely
-- Hawkeye360: Senior RF Systems Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcje0ls2f
-- Hawkeye360: Principal Software-Systems Architect - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcje1bkcr
-- Hawkeye360: Senior Software Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcje4cdk8
-- Hawkeye360: Senior Solutions Engineer, US Government - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjed10yv
-- Hawkeye360: Senior Solutions Engineer, APAC - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjedhtg9
-- Hawkeye360: Cloud Cybersecurity Engineer  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjee94w9
-- Hawkeye360: Senior Software Engineer, Software Operations - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjee97dl
-- Hawkeye360: Senior Systems Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeez6fg
-- Hawkeye360: ELINT Analyst - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjehliy1
-- Hawkeye360: Principal Systems Engineer - RF/SATCOM - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjekot4i
-- Hawkeye360: Account Executive, Japan  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeneaiy
-- Hawkeye360: Senior Spacecraft Electrical Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeo87d9
-- Hawkeye360: Senior Staff Accountant  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeod7mg
-- Hawkeye360: Senior Solutions Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeogv7d
-- Hawkeye360: Account Executive, Space Force - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjep1s18
-- Hawkeye360: Principal Software Engineer- Signal Processing  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjep6o55
-- Hawkeye360: Senior Analytics Engineer  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjeq2nyx
-- Hawkeye360: Corporate Strategy Manager - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjerfpio
-- Hawkeye360: Systems Engineer - Modeling & Sim  - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjerqqe8
-- Hawkeye360: Principal Solutions Engineer, US Government - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjet7qe3
-- Hawkeye360: Lead Intelligence Solutions Analyst - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjewn88p
-- Hawkeye360: Director, Special Programs - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexb9f8
-- Hawkeye360: Associate System Operations Engineer - Japan - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexoeps
-- Hawkeye360: Senior Satellite Embedded Engineer - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjexyz20
-- Hawkeye360: Controller - HawkEye 360/ISA - HawkEye 360
-  https://hawkeye360.applicantstack.com/x/detail/a2rlcjey0t0o
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital
-- Loft Orbital: Loft Orbital Solutions - Sr. Edge Compute Software Engineer
-  https://jobs.lever.co/loftorbital/00dcbe89-075d-42b2-96d9-615e265e5eba
-- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
-  https://jobs.lever.co/loftorbital/0b56a50e-0e96-4954-95bf-7908d34a688e
-- Loft Orbital: Loft Orbital Solutions - Open Application
-  https://jobs.lever.co/loftorbital/0e976afb-4243-4951-9000-b52daa5f6d10
-- Loft Orbital: Loft Orbital Solutions - Manufacturing Engineer
-  https://jobs.lever.co/loftorbital/181e4924-ed45-47eb-b27b-d9bc6c8c52e2
-- Loft Orbital: Loft Orbital Solutions - Business Development Manager
-  https://jobs.lever.co/loftorbital/1deb3851-0a9c-41bc-b369-7be65336a0d7
-- Loft Orbital: Loft Orbital Solutions - Manufacturing Software Engineer
-  https://jobs.lever.co/loftorbital/200bdc0a-274a-49ef-89a5-0cd6bdc6fcdb
-- Loft Orbital: Loft Orbital Solutions - Satellite Operations Lead (Orbitworks - UAE)
-  https://jobs.lever.co/loftorbital/20e5693b-d7ab-427b-bd5c-0d809aa5d22e
-- Loft Orbital: Loft Orbital Solutions - FPGA Engineer
-  https://jobs.lever.co/loftorbital/21dd991a-fcec-42c9-ad5b-94cef5d3818e
-- Loft Orbital: Loft Orbital Solutions - Senior Contracts Manager
-  https://jobs.lever.co/loftorbital/23beae0e-d350-4cdd-b431-9fd014356d07
-- Loft Orbital: Loft Orbital Solutions - Embedded Software Engineer
-  https://jobs.lever.co/loftorbital/26ccf1ca-b425-4733-8e1b-4f79848e2c31
-- Loft Orbital: Loft Orbital Solutions - Senior Satellite Program Manager
-  https://jobs.lever.co/loftorbital/2d6d3053-c88b-480a-bcc2-883aa69bb246
-- Loft Orbital: Loft Orbital Solutions - Technical Program Manager, Hardware
-  https://jobs.lever.co/loftorbital/31bd80f9-6650-415b-aae3-8ec1403b4b65
-- Loft Orbital: Loft Orbital Solutions - Technical Recruiter
-  https://jobs.lever.co/loftorbital/3413b776-6e99-4ed8-85c6-52948c3751e9
-- Loft Orbital: Loft Orbital Solutions - Senior Site Reliability Engineer
-  https://jobs.lever.co/loftorbital/3ae5c3e3-c1e0-4311-83b5-0b6cea03b390
-- Loft Orbital: Loft Orbital Solutions - Senior Security Engineer
-  https://jobs.lever.co/loftorbital/4752a280-0eb9-4ce1-b369-0652d4445dfb
-- Loft Orbital: Loft Orbital Solutions - Supply Chain Manager
-  https://jobs.lever.co/loftorbital/47a4dd1e-e3c7-4aa3-aaa1-9ada5d1664cc
-- Loft Orbital: Loft Orbital Solutions - Senior Electrical Systems Engineer
-  https://jobs.lever.co/loftorbital/4fc6ad27-050a-4d1b-aaa2-26a08760e53d
-- Loft Orbital: Loft Orbital Solutions - Open Application
-  https://jobs.lever.co/loftorbital/530e3539-90dd-4355-ac1e-b2beaeab7a31
-- Loft Orbital: Loft Orbital Solutions - Security & Compliance Team Lead
-  https://jobs.lever.co/loftorbital/5646ef12-7bf9-4eb1-8cb1-a185a0f5d647
-- Loft Orbital: Loft Orbital Solutions - VP of Business Development
-  https://jobs.lever.co/loftorbital/5fb9c139-3bdc-4ee8-8944-f02a44ab8921
-- Loft Orbital: Loft Orbital Solutions - Facilities Lead
-  https://jobs.lever.co/loftorbital/63fc16b4-61d6-48d0-a22e-522abf7d8acf
-- Loft Orbital: Loft Orbital Solutions - Satellite Operations Software Engineer
-  https://jobs.lever.co/loftorbital/664a2c37-e865-479c-ba51-2d946c8f209e
-- Loft Orbital: Loft Orbital Solutions - Senior FPGA Engineer
-  https://jobs.lever.co/loftorbital/670d4214-83ab-498d-a95e-2d13949d716a
-- Loft Orbital: Loft Orbital Solutions - Senior Sales Engineer - EMEA
-  https://jobs.lever.co/loftorbital/67d3789d-edfc-4bbb-a753-239da59d4d0d
-- Loft Orbital: Loft Orbital Solutions - Embedded Software Engineer
-  https://jobs.lever.co/loftorbital/67dc78e0-25b1-4f62-a6bf-1e865469821e
-- Loft Orbital: Loft Orbital Solutions - Senior Embedded Software Engineer
-  https://jobs.lever.co/loftorbital/6914d685-4e2f-45c5-a75a-33d903ef8363
-- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
-  https://jobs.lever.co/loftorbital/6a588112-01a4-425b-8ec8-90a57866a0df
-- Loft Orbital: Loft Orbital Solutions - Technical Recruiter
-  https://jobs.lever.co/loftorbital/6b017c07-ad42-4a98-a9c1-dee5bc62447a
-- Loft Orbital: Loft Orbital Solutions - Sr. Director, Business Development - US
-  https://jobs.lever.co/loftorbital/6c07424a-607b-4970-9569-103abbfe4177
-- Loft Orbital: Loft Orbital Solutions - Test Engineer
-  https://jobs.lever.co/loftorbital/6d4675f6-4a3f-4e2f-b303-818f6b0d2c61
-- Loft Orbital: Loft Orbital Solutions - Director, Business Development - Germany
-  https://jobs.lever.co/loftorbital/6fd96b61-515b-41fa-b410-91ed6e5451bb
-- Loft Orbital: Loft Orbital Solutions - AIT Technician
-  https://jobs.lever.co/loftorbital/711360ce-0c82-4032-9e57-a01f778792eb
-- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Data Management Services
-  https://jobs.lever.co/loftorbital/750c2cdf-e914-4bd4-a86b-abb6044956bd
-- Loft Orbital: Loft Orbital Solutions - Security & Compliance Team Lead
-  https://jobs.lever.co/loftorbital/75c0ab4a-7bfd-478f-9fee-8e149af061ed
-- Loft Orbital: Loft Orbital Solutions - Sr. Edge Compute Software Engineer
-  https://jobs.lever.co/loftorbital/819447a3-1664-4a63-8c28-df2fdde43526
-- Loft Orbital: Loft Orbital Solutions - Onboard Software Engineer - Peripheral Services
-  https://jobs.lever.co/loftorbital/8d4c888e-2a6b-4f39-a262-88cef3d119d1
-- Loft Orbital: Loft Orbital Solutions - Production Engineer
-  https://jobs.lever.co/loftorbital/949981ab-8420-4a1f-9003-7fefb0819280
-- Loft Orbital: Loft Orbital Solutions - Technical Program Manager, Hardware
-  https://jobs.lever.co/loftorbital/9b5a2fd9-3c57-497a-add7-163541d8f07d
-- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Cutest
-  https://jobs.lever.co/loftorbital/a4173f92-10bb-455c-b658-07b3ab208bee
-- Loft Orbital: Loft Orbital Solutions - Sr. Onboard Software Engineer
-  https://jobs.lever.co/loftorbital/a693e044-c07e-421f-bdb3-897f796f63fe
-- Loft Orbital: Loft Orbital Solutions - Office Manager
-  https://jobs.lever.co/loftorbital/ac154bf7-8f55-42e6-8bf2-1d5cab5386da
-- Loft Orbital: Loft Orbital Solutions - Senior Software Engineer - Space Infrastructure
-  https://jobs.lever.co/loftorbital/aceef547-b747-47fc-bc42-e490e8caeded
-- Loft Orbital: Loft Orbital Solutions - Senior Full-Stack Engineer
-  https://jobs.lever.co/loftorbital/b1fd9465-963c-4fec-812e-2f8ab3139e97
-- Loft Orbital: Loft Orbital Solutions - Jr. Test Technician [Only Emirati]
-  https://jobs.lever.co/loftorbital/b3d584ac-fc51-40a1-8eaf-36b01c0e5273
-- Loft Orbital: Loft Orbital Solutions - Receiving Specialist
-  https://jobs.lever.co/loftorbital/b99dbe3d-bafb-43c0-a0ce-232aa13111aa
-- Loft Orbital: Loft Orbital Solutions - Customer Delivery Engineer
-  https://jobs.lever.co/loftorbital/c49e5ba7-e040-4a2f-b28c-4bff3c398178
-- Loft Orbital: Loft Orbital Solutions - System Verification Architect
-  https://jobs.lever.co/loftorbital/c5e85019-1606-44f5-8fb6-f3a4e494814d
-- Loft Orbital: Loft Orbital Solutions - Backend Engineer - Mission Operations Services
-  https://jobs.lever.co/loftorbital/c6ac5dfa-5292-483c-adff-a8f17e79b7f5
-- Loft Orbital: Loft Orbital Solutions - Accounting Manager
-  https://jobs.lever.co/loftorbital/c741bdcd-cb66-4c28-b8dc-a5d4d2acc8ca
-- Loft Orbital: Loft Orbital Solutions - Inventory & Logistics Lead
-  https://jobs.lever.co/loftorbital/c8fc8b5c-b907-427b-9c26-5fe64f711a15
-- Loft Orbital: Loft Orbital Solutions - Senior Environmental Test Engineer
-  https://jobs.lever.co/loftorbital/cc276128-3c4b-4422-a0bf-e2ed8e7b6267
-- Loft Orbital: Loft Orbital Solutions - Director, Strategic Initiatives - EMEA
-  https://jobs.lever.co/loftorbital/d0a54a5b-fa85-4593-99b3-3a1274fdb1ab
-- Loft Orbital: Loft Orbital Solutions - Director, Space Infrastructure
-  https://jobs.lever.co/loftorbital/d13da42f-1326-4f95-8ce2-2a776e199ca1
-- Loft Orbital: Loft Orbital Solutions - Security Officer
-  https://jobs.lever.co/loftorbital/d25b3cff-61ca-42ac-8721-bf156f2b98f1
-- Loft Orbital: Loft Orbital Solutions - Director of Industrial Management
-  https://jobs.lever.co/loftorbital/d93e18fd-bf05-4a02-82d2-8d549797fe16
-- Loft Orbital: Loft Orbital Solutions - Satellite Program Manager
-  https://jobs.lever.co/loftorbital/dc1538b5-d315-4993-9e3a-81ec8cc6bbf2
-- Loft Orbital: Loft Orbital Solutions - Senior Security Engineer
-  https://jobs.lever.co/loftorbital/deb55e7c-d282-478d-90c8-a812aea47a68
-- Loft Orbital: Loft Orbital Solutions - Satellite Program Manager
-  https://jobs.lever.co/loftorbital/ec358375-0c36-4f71-9d2e-6935aaa4f619
-- Loft Orbital: Loft Orbital Solutions - Ground Software Solutions Engineer
-  https://jobs.lever.co/loftorbital/ef1ea76a-2ee7-4e07-a120-e0a2844ca625
-- Loft Orbital: Loft Orbital Solutions - Test Infrastructure Engineer
-  https://jobs.lever.co/loftorbital/ef8685ea-6642-4128-9d57-3d481fead175
-- Loft Orbital: Loft Orbital Solutions - Senior Sales Manager, Americas
-  https://jobs.lever.co/loftorbital/f48e757b-27c8-4b8c-87b3-f56dd6954102
-- Loft Orbital: Loft Orbital Solutions - Senior Embedded Software Engineer
-  https://jobs.lever.co/loftorbital/f7aa6c31-b60b-49ba-a731-10254d908f89
-- Loft Orbital: Loft Orbital Solutions - VP, Business Development - EMEA
-  https://jobs.lever.co/loftorbital/f8362e60-5914-4a0c-ab59-dfac9a0df52d
-- Loft Orbital: Loft Orbital Solutions - Spacecraft Deployment Engineer
-  https://jobs.lever.co/loftorbital/ffc9033f-bad2-4bd9-a625-d6c6bd5fdec3
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?commitment=
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?commitment=Full%20time
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Business%20Operations
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=Compliance%20%26%20Regulatory%20Affairs
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=Finance
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Business%20Operations&team=People
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Customer%20Engineering%20%26%20Experience
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Customer%20Engineering%20%26%20Experience&team=Customer%20Delivery
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Hardware
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Hardware&team=Embedded%20Software
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Hardware&team=Technical%20Program%20Management
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Infrastructure
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Cloud%20Infrastructure
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Security%20and%20Compliance
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Infrastructure&team=Space%20Infrastructure
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Mission%20%26%20Program%20Engineering
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Mission%20%26%20Program%20Engineering&team=Software%20Solutions
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Operations
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Operations&team=Assembly%2C%20Integration%20%26%20Test
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Operations&team=Facilities
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Operations&team=Supply%20Chain
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Orbitworks
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Business%20Development
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Engineering%20Infrastructure
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Operations
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Orbitworks&team=Satellite%20%26%20Customer%20Operations
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Business%20Development
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Sales
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Sales%20%26%20Business%20Development&team=Sales%20Engineering
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Satellite%20Program%20Management
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Satellite%20Program%20Management&team=Satellite%20Program%20Management
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Software
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Software&team=Cockpit
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Software&team=Cutest
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Software&team=Onboard%20Software
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Software&team=Oort
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Uncategorized
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?department=Uncategorized&team=General
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Abu%20Dhabi
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Germany
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Golden%2C%20CO
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Golden%2C%20CO%20or%20San%20Francisco
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Remote%20EU
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Remote%20US
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Remote%2C%20France
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=San%20Francisco%2C%20CA
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?location=Toulouse
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?workplaceType=hybrid
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?workplaceType=onsite
-- Loft Orbital: Loft Orbital Solutions
-  https://jobs.lever.co/loftorbital?workplaceType=remote
-- Loft Orbital: Job Seeker Support - Lever
-  https://www.lever.co/job-seeker-support/
-- EarthDaily: EarthDaily Analytics - Career Page
-  http://earthdaily.applytojob.com/apply/
-- EarthDaily: IT Systems Administrator - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/2tLibX5Lex/IT-Systems-Administrator
-- EarthDaily: Sr. Software Engineer - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/AcXUJLBsep/Sr-Software-Engineer
-- EarthDaily: Senior Remote Sensing Geologist - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/E9DxgZB76i/Senior-Remote-Sensing-Geologist
-- EarthDaily: Sr. Software Engineer (ML Researcher) - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/EOBQ4K7cne/Sr-Software-Engineer-ML-Researcher
-- EarthDaily: Spectral Geologist - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/IHRuMXVdnz/Spectral-Geologist
-- EarthDaily: Account Executive, United States - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/Ih6szCNTia/Account-Executive-United-States
-- EarthDaily: Senior Corporate Accountant - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/RPS5fG8MkO/Senior-Corporate-Accountant
-- EarthDaily: Account Executive, Northern LATAM - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/WaHizPbFLH/Account-Executive-Northern-LATAM
-- EarthDaily: Director, Sales - Defence (Europe) - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/Ys1Hg8vOwP/Director-Sales-Defence-Europe
-- EarthDaily: Director, Product Management - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/bXkSoveoyd/Director-Product-Management
-- EarthDaily: Account Executive, MEA - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/fqhMsQGi3y/Account-Executive-MEA
-- EarthDaily: Intermediate Software Engineer III (ML Infrastructure) - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/hEUzcEVKIB/Intermediate-Software-Engineer-III-ML-Infrastructure
-- EarthDaily: Intermediate Software Engineer II - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/hYpa2de6RE/Intermediate-Software-Engineer-II
-- EarthDaily: Accounting Manager - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/j6zQn3q1Vf/Accounting-Manager
-- EarthDaily: Senior Account Executive/Account Executive, North and Southeast Asia (NSEA) - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/k8xmF1k7IB/Senior-Account-ExecutiveAccount-Executive-North-And-Southeast-Asia-NSEA
-- EarthDaily: Sales Development Representative (EMEA) - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/p0YHb8WEYG/Sales-Development-Representative-EMEA
-- EarthDaily: Enterprise Account Executive/Senior Enterprise Account Executive D&I - Australia - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/qVEixHdBrU/Enterprise-Account-ExecutiveSenior-Enterprise-Account-Executive-DI-Australia
-- EarthDaily: Account Executive, Government Sales - Africa - EarthDaily Analytics - Career Page
-  https://earthdaily.applytojob.com/apply/sJKcpgJ5QB/Account-Executive-Government-Sales-Africa
-- EarthDaily: Job Seeker Resources
-  https://info.jazzhr.com/job-seekers.html
-- NatureMetrics: Conservation Account Manager | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2494074?language=en
-- NatureMetrics: Solutions Ecologist | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2497851?language=en
-- NatureMetrics: Senior Product Engineer | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2542374?language=en
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel
-- Jupiter Intelligence: Jupiter Intelligence, Inc. - Flood Modeler (Contract)
-  https://jobs.lever.co/jupiterintel/6f31ac96-b71e-44ff-84aa-1b6b4bb808ec
-- Jupiter Intelligence: Jupiter Intelligence, Inc. - Principal, Customer Success
-  https://jobs.lever.co/jupiterintel/e949533a-02ef-4d41-939e-8020b6d7e469
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?commitment=Contractor
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?commitment=Full%20Time
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?location=All%20-%20San%20Mateo%2C%20CA%20%20%7C%20%20Boulder%2C%20CO%20%20%7C%20%20%20New%20York%2C%20NY
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?team=Earth%20%26%20Ocean%20Systems
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?team=Solutions
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?workplaceType=hybrid
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?workplaceType=onsite
-- Jupiter Intelligence: Jupiter Intelligence, Inc.
-  https://jobs.lever.co/jupiterintel?workplaceType=remote
-- Jupiter Intelligence: Job Seeker Support - Lever
-  https://www.lever.co/job-seeker-support/
-- Sylvera: Customer Success Manager
-  https://jobs.ashbyhq.com/sylvera/a11335b1-81bd-4118-83cf-c6753ec70cb8
-- Sylvera: Customer Success Manager
-  https://jobs.ashbyhq.com/sylvera/c39274c4-ccf7-47ff-afb1-a7f4e58131b9
-- Sylvera: Field Operations Intern
-  https://jobs.ashbyhq.com/sylvera/753f2bb9-0e5a-41b7-9e91-553af4d7d73a
-- Sylvera: Sales Development Representative
-  https://jobs.ashbyhq.com/sylvera/03752697-fa8d-40ba-b6d0-80e5dbc7cbf6
-- Sylvera: Lead Customer Success Manager
-  https://jobs.ashbyhq.com/sylvera/af1238fd-2dec-4100-addf-163b8c23ccd6
-- Sylvera: Carbon Analyst Intern
-  https://jobs.ashbyhq.com/sylvera/16872b9b-e850-451e-a46e-38c297a2cc5a
-- Sylvera: Demand Generation Manager
-  https://jobs.ashbyhq.com/sylvera/f3084ece-a244-478b-9822-d92ea3545936
-- Sylvera: Client Delivery Associate
-  https://jobs.ashbyhq.com/sylvera/7d8b634f-7ff8-4dd1-82d1-37180f7b07e5
-- Upstream Tech: Open Call for Applications at Upstream Tech
-  https://jobs.upstream.tech/23408
-- Overstory: Job Application for Staff Software Engineer at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4367081101
-- Overstory: Job Application for Engineering Manager, Full Stack at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4393265101
-- Overstory: Job Application for Engineering Manager, Machine Learning at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4488307101
-- Overstory: Job Application for Senior Software Engineer, Full Stack at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4600037101
-- Overstory: Job Application for Senior Product Designer at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4606796101
-- Overstory: Job Application for Staff Machine Learning Ops Engineer at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4629943101
-- Overstory: Job Application for Senior Site Reliability Engineer at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4631318101
-- Overstory: Job Application for Project Manager, Customer Delivery Support at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4634030101
-- Overstory: Job Application for Security Engineer  at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4699324101
-- Overstory: Job Application for Staff Machine Learning Engineer - Wildfire at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4702478101
-- Overstory: Job Application for Senior Manager, Demand Generation  at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4711988101
-- Overstory: Job Application for Chief Technology Officer at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4724552101
-- Overstory: Job Application for Director of Platform Engineering at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4777118101
-- Overstory: Job Application for Enterprise Account Executive at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4777899101
-- Overstory: Job Application for Staff Software Engineer, Geospatial Data at Overstory
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4779122101
-- Hydrosat: Customizable ATS & hiring software | Tellent Recruitee
-  https://recruitee.com
-- LiveEO: Account Executive North America (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=en
-- LiveEO: Business Development Representative North America (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2489283?language=en
-- LiveEO: Senior Project Manager (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2510452?language=en
-- LiveEO: Senior Account Executive (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=en
-- LiveEO: Senior Space Systems Engineer (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2518661?language=en
-- LiveEO: Business Development Representative Australia (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2529262?language=en
-- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2529480?language=en
-- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2535340?language=en
-- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2537538?language=en
-- LiveEO: Senior ML Engineer (f/m/x) | Jobs at LiveEO GmbH
-  https://liveeo-gmbh.jobs.personio.de/job/2540514?language=en
-- Kayrros: Homepage
-  https://kayrros1.recruitee.com/
-- Kayrros: Kayrros - Junior Data Scientist (6-month Internship) 2025-2026
-  https://kayrros1.recruitee.com/o/junior-data-scientist-6-month-internship-2025-2026
-- Kayrros: Kayrros - Postdoc H/F - Biomass (24 months)
-  https://kayrros1.recruitee.com/o/postdoc-hf-biomass-24-months
-- Kayrros: Kayrros - Spontaneous Application
-  https://kayrros1.recruitee.com/o/spontaneous-application
-- Kayrros: Customizable ATS & hiring software | Tellent Recruitee
-  https://recruitee.com
-- Planet Labs: Job Application for Software Engineer, Embedded Security Focus at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7099388
-- Planet Labs: Job Application for Industry Account Executive at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7201307
-- Planet Labs: Job Application for AI Solutions Architect, Digital Employee Experience at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7233410
-- Planet Labs: Job Application for Corporate Security Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7363174
-- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7374533
-- Planet Labs: Job Application for Industry Account Executive at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7374535
-- Planet Labs: Job Application for Solutions Architect Deployment Strategist at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7377997
-- Planet Labs: page_title
-  https://job-boards.greenhouse.io/planetlabs/jobs/7411511
-- Planet Labs: Job Application for D&I Project Manager, Professional Services at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7439060
-- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7439062
-- Planet Labs: Job Application for Senior Analyst, International Trade Compliance at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7463366
-- Planet Labs: Job Application for Account Executive NATO at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7476617
-- Planet Labs: Job Application for D&I Program Manager, Professional Services at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7490275
-- Planet Labs: Job Application for Workplace Coordinator at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7512765
-- Planet Labs: Job Application for Senior Manager, Revenue Accounting at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7512767
-- Planet Labs: Job Application for Software Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7524903
-- Planet Labs: Job Application for FP&A Revenue Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7527437
-- Planet Labs: Job Application for Education & Research Program Manager & Evangelist at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7532263
-- Planet Labs: Job Application for Technical Program Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7542179
-- Planet Labs: Job Application for Account Executive NATO at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7543660
-- Planet Labs: Job Application for Account Executive NATO at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7543661
-- Planet Labs: Job Application for Account Executive – Civil Government (EU Institutions & Northern Europe) at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7543717
-- Planet Labs: Job Application for Geospatial Software Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7543719
-- Planet Labs: Job Application for Director of Government Affairs at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7543721
-- Planet Labs: Job Application for Senior Product Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7555003
-- Planet Labs: page_title
-  https://job-boards.greenhouse.io/planetlabs/jobs/7555017
-- Planet Labs: Job Application for Global Stock Plan Administrator at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7555021
-- Planet Labs: Job Application for Account Executive, Defence & Intelligence at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7564777
-- Planet Labs: Job Application for Senior Product Manager, AI Geo Assistant at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7572102
-- Planet Labs: Job Application for Senior Product Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7589138
-- Planet Labs: Job Application for Senior Product Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7589140
-- Planet Labs: page_title
-  https://job-boards.greenhouse.io/planetlabs/jobs/7589144
-- Planet Labs: Job Application for Global Performance Marketing Manager at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7589174
-- Planet Labs: Job Application for Senior Site Reliability Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7590719
-- Planet Labs: Job Application for Senior Product Designer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7590757
-- Planet Labs: Job Application for ABM Marketing Manager, North America at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7592241
-- Planet Labs: Job Application for Senior Engineering Manager - AI Geospatial Assistant Team at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7603801
-- Planet Labs: Job Application for Senior Software Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7603823
-- Planet Labs: Job Application for Account Executive, Defence & Intelligence, France at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7603831
-- Planet Labs: Job Application for PreSales Sr. Solutions Architect - French Defense and Intelligence at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7622544
-- Planet Labs: Job Application for Head of Global Total Rewards at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7625350
-- Planet Labs: page_title
-  https://job-boards.greenhouse.io/planetlabs/jobs/7642956
-- Planet Labs: Job Application for Senior Forward Deployed Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7644692
-- Planet Labs: Job Application for Events Marketing Manager, North America at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7644694
-- Planet Labs: Job Application for Events Marketing Manager, North America at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7652458
-- Planet Labs: Job Application for Senior Software Engineer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7657604
-- Planet Labs: Job Application for Senior Product Designer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7664694
-- Planet Labs: Job Application for Senior Product Designer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7664728
-- Planet Labs: page_title
-  https://job-boards.greenhouse.io/planetlabs/jobs/7664731
-- Planet Labs: Job Application for Senior Product Designer at Planet
-  https://job-boards.greenhouse.io/planetlabs/jobs/7664733
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?department=business-operations
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?department=engineering
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?department=sales
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?department=science-research
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=boulder
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=cambridge-ont
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=glasgow
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=harwell
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=luxembourg
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=munich
-- Spire Global: Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/?location=washington
-- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=6521832
-- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=6930485
-- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7059026
-- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7164661
-- Spire Global: Senior Software Engineer (SatOS Team) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7168090
-- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7236571
-- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7236574
-- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7237378
-- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7237381
-- Spire Global: RF Test Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7276326
-- Spire Global: Senior Communications Software Engineer  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7279833
-- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7294480
-- Spire Global: GNC Engineer - Avionics  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7307780
-- Spire Global: Senior Firmware Engineer   - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7317042
-- Spire Global: Software Engineer - Manufacturing - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7351741
-- Spire Global: Software Engineer - Yocto/Linux - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7353388
-- Spire Global: Business Development Manager, Canadian Government  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7368132
-- Spire Global: Software Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7369625
-- Spire Global: Principal Software Engineer, Product Security - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7411336
-- Spire Global: Snr Software Engineer, Product Security - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7411357
-- Spire Global: Software Engineer, Product Security - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7411466
-- Spire Global: Full Stack Developer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7458209
-- Spire Global: Senior RFGL Product Solution Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7458263
-- Spire Global: Quality Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7483571
-- Spire Global: Senior Optical Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7486619
-- Spire Global: Telecommunications Test Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7512106
-- Spire Global: Senior Embedded Software Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7512196
-- Spire Global: Product Assurance Engineer  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7574420
-- Spire Global: Senior Systems Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7591185
-- Spire Global: Senior Program Manager - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7593723
-- Spire Global: Lead Business Development Manager, Federal ISR - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7600288
-- Spire Global: Global Head of Total Rewards - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7650960
-- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7663049
-- Satlantis: Job Openings - Satlantis
-  https://www.satlantis.com/job-offers/
-- Satlantis: AI ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/ai-engineer-vacancy/
-- Satlantis: ELECTRONICS ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/electronics-engineer-vacancy/
-- Satlantis: GROUND SEGMENT SOFTWARE ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/ground-segment-software-engineer/
-- Satlantis: IMAGE PROCESSING DEVELOPER VACANCY - Satlantis
-  https://www.satlantis.com/job/image-processing-developer/
-- Satlantis: MECHANICS AIT ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/mechanics-ait-engineer-vacancy/
-- Satlantis: MECHANICS DESIGN ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/mechanics-design-engineer-vacancy/
-- Satlantis: OPERATIONS ENGINEER (INFRASTRUCTURE) VACANCY - Satlantis
-  https://www.satlantis.com/job/operations-engineer-vacancy-3/
-- Satlantis: OPTICS AIT ENGINEER - Satlantis
-  https://www.satlantis.com/job/optics-ait-engineer/
-- Satlantis: OPTICS ENGINEER - Satlantis
-  https://www.satlantis.com/job/optics-engineer/
-- Satlantis: PRODUCT/QUALITY ASSURANCE ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/product-quality-assurance-engineer-vacancy/
-- Satlantis: SATELLITE OPERATIONS & SYSTEMS ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/satellite-operations-systems-engineer-vacancy/
-- Satlantis: SENIOR DATA SCIENTIST - REMOTE SENSING DATA - Satlantis
-  https://www.satlantis.com/job/senior-data-scientist/
-- Satlantis: SENIOR SOFTWARE ENGINEER - Satlantis
-  https://www.satlantis.com/job/senior-software-engineer/
-- Satlantis: SOFTWARE TEST & VALIDATION ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/software-test-validation-engineer-vacancy/
-- Satlantis: SPACE THERMAL & SYSTEMS ENGINEER VACANCY - Satlantis
-  https://www.satlantis.com/job/space-thermal-systems-engineer-vacancy/
-- Satlantis: SYSTEMS AND MECHANICS ENGINEER - SATELLITE DESIGN VACANCY - Satlantis
-  https://www.satlantis.com/job/systems-and-mechanics-engineer-satellite-design-vacancy/
-- Satlantis: TECHNICAL TEAM LEADER VACANCY - Satlantis
-  https://www.satlantis.com/job/technical-team-leader-vacancy/
-- Satlantis: VACANTE DE TÉCNICO/A DE CALIDAD - Satlantis
-  https://www.satlantis.com/job/vacante-de-tecnico-a-de-calidad/
-- Carbon Direct: Job Application for General Application at Carbon Direct
-  https://boards.greenhouse.io/carbondirect/jobs/4117885007
-- Persefoni: Jobs at Persefoni AI, Inc.
-  https://boards.greenhouse.io/persefoniaiinc
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope
-- Terrascope: Terrascope - Senior Decarbonisation Specialist (Japanese-speaking)
-  https://jobs.lever.co/terrascope/92641fb5-8541-4ead-9ec8-936482d10589
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?commitment=Permanent
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?location=Japan
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?location=Remote
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?team=Sustainability
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?workplaceType=hybrid
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?workplaceType=onsite
-- Terrascope: Terrascope
-  https://jobs.lever.co/terrascope?workplaceType=remote
-- Terrascope: Job Seeker Support - Lever
-  https://www.lever.co/job-seeker-support/
-- Umbra Space: Spacecraft Assembly, Integration and Test (AI&T) Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5135265
-- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5144028
-- Umbra Space: Space Mission Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5144273
-- Umbra Space: Senior GNC Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5170363
-- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5195084
-- Umbra Space: Senior Digital Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5270349
-- Umbra Space: Senior Flight Software Engineer (Rust) - Umbra
-  https://umbra-1.workable.com/jobs/5289958
-- Umbra Space: Senior Spacecraft Mechanical Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5382754
-- Umbra Space: Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5383612
-- Umbra Space: Senior Radar Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5390825
-- Umbra Space: Microwave Electronics Design Engineer, High Power Amplifiers - Umbra
-  https://umbra-1.workable.com/jobs/5391610
-- Umbra Space: Capture and Program Manager (Global) - Umbra
-  https://umbra-1.workable.com/jobs/5391700
-- Umbra Space: Microwave Electronics Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5391758
-- Umbra Space: Antenna & RF Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5391762
-- Umbra Space: Senior Ground Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5418616
-- Umbra Space: Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5421225
-- Umbra Space: Director, Defense - Umbra
-  https://umbra-1.workable.com/jobs/5434175
-- Umbra Space: Spacecraft Aerospace Technician - Umbra
-  https://umbra-1.workable.com/jobs/5436122
-- Umbra Space: Systems Engineering Manager - Umbra
-  https://umbra-1.workable.com/jobs/5436654
-- Umbra Space: Director, National Security - Umbra
-  https://umbra-1.workable.com/jobs/5440743
-- Umbra Space: Finance Systems Analyst - Umbra
-  https://umbra-1.workable.com/jobs/5441504
-- Umbra Space: Director of Marketing - Umbra
-  https://umbra-1.workable.com/jobs/5483044
-- Umbra Space: Senior Planner/Buyer - Umbra
-  https://umbra-1.workable.com/jobs/5490979
-- Umbra Space: Product Marketing Manager - Umbra
-  https://umbra-1.workable.com/jobs/5491199
-- Umbra Space: Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5507154
-- Umbra Space: Senior Program Manager - Umbra
-  https://umbra-1.workable.com/jobs/5520393
-- Umbra Space: Senior Flight Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5529627
-- Umbra Space: Spacecraft Electrical Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5538070
-- Umbra Space: Senior Site Reliability Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5538623
-- Umbra Space: Core Infrastructure Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5546249
-- Umbra Space: Senior Microwave Engineer, Space Systems - Umbra
-  https://umbra-1.workable.com/jobs/5566307
-- Umbra Space: Engineering Manager - Umbra
-  https://umbra-1.workable.com/jobs/5568911
-- Umbra Space: Spacecraft Manufacturing Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5580913
-- Umbra Space: Senior Flight Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5581009
-- Piersight: The Best Hiring Software & Recruitment Platform - GoHire
-  https://gohire.io
-- Piersight: AOCS / Flight Dynamics Engineer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/aocs-flight-dynamics-engineer-270088/
-- Piersight: Backend Developer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/backend-developer-274388/
-- Piersight: Electrical AIT Engineer  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/electrical-ait-engineer-253866/
-- Piersight: Embedded Hardware Intern at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/embedded-hardware-intern-270357/
-- Piersight: Lead - RF & Antenna Design Engineer  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/lead-rf-and-antenna-design-engineer-274982/
-- Piersight: Mission Control Software Engineer - Backend  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/mission-control-software-engineer-backend-255575/
-- Piersight: Power Electronics Engineer  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/power-electronics-engineer-272885/
-- Piersight: RF Design Engineer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/rf-design-engineer-274986/
-- Piersight: Satellite Systems Engineer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/satellite-systems-engineer-267521/
-- Piersight: Senior Electrical Assembly Integration & Test Engineer  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/senior-electrical-assembly-integration-and-test-engineer-266338/
-- Piersight: Senior Satellite Ground Checkout/EGSE Engineer  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/senior-satellite-ground-checkout-egse-engineer-266339/
-- Piersight: Senior Satellite Systems Engineer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/senior-satellite-systems-engineer-267808/
-- Piersight: Structural Analysis Engineer – Electronics & Mechanical Packaging  at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/structural-analysis-engineer-electronics-and-mechanical-packaging-272887/
-- Piersight: Thermal Analysis Engineer at PierSight | Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d/thermal-analysis-engineer-263035/
+- AENU Portfolio: Companies | AENU Job Board
+  https://jobs.aenu.com/companies
+- AENU Portfolio: AENU | AENU Job Board
+  https://jobs.aenu.com/companies/aenu-2
+- AENU Portfolio: Visiting Investment Analyst (July 2026) @ AENU | AENU Job Board
+  https://jobs.aenu.com/companies/aenu-2/jobs/68351266-visiting-investment-analyst-july-2026
+- AENU Portfolio: Ember | AENU Job Board
+  https://jobs.aenu.com/companies/ember-2
+- AENU Portfolio: PSV Mechanic - Dundee @ Ember | AENU Job Board
+  https://jobs.aenu.com/companies/ember-2/jobs/68362928-psv-mechanic-dundee
+- AENU Portfolio: feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2
+- AENU Portfolio: Remote Sr. Technischer Planer (m/w/d) - Prozesse/CAD (Rhino) @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68436374-remote-sr-technischer-planer-m-w-d-prozesse-cad-rhino
+- AENU Portfolio: Bauleiter (m/w/d) Energietechnik @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628112-bauleiter-m-w-d-energietechnik
+- AENU Portfolio: Bid Manager (m/w/d) EPC / PV Projektmanagement @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628117-bid-manager-m-w-d-epc-pv-projektmanagement
+- AENU Portfolio: Datentechniker (m/w/d) - PV-Anlagen & Datenintegration @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628119-datentechniker-m-w-d-pv-anlagen-datenintegration
+- AENU Portfolio: Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628120-elektriker-m-w-d-agri-photovoltaik-anlagenbau
+- AENU Portfolio: Freelance Kartierer / Feld-Ornithologe (m/w/d) Agri-PV @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628121-freelance-kartierer-feld-ornithologe-m-w-d-agri-pv
+- AENU Portfolio: Projektmanager (m/w/d) Netzanschluss & Netzanfragen - Remote @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628122-projektmanager-m-w-d-netzanschluss-netzanfragen-remote
+- AENU Portfolio: VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628123-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
+- AENU Portfolio: Praktikant / Visiting Founders Associate (m/w/d) Engineering @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68724476-praktikant-visiting-founders-associate-m-w-d-engineering
+- AENU Portfolio: Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh
+- AENU Portfolio: Head of Growth (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68300437-head-of-growth-m-w-d
+- AENU Portfolio: Engineering Lead (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68300457-engineering-lead-m-w-d
+- AENU Portfolio: Auftragsmanager Installationsprojekte Wärmepumpe (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68557279-auftragsmanager-installationsprojekte-warmepumpe-m-w-d
+- AENU Portfolio: (Senior) Data Engineer (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68674689-senior-data-engineer-m-w-d
+- AENU Portfolio: Heirloom | AENU Job Board
+  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e
+- AENU Portfolio: Global Supply Manager, CapEx Equipment & Systems @ Heirloom | AENU Job Board
+  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/68644797-global-supply-manager-capex-equipment-systems
+- AENU Portfolio: Logistics & Inventory Systems Specialist @ Heirloom | AENU Job Board
+  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/69037456-logistics-inventory-systems-specialist
+- AENU Portfolio: Tesvolt Ag | AENU Job Board
+  https://jobs.aenu.com/companies/tesvolt-ag
+- AENU Portfolio: Product Owner Netzintegration (m/w/d) @ Tesvolt Ag | AENU Job Board
+  https://jobs.aenu.com/companies/tesvolt-ag/jobs/68947877-product-owner-netzintegration-m-w-d
+- AENU Portfolio: trawa | AENU Job Board
+  https://jobs.aenu.com/companies/trawa-2-4ddb7570-a751-4ea6-908c-9a5e9391f049
+- AENU Portfolio: Talent Acquisition Manager @ trawa | AENU Job Board
+  https://jobs.aenu.com/companies/trawa-2-4ddb7570-a751-4ea6-908c-9a5e9391f049/jobs/68301727-talent-acquisition-manager
+- AENU Portfolio: VOLTFANG | AENU Job Board
+  https://jobs.aenu.com/companies/voltfang
+- AENU Portfolio: Technische Betriebsleitung Elektro / Meister:in (m/w/d) @ VOLTFANG | AENU Job Board
+  https://jobs.aenu.com/companies/voltfang/jobs/68504002-technische-betriebsleitung-elektro-meister-in-m-w-d
+- AENU Portfolio: Jobs | AENU Job Board
+  https://jobs.aenu.com/jobs
+- AENU Portfolio: Talent network | AENU Job Board
+  https://jobs.aenu.com/talent-network
+- Extantia Portfolio: Jobs at Extantia Companies | Extantia
+  https://careers.extantia.com/jobs
+- Congruent Ventures Portfolio: Jobs at Congruent Ventures Companies | Congruent Ventures
+  https://jobs.congruentvc.com/companies
+- Congruent Ventures Portfolio: Jobs at Congruent Ventures Companies | Congruent Ventures
+  https://jobs.congruentvc.com/jobs
+- DCVC Portfolio: Director, Clinical Operations - Frontier Medicines
+  https://apply.workable.com/j/6B68838CCF?utm_source=DCVC+job+board&utm_medium=getro.com&gh_src=DCVC+job+board
+- DCVC Portfolio: Companies | DCVC Job Board
+  https://jobs.dcvc.com/companies
+- DCVC Portfolio: Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health
+- DCVC Portfolio: Urgent Care Nurse Practitioner or Physician Assistant @ Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health/jobs/69002223-urgent-care-nurse-practitioner-or-physician-assistant
+- DCVC Portfolio: Billing Specialist @ Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health/jobs/69002233-billing-specialist
+- DCVC Portfolio: Center Manager - Pasadena, CA @ Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health/jobs/69002234-center-manager-pasadena-ca
+- DCVC Portfolio: Primary Care and Urgent Care Medical Assistant @ Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health/jobs/69002235-primary-care-and-urgent-care-medical-assistant
+- DCVC Portfolio: Medical Assistant (Float ) @ Carbon Health | DCVC Job Board
+  https://jobs.dcvc.com/companies/carbon-health/jobs/69002236-medical-assistant-float
+- DCVC Portfolio: Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks
+- DCVC Portfolio: BDR DC (2026) @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002628-bdr-dc-2026
+- DCVC Portfolio: Business Development Representative @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002630-business-development-representative
+- DCVC Portfolio: Delivery Solutions Architect @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002631-delivery-solutions-architect
+- DCVC Portfolio: Manager, Field Engineering @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002635-manager-field-engineering
+- DCVC Portfolio: Resident Solutions Architect-Public Sector @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002636-resident-solutions-architect-public-sector
+- DCVC Portfolio: Sr. Solutions Engineer - Hunter Team @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002638-sr-solutions-engineer-hunter-team
+- DCVC Portfolio: Sr. Staff Technical Program Manager - Reliability @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002640-sr-staff-technical-program-manager-reliability
+- DCVC Portfolio: Sr. Staff Technical Program Manager - Reliability @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002642-sr-staff-technical-program-manager-reliability
+- DCVC Portfolio: Strategic Core Account Executive - Automotive @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69002644-strategic-core-account-executive-automotive
+- DCVC Portfolio: Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai
+- DCVC Portfolio: Sr Business Analyst @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/68999982-sr-business-analyst
+- DCVC Portfolio: Sr AI Foundry Engineer @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/68999983-sr-ai-foundry-engineer
+- DCVC Portfolio: Director, Sales @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/68999986-director-sales
+- DCVC Portfolio: Frontier Medicines | DCVC Job Board
+  https://jobs.dcvc.com/companies/frontier-medicines
+- DCVC Portfolio: Director, Clinical Operations @ Frontier Medicines | DCVC Job Board
+  https://jobs.dcvc.com/companies/frontier-medicines/jobs/69013302-director-clinical-operations
+- DCVC Portfolio: Impulse Space | DCVC Job Board
+  https://jobs.dcvc.com/companies/impulse-space-2
+- DCVC Portfolio: (no title captured)
+  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69011506-facilities-technician-ac
+- DCVC Portfolio: Jobs | DCVC Job Board
+  https://jobs.dcvc.com/jobs
+- DCVC Portfolio: Talent network | DCVC Job Board
+  https://jobs.dcvc.com/talent-network
