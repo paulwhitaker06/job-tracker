@@ -1,4 +1,3 @@
-
 import os
 import json
 import hashlib
@@ -40,7 +39,6 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
     soup = BeautifulSoup(html, "html.parser")
     links: set[str] = set()
 
-    # domains and patterns we never want
     reject_substrings = [
         "linkedin.com",
         "facebook.com",
@@ -54,7 +52,6 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         ".pdf",
     ]
 
-    # patterns that usually indicate an actual job posting
     job_indicators = [
         "/apply/",
         "/jobs/",
@@ -76,10 +73,10 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         "/job-description/",
         "/work-with-us/",
         "/join-us/",
-        # ATS host hints
         "jobs.lever.co/",
         "jobs.ashbyhq.com/",
         "greenhouse.io/",
+        "job-boards.greenhouse.io/",
         "job-boards.eu.greenhouse.io/",
         "apply.workable.com/",
         "applytojob.com/apply/",
@@ -100,11 +97,9 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         if not href:
             continue
 
-        # skip fragment only links
         if href.startswith("#"):
             continue
 
-        # skip common non-http link types
         hlow = href.lower()
         if hlow.startswith("mailto:") or hlow.startswith("tel:") or hlow.startswith("javascript:"):
             continue
@@ -113,22 +108,14 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         url = urldefrag(url)[0]
         u = url.lower()
 
-        # reject junk anywhere in the url
         if any(x in u for x in reject_substrings):
             continue
 
-        # reject obvious Lever filter pages but keep real Lever postings
-        # filter pages usually look like:
-        #   https://jobs.lever.co/company?department=... or ?location=...
         if "jobs.lever.co/" in u and "?" in u:
-            # allow if it looks like a specific job posting path after the host
-            # jobs.lever.co/<company>/<job-id-or-slug>
             path_after_host = u.split("jobs.lever.co/", 1)[1]
-            # require at least two path segments to count as a posting
             if path_after_host.count("/") < 1:
                 continue
 
-        # only keep links that look like job pages
         if any(ind in u for ind in job_indicators):
             links.add(url)
 
@@ -153,6 +140,140 @@ def get_html_links(company: dict) -> list[dict]:
             }
         )
     return results
+
+
+def get_greenhouse_jobs(company: dict) -> list[dict]:
+    """
+    Greenhouse Job Board API (no auth):
+    https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true
+    """
+    board = company.get("board")
+    url = company.get("url", "")
+
+    if not board:
+        if "boards-api.greenhouse.io" in url and "/boards/" in url:
+            gh_url = url
+        else:
+            raise ValueError("Greenhouse company missing 'board' (recommended) or a boards-api URL")
+    else:
+        gh_url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
+
+    r = requests.get(gh_url, timeout=45, headers={"User-Agent": "job-tracker/1.0"})
+    r.raise_for_status()
+    data = r.json()
+
+    results = []
+    for job in data.get("jobs", []):
+        job_url = job.get("absolute_url") or job.get("url")
+        title = job.get("title") or ""
+        job_id = job.get("id") or sha(job_url or title)
+
+        if not job_url:
+            continue
+
+        results.append(
+            {
+                "id": sha(company["name"] + "|" + str(job_id)),
+                "url": job_url,
+                "title": title,
+            }
+        )
+    return results
+
+
+def get_lever_jobs(company: dict) -> list[dict]:
+    """
+    Lever Postings API (no auth):
+    https://api.lever.co/v0/postings/{lever_company}?mode=json
+    """
+    lever_company = company.get("lever_company")
+    url = company.get("url", "")
+
+    if not lever_company:
+        if "jobs.lever.co/" in url:
+            lever_company = url.split("jobs.lever.co/", 1)[1].split("/", 1)[0].strip()
+        else:
+            raise ValueError("Lever company missing 'lever_company' or a jobs.lever.co/<company> url")
+
+    api_url = f"https://api.lever.co/v0/postings/{lever_company}?mode=json"
+    r = requests.get(api_url, timeout=45, headers={"User-Agent": "job-tracker/1.0"})
+    r.raise_for_status()
+    data = r.json()
+
+    results = []
+    for job in data:
+        job_url = job.get("hostedUrl") or job.get("applyUrl")
+        title = job.get("text") or job.get("title") or ""
+        job_id = job.get("id") or sha(job_url or title)
+
+        if not job_url:
+            continue
+
+        results.append(
+            {
+                "id": sha(company["name"] + "|" + str(job_id)),
+                "url": job_url,
+                "title": title,
+            }
+        )
+    return results
+
+
+def get_workable_jobs(company: dict) -> list[dict]:
+    """
+    Workable job boards are apply.workable.com/<account>/
+    Best-effort JSON pull first, fallback to HTML harvesting if JSON ever fails.
+    """
+    account = company.get("workable_account")
+    url = company.get("url", "")
+
+    if not account:
+        if "apply.workable.com/" in url:
+            account = url.split("apply.workable.com/", 1)[1].split("/", 1)[0].strip()
+        else:
+            raise ValueError("Workable company missing 'workable_account' or an apply.workable.com/<account> url")
+
+    api_url = f"https://apply.workable.com/api/v3/accounts/{account}/jobs?state=published"
+    try:
+        r = requests.get(api_url, timeout=45, headers={"User-Agent": "job-tracker/1.0"})
+        r.raise_for_status()
+        data = r.json()
+
+        results: list[dict] = []
+        for job in data.get("results", []):
+            job_url = job.get("shortlink") or job.get("url")
+            title = job.get("title") or ""
+            job_id = job.get("id") or sha(job_url or title)
+
+            if not job_url:
+                continue
+
+            results.append(
+                {
+                    "id": sha(company["name"] + "|" + str(job_id)),
+                    "url": job_url,
+                    "title": title,
+                }
+            )
+        return results
+
+    except Exception:
+        board_url = f"https://apply.workable.com/{account}/"
+        html = fetch_html(board_url)
+        links = extract_links_from_html(html, board_url)
+
+        links = {l for l in links if "apply.workable.com" in l}
+
+        results: list[dict] = []
+        for link in sorted(links):
+            results.append(
+                {
+                    "id": sha(company["name"] + "|" + link),
+                    "url": link,
+                    "title": None,
+                }
+            )
+        return results
 
 
 def get_ashby_jobs(company: dict) -> list[dict]:
@@ -196,19 +317,19 @@ def get_playwright_page_change(company: dict) -> list[dict]:
             "title": "Careers page changed (JS site)",
         }
     ]
+
+
 def fetch_title(url: str) -> str:
     try:
         r = requests.get(url, timeout=30, headers={"User-Agent": "job-tracker/1.0"})
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
-
         if soup.title and soup.title.string:
             return soup.title.string.strip()
-
     except Exception:
         pass
-
     return ""
+
 
 def send_email(subject: str, body: str) -> None:
     host = os.environ.get("SMTP_HOST")
@@ -237,6 +358,7 @@ def send_email(subject: str, body: str) -> None:
     except Exception as e:
         print(f"Email send failed: {type(e).__name__}: {e}")
 
+
 def main():
     print("JOB TRACKER STARTED")
     with open("companies.yaml", "r", encoding="utf-8") as f:
@@ -257,6 +379,12 @@ def main():
                 items = get_ashby_jobs(company)
             elif ctype == "playwright":
                 items = get_playwright_page_change(company)
+            elif ctype == "greenhouse_api":
+                items = get_greenhouse_jobs(company)
+            elif ctype == "lever_api":
+                items = get_lever_jobs(company)
+            elif ctype == "workable_api":
+                items = get_workable_jobs(company)
             else:
                 print(f"Skipping unsupported type: {ctype}")
                 continue
@@ -318,5 +446,7 @@ def main():
     print("EMAIL FUNCTION RETURNED")
 
     print(body)
+
+
 if __name__ == "__main__":
     main()
