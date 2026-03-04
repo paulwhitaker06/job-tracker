@@ -25,7 +25,7 @@ companies:
     url: https://hawkeye360.applicantstack.com/x/openings
 
   - name: Loft Orbital
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/loftorbital
 
   - name: EarthDaily
@@ -41,7 +41,7 @@ companies:
     url: https://naturemetrics.jobs.personio.de/?language=en
 
   - name: Jupiter Intelligence
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/jupiterintel
 
   - name: Tomorrow.io
@@ -65,8 +65,9 @@ companies:
     url: https://ororatech.com/company/careers
 
   - name: Overstory
-    type: html_links
+    type: greenhouse_api
     url: https://job-boards.eu.greenhouse.io/overstory
+    board: overstory
 
   - name: Hydrosat
     type: html_links
@@ -77,8 +78,9 @@ companies:
     url: https://liveeo-gmbh.jobs.personio.de/?language=en
 
   - name: GHG Sat
-    type: html_links
+    type: workable_api
     url: https://apply.workable.com/ghgsat/?lng=en
+    workable_account: ghgsat
 
   - name: Kayrros
     type: html_links
@@ -89,8 +91,9 @@ companies:
     url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
 
   - name: Planet Labs
-    type: html_links
+    type: greenhouse_api
     url: https://job-boards.greenhouse.io/planetlabs
+    board: planetlabs
 
   - name: Spire Global
     type: html_links
@@ -133,7 +136,7 @@ companies:
     url: https://www.persefoni.com/company/careers
 
   - name: Terrascope
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/terrascope
 
   - name: Downforce Technologies
@@ -196,14 +199,15 @@ companies:
   - name: DCVC Portfolio
     type: html_links
     url: https://jobs.dcvc.com/jobs
-    
+
   - name: Aistech Space
     type: html_links
     url: https://aistechspace.com/careers/
 
   - name: SatVu
-    type: html_links
+    type: workable_api
     url: https://apply.workable.com/satellitevu/
+    workable_account: satellitevu
 
   - name: Atlas AI
     type: html_links
@@ -266,31 +270,34 @@ companies:
     url: https://isometric.com/careers
 
   - name: Floodbase
-    type: html_links
+    type: greenhouse_api
     url: https://job-boards.greenhouse.io/floodbase
+    board: floodbase
 
   - name: Muon Space
-    type: html_links
+    type: greenhouse_api
     url: https://job-boards.greenhouse.io/muonspace
+    board: muonspace
 
   - name: Near Space Labs
-    type: html_links
+    type: greenhouse_api
     url: https://job-boards.greenhouse.io/nearspacelabs
+    board: nearspacelabs
 
   - name: Arable Labs
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/arable
 
   - name: Kepler Communications
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/kepler
 
   - name: One Concern
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/oneconcern
 
   - name: Orbital Sidekick
-    type: html_links
+    type: lever_api
     url: https://jobs.lever.co/orbitalsidekick
 
   - name: Nara Space
