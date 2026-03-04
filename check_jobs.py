@@ -38,49 +38,98 @@ def fetch_html(url: str) -> str:
 
 def extract_links_from_html(html: str, base_url: str) -> set[str]:
     soup = BeautifulSoup(html, "html.parser")
-    links = set()
+    links: set[str] = set()
+
+    # domains and patterns we never want
+    reject_substrings = [
+        "linkedin.com",
+        "facebook.com",
+        "twitter.com",
+        "youtube.com",
+        "privacy",
+        "terms",
+        "cookie",
+        "legal",
+        "contact",
+        ".pdf",
+    ]
+
+    # patterns that usually indicate an actual job posting
+    job_indicators = [
+        "/apply/",
+        "/jobs/",
+        "/job/",
+        "/positions/",
+        "/openings/",
+        "/vacancies/",
+        "/careers/",
+        "/career/",
+        "/opportunities/",
+        "/role/",
+        "/roles/",
+        "/posting/",
+        "/postings/",
+        "/recruitment/",
+        "/jobdetail/",
+        "/job-details/",
+        "/jobs/view/",
+        "/job-description/",
+        "/work-with-us/",
+        "/join-us/",
+        # ATS host hints
+        "jobs.lever.co/",
+        "jobs.ashbyhq.com/",
+        "greenhouse.io/",
+        "job-boards.eu.greenhouse.io/",
+        "apply.workable.com/",
+        "applytojob.com/apply/",
+        "bamboohr.com/careers",
+        "myworkdayjobs.com/",
+        "recruitee.com/o/",
+        "personio.de/job/",
+        "personio.com/job/",
+        "factorial.it/",
+        "hrmos.co/",
+        "smartrecruiters.com/",
+        "icims.com/",
+        "teamtailor.com/",
+    ]
 
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
+        if not href:
+            continue
 
+        # skip fragment only links
         if href.startswith("#"):
+            continue
+
+        # skip common non-http link types
+        hlow = href.lower()
+        if hlow.startswith("mailto:") or hlow.startswith("tel:") or hlow.startswith("javascript:"):
             continue
 
         url = urljoin(base_url, href)
         url = urldefrag(url)[0]
         u = url.lower()
 
-        # reject junk
-        if any(x in u for x in [
-            "linkedin.com",
-            "facebook.com",
-            "twitter.com",
-            "youtube.com",
-            "privacy",
-            "terms",
-            "cookie",
-            "legal",
-            "contact",
-            ".pdf"
-        ]):
+        # reject junk anywhere in the url
+        if any(x in u for x in reject_substrings):
             continue
 
-        # reject Lever filter pages
-        if "lever.co" in u and "?" in u:
-            continue
+        # reject obvious Lever filter pages but keep real Lever postings
+        # filter pages usually look like:
+        #   https://jobs.lever.co/company?department=... or ?location=...
+        if "jobs.lever.co/" in u and "?" in u:
+            # allow if it looks like a specific job posting path after the host
+            # jobs.lever.co/<company>/<job-id-or-slug>
+            path_after_host = u.split("jobs.lever.co/", 1)[1]
+            # require at least two path segments to count as a posting
+            if path_after_host.count("/") < 1:
+                continue
 
-        # only keep real job pages
-        if any(x in u for x in [
-            "/apply/",
-            "/jobs/",
-            "/job/",
-            "jobs.lever.co/" ,
-            "jobs.ashbyhq.com/",
-            "greenhouse.io/",
-            "applytojob.com/apply/",
-            "personio.de/job/",
-            "recruitee.com/o/"
-        ]):
+        # only keep links that look like job pages
+        if any(ind in u for ind in job_indicators):
             links.add(url)
 
     return links
