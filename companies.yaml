@@ -65,9 +65,8 @@ companies:
     url: https://ororatech.com/company/careers
 
   - name: Overstory
-    type: greenhouse_api
+    type: html_links
     url: https://job-boards.eu.greenhouse.io/overstory
-    board: overstory
 
   - name: Hydrosat
     type: html_links
