@@ -48,39 +48,38 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
 
         url = urljoin(base_url, href)
         url = urldefrag(url)[0]
-
         u = url.lower()
 
-        # reject obvious junk
+        # reject junk
         if any(x in u for x in [
             "linkedin.com",
             "facebook.com",
             "twitter.com",
-            "x.com",
             "youtube.com",
             "privacy",
             "terms",
             "cookie",
             "legal",
             "contact",
-            "blog",
-            ".pdf",
-            "mailto:"
+            ".pdf"
         ]):
             continue
 
-        # allow only things that look like job pages
+        # reject Lever filter pages
+        if "lever.co" in u and "?" in u:
+            continue
+
+        # only keep real job pages
         if any(x in u for x in [
-            "/job",
-            "/jobs",
-            "/apply",
-            "lever.co",
-            "greenhouse.io",
-            "workable.com",
-            "applicantstack.com/x/detail",
-            "applytojob.com/apply",
-            "recruitee.com",
-            "gohire.io"
+            "/apply/",
+            "/jobs/",
+            "/job/",
+            "jobs.lever.co/" ,
+            "jobs.ashbyhq.com/",
+            "greenhouse.io/",
+            "applytojob.com/apply/",
+            "personio.de/job/",
+            "recruitee.com/o/"
         ]):
             links.add(url)
 
