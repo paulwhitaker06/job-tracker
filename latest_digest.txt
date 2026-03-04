@@ -1,129 +1,53 @@
 Daily job tracker digest
-Run time: 2026-03-04 00:19 UTC
+Run time: 2026-03-04 15:05 UTC
 
-New items: 62
+New items: 24
 
-- AENU Portfolio: Companies | AENU Job Board
-  https://jobs.aenu.com/companies
-- AENU Portfolio: AENU | AENU Job Board
-  https://jobs.aenu.com/companies/aenu-2
-- AENU Portfolio: Visiting Investment Analyst (July 2026) @ AENU | AENU Job Board
-  https://jobs.aenu.com/companies/aenu-2/jobs/68351266-visiting-investment-analyst-july-2026
-- AENU Portfolio: Ember | AENU Job Board
-  https://jobs.aenu.com/companies/ember-2
-- AENU Portfolio: PSV Mechanic - Dundee @ Ember | AENU Job Board
-  https://jobs.aenu.com/companies/ember-2/jobs/68362928-psv-mechanic-dundee
-- AENU Portfolio: feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2
-- AENU Portfolio: Remote Sr. Technischer Planer (m/w/d) - Prozesse/CAD (Rhino) @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68436374-remote-sr-technischer-planer-m-w-d-prozesse-cad-rhino
-- AENU Portfolio: Bauleiter (m/w/d) Energietechnik @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628112-bauleiter-m-w-d-energietechnik
-- AENU Portfolio: Bid Manager (m/w/d) EPC / PV Projektmanagement @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628117-bid-manager-m-w-d-epc-pv-projektmanagement
-- AENU Portfolio: Datentechniker (m/w/d) - PV-Anlagen & Datenintegration @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628119-datentechniker-m-w-d-pv-anlagen-datenintegration
-- AENU Portfolio: Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628120-elektriker-m-w-d-agri-photovoltaik-anlagenbau
-- AENU Portfolio: Freelance Kartierer / Feld-Ornithologe (m/w/d) Agri-PV @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628121-freelance-kartierer-feld-ornithologe-m-w-d-agri-pv
-- AENU Portfolio: Projektmanager (m/w/d) Netzanschluss & Netzanfragen - Remote @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628122-projektmanager-m-w-d-netzanschluss-netzanfragen-remote
-- AENU Portfolio: VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628123-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
-- AENU Portfolio: Praktikant / Visiting Founders Associate (m/w/d) Engineering @ feld.energy GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68724476-praktikant-visiting-founders-associate-m-w-d-engineering
-- AENU Portfolio: Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh
-- AENU Portfolio: Head of Growth (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68300437-head-of-growth-m-w-d
-- AENU Portfolio: Engineering Lead (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68300457-engineering-lead-m-w-d
-- AENU Portfolio: Auftragsmanager Installationsprojekte Wärmepumpe (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68557279-auftragsmanager-installationsprojekte-warmepumpe-m-w-d
-- AENU Portfolio: (Senior) Data Engineer (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68674689-senior-data-engineer-m-w-d
-- AENU Portfolio: Heirloom | AENU Job Board
-  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e
-- AENU Portfolio: Global Supply Manager, CapEx Equipment & Systems @ Heirloom | AENU Job Board
-  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/68644797-global-supply-manager-capex-equipment-systems
-- AENU Portfolio: Logistics & Inventory Systems Specialist @ Heirloom | AENU Job Board
-  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/69037456-logistics-inventory-systems-specialist
-- AENU Portfolio: Tesvolt Ag | AENU Job Board
-  https://jobs.aenu.com/companies/tesvolt-ag
-- AENU Portfolio: Product Owner Netzintegration (m/w/d) @ Tesvolt Ag | AENU Job Board
-  https://jobs.aenu.com/companies/tesvolt-ag/jobs/68947877-product-owner-netzintegration-m-w-d
-- AENU Portfolio: trawa | AENU Job Board
-  https://jobs.aenu.com/companies/trawa-2-4ddb7570-a751-4ea6-908c-9a5e9391f049
-- AENU Portfolio: Talent Acquisition Manager @ trawa | AENU Job Board
-  https://jobs.aenu.com/companies/trawa-2-4ddb7570-a751-4ea6-908c-9a5e9391f049/jobs/68301727-talent-acquisition-manager
-- AENU Portfolio: VOLTFANG | AENU Job Board
-  https://jobs.aenu.com/companies/voltfang
-- AENU Portfolio: Technische Betriebsleitung Elektro / Meister:in (m/w/d) @ VOLTFANG | AENU Job Board
-  https://jobs.aenu.com/companies/voltfang/jobs/68504002-technische-betriebsleitung-elektro-meister-in-m-w-d
-- AENU Portfolio: Jobs | AENU Job Board
-  https://jobs.aenu.com/jobs
-- AENU Portfolio: Talent network | AENU Job Board
-  https://jobs.aenu.com/talent-network
-- Extantia Portfolio: Jobs at Extantia Companies | Extantia
-  https://careers.extantia.com/jobs
-- Congruent Ventures Portfolio: Jobs at Congruent Ventures Companies | Congruent Ventures
-  https://jobs.congruentvc.com/companies
-- Congruent Ventures Portfolio: Jobs at Congruent Ventures Companies | Congruent Ventures
-  https://jobs.congruentvc.com/jobs
-- DCVC Portfolio: Director, Clinical Operations - Frontier Medicines
-  https://apply.workable.com/j/6B68838CCF?utm_source=DCVC+job+board&utm_medium=getro.com&gh_src=DCVC+job+board
-- DCVC Portfolio: Companies | DCVC Job Board
-  https://jobs.dcvc.com/companies
-- DCVC Portfolio: Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health
-- DCVC Portfolio: Urgent Care Nurse Practitioner or Physician Assistant @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69002223-urgent-care-nurse-practitioner-or-physician-assistant
-- DCVC Portfolio: Billing Specialist @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69002233-billing-specialist
-- DCVC Portfolio: Center Manager - Pasadena, CA @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69002234-center-manager-pasadena-ca
-- DCVC Portfolio: Primary Care and Urgent Care Medical Assistant @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69002235-primary-care-and-urgent-care-medical-assistant
-- DCVC Portfolio: Medical Assistant (Float ) @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69002236-medical-assistant-float
-- DCVC Portfolio: Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks
-- DCVC Portfolio: BDR DC (2026) @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002628-bdr-dc-2026
-- DCVC Portfolio: Business Development Representative @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002630-business-development-representative
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/1859fc57-9f27-4581-97e4-1e3747456140
+- Spire Global: Senior Mechanical Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7676893
+- AENU Portfolio: Sales Development Representative @ Hometree | AENU Job Board
+  https://jobs.aenu.com/companies/hometree/jobs/69115464-sales-development-representative
+- AENU Portfolio: Retentions Executive @ Hometree | AENU Job Board
+  https://jobs.aenu.com/companies/hometree/jobs/69115466-retentions-executive
+- DCVC Portfolio: Senior Bioinformatician @ Alchemab Therapeutics | DCVC Job Board
+  https://jobs.dcvc.com/companies/alchemab-therapeutics/jobs/69136987-senior-bioinformatician
 - DCVC Portfolio: Delivery Solutions Architect @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002631-delivery-solutions-architect
-- DCVC Portfolio: Manager, Field Engineering @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002635-manager-field-engineering
-- DCVC Portfolio: Resident Solutions Architect-Public Sector @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002636-resident-solutions-architect-public-sector
-- DCVC Portfolio: Sr. Solutions Engineer - Hunter Team @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002638-sr-solutions-engineer-hunter-team
-- DCVC Portfolio: Sr. Staff Technical Program Manager - Reliability @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002640-sr-staff-technical-program-manager-reliability
-- DCVC Portfolio: Sr. Staff Technical Program Manager - Reliability @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002642-sr-staff-technical-program-manager-reliability
-- DCVC Portfolio: Strategic Core Account Executive - Automotive @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69002644-strategic-core-account-executive-automotive
-- DCVC Portfolio: Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai
-- DCVC Portfolio: Sr Business Analyst @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/68999982-sr-business-analyst
-- DCVC Portfolio: Sr AI Foundry Engineer @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/68999983-sr-ai-foundry-engineer
-- DCVC Portfolio: Director, Sales @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/68999986-director-sales
-- DCVC Portfolio: Frontier Medicines | DCVC Job Board
-  https://jobs.dcvc.com/companies/frontier-medicines
-- DCVC Portfolio: Director, Clinical Operations @ Frontier Medicines | DCVC Job Board
-  https://jobs.dcvc.com/companies/frontier-medicines/jobs/69013302-director-clinical-operations
-- DCVC Portfolio: Impulse Space | DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2
-- DCVC Portfolio: (no title captured)
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69011506-facilities-technician-ac
-- DCVC Portfolio: Jobs | DCVC Job Board
-  https://jobs.dcvc.com/jobs
-- DCVC Portfolio: Talent network | DCVC Job Board
-  https://jobs.dcvc.com/talent-network
+  https://jobs.dcvc.com/companies/databricks/jobs/69128005-delivery-solutions-architect
+- DCVC Portfolio: Geo Core Account Executive - Oil, Gas & Energy @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128008-geo-core-account-executive-oil-gas-energy
+- DCVC Portfolio: Manager, Field Engineering - Strategic Accounts Germany @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128009-manager-field-engineering-strategic-accounts-germany
+- DCVC Portfolio: Manager, Professional Services @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128012-manager-professional-services
+- DCVC Portfolio: MBA Intern - Commercial Transformation @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128018-mba-intern-commercial-transformation
+- DCVC Portfolio: Named Core Account Executive - CPG Vertical @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128024-named-core-account-executive-cpg-vertical
+- DCVC Portfolio: Partner Enablement Technical Lead @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128028-partner-enablement-technical-lead
+- DCVC Portfolio: Sr Fullstack Engineer, Agentic Applications @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128033-sr-fullstack-engineer-agentic-applications
+- DCVC Portfolio: Sr. Solutions Architect @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128039-sr-solutions-architect
+- DCVC Portfolio: Sr. Solutions Engineer @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128041-sr-solutions-engineer
+- DCVC Portfolio: Sr. Staff Technical Program Manager - GenAI @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128044-sr-staff-technical-program-manager-genai
+- DCVC Portfolio: Staff Employee Relations Manager @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128048-staff-employee-relations-manager
+- DCVC Portfolio: Strategic AI/BI Account Executive @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128050-strategic-ai-bi-account-executive
+- DCVC Portfolio: Solution Sales Executive, Technology Workflows - Public Sector @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/69113963-solution-sales-executive-technology-workflows-public-sector
+- DCVC Portfolio: Senior Solution Sales Executive, Security @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/69113966-senior-solution-sales-executive-security
+- DCVC Portfolio: Senior GNC Engineer, Propulsive Controls @ Impulse Space | DCVC Job Board
+  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69114730-senior-gnc-engineer-propulsive-controls
+- DCVC Portfolio: Avionics System Engineer I @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138100-avionics-system-engineer-i
+- DCVC Portfolio: Propulsion Assembly Technician II/III @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138112-propulsion-assembly-technician-ii-iii
+- DCVC Portfolio: Mission Manager - Space Systems @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138120-mission-manager-space-systems
