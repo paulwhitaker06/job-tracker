@@ -171,3 +171,28 @@ companies:
   - name: Piersight
     type: html_links
     url: https://jobs.gohire.io/piersight-rfd9c90d/
+
+  - name: Lowercarbon Capital Portfolio
+    type: html_links
+    url: https://lowercarbon.com/get-off-the-couch/
+    link_contains: jobs
+
+  - name: AENU Portfolio
+    type: html_links
+    url: https://jobs.aenu.com/jobs
+
+  - name: Extantia Portfolio
+    type: html_links
+    url: https://careers.extantia.com/jobs
+
+  - name: Albedo
+    type: html_links
+    url: https://albedo.com/company#jobs
+
+  - name: Congruent Ventures Portfolio
+    type: html_links
+    url: https://jobs.congruentvc.com/jobs
+
+  - name: DCVC Portfolio
+    type: html_links
+    url: https://jobs.dcvc.com/jobs
