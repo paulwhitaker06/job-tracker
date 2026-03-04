@@ -1,8 +1,16 @@
 Daily job tracker digest
-Run time: 2026-03-04 20:13 UTC
+Run time: 2026-03-04 20:48 UTC
 
-New items: 543
+New items: 822
 
+- Pixxel: Careers page changed (JS site)
+  https://pixxel.darwinbox.in/ms/candidate/careers
+- Treefera: Career Returners & Career Changers
+  https://jobs.ashbyhq.com/treefera/adbd4942-81a9-4633-9489-54387e366a53
+- Treefera: Treefera's Future Talent Community
+  https://jobs.ashbyhq.com/treefera/1ecd78ad-9512-494b-a492-e87c45b65fad
+- Hawkeye360: Submit a General Application - HawkEye 360
+  https://hawkeye360.applicantstack.com/x/apply/a2rlcjeweely
 - Hawkeye360: HawkEye 360 Careers | Join RF Spectrum, Maritime & GNSS Teams
   https://www.he360.com/careers/
 - Loft Orbital: Accounting Manager
@@ -133,6 +141,44 @@ New items: 543
   https://jobs.lever.co/loftorbital/5fb9c139-3bdc-4ee8-8944-f02a44ab8921
 - Loft Orbital: VP, Business Development - EMEA
   https://jobs.lever.co/loftorbital/f8362e60-5914-4a0c-ab59-dfac9a0df52d
+- EarthDaily: EarthDaily Analytics - Career Page
+  http://earthdaily.applytojob.com/apply/
+- EarthDaily: IT Systems Administrator - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/2tLibX5Lex/IT-Systems-Administrator
+- EarthDaily: Sr. Software Engineer - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/AcXUJLBsep/Sr-Software-Engineer
+- EarthDaily: Senior Remote Sensing Geologist - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/E9DxgZB76i/Senior-Remote-Sensing-Geologist
+- EarthDaily: Sr. Software Engineer (ML Researcher) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/EOBQ4K7cne/Sr-Software-Engineer-ML-Researcher
+- EarthDaily: Spectral Geologist - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/IHRuMXVdnz/Spectral-Geologist
+- EarthDaily: Account Executive, United States - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/Ih6szCNTia/Account-Executive-United-States
+- EarthDaily: Senior Corporate Accountant - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/RPS5fG8MkO/Senior-Corporate-Accountant
+- EarthDaily: Account Executive, Northern LATAM - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/WaHizPbFLH/Account-Executive-Northern-LATAM
+- EarthDaily: Director, Sales - Defence (Europe) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/Ys1Hg8vOwP/Director-Sales-Defence-Europe
+- EarthDaily: Director, Product Management - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/bXkSoveoyd/Director-Product-Management
+- EarthDaily: Account Executive, MEA - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/fqhMsQGi3y/Account-Executive-MEA
+- EarthDaily: Intermediate Software Engineer III (ML Infrastructure) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/hEUzcEVKIB/Intermediate-Software-Engineer-III-ML-Infrastructure
+- EarthDaily: Intermediate Software Engineer II - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/hYpa2de6RE/Intermediate-Software-Engineer-II
+- EarthDaily: Accounting Manager - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/j6zQn3q1Vf/Accounting-Manager
+- EarthDaily: Senior Account Executive/Account Executive, North and Southeast Asia (NSEA) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/k8xmF1k7IB/Senior-Account-ExecutiveAccount-Executive-North-And-Southeast-Asia-NSEA
+- EarthDaily: Sales Development Representative (EMEA) - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/p0YHb8WEYG/Sales-Development-Representative-EMEA
+- EarthDaily: Enterprise Account Executive/Senior Enterprise Account Executive D&I - Australia - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/qVEixHdBrU/Enterprise-Account-ExecutiveSenior-Enterprise-Account-Executive-DI-Australia
+- EarthDaily: Account Executive, Government Sales - Africa - EarthDaily Analytics - Career Page
+  https://earthdaily.applytojob.com/apply/sJKcpgJ5QB/Account-Executive-Government-Sales-Africa
 - Watershed: Strategy and operations - sustainability advisory & services – Watershed Careers
   https://watershed.com/careers/010e3efc-strategy-and-operations-sustainability-advisory-services
 - Watershed: Staff software engineer, AI product  – Watershed Careers
@@ -229,16 +275,102 @@ New items: 543
   https://watershed.com/careers/f8053080-customer-success-operations
 - Watershed: Account manager, enterprise  – Watershed Careers
   https://watershed.com/careers/fe457103-account-manager-enterprise
+- NatureMetrics: Conservation Account Manager | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2494074?language=en
+- NatureMetrics: Solutions Ecologist | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2497851?language=en
+- NatureMetrics: Senior Product Engineer | Jobs at NatureMetrics
+  https://naturemetrics.jobs.personio.de/job/2542374?language=en
 - Jupiter Intelligence: Flood Modeler (Contract)
   https://jobs.lever.co/jupiterintel/6f31ac96-b71e-44ff-84aa-1b6b4bb808ec
 - Jupiter Intelligence: Principal, Customer Success
   https://jobs.lever.co/jupiterintel/e949533a-02ef-4d41-939e-8020b6d7e469
 - Tomorrow.io: Your Impact Starts Here | Tomorrow.io
   https://www.tomorrow.io/careers/
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/a11335b1-81bd-4118-83cf-c6753ec70cb8
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/1859fc57-9f27-4581-97e4-1e3747456140
+- Sylvera: Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/c39274c4-ccf7-47ff-afb1-a7f4e58131b9
+- Sylvera: Field Operations Intern
+  https://jobs.ashbyhq.com/sylvera/753f2bb9-0e5a-41b7-9e91-553af4d7d73a
+- Sylvera: Sales Development Representative
+  https://jobs.ashbyhq.com/sylvera/03752697-fa8d-40ba-b6d0-80e5dbc7cbf6
+- Sylvera: Lead Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/af1238fd-2dec-4100-addf-163b8c23ccd6
+- Sylvera: Carbon Analyst Intern
+  https://jobs.ashbyhq.com/sylvera/16872b9b-e850-451e-a46e-38c297a2cc5a
+- Sylvera: Demand Generation Manager
+  https://jobs.ashbyhq.com/sylvera/f3084ece-a244-478b-9822-d92ea3545936
+- Sylvera: Client Delivery Associate
+  https://jobs.ashbyhq.com/sylvera/7d8b634f-7ff8-4dd1-82d1-37180f7b07e5
 - OroraTech: Senior Manager Tenders and Proposals - Government Solutions (m/f/d) – Vacancies – Permanent employee, Full-time · Munich – OroraTech
   https://ororatech.com/company/careers/2478490
 - OroraTech: Senior Hauptbuchhalter / Senior Financial Accountant (m/w/d) – Vacancies – Permanent employee, Full-time · Munich – OroraTech
   https://ororatech.com/company/careers/2553397
+- Overstory: Jobs at Overstory
+  https://job-boards.eu.greenhouse.io/overstory
+- Overstory: Job Application for Staff Software Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4367081101
+- Overstory: Job Application for Engineering Manager, Full Stack at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4393265101
+- Overstory: Job Application for Engineering Manager, Machine Learning at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4488307101
+- Overstory: Job Application for Senior Software Engineer, Full Stack at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4600037101
+- Overstory: Job Application for Senior Product Designer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4606796101
+- Overstory: Job Application for Staff Machine Learning Ops Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4629943101
+- Overstory: Job Application for Senior Site Reliability Engineer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4631318101
+- Overstory: Job Application for Project Manager, Customer Delivery Support at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4634030101
+- Overstory: Job Application for Security Engineer  at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4699324101
+- Overstory: Job Application for Staff Machine Learning Engineer - Wildfire at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4702478101
+- Overstory: Job Application for Senior Manager, Demand Generation  at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4711988101
+- Overstory: Job Application for Chief Technology Officer at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4724552101
+- Overstory: Job Application for Enterprise Account Executive at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4777899101
+- Overstory: Job Application for Staff Software Engineer, Geospatial Data at Overstory
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4779122101
+- LiveEO: Account Executive North America (f/m/x) | Jobs bei LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=de
+- LiveEO: Account Executive North America (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=en
+- LiveEO: Business Development Representative North America (f/m/x) | Jobs bei LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2489283?language=de
+- LiveEO: Business Development Representative North America (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2489283?language=en
+- LiveEO: Senior Project Manager (f/m/x) | Jobs bei LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2510452?language=de
+- LiveEO: Senior Project Manager (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2510452?language=en
+- LiveEO: Senior Account Executive (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=en
+- LiveEO: Senior Space Systems Engineer (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2518661?language=en
+- LiveEO: Business Development Representative Australia (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2529262?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2529480?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2535340?language=en
+- LiveEO: Strategic Partnerships & Business Development Lead (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2537538?language=en
+- LiveEO: Senior ML Engineer (f/m/x) | Jobs at LiveEO GmbH
+  https://liveeo-gmbh.jobs.personio.de/job/2540514?language=en
+- Kayrros: Kayrros - Junior Data Scientist (6-month Internship) 2025-2026
+  https://kayrros1.recruitee.com/o/junior-data-scientist-6-month-internship-2025-2026
+- Kayrros: Kayrros - Postdoc H/F - Biomass (24 months)
+  https://kayrros1.recruitee.com/o/postdoc-hf-biomass-24-months
+- Kayrros: Kayrros - Spontaneous Application
+  https://kayrros1.recruitee.com/o/spontaneous-application
 - Planet Labs: ABM Marketing Manager, North America
   https://job-boards.greenhouse.io/planetlabs/jobs/7592241
 - Planet Labs: Account Executive – Civil Government (EU Institutions & Northern Europe)
@@ -397,18 +529,230 @@ New items: 543
   https://job-boards.greenhouse.io/planetlabs/jobs/7512765
 - Spire Global: Careers - Spire : Global Data and Analytics
   https://spire.com/careers/
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=business-operations
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=engineering
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=sales
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?department=science-research
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=boulder
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=cambridge-ont
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=glasgow
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=harwell
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=luxembourg
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=munich
+- Spire Global: Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/?location=washington
+- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=6521832
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=6930485
+- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7059026
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7164661
+- Spire Global: Senior Software Engineer (SatOS Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7168090
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7236571
+- Spire Global: Senior Software Engineer (Constellation Operations) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7236574
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7237378
+- Spire Global: Senior Software Engineer (SpaceOps Team) - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7237381
+- Spire Global: RF Test Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7276326
+- Spire Global: Senior Communications Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7279833
+- Spire Global: Senior Sales Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7294480
+- Spire Global: GNC Engineer - Avionics  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7307780
+- Spire Global: Senior Firmware Engineer   - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7317042
+- Spire Global: Software Engineer - Manufacturing - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7351741
+- Spire Global: Software Engineer - Yocto/Linux - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7353388
+- Spire Global: Business Development Manager, Canadian Government  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7368132
+- Spire Global: Software Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7369625
+- Spire Global: Principal Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411336
+- Spire Global: Snr Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411357
+- Spire Global: Software Engineer, Product Security - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7411466
+- Spire Global: Full Stack Developer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7458209
+- Spire Global: Senior RFGL Product Solution Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7458263
+- Spire Global: Quality Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7483571
+- Spire Global: Senior Optical Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7486619
+- Spire Global: Telecommunications Test Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7512106
+- Spire Global: Senior Embedded Software Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7512196
+- Spire Global: Product Assurance Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7574420
+- Spire Global: Senior Systems Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7591185
+- Spire Global: Senior Program Manager - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7593723
+- Spire Global: Lead Business Development Manager, Federal ISR - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7600288
+- Spire Global: Global Head of Total Rewards - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7650960
+- Spire Global: Senior Spacecraft Software Engineer  - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7663049
+- Spire Global: Senior Mechanical Engineer - Job opening - Spire : Global data and analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7676893
 - ClimateAI: Careers at ClimateAi | Join Our Team
   https://climate.ai/careers/
 - ClimateAI: Careers at ClimateAi | Join Our Team
   https://climate.ai/careers/?id=4854550007
+- Satlantis: AI ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/ai-engineer-vacancy/
+- Satlantis: ELECTRONICS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/electronics-engineer-vacancy/
+- Satlantis: GROUND SEGMENT SOFTWARE ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/ground-segment-software-engineer/
+- Satlantis: IMAGE PROCESSING DEVELOPER VACANCY - Satlantis
+  https://www.satlantis.com/job/image-processing-developer/
+- Satlantis: MECHANICS AIT ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/mechanics-ait-engineer-vacancy/
+- Satlantis: MECHANICS DESIGN ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/mechanics-design-engineer-vacancy/
+- Satlantis: OPERATIONS ENGINEER (INFRASTRUCTURE) VACANCY - Satlantis
+  https://www.satlantis.com/job/operations-engineer-vacancy-3/
+- Satlantis: OPTICS AIT ENGINEER - Satlantis
+  https://www.satlantis.com/job/optics-ait-engineer/
+- Satlantis: OPTICS ENGINEER - Satlantis
+  https://www.satlantis.com/job/optics-engineer/
+- Satlantis: PRODUCT/QUALITY ASSURANCE ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/product-quality-assurance-engineer-vacancy/
+- Satlantis: SATELLITE OPERATIONS & SYSTEMS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/satellite-operations-systems-engineer-vacancy/
+- Satlantis: SENIOR DATA SCIENTIST - REMOTE SENSING DATA - Satlantis
+  https://www.satlantis.com/job/senior-data-scientist/
+- Satlantis: SENIOR SOFTWARE ENGINEER - Satlantis
+  https://www.satlantis.com/job/senior-software-engineer/
+- Satlantis: SOFTWARE TEST & VALIDATION ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/software-test-validation-engineer-vacancy/
+- Satlantis: SPACE THERMAL & SYSTEMS ENGINEER VACANCY - Satlantis
+  https://www.satlantis.com/job/space-thermal-systems-engineer-vacancy/
+- Satlantis: SYSTEMS AND MECHANICS ENGINEER - SATELLITE DESIGN VACANCY - Satlantis
+  https://www.satlantis.com/job/systems-and-mechanics-engineer-satellite-design-vacancy/
+- Satlantis: TECHNICAL TEAM LEADER VACANCY - Satlantis
+  https://www.satlantis.com/job/technical-team-leader-vacancy/
+- Satlantis: VACANTE DE TÉCNICO/A DE CALIDAD - Satlantis
+  https://www.satlantis.com/job/vacante-de-tecnico-a-de-calidad/
 - Satlantis: Work with us - Satlantis
   https://www.satlantis.com/work-with-us/
+- Carbon Direct: Job Application for General Application at Carbon Direct
+  https://boards.greenhouse.io/carbondirect/jobs/4117885007
+- Carbon Direct: Jobs at Carbon Direct
+  https://job-boards.greenhouse.io/carbondirect
+- Persefoni: Jobs at Persefoni AI, Inc.
+  https://boards.greenhouse.io/persefoniaiinc
+- Persefoni: Job Application for General Application at Persefoni AI, Inc.
+  https://job-boards.greenhouse.io/persefoniaiinc/jobs/4011886006
+- Persefoni: Job Application for Backend Engineer: Platform API - Vietnam at Persefoni AI, Inc.
+  https://job-boards.greenhouse.io/persefoniaiinc/jobs/4380737006
+- Persefoni: Job Application for Carbon Data Analyst  at Persefoni AI, Inc.
+  https://job-boards.greenhouse.io/persefoniaiinc/jobs/4380751006
+- Persefoni: Job Application for QA Engineer at Persefoni AI, Inc.
+  https://job-boards.greenhouse.io/persefoniaiinc/jobs/4380775006
+- Persefoni: Job Application for Data Engineer: Data Pipeline - Vietnam at Persefoni AI, Inc.
+  https://job-boards.greenhouse.io/persefoniaiinc/jobs/4413752006
 - Terrascope: Senior Decarbonisation Specialist (Japanese-speaking)
   https://jobs.lever.co/terrascope/92641fb5-8541-4ead-9ec8-936482d10589
 - Downforce Technologies: View • 
       Careers • 
       Downforce Technologies
   https://www.downforce.tech/index.php/careers/view/senior-marketing-manager
+- Umbra Space: Spacecraft Assembly, Integration and Test (AI&T) Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5135265
+- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144028
+- Umbra Space: Space Mission Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144273
+- Umbra Space: Senior GNC Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5170363
+- Umbra Space: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5195084
+- Umbra Space: Senior Digital Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5270349
+- Umbra Space: Senior Flight Software Engineer (Rust) - Umbra
+  https://umbra-1.workable.com/jobs/5289958
+- Umbra Space: Senior Spacecraft Mechanical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5382754
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5383612
+- Umbra Space: Senior Radar Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5390825
+- Umbra Space: Microwave Electronics Design Engineer, High Power Amplifiers - Umbra
+  https://umbra-1.workable.com/jobs/5391610
+- Umbra Space: Capture and Program Manager (Global) - Umbra
+  https://umbra-1.workable.com/jobs/5391700
+- Umbra Space: Microwave Electronics Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391758
+- Umbra Space: Antenna & RF Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391762
+- Umbra Space: Senior Ground Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5418616
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5421225
+- Umbra Space: Director, Defense - Umbra
+  https://umbra-1.workable.com/jobs/5434175
+- Umbra Space: Spacecraft Aerospace Technician - Umbra
+  https://umbra-1.workable.com/jobs/5436122
+- Umbra Space: Systems Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5436654
+- Umbra Space: Director, National Security - Umbra
+  https://umbra-1.workable.com/jobs/5440743
+- Umbra Space: Finance Systems Analyst - Umbra
+  https://umbra-1.workable.com/jobs/5441504
+- Umbra Space: Director of Marketing - Umbra
+  https://umbra-1.workable.com/jobs/5483044
+- Umbra Space: Senior Planner/Buyer - Umbra
+  https://umbra-1.workable.com/jobs/5490979
+- Umbra Space: Product Marketing Manager - Umbra
+  https://umbra-1.workable.com/jobs/5491199
+- Umbra Space: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5507154
+- Umbra Space: Senior Program Manager - Umbra
+  https://umbra-1.workable.com/jobs/5520393
+- Umbra Space: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5529627
+- Umbra Space: Spacecraft Electrical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538070
+- Umbra Space: Senior Site Reliability Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538623
+- Umbra Space: Core Infrastructure Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5546249
+- Umbra Space: Senior Microwave Engineer, Space Systems - Umbra
+  https://umbra-1.workable.com/jobs/5566307
+- Umbra Space: Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5568911
+- Umbra Space: Spacecraft Manufacturing Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5580913
+- Umbra Space: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5581009
 - Umbra Space: Career Opportunities • Umbra Careers
   https://umbra.space/careers/
 - Umbra Space: Equal Opportunity Employer • Umbra Careers
@@ -421,6 +765,84 @@ New items: 543
   https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805741693_1&&source=EN
 - Western Resource Advocates: Recruitment
   https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805878916_1&&source=EN
+- AENU Portfolio: Visiting Investment Analyst (July 2026) @ AENU | AENU Job Board
+  https://jobs.aenu.com/companies/aenu-2/jobs/68351266-visiting-investment-analyst-july-2026
+- AENU Portfolio: PSV Mechanic - Dundee @ Ember | AENU Job Board
+  https://jobs.aenu.com/companies/ember-2/jobs/68362928-psv-mechanic-dundee
+- AENU Portfolio: Remote Sr. Technischer Planer (m/w/d) - Prozesse/CAD (Rhino) @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68436374-remote-sr-technischer-planer-m-w-d-prozesse-cad-rhino
+- AENU Portfolio: Bauleiter (m/w/d) Energietechnik @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628112-bauleiter-m-w-d-energietechnik
+- AENU Portfolio: Bid Manager (m/w/d) EPC / PV Projektmanagement @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628117-bid-manager-m-w-d-epc-pv-projektmanagement
+- AENU Portfolio: Datentechniker (m/w/d) - PV-Anlagen & Datenintegration @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628119-datentechniker-m-w-d-pv-anlagen-datenintegration
+- AENU Portfolio: Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628120-elektriker-m-w-d-agri-photovoltaik-anlagenbau
+- AENU Portfolio: Freelance Kartierer / Feld-Ornithologe (m/w/d) Agri-PV @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628121-freelance-kartierer-feld-ornithologe-m-w-d-agri-pv
+- AENU Portfolio: Projektmanager (m/w/d) Netzanschluss & Netzanfragen - Remote @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628122-projektmanager-m-w-d-netzanschluss-netzanfragen-remote
+- AENU Portfolio: VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68628123-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
+- AENU Portfolio: Praktikant / Visiting Founders Associate (m/w/d) Engineering @ feld.energy GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/68724476-praktikant-visiting-founders-associate-m-w-d-engineering
+- AENU Portfolio: Head of Growth (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68300437-head-of-growth-m-w-d
+- AENU Portfolio: Auftragsmanager Installationsprojekte Wärmepumpe (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68557279-auftragsmanager-installationsprojekte-warmepumpe-m-w-d
+- AENU Portfolio: (Senior) Data Engineer (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
+  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68674689-senior-data-engineer-m-w-d
+- AENU Portfolio: Global Supply Manager, CapEx Equipment & Systems @ Heirloom | AENU Job Board
+  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/68644797-global-supply-manager-capex-equipment-systems
+- AENU Portfolio: Logistics & Inventory Systems Specialist @ Heirloom | AENU Job Board
+  https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/69037456-logistics-inventory-systems-specialist
+- AENU Portfolio: Sales Development Representative @ Hometree | AENU Job Board
+  https://jobs.aenu.com/companies/hometree/jobs/69115464-sales-development-representative
+- AENU Portfolio: Retentions Executive @ Hometree | AENU Job Board
+  https://jobs.aenu.com/companies/hometree/jobs/69115466-retentions-executive
+- AENU Portfolio: Product Owner Netzintegration (m/w/d) @ Tesvolt Ag | AENU Job Board
+  https://jobs.aenu.com/companies/tesvolt-ag/jobs/68947877-product-owner-netzintegration-m-w-d
+- AENU Portfolio: Technische Betriebsleitung Elektro / Meister:in (m/w/d) @ VOLTFANG | AENU Job Board
+  https://jobs.aenu.com/companies/voltfang/jobs/68504002-technische-betriebsleitung-elektro-meister-in-m-w-d
+- DCVC Portfolio: Senior Bioinformatician @ Alchemab Therapeutics | DCVC Job Board
+  https://jobs.dcvc.com/companies/alchemab-therapeutics/jobs/69136987-senior-bioinformatician
+- DCVC Portfolio: Delivery Solutions Architect @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128005-delivery-solutions-architect
+- DCVC Portfolio: Geo Core Account Executive - Oil, Gas & Energy @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128008-geo-core-account-executive-oil-gas-energy
+- DCVC Portfolio: Manager, Field Engineering - Strategic Accounts Germany @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128009-manager-field-engineering-strategic-accounts-germany
+- DCVC Portfolio: Manager, Professional Services @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128012-manager-professional-services
+- DCVC Portfolio: MBA Intern - Commercial Transformation @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128018-mba-intern-commercial-transformation
+- DCVC Portfolio: Named Core Account Executive - CPG Vertical @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128024-named-core-account-executive-cpg-vertical
+- DCVC Portfolio: Partner Enablement Technical Lead @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128028-partner-enablement-technical-lead
+- DCVC Portfolio: Sr Fullstack Engineer, Agentic Applications @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128033-sr-fullstack-engineer-agentic-applications
+- DCVC Portfolio: Sr. Solutions Architect @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128039-sr-solutions-architect
+- DCVC Portfolio: Sr. Solutions Engineer @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128041-sr-solutions-engineer
+- DCVC Portfolio: Sr. Staff Technical Program Manager - GenAI @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128044-sr-staff-technical-program-manager-genai
+- DCVC Portfolio: Staff Employee Relations Manager @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128048-staff-employee-relations-manager
+- DCVC Portfolio: Strategic AI/BI Account Executive @ Databricks | DCVC Job Board
+  https://jobs.dcvc.com/companies/databricks/jobs/69128050-strategic-ai-bi-account-executive
+- DCVC Portfolio: Solution Sales Executive, Technology Workflows - Public Sector @ Element AI | DCVC Job Board
+  https://jobs.dcvc.com/companies/element-ai/jobs/69113963-solution-sales-executive-technology-workflows-public-sector
+- DCVC Portfolio: Senior GNC Engineer, Propulsive Controls @ Impulse Space | DCVC Job Board
+  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69114730-senior-gnc-engineer-propulsive-controls
+- DCVC Portfolio: Avionics System Engineer I @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138100-avionics-system-engineer-i
+- DCVC Portfolio: Propulsion Assembly Technician II/III @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138112-propulsion-assembly-technician-ii-iii
+- DCVC Portfolio: Mission Manager - Space Systems @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138120-mission-manager-space-systems
 - DCVC Portfolio: Head of Account Management @ Slip Robotics | DCVC Job Board
   https://jobs.dcvc.com/companies/slip-robotics/jobs/69192916-head-of-account-management
 - Aistech Space: Careers – Aistechspace
@@ -430,11 +852,67 @@ New items: 543
 - Atlas AI: Geospatial Solutions Engineer - India (Contract) - Atlas AI - Career Page
   https://atlasai.applytojob.com/apply/XdcBrZNBRP/Geospatial-Solutions-Engineer-India-Contract
 - Fathom: Teamtailor
+  https://app.na.teamtailor.com/login
+- Fathom: Teamtailor
   https://app.teamtailor.com/companies/Fiu090sL2M4@eu/dashboard
+- Fathom: Teamtailor is growing - Teamtailor
+  https://career.teamtailor.com/
+- Fathom: Our essence - Teamtailor
+  https://career.teamtailor.com/pages/our-essence
 - Fathom: Revenue Operations Manager - Fathom
   https://careers.fathom.global/jobs/7203228-revenue-operations-manager
 - Fathom: Teamtailor ™ - Next Generation ATS & Employer Branding
   https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.fathom.global&utm_medium=referral&utm_source=career-site
+- Fathom: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/en-us/
+- Fathom: The AI powered recruitment software that will take your hiring to new heights!  | Teamtailor
+  https://www.teamtailor.com/en-us/ai-recruiting-software/
+- Fathom: All the features available in Teamtailor's powerful ATS
+  https://www.teamtailor.com/en-us/all-features/
+- Fathom: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system
+- Fathom: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/
+- Fathom: What is Candidate Relationship Management (CRM)? | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/candidate-relationship-management/
+- Fathom: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise
+- Fathom: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise/
+- Fathom: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize
+- Fathom: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize/
+- Fathom: Code of Conduct | Teamtailor
+  https://www.teamtailor.com/en-us/code-of-conduct/
+- Fathom: Teamtailor Content Hub - guides, e-books, articles and more.
+  https://www.teamtailor.com/en-us/content-hub/
+- Fathom: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers
+- Fathom: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers/
+- Fathom: Demo | Teamtailor
+  https://www.teamtailor.com/en-us/demo/
+- Fathom: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding
+- Fathom: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding/
+- Fathom: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations
+- Fathom: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations/
+- Fathom: Modern Slavery Statement | Teamtailor
+  https://www.teamtailor.com/en-us/modern-slavery-statement/
+- Fathom: Pricing | Teamtailor
+  https://www.teamtailor.com/en-us/pricing/
+- Fathom: Partnerships | Teamtailor
+  https://www.teamtailor.com/en-us/resources/partnerships/
+- Open Cosmos: Teamtailor
+  https://app.na.teamtailor.com/login
+- Open Cosmos: Teamtailor is growing - Teamtailor
+  https://career.teamtailor.com/
+- Open Cosmos: Our essence - Teamtailor
+  https://career.teamtailor.com/pages/our-essence
 - Open Cosmos: Senior Electronics Engineer (Embedded) - Open Cosmos
   https://careers.open-cosmos.com/jobs/6598675-senior-electronics-engineer-embedded
 - Open Cosmos: Satcom Payload Architect - Open Cosmos
@@ -479,10 +957,56 @@ New items: 543
   https://careers.open-cosmos.com/jobs/show_more?page=2
 - Open Cosmos: Teamtailor ™ - Next Generation ATS & Employer Branding
   https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.open-cosmos.com&utm_medium=referral&utm_source=career-site
+- Open Cosmos: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/en-us/
+- Open Cosmos: The AI powered recruitment software that will take your hiring to new heights!  | Teamtailor
+  https://www.teamtailor.com/en-us/ai-recruiting-software/
+- Open Cosmos: All the features available in Teamtailor's powerful ATS
+  https://www.teamtailor.com/en-us/all-features/
+- Open Cosmos: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system
+- Open Cosmos: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/
+- Open Cosmos: What is Candidate Relationship Management (CRM)? | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/candidate-relationship-management/
+- Open Cosmos: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise
+- Open Cosmos: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise/
+- Open Cosmos: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize
+- Open Cosmos: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize/
+- Open Cosmos: Code of Conduct | Teamtailor
+  https://www.teamtailor.com/en-us/code-of-conduct/
+- Open Cosmos: Teamtailor Content Hub - guides, e-books, articles and more.
+  https://www.teamtailor.com/en-us/content-hub/
+- Open Cosmos: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers
+- Open Cosmos: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers/
+- Open Cosmos: Demo | Teamtailor
+  https://www.teamtailor.com/en-us/demo/
+- Open Cosmos: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding
+- Open Cosmos: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding/
+- Open Cosmos: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations
+- Open Cosmos: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations/
+- Open Cosmos: Modern Slavery Statement | Teamtailor
+  https://www.teamtailor.com/en-us/modern-slavery-statement/
+- Open Cosmos: Pricing | Teamtailor
+  https://www.teamtailor.com/en-us/pricing/
+- Open Cosmos: Partnerships | Teamtailor
+  https://www.teamtailor.com/en-us/resources/partnerships/
 - D-Orbit: D-ORBIT SPA - Job offers, offices and team
   https://dorbit-space.factorial.it/
 - D-Orbit: D-ORBIT SPA - Job offers, offices and team
   https://dorbit-space.factorial.it/apply
+- D-Orbit: D-ORBIT SPA - Job offers, offices and team
+  https://dorbit-space.factorial.it/apply/flight-software-engineer-286742
 - D-Orbit: Flight Software Engineer
   https://dorbit-space.factorial.it/job_posting/flight-software-engineer-286742
 - D-Orbit: FPGA Engineer
@@ -521,10 +1045,16 @@ New items: 543
   https://element84.com/who-we-are/careers/sign-up-for-job-alerts/
 - Exolaunch: Warehouse Logistics Manager (m/w/d) | Jobs at EXOLAUNCH
   https://exolaunch.jobs.personio.de/job/2501410
+- Exolaunch: Warehouse Logistics Manager (m/w/d) | Jobs bei EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2501410?language=de
 - Exolaunch: Test Engineer - Mechanical Space Systems (m/w/d) | Jobs at EXOLAUNCH
   https://exolaunch.jobs.personio.de/job/2504264
+- Exolaunch: Test Engineer - Mechanical Space Systems (m/w/d) | Jobs bei EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2504264?language=de
 - Exolaunch: QA Engineer - Mechanical Space Systems (m/w/d) | Jobs at EXOLAUNCH
   https://exolaunch.jobs.personio.de/job/2504323
+- Exolaunch: QA Engineer - Mechanical Space Systems (m/w/d) | Jobs bei EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2504323?language=de
 - Exolaunch: Engineering Technician (m/w/d) | Jobs at EXOLAUNCH
   https://exolaunch.jobs.personio.de/job/2504337
 - Exolaunch: Mission Associate/Mission Manager (m/w/d) | Jobs at EXOLAUNCH
@@ -649,6 +1179,8 @@ New items: 543
   https://hrmos.co/pages/axelspace/jobs
 - Axelspace: 姿勢制御系エンジニア｜Attitude and Control System Engineer | 株式会社アクセルスペース
   https://hrmos.co/pages/axelspace/jobs/1000000002
+- Axelspace: (no title captured)
+  https://hrmos.co/pages/axelspace/jobs/1000000002/apply
 - Axelspace: Attitude and Orbit Control System Manager | 姿勢軌道制御システムマネージャー | 株式会社アクセルスペース
   https://hrmos.co/pages/axelspace/jobs/1000000005
 - Axelspace: Mechanical Engineer / 機械エンジニア | 株式会社アクセルスペース
@@ -933,8 +1465,32 @@ New items: 543
   https://www.aidash.com/careers/
 - CarbonChain: Jobs at CarbonChain
   https://boards.greenhouse.io/carbonchain/jobs/4305666004
-- CarbonChain: Jobs at CarbonChain
+- CarbonChain: page_title
   https://boards.greenhouse.io/carbonchain/jobs/4996841004
+- CarbonChain: Job Application for Customer Success Manager at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5270427004
+- CarbonChain: Job Application for Senior Carbon Specialist at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5329970004
+- CarbonChain: Job Application for Senior Business Development Representative at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5489170004
+- CarbonChain: Job Application for Partnerships Director at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5596965004
+- CarbonChain: Job Application for Events Marketing Manager  at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5656648004
+- CarbonChain: Job Application for Head of Operations at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5657161004
+- CarbonChain: Job Application for Customer Success Manager - NYC at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5671541004
+- CarbonChain: Job Application for Staff Software Engineer at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5783811004
+- CarbonChain: Job Application for Senior Backend Engineer at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5786289004
+- CarbonChain: Job Application for Product Engineer at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5786296004
+- CarbonChain: Job Application for Senior (Enterprise) Account Executive 2026 at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5797447004
+- CarbonChain: Job Application for Account Executive 2026 at CarbonChain
+  https://job-boards.greenhouse.io/carbonchain/jobs/5797456004
 - GeologicAI: Careers - GeologicAI
   https://www.geologicai.com/careers/
 - Impact Observatory: IO Careers: Head of Sales
@@ -963,6 +1519,8 @@ New items: 543
   https://www.taranis.com/careers/
 - Taranis: Taranis
   https://www.taranis.com/careers/customer-success-representative-d9-66d
+- Varda Space Industries: Jobs at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace
 - Varda Space Industries: Job Application for Senior Structures Engineer at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/5491726003
 - Varda Space Industries: Job Application for Thermal Engineer at Varda Space Industries
@@ -979,15 +1537,15 @@ New items: 543
   https://job-boards.greenhouse.io/vardaspace/jobs/6510425003
 - Varda Space Industries: Job Application for Spacecraft Technician at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6529119003
-- Varda Space Industries: Job Application for Senior Design Engineer at Varda Space Industries
+- Varda Space Industries: page_title
   https://job-boards.greenhouse.io/vardaspace/jobs/6552012003
 - Varda Space Industries: Job Application for Sourcing Manager at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6558225003
-- Varda Space Industries: page_title
+- Varda Space Industries: Job Application for Hospitality Specialist at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6581859003
-- Varda Space Industries: page_title
+- Varda Space Industries: Job Application for Security Manager at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6603161003
-- Varda Space Industries: page_title
+- Varda Space Industries: Job Application for Inventory Manager at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6622277003
 - Varda Space Industries: Job Application for Avionics Spacecraft Technician  at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6675073003
@@ -1007,7 +1565,7 @@ New items: 543
   https://job-boards.greenhouse.io/vardaspace/jobs/6974375003
 - Varda Space Industries: Job Application for Avionics Engineering Internship - Summer 2026 at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/6974740003
-- Varda Space Industries: Job Application for Supply Chain Internship - Summer 2026 at Varda Space Industries
+- Varda Space Industries: page_title
   https://job-boards.greenhouse.io/vardaspace/jobs/6974745003
 - Varda Space Industries: Job Application for Senior Site Reliability Engineer  at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7251563003
@@ -1021,7 +1579,7 @@ New items: 543
   https://job-boards.greenhouse.io/vardaspace/jobs/7505838003
 - Varda Space Industries: Job Application for Senior Facilities Electrician at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7519501003
-- Varda Space Industries: Job Application for Recruiting Coordinator at Varda Space Industries
+- Varda Space Industries: page_title
   https://job-boards.greenhouse.io/vardaspace/jobs/7534242003
 - Varda Space Industries: Job Application for Business Development SkillBridge Intern ( Summer 2026) at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7536893003
@@ -1033,7 +1591,7 @@ New items: 543
   https://job-boards.greenhouse.io/vardaspace/jobs/7552485003
 - Varda Space Industries: Job Application for Thermal Analysis Engineer at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7552667003
-- Varda Space Industries: Job Application for Mission Operations Engineer at Varda Space Industries
+- Varda Space Industries: page_title
   https://job-boards.greenhouse.io/vardaspace/jobs/7568824003
 - Varda Space Industries: Job Application for Senior Astrodynamics Engineer at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7568853003
@@ -1063,7 +1621,7 @@ New items: 543
   https://job-boards.greenhouse.io/vardaspace/jobs/7622331003
 - Varda Space Industries: Job Application for Scientist, Biologics Formulation at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7622369003
-- Varda Space Industries: Job Application for Senior Scientist, Biologics Formulation at Varda Space Industries
+- Varda Space Industries: page_title
   https://job-boards.greenhouse.io/vardaspace/jobs/7622392003
 - Varda Space Industries: Job Application for Pharmaceutical Marketing & Strategy Internship - Summer 2026 at Varda Space Industries
   https://job-boards.greenhouse.io/vardaspace/jobs/7634639003
