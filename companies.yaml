@@ -196,3 +196,211 @@ companies:
   - name: DCVC Portfolio
     type: html_links
     url: https://jobs.dcvc.com/jobs
+    
+  - name: Aistech Space
+    type: html_links
+    url: https://aistechspace.com/careers/
+
+  - name: SatVu
+    type: html_links
+    url: https://apply.workable.com/satellitevu/
+
+  - name: Atlas AI
+    type: html_links
+    url: https://atlasai.applytojob.com/apply/
+
+  - name: Fathom
+    type: html_links
+    url: https://careers.fathom.global/
+
+  - name: GalaxEye
+    type: html_links
+    url: https://careers.galaxeye.space/jobs/Careers
+
+  - name: Intercontinental Exchange
+    type: html_links
+    url: https://careers.ice.com/jobs
+
+  - name: Open Cosmos
+    type: html_links
+    url: https://careers.open-cosmos.com/jobs
+
+  - name: Source Agriculture
+    type: html_links
+    url: https://careers.source.ag/
+
+  - name: Synspective
+    type: html_links
+    url: https://careers.synspective.com/
+
+  - name: D-Orbit
+    type: html_links
+    url: https://dorbit-space.factorial.it/#jobs
+
+  - name: Earth Daily Analytics
+    type: html_links
+    url: https://earthdaily.com/job-openings
+
+  - name: EarthOptics
+    type: html_links
+    url: https://earthoptics.bamboohr.com/careers
+
+  - name: Element 84
+    type: html_links
+    url: https://element84.com/who-we-are/careers/#job-openings
+
+  - name: Exolaunch
+    type: html_links
+    url: https://exolaunch.com/careers
+
+  - name: Greentown Labs
+    type: html_links
+    url: https://greentownlabs.com/careers/
+
+  - name: Axelspace
+    type: html_links
+    url: https://hrmos.co/pages/axelspace/jobs
+
+  - name: Isometric
+    type: html_links
+    url: https://isometric.com/careers
+
+  - name: Floodbase
+    type: html_links
+    url: https://job-boards.greenhouse.io/floodbase
+
+  - name: Muon Space
+    type: html_links
+    url: https://job-boards.greenhouse.io/muonspace
+
+  - name: Near Space Labs
+    type: html_links
+    url: https://job-boards.greenhouse.io/nearspacelabs
+
+  - name: Arable Labs
+    type: html_links
+    url: https://jobs.lever.co/arable
+
+  - name: Kepler Communications
+    type: html_links
+    url: https://jobs.lever.co/kepler
+
+  - name: One Concern
+    type: html_links
+    url: https://jobs.lever.co/oneconcern
+
+  - name: Orbital Sidekick
+    type: html_links
+    url: https://jobs.lever.co/orbitalsidekick
+
+  - name: Nara Space
+    type: html_links
+    url: https://naraspace.careers.team/job-descriptions?locale=en
+
+  - name: RS Metrics
+    type: html_links
+    url: https://rsmetrics.com/careers/
+
+  - name: SpaceKnow
+    type: html_links
+    url: https://spaceknow.com/careers/#positions
+
+  - name: SparkGeo
+    type: html_links
+    url: https://sparkgeo.com/careers/
+
+  - name: Umbra Lab
+    type: html_links
+    url: https://umbra.space/careers/job-openings/
+
+  - name: UP42
+    type: html_links
+    url: https://up42.com/company/careers
+
+  - name: AiDash
+    type: html_links
+    url: https://www.aidash.com/careers/
+
+  - name: Carbon Direct
+    type: html_links
+    url: https://www.carbon-direct.com/careers
+
+  - name: CarbonChain
+    type: html_links
+    url: https://www.carbonchain.com/careers
+
+  - name: Climate X
+    type: html_links
+    url: https://www.climate-x.com/careers
+
+  - name: Climate Central
+    type: html_links
+    url: https://www.climatecentral.org/what-we-do/jobs
+
+  - name: ClimateView
+    type: html_links
+    url: https://www.climateview.global/us/career
+
+  - name: Terra Climate
+    type: html_links
+    url: https://www.climatologylab.org/openings.html
+
+  - name: E-Space
+    type: html_links
+    url: https://www.e-space.com/pages/careers
+
+  - name: Earthshot Labs
+    type: html_links
+    url: https://www.earthshot.eco/about/about-a
+
+  - name: GeologicAI
+    type: html_links
+    url: https://www.geologicai.com/careers/
+
+  - name: Impact Observatory
+    type: html_links
+    url: https://www.impactobservatory.com/careers/
+
+  - name: Regrow
+    type: html_links
+    url: https://www.linkedin.com/company/regrowag/jobs/
+
+  - name: Mitiga Solutions
+    type: html_links
+    url: https://www.mitigasolutions.com/careers
+
+  - name: Privateer
+    type: html_links
+    url: https://www.privateer.com/careers
+
+  - name: Scout Space
+    type: html_links
+    url: https://www.scout.space/careers
+
+  - name: Slingshot Aerospace
+    type: html_links
+    url: https://www.slingshot.space/careers
+
+  - name: Taranis
+    type: html_links
+    url: https://www.taranis.com/careers/
+
+  - name: True Anomaly
+    type: html_links
+    url: https://www.trueanomaly.space/careers
+
+  - name: Varda Space Industries
+    type: html_links
+    url: https://www.varda.com/careers
+
+  - name: Vibrant Planet
+    type: html_links
+    url: https://www.vibrantplanet.net/about/team-and-careers
+
+  - name: Wyvern
+    type: html_links
+    url: https://www.wyvern.space/company/join-us
+
+  - name: Xplore
+    type: html_links
+    url: https://www.xplore.com/careers.html
