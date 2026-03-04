@@ -228,6 +228,7 @@ def get_workable_jobs(company: dict) -> list[dict]:
     url = company.get("url", "")
 
     if not account:
+        # try infer from https://apply.workable.com/<account>/...
         if "apply.workable.com/" in url:
             account = url.split("apply.workable.com/", 1)[1].split("/", 1)[0].strip()
         else:
@@ -239,7 +240,7 @@ def get_workable_jobs(company: dict) -> list[dict]:
         r.raise_for_status()
         data = r.json()
 
-        results: list[dict] = []
+        results = []
         for job in data.get("results", []):
             job_url = job.get("shortlink") or job.get("url")
             title = job.get("title") or ""
@@ -253,6 +254,26 @@ def get_workable_jobs(company: dict) -> list[dict]:
                     "id": sha(company["name"] + "|" + str(job_id)),
                     "url": job_url,
                     "title": title,
+                }
+            )
+        return results
+
+    except Exception:
+        # fallback: scrape the board page and extract links
+        board_url = f"https://apply.workable.com/{account}/"
+        html = fetch_html(board_url)
+        links = extract_links_from_html(html, board_url)
+
+        # Workable postings often look like /j/<shortcode> or /jobs/<id>
+        links = {l for l in links if "apply.workable.com" in l}
+
+        results = []
+        for link in sorted(links):
+            results.append(
+                {
+                    "id": sha(company["name"] + "|" + link),
+                    "url": link,
+                    "title": None,
                 }
             )
         return results
