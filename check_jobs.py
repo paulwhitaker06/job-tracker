@@ -4,7 +4,7 @@ import hashlib
 import smtplib
 from email.mime.text import MIMEText
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urldefrag
+from urllib.parse import urljoin, urldefrag, urlparse
 
 import requests
 import yaml
@@ -73,11 +73,13 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         "/job-description/",
         "/work-with-us/",
         "/join-us/",
+        # ATS host hints
         "jobs.lever.co/",
         "jobs.ashbyhq.com/",
         "greenhouse.io/",
         "job-boards.greenhouse.io/",
         "job-boards.eu.greenhouse.io/",
+        "boards.greenhouse.io/",
         "apply.workable.com/",
         "applytojob.com/apply/",
         "bamboohr.com/careers",
@@ -90,6 +92,7 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         "smartrecruiters.com/",
         "icims.com/",
         "teamtailor.com/",
+        "careers.team/",
     ]
 
     for a in soup.find_all("a", href=True):
@@ -111,6 +114,7 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
         if any(x in u for x in reject_substrings):
             continue
 
+        # Reject obvious Lever filter pages but keep real Lever postings
         if "jobs.lever.co/" in u and "?" in u:
             path_after_host = u.split("jobs.lever.co/", 1)[1]
             if path_after_host.count("/") < 1:
@@ -122,15 +126,60 @@ def extract_links_from_html(html: str, base_url: str) -> set[str]:
     return links
 
 
+def is_job_board_url(url: str) -> bool:
+    """
+    Strict allow-list for depth-1 follow from html_links pages.
+    """
+    u = url.lower()
+    board_indicators = [
+        "jobs.lever.co/",
+        "jobs.ashbyhq.com/",
+        "apply.workable.com/",
+        "job-boards.eu.greenhouse.io/",
+        "job-boards.greenhouse.io/",
+        "boards.greenhouse.io/",
+        "greenhouse.io/",
+        "bamboohr.com/careers",
+        "myworkdayjobs.com/",
+        "personio.de/",
+        "personio.com/",
+        "recruitee.com/",
+        "factorial.it/",
+        "hrmos.co/",
+        "smartrecruiters.com/",
+        "icims.com/",
+        "teamtailor.com/",
+        "applytojob.com/",
+        "careers.team/",
+    ]
+    return any(b in u for b in board_indicators)
+
+
 def get_html_links(company: dict) -> list[dict]:
-    html = fetch_html(company["url"])
-    links = extract_links_from_html(html, company["url"])
+    """
+    HTML harvesting with a single depth-1 follow:
+    - Fetch the configured url
+    - Extract job-ish links
+    - Follow up to 3 outbound ATS board links found on that page and extract links there too
+    """
+    base_url = company["url"]
+    html = fetch_html(base_url)
+    links = extract_links_from_html(html, base_url)
+
+    # Depth-1 follow: ATS board links found on the page
+    candidate_board_links = sorted({l for l in links if is_job_board_url(l) and l != base_url})
+    for board_url in candidate_board_links[:3]:
+        try:
+            board_html = fetch_html(board_url)
+            links |= extract_links_from_html(board_html, board_url)
+        except Exception:
+            pass
 
     if company.get("link_contains"):
         needle = company["link_contains"]
         links = {l for l in links if needle in l}
 
-    results = []
+    results: list[dict] = []
     for link in sorted(links):
         results.append(
             {
@@ -162,7 +211,7 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
     r.raise_for_status()
     data = r.json()
 
-    results = []
+    results: list[dict] = []
     for job in data.get("jobs", []):
         job_url = job.get("absolute_url") or job.get("url")
         title = job.get("title") or ""
@@ -200,7 +249,7 @@ def get_lever_jobs(company: dict) -> list[dict]:
     r.raise_for_status()
     data = r.json()
 
-    results = []
+    results: list[dict] = []
     for job in data:
         job_url = job.get("hostedUrl") or job.get("applyUrl")
         title = job.get("text") or job.get("title") or ""
@@ -222,13 +271,12 @@ def get_lever_jobs(company: dict) -> list[dict]:
 def get_workable_jobs(company: dict) -> list[dict]:
     """
     Workable job boards are apply.workable.com/<account>/
-    Best-effort JSON pull first, fallback to HTML harvesting if JSON ever fails.
+    Best-effort JSON pull first, fallback to HTML harvesting if JSON fails.
     """
     account = company.get("workable_account")
     url = company.get("url", "")
 
     if not account:
-        # try infer from https://apply.workable.com/<account>/...
         if "apply.workable.com/" in url:
             account = url.split("apply.workable.com/", 1)[1].split("/", 1)[0].strip()
         else:
@@ -240,7 +288,7 @@ def get_workable_jobs(company: dict) -> list[dict]:
         r.raise_for_status()
         data = r.json()
 
-        results = []
+        results: list[dict] = []
         for job in data.get("results", []):
             job_url = job.get("shortlink") or job.get("url")
             title = job.get("title") or ""
@@ -259,30 +307,9 @@ def get_workable_jobs(company: dict) -> list[dict]:
         return results
 
     except Exception:
-        # fallback: scrape the board page and extract links
         board_url = f"https://apply.workable.com/{account}/"
         html = fetch_html(board_url)
         links = extract_links_from_html(html, board_url)
-
-        # Workable postings often look like /j/<shortcode> or /jobs/<id>
-        links = {l for l in links if "apply.workable.com" in l}
-
-        results = []
-        for link in sorted(links):
-            results.append(
-                {
-                    "id": sha(company["name"] + "|" + link),
-                    "url": link,
-                    "title": None,
-                }
-            )
-        return results
-
-    except Exception:
-        board_url = f"https://apply.workable.com/{account}/"
-        html = fetch_html(board_url)
-        links = extract_links_from_html(html, board_url)
-
         links = {l for l in links if "apply.workable.com" in l}
 
         results: list[dict] = []
@@ -302,7 +329,7 @@ def get_ashby_jobs(company: dict) -> list[dict]:
     r.raise_for_status()
     data = r.json()
 
-    results = []
+    results: list[dict] = []
     for job in data.get("jobs", []):
         job_url = job.get("jobUrl")
         if not job_url:
@@ -440,7 +467,7 @@ def main():
     save_seen(seen)
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    lines = []
+    lines: list[str] = []
     lines.append("Daily job tracker digest")
     lines.append(f"Run time: {now_utc}")
     lines.append("")
