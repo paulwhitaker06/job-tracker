@@ -1,53 +1,1093 @@
 Daily job tracker digest
-Run time: 2026-03-04 15:05 UTC
+Run time: 2026-03-04 20:13 UTC
 
-New items: 24
+New items: 543
 
-- Sylvera: Customer Success Manager
-  https://jobs.ashbyhq.com/sylvera/1859fc57-9f27-4581-97e4-1e3747456140
-- Spire Global: Senior Mechanical Engineer - Job opening - Spire : Global data and analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7676893
-- AENU Portfolio: Sales Development Representative @ Hometree | AENU Job Board
-  https://jobs.aenu.com/companies/hometree/jobs/69115464-sales-development-representative
-- AENU Portfolio: Retentions Executive @ Hometree | AENU Job Board
-  https://jobs.aenu.com/companies/hometree/jobs/69115466-retentions-executive
-- DCVC Portfolio: Senior Bioinformatician @ Alchemab Therapeutics | DCVC Job Board
-  https://jobs.dcvc.com/companies/alchemab-therapeutics/jobs/69136987-senior-bioinformatician
-- DCVC Portfolio: Delivery Solutions Architect @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128005-delivery-solutions-architect
-- DCVC Portfolio: Geo Core Account Executive - Oil, Gas & Energy @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128008-geo-core-account-executive-oil-gas-energy
-- DCVC Portfolio: Manager, Field Engineering - Strategic Accounts Germany @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128009-manager-field-engineering-strategic-accounts-germany
-- DCVC Portfolio: Manager, Professional Services @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128012-manager-professional-services
-- DCVC Portfolio: MBA Intern - Commercial Transformation @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128018-mba-intern-commercial-transformation
-- DCVC Portfolio: Named Core Account Executive - CPG Vertical @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128024-named-core-account-executive-cpg-vertical
-- DCVC Portfolio: Partner Enablement Technical Lead @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128028-partner-enablement-technical-lead
-- DCVC Portfolio: Sr Fullstack Engineer, Agentic Applications @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128033-sr-fullstack-engineer-agentic-applications
-- DCVC Portfolio: Sr. Solutions Architect @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128039-sr-solutions-architect
-- DCVC Portfolio: Sr. Solutions Engineer @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128041-sr-solutions-engineer
-- DCVC Portfolio: Sr. Staff Technical Program Manager - GenAI @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128044-sr-staff-technical-program-manager-genai
-- DCVC Portfolio: Staff Employee Relations Manager @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128048-staff-employee-relations-manager
-- DCVC Portfolio: Strategic AI/BI Account Executive @ Databricks | DCVC Job Board
-  https://jobs.dcvc.com/companies/databricks/jobs/69128050-strategic-ai-bi-account-executive
-- DCVC Portfolio: Solution Sales Executive, Technology Workflows - Public Sector @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69113963-solution-sales-executive-technology-workflows-public-sector
-- DCVC Portfolio: Senior Solution Sales Executive, Security @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69113966-senior-solution-sales-executive-security
-- DCVC Portfolio: Senior GNC Engineer, Propulsive Controls @ Impulse Space | DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69114730-senior-gnc-engineer-propulsive-controls
-- DCVC Portfolio: Avionics System Engineer I @ Rocket Lab | DCVC Job Board
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138100-avionics-system-engineer-i
-- DCVC Portfolio: Propulsion Assembly Technician II/III @ Rocket Lab | DCVC Job Board
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138112-propulsion-assembly-technician-ii-iii
-- DCVC Portfolio: Mission Manager - Space Systems @ Rocket Lab | DCVC Job Board
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/69138120-mission-manager-space-systems
+- Hawkeye360: HawkEye 360 Careers | Join RF Spectrum, Maritime & GNSS Teams
+  https://www.he360.com/careers/
+- Loft Orbital: Accounting Manager
+  https://jobs.lever.co/loftorbital/c741bdcd-cb66-4c28-b8dc-a5d4d2acc8ca
+- Loft Orbital: AIT Technician
+  https://jobs.lever.co/loftorbital/711360ce-0c82-4032-9e57-a01f778792eb
+- Loft Orbital: Backend Engineer - Cutest
+  https://jobs.lever.co/loftorbital/a4173f92-10bb-455c-b658-07b3ab208bee
+- Loft Orbital: Backend Engineer - Data Management Services
+  https://jobs.lever.co/loftorbital/750c2cdf-e914-4bd4-a86b-abb6044956bd
+- Loft Orbital: Backend Engineer - Mission Operations Services
+  https://jobs.lever.co/loftorbital/c6ac5dfa-5292-483c-adff-a8f17e79b7f5
+- Loft Orbital: Business Development Manager
+  https://jobs.lever.co/loftorbital/1deb3851-0a9c-41bc-b369-7be65336a0d7
+- Loft Orbital: Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/0b56a50e-0e96-4954-95bf-7908d34a688e
+- Loft Orbital: Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/6a588112-01a4-425b-8ec8-90a57866a0df
+- Loft Orbital: Customer Delivery Engineer
+  https://jobs.lever.co/loftorbital/c49e5ba7-e040-4a2f-b28c-4bff3c398178
+- Loft Orbital: Director of Industrial Management
+  https://jobs.lever.co/loftorbital/d93e18fd-bf05-4a02-82d2-8d549797fe16
+- Loft Orbital: Director, Business Development - Germany
+  https://jobs.lever.co/loftorbital/6fd96b61-515b-41fa-b410-91ed6e5451bb
+- Loft Orbital: Director, Space Infrastructure
+  https://jobs.lever.co/loftorbital/d13da42f-1326-4f95-8ce2-2a776e199ca1
+- Loft Orbital: Director, Strategic Initiatives - EMEA
+  https://jobs.lever.co/loftorbital/d0a54a5b-fa85-4593-99b3-3a1274fdb1ab
+- Loft Orbital: Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/26ccf1ca-b425-4733-8e1b-4f79848e2c31
+- Loft Orbital: Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/67dc78e0-25b1-4f62-a6bf-1e865469821e
+- Loft Orbital: Facilities Lead
+  https://jobs.lever.co/loftorbital/63fc16b4-61d6-48d0-a22e-522abf7d8acf
+- Loft Orbital: FPGA Engineer
+  https://jobs.lever.co/loftorbital/21dd991a-fcec-42c9-ad5b-94cef5d3818e
+- Loft Orbital: Ground Software Solutions Engineer
+  https://jobs.lever.co/loftorbital/ef1ea76a-2ee7-4e07-a120-e0a2844ca625
+- Loft Orbital: Inventory & Logistics Lead
+  https://jobs.lever.co/loftorbital/c8fc8b5c-b907-427b-9c26-5fe64f711a15
+- Loft Orbital: Jr. Test Technician [Only Emirati]
+  https://jobs.lever.co/loftorbital/b3d584ac-fc51-40a1-8eaf-36b01c0e5273
+- Loft Orbital: Manufacturing Engineer
+  https://jobs.lever.co/loftorbital/181e4924-ed45-47eb-b27b-d9bc6c8c52e2
+- Loft Orbital: Manufacturing Software Engineer
+  https://jobs.lever.co/loftorbital/200bdc0a-274a-49ef-89a5-0cd6bdc6fcdb
+- Loft Orbital: Office Manager
+  https://jobs.lever.co/loftorbital/ac154bf7-8f55-42e6-8bf2-1d5cab5386da
+- Loft Orbital: Onboard Software Engineer - Peripheral Services
+  https://jobs.lever.co/loftorbital/8d4c888e-2a6b-4f39-a262-88cef3d119d1
+- Loft Orbital: Open Application
+  https://jobs.lever.co/loftorbital/0e976afb-4243-4951-9000-b52daa5f6d10
+- Loft Orbital: Open Application
+  https://jobs.lever.co/loftorbital/530e3539-90dd-4355-ac1e-b2beaeab7a31
+- Loft Orbital: Production Engineer
+  https://jobs.lever.co/loftorbital/949981ab-8420-4a1f-9003-7fefb0819280
+- Loft Orbital: Receiving Specialist
+  https://jobs.lever.co/loftorbital/b99dbe3d-bafb-43c0-a0ce-232aa13111aa
+- Loft Orbital: Satellite Operations Lead (Orbitworks - UAE)
+  https://jobs.lever.co/loftorbital/20e5693b-d7ab-427b-bd5c-0d809aa5d22e
+- Loft Orbital: Satellite Operations Software Engineer
+  https://jobs.lever.co/loftorbital/664a2c37-e865-479c-ba51-2d946c8f209e
+- Loft Orbital: Satellite Program Manager
+  https://jobs.lever.co/loftorbital/dc1538b5-d315-4993-9e3a-81ec8cc6bbf2
+- Loft Orbital: Satellite Program Manager
+  https://jobs.lever.co/loftorbital/ec358375-0c36-4f71-9d2e-6935aaa4f619
+- Loft Orbital: Security & Compliance Team Lead
+  https://jobs.lever.co/loftorbital/5646ef12-7bf9-4eb1-8cb1-a185a0f5d647
+- Loft Orbital: Security & Compliance Team Lead
+  https://jobs.lever.co/loftorbital/75c0ab4a-7bfd-478f-9fee-8e149af061ed
+- Loft Orbital: Security Officer
+  https://jobs.lever.co/loftorbital/d25b3cff-61ca-42ac-8721-bf156f2b98f1
+- Loft Orbital: Senior Contracts Manager
+  https://jobs.lever.co/loftorbital/23beae0e-d350-4cdd-b431-9fd014356d07
+- Loft Orbital: Senior Electrical Systems Engineer
+  https://jobs.lever.co/loftorbital/4fc6ad27-050a-4d1b-aaa2-26a08760e53d
+- Loft Orbital: Senior Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/6914d685-4e2f-45c5-a75a-33d903ef8363
+- Loft Orbital: Senior Embedded Software Engineer
+  https://jobs.lever.co/loftorbital/f7aa6c31-b60b-49ba-a731-10254d908f89
+- Loft Orbital: Senior Environmental Test Engineer
+  https://jobs.lever.co/loftorbital/cc276128-3c4b-4422-a0bf-e2ed8e7b6267
+- Loft Orbital: Senior FPGA Engineer
+  https://jobs.lever.co/loftorbital/670d4214-83ab-498d-a95e-2d13949d716a
+- Loft Orbital: Senior Full-Stack Engineer
+  https://jobs.lever.co/loftorbital/b1fd9465-963c-4fec-812e-2f8ab3139e97
+- Loft Orbital: Senior Sales Engineer - EMEA
+  https://jobs.lever.co/loftorbital/67d3789d-edfc-4bbb-a753-239da59d4d0d
+- Loft Orbital: Senior Sales Manager, Americas
+  https://jobs.lever.co/loftorbital/f48e757b-27c8-4b8c-87b3-f56dd6954102
+- Loft Orbital: Senior Satellite Program Manager
+  https://jobs.lever.co/loftorbital/2d6d3053-c88b-480a-bcc2-883aa69bb246
+- Loft Orbital: Senior Security Engineer
+  https://jobs.lever.co/loftorbital/4752a280-0eb9-4ce1-b369-0652d4445dfb
+- Loft Orbital: Senior Security Engineer
+  https://jobs.lever.co/loftorbital/deb55e7c-d282-478d-90c8-a812aea47a68
+- Loft Orbital: Senior Site Reliability Engineer
+  https://jobs.lever.co/loftorbital/3ae5c3e3-c1e0-4311-83b5-0b6cea03b390
+- Loft Orbital: Senior Software Engineer - Space Infrastructure
+  https://jobs.lever.co/loftorbital/aceef547-b747-47fc-bc42-e490e8caeded
+- Loft Orbital: Spacecraft Deployment Engineer
+  https://jobs.lever.co/loftorbital/ffc9033f-bad2-4bd9-a625-d6c6bd5fdec3
+- Loft Orbital: Sr. Director, Business Development - US
+  https://jobs.lever.co/loftorbital/6c07424a-607b-4970-9569-103abbfe4177
+- Loft Orbital: Sr. Edge Compute Software Engineer
+  https://jobs.lever.co/loftorbital/00dcbe89-075d-42b2-96d9-615e265e5eba
+- Loft Orbital: Sr. Edge Compute Software Engineer
+  https://jobs.lever.co/loftorbital/819447a3-1664-4a63-8c28-df2fdde43526
+- Loft Orbital: Sr. Onboard Software Engineer
+  https://jobs.lever.co/loftorbital/a693e044-c07e-421f-bdb3-897f796f63fe
+- Loft Orbital: Supply Chain Manager
+  https://jobs.lever.co/loftorbital/47a4dd1e-e3c7-4aa3-aaa1-9ada5d1664cc
+- Loft Orbital: System Verification Architect
+  https://jobs.lever.co/loftorbital/c5e85019-1606-44f5-8fb6-f3a4e494814d
+- Loft Orbital: Technical Program Manager, Hardware
+  https://jobs.lever.co/loftorbital/31bd80f9-6650-415b-aae3-8ec1403b4b65
+- Loft Orbital: Technical Program Manager, Hardware
+  https://jobs.lever.co/loftorbital/9b5a2fd9-3c57-497a-add7-163541d8f07d
+- Loft Orbital: Technical Recruiter
+  https://jobs.lever.co/loftorbital/3413b776-6e99-4ed8-85c6-52948c3751e9
+- Loft Orbital: Technical Recruiter
+  https://jobs.lever.co/loftorbital/6b017c07-ad42-4a98-a9c1-dee5bc62447a
+- Loft Orbital: Test Engineer
+  https://jobs.lever.co/loftorbital/6d4675f6-4a3f-4e2f-b303-818f6b0d2c61
+- Loft Orbital: Test Infrastructure Engineer
+  https://jobs.lever.co/loftorbital/ef8685ea-6642-4128-9d57-3d481fead175
+- Loft Orbital: VP of Business Development
+  https://jobs.lever.co/loftorbital/5fb9c139-3bdc-4ee8-8944-f02a44ab8921
+- Loft Orbital: VP, Business Development - EMEA
+  https://jobs.lever.co/loftorbital/f8362e60-5914-4a0c-ab59-dfac9a0df52d
+- Watershed: Strategy and operations - sustainability advisory & services – Watershed Careers
+  https://watershed.com/careers/010e3efc-strategy-and-operations-sustainability-advisory-services
+- Watershed: Staff software engineer, AI product  – Watershed Careers
+  https://watershed.com/careers/04da72b7-staff-software-engineer-ai-product
+- Watershed: Manager, sales development – Watershed Careers
+  https://watershed.com/careers/0e2a8ea0-manager-sales-development
+- Watershed: Customer success manager, strategic – Watershed Careers
+  https://watershed.com/careers/13d85f28-customer-success-manager-strategic
+- Watershed: Technical support engineer - sustainability – Watershed Careers
+  https://watershed.com/careers/1c7bca67-technical-support-engineer-sustainability
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/21b44d18-software-engineer-full-stack
+- Watershed: Staff machine learning engineer – Watershed Careers
+  https://watershed.com/careers/225b7390-staff-machine-learning-engineer
+- Watershed: Contract Business Recruiter – Watershed Careers
+  https://watershed.com/careers/24664434-contract-business-recruiter
+- Watershed: Account executive, enterprise, nordics – Watershed Careers
+  https://watershed.com/careers/2a3dffdd-account-executive-enterprise-nordics
+- Watershed: Account executive, enterprise  – Watershed Careers
+  https://watershed.com/careers/364e8ebb-account-executive-enterprise
+- Watershed: Staff software engineer, product – Watershed Careers
+  https://watershed.com/careers/38d22d94-staff-software-engineer-product
+- Watershed: Account executive, enterprise, ANZ  – Watershed Careers
+  https://watershed.com/careers/3d1a3973-account-executive-enterprise-anz
+- Watershed: Data Consulting Team Lead – Watershed Careers
+  https://watershed.com/careers/417bb1fc-data-consulting-team-lead
+- Watershed: Sustainability advisor – Watershed Careers
+  https://watershed.com/careers/41c22c1c-sustainability-advisor
+- Watershed: Global head of sustainability data advisory – Watershed Careers
+  https://watershed.com/careers/444fa37a-global-head-of-sustainability-data-advisory
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/46cd57bd-software-engineer-full-stack
+- Watershed: Customer success manager, strategic – Watershed Careers
+  https://watershed.com/careers/4ad7e858-customer-success-manager-strategic
+- Watershed: Global payroll manager – Watershed Careers
+  https://watershed.com/careers/52dffb54-global-payroll-manager
+- Watershed: Solutions consultant, enterprise – Watershed Careers
+  https://watershed.com/careers/62f1ac4f-solutions-consultant-enterprise
+- Watershed: Global head of sustainability advisory – Watershed Careers
+  https://watershed.com/careers/6c08e062-global-head-of-sustainability-advisory
+- Watershed: Software engineer, cloud infrastructure – Watershed Careers
+  https://watershed.com/careers/6d42629d-software-engineer-cloud-infrastructure
+- Watershed: Technical recruiter – Watershed Careers
+  https://watershed.com/careers/727a3103-technical-recruiter
+- Watershed: Sustainability advisor, finance – Watershed Careers
+  https://watershed.com/careers/737bd987-sustainability-advisor-finance
+- Watershed: Support operations specialist - sustainability – Watershed Careers
+  https://watershed.com/careers/759c58a3-support-operations-specialist-sustainability
+- Watershed: Manager, strategy & operations - sustainability advisory & services – Watershed Careers
+  https://watershed.com/careers/7c64dc7b-manager-strategy-operations-sustainability-advisory-services
+- Watershed: Engineering manager, product – Watershed Careers
+  https://watershed.com/careers/80d6b3ea-engineering-manager-product
+- Watershed: Customer success manager, enterprise – Watershed Careers
+  https://watershed.com/careers/880d3850-customer-success-manager-enterprise
+- Watershed: Sr Product manager, supply chain data products – Watershed Careers
+  https://watershed.com/careers/898baadc-sr-product-manager-supply-chain-data-products
+- Watershed: Senior security engineer – Watershed Careers
+  https://watershed.com/careers/8eaa2d23-senior-security-engineer
+- Watershed: Staff machine learning engineer – Watershed Careers
+  https://watershed.com/careers/9067cd1d-staff-machine-learning-engineer
+- Watershed: Account executive, enterprise, southern Europe – Watershed Careers
+  https://watershed.com/careers/93e8ec93-account-executive-enterprise-southern-europe
+- Watershed: Sales development representative (German speaking) – Watershed Careers
+  https://watershed.com/careers/9c98fdd9-sales-development-representative-german-speaking
+- Watershed: Technical recruiter – Watershed Careers
+  https://watershed.com/careers/9f786744-technical-recruiter
+- Watershed: Engineering manager, cloud infrastructure – Watershed Careers
+  https://watershed.com/careers/a03fccc3-engineering-manager-cloud-infrastructure
+- Watershed: Account executive, enterprise, northern Europe – Watershed Careers
+  https://watershed.com/careers/ab8de98d-account-executive-enterprise-northern-europe
+- Watershed: Business Recruiter – Watershed Careers
+  https://watershed.com/careers/b536a702-business-recruiter
+- Watershed: Senior full-stack software engineer – Watershed Careers
+  https://watershed.com/careers/b9e30cb8-senior-full-stack-software-engineer
+- Watershed: Data specialist manager – Watershed Careers
+  https://watershed.com/careers/baef57ff-data-specialist-manager
+- Watershed: Software engineer, full-stack – Watershed Careers
+  https://watershed.com/careers/c012d2c7-software-engineer-full-stack
+- Watershed: Lead software engineer, product – Watershed Careers
+  https://watershed.com/careers/c0dec657-lead-software-engineer-product
+- Watershed: Outbound sales development representative, enterprise – Watershed Careers
+  https://watershed.com/careers/c1defefd-outbound-sales-development-representative-enterprise
+- Watershed: Solutions consultant, EMEA – Watershed Careers
+  https://watershed.com/careers/c93f4e1a-solutions-consultant-emea
+- Watershed: Data specialist – Watershed Careers
+  https://watershed.com/careers/d3a2b6ae-data-specialist
+- Watershed: Software engineer, AI product  – Watershed Careers
+  https://watershed.com/careers/d75ec4f0-software-engineer-ai-product
+- Watershed: Customer success manager, enterprise – Watershed Careers
+  https://watershed.com/careers/e428e968-customer-success-manager-enterprise
+- Watershed: Service delivery manager – Watershed Careers
+  https://watershed.com/careers/f69fbf34-service-delivery-manager
+- Watershed: Customer success operations – Watershed Careers
+  https://watershed.com/careers/f8053080-customer-success-operations
+- Watershed: Account manager, enterprise  – Watershed Careers
+  https://watershed.com/careers/fe457103-account-manager-enterprise
+- Jupiter Intelligence: Flood Modeler (Contract)
+  https://jobs.lever.co/jupiterintel/6f31ac96-b71e-44ff-84aa-1b6b4bb808ec
+- Jupiter Intelligence: Principal, Customer Success
+  https://jobs.lever.co/jupiterintel/e949533a-02ef-4d41-939e-8020b6d7e469
+- Tomorrow.io: Your Impact Starts Here | Tomorrow.io
+  https://www.tomorrow.io/careers/
+- OroraTech: Senior Manager Tenders and Proposals - Government Solutions (m/f/d) – Vacancies – Permanent employee, Full-time · Munich – OroraTech
+  https://ororatech.com/company/careers/2478490
+- OroraTech: Senior Hauptbuchhalter / Senior Financial Accountant (m/w/d) – Vacancies – Permanent employee, Full-time · Munich – OroraTech
+  https://ororatech.com/company/careers/2553397
+- Planet Labs: ABM Marketing Manager, North America
+  https://job-boards.greenhouse.io/planetlabs/jobs/7592241
+- Planet Labs: Account Executive – Civil Government (EU Institutions & Northern Europe)
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543717
+- Planet Labs: Account Executive, Defence & Intelligence
+  https://job-boards.greenhouse.io/planetlabs/jobs/7564777
+- Planet Labs: Account Executive, Defence & Intelligence, France
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603831
+- Planet Labs: Account Executive NATO
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543661
+- Planet Labs: Account Executive NATO
+  https://job-boards.greenhouse.io/planetlabs/jobs/7476617
+- Planet Labs: Account Executive NATO
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543660
+- Planet Labs: Associate, Space Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7574476
+- Planet Labs: Constellation Services Mission Director, Europe
+  https://job-boards.greenhouse.io/planetlabs/jobs/7554837
+- Planet Labs: Corporate Security Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7363174
+- Planet Labs: D&I Program Manager, Professional Services
+  https://job-boards.greenhouse.io/planetlabs/jobs/7490275
+- Planet Labs: D&I Program Manager, Professional Services
+  https://job-boards.greenhouse.io/planetlabs/jobs/7439062
+- Planet Labs: D&I Program Manager, Professional Services
+  https://job-boards.greenhouse.io/planetlabs/jobs/7374533
+- Planet Labs: D&I Project Manager, Professional Services
+  https://job-boards.greenhouse.io/planetlabs/jobs/7439060
+- Planet Labs: Director of Government Affairs
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543721
+- Planet Labs: Director of Manufacturing
+  https://job-boards.greenhouse.io/planetlabs/jobs/7645726
+- Planet Labs: Education & Research Program Manager & Evangelist
+  https://job-boards.greenhouse.io/planetlabs/jobs/7532263
+- Planet Labs: Events Marketing Manager, North America
+  https://job-boards.greenhouse.io/planetlabs/jobs/7652458
+- Planet Labs: Events Marketing Manager, North America
+  https://job-boards.greenhouse.io/planetlabs/jobs/7644694
+- Planet Labs: FP&A Revenue Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7527437
+- Planet Labs: FPGA Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7241653
+- Planet Labs: Geospatial Software Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7543719
+- Planet Labs: Global Performance Marketing Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589174
+- Planet Labs: Global Performance Marketing Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7411511
+- Planet Labs: Global Stock Plan Administrator
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555021
+- Planet Labs: Head of Global Total Rewards
+  https://job-boards.greenhouse.io/planetlabs/jobs/7625350
+- Planet Labs: Head of Global Total Rewards
+  https://job-boards.greenhouse.io/planetlabs/jobs/7642956
+- Planet Labs: Industry Account Executive
+  https://job-boards.greenhouse.io/planetlabs/jobs/7374535
+- Planet Labs: Industry Account Executive
+  https://job-boards.greenhouse.io/planetlabs/jobs/7201307
+- Planet Labs: Manufacturing Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7668018
+- Planet Labs: Mechanical Ground Support Equipment Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7455831
+- Planet Labs: Opto-Mechanical Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7476623
+- Planet Labs: PreSales Sr. Solutions Architect - French Defense and Intelligence
+  https://job-boards.greenhouse.io/planetlabs/jobs/7622544
+- Planet Labs: RF Engineer - Part Time
+  https://job-boards.greenhouse.io/planetlabs/jobs/7524896
+- Planet Labs: Senior Analyst, International Trade Compliance
+  https://job-boards.greenhouse.io/planetlabs/jobs/7463366
+- Planet Labs: Senior Electrical Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7455779
+- Planet Labs: Senior Electrical Engineer, Power
+  https://job-boards.greenhouse.io/planetlabs/jobs/7368309
+- Planet Labs: Senior Engineering Manager - AI Geospatial Assistant Team
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603801
+- Planet Labs: Senior Forward Deployed Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7644692
+- Planet Labs: Senior FPGA Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7398842
+- Planet Labs: Senior Hardware Test Engineer, PCBA
+  https://job-boards.greenhouse.io/planetlabs/jobs/7645730
+- Planet Labs: Senior Manager, Revenue Accounting
+  https://job-boards.greenhouse.io/planetlabs/jobs/7512767
+- Planet Labs: Senior Mechanical Engineer, Deployable Solar Arrays
+  https://job-boards.greenhouse.io/planetlabs/jobs/7357888
+- Planet Labs: Senior Mechanical Engineer, Electronics Packaging
+  https://job-boards.greenhouse.io/planetlabs/jobs/7583226
+- Planet Labs: Senior NPI Engineering Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7645728
+- Planet Labs: Senior Operations Research Engineer, Orbits R&D
+  https://job-boards.greenhouse.io/planetlabs/jobs/7336381
+- Planet Labs: Senior Optical Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7648053
+- Planet Labs: Senior Optical Manufacturing Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7426769
+- Planet Labs: Senior Product Designer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664694
+- Planet Labs: Senior Product Designer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664731
+- Planet Labs: Senior Product Designer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7590757
+- Planet Labs: Senior Product Designer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664733
+- Planet Labs: Senior Product Designer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7664728
+- Planet Labs: Senior Product Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589140
+- Planet Labs: Senior Product Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555003
+- Planet Labs: Senior Product Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589138
+- Planet Labs: Senior Product Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7589144
+- Planet Labs: Senior Product Manager, AI Geo Assistant
+  https://job-boards.greenhouse.io/planetlabs/jobs/7572102
+- Planet Labs: Senior Site Reliability Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7590719
+- Planet Labs: Senior Software Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603823
+- Planet Labs: Senior Software Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7657604
+- Planet Labs: Senior Software Engineer, Infrastructure
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603820
+- Planet Labs: Senior Software Engineering Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7603834
+- Planet Labs: Senior Spacecraft Systems Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7597728
+- Planet Labs: Senior Technical Program Manager, Infrastructure
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555017
+- Planet Labs: Software Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7592243
+- Planet Labs: Software Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7524903
+- Planet Labs: Software Engineer, Embedded Security Focus
+  https://job-boards.greenhouse.io/planetlabs/jobs/7099388
+- Planet Labs: Software Engineer, Missions Software
+  https://job-boards.greenhouse.io/planetlabs/jobs/7590726
+- Planet Labs: Software Engineer, Missions Software
+  https://job-boards.greenhouse.io/planetlabs/jobs/7625446
+- Planet Labs: Software Engineer, Platform Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7555019
+- Planet Labs: Software Engineer, Platform Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7593419
+- Planet Labs: Solutions Architect Deployment Strategist
+  https://job-boards.greenhouse.io/planetlabs/jobs/7377997
+- Planet Labs: Technical Program Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7542179
+- Planet Labs: Working Student, Space Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7573689
+- Planet Labs: Working Student, Space Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7574473
+- Planet Labs: Working Student, Space Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7625363
+- Planet Labs: Workplace Coordinator
+  https://job-boards.greenhouse.io/planetlabs/jobs/7512765
+- Spire Global: Careers - Spire : Global Data and Analytics
+  https://spire.com/careers/
+- ClimateAI: Careers at ClimateAi | Join Our Team
+  https://climate.ai/careers/
+- ClimateAI: Careers at ClimateAi | Join Our Team
+  https://climate.ai/careers/?id=4854550007
+- Satlantis: Work with us - Satlantis
+  https://www.satlantis.com/work-with-us/
+- Terrascope: Senior Decarbonisation Specialist (Japanese-speaking)
+  https://jobs.lever.co/terrascope/92641fb5-8541-4ead-9ec8-936482d10589
+- Downforce Technologies: View • 
+      Careers • 
+      Downforce Technologies
+  https://www.downforce.tech/index.php/careers/view/senior-marketing-manager
+- Umbra Space: Career Opportunities • Umbra Careers
+  https://umbra.space/careers/
+- Umbra Space: Equal Opportunity Employer • Umbra Careers
+  https://umbra.space/careers/equal-opportunity-employer/
+- BlackSky: Careers - BlackSky
+  https://blacksky.com/company/careers/
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&&source=EN&selectedMenuKey=CurrentOpenings
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805741693_1&&source=EN
+- Western Resource Advocates: Recruitment
+  https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&jobId=9200805878916_1&&source=EN
+- DCVC Portfolio: Head of Account Management @ Slip Robotics | DCVC Job Board
+  https://jobs.dcvc.com/companies/slip-robotics/jobs/69192916-head-of-account-management
+- Aistech Space: Careers – Aistechspace
+  https://aistechspace.com/careers/
+- Atlas AI: Atlas AI - Career Page
+  http://atlasai.applytojob.com/apply/
+- Atlas AI: Geospatial Solutions Engineer - India (Contract) - Atlas AI - Career Page
+  https://atlasai.applytojob.com/apply/XdcBrZNBRP/Geospatial-Solutions-Engineer-India-Contract
+- Fathom: Teamtailor
+  https://app.teamtailor.com/companies/Fiu090sL2M4@eu/dashboard
+- Fathom: Revenue Operations Manager - Fathom
+  https://careers.fathom.global/jobs/7203228-revenue-operations-manager
+- Fathom: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.fathom.global&utm_medium=referral&utm_source=career-site
+- Open Cosmos: Senior Electronics Engineer (Embedded) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/6598675-senior-electronics-engineer-embedded
+- Open Cosmos: Satcom Payload Architect - Open Cosmos
+  https://careers.open-cosmos.com/jobs/6993710-satcom-payload-architect
+- Open Cosmos: Verification & Validation Engineer - Open Cosmos
+  https://careers.open-cosmos.com/jobs/6993720-verification-validation-engineer
+- Open Cosmos: User Terminal Architect - Open Cosmos
+  https://careers.open-cosmos.com/jobs/6993728-user-terminal-architect
+- Open Cosmos: Embedded Electronics Engineer - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231072-embedded-electronics-engineer
+- Open Cosmos: Inventory & Logistics Coordinator (Harwell, Oxfordshire) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231083-inventory-logistics-coordinator-harwell-oxfordshire
+- Open Cosmos: Inventory & Logistics Coordinator (Barcelona) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231085-inventory-logistics-coordinator-barcelona
+- Open Cosmos: Product Procurement Specialist (Launch specialism) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231117-product-procurement-specialist-launch-specialism
+- Open Cosmos: Product Procurement Specialist  (Avionics & Harness specialism) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231120-product-procurement-specialist-avionics-harness-specialism
+- Open Cosmos: Product Procurement Specialist  (Communication Systems specialism) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231125-product-procurement-specialist-communication-systems-specialism
+- Open Cosmos: Product Procurement Specialist: AOCS (ADCS, Star Trackers, Propulsion) specialism - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231126-product-procurement-specialist-aocs-adcs-star-trackers-propulsion-specialism
+- Open Cosmos: Product Procurement Specialist (Solar Panels & Mechanical) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231128-product-procurement-specialist-solar-panels-mechanical
+- Open Cosmos: Inventory & Logistics Manager - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231139-inventory-logistics-manager
+- Open Cosmos: Automation Architect - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231146-automation-architect
+- Open Cosmos: Machine Learning Engineer - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231151-machine-learning-engineer
+- Open Cosmos: Software Engineer (Ground Segment) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231662-software-engineer-ground-segment
+- Open Cosmos: Senior Software Engineer (Ground Segment) - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7231671-senior-software-engineer-ground-segment
+- Open Cosmos: Chief Of Staff - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7272240-chief-of-staff
+- Open Cosmos: Electronics Operations Engineer - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7292543-electronics-operations-engineer
+- Open Cosmos: Propulsion Systems Engineer - Open Cosmos
+  https://careers.open-cosmos.com/jobs/7292668-propulsion-systems-engineer
+- Open Cosmos: (no title captured)
+  https://careers.open-cosmos.com/jobs/show_more?page=2
+- Open Cosmos: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.open-cosmos.com&utm_medium=referral&utm_source=career-site
+- D-Orbit: D-ORBIT SPA - Job offers, offices and team
+  https://dorbit-space.factorial.it/
+- D-Orbit: D-ORBIT SPA - Job offers, offices and team
+  https://dorbit-space.factorial.it/apply
+- D-Orbit: Flight Software Engineer
+  https://dorbit-space.factorial.it/job_posting/flight-software-engineer-286742
+- D-Orbit: FPGA Engineer
+  https://dorbit-space.factorial.it/job_posting/fpga-engineer-271814
+- D-Orbit: Head of Flight Software Engineering
+  https://dorbit-space.factorial.it/job_posting/head-of-flight-software-engineering-279071
+- D-Orbit: Head of Product & Quality Assurance
+  https://dorbit-space.factorial.it/job_posting/head-of-product-quality-assurance-286104
+- D-Orbit: Internship Opportunity fluidynamics - Propulsion Engineering
+  https://dorbit-space.factorial.it/job_posting/internship-opportunity-fluidynamics-propulsion-engineering-group-271806
+- D-Orbit: Internship Propulsion Engineering Group
+  https://dorbit-space.factorial.it/job_posting/internship-propulsion-engineering-group-271811
+- D-Orbit: Lead Robotic Systems Engineer
+  https://dorbit-space.factorial.it/job_posting/lead-robotic-systems-engineer-262091
+- D-Orbit: Product Assurance Manager
+  https://dorbit-space.factorial.it/job_posting/product-assurance-manager-286101
+- D-Orbit: Production Support Services Coordinator
+  https://dorbit-space.factorial.it/job_posting/production-support-services-coordinator-276455
+- D-Orbit: Senior Flight Software Engineer
+  https://dorbit-space.factorial.it/job_posting/senior-flight-software-engineer-286744
+- D-Orbit: Senior Product Manager – Avionics Systems
+  https://dorbit-space.factorial.it/job_posting/senior-product-manager-avionics-systems-275528
+- D-Orbit: Space Procurement - Category Specialist – Avionics, Mechatro
+  https://dorbit-space.factorial.it/job_posting/space-procurement-category-specialist-avionics-mechatronics-engineering-services-285308
+- D-Orbit: Space Systems Engineer
+  https://dorbit-space.factorial.it/job_posting/space-systems-engineer-278714
+- D-Orbit: Space Systems Procurement – Orbital Access
+  https://dorbit-space.factorial.it/job_posting/space-systems-procurement-orbital-access-262084
+- D-Orbit: Specialist Hardware Engineer for Space application
+  https://dorbit-space.factorial.it/job_posting/specialist-hardware-engineer-for-space-application-278711
+- D-Orbit: Supplier Quality Engineer
+  https://dorbit-space.factorial.it/job_posting/supplier-quality-engineer-282081
+- Element 84: Careers • Element 84
+  https://element84.com/who-we-are/careers/
+- Element 84: Sign-up for Job Alerts • Element 84
+  https://element84.com/who-we-are/careers/sign-up-for-job-alerts/
+- Exolaunch: Warehouse Logistics Manager (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2501410
+- Exolaunch: Test Engineer - Mechanical Space Systems (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2504264
+- Exolaunch: QA Engineer - Mechanical Space Systems (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2504323
+- Exolaunch: Engineering Technician (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2504337
+- Exolaunch: Mission Associate/Mission Manager (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2518969
+- Exolaunch: Mission Associate/Mission Manager | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2521528
+- Exolaunch: Future Opportunities â Open Application | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2535135
+- Exolaunch: Senior Warehouse & Logistics Manager / Logistics Team Lead (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2540649
+- Exolaunch: (Junior) Staff Accountant (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2540776
+- Exolaunch: Office Support & Allrounder (m/w/d) | Jobs at EXOLAUNCH
+  https://exolaunch.jobs.personio.de/job/2546781
+- Greentown Labs: Dover
+  https://app.dover.com/apply/manatee/1f38174c-07fd-47d0-b765-aa0da1e877cb
+- Greentown Labs: Dover
+  https://app.dover.com/apply/manatee/4c989b12-c592-4a17-b559-f38ef5b39b59
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/director-of-sales/
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/electrical-engineer/
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/full-stack-developer-internship/
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/machine-learning-engineer/
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/mechanical-engineering-intern/
+- Greentown Labs: (no title captured)
+  https://batteryevidence.com/jobs/software-engineer-data/
+- Greentown Labs: Monaire - Marketing Lead - Inbound Growth in Somerville
+  https://careers.monaire.ai/jobs/Careers/700954000005281006/Marketing-Lead---Inbound-Growth?source=CareerSite
+- Greentown Labs: Monaire - Account Executive in Somerville
+  https://careers.monaire.ai/jobs/Careers/700954000005350001/Account-Executive?source=CareerSite
+- Greentown Labs: Monaire - Customer Success Manager in Somerville
+  https://careers.monaire.ai/jobs/Careers/700954000005512001/Customer-Success-Manager?source=CareerSite
+- Greentown Labs: Monaire - Senior Software Engineer - Remote Job
+  https://careers.monaire.ai/jobs/Careers/700954000005570001/Senior-Software-Engineer?source=CareerSite
+- Greentown Labs: Monaire - QA Engineer - Remote Job
+  https://careers.monaire.ai/jobs/Careers/700954000005570023/QA-Engineer?source=CareerSite
+- Greentown Labs: Monaire - Data Scientist in Pune City
+  https://careers.monaire.ai/jobs/Careers/700954000005570077/Data-Scientist?source=CareerSite
+- Greentown Labs: Jobs Archive - Greentown Labs
+  https://greentownlabs.com/careers/
+- Greentown Labs: Jobs Archive - Greentown Labs
+  https://greentownlabs.com/careers/?campaign=528604
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/allspice/18c835f7-7181-45a9-82de-b53ddc8f9729
+- Greentown Labs: Data & LLM Systems Engineer @ AllSpice
+  https://jobs.ashbyhq.com/allspice/6d5963b2-5c5e-4dec-a998-9e4b15b32195
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/allspice/f35cfe90-a2e9-4f5f-8fdc-7f96af2adb6e
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/anvilcarbon/097be617-74fb-4751-90a8-ba51abfb4446
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/anvilcarbon/10ee4cb6-6fd4-43d8-bdc0-d7251d39cb04
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/anvilcarbon/3297a931-9b16-46b7-a964-5ee861835f9f
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/anvilcarbon/9bb3d301-ffff-4fe5-8c90-037bbd79473d
+- Greentown Labs: Solutions Engineering Lead @ Glimpse
+  https://jobs.ashbyhq.com/glimp-se/41822306-fb8a-400f-a2e5-1f2a25083e62
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/glimp-se/55b8ca06-be8a-40aa-a8f3-aae4ac02c2ec
+- Greentown Labs: Jobs
+  https://jobs.ashbyhq.com/lydian/c6618df4-8c09-4f41-9cb1-9b6caf6d4a72?utm_source=pbYz98Zdoz
+- Greentown Labs: Engineering Manager (f/m/d) @ Phlair
+  https://jobs.ashbyhq.com/phlair/4d1742ce-8c2e-43bf-a8a6-5e99e522226a
+- Greentown Labs: Internship in Electrochemical Direct Air Capture (f/m/d) @ Phlair
+  https://jobs.ashbyhq.com/phlair/5e34d1d3-c88c-4a3c-afa2-9386c92ea808
+- Greentown Labs: Technical & Commercial Programs (f/m/d) @ Phlair
+  https://jobs.ashbyhq.com/phlair/6ee2cbb0-67d0-4154-8839-c4a47a07465b
+- Greentown Labs: Industrial Mechanic (f/m/d) @ Phlair
+  https://jobs.ashbyhq.com/phlair/7fc500cd-c692-4452-b189-a5c0e3d85bc4
+- Greentown Labs: Internship in Chemical Engineering (f/m/d) @ Phlair
+  https://jobs.ashbyhq.com/phlair/82374d8e-9157-4a03-8738-3b58d0f78bb6
+- Greentown Labs: Principal Semiconductor Device Engineer @ Vertical Semiconductor
+  https://jobs.ashbyhq.com/verticalsemi/856356cd-96e8-4db4-b76d-bb0cae66d01b?utm_source=xagvNGp3av
+- Greentown Labs: Xpansiv - Associate, Client Success
+  https://jobs.lever.co/Xpansiv%20/10a4decf-3690-410a-abb8-ab3b2b67a580
+- Greentown Labs: BambooHR
+  https://octaviacarbon.bamboohr.com/careers/79
+- Greentown Labs: Business Development Summer 2026 Internship (Apply by 3/6)
+  https://runlaminar.com/careers/45af1750-3e9f-4525-94f6-da319bc62aab
+- Greentown Labs: Forward Deployed Engineer (CPG)- Hiring multiple
+  https://runlaminar.com/careers/57f09ec5-1aa8-4834-865f-22b1d106adb2
+- Greentown Labs: Enterprise Account Executive, CPG
+  https://runlaminar.com/careers/8257cb80-ec9a-4ff9-80a4-35d5ab4a7050
+- Greentown Labs: Jr. Front-End Engineer
+  https://runlaminar.com/careers/84cd6326-68ed-485f-a373-7b7437c4523e
+- Greentown Labs: (no title captured)
+  https://wellfound.com/jobs/3334613-software-engineer-data-platform
+- Greentown Labs: Business Development Director
+  https://www.3d-architech.com/en/career/business-development-director
+- Greentown Labs: Metamaterial Design Engineer
+  https://www.3d-architech.com/en/career/materials-engineer
+- Greentown Labs: Metamaterial Design Engineer
+  https://www.3d-architech.com/en/career/metamaterial-design-engineer
+- Greentown Labs: Simulation Engineer
+  https://www.3d-architech.com/en/career/simulation-engineer
+- Greentown Labs: Business Development Lead Application — Andros Innovations
+  https://www.androsinnovations.com/careers/business-development-lead
+- Greentown Labs: Catalyst Engineer Application — Andros Innovations
+  https://www.androsinnovations.com/careers/catalyst-engineer
+- Greentown Labs: Senior Catalyst Engineer Application — Andros Innovations
+  https://www.androsinnovations.com/careers/senior-catalyst-engineer
+- Greentown Labs: Senior Systems Engineer Application — Andros Innovations
+  https://www.androsinnovations.com/careers/senior-systems-engineer
+- Greentown Labs: Summer Intern Business Application — Andros Innovations
+  https://www.androsinnovations.com/careers/summer-intern-business
+- Greentown Labs: Summer Intern STEM Application — Andros Innovations
+  https://www.androsinnovations.com/careers/summer-intern-science
+- Greentown Labs: Systems Engineer Application — Andros Innovations
+  https://www.androsinnovations.com/careers/systems-engineer
+- Greentown Labs: VP of Operations — Andros Innovations
+  https://www.androsinnovations.com/careers/vp-operations
+- Axelspace: 株式会社アクセルスペース 採用情報
+  https://hrmos.co/pages/axelspace
+- Axelspace: 株式会社アクセルスペース 採用情報
+  https://hrmos.co/pages/axelspace/
+- Axelspace: 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs
+- Axelspace: 姿勢制御系エンジニア｜Attitude and Control System Engineer | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000002
+- Axelspace: Attitude and Orbit Control System Manager | 姿勢軌道制御システムマネージャー | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000005
+- Axelspace: Mechanical Engineer / 機械エンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000007
+- Axelspace: 小型人工衛星開発プロジェクトにおけるプロジェクトマネジメント（PM/業界経験不問） | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000029
+- Axelspace: エレキエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000037
+- Axelspace: ハーネスエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000042
+- Axelspace: Radiation tolerant design and test engineer / 耐放射線設計・試験エンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000045
+- Axelspace: 衛星運用システム ソフトウェアエンジニア｜Satellite Operation Systems Software Engineer | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000046
+- Axelspace: Satellite System Integration Test Engineer｜衛星システム統合テストエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000052
+- Axelspace: 製造推進マネージャー | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000054
+- Axelspace: 地上システム運用エンジニア│Operations Engineer for Ground Systems | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000056
+- Axelspace: 衛星システム統合テストエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/1000000057
+- Axelspace: シニアWebバックエンドエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/2000000001
+- Axelspace: バックオフィス業務プロセス改善システム担当（リーダー候補） | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/3000000005
+- Axelspace: AI&DX推進エンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/3000000007
+- Axelspace: 衛星システムズエンジニア| Satellite development systems engineer | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/4000000011
+- Axelspace: Business Development Engineer | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/4000000018
+- Axelspace: 事業開発|Biz Dev（AxelGlobe事業） | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/4000000019
+- Axelspace: 経理財務メンバー | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/6000000006
+- Axelspace: 戦略購買マネージャー｜Strategic Buyer Manager | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/6000000011
+- Axelspace: 戦略購買｜(プランナー) | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/6000000016
+- Axelspace: 総務（シニアスタッフ） | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/6000000017
+- Axelspace: オープンポジション｜Open Position | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/9000000001
+- Axelspace: インターン｜Internship | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/9000000002
+- Axelspace: アルバイト｜衛星運用システム　ソフトウェアエンジニア | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/9000000004
+- Axelspace: 【在宅可】障がい者雇用　一般事務 | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/9000000005
+- Axelspace: パートタイマー｜総務事務 | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/9000000006
+- Axelspace: Backend Engineer (Satellite Operation Systems) | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/BE1000000046
+- Axelspace: C++ Software engineer (Satellite Operation Systems) | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/C1000000046
+- Axelspace: システムアーキテクト (AxelGlobe) | 株式会社アクセルスペース
+  https://hrmos.co/pages/axelspace/jobs/SystemArchitect2000000001
+- Isometric: General Application @ Isometric
+  https://jobs.ashbyhq.com/isometric/c842f59e-569a-49e9-9985-de6f5cea97cf
+- Isometric: Senior Product Designer @ Isometric
+  https://jobs.ashbyhq.com/isometric/eacb14af-2167-43ea-a7be-a6c66ab4bf0a
+- Floodbase:  GTM Strategy Director, Analytics
+  https://job-boards.greenhouse.io/floodbase/jobs/5611057004
+- Floodbase: Head of Distribution
+  https://job-boards.greenhouse.io/floodbase/jobs/5530101004
+- Floodbase: Head of Product
+  https://job-boards.greenhouse.io/floodbase/jobs/5686441004
+- Floodbase: Marketing Manager, Content Marketing and Strategic Comms
+  https://job-boards.greenhouse.io/floodbase/jobs/5661781004
+- Muon Space: ADCS Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/4866902007
+- Muon Space: Business Development Analyst
+  https://job-boards.greenhouse.io/muonspace/jobs/5047123007
+- Muon Space: Buyer I
+  https://job-boards.greenhouse.io/muonspace/jobs/5037825007
+- Muon Space: Data Analyst Intern (Summer 2026)
+  https://job-boards.greenhouse.io/muonspace/jobs/5042639007
+- Muon Space: Data Products Mission Manager
+  https://job-boards.greenhouse.io/muonspace/jobs/5003723007
+- Muon Space: Facilities Engineer II
+  https://job-boards.greenhouse.io/muonspace/jobs/5008358007
+- Muon Space: Geospatial Data Engineer, Federal
+  https://job-boards.greenhouse.io/muonspace/jobs/5034730007
+- Muon Space: Harness Designer - Electrical
+  https://job-boards.greenhouse.io/muonspace/jobs/4991958007
+- Muon Space: Head of FP&A
+  https://job-boards.greenhouse.io/muonspace/jobs/5039465007
+- Muon Space: Instrument Development Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/5063252007
+- Muon Space: Instrument Integration Lab Manager
+  https://job-boards.greenhouse.io/muonspace/jobs/5044859007
+- Muon Space: Integration Technician
+  https://job-boards.greenhouse.io/muonspace/jobs/5045969007
+- Muon Space: Mechanical Engineer - Spacecraft Components and Systems
+  https://job-boards.greenhouse.io/muonspace/jobs/5067018007
+- Muon Space: Office Coordinator
+  https://job-boards.greenhouse.io/muonspace/jobs/5040873007
+- Muon Space: Principal Mechanical Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/5004910007
+- Muon Space: Principal Mission Architect
+  https://job-boards.greenhouse.io/muonspace/jobs/5033327007
+- Muon Space: Remote Sensing Data Scientist, Cal/Val
+  https://job-boards.greenhouse.io/muonspace/jobs/5033067007
+- Muon Space: RF Digital Signal Processing Specialist
+  https://job-boards.greenhouse.io/muonspace/jobs/4777935007
+- Muon Space: Satellite Operator
+  https://job-boards.greenhouse.io/muonspace/jobs/4915473007
+- Muon Space: Senior ADCS Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/4866982007
+- Muon Space: Senior Business Development Manager, Data
+  https://job-boards.greenhouse.io/muonspace/jobs/5068192007
+- Muon Space: Senior Mechanical Engineer - Spacecraft Mission Mechanical Lead
+  https://job-boards.greenhouse.io/muonspace/jobs/4926136007
+- Muon Space: Senior Mission Lead Systems Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/4870277007
+- Muon Space: Senior Product Manager-Muon Halo
+  https://job-boards.greenhouse.io/muonspace/jobs/4933183007
+- Muon Space: Senior Software Engineer, Flight Software
+  https://job-boards.greenhouse.io/muonspace/jobs/5026061007
+- Muon Space: Senior Software Engineer, Simulation
+  https://job-boards.greenhouse.io/muonspace/jobs/5064702007
+- Muon Space: Software Engineer, Flight Software
+  https://job-boards.greenhouse.io/muonspace/jobs/5023371007
+- Muon Space: Software Engineer, Hardware-in-the-Loop Test Automation
+  https://job-boards.greenhouse.io/muonspace/jobs/4761901007
+- Muon Space: Software Engineering Manager, Flight Software
+  https://job-boards.greenhouse.io/muonspace/jobs/5017413007
+- Muon Space: Software Engineering Manager, Mission Planning Platform
+  https://job-boards.greenhouse.io/muonspace/jobs/5030484007
+- Muon Space: Software Platform Engineer (DevOps/SRE)
+  https://job-boards.greenhouse.io/muonspace/jobs/5030449007
+- Muon Space: Spacecraft Test Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/5049180007
+- Muon Space: Spacecraft Test Technician
+  https://job-boards.greenhouse.io/muonspace/jobs/5045977007
+- Muon Space: Staff Mechanical Engineer - Complex Mission Mechanical Lead
+  https://job-boards.greenhouse.io/muonspace/jobs/5017418007
+- Muon Space: Staff Mission Lead Systems Engineer
+  https://job-boards.greenhouse.io/muonspace/jobs/4870260007
+- Muon Space: Staff Software Engineer, Flight Software
+  https://job-boards.greenhouse.io/muonspace/jobs/5025996007
+- Muon Space: Technical Program Manager
+  https://job-boards.greenhouse.io/muonspace/jobs/5056924007
+- Muon Space: Technical Project Manager, Ground Software
+  https://job-boards.greenhouse.io/muonspace/jobs/5060298007
+- Near Space Labs: Associate Operator - Stratospheric Systems
+  https://job-boards.greenhouse.io/nearspacelabs/jobs/4749344008
+- Near Space Labs: Computer Vision Team Lead [Geospatial]
+  https://job-boards.greenhouse.io/nearspacelabs/jobs/5011208008
+- Near Space Labs: General Interest Application 
+  https://job-boards.greenhouse.io/nearspacelabs/jobs/4790003008
+- Arable Labs: Field Technology Specialist – Oklahoma Panhandle
+  https://jobs.lever.co/arable/924848ba-ea79-4d5f-ab10-0d47315bb9b1
+- Arable Labs: Grower Engagement Manager
+  https://jobs.lever.co/arable/719d444a-0de6-4773-9849-6ccca2ffd30e
+- Arable Labs: Grower Engagement Manager – Indiana Region
+  https://jobs.lever.co/arable/7e93936e-acdc-4e38-9ef2-7d8685cbb534
+- Arable Labs: Hardware Test & Reliability Engineer
+  https://jobs.lever.co/arable/afed4c8e-85f1-4d6c-bb58-233806fadc45
+- Arable Labs: Product Operations Manager
+  https://jobs.lever.co/arable/3b417430-b854-4995-a4d5-63ec0d1ee6b3
+- Arable Labs: Senior Product Manager
+  https://jobs.lever.co/arable/d39013a1-d6fd-47ca-bd0e-9168170433e6
+- Kepler Communications: Director of Sales - Europe
+  https://jobs.lever.co/kepler/58f8b201-1c5d-4ab2-9660-c26a4b9e7ce1
+- Kepler Communications: Director of Sales - ISR & Government of Canada Solutions
+  https://jobs.lever.co/kepler/0d614893-12fb-4daf-9491-dda0d09681cb
+- Kepler Communications: Director, Safety & Mission Assurance
+  https://jobs.lever.co/kepler/11710fb6-a8e2-4fab-bc1f-fa100ca76086
+- Kepler Communications: Embedded Software Designer
+  https://jobs.lever.co/kepler/fc1ab2bf-99db-42b5-b8b1-992a8bb5f5d9
+- Kepler Communications: Hardware Quality Engineering Specialist
+  https://jobs.lever.co/kepler/60027228-551d-4aa7-be85-4c0692a1398b
+- Kepler Communications: Optical Architect
+  https://jobs.lever.co/kepler/54d5ab51-15cd-45b0-8a05-4aa32dadab8a
+- Kepler Communications: Principal Engineer - Satellite Systems
+  https://jobs.lever.co/kepler/bebc4bd8-7b2e-4486-8008-7499e7f20092
+- Kepler Communications: Program Manager - Satellite Systems
+  https://jobs.lever.co/kepler/40a7d25a-f733-4215-8a6b-e9f88511ccfc
+- Kepler Communications: Satellite Operations Specialist
+  https://jobs.lever.co/kepler/3bc1143d-a8a9-49d9-9032-e6d0d685c8c2
+- Kepler Communications: Satellite Systems Designer
+  https://jobs.lever.co/kepler/dcf20a0e-bcdc-49e1-865b-be239c1e0f14
+- Kepler Communications: Senior Program Manager - Satellite Systems
+  https://jobs.lever.co/kepler/0758b284-02cb-4bec-88c2-96d658b3cbf7
+- Kepler Communications: Senior Software Engineer - Networks
+  https://jobs.lever.co/kepler/f42c7fc3-5365-4e1d-aa9e-233aacfd53b8
+- Kepler Communications: Senior Systems Verification and Validation (V&V) Specialist
+  https://jobs.lever.co/kepler/8748058d-0f0a-4be2-ba6b-7b2bf9942cfb
+- Kepler Communications: Systems Verification and Validation (V&V) Specialist
+  https://jobs.lever.co/kepler/3355ca9d-de30-4fd8-bff9-f440854c199d
+- Kepler Communications: Technical Project Manager - Hardware Systems
+  https://jobs.lever.co/kepler/6f6959e5-61f1-44c8-9a0c-af92a3afa6dc
+- Kepler Communications: Technical Proposal Writer
+  https://jobs.lever.co/kepler/2f5afeee-56cc-4a5f-ae8e-acd5c0630cc8
+- Orbital Sidekick: Senior Ground Software Operations Engineer
+  https://jobs.lever.co/orbitalsidekick/4b790a87-4cd3-4f71-a237-46e7fd634ba4
+- Orbital Sidekick: Space Operations Engineer (Embedded Software)
+  https://jobs.lever.co/orbitalsidekick/30a5884f-dc96-4bf3-95bc-9162ead21a10
+- RS Metrics: Careers - RS Metrics
+  https://rsmetrics.com/careers/
+- Umbra Lab: Spacecraft Assembly, Integration and Test (AI&T) Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5135265
+- Umbra Lab: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144028
+- Umbra Lab: Space Mission Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5144273
+- Umbra Lab: Senior GNC Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5170363
+- Umbra Lab: Senior Spacecraft Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5195084
+- Umbra Lab: Senior Digital Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5270349
+- Umbra Lab: Senior Flight Software Engineer (Rust) - Umbra
+  https://umbra-1.workable.com/jobs/5289958
+- Umbra Lab: Senior Spacecraft Mechanical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5382754
+- Umbra Lab: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5383612
+- Umbra Lab: Senior Radar Systems Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5390825
+- Umbra Lab: Microwave Electronics Design Engineer, High Power Amplifiers - Umbra
+  https://umbra-1.workable.com/jobs/5391610
+- Umbra Lab: Capture and Program Manager (Global) - Umbra
+  https://umbra-1.workable.com/jobs/5391700
+- Umbra Lab: Microwave Electronics Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391758
+- Umbra Lab: Antenna & RF Design Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5391762
+- Umbra Lab: Senior Ground Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5418616
+- Umbra Lab: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5421225
+- Umbra Lab: Director, Defense - Umbra
+  https://umbra-1.workable.com/jobs/5434175
+- Umbra Lab: Spacecraft Aerospace Technician - Umbra
+  https://umbra-1.workable.com/jobs/5436122
+- Umbra Lab: Systems Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5436654
+- Umbra Lab: Director, National Security - Umbra
+  https://umbra-1.workable.com/jobs/5440743
+- Umbra Lab: Finance Systems Analyst - Umbra
+  https://umbra-1.workable.com/jobs/5441504
+- Umbra Lab: Director of Marketing - Umbra
+  https://umbra-1.workable.com/jobs/5483044
+- Umbra Lab: Senior Planner/Buyer - Umbra
+  https://umbra-1.workable.com/jobs/5490979
+- Umbra Lab: Product Marketing Manager - Umbra
+  https://umbra-1.workable.com/jobs/5491199
+- Umbra Lab: Senior Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5507154
+- Umbra Lab: Senior Program Manager - Umbra
+  https://umbra-1.workable.com/jobs/5520393
+- Umbra Lab: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5529627
+- Umbra Lab: Spacecraft Electrical Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538070
+- Umbra Lab: Senior Site Reliability Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5538623
+- Umbra Lab: Core Infrastructure Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5546249
+- Umbra Lab: Senior Microwave Engineer, Space Systems - Umbra
+  https://umbra-1.workable.com/jobs/5566307
+- Umbra Lab: Engineering Manager - Umbra
+  https://umbra-1.workable.com/jobs/5568911
+- Umbra Lab: Spacecraft Manufacturing Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5580913
+- Umbra Lab: Senior Flight Software Engineer - Umbra
+  https://umbra-1.workable.com/jobs/5581009
+- Umbra Lab: Career Opportunities • Umbra Careers
+  https://umbra.space/careers/
+- Umbra Lab: Equal Opportunity Employer • Umbra Careers
+  https://umbra.space/careers/equal-opportunity-employer/
+- UP42: UP42 GmbH - Customer Support Specialist (m/f/x)
+  https://up42gmbh.recruitee.com/o/customer-support-specialist-mfx-4
+- UP42: UP42 GmbH - Sales Development Representative (m/f/x)
+  https://up42gmbh.recruitee.com/o/sales-development-representative-mfx-6
+- UP42: UP42 GmbH - Senior Sales Manager – North America (m/f/x)
+  https://up42gmbh.recruitee.com/o/senior-sales-manager-north-america-mfx-1
+- AiDash: Careers - AiDASH
+  https://www.aidash.com/careers/
+- CarbonChain: Jobs at CarbonChain
+  https://boards.greenhouse.io/carbonchain/jobs/4305666004
+- CarbonChain: Jobs at CarbonChain
+  https://boards.greenhouse.io/carbonchain/jobs/4996841004
+- GeologicAI: Careers - GeologicAI
+  https://www.geologicai.com/careers/
+- Impact Observatory: IO Careers: Head of Sales
+  https://www.impactobservatory.com/careers/head-of-sales
+- Mitiga Solutions: Backend/Data Engineer
+  https://www.mitigasolutions.com/jobs/backend-data-engineer
+- Mitiga Solutions: Climate Data Scientist
+  https://www.mitigasolutions.com/jobs/climate-data-scientist
+- Mitiga Solutions: Climate Scientist
+  https://www.mitigasolutions.com/jobs/climate-scientist
+- Mitiga Solutions: Senior Enterprise Account Executive
+  https://www.mitigasolutions.com/jobs/commercial-account-executive
+- Mitiga Solutions: Flood Risk Modeler
+  https://www.mitigasolutions.com/jobs/flood-risk-modeler
+- Mitiga Solutions: GTM/Marketing Ops
+  https://www.mitigasolutions.com/jobs/marketing-ops
+- Mitiga Solutions: Product Manager
+  https://www.mitigasolutions.com/jobs/product-manager
+- Mitiga Solutions: Senior Enterprise Account Executive
+  https://www.mitigasolutions.com/jobs/senior-enterprise-account-executive
+- Privateer: Privateer Space
+  https://www.privateer.com/jobs/mid-level-secdevops-engineer
+- Privateer: Privateer Space
+  https://www.privateer.com/jobs/senior-devsecops-engineer-cleared
+- Taranis: New Openings for Passionate Agriculture Graduates - Taranis
+  https://www.taranis.com/careers/
+- Taranis: Taranis
+  https://www.taranis.com/careers/customer-success-representative-d9-66d
+- Varda Space Industries: Job Application for Senior Structures Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/5491726003
+- Varda Space Industries: Job Application for Thermal Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/5809053003
+- Varda Space Industries: Job Application for Human Resources/ Recruiting Internship  - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6097426003
+- Varda Space Industries: Job Application for General Application (New Grad)  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6097428003
+- Varda Space Industries: Job Application for Astrodynamics Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6349457003
+- Varda Space Industries: Job Application for Integration & Test Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6485429003
+- Varda Space Industries: Job Application for Structures Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6510425003
+- Varda Space Industries: Job Application for Spacecraft Technician at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6529119003
+- Varda Space Industries: Job Application for Senior Design Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6552012003
+- Varda Space Industries: Job Application for Sourcing Manager at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6558225003
+- Varda Space Industries: page_title
+  https://job-boards.greenhouse.io/vardaspace/jobs/6581859003
+- Varda Space Industries: page_title
+  https://job-boards.greenhouse.io/vardaspace/jobs/6603161003
+- Varda Space Industries: page_title
+  https://job-boards.greenhouse.io/vardaspace/jobs/6622277003
+- Varda Space Industries: Job Application for Avionics Spacecraft Technician  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6675073003
+- Varda Space Industries: Job Application for Process Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6687548003
+- Varda Space Industries: Job Application for Pharmaceutical Lab Internship (Crystallization) Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6820618003
+- Varda Space Industries: Job Application for Microsoft 365 / Security Administration Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6823488003
+- Varda Space Industries: Job Application for Mission Software (Python) Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6824366003
+- Varda Space Industries: Job Application for Flight Software (C++) Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6824788003
+- Varda Space Industries: Job Application for Mechanical Engineering Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6970096003
+- Varda Space Industries: Job Application for Guidance, Navigation & Controls (GNC) Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6974375003
+- Varda Space Industries: Job Application for Avionics Engineering Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6974740003
+- Varda Space Industries: Job Application for Supply Chain Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/6974745003
+- Varda Space Industries: Job Application for Senior Site Reliability Engineer  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7251563003
+- Varda Space Industries: Job Application for Simulation Software Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7385214003
+- Varda Space Industries: Job Application for Senior Systems-Network Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7494310003
+- Varda Space Industries: Job Application for Senior Systems Engineer-M365 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7494337003
+- Varda Space Industries: Job Application for Principal Aerodynamics Engineer  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7505838003
+- Varda Space Industries: Job Application for Senior Facilities Electrician at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7519501003
+- Varda Space Industries: Job Application for Recruiting Coordinator at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7534242003
+- Varda Space Industries: Job Application for Business Development SkillBridge Intern ( Summer 2026) at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7536893003
+- Varda Space Industries: Job Application for Avionics Hardware Development Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7545709003
+- Varda Space Industries: Job Application for Lead, Sales Operations at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7546639003
+- Varda Space Industries: Job Application for Sr. Avionics Systems Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7552485003
+- Varda Space Industries: Job Application for Thermal Analysis Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7552667003
+- Varda Space Industries: Job Application for Mission Operations Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7568824003
+- Varda Space Industries: Job Application for Senior Astrodynamics Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7568853003
+- Varda Space Industries: Job Application for Senior Mechanisms Engineer - Payloads at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7569141003
+- Varda Space Industries: Job Application for Mechanisms Engineer - Payloads at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7569145003
+- Varda Space Industries: Job Application for Receiving Inspection Lead at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7575328003
+- Varda Space Industries: Job Application for Senior Scientist, Drug Substance Development  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7580379003
+- Varda Space Industries: Job Application for Scientist, Drug Substance Development  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7580381003
+- Varda Space Industries: Job Application for Senior Mission Manager at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7588801003
+- Varda Space Industries: Job Application for Senior Systems, Integration, and Test Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7592005003
+- Varda Space Industries: Job Application for Manager of Information Technology at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7595667003
+- Varda Space Industries: Job Application for Applications Engineer, Supply Chain at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7599670003
+- Varda Space Industries: Job Application for Analytical Scientist at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7606004003
+- Varda Space Industries: Job Application for Laboratory Technician- Biologics Formulation Support (Temporary)  at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7618002003
+- Varda Space Industries: Job Application for Senior Thermal Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7622331003
+- Varda Space Industries: Job Application for Scientist, Biologics Formulation at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7622369003
+- Varda Space Industries: Job Application for Senior Scientist, Biologics Formulation at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7622392003
+- Varda Space Industries: Job Application for Pharmaceutical Marketing & Strategy Internship - Summer 2026 at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7634639003
+- Varda Space Industries: Job Application for Propulsion Technician at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7637246003
+- Varda Space Industries: Job Application for Embedded Software Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7638523003
+- Varda Space Industries: Job Application for Senior Embedded Software Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7638532003
+- Varda Space Industries: Job Application for Flight Software Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7638553003
+- Varda Space Industries: Job Application for Senior Flight Software Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7638563003
+- Varda Space Industries: Job Application for Principal Technical Recruiter at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7638600003
+- Varda Space Industries: Job Application for Software Engineering Manager at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7639034003
+- Varda Space Industries: Job Application for Senior Mission Manager at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7639660003
+- Varda Space Industries: Job Application for Facilities Manager at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7644205003
+- Varda Space Industries: Job Application for Guidance, Navigation & Control Engineer (GNC) at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7646584003
+- Varda Space Industries: Job Application for Senior Guidance, Navigation, and Controls Engineer (GNC) at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7646748003
+- Varda Space Industries: Job Application for Senior Astrodynamics Engineer at Varda Space Industries
+  https://job-boards.greenhouse.io/vardaspace/jobs/7646803003
