@@ -146,7 +146,7 @@ companies:
     type: html_links
     url: https://www.capellaspace.com/company/careers#open-positions
 
-  - name: Umbra Space
+  - name: Umbra Space (Umbra Lab)
     type: html_links
     url: https://umbra.space/careers/job-openings/
 
@@ -240,7 +240,7 @@ companies:
     type: html_links
     url: https://dorbit-space.factorial.it/#jobs
 
-  - name: Earth Daily Analytics
+  - name: EarthDaily Analytics (Earth Daily Analytics)
     type: html_links
     url: https://earthdaily.com/job-openings
 
@@ -256,7 +256,7 @@ companies:
     type: html_links
     url: https://exolaunch.com/careers
 
-  - name: Greentown Labs
+  - name: Greentown Labs (Green Town Labs)
     type: html_links
     url: https://greentownlabs.com/careers/
 
@@ -315,10 +315,6 @@ companies:
     type: html_links
     url: https://sparkgeo.com/careers/
 
-  - name: Umbra Lab
-    type: html_links
-    url: https://umbra.space/careers/job-openings/
-
   - name: UP42
     type: html_links
     url: https://up42.com/company/careers
@@ -326,10 +322,6 @@ companies:
   - name: AiDash
     type: html_links
     url: https://www.aidash.com/careers/
-
-  - name: Carbon Direct
-    type: html_links
-    url: https://www.carbon-direct.com/careers
 
   - name: CarbonChain
     type: html_links
@@ -366,10 +358,6 @@ companies:
   - name: Impact Observatory
     type: html_links
     url: https://www.impactobservatory.com/careers/
-
-  - name: Regrow
-    type: html_links
-    url: https://www.linkedin.com/company/regrowag/jobs/
 
   - name: Mitiga Solutions
     type: html_links
@@ -410,39 +398,3 @@ companies:
   - name: Xplore
     type: html_links
     url: https://www.xplore.com/careers.html
-  - name: Carbon Mapper
-    type: html_links
-    url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
-
-  - name: EarthDaily Analytics
-    type: html_links
-    url: https://earthdaily.com/job-openings
-
-  - name: Western Resource Advocates
-    type: html_links
-    url: https://westernresourceadvocates.org/careers-at-wra/
-
-  - name: ADP Workforce
-    type: html_links
-    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&&source=EN&selectedMenuKey=CurrentOpenings
-
-  - name: Lowercarbon Capital Portfolio
-    type: html_links
-    url: https://lowercarbon.com/get-off-the-couch/
-    link_contains: jobs
-
-  - name: AENU Portfolio
-    type: html_links
-    url: https://jobs.aenu.com/jobs
-
-  - name: Extantia Portfolio
-    type: html_links
-    url: https://careers.extantia.com/jobs
-
-  - name: Congruent Ventures Portfolio
-    type: html_links
-    url: https://jobs.congruentvc.com/jobs
-
-  - name: DCVC Portfolio
-    type: html_links
-    url: https://jobs.dcvc.com/jobs
