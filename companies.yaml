@@ -410,3 +410,39 @@ companies:
   - name: Xplore
     type: html_links
     url: https://www.xplore.com/careers.html
+  - name: Carbon Mapper
+    type: html_links
+    url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
+
+  - name: EarthDaily Analytics
+    type: html_links
+    url: https://earthdaily.com/job-openings
+
+  - name: Western Resource Advocates
+    type: html_links
+    url: https://westernresourceadvocates.org/careers-at-wra/
+
+  - name: ADP Workforce
+    type: html_links
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fcff33b7-0f48-4744-b27b-0a70af8b27f3&ccId=19000101_000001&lang=en_US&&source=EN&selectedMenuKey=CurrentOpenings
+
+  - name: Lowercarbon Capital Portfolio
+    type: html_links
+    url: https://lowercarbon.com/get-off-the-couch/
+    link_contains: jobs
+
+  - name: AENU Portfolio
+    type: html_links
+    url: https://jobs.aenu.com/jobs
+
+  - name: Extantia Portfolio
+    type: html_links
+    url: https://careers.extantia.com/jobs
+
+  - name: Congruent Ventures Portfolio
+    type: html_links
+    url: https://jobs.congruentvc.com/jobs
+
+  - name: DCVC Portfolio
+    type: html_links
+    url: https://jobs.dcvc.com/jobs
