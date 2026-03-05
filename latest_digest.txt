@@ -1,237 +1,439 @@
 Daily job tracker digest
-Run time: 2026-03-05 15:40 UTC
+Run time: 2026-03-05 17:51 UTC
 
-New items: 116
+New items: 215
 
-- NatureMetrics: Conservation Account Manager | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2494074?language=en&apply
-- NatureMetrics: Solutions Ecologist | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2497851?language=en&apply
-- NatureMetrics: Senior Product Engineer | Jobs at NatureMetrics
-  https://naturemetrics.jobs.personio.de/job/2542374?language=en&apply
-- Planet Labs: Director, EMEA Regional Marketing
-  https://job-boards.greenhouse.io/planetlabs/jobs/7402923
-- Planet Labs: PreSales Sr. Solutions Architect - Middle East Defense and Intelligence
-  https://job-boards.greenhouse.io/planetlabs/jobs/7360964
-- Planet Labs: Spacecraft Avionics System Engineer
-  https://job-boards.greenhouse.io/planetlabs/jobs/7656774
-- Planet Labs: Space Systems Engineer, Space Operations
-  https://job-boards.greenhouse.io/planetlabs/jobs/7656770
-- Umbra Space (Umbra Lab): Spacecraft Assembly, Integration and Test (AI&T) Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5135265
-- Umbra Space (Umbra Lab): Senior Spacecraft Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5144028
-- Umbra Space (Umbra Lab): Space Mission Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5144273
-- Umbra Space (Umbra Lab): Senior GNC Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5170363
-- Umbra Space (Umbra Lab): Senior Spacecraft Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5195084
-- Umbra Space (Umbra Lab): Senior Digital Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5270349
-- Umbra Space (Umbra Lab): Senior Flight Software Engineer (Rust) - Umbra
-  https://umbra-1.workable.com/jobs/5289958
-- Umbra Space (Umbra Lab): Senior Spacecraft Mechanical Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5382754
-- Umbra Space (Umbra Lab): Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5383612
-- Umbra Space (Umbra Lab): Senior Radar Systems Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5390825
-- Umbra Space (Umbra Lab): Microwave Electronics Design Engineer, High Power Amplifiers - Umbra
-  https://umbra-1.workable.com/jobs/5391610
-- Umbra Space (Umbra Lab): Capture and Program Manager (Global) - Umbra
-  https://umbra-1.workable.com/jobs/5391700
-- Umbra Space (Umbra Lab): Microwave Electronics Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5391758
-- Umbra Space (Umbra Lab): Antenna & RF Design Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5391762
-- Umbra Space (Umbra Lab): Senior Ground Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5418616
-- Umbra Space (Umbra Lab): Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5421225
-- Umbra Space (Umbra Lab): Director, Defense - Umbra
-  https://umbra-1.workable.com/jobs/5434175
-- Umbra Space (Umbra Lab): Spacecraft Aerospace Technician - Umbra
-  https://umbra-1.workable.com/jobs/5436122
-- Umbra Space (Umbra Lab): Systems Engineering Manager - Umbra
-  https://umbra-1.workable.com/jobs/5436654
-- Umbra Space (Umbra Lab): Director, National Security - Umbra
-  https://umbra-1.workable.com/jobs/5440743
-- Umbra Space (Umbra Lab): Finance Systems Analyst - Umbra
-  https://umbra-1.workable.com/jobs/5441504
-- Umbra Space (Umbra Lab): Director of Marketing - Umbra
-  https://umbra-1.workable.com/jobs/5483044
-- Umbra Space (Umbra Lab): Senior Planner/Buyer - Umbra
-  https://umbra-1.workable.com/jobs/5490979
-- Umbra Space (Umbra Lab): Product Marketing Manager - Umbra
-  https://umbra-1.workable.com/jobs/5491199
-- Umbra Space (Umbra Lab): Senior Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5507154
-- Umbra Space (Umbra Lab): Senior Program Manager - Umbra
-  https://umbra-1.workable.com/jobs/5520393
-- Umbra Space (Umbra Lab): Senior Flight Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5529627
-- Umbra Space (Umbra Lab): Spacecraft Electrical Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5538070
-- Umbra Space (Umbra Lab): Senior Site Reliability Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5538623
-- Umbra Space (Umbra Lab): Core Infrastructure Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5546249
-- Umbra Space (Umbra Lab): Senior Microwave Engineer, Space Systems - Umbra
-  https://umbra-1.workable.com/jobs/5566307
-- Umbra Space (Umbra Lab): Engineering Manager - Umbra
-  https://umbra-1.workable.com/jobs/5568911
-- Umbra Space (Umbra Lab): Spacecraft Manufacturing Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5580913
-- Umbra Space (Umbra Lab): Senior Flight Software Engineer - Umbra
-  https://umbra-1.workable.com/jobs/5581009
-- Umbra Space (Umbra Lab): Career Opportunities • Umbra Careers
-  https://umbra.space/careers/
-- Umbra Space (Umbra Lab): Equal Opportunity Employer • Umbra Careers
-  https://umbra.space/careers/equal-opportunity-employer/
-- AENU Portfolio: Operations Manager Heatpump Projects (m/w/d) @ Galvany Tactics GMBH | AENU Job Board
-  https://jobs.aenu.com/companies/galvany-tactics-gmbh/jobs/68557279-operations-manager-heatpump-projects-m-w-d
-- DCVC Portfolio: Medical Assistant - Pasadena @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69295612-medical-assistant-pasadena
-- DCVC Portfolio: Growth Administrative Specialist @ Carbon Health | DCVC Job Board
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69295623-growth-administrative-specialist
-- DCVC Portfolio: Staff Software Engineer @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288207-staff-software-engineer
-- DCVC Portfolio: Program Manager, Sales New Hire Experience @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288209-program-manager-sales-new-hire-experience
-- DCVC Portfolio: Senior Risk Analyst - Technology @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288211-senior-risk-analyst-technology
-- DCVC Portfolio: Principal Platform Architect -Financial Markets and Insurance @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288217-principal-platform-architect-financial-markets-and-insurance
-- DCVC Portfolio: Senior Risk Analyst - Technology @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288219-senior-risk-analyst-technology
-- DCVC Portfolio: Delivery Director, EMEA North @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288221-delivery-director-emea-north
-- DCVC Portfolio: Delivery Director - EMEA South @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288223-delivery-director-emea-south
-- DCVC Portfolio: AI Advantage Director - EMEA | Global Marquee @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288226-ai-advantage-director-emea-global-marquee
-- DCVC Portfolio: Audience Data Quality & Readiness Lead @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288228-audience-data-quality-readiness-lead
-- DCVC Portfolio: Senior Manager Experimentation, Testing, & Learning @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288231-senior-manager-experimentation-testing-learning
-- DCVC Portfolio: Director of Journey Orchestration Operations @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288233-director-of-journey-orchestration-operations
-- DCVC Portfolio: Marketing Activation Governance Lead @ Element AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/element-ai/jobs/69288235-marketing-activation-governance-lead
-- DCVC Portfolio: Engineering Technician @ Fourth Power | DCVC Job Board
-  https://jobs.dcvc.com/companies/fourth-power-2/jobs/69301416-engineering-technician
-- DCVC Portfolio: Avionics Electrical Engineer (All levels) @ Impulse Space | DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69290940-avionics-electrical-engineer-all-levels
-- DCVC Portfolio: Avionics Quality Inspector @ Impulse Space | DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69290941-avionics-quality-inspector
-- DCVC Portfolio: Inventory Specialist @ Impulse Space | DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69290942-inventory-specialist
-- DCVC Portfolio: Account Manager @ Slip Robotics | DCVC Job Board
-  https://jobs.dcvc.com/companies/slip-robotics/jobs/69307945-account-manager
-- DCVC Portfolio: Marketing and Events Specialist @ Unlearn.AI | DCVC Job Board
-  https://jobs.dcvc.com/companies/unlearn-ai-2/jobs/69293342-marketing-and-events-specialist
-- Greentown Labs (Green Town Labs): Dover
-  https://app.dover.com/apply/manatee/1f38174c-07fd-47d0-b765-aa0da1e877cb
-- Greentown Labs (Green Town Labs): Dover
-  https://app.dover.com/apply/manatee/4c989b12-c592-4a17-b559-f38ef5b39b59
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/director-of-sales/
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/electrical-engineer/
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/full-stack-developer-internship/
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/machine-learning-engineer/
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/mechanical-engineering-intern/
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://batteryevidence.com/jobs/software-engineer-data/
-- Greentown Labs (Green Town Labs): Monaire - Marketing Lead - Inbound Growth in Somerville
-  https://careers.monaire.ai/jobs/Careers/700954000005281006/Marketing-Lead---Inbound-Growth?source=CareerSite
-- Greentown Labs (Green Town Labs): Monaire - Account Executive in Somerville
-  https://careers.monaire.ai/jobs/Careers/700954000005350001/Account-Executive?source=CareerSite
-- Greentown Labs (Green Town Labs): Monaire - Customer Success Manager in Somerville
-  https://careers.monaire.ai/jobs/Careers/700954000005512001/Customer-Success-Manager?source=CareerSite
-- Greentown Labs (Green Town Labs): Monaire - Senior Software Engineer - Remote Job
-  https://careers.monaire.ai/jobs/Careers/700954000005570001/Senior-Software-Engineer?source=CareerSite
-- Greentown Labs (Green Town Labs): Monaire - QA Engineer - Remote Job
-  https://careers.monaire.ai/jobs/Careers/700954000005570023/QA-Engineer?source=CareerSite
-- Greentown Labs (Green Town Labs): Monaire - Data Scientist in Pune City
-  https://careers.monaire.ai/jobs/Careers/700954000005570077/Data-Scientist?source=CareerSite
-- Greentown Labs (Green Town Labs): Jobs Archive - Greentown Labs
-  https://greentownlabs.com/careers/
-- Greentown Labs (Green Town Labs): Jobs Archive - Greentown Labs
-  https://greentownlabs.com/careers/?campaign=528604
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/allspice/18c835f7-7181-45a9-82de-b53ddc8f9729
-- Greentown Labs (Green Town Labs): Data & LLM Systems Engineer @ AllSpice
-  https://jobs.ashbyhq.com/allspice/6d5963b2-5c5e-4dec-a998-9e4b15b32195
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/allspice/f35cfe90-a2e9-4f5f-8fdc-7f96af2adb6e
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/anvilcarbon/097be617-74fb-4751-90a8-ba51abfb4446
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/anvilcarbon/10ee4cb6-6fd4-43d8-bdc0-d7251d39cb04
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/anvilcarbon/3297a931-9b16-46b7-a964-5ee861835f9f
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/anvilcarbon/9bb3d301-ffff-4fe5-8c90-037bbd79473d
-- Greentown Labs (Green Town Labs): Solutions Engineering Lead @ Glimpse
-  https://jobs.ashbyhq.com/glimp-se/41822306-fb8a-400f-a2e5-1f2a25083e62
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/glimp-se/55b8ca06-be8a-40aa-a8f3-aae4ac02c2ec
-- Greentown Labs (Green Town Labs): Jobs
-  https://jobs.ashbyhq.com/lydian/c6618df4-8c09-4f41-9cb1-9b6caf6d4a72?utm_source=pbYz98Zdoz
-- Greentown Labs (Green Town Labs): Engineering Manager (f/m/d) @ Phlair
-  https://jobs.ashbyhq.com/phlair/4d1742ce-8c2e-43bf-a8a6-5e99e522226a
-- Greentown Labs (Green Town Labs): Internship in Electrochemical Direct Air Capture (f/m/d) @ Phlair
-  https://jobs.ashbyhq.com/phlair/5e34d1d3-c88c-4a3c-afa2-9386c92ea808
-- Greentown Labs (Green Town Labs): Technical & Commercial Programs (f/m/d) @ Phlair
-  https://jobs.ashbyhq.com/phlair/6ee2cbb0-67d0-4154-8839-c4a47a07465b
-- Greentown Labs (Green Town Labs): Industrial Mechanic (f/m/d) @ Phlair
-  https://jobs.ashbyhq.com/phlair/7fc500cd-c692-4452-b189-a5c0e3d85bc4
-- Greentown Labs (Green Town Labs): Internship in Chemical Engineering (f/m/d) @ Phlair
-  https://jobs.ashbyhq.com/phlair/82374d8e-9157-4a03-8738-3b58d0f78bb6
-- Greentown Labs (Green Town Labs): Principal Semiconductor Device Engineer @ Vertical Semiconductor
-  https://jobs.ashbyhq.com/verticalsemi/856356cd-96e8-4db4-b76d-bb0cae66d01b?utm_source=xagvNGp3av
-- Greentown Labs (Green Town Labs): Xpansiv - Associate, Client Success
-  https://jobs.lever.co/Xpansiv%20/10a4decf-3690-410a-abb8-ab3b2b67a580
-- Greentown Labs (Green Town Labs): BambooHR
-  https://octaviacarbon.bamboohr.com/careers/79
-- Greentown Labs (Green Town Labs): Business Development Summer 2026 Internship (Apply by 3/6)
-  https://runlaminar.com/careers/45af1750-3e9f-4525-94f6-da319bc62aab
-- Greentown Labs (Green Town Labs): Forward Deployed Engineer (CPG)- Hiring multiple
-  https://runlaminar.com/careers/57f09ec5-1aa8-4834-865f-22b1d106adb2
-- Greentown Labs (Green Town Labs): Enterprise Account Executive, CPG
-  https://runlaminar.com/careers/8257cb80-ec9a-4ff9-80a4-35d5ab4a7050
-- Greentown Labs (Green Town Labs): Jr. Front-End Engineer
-  https://runlaminar.com/careers/84cd6326-68ed-485f-a373-7b7437c4523e
-- Greentown Labs (Green Town Labs): (no title captured)
-  https://wellfound.com/jobs/3334613-software-engineer-data-platform
-- Greentown Labs (Green Town Labs): Business Development Director
-  https://www.3d-architech.com/en/career/business-development-director
-- Greentown Labs (Green Town Labs): Metamaterial Design Engineer
-  https://www.3d-architech.com/en/career/materials-engineer
-- Greentown Labs (Green Town Labs): Metamaterial Design Engineer
-  https://www.3d-architech.com/en/career/metamaterial-design-engineer
-- Greentown Labs (Green Town Labs): Simulation Engineer
-  https://www.3d-architech.com/en/career/simulation-engineer
-- Greentown Labs (Green Town Labs): Business Development Lead Application — Andros Innovations
-  https://www.androsinnovations.com/careers/business-development-lead
-- Greentown Labs (Green Town Labs): Catalyst Engineer Application — Andros Innovations
-  https://www.androsinnovations.com/careers/catalyst-engineer
-- Greentown Labs (Green Town Labs): Senior Catalyst Engineer Application — Andros Innovations
-  https://www.androsinnovations.com/careers/senior-catalyst-engineer
-- Greentown Labs (Green Town Labs): Senior Systems Engineer Application — Andros Innovations
-  https://www.androsinnovations.com/careers/senior-systems-engineer
-- Greentown Labs (Green Town Labs): Summer Intern Business Application — Andros Innovations
-  https://www.androsinnovations.com/careers/summer-intern-business
-- Greentown Labs (Green Town Labs): Summer Intern STEM Application — Andros Innovations
-  https://www.androsinnovations.com/careers/summer-intern-science
-- Greentown Labs (Green Town Labs): Systems Engineer Application — Andros Innovations
-  https://www.androsinnovations.com/careers/systems-engineer
-- Greentown Labs (Green Town Labs): VP of Operations — Andros Innovations
-  https://www.androsinnovations.com/careers/vp-operations
-- Muon Space: Instrument Systems Engineer
-  https://job-boards.greenhouse.io/muonspace/jobs/5069921007
+- DCVC Portfolio: Senior Master Scheduler @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69330389-senior-master-scheduler
+- DCVC Portfolio: Senior FPGA Engineer I/II @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69330390-senior-fpga-engineer-i-ii
+- DCVC Portfolio: Material Planner II @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69330391-material-planner-ii
+- DCVC Portfolio: Senior Vehicle Integration and Test Technician @ Rocket Lab | DCVC Job Board
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/69330392-senior-vehicle-integration-and-test-technician
+- Abatable: Careers at Abatable • Abatable
+  https://abatable.com/careers/
+- Abatable: Business Development Executive, Growth - Abatable
+  https://apply.workable.com/j/22F5C515CE
+- Abatable: Legal Counsel - Abatable
+  https://apply.workable.com/j/A5FA9A5796
+- Abatable: Commercial Growth Associate - Abatable
+  https://apply.workable.com/j/FB6EC6E757
+- ASTERRA: Careers at ASTERRA | Browse Our Open Positions
+  https://asterra.io/about/careers/
+- ASTERRA: Executive Assistant & Office Manager | Asterra
+  https://asterra.io/jobs/executive-assistant-office-manager/
+- ASTERRA: Marketing Communications Manager | Asterra
+  https://asterra.io/jobs/marketing-communication-manager/
+- ASTERRA: Account Manager- Water Utilities (Central) | Asterra
+  https://asterra.io/jobs/technical-account-manager-central/
+- Atlas Space Operations: Careers | ATLAS Space Operations
+  https://atlasspace.com/careers/
+- Charm Industrial: Land Acquisition Manager
+  https://jobs.lever.co/charmindustrial/e5c2f482-6b69-46a6-bd08-b7cef5a47bd1
+- Charm Industrial: People & Safety Administrator
+  https://jobs.lever.co/charmindustrial/126391b9-cc1a-46d7-999a-bbd9fc5760ea
+- Charm Industrial: Pyrolysis Mechanical Engineer II
+  https://jobs.lever.co/charmindustrial/b0b3e005-f61b-45df-ae7e-3c7897693d74
+- Charm Industrial: Senior Technoeconomic Analyst
+  https://jobs.lever.co/charmindustrial/f043da51-7a83-4f12-95a1-d09655f27447
+- CLS Group: Our Job Opportunities
+  https://www.cls.fr/en/careers/job-offers/
+- Development Seed: Careers — Development Seed
+  https://developmentseed.org/careers/
+- Development Seed: General Application — Development Seed
+  https://developmentseed.org/careers/general-application
+- Development Seed: General Application — Development Seed
+  https://developmentseed.org/careers/general-application/
+- EagleView: Home
+  https://careers-eagleview.icims.com/jobs/2652/ux-researcher/job?mode=view
+- EagleView: Home
+  https://careers-eagleview.icims.com/jobs/2654/national-account-manager-%28western-us%29/job?mode=view
+- EagleView: (no title captured)
+  https://careers-eagleview.icims.com/jobs/login?loginOnly=1&redirect=search&in_iframe=1&hashed=-625944588
+- EagleView: Senior Business Systems Architect in Remote US, United States | EagleView
+  https://careers.eagleview.com/jobs/2616?lang=en-us
+- EOMAP: (no title captured)
+  https://fugro.wd3.myworkdayjobs.com/de-DE/Careers/job/Houston-Texas/Regional-Sales-Manager--Earth-Observation-Services--EOMAP-_R0029607
+- EOMAP: (no title captured)
+  https://www.fugro.com/careers/jobs/R0029607-regional-sales-manager-earth-observation-services-eomap
+- Fugro: Workday
+  https://fugro.wd3.myworkdayjobs.com/en-US/Careers/login?redirect=%2Fen-US%2FCareers%2FjobAlerts
+- Fugro: Jobs | Fugro
+  https://www.fugro.com/careers/jobs
+- Fugro: R0028094 - Rov Supervisor I \ Supervisor de ROV I | Fugro
+  https://www.fugro.com/careers/jobs/R0028094-rov-supervisor-i-supervisor-de-rov-i
+- Fugro: R0029652 - Finance Operation Manager | Fugro
+  https://www.fugro.com/careers/jobs/R0029652-finance-operation-manager
+- Fugro: R0030080 - Operations Lead TotaLite - Hardware & Suply Chain | Fugro
+  https://www.fugro.com/careers/jobs/R0030080-operations-lead-totalite-hardware-%26-suply-chain
+- Fugro: R0030107 - Estagiário de Operações de RH | Fugro
+  https://www.fugro.com/careers/jobs/R0030107-estagi%C3%A1rio-de-opera%C3%A7%C3%B5es-de-rh
+- Fugro: R0030227 - Survey Engineer | Fugro
+  https://www.fugro.com/careers/jobs/R0030227-survey-engineer
+- Fugro: R0030288 - Senior Software Engineer – Vessel Operating System | Fugro
+  https://www.fugro.com/careers/jobs/R0030288-senior-software-engineer-vessel-operating-system
+- Fugro: R0030365 - Workshop and Maintenance Supervisor - OSI | Fugro
+  https://www.fugro.com/careers/jobs/R0030365-workshop-and-maintenance-supervisor-osi
+- Fugro: R0030426 - IT Technology Analyst | Fugro
+  https://www.fugro.com/careers/jobs/R0030426-it-technology-analyst
+- Fugro: R0030479 - Geräteführer/ Facharbeiter für Drucksondierungen... | Fugro
+  https://www.fugro.com/careers/jobs/R0030479-ger%C3%A4tef%C3%BChrer-facharbeiter-f%C3%BCr-drucksondierungen-m-w-d
+- Fugro: R0030522 - Design Engineer | Fugro
+  https://www.fugro.com/careers/jobs/R0030522-design-engineer
+- Fugro: R0030574 - Logistics Assistant | Fugro
+  https://www.fugro.com/careers/jobs/R0030574-logistics-assistant
+- Fugro: R0030577 - Key Account Manager (TSO and Government) | Fugro
+  https://www.fugro.com/careers/jobs/R0030577-key-account-manager-tso-and-government
+- Fugro: R0030578 - Project Engineer | Fugro
+  https://www.fugro.com/careers/jobs/R0030578-project-engineer
+- Fugro: R0030580 - Senior Key Account Manager (Energy Generation) | Fugro
+  https://www.fugro.com/careers/jobs/R0030580-senior-key-account-manager-energy-generation
+- Fugro: R0030581 - Senior Key Account Manager (TSO and Government) | Fugro
+  https://www.fugro.com/careers/jobs/R0030581-senior-key-account-manager-tso-and-government
+- Fugro: R0030586 - Staff Engineer - Land | Fugro
+  https://www.fugro.com/careers/jobs/R0030586-staff-engineer-land
+- Fugro: R0030587 - Logistics Coordinator | Fugro
+  https://www.fugro.com/careers/jobs/R0030587-logistics-coordinator
+- Fugro: R0030611 - Global Supply Chain Process Expert (P2P) | Fugro
+  https://www.fugro.com/careers/jobs/R0030611-global-supply-chain-process-expert-p2p
+- Fugro: R0030680 - Senior Ocean Modeller | Fugro
+  https://www.fugro.com/careers/jobs/R0030680-senior-ocean-modeller
+- Fugro: R0030688 - Regional Head of Procurement and Supply Chain | Fugro
+  https://www.fugro.com/careers/jobs/R0030688-regional-head-of-procurement-and-supply-chain
+- Greenly: Account Executive (Mid-Market) US, UK, France & Europe – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/account-executive-mid-market-france_paris
+- Greenly: Enterprise Account Executive US, UK, France & Europe – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/enterprise-account-executive-france_paris
+- Greenly: GTM Data & Automation Intern – Greenly – Internship in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/gtm-engineer-intern_paris
+- Greenly: Onboarding Manager (Customer Success) – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/onboarding-manager-customer-success_paris_GREEN_lM3675x
+- Greenly: Partnership Marketing (Internship) – Greenly – Internship in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/partnership-marketing-internship_paris_GREEN_WAkNZal
+- Greenly: Sales Development Representative (SDR / BDR) French Market – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/sales-development-representative-sdr-bdr-french-market_paris_GREEN_NYmYDP
+- Greenly: Sales Development Representative (SDR / BDR)🇪🇺: German or Dutch Speaking – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/sales-development-representative-sdr-bdr-german-speaking_paris
+- Greenly: Sales Development Representative (SDR / BDR) US Market – Greenly – Permanent contract in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/sales-development-representative-sdr-bdr-us-market_paris
+- Greenly: Social Media & Content Internship – Greenly – Internship in Paris
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/social-media-content-internship_paris
+- HERE Technologies: Careers | Working to build the Future of Technology | HERE
+  https://careers-here.icims.com/here-modern-slavery-statement
+- HERE Technologies: Careers | Working to build the Future of Technology | HERE
+  https://careers-here.icims.com/here-statement-gdpr
+- HERE Technologies: Careers | Working to build the Future of Technology | HERE
+  https://careers-here.icims.com/jobs
+- HERE Technologies: Careers | Working to build the Future of Technology | HERE
+  https://careers-here.icims.com/jobs/search?ss=1
+- HERE Technologies: Careers | Working to build the Future of Technology | HERE
+  https://careers-here.icims.com/join/
+- Leaf Space: Space Connected. Have Fun! - Leaf Space
+  https://leafspace.teamtailor.com/
+- Leaf Space: Leaf Space
+        – Connect
+  https://leafspace.teamtailor.com/connect
+- Leaf Space: Leaf Space
+        – Connect
+  https://leafspace.teamtailor.com/connect/login
+- Mapbox: Mapbox Careers Interest Form - Mapbox
+  https://jobs.ashbyhq.com/Mapbox/form/company-interest
+- Normative: Teamtailor
+  https://app.na.teamtailor.com/login
+- Normative: Teamtailor is growing - Teamtailor
+  https://career.teamtailor.com/
+- Normative: Our essence - Teamtailor
+  https://career.teamtailor.com/pages/our-essence
+- Normative: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.normative.io&utm_medium=referral&utm_source=career-site
+- Normative: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/en-us/
+- Normative: The AI powered recruitment software that will take your hiring to new heights!  | Teamtailor
+  https://www.teamtailor.com/en-us/ai-recruiting-software/
+- Normative: All the features available in Teamtailor's powerful ATS
+  https://www.teamtailor.com/en-us/all-features/
+- Normative: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system
+- Normative: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/
+- Normative: What is Candidate Relationship Management (CRM)? | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/candidate-relationship-management/
+- Normative: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise
+- Normative: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise/
+- Normative: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize
+- Normative: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize/
+- Normative: Code of Conduct | Teamtailor
+  https://www.teamtailor.com/en-us/code-of-conduct/
+- Normative: Teamtailor Content Hub - guides, e-books, articles and more.
+  https://www.teamtailor.com/en-us/content-hub/
+- Normative: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers
+- Normative: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers/
+- Normative: Demo | Teamtailor
+  https://www.teamtailor.com/en-us/demo/
+- Normative: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding
+- Normative: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding/
+- Normative: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations
+- Normative: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations/
+- Normative: Modern Slavery Statement | Teamtailor
+  https://www.teamtailor.com/en-us/modern-slavery-statement/
+- Normative: Pricing | Teamtailor
+  https://www.teamtailor.com/en-us/pricing/
+- Normative: Partnerships | Teamtailor
+  https://www.teamtailor.com/en-us/resources/partnerships/
+- OceanMind: OceanMind
+  https://hr.breathehr.com/recruitment/vacancies/44942?identifier=oceanmindlimited
+- OceanMind: Careers - OceanMind
+  https://oceanmind.global/about-us/careers/
+- Planetary Technologies: Careers - Planetary Technologies
+  https://www.planetarytech.com/about/careers/
+- Pole Star Global: Teamtailor
+  https://app.na.teamtailor.com/login
+- Pole Star Global: Teamtailor
+  https://app.teamtailor.com/companies/ZQhzIklm-Wg@eu/dashboard
+- Pole Star Global: Teamtailor is growing - Teamtailor
+  https://career.teamtailor.com/
+- Pole Star Global: Our essence - Teamtailor
+  https://career.teamtailor.com/pages/our-essence
+- Pole Star Global: Operations Officer - Maritime Intelligence & Crisis Support - Pole Star Global
+  https://careers.polestarglobal.com/jobs/7215765-operations-officer-maritime-intelligence-crisis-support
+- Pole Star Global: Operations Officer - Maritime Intelligence & Crisis Support - Pole Star Global
+  https://careers.polestarglobal.com/jobs/7320607-operations-officer-maritime-intelligence-crisis-support
+- Pole Star Global: Commercial Manager - Data Solutions (sales) - Maritime Technology - Pole Star Global
+  https://careers.polestarglobal.com/jobs/7328912-commercial-manager-data-solutions-sales-maritime-technology
+- Pole Star Global: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=careers.polestarglobal.com&utm_medium=referral&utm_source=career-site
+- Pole Star Global: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/en-us/
+- Pole Star Global: The AI powered recruitment software that will take your hiring to new heights!  | Teamtailor
+  https://www.teamtailor.com/en-us/ai-recruiting-software/
+- Pole Star Global: All the features available in Teamtailor's powerful ATS
+  https://www.teamtailor.com/en-us/all-features/
+- Pole Star Global: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system
+- Pole Star Global: A Powerful Applicant Tracking System - All-In-One Software | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/
+- Pole Star Global: What is Candidate Relationship Management (CRM)? | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/candidate-relationship-management/
+- Pole Star Global: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise
+- Pole Star Global: The Perfect ATS for Enterprise Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/enterprise/
+- Pole Star Global: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize
+- Pole Star Global: The Ideal ATS for Small & Medium Businesses | Teamtailor
+  https://www.teamtailor.com/en-us/applicant-tracking-system/small-midsize/
+- Pole Star Global: Code of Conduct | Teamtailor
+  https://www.teamtailor.com/en-us/code-of-conduct/
+- Pole Star Global: Teamtailor Content Hub - guides, e-books, articles and more.
+  https://www.teamtailor.com/en-us/content-hub/
+- Pole Star Global: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers
+- Pole Star Global: See Why Customers Trust Teamtailor to grow their business
+  https://www.teamtailor.com/en-us/customers/
+- Pole Star Global: Demo | Teamtailor
+  https://www.teamtailor.com/en-us/demo/
+- Pole Star Global: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding
+- Pole Star Global: Boost Your Employer Branding with Teamtailor's ATS
+  https://www.teamtailor.com/en-us/employer-branding/
+- Pole Star Global: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations
+- Pole Star Global: Integrations | Teamtailor
+  https://www.teamtailor.com/en-us/integrations/
+- Pole Star Global: Modern Slavery Statement | Teamtailor
+  https://www.teamtailor.com/en-us/modern-slavery-statement/
+- Pole Star Global: Pricing | Teamtailor
+  https://www.teamtailor.com/en-us/pricing/
+- Pole Star Global: Partnerships | Teamtailor
+  https://www.teamtailor.com/en-us/resources/partnerships/
+- Safe Software: Careers - Safe Software
+  https://www.safe.com/careers/
+- Saildrone: Available Jobs – Saildrone
+  https://www.saildrone.com/careers/available-jobs
+- SkyWatch: Careers - SkyWatch
+  https://skywatch.com/careers/
+- Sweep: Become a change-maker - SWEEP
+  https://sweep.teamtailor.com/
+- Sweep: SWEEP
+        – Connect
+  https://sweep.teamtailor.com/connect
+- Sweep: SWEEP
+        – Connect
+  https://sweep.teamtailor.com/connect/login
+- Sweep: Départements - SWEEP
+  https://sweep.teamtailor.com/departments
+- Sweep: Customer Success - SWEEP
+  https://sweep.teamtailor.com/departments/customer-success
+- Sweep: Data - SWEEP
+  https://sweep.teamtailor.com/departments/data
+- Sweep: Engineering - SWEEP
+  https://sweep.teamtailor.com/departments/engineering
+- Sweep: General & Admin - SWEEP
+  https://sweep.teamtailor.com/departments/general-admin
+- Sweep: Marketing - SWEEP
+  https://sweep.teamtailor.com/departments/marketing
+- Sweep: People - SWEEP
+  https://sweep.teamtailor.com/departments/people
+- Sweep: Product - SWEEP
+  https://sweep.teamtailor.com/departments/product
+- Sweep: Sales - SWEEP
+  https://sweep.teamtailor.com/departments/sales
+- Sweep: Sustainability - SWEEP
+  https://sweep.teamtailor.com/departments/sustainability
+- Sweep: Current job openings  - SWEEP
+  https://sweep.teamtailor.com/jobs
+- Sweep: Customer Success Manager - SWEEP
+  https://sweep.teamtailor.com/jobs/6520418-customer-success-manager
+- Sweep: Mid Market Account Executive - UK - SWEEP
+  https://sweep.teamtailor.com/jobs/6815457-mid-market-account-executive-uk
+- Sweep: Mid Market Account Executive - Nordics - SWEEP
+  https://sweep.teamtailor.com/jobs/6815826-mid-market-account-executive-nordics
+- Sweep: AI Acceleration Program Manager - SWEEP
+  https://sweep.teamtailor.com/jobs/6915198-ai-acceleration-program-manager
+- Sweep: Sales Development Representative - DACH - SWEEP
+  https://sweep.teamtailor.com/jobs/6938144-sales-development-representative-dach
+- Sweep: Site Reliability Engineer - SWEEP
+  https://sweep.teamtailor.com/jobs/7089730-site-reliability-engineer
+- Sweep: Marketing Operations Manager - SWEEP
+  https://sweep.teamtailor.com/jobs/7094855-marketing-operations-manager
+- Sweep: Solutions Engineer- ESG Specialist US - SWEEP
+  https://sweep.teamtailor.com/jobs/7125750-solutions-engineer-esg-specialist-us
+- Sweep: Bid Writer - US - SWEEP
+  https://sweep.teamtailor.com/jobs/7125769-bid-writer-us
+- Sweep: Platform and Sustainability Expert - US - SWEEP
+  https://sweep.teamtailor.com/jobs/7143817-platform-and-sustainability-expert-us
+- Sweep: Product Manager - SWEEP
+  https://sweep.teamtailor.com/jobs/7185445-product-manager
+- Sweep: Customer Success Manager - UK - SWEEP
+  https://sweep.teamtailor.com/jobs/7260467-customer-success-manager-uk
+- Sweep: Senior Fullstack Engineer (AI team) - SWEEP
+  https://sweep.teamtailor.com/jobs/7288025-senior-fullstack-engineer-ai-team
+- Sweep: Customer Success Intern - 6 months internship - SWEEP
+  https://sweep.teamtailor.com/jobs/7293596-customer-success-intern-6-months-internship
+- Sweep: Partner Sales Manager - US - SWEEP
+  https://sweep.teamtailor.com/jobs/7311772-partner-sales-manager-us
+- Sweep: Senior Revenue Operations Specialist - SWEEP
+  https://sweep.teamtailor.com/jobs/7325044-senior-revenue-operations-specialist
+- Sweep: Senior Fullstack Engineer (AI team) - SWEEP
+  https://sweep.teamtailor.com/jobs/7338450-senior-fullstack-engineer-ai-team
+- Sweep: Sign in - Google Accounts
+  https://sweep.teamtailor.com/sso_login
+- Sweep: Teamtailor ™ - Next Generation ATS & Employer Branding
+  https://www.teamtailor.com/?utm_campaign=poweredby&utm_content=sweep.teamtailor.com&utm_medium=referral&utm_source=career-site
+- Terradot: Finance Operations Lead
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/36eed6bb-3b49-4dbb-825c-4bb85eebcf0c
+- Terradot: People Ops & Recruiting Manager
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/49ca54e6-cfb2-4fa1-8ed3-1494f710f1a1
+- Terradot: HSE Manager
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/68690099-eb74-4f6f-b5fb-9c9b9fe4da13
+- Terradot: Field Assistant
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/7b321e5d-2209-4436-b354-9572bde4f48e
+- Terradot: Head of Farmer Engagement
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/a7334297-d401-4686-8fc2-7328ee347c9f
+- Terradot: Project Finance Sr Associate (US)
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/b3ad6a2b-5afc-4c47-8f63-babb3638a067
+- Terradot: Senior Product Designer
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/c81bd9a7-359b-4014-96af-1cb2aaaf3ce0
+- Terradot: Candidates Pool
+  https://ats.rippling.com/en-GB/terradot-careers/jobs/f7f26779-5e9b-4949-9f3a-a3016882dd9e
+- TomTom: TomTom Careers
+  https://www.tomtom.com/careers/
+- TomTom: Benefits package | TomTom
+  https://www.tomtom.com/careers/benefits/
+- TomTom: Diversity & Inclusion | TomTom Careers
+  https://www.tomtom.com/careers/diversity-and-inclusion/
+- TomTom: How we hire at TomTom | TomTom Careers
+  https://www.tomtom.com/careers/how-we-hire/
+- TomTom: Jobs | TomTom Careers
+  https://www.tomtom.com/careers/joboverview/
+- TomTom: Offices | TomTom Careers
+  https://www.tomtom.com/careers/offices/
+- TomTom: Our Teams | TomTom Careers
+  https://www.tomtom.com/careers/teams/
+- Vulcan EarthRanger: Job Application for Machine Learning Engineer at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4591408005
+- Vulcan EarthRanger: Job Application for AI Application Architect at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4599140005
+- Vulcan EarthRanger: Job Application for Solutions Architect at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4602000005
+- Vulcan EarthRanger: Jobs at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4611837005
+- Vulcan EarthRanger: page_title
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4627936005
+- Vulcan EarthRanger: Job Application for Data Engineer at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4638658005
+- Vulcan EarthRanger: Job Application for Cloud Ops Engineer at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4638660005
+- Vulcan EarthRanger: Job Application for Copilot & Power Platform Architect at Nimble Gravity
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4650351005
+- Vulcan EarthRanger: Job Application for Research Scientist, Olmo at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/5919395
+- Vulcan EarthRanger: Job Application for Research Scientist, Agents for Science at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/6881382
+- Vulcan EarthRanger: Job Application for Research Scientist, Robotics at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7079395
+- Vulcan EarthRanger: Job Application for Financial Analyst at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7157023
+- Vulcan EarthRanger: Jobs at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7241371
+- Vulcan EarthRanger: Job Application for Senior Manager, People Operations at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7306941
+- Vulcan EarthRanger: Job Application for Lead Product Designer at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7357503
+- Vulcan EarthRanger: Job Application for Research Internship, AI for Science at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7366257
+- Vulcan EarthRanger: Job Application for Research Internship, Advancing Open Agentic LLMs at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7366263
+- Vulcan EarthRanger: Job Application for Young Investigator, FlexOlmo at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7417128
+- Vulcan EarthRanger: Job Application for Senior Research Engineer, Olmo at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7522005
+- Vulcan EarthRanger: Job Application for Young Investigator, PRIOR at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7652503
+- Vulcan EarthRanger: Job Application for Lead Software Engineer, AI Infrastructure at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7652565
+- Vulcan EarthRanger: Job Application for Legal Counsel at The Allen Institute for Artificial Intelligence
+  https://job-boards.greenhouse.io/thealleninstitute/jobs/7652597
+- Windward: Latest Career Opportunities & Current Openings – Join Now!
+  https://windward.ai/company/careers/
+- Windward: Job opportunity: VP Customer Success UK
+  https://windward.ai/company/careers/co/london/0F.464/vp-customer-success-uk/all
+- Windward: Job opportunity: VP Solution Engineering UK
+  https://windward.ai/company/careers/co/london/74.461/vp-solution-engineering-uk/all
+- Windward: Job opportunity: SDR- UK
+  https://windward.ai/company/careers/co/london/E1.36C/sdr-uk/all
+- Windward: Job opportunity: VP Customer Success IL
+  https://windward.ai/company/careers/co/tlv-israel/0F.469/vp-customer-success-il/all
+- Windward: Job opportunity: Software Team Lead (R&D Platform)
+  https://windward.ai/company/careers/co/tlv-israel/4E.66C/software-team-lead-rd-platform/all
+- Windward: Job opportunity: Software Team Leader – Maritime Intelligence R&D group
+  https://windward.ai/company/careers/co/tlv-israel/91.761/software-team-leader-maritime-intelligence-rd-group/all
+- Windward: Job opportunity: Product Manager – WW AGENTIC
+  https://windward.ai/company/careers/co/tlv-israel/94.56A/product-manager-ww-agentic/all
+- Windward: Job opportunity: Product Manager - Windward Intelligence System
+  https://windward.ai/company/careers/co/tlv-israel/AC.566/product-manager-windward-intelligence-system/all
+- Windward: Job opportunity: Account Manager- Gov-(EMEA)
+  https://windward.ai/company/careers/co/tlv-israel/AD.160/account-manager-gov-emea/all
+- Windward: Job opportunity: Product Marketing Manager – Public Sector
+  https://windward.ai/company/careers/co/tlv-israel/F7.367/product-marketing-manager-public-sector/all
+- Windward: Job opportunity: Account Manager USA
+  https://windward.ai/company/careers/co/washington-dc-area/0F.26D/account-manager-usa/all
+- Windward: Job opportunity: Director of Customer Success – U.S. Public Sector
+  https://windward.ai/company/careers/co/washington-dc-area/53.566/director-of-customer-success-u-s-public-sector/all
+- Windward: Job opportunity: SDR- US
+  https://windward.ai/company/careers/co/washington-dc-area/7F.261/sdr-us/all
+- Windward: Job opportunity: VP Solution Engineering DC
+  https://windward.ai/company/careers/co/washington-dc-area/D5.46F/vp-solution-engineering-dc/all
+- XOCEAN: Careers | XOCEAN
+  https://xocean.com/careers/
