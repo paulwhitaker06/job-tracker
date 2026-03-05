@@ -398,3 +398,190 @@ companies:
   - name: Xplore
     type: html_links
     url: https://www.xplore.com/careers.html
+    
+  - name: Abatable
+    type: html_links
+    url: https://abatable.com/careers/
+
+  - name: Airbus Intelligence
+    type: html_links
+    url: https://ag.wd3.myworkdayjobs.com/Airbus
+
+  - name: ASTERRA
+    type: html_links
+    url: https://asterra.io/about/careers/
+
+  - name: Atlas Space Operations
+    type: html_links
+    url: https://atlasspace.com/careers/
+
+  - name: Bedrock Ocean
+    type: ashby_api
+    url: https://jobs.ashbyhq.com/bedrockocean
+
+  - name: Carbonfuture
+    type: html_links
+    url: https://carbonfuture.earth/careers
+
+  - name: CARTO
+    type: html_links
+    url: https://carto.pinpointhq.com/
+
+  - name: Charm Industrial
+    type: lever_api
+    url: https://jobs.lever.co/charmindustrial
+
+  - name: Cloverly
+    type: html_links
+    url: https://cloverly.com/careers
+
+  - name: CLS Group
+    type: html_links
+    url: https://www.cls.fr/carrieres/offres-emploi/
+
+  - name: Development Seed
+    type: html_links
+    url: https://developmentseed.org/careers/
+
+  - name: EagleView
+    type: html_links
+    url: https://careers.eagleview.com/
+
+  - name: EOMAP
+    type: html_links
+    url: https://eomap.com/about/#join
+
+  - name: Esri
+    type: html_links
+    url: https://www.esri.com/en-us/about/careers/job-search
+
+  - name: Fugro
+    type: html_links
+    url: https://www.fugro.com/careers/jobs
+
+  - name: Greenly
+    type: html_links
+    url: https://www.welcometothejungle.com/en/companies/greenly/jobs
+
+  - name: Heirloom Carbon
+    type: ashby_api
+    url: https://jobs.ashbyhq.com/heirloomcarbon
+
+  - name: HERE Technologies
+    type: html_links
+    url: https://careers-here.icims.com/jobs/search?ss=1&hashed=-435626304
+
+  - name: Hexagon Geospatial
+    type: html_links
+    url: https://hexagon.com/company/careers/job-listings
+
+  - name: Infostellar
+    type: html_links
+    url: https://www.infostellar.net/careers
+
+  - name: Leaf Space
+    type: html_links
+    url: https://leaf.space/contact/work-with-us/
+
+  - name: Lithos Carbon
+    type: workable_api
+    url: https://apply.workable.com/lithos/
+    workable_account: lithos
+
+  - name: Mapbox
+    type: html_links
+    url: https://www.mapbox.com/careers
+
+  - name: Maxar
+    type: html_links
+    url: https://maxar.wd1.myworkdayjobs.com/Vantor
+
+  - name: Nearmap
+    type: html_links
+    url: https://www.nearmap.com/careers
+
+  - name: Normative
+    type: html_links
+    url: https://careers.normative.io/departments/sales
+
+  - name: Ocean Infinity
+    type: html_links
+    url: https://wd1.myworkdaysite.com/en-US/recruiting/oceaninfinity/ocean_infinity_careers
+
+  - name: OceanMind
+    type: html_links
+    url: https://oceanmind.global/about-us/careers/
+
+  - name: OpenOcean Robotics
+    type: html_links
+    url: https://www.openoceanrobotics.com/careers
+
+  - name: Patch
+    type: html_links
+    url: https://www.patch.io/careers#open-roles
+
+  - name: Plan A
+    type: workable_api
+    url: https://apply.workable.com/plana/
+    workable_account: plana
+
+  - name: Planetary Technologies
+    type: html_links
+    url: https://www.planetarytech.com/about/careers/
+
+  - name: Pole Star Global
+    type: html_links
+    url: https://careers.polestarglobal.com/jobs
+
+  - name: Safe Software
+    type: html_links
+    url: https://www.safe.com/careers/
+
+  - name: Saildrone
+    type: html_links
+    url: https://www.saildrone.com/careers/available-jobs
+
+  - name: Sea Machines
+    type: html_links
+    url: https://sea-machines.com/careers/open-positions/
+
+  - name: SkyWatch
+    type: html_links
+    url: https://skywatch.com/careers/#openroles
+
+  - name: Sweep
+    type: html_links
+    url: https://sweep.teamtailor.com/jobs
+
+  - name: Terradepth
+    type: html_links
+    url: https://recruiting.paylocity.com/recruiting/jobs/All/ce28f66e-1b03-4839-ab7c-ba91bea99e01/Terradepth-Inc
+
+  - name: Terradot
+    type: html_links
+    url: https://ats.rippling.com/en-GB/terradot-careers/jobs
+
+  - name: TomTom
+    type: html_links
+    url: https://www.tomtom.com/careers/joboverview/
+
+  - name: Undo Carbon
+    type: html_links
+    url: https://un-do.careers.hibob.com/jobs
+
+  - name: Vaulted Deep
+    type: html_links
+    url: https://jobs.gusto.com/boards/vaulted-deep-f80523c0-4d4e-4e4c-9636-4db9035a1561
+
+  - name: Vulcan EarthRanger
+    type: html_links
+    url: https://www.earthranger.com/careers#open-roles
+
+  - name: Windward
+    type: html_links
+    url: https://windward.ai/company/careers/
+
+  - name: XOCEAN
+    type: html_links
+    url: https://xocean.com/careers/#careers
+    
