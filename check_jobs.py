@@ -157,17 +157,46 @@ def is_job_board_url(url: str) -> bool:
 
 def get_html_links(company: dict) -> list[dict]:
     """
-    HTML harvesting with a single depth-1 follow:
+    HTML harvesting with pagination and a single depth-1 follow:
     - Fetch the configured url
+    - Also try common pagination patterns
     - Extract job-ish links
-    - Follow up to 3 outbound ATS board links found on that page and extract links there too
+    - Follow up to 3 outbound ATS board links found on those pages
     """
-    base_url = company["url"]
-    html = fetch_html(base_url)
-    links = extract_links_from_html(html, base_url)
 
-    # Depth-1 follow: ATS board links found on the page
+    base_url = company["url"]
+
+    pages_to_fetch = {base_url}
+
+    # Try common pagination patterns
+    pages_to_fetch.update(
+        {
+            base_url + ("&page=2" if "?" in base_url else "?page=2"),
+            base_url + ("&page=3" if "?" in base_url else "?page=3"),
+            base_url + ("&paged=2" if "?" in base_url else "?paged=2"),
+            base_url + ("&paged=3" if "?" in base_url else "?paged=3"),
+            base_url + ("&offset=20" if "?" in base_url else "?offset=20"),
+            base_url + ("&offset=40" if "?" in base_url else "?offset=40"),
+            base_url.rstrip("/") + "/page/2",
+            base_url.rstrip("/") + "/page/3",
+            base_url.rstrip("/") + "/jobs",
+            base_url.rstrip("/") + "/jobs?page=2",
+            base_url.rstrip("/") + "/careers?page=2",
+        }
+    )
+
+    links: set[str] = set()
+
+    for page_url in sorted(pages_to_fetch):
+        try:
+            html = fetch_html(page_url)
+            links |= extract_links_from_html(html, page_url)
+        except Exception:
+            pass
+
+    # Depth-1 follow: ATS board links found on those pages
     candidate_board_links = sorted({l for l in links if is_job_board_url(l) and l != base_url})
+
     for board_url in candidate_board_links[:3]:
         try:
             board_html = fetch_html(board_url)
@@ -188,6 +217,7 @@ def get_html_links(company: dict) -> list[dict]:
                 "title": None,
             }
         )
+
     return results
 
 
