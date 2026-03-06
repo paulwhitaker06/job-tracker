@@ -291,9 +291,10 @@ companies:
     type: lever_api
     url: https://jobs.lever.co/kepler
 
+  # One Concern: updated to html_links (Lever API endpoint no longer works)
   - name: One Concern
-    type: lever_api
-    url: https://jobs.lever.co/oneconcern
+    type: html_links
+    url: https://oneconcern.com/en/join-us/
 
   - name: Orbital Sidekick
     type: lever_api
@@ -398,7 +399,7 @@ companies:
   - name: Xplore
     type: html_links
     url: https://www.xplore.com/careers.html
-    
+
   - name: Abatable
     type: html_links
     url: https://abatable.com/careers/
@@ -415,9 +416,10 @@ companies:
     type: html_links
     url: https://atlasspace.com/careers/
 
+  # Bedrock Ocean: updated to html_links (Ashby API returning empty)
   - name: Bedrock Ocean
-    type: ashby_api
-    url: https://jobs.ashbyhq.com/bedrockocean
+    type: html_links
+    url: https://www.bedrock.earth/careers
 
   - name: Carbonfuture
     type: html_links
@@ -463,9 +465,10 @@ companies:
     type: html_links
     url: https://www.welcometothejungle.com/en/companies/greenly/jobs
 
+  # Heirloom Carbon: updated to html_links (Ashby API returning empty)
   - name: Heirloom Carbon
-    type: ashby_api
-    url: https://jobs.ashbyhq.com/heirloomcarbon
+    type: html_links
+    url: https://www.heirloomcarbon.com/careers
 
   - name: HERE Technologies
     type: html_links
@@ -584,7 +587,7 @@ companies:
   - name: XOCEAN
     type: html_links
     url: https://xocean.com/careers/#careers
-    
+
   - name: 75F
     type: html_links
     url: https://75f.breezy.hr/
@@ -663,9 +666,10 @@ companies:
     url: https://job-boards.greenhouse.io/electrasteel
     board: electrasteel
 
+  # Brimstone: updated to html_links (Ashby API returning empty)
   - name: Brimstone
-    type: ashby_api
-    url: https://jobs.ashbyhq.com/brimstone
+    type: html_links
+    url: https://www.brimstone.com/careers
 
   - name: Conservation X Labs
     type: html_links
@@ -810,11 +814,8 @@ companies:
   - name: Windfall Bio
     type: html_links
     url: https://www.windfall.bio/careers
-  # ── HIGH-PRIORITY ADDITIONS (curated from your CV + meeting notes) ──────────
 
-  - name: Kpler
-    type: html_links
-    url: https://www.kpler.com/careers
+  # ── HIGH-PRIORITY (curated from CV + meeting notes) ──────────────────────────
 
   - name: MarineTraffic
     type: html_links
@@ -852,10 +853,6 @@ companies:
     type: html_links
     url: https://www.geollect.com/careers
 
-  - name: Howden Group
-    type: html_links
-    url: https://howdengroup.com/careers/
-
   - name: Kontur
     type: html_links
     url: https://kontur.io/jobs
@@ -876,19 +873,16 @@ companies:
     type: html_links
     url: https://ursaspace.com/about/careers/
 
-  - name: Descartes Underwriting
-    type: ashby_api
-    url: https://jobs.ashbyhq.com/descartesunderwriting
-
+  # Pachama: updated URL (greenhouse board moved)
   - name: Pachama
-    type: greenhouse_api
-    url: https://job-boards.greenhouse.io/pachama
-    board: pachama
+    type: html_links
+    url: https://jobs.lever.co/pachama
 
+  # Altana AI: updated to correct greenhouse board slug
   - name: Altana AI
     type: greenhouse_api
-    url: https://job-boards.greenhouse.io/altana
-    board: altana
+    url: https://job-boards.greenhouse.io/altanaai
+    board: altanaai
 
   - name: Sayari
     type: html_links
@@ -918,9 +912,11 @@ companies:
     type: html_links
     url: https://skytruth.org/jobs/
 
+  # Sofar Ocean: updated to greenhouse (Lever API no longer works)
   - name: Sofar Ocean
-    type: lever_api
-    url: https://jobs.lever.co/sofarocean
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/sofarocean
+    board: sofarocean
 
   - name: Carbon Trust
     type: html_links
