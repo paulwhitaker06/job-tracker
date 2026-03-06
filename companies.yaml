@@ -810,3 +810,126 @@ companies:
   - name: Windfall Bio
     type: html_links
     url: https://www.windfall.bio/careers
+  # ── HIGH-PRIORITY ADDITIONS (curated from your CV + meeting notes) ──────────
+
+  - name: Kpler
+    type: html_links
+    url: https://www.kpler.com/careers
+
+  - name: MarineTraffic
+    type: html_links
+    url: https://www.marinetraffic.com/en/p/careers
+
+  - name: Lloyd's List Intelligence
+    type: html_links
+    url: https://lloydslist.com/about/careers
+
+  - name: Concirrus
+    type: html_links
+    url: https://concirrus.com/careers/
+
+  - name: Skylight
+    type: html_links
+    url: https://www.skylight.global/about#careers
+
+  - name: Veson Nautical
+    type: html_links
+    url: https://vesonnautical.com/careers/
+
+  - name: DNV
+    type: html_links
+    url: https://www.dnv.com/careers/
+
+  - name: Orsted
+    type: html_links
+    url: https://orsted.com/en/careers
+
+  - name: MDA Space
+    type: html_links
+    url: https://mda.space/en/careers/
+
+  - name: Geollect
+    type: html_links
+    url: https://www.geollect.com/careers
+
+  - name: Howden Group
+    type: html_links
+    url: https://howdengroup.com/careers/
+
+  - name: Kontur
+    type: html_links
+    url: https://kontur.io/jobs
+
+  - name: PAL Aerospace
+    type: html_links
+    url: https://palaerospace.com/careers/
+
+  - name: Unseenlabs
+    type: html_links
+    url: https://unseenlabs.space/join-us/
+
+  - name: Kleos Space
+    type: html_links
+    url: https://kleos.space/about/careers/
+
+  - name: Ursa Space
+    type: html_links
+    url: https://ursaspace.com/about/careers/
+
+  - name: Descartes Underwriting
+    type: ashby_api
+    url: https://jobs.ashbyhq.com/descartesunderwriting
+
+  - name: Pachama
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/pachama
+    board: pachama
+
+  - name: Altana AI
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/altana
+    board: altana
+
+  - name: Sayari
+    type: html_links
+    url: https://sayari.com/company/careers/
+
+  - name: South Pole
+    type: html_links
+    url: https://www.southpole.com/careers
+
+  - name: NCX
+    type: html_links
+    url: https://ncx.com/careers/
+
+  - name: CTrees
+    type: html_links
+    url: https://ctrees.org/about/careers
+
+  - name: Cervest
+    type: html_links
+    url: https://cervest.earth/careers
+
+  - name: Reask
+    type: html_links
+    url: https://reask.earth/about/careers/
+
+  - name: SkyTruth
+    type: html_links
+    url: https://skytruth.org/jobs/
+
+  - name: Sofar Ocean
+    type: lever_api
+    url: https://jobs.lever.co/sofarocean
+
+  - name: Carbon Trust
+    type: html_links
+    url: https://www.carbontrust.com/who-we-are/join-us
+
+  - name: Descartes Labs
+    type: html_links
+    url: https://descarteslabs.com/careers/
+
+  - name: EOS Data Analytics
+    type: html_links
+    url: https://eos.com/about-us/careers/
