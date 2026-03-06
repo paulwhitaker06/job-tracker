@@ -585,3 +585,228 @@ companies:
     type: html_links
     url: https://xocean.com/careers/#careers
     
+  - name: 75F
+    type: html_links
+    url: https://75f.breezy.hr/
+
+  - name: Arnergy
+    type: html_links
+    url: https://arnergy.zohorecruit.com/jobs/Careers
+
+  - name: Orbit Fab
+    type: html_links
+    url: https://ats.rippling.com/orbitfab/jobs
+
+  - name: Blue Frontier
+    type: html_links
+    url: https://bluefrontier.extensishrtalent.com/careers
+
+  - name: Exotrail
+    type: html_links
+    url: https://careers.exotrail.com/jobs
+
+  - name: Circ
+    type: html_links
+    url: https://circ.earth/careers
+
+  - name: CubicPV
+    type: html_links
+    url: https://cubicpv.com/careers/#openings
+
+  - name: Dandelion Energy
+    type: html_links
+    url: https://dandelionenergy.com/careers
+
+  - name: Dawn Aerospace
+    type: html_links
+    url: https://dawnaerospace.bamboohr.com/careers
+
+  - name: Dioxycle
+    type: html_links
+    url: https://dioxycle.com/career/
+
+  - name: Dragonfly Aerospace
+    type: html_links
+    url: https://dragonflyaerospace.com/blog/career/
+
+  - name: Earth-i
+    type: html_links
+    url: https://earthi.space/about-us/#careers
+
+  - name: Electric Hydrogen
+    type: html_links
+    url: https://eh2.com/join-the-team/#careers
+
+  - name: Fervo Energy
+    type: html_links
+    url: https://fervoenergy.com/careers/
+
+  - name: Form Energy
+    type: html_links
+    url: https://formenergy.com/careers/open-jobs/
+
+  - name: Alén Space
+    type: html_links
+    url: https://gmv.csod.com/ux/ats/careersite/6/home?c=gmv&lang=en-US
+
+  - name: Isar Aerospace
+    type: html_links
+    url: https://isaraerospace.com/career#jobs
+
+  - name: Astranis
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/astranis
+    board: astranis
+
+  - name: Electra
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/electrasteel
+    board: electrasteel
+
+  - name: Brimstone
+    type: ashby_api
+    url: https://jobs.ashbyhq.com/brimstone
+
+  - name: Conservation X Labs
+    type: html_links
+    url: https://jobs.gusto.com/boards/conservation-x-labs-inc-14fc6ae7-e196-4389-acac-1241aa0f143d
+
+  - name: Commonwealth Fusion Systems
+    type: lever_api
+    url: https://jobs.lever.co/cfsenergy
+
+  - name: Rumin8
+    type: lever_api
+    url: https://jobs.lever.co/rumin8
+
+  - name: MetOcean Telematics
+    type: html_links
+    url: https://metocean.com/about/careers/
+
+  - name: Mission Control Space
+    type: html_links
+    url: https://missioncontrolspace.com/about/careers/
+
+  - name: NanoAvionics
+    type: html_links
+    url: https://nanoavionics.com/our-careers/jobs/
+
+  - name: OpenGeoHub
+    type: html_links
+    url: https://opengeohub.org/category/jobs/
+
+  - name: Orbex
+    type: html_links
+    url: https://orbex.space/work-with-us/current-vacancies
+
+  - name: Reflex Aerospace
+    type: html_links
+    url: https://reflex-aerospace-gmbh.jobs.personio.de/
+
+  - name: SatSure
+    type: html_links
+    url: https://satsure.keka.com/careers
+
+  - name: Orbital Micro Systems
+    type: html_links
+    url: https://weatherstream.com/careers/
+
+  - name: Sidus Space
+    type: html_links
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=274f5796-403b-41e3-b324-309840b20c85&ccId=19000101_000001&lang=en_US
+
+  - name: Orbcomm
+    type: html_links
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b9e6f585-387b-496e-8b63-bee5bed64c3e&ccId=19000101_000001&type=JS&lang=en_US
+
+  - name: ESS Inc
+    type: html_links
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ca44b751-a5b8-4956-b756-4564a6eec5ff&ccId=19000101_000001&lang=en_US
+
+  - name: AAC Clyde Space
+    type: html_links
+    url: https://www.aac-clyde.space/careers
+
+  - name: Aetherflux
+    type: html_links
+    url: https://www.aetherflux.com/#careers-anchor
+
+  - name: Antora Energy
+    type: html_links
+    url: https://www.antora.com/careers#jobs
+
+  - name: Baseload Capital
+    type: html_links
+    url: https://www.baseloadcap.com/careers/
+
+  - name: C16 Biosciences
+    type: html_links
+    url: https://www.c16bio.com/careers
+
+  - name: CarbonCure
+    type: html_links
+    url: https://www.carboncure.com/careers/
+
+  - name: Clearbot
+    type: html_links
+    url: https://www.clearbot.org/about-us#
+
+  - name: H2Pro
+    type: html_links
+    url: https://www.comeet.com/jobs/h2pro/A7.001
+
+  - name: EnduroSat
+    type: html_links
+    url: https://www.endurosat.com/careers/
+
+  - name: Equilibrium Energy
+    type: html_links
+    url: https://www.equilibriumenergy.com/careers#jobs
+
+  - name: Flowminder
+    type: html_links
+    url: https://www.flowminder.org/about-us/work-with-us
+
+  - name: GeoVille
+    type: html_links
+    url: https://www.geoville.com/careers/
+
+  - name: Graphyte
+    type: html_links
+    url: https://www.graphyte.com/
+
+  - name: Guidewheel
+    type: html_links
+    url: https://www.guidewheel.com/company/careers#open-roles
+
+  - name: Skyloom
+    type: html_links
+    url: https://www.linkedin.com/jobs/search/?currentJobId=4375584315&f_C=11746969&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4375584315%2C4364418953%2C4372912384%2C4378152193%2C4378150197%2C4364504523%2C4372915198%2C4378151229%2C4372913298
+
+  - name: MapHubs
+    type: html_links
+    url: https://www.maphubs.com/careers
+
+  - name: Pixalytics
+    type: html_links
+    url: https://www.pixalytics.com/contact-us/vacancies/
+
+  - name: PLD Space
+    type: html_links
+    url: https://www.pldspace.com/pld-space-empleo/posiciones-abiertas/
+
+  - name: SatRevolution
+    type: html_links
+    url: https://www.satrev.space/careers#open-position
+
+  - name: Skytek
+    type: html_links
+    url: https://www.skytek.com/about-skytek/careers/#careers
+
+  - name: SubC Imaging
+    type: html_links
+    url: https://www.subcimaging.com/careers/#current-openings
+
+  - name: Windfall Bio
+    type: html_links
+    url: https://www.windfall.bio/careers
