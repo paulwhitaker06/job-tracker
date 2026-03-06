@@ -929,3 +929,44 @@ companies:
   - name: EOS Data Analytics
     type: html_links
     url: https://eos.com/about-us/careers/
+
+  - name: SynMax
+    type: lever_api
+    url: https://jobs.lever.co/synmax
+
+  - name: Constellr
+    type: html_links
+    url: https://constellr.recruitee.com/
+
+  - name: Kuva Space
+    type: html_links
+    url: https://careers.kuvaspace.com/
+
+  - name: Starboard Maritime Intelligence
+    type: html_links
+    url: https://www.starboardintelligence.com/careers
+
+  - name: Kairos Aerospace
+    type: html_links
+    url: https://kairosaerospace.com/careers/
+
+  - name: Satelytics
+    type: html_links
+    url: https://www.satelytics.com/careers/
+
+  - name: EarthBlox
+    type: html_links
+    url: https://www.earthblox.io/careers
+
+  - name: Chloris Geospatial
+    type: html_links
+    url: https://chlorisgeospatial.com/careers/
+
+  - name: Primer AI
+    type: html_links
+    url: https://primer.ai/about-primer/careers/
+
+  - name: OceanScore
+    type: html_links
+    url: https://oceanscore.com/jobs/
+    
