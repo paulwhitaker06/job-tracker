@@ -1,18 +1,15 @@
 name: Daily Job Check
-
-
 on:
   schedule:
     - cron: '0 13 * * *'
   workflow_dispatch:
-  
+
 permissions:
   contents: write
-  
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
@@ -40,13 +37,41 @@ jobs:
           echo "PYTHON FINISHED"
           echo "LIST FILES:"
           ls -la
-          echo "SHOW DIGEST (if present):"
-          tail -n 120 latest_digest.txt || true
 
       - name: Commit updated memory files
         run: |
           git config user.name "job-tracker-bot"
           git config user.email "job-tracker-bot@users.noreply.github.com"
-          git add seen_jobs.json latest_digest.txt || true
+          git add seen_jobs.json latest_digest.txt latest_digest.html || true
           git diff --staged --quiet || git commit -m "Update seen jobs"
+          git pull --rebase origin main
           git push
+
+      - name: Send failure notification
+        if: failure()
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+        run: |
+          python - <<'EOF'
+          import smtplib, os
+          from email.mime.text import MIMEText
+          host = os.environ.get("SMTP_HOST")
+          port = int(os.environ.get("SMTP_PORT", "587"))
+          user = os.environ.get("SMTP_USER")
+          password = os.environ.get("SMTP_PASS")
+          to_email = os.environ.get("TO_EMAIL")
+          if all([host, user, password, to_email]):
+              msg = MIMEText("The job tracker workflow failed. Check GitHub Actions for details:\nhttps://github.com/paulwhitaker06/job-tracker/actions")
+              msg["Subject"] = "⚠️ Job Tracker Failed Today"
+              msg["From"] = user
+              msg["To"] = to_email
+              with smtplib.SMTP(host, port, timeout=30) as s:
+                  s.ehlo(); s.starttls(); s.ehlo()
+                  s.login(user, password)
+                  s.sendmail(user, [to_email], msg.as_string())
+              print("Failure notification sent")
+          EOF
