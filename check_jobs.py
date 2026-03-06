@@ -1,21 +1,28 @@
 """
-job-tracker  -  check_jobs.py
-Daily scraper: finds new job postings across 200+ companies and emails a digest.
+job-tracker  –  check_jobs.py
+Daily scraper: finds new job postings across companies and emails a digest.
 
-Improvements
-------------
-1. Smarter link filtering
-2. Pagination support
-3. JS-heavy site Playwright fallback
-4. Relevance scoring
-5. HTML email sorted by score
-6. Error logging in email
-7. LinkedIn URLs skipped gracefully
-8. Retry logic - failed requests retried twice
-9. Scrape summary in email header
-10. Failure notification email
-11. seen_jobs.json pruned after 90 days
-12. latest_digest.html saved to repo
+Improvements in this version
+─────────────────────────────
+1.  Two-pass scraping  – Pass 1: fast requests+BS4. If output looks like
+    garbage (too few real job titles, too many generic strings), Pass 2
+    fires Playwright to render the JS and try again.
+2.  Network-intercept fallback  – for sites that load jobs via a JSON API
+    call in the browser, Playwright intercepts the XHR/fetch response and
+    pulls structured job data directly.
+3.  Deduplication  – same company + same normalised title seen on multiple
+    boards is collapsed to one entry in the digest.
+4.  Seniority filter  – intern / junior / technician / associate titles
+    suppressed from digest (score floored at 0, hidden unless score > 0
+    from domain keywords).
+5.  Garbage detection  – heuristic that flags a scrape result as noise
+    before it ever reaches the email.
+6.  Retry logic  – requests retried twice with 3s back-off.
+7.  Scrape summary  – email header shows X/Y companies scraped OK.
+8.  Failure notification  – separate step in workflow emails on crash.
+9.  seen_jobs.json pruning  – entries older than 90 days removed.
+10. latest_digest.html committed alongside latest_digest.txt.
+11. HTML email sorted by relevance score, grouped by company.
 """
 
 from __future__ import annotations
@@ -26,20 +33,21 @@ import logging
 import os
 import re
 import smtplib
+import time
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from urllib.parse import urljoin, urldefrag
+from urllib.parse import urljoin, urldefrag, urlparse
 
 import requests
 import yaml
 from bs4 import BeautifulSoup
 
-# -- logging ------------------------------------------------------------------
+# logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s  %(message)s")
 log = logging.getLogger("job-tracker")
 
-# -- constants ----------------------------------------------------------------
+# constants
 SEEN_FILE = "seen_jobs.json"
 HEADERS = {
     "User-Agent": (
@@ -49,46 +57,159 @@ HEADERS = {
     )
 }
 
-# -- relevance keywords -------------------------------------------------------
+# relevance keywords
 RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
-    ("director", 3), ("VP", 3), ("vice president", 3), ("head of", 3),
-    ("senior manager", 2), ("principal", 2), ("chief", 2),
-    ("business development", 4), ("partnerships", 4), ("strategic partnerships", 5),
-    ("commercialization", 4), ("commercial", 3), ("go-to-market", 4), ("GTM", 4),
-    ("sales", 3), ("account executive", 3), ("account manager", 2),
-    ("customer success", 2), ("solutions engineer", 2), ("product manager", 2),
-    ("strategy", 3), ("licensing", 5), ("revenue", 2), ("alliances", 3),
-    ("channel", 2), ("enterprise sales", 4),
-    ("earth observation", 5), ("satellite imagery", 5), ("remote sensing", 5),
-    ("SAR", 5), ("synthetic aperture radar", 5), ("optical imagery", 4),
-    ("multispectral", 4), ("hyperspectral", 4), ("LiDAR", 3), ("radar", 3),
-    ("AIS", 5), ("RF", 4), ("radio frequency", 4), ("geospatial", 4), ("GIS", 3),
-    ("satellite data", 5), ("space data", 3), ("aerial imagery", 3),
-    ("maritime", 5), ("vessel", 4), ("shipping", 3), ("AIS data", 5),
-    ("fishing", 4), ("IUU", 5), ("illegal fishing", 5), ("ocean", 3),
-    ("marine", 3), ("port", 2), ("dark vessel", 4), ("vessel monitoring", 5),
+    ("director", 3),
+    ("VP", 3),
+    ("vice president", 3),
+    ("head of", 3),
+    ("senior manager", 2),
+    ("principal", 2),
+    ("chief", 2),
+    ("business development", 4),
+    ("partnerships", 4),
+    ("strategic partnerships", 5),
+    ("commercialization", 4),
+    ("commercial", 3),
+    ("go-to-market", 4),
+    ("GTM", 4),
+    ("sales", 3),
+    ("account executive", 3),
+    ("account manager", 2),
+    ("customer success", 2),
+    ("solutions engineer", 2),
+    ("product manager", 2),
+    ("strategy", 3),
+    ("licensing", 5),
+    ("revenue", 2),
+    ("alliances", 3),
+    ("channel", 2),
+    ("enterprise sales", 4),
+    ("earth observation", 5),
+    ("satellite imagery", 5),
+    ("remote sensing", 5),
+    ("SAR", 5),
+    ("synthetic aperture radar", 5),
+    ("optical imagery", 4),
+    ("multispectral", 4),
+    ("hyperspectral", 4),
+    ("LiDAR", 3),
+    ("radar", 3),
+    ("AIS", 5),
+    ("RF", 4),
+    ("radio frequency", 4),
+    ("geospatial", 4),
+    ("GIS", 3),
+    ("satellite data", 5),
+    ("space data", 3),
+    ("aerial imagery", 3),
+    ("maritime", 5),
+    ("vessel", 4),
+    ("shipping", 3),
+    ("AIS data", 5),
+    ("fishing", 4),
+    ("IUU", 5),
+    ("illegal fishing", 5),
+    ("ocean", 3),
+    ("marine", 3),
+    ("port", 2),
+    ("dark vessel", 4),
+    ("vessel monitoring", 5),
     ("dark shipping", 4),
-    ("environmental monitoring", 5), ("climate", 3), ("carbon", 3),
-    ("emissions", 3), ("sustainability", 2), ("ESG", 3), ("deforestation", 4),
-    ("forest monitoring", 5), ("biodiversity", 3), ("nature-based", 3),
-    ("oil spill", 5), ("methane", 4), ("GHG", 3), ("greenhouse gas", 3),
-    ("flood", 3), ("wildfire", 3),
-    ("supply chain", 4), ("risk", 3), ("risk intelligence", 4), ("insurance", 3),
-    ("reinsurance", 3), ("sanctions", 3), ("compliance", 2),
-    ("trade intelligence", 4), ("commodity", 3), ("due diligence", 3),
-    ("government", 2), ("defense", 2), ("intelligence", 2), ("national security", 3),
-    ("agriculture", 3), ("agri", 2), ("crop", 2), ("food security", 3), ("forestry", 3),
-    ("API", 2), ("data platform", 2), ("analytics", 2), ("data licensing", 5),
+    ("environmental monitoring", 5),
+    ("climate", 3),
+    ("carbon", 3),
+    ("emissions", 3),
+    ("sustainability", 2),
+    ("ESG", 3),
+    ("deforestation", 4),
+    ("forest monitoring", 5),
+    ("biodiversity", 3),
+    ("nature-based", 3),
+    ("oil spill", 5),
+    ("methane", 4),
+    ("GHG", 3),
+    ("greenhouse gas", 3),
+    ("flood", 3),
+    ("wildfire", 3),
+    ("supply chain", 4),
+    ("risk", 3),
+    ("risk intelligence", 4),
+    ("insurance", 3),
+    ("reinsurance", 3),
+    ("sanctions", 3),
+    ("compliance", 2),
+    ("trade intelligence", 4),
+    ("commodity", 3),
+    ("due diligence", 3),
+    ("government", 2),
+    ("defense", 2),
+    ("intelligence", 2),
+    ("national security", 3),
+    ("agriculture", 3),
+    ("agri", 2),
+    ("crop", 2),
+    ("food security", 3),
+    ("forestry", 3),
+    ("API", 2),
+    ("data platform", 2),
+    ("analytics", 2),
+    ("data licensing", 5),
     ("data products", 3),
 ]
 
+# Titles containing these tokens are junior/support roles –
+# suppressed unless they pick up enough domain-keyword score (>= 4)
+JUNIOR_TOKENS = re.compile(
+    r"\b(intern|internship|junior|jr\.?|technician|technologist|"
+    r"apprentice|trainee|associate(?!\s+director))\b",
+    re.IGNORECASE,
+)
 
-def score_title(title: str) -> int:
-    text = title.lower()
-    return sum(w for kw, w in RELEVANCE_KEYWORDS if kw.lower() in text)
+# Patterns indicating a title is navigation noise rather than a real job
+GARBAGE_TITLE_PATTERNS = re.compile(
+    r"^(jobs|careers|job openings|career opportunities|open positions|"
+    r"current vacancies|work with us|join us|our team|about us|"
+    r"sign in|login|apply|candidates pool|bamboohr|teamtailor|"
+    r"rippling|dover|jazzhr|page_title|\(untitled\)|"
+    r"jobs archive|job listings|"
+    r"candidatura|candidature|bewerbung|"
+    r"show_more|load more|next page|"
+    r"footer\.|social_link|nav_|menu_)$",
+    re.IGNORECASE,
+)
 
 
-# -- utilities ----------------------------------------------------------------
+def score_title(title: str, url: str = "") -> int:
+    """Return relevance score. Junior roles capped unless strong domain match."""
+    text = (title + " " + url).lower()
+    raw = sum(w for kw, w in RELEVANCE_KEYWORDS if kw.lower() in text)
+    if JUNIOR_TOKENS.search(title) and raw < 4:
+        return 0
+    return raw
+
+
+def is_garbage_title(title: str) -> bool:
+    """True if the title looks like nav/page noise rather than a real job."""
+    t = title.strip()
+    if not t or len(t) < 4:
+        return True
+    if GARBAGE_TITLE_PATTERNS.match(t):
+        return True
+    if t.startswith("http") or t.startswith("/") or t.startswith("?"):
+        return True
+    # Bare hash-like IDs (e.g. Fugro R0030250)
+    if re.match(r"^[A-Z0-9_\-]{6,20}$", t):
+        return True
+    return False
+
+
+def normalise_title(title: str) -> str:
+    """Lowercase + strip punctuation for dedup comparison."""
+    return re.sub(r"[^a-z0-9 ]", "", title.lower()).strip()
+
+
+# utilities
 
 def sha(s: str) -> str:
     return hashlib.sha256(s.encode("utf-8", errors="ignore")).hexdigest()
@@ -107,9 +228,8 @@ def save_seen(seen: dict) -> None:
 
 
 def fetch_html(url: str, timeout: int = 45, retries: int = 2) -> str:
-    """Fetch URL with automatic retries on failure."""
-    import time
-    last_exc = None
+    """Fetch a URL with automatic retries on failure."""
+    last_exc: Exception | None = None
     for attempt in range(retries + 1):
         try:
             r = requests.get(url, timeout=timeout, headers=HEADERS)
@@ -119,10 +239,10 @@ def fetch_html(url: str, timeout: int = 45, retries: int = 2) -> str:
             last_exc = e
             if attempt < retries:
                 time.sleep(3)
-    raise last_exc
+    raise last_exc  # type: ignore[misc]
 
 
-# -- link extraction ----------------------------------------------------------
+# link extraction
 
 REJECT_SUBSTRINGS = [
     "linkedin.com", "facebook.com", "twitter.com", "x.com",
@@ -146,10 +266,10 @@ JOB_INDICATORS = [
     "boards.greenhouse.io/", "apply.workable.com/", "applytojob.com/apply/",
     "bamboohr.com/careers", "myworkdayjobs.com/", "recruitee.com/o/",
     "personio.de/job/", "personio.com/job/", "factorial.it/", "hrmos.co/",
-    "smartrecruiters.com/", "icims.com/", "teamtailor.com/", "careers.team/",
-    "pinpointhq.com/", "rippling.com/", "breezy.hr/", "gohire.io/",
-    "gusto.com/boards/", "paylocity.com/recruiting/", "hibob.com/jobs",
-    "zohorecruit.com/jobs/", "comeet.com/jobs/",
+    "smartrecruiters.com/", "icims.com/", "teamtailor.com/",
+    "careers.team/", "pinpointhq.com/", "rippling.com/", "breezy.hr/",
+    "gohire.io/", "gusto.com/boards/", "paylocity.com/recruiting/",
+    "hibob.com/jobs", "zohorecruit.com/jobs/", "comeet.com/jobs/",
 ]
 
 BOARD_HOSTS = [
@@ -158,13 +278,9 @@ BOARD_HOSTS = [
     "boards.greenhouse.io/", "greenhouse.io/", "bamboohr.com/careers",
     "myworkdayjobs.com/", "personio.de/", "personio.com/", "recruitee.com/",
     "factorial.it/", "hrmos.co/", "smartrecruiters.com/", "icims.com/",
-    "teamtailor.com/", "applytojob.com/", "careers.team/", "pinpointhq.com/",
-    "breezy.hr/", "gohire.io/", "gusto.com/boards/", "paylocity.com/recruiting/",
-]
-
-JS_HEAVY_PATTERNS = [
-    "myworkdayjobs.com", "wd1.myworkdaysite.com", "wd3.myworkdaysite.com",
-    "wd5.myworkdayjobs.com", "workforcenow.adp.com", "ats.rippling.com",
+    "teamtailor.com/", "applytojob.com/", "careers.team/",
+    "pinpointhq.com/", "breezy.hr/", "gohire.io/", "gusto.com/boards/",
+    "paylocity.com/recruiting/",
 ]
 
 
@@ -196,7 +312,7 @@ def find_next_page_links(html: str, base_url: str) -> set[str]:
     soup = BeautifulSoup(html, "html.parser")
     candidates: set[str] = set()
     next_patterns = re.compile(
-        r"\bnext\b|\bnext\s*page\b|load\s*more|show\s*more|>>|>|page\s*\d",
+        r"\bnext\b|\bnext\s*page\b|load\s*more|show\s*more|page\s*\d",
         re.IGNORECASE,
     )
     for a in soup.find_all("a", href=True):
@@ -225,22 +341,165 @@ def is_board_url(url: str) -> bool:
     return any(b in u for b in BOARD_HOSTS)
 
 
+# garbage detection
+
+def looks_like_garbage(items: list[dict]) -> bool:
+    """
+    Returns True if what we scraped looks like navigation noise.
+    Triggers Pass 2 (Playwright).
+
+    Heuristics:
+    - Fewer than 2 items
+    - More than 60% of titles match GARBAGE_TITLE_PATTERNS
+    - All titles are identical (e.g. 40x "Synspective")
+    """
+    if not items or len(items) < 2:
+        return True
+
+    titles = [i.get("title") or "" for i in items]
+
+    unique_titles = set(normalise_title(t) for t in titles if t)
+    if len(unique_titles) == 1:
+        return True
+
+    garbage_count = sum(1 for t in titles if is_garbage_title(t))
+    if garbage_count / len(titles) > 0.60:
+        return True
+
+    return False
+
+
+# JS-heavy site patterns (go straight to Playwright, no Pass 1)
+
+JS_HEAVY_PATTERNS = [
+    "myworkdayjobs.com", "wd1.myworkdaysite.com", "wd3.myworkdaysite.com",
+    "wd5.myworkdayjobs.com", "workforcenow.adp.com", "ats.rippling.com",
+]
+
+
 def is_js_heavy(url: str) -> bool:
     u = url.lower()
     return any(p in u for p in JS_HEAVY_PATTERNS)
 
 
-# -- scrapers -----------------------------------------------------------------
+# Playwright scraper (Pass 2)
+
+def get_playwright_links(company: dict) -> list[dict]:
+    """
+    Full Playwright scrape with two strategies:
+    1. Intercept JSON API responses that contain job data (handles Synspective,
+       Workday variants, custom ATS etc.)
+    2. Fall back to rendering the page and extracting <a> links.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+
+        url = company["url"]
+        intercepted_jobs: list[dict] = []
+
+        def handle_response(response):
+            try:
+                ctype = response.headers.get("content-type", "")
+                if "json" not in ctype:
+                    return
+                rurl = response.url.lower()
+                if not any(kw in rurl for kw in [
+                    "job", "position", "career", "posting", "opening",
+                    "vacancy", "recruit", "jobs", "offer",
+                ]):
+                    return
+                data = response.json()
+                for container_key in ["jobs", "positions", "postings", "results",
+                                       "data", "items", "offers", "vacancies"]:
+                    container = None
+                    if isinstance(data, list):
+                        container = data
+                    elif isinstance(data, dict):
+                        container = data.get(container_key)
+                    if container and isinstance(container, list) and len(container) > 0:
+                        sample = container[0]
+                        if isinstance(sample, dict):
+                            title_field = next(
+                                (k for k in ["title", "name", "jobTitle",
+                                             "position", "job_title", "text"]
+                                 if k in sample), None
+                            )
+                            url_field = next(
+                                (k for k in ["absolute_url", "hostedUrl",
+                                             "applyUrl", "url", "link",
+                                             "apply_url", "jobUrl", "shortlink"]
+                                 if k in sample), None
+                            )
+                            if title_field:
+                                for job in container:
+                                    t = job.get(title_field, "")
+                                    u = job.get(url_field, "") if url_field else ""
+                                    if t:
+                                        intercepted_jobs.append({
+                                            "id": sha(company["name"] + "|intercepted|" + str(t) + str(u)),
+                                            "url": u or url,
+                                            "title": str(t),
+                                        })
+                                return
+            except Exception:
+                pass
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.on("response", handle_response)
+            page.goto(url, wait_until="networkidle", timeout=120_000)
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(2000)
+            html = page.content()
+            browser.close()
+
+        # Intercepted structured data is cleanest – use it if we got any
+        if intercepted_jobs:
+            log.info(f"  {company['name']}: intercepted {len(intercepted_jobs)} jobs from API")
+            return intercepted_jobs
+
+        # Otherwise parse rendered HTML for links
+        links = extract_links(html, url)
+        if links:
+            return [
+                {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
+                for l in sorted(links)
+            ]
+
+        # Nothing usable found
+        log.warning(f"  {company['name']}: Playwright found nothing – site may need manual check")
+        return []
+
+    except ImportError:
+        log.warning("Playwright not installed – skipping JS site: " + company["name"])
+        return []
+    except Exception as e:
+        log.warning(f"Playwright failed for {company['name']}: {e}")
+        return []
+
+
+# per-type scrapers
 
 def get_html_links(company: dict) -> list[dict]:
+    """
+    Two-pass scraper:
+    Pass 1 – fast requests + BS4.
+    Pass 2 – Playwright, triggered automatically if Pass 1 looks like garbage.
+    """
     base_url = company["url"]
+
     if "linkedin.com" in base_url.lower():
-        log.warning(f"  {company['name']}: LinkedIn URL - skipping (requires login)")
+        log.warning(f"  {company['name']}: LinkedIn URL – skipping (requires login)")
         return []
+
     if is_js_heavy(base_url):
-        log.info(f"  {company['name']}: JS-heavy site, using Playwright")
+        log.info(f"  {company['name']}: known JS-heavy site, going straight to Playwright")
         return get_playwright_links(company)
 
+    # Pass 1
     pages_to_fetch: set[str] = {base_url}
     pages_to_fetch.update(pagination_urls(base_url))
     links: set[str] = set()
@@ -276,47 +535,25 @@ def get_html_links(company: dict) -> list[dict]:
         needle = company["link_contains"]
         links = {l for l in links if needle in l}
 
-    return [
+    pass1_items = [
         {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
         for l in sorted(links)
     ]
 
+    # Sample a few titles to check for garbage before committing to Pass 1
+    sampled = pass1_items[:5]
+    for item in sampled:
+        if item["title"] is None:
+            item["title"] = fetch_title(item["url"])
 
-def get_playwright_links(company: dict) -> list[dict]:
-    try:
-        from playwright.sync_api import sync_playwright
-        url = company["url"]
-        with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
-            page.goto(url, wait_until="networkidle", timeout=120_000)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(2000)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(2000)
-            html = page.content()
-            browser.close()
+    if looks_like_garbage(sampled) or len(pass1_items) == 0:
+        log.info(
+            f"  {company['name']}: Pass 1 looks like noise "
+            f"({len(pass1_items)} items) – escalating to Playwright"
+        )
+        return get_playwright_links(company)
 
-        links = extract_links(html, url)
-        if links:
-            return [
-                {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
-                for l in sorted(links)
-            ]
-        else:
-            text = BeautifulSoup(html, "html.parser").get_text()
-            content_hash = sha(text)
-            return [{
-                "id": sha(company["name"] + "|pagehash|" + content_hash),
-                "url": url,
-                "title": "Careers page changed (JS site - visit to see jobs)",
-            }]
-    except ImportError:
-        log.warning("Playwright not installed - skipping: " + company["name"])
-        return []
-    except Exception as e:
-        log.warning(f"Playwright failed for {company['name']}: {e}")
-        return []
+    return pass1_items
 
 
 def get_greenhouse_jobs(company: dict) -> list[dict]:
@@ -332,6 +569,7 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
     r = requests.get(gh_url, timeout=45, headers=HEADERS)
     r.raise_for_status()
     data = r.json()
+
     results = []
     for job in data.get("jobs", []):
         job_url = job.get("absolute_url") or job.get("url")
@@ -339,7 +577,9 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
             continue
-        results.append({"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title})
+        results.append(
+            {"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title}
+        )
     return results
 
 
@@ -356,6 +596,7 @@ def get_lever_jobs(company: dict) -> list[dict]:
     r = requests.get(api_url, timeout=45, headers=HEADERS)
     r.raise_for_status()
     data = r.json()
+
     results = []
     for job in data:
         job_url = job.get("hostedUrl") or job.get("applyUrl")
@@ -363,7 +604,9 @@ def get_lever_jobs(company: dict) -> list[dict]:
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
             continue
-        results.append({"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title})
+        results.append(
+            {"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title}
+        )
     return results
 
 
@@ -388,13 +631,18 @@ def get_workable_jobs(company: dict) -> list[dict]:
             job_id = job.get("id") or sha(job_url or title)
             if not job_url:
                 continue
-            results.append({"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title})
+            results.append(
+                {"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title}
+            )
         return results
     except Exception:
         board_url = f"https://apply.workable.com/{account}/"
         html = fetch_html(board_url)
         links = {l for l in extract_links(html, board_url) if "apply.workable.com" in l}
-        return [{"id": sha(company["name"] + "|" + l), "url": l, "title": None} for l in sorted(links)]
+        return [
+            {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
+            for l in sorted(links)
+        ]
 
 
 def get_ashby_jobs(company: dict) -> list[dict]:
@@ -422,7 +670,7 @@ def fetch_title(url: str) -> str:
         soup = BeautifulSoup(r.text, "html.parser")
         if soup.title and soup.title.string:
             t = soup.title.string.strip()
-            for sep in [" - ", " | ", " - ", " - ", " at ", " :: "]:
+            for sep in [" - ", " | ", " – ", " — ", " at ", " :: "]:
                 if sep in t:
                     t = t.split(sep)[0].strip()
             return t
@@ -437,10 +685,37 @@ def fetch_title(url: str) -> str:
     return ""
 
 
-# -- email --------------------------------------------------------------------
+# deduplication
 
-def build_html_email(new_items: list[dict], errors: list[str], run_time: str, scrape_summary: str = "") -> str:
+def deduplicate(items: list[dict]) -> list[dict]:
+    """
+    Within a single company's results, collapse duplicate job titles
+    (same normalised title seen on multiple boards) to first occurrence.
+    """
+    seen_norm: dict[str, bool] = {}
+    out: list[dict] = []
+    for item in items:
+        title = item.get("title") or ""
+        norm = normalise_title(title)
+        key = item["company"] + "|" + norm
+        if norm and key in seen_norm:
+            continue
+        if norm:
+            seen_norm[key] = True
+        out.append(item)
+    return out
+
+
+# email
+
+def build_html_email(
+    new_items: list[dict],
+    errors: list[str],
+    run_time: str,
+    scrape_summary: str = "",
+) -> str:
     from collections import defaultdict
+
     by_company: dict[str, list[dict]] = defaultdict(list)
     for item in new_items:
         by_company[item["company"]].append(item)
@@ -453,13 +728,13 @@ def build_html_email(new_items: list[dict], errors: list[str], run_time: str, sc
 
     def score_badge(score: int) -> str:
         if score >= 4:
-            colour = "#1a7a3c"; label = f"* {score}"
+            colour = "#1a7a3c"; label = f"★ {score}"
         elif score >= 2:
-            colour = "#2563eb"; label = f"+ {score}"
+            colour = "#2563eb"; label = f"◆ {score}"
         elif score >= 1:
-            colour = "#6b7280"; label = f". {score}"
+            colour = "#6b7280"; label = f"· {score}"
         else:
-            colour = "#d1d5db"; label = "."
+            colour = "#d1d5db"; label = "·"
         return (
             f'<span style="background:{colour};color:#fff;'
             f'border-radius:4px;padding:1px 6px;font-size:11px;">{label}</span>'
@@ -469,8 +744,9 @@ def build_html_email(new_items: list[dict], errors: list[str], run_time: str, sc
     for company_name, items in sorted_companies:
         items_sorted = sorted(items, key=lambda x: x["score"], reverse=True)
         rows += (
-            f'<tr><td colspan="2" style="padding:12px 8px 4px;font-weight:bold;'
-            f'font-size:14px;color:#111;border-top:2px solid #e5e7eb;">'
+            f'<tr><td colspan="2" style="padding:12px 8px 4px;'
+            f'font-weight:bold;font-size:14px;color:#111;'
+            f'border-top:2px solid #e5e7eb;">'
             f'{company_name}</td></tr>\n'
         )
         for item in items_sorted:
@@ -485,7 +761,10 @@ def build_html_email(new_items: list[dict], errors: list[str], run_time: str, sc
     error_section = ""
     if errors:
         errs = "".join(f"<li style='font-size:12px;color:#6b7280;'>{e}</li>" for e in errors)
-        error_section = f"<p style='margin-top:24px;color:#9ca3af;font-size:12px;'>Errors ({len(errors)}): <ul>{errs}</ul></p>"
+        error_section = (
+            f"<p style='margin-top:24px;color:#9ca3af;font-size:12px;'>"
+            f"⚠ Errors ({len(errors)}): <ul>{errs}</ul></p>"
+        )
 
     summary_line = (
         f'<p style="color:#9ca3af;font-size:12px;margin-top:0;">{scrape_summary}</p>'
@@ -499,9 +778,10 @@ def build_html_email(new_items: list[dict], errors: list[str], run_time: str, sc
 {summary_line}
 <p style="font-size:12px;color:#9ca3af;">
   Score legend:
-  <span style="background:#1a7a3c;color:#fff;border-radius:4px;padding:1px 5px;">* 4+</span> strong match &nbsp;
-  <span style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 5px;">+ 2-3</span> good match &nbsp;
-  <span style="background:#6b7280;color:#fff;border-radius:4px;padding:1px 5px;">. 1</span> weak match
+  <span style="background:#1a7a3c;color:#fff;border-radius:4px;padding:1px 5px;">&#9733; 4+</span> strong match &nbsp;
+  <span style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 5px;">&#9670; 2-3</span> good match &nbsp;
+  <span style="background:#6b7280;color:#fff;border-radius:4px;padding:1px 5px;">&middot; 1</span> weak match &nbsp;
+  <span style="background:#d1d5db;color:#fff;border-radius:4px;padding:1px 5px;">&middot;</span> unscored
 </p>
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
@@ -519,7 +799,7 @@ def send_email(subject: str, html_body: str, plain_body: str) -> None:
     to_email = os.environ.get("TO_EMAIL")
 
     if not all([host, user, password, to_email]):
-        log.warning("Email not configured (missing env vars)")
+        log.warning("Email not configured (missing SMTP_HOST/SMTP_USER/SMTP_PASS/TO_EMAIL)")
         return
 
     msg = MIMEMultipart("alternative")
@@ -536,12 +816,12 @@ def send_email(subject: str, html_body: str, plain_body: str) -> None:
             server.ehlo()
             server.login(user, password)
             server.sendmail(user, [to_email], msg.as_string())
-        log.info(f"Email sent to {to_email}")
+        log.info(f"Email sent -> {to_email}")
     except Exception as e:
         log.error(f"Email send failed: {type(e).__name__}: {e}")
 
 
-# -- main ---------------------------------------------------------------------
+# main
 
 def main() -> None:
     log.info("JOB TRACKER STARTED")
@@ -550,7 +830,7 @@ def main() -> None:
 
     seen = load_seen()
 
-    # Prune entries older than 90 days
+    # Prune seen_jobs older than 90 days
     cutoff_dt = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
     pruned = {k: v for k, v in seen.items() if v.get("first_seen_utc", "9999") >= cutoff_dt}
     if len(pruned) < len(seen):
@@ -591,7 +871,11 @@ def main() -> None:
                     if not title and item.get("url"):
                         title = fetch_title(item["url"])
 
-                    relevance = score_title(title + " " + item.get("url", ""))
+                    # Drop genuine garbage titles
+                    if is_garbage_title(title):
+                        continue
+
+                    relevance = score_title(title, item.get("url", ""))
 
                     seen[item_id] = {
                         "company": name,
@@ -600,12 +884,9 @@ def main() -> None:
                         "score": relevance,
                         "first_seen_utc": datetime.now(timezone.utc).isoformat(),
                     }
-                    new_items.append({
-                        "company": name,
-                        "url": item["url"],
-                        "title": title,
-                        "score": relevance,
-                    })
+                    new_items.append(
+                        {"company": name, "url": item["url"], "title": title, "score": relevance}
+                    )
 
         except Exception as e:
             msg = f"{name}: {type(e).__name__}: {e}"
@@ -616,17 +897,21 @@ def main() -> None:
         else:
             companies_ok += 1
 
+    # Deduplicate same title across multiple boards
+    new_items = deduplicate(new_items)
+
     save_seen(seen)
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     total_companies = companies_ok + companies_failed
     scrape_summary = f"{companies_ok}/{total_companies} companies scraped successfully"
     if companies_failed:
-        scrape_summary += f" - {companies_failed} failed"
+        scrape_summary += f" · {companies_failed} failed"
+
     log.info(scrape_summary)
 
     if new_items:
-        subject = f"Job Tracker: {len(new_items)} new posting{'s' if len(new_items)!=1 else ''} - {now_utc[:10]}"
+        subject = f"[Job Tracker] {len(new_items)} new posting{'s' if len(new_items)!=1 else ''} - {now_utc[:10]}"
         plain_lines = [
             f"Job Tracker Digest - {now_utc}",
             scrape_summary,
@@ -638,7 +923,7 @@ def main() -> None:
             plain_lines.append(f"  {item['url']}")
         plain_body = "\n".join(plain_lines)
     else:
-        subject = f"Job Tracker: No new jobs today - {now_utc[:10]}"
+        subject = f"No new jobs today - {now_utc[:10]}"
         plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
 
     html_body = build_html_email(new_items, errors, now_utc, scrape_summary)
