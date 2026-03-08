@@ -799,9 +799,8 @@ companies:
     type: html_links
     url: https://www.pldspace.com/pld-space-empleo/posiciones-abiertas/
 
-  - name: SatRevolution
-    type: html_links
-    url: https://www.satrev.space/careers#open-position
+  # SatRevolution: removed (chronic Playwright timeout)
+  # - name: SatRevolution
 
   - name: Skytek
     type: html_links
@@ -825,9 +824,7 @@ companies:
     type: html_links
     url: https://lloydslist.com/about/careers
 
-  - name: Concirrus
-    type: html_links
-    url: https://concirrus.com/careers/
+  # Concirrus: removed (ERR_SSL_VERSION_OR_CIPHER_MISMATCH – site appears dead)
 
   - name: Skylight
     type: html_links
@@ -849,9 +846,7 @@ companies:
     type: html_links
     url: https://mda.space/en/careers/
 
-  - name: Geollect
-    type: html_links
-    url: https://www.geollect.com/careers
+  # Geollect: removed (ERR_CERT_COMMON_NAME_INVALID – certificate invalid)
 
   - name: Kontur
     type: html_links
@@ -912,11 +907,10 @@ companies:
     type: html_links
     url: https://skytruth.org/jobs/
 
-  # Sofar Ocean: updated to greenhouse (Lever API no longer works)
+  # Sofar Ocean: switched to html_links (greenhouse_api board slug returns 404 on boards-api endpoint)
   - name: Sofar Ocean
-    type: greenhouse_api
+    type: html_links
     url: https://job-boards.greenhouse.io/sofarocean
-    board: sofarocean
 
   - name: Carbon Trust
     type: html_links
@@ -946,9 +940,7 @@ companies:
     type: html_links
     url: https://www.starboardintelligence.com/careers
 
-  - name: Kairos Aerospace
-    type: html_links
-    url: https://kairosaerospace.com/careers/
+  # Kairos Aerospace: removed (ERR_SSL_VERSION_OR_CIPHER_MISMATCH – site appears dead)
 
   - name: Satelytics
     type: html_links
@@ -969,4 +961,3 @@ companies:
   - name: OceanScore
     type: html_links
     url: https://oceanscore.com/jobs/
-    
