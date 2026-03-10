@@ -7,6 +7,7 @@ companies:
   - name: ICEYE
     type: html_links
     url: https://www.iceye.com/careers
+    link_contains: iceye.com/career
 
   - name: Pixxel
     type: playwright
@@ -98,9 +99,7 @@ companies:
     type: html_links
     url: https://spire.com/careers/job-openings/
 
-  - name: Kanop
-    type: html_links
-    url: https://kanop.notion.site/Careers-kanop-c3b4779be5f34baea604292bc737da2c
+  # Kanop: removed (Notion page – chronic Playwright timeout, unfixable in headless browser)
 
   - name: Sust Global
     type: html_links
