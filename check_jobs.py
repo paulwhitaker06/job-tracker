@@ -23,6 +23,8 @@ Improvements in this version
 9.  seen_jobs.json pruning  – entries older than 90 days removed.
 10. latest_digest.html committed alongside latest_digest.txt.
 11. HTML email sorted by relevance score, grouped by company.
+12. Playwright uses domcontentloaded (faster, avoids networkidle timeouts).
+13. Zero-score jobs filtered from digest (stored in seen but not emailed).
 """
 
 from __future__ import annotations
@@ -390,6 +392,10 @@ def get_playwright_links(company: dict) -> list[dict]:
     1. Intercept JSON API responses that contain job data (handles Synspective,
        Workday variants, custom ATS etc.)
     2. Fall back to rendering the page and extracting <a> links.
+
+    Uses domcontentloaded instead of networkidle to avoid timeouts on sites
+    that never fully settle (analytics pings, chat widgets, etc.).
+    Timeout reduced to 60s as a result.
     """
     try:
         from playwright.sync_api import sync_playwright
@@ -448,7 +454,10 @@ def get_playwright_links(company: dict) -> list[dict]:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
             page.on("response", handle_response)
-            page.goto(url, wait_until="networkidle", timeout=120_000)
+            # domcontentloaded fires as soon as the DOM is ready – much faster
+            # than networkidle and avoids timeouts on sites with persistent
+            # background requests (analytics, chat widgets, etc.)
+            page.goto(url, wait_until="domcontentloaded", timeout=60_000)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             page.wait_for_timeout(2000)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -884,9 +893,15 @@ def main() -> None:
                         "score": relevance,
                         "first_seen_utc": datetime.now(timezone.utc).isoformat(),
                     }
-                    new_items.append(
-                        {"company": name, "url": item["url"], "title": title, "score": relevance}
-                    )
+
+                    # Only add to digest if score > 0
+                    # (zero-score jobs are stored in seen so they won't re-appear,
+                    # but are not emailed – avoids irrelevant roles like
+                    # receptionists, truck drivers, etc. from portfolio feeds)
+                    if relevance > 0:
+                        new_items.append(
+                            {"company": name, "url": item["url"], "title": title, "score": relevance}
+                        )
 
         except Exception as e:
             msg = f"{name}: {type(e).__name__}: {e}"
