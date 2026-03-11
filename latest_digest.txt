@@ -1,120 +1,54 @@
-Job Tracker Digest - 2026-03-10 15:08 UTC
-233/233 companies scraped successfully
-58 new postings
+Job Tracker Digest - 2026-03-11 14:29 UTC
+232/232 companies scraped successfully
+25 new postings
 
-[DCVC Portfolio] Center Medical Director (Nurse Practitioner or Physician Assistant) @ Carbon Health
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69800482-center-medical-director-nurse-practitioner-or-physician-assistant
-[Extantia Portfolio] Teamlead Customer Success (m/w/d) | Aftersales | Wärmepumpe
-  https://vamo.jobs.personio.de/job/2557335
-[DCVC Portfolio] Director, Partner Account Manager
-  https://jobs.dcvc.com/companies/databricks/jobs/69801148-director-partner-account-manager-accenture-apj
-[Isar Aerospace] Job Application for Junior Composite Technician (m/f/d)
-  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4794793101
-[Isar Aerospace] Job Application for Senior Production Engineer
-  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4797555101
-[Loft Orbital] RF Systems Engineer
-  https://jobs.lever.co/loftorbital/c642da08-aa5c-494b-91b3-38f0b2e5f079
-[DCVC Portfolio] Business Development Representative @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/69801147-business-development-representative
-[Lowercarbon Capital Portfolio] Senior Commercial Counsel
-  https://www.linkedin.com/jobs/view/senior-commercial-counsel-at-greenhouse-software-4363166015
-[Congruent Ventures Portfolio] Job Application for Logistics Coordinator
-  https://job-boards.greenhouse.io/veir/jobs/5147856008
-[DCVC Portfolio] Medical Receiponist @ Carbon Health
-  https://jobs.dcvc.com/companies/carbon-health/jobs/69800487-medical-receiponist
-[DCVC Portfolio] Sr Commercial Account Exec @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800213-sr-commercial-account-exec
-[DCVC Portfolio] Director, Platform Architects
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800216-director-platform-architects-emea-central
-[DCVC Portfolio] Head of Build Reliability @ Impulse Space
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69800480-head-of-build-reliability
-[Mapbox] Sales Development Representative
-  https://jobs.ashbyhq.com/mapbox/6b1dbee5-c8cf-44a7-b81c-925f804b9444/application
-[Lowercarbon Capital Portfolio] Analytics Architect
-  https://www.linkedin.com/jobs/view/analytics-architect-at-greenhouse-software-4373701978
-[Lowercarbon Capital Portfolio] Channel Partner Manager, Private Equity
-  https://www.linkedin.com/jobs/view/channel-partner-manager-private-equity-at-greenhouse-software-4347091820
-[DCVC Portfolio] Principal Data Scientist @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/69801149-principal-data-scientist
-[DCVC Portfolio] Sr. Solutions Engineer
-  https://jobs.dcvc.com/companies/databricks/jobs/69801151-sr-solutions-engineer-digital-native-business-strategic
-[DCVC Portfolio] Principal Engagement Manager @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800221-principal-engagement-manager
-[True Anomaly] Chief Engineer, Space Vehicle
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5074039007
-[Greenly] Senior Account Manager
-  https://www.welcometothejungle.com/en/companies/greenly/jobs/senior-account-manager_paris
-[Maxar] Cybersecurity Threat Intelligence Analyst
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Remote-United-States/Cybersecurity-Threat-Intelligence-Analyst_R23517
-[Commonwealth Fusion Systems] Senior Manager, Corporate Accounting
-  https://jobs.lever.co/cfsenergy/1c316575-6212-4115-9e6c-1b0df5446bde
-[Commonwealth Fusion Systems] Senior Manager, Cost Accounting
+[Lowercarbon Capital Portfolio] Strategic Partnerships Lead
+  https://boards.greenhouse.io/Mill/jobs/4671251005
+[AENU Portfolio] VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071464-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
+[Planet Labs] PreSales Sr. Solutions Architect - French Defense and Intelligence
+  https://job-boards.greenhouse.io/planetlabs/jobs/7700271
+[DCVC Portfolio] Sr. Commercial Sales Representative @ SentinelOne
+  https://jobs.dcvc.com/companies/sentinelone/jobs/70014622-sr-commercial-sales-representative
+[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071437-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
+[AENU Portfolio] Head of / Leiter Batteriespeicher BESS (m/w/d) Agri-PV @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071441-head-of-leiter-batteriespeicher-bess-m-w-d-agri-pv
+[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071458-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
+[DCVC Portfolio] Medical Science Liaison (Rockies) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70057112-medical-science-liaison-rockies
+[Isar Aerospace] Job Application for Material Master Data Expert (m/f/d)
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4794750101
+[Spire Global] Business Development Manager, US Federal ISR
+  https://spire.com/careers/job-openings/job/?gh_jid=7368132
+[Privateer] Business Development Manager – U.S. Navy / PAE RAS
+  https://job-boards.greenhouse.io/privateer/jobs/5149596008
+[Privateer] Business Development Specialist - SDA
+  https://job-boards.greenhouse.io/privateer/jobs/5149172008
+[ICEYE] Head of Manufacturing, Assembly, Integration and Testing (MAITE)
+  https://apply.workable.com/j/F13C26265A
+[EarthDaily] Sales Development Representative (ANZ)
+  https://earthdaily.applytojob.com/apply/L72oUEVki9/Sales-Development-Representative-ANZ
+[LiveEO] Senior Account Executive (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=de
+[EarthDaily Analytics (Earth Daily Analytics)] Sales Development Representative (ANZ)
+  https://earthdaily.com/job-openings
+[Greenly] Senior Account Executive
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/senior-account-executive-english-speaking_paris
+[Planet Labs] Legal Administrator/Contracts Compliance
+  https://job-boards.greenhouse.io/planetlabs/jobs/7656772
+[Lowercarbon Capital Portfolio] Senior Manager, Cost Accounting
   https://jobs.lever.co/cfsenergy/1ea57771-849c-434d-9ded-6e0da30faf78
-[ICEYE] Positions
-  https://www-iceye-com.sandbox.hs-sites.com/careers/positions
-[ICEYE] Recruitment
-  https://www-iceye-com.sandbox.hs-sites.com/careers/recruitment
-[Watershed] Accounting manager, GL
-  https://watershed.com/careers/43b179e7-accounting-manager-gl-cdmx
-[Planet Labs] Intern, Spacecraft Systems Engineer
-  https://job-boards.greenhouse.io/planetlabs/jobs/7660179
-[Planet Labs] Lab Manager, R&D
-  https://job-boards.greenhouse.io/planetlabs/jobs/7644556
-[Planet Labs] Senior Software Engineer
-  https://job-boards.greenhouse.io/planetlabs/jobs/7689257
-[Umbra Space (Umbra Lab)] Senior Software Engineer
-  https://umbra-1.workable.com/jobs/5631353
-[Lowercarbon Capital Portfolio] Lab Operations Coordinator
-  https://www.linkedin.com/jobs/view/lab-operations-coordinator-at-solugen-4381054070
-[Lowercarbon Capital Portfolio] Senior Product Security Engineer (AI/ML)
-  https://ca.linkedin.com/jobs/view/senior-product-security-engineer-ai-ml-at-greenhouse-software-4354055376
-[Lowercarbon Capital Portfolio] Senior Implementation Consultant
-  https://ca.linkedin.com/jobs/view/senior-implementation-consultant-at-greenhouse-software-4361875056
-[Lowercarbon Capital Portfolio] Senior Machine Learning Engineer
-  https://www.linkedin.com/jobs/view/senior-machine-learning-engineer-at-greenhouse-software-4359850870
-[Congruent Ventures Portfolio] Job Application for Field Technician
-  https://job-boards.greenhouse.io/veir/jobs/5058652008
-[DCVC Portfolio] Senior Solutions Architect
-  https://jobs.dcvc.com/companies/databricks/jobs/69801150-senior-solutions-architect-lakebase
-[DCVC Portfolio] Staff Software Engineer @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800217-staff-software-engineer
-[DCVC Portfolio] Senior Software Engineer @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800218-senior-software-engineer
-[DCVC Portfolio] Software Engineer @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800219-software-engineer
-[DCVC Portfolio] Staff Software Engineer
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800225-staff-software-engineer-product-security
-[DCVC Portfolio] Sr Software Engineer
-  https://jobs.dcvc.com/companies/element-ai/jobs/69800229-sr-software-engineer-product-security
-[DCVC Portfolio] Engineering Program Manager @ Fulfil
-  https://jobs.dcvc.com/companies/fulfil/jobs/69812293-engineering-program-manager
-[DCVC Portfolio] IT Service Delivery Analyst @ Impulse Space
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69800483-it-service-delivery-analyst
-[DCVC Portfolio] Senior Electro-Optical Engineer @ Impulse Space
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69800484-senior-electro-optical-engineer
-[DCVC Portfolio] Senior IT Service Delivery Analyst @ Impulse Space
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/69800485-senior-it-service-delivery-analyst
-[GalaxEye] GALAXEYE SPACE SOLUTIONS PRIVATE LIMITED
-  https://careers.galaxeye.space/jobs/Careers/214465000000545001/Embedded-Software-Engineer?source=CareerSite
-[Open Cosmos] Backend Software Engineer (Ground Segment)
-  https://careers.open-cosmos.com/jobs/7231662-backend-software-engineer-ground-segment
-[Synspective] Synspective
-  https://careers.synspective.com/o/vd8poc967u
-[True Anomaly] Lead Systems Engineer 
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5074032007
-[True Anomaly] Systems Engineer III
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5074027007
-[Xplore] Senior Embedded Systems Engineer
-  https://apply.workable.com/j/CD9CC1E9F6
-[Charm Industrial] CDL Class A Tanker Driver/Side Operator Qualified
-  https://jobs.lever.co/charmindustrial/3e0de5bc-76f3-48c4-bce0-efb4ead8bbbe
-[Maxar] Senior DevSecOps Engineer (TS/SCI)
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Senior-DevSecOps-Engineer--TS-SCI-_R23217
-[Blue Frontier] Talent Management
-  https://bluefrontier.extensishrtalent.com/careers/JobDetail?RequisitionId=3096&SourceId=0
-[Astranis] Senior Failure Analysis Engineer (Reliability Test Team)
-  https://job-boards.greenhouse.io/astranis/jobs/4661576006
-[Reflex Aerospace] Systems Engineer for Mission Operations (all genders)
-  https://reflex-aerospace-gmbh.jobs.personio.de/job/2185717?language=de
-[AAC Clyde Space] Marketing Manager
-  https://www.aac-clyde.space/jobs/marketing-manager-uppsala
+[Lowercarbon Capital Portfolio] Senior Manager, Corporate Accounting
+  https://jobs.lever.co/cfsenergy/1c316575-6212-4115-9e6c-1b0df5446bde
+[AENU Portfolio] Chief of Staff (m/w/d) @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071421-chief-of-staff-m-w-d
+[AENU Portfolio] Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau @ feld.energy GMBH
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071428-elektriker-m-w-d-agri-photovoltaik-anlagenbau
+[DCVC Portfolio] Senior Staff Product Manager @ SentinelOne
+  https://jobs.dcvc.com/companies/sentinelone/jobs/70014616-senior-staff-product-manager
+[DCVC Portfolio] Staff Customer Success Manager, Enterprise (German Speaker) @ SentinelOne
+  https://jobs.dcvc.com/companies/sentinelone/jobs/70014624-staff-customer-success-manager-enterprise-german-speaker
+[Greenly] Customer Support Specialist
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/customer-support-specialist_paris_GREEN_yjxVzOZ
