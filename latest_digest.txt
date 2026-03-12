@@ -1,54 +1,44 @@
-Job Tracker Digest - 2026-03-11 14:29 UTC
+Job Tracker Digest - 2026-03-12 14:25 UTC
 232/232 companies scraped successfully
-25 new postings
+20 new postings
 
-[Lowercarbon Capital Portfolio] Strategic Partnerships Lead
-  https://boards.greenhouse.io/Mill/jobs/4671251005
-[AENU Portfolio] VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071464-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
-[Planet Labs] PreSales Sr. Solutions Architect - French Defense and Intelligence
-  https://job-boards.greenhouse.io/planetlabs/jobs/7700271
-[DCVC Portfolio] Sr. Commercial Sales Representative @ SentinelOne
-  https://jobs.dcvc.com/companies/sentinelone/jobs/70014622-sr-commercial-sales-representative
-[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071437-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
-[AENU Portfolio] Head of / Leiter Batteriespeicher BESS (m/w/d) Agri-PV @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071441-head-of-leiter-batteriespeicher-bess-m-w-d-agri-pv
-[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071458-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
-[DCVC Portfolio] Medical Science Liaison (Rockies) @ Karius
-  https://jobs.dcvc.com/companies/karius/jobs/70057112-medical-science-liaison-rockies
-[Isar Aerospace] Job Application for Material Master Data Expert (m/f/d)
-  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4794750101
-[Spire Global] Business Development Manager, US Federal ISR
-  https://spire.com/careers/job-openings/job/?gh_jid=7368132
-[Privateer] Business Development Manager – U.S. Navy / PAE RAS
-  https://job-boards.greenhouse.io/privateer/jobs/5149596008
-[Privateer] Business Development Specialist - SDA
-  https://job-boards.greenhouse.io/privateer/jobs/5149172008
-[ICEYE] Head of Manufacturing, Assembly, Integration and Testing (MAITE)
-  https://apply.workable.com/j/F13C26265A
-[EarthDaily] Sales Development Representative (ANZ)
-  https://earthdaily.applytojob.com/apply/L72oUEVki9/Sales-Development-Representative-ANZ
-[LiveEO] Senior Account Executive (f/m/x)
-  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=de
-[EarthDaily Analytics (Earth Daily Analytics)] Sales Development Representative (ANZ)
-  https://earthdaily.com/job-openings
-[Greenly] Senior Account Executive
-  https://www.welcometothejungle.com/en/companies/greenly/jobs/senior-account-executive-english-speaking_paris
-[Planet Labs] Legal Administrator/Contracts Compliance
-  https://job-boards.greenhouse.io/planetlabs/jobs/7656772
-[Lowercarbon Capital Portfolio] Senior Manager, Cost Accounting
-  https://jobs.lever.co/cfsenergy/1ea57771-849c-434d-9ded-6e0da30faf78
-[Lowercarbon Capital Portfolio] Senior Manager, Corporate Accounting
-  https://jobs.lever.co/cfsenergy/1c316575-6212-4115-9e6c-1b0df5446bde
-[AENU Portfolio] Chief of Staff (m/w/d) @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071421-chief-of-staff-m-w-d
-[AENU Portfolio] Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau @ feld.energy GMBH
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071428-elektriker-m-w-d-agri-photovoltaik-anlagenbau
-[DCVC Portfolio] Senior Staff Product Manager @ SentinelOne
-  https://jobs.dcvc.com/companies/sentinelone/jobs/70014616-senior-staff-product-manager
-[DCVC Portfolio] Staff Customer Success Manager, Enterprise (German Speaker) @ SentinelOne
-  https://jobs.dcvc.com/companies/sentinelone/jobs/70014624-staff-customer-success-manager-enterprise-german-speaker
-[Greenly] Customer Support Specialist
-  https://www.welcometothejungle.com/en/companies/greenly/jobs/customer-support-specialist_paris_GREEN_yjxVzOZ
+[Commonwealth Fusion Systems] Director, Supply Chain - Indirect
+  https://jobs.lever.co/cfsenergy/bc3f90ca-87d1-46a2-a0e1-51df3c4bafd9
+[Mapbox] Software Development Engineer III, Logistics API
+  https://jobs.ashbyhq.com/mapbox/f9447a7c-34bc-499e-88eb-49d4c8fa61c3/application
+[Pole Star Global] Data Analyst
+  https://careers.polestarglobal.com/jobs/7371690-data-analyst-maritime-technology
+[Loft Orbital] RF System Engineer
+  https://jobs.lever.co/loftorbital/5b19f777-fcaf-43fa-8dad-747df1dc5acc
+[ASTERRA] Business Development Manager, Brazil
+  https://asterra.io/jobs/business-development-manager-brazil/
+[Sylvera] Enterprise Account Executive
+  https://jobs.ashbyhq.com/sylvera/3258e405-ce4b-4b42-b0e9-096c6f15adcb
+[Planet Labs] Sales Development Representative
+  https://job-boards.greenhouse.io/planetlabs/jobs/7644675
+[Congruent Ventures Portfolio] Head of People
+  https://ats.rippling.com/bonsairoboticsmain/jobs/5ad58ec7-0684-4d11-a52a-fedfd95dafa0
+[DCVC Portfolio] Limited XRT- Part Time @ Carbon Health
+  https://jobs.dcvc.com/companies/carbon-health/jobs/70253265-limited-xrt-part-time
+[DCVC Portfolio] Director, Organizational Development & Effectiveness @ Recursion Pharmaceuticals
+  https://jobs.dcvc.com/companies/recursion-pharmaceuticals-2-ccbe89ca-ec35-439d-885e-ca59051ce93b/jobs/70251758-director-organizational-development-effectiveness
+[Near Space Labs] Account Executive
+  https://job-boards.greenhouse.io/nearspacelabs/jobs/5149616008
+[Near Space Labs] Sales Coordinator
+  https://job-boards.greenhouse.io/nearspacelabs/jobs/5149628008
+[Mapbox] Senior Account Executive
+  https://jobs.ashbyhq.com/mapbox/453a3cbf-1e51-4a04-8088-ad5f527781b3/application
+[AAC Clyde Space] Head of Contracts
+  https://www.aac-clyde.space/jobs/head-of-contracts-uk-sweden-or-netherlands
+[ICEYE] Senior Manager, Finance Automation & AI
+  https://apply.workable.com/j/1CC1D5BBE1
+[Lowercarbon Capital Portfolio] Analista de Portfólio Geração
+  https://lemonenergia.inhire.app/vagas/71797802-b079-43f8-a012-9e1c9d78881f/analista-de-portfolio-geracao
+[DCVC Portfolio] Principal/Senior Scientist, Analytical Science @ GenEdit
+  https://jobs.dcvc.com/companies/genedit/jobs/70230205-principal-senior-scientist-analytical-science
+[DCVC Portfolio] Support Engineer
+  https://jobs.dcvc.com/companies/singlestore-2/jobs/70247043-support-engineer-west-coast
+[UP42] Technical Support Engineer (m/f/x)
+  https://up42.com/company/careers
+[Mapbox] Technical Support Engineer III
+  https://jobs.ashbyhq.com/mapbox/219d4354-3f7d-40f9-b556-fbee304b8137/application
