@@ -24,7 +24,11 @@ Improvements in this version
 10. latest_digest.html committed alongside latest_digest.txt.
 11. HTML email sorted by relevance score, grouped by company.
 12. Playwright uses domcontentloaded (faster, avoids networkidle timeouts).
-13. Zero-score jobs filtered from digest (stored in seen but not emailed).
+13. Zero-score jobs stored with scored=False flag; re-evaluated each run.
+14. Minimum link threshold – Pass 1 with < 3 links escalates to Playwright.
+15. LinkedIn URLs warn clearly rather than silently skipping.
+16. Notion pages detected and warned (JS-rendered, cannot be scraped).
+17. Weekly search sweep – discovers new companies not in YAML.
 """
 
 from __future__ import annotations
@@ -51,6 +55,7 @@ log = logging.getLogger("job-tracker")
 
 # constants
 SEEN_FILE = "seen_jobs.json"
+SEARCH_CACHE_FILE = "search_cache.json"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -59,18 +64,41 @@ HEADERS = {
     )
 }
 
-# relevance keywords
+# Minimum number of job links Pass 1 must find before we trust the result.
+# Below this threshold we escalate to Playwright even if titles look clean.
+MIN_LINK_THRESHOLD = 3
+
+# ─────────────────────────────────────────────────────────────────────────────
+# RELEVANCE KEYWORDS
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Scoring philosophy:
+#   5 = near-perfect signal (exact role title match or niche domain term)
+#   4 = strong match (common title in right seniority band, or key domain)
+#   3 = good signal (broad titles that often apply, general domain terms)
+#   2 = weak/supporting signal (useful context but not enough alone)
+#
+# Title keywords are matched against the full "title + url" string, so
+# ATS URLs that include the role slug also benefit from these scores.
+# ─────────────────────────────────────────────────────────────────────────────
+
 RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
-    ("director", 3),
+
+    # ── Seniority / title tier ────────────────────────────────────────────
     ("VP", 3),
     ("vice president", 3),
     ("head of", 3),
+    ("director", 3),
     ("senior manager", 2),
     ("principal", 2),
     ("chief", 2),
+
+    # ── Role families ─────────────────────────────────────────────────────
     ("business development", 4),
     ("partnerships", 4),
     ("strategic partnerships", 5),
+    ("revenue partnerships", 5),
+    ("data partnerships", 5),
     ("commercialization", 4),
     ("commercial", 3),
     ("go-to-market", 4),
@@ -78,17 +106,45 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("sales", 3),
     ("account executive", 3),
     ("account manager", 2),
+    ("enterprise sales", 4),
     ("customer success", 2),
     ("solutions engineer", 2),
     ("product manager", 2),
     ("strategy", 3),
-    ("licensing", 5),
-    ("revenue", 2),
     ("alliances", 3),
     ("channel", 2),
-    ("enterprise sales", 4),
+
+    # ── Seniority + commercial combos (real job titles) ───────────────────
+    # These catch "VP Commercial", "Head of Commercial", "Chief Commercial
+    # Officer", "Director of Commercial" etc. without needing two separate
+    # keyword hits, because score_title joins title + url into one string.
+    ("head of commercial", 5),
+    ("vp commercial", 5),
+    ("vp of commercial", 5),
+    ("chief commercial officer", 5),
+    ("cco", 4),
+    ("director of commercial", 5),
+    ("commercial director", 5),
+    ("commercial lead", 4),
+
+    # ── Licensing / revenue ───────────────────────────────────────────────
+    ("licensing", 5),
+    ("data licensing", 5),
+    ("commercial licensing", 5),
+    ("data commercialization", 4),
+    ("earned revenue", 4),
+    ("revenue", 2),
+
+    # ── Data / platform ───────────────────────────────────────────────────
+    ("data products", 3),
+    ("data platform", 2),
+    ("API", 2),
+    ("analytics", 2),
+
+    # ── Earth observation / satellite ─────────────────────────────────────
     ("earth observation", 5),
     ("satellite imagery", 5),
+    ("satellite data", 5),
     ("remote sensing", 5),
     ("SAR", 5),
     ("synthetic aperture radar", 5),
@@ -97,17 +153,20 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("hyperspectral", 4),
     ("LiDAR", 3),
     ("radar", 3),
-    ("AIS", 5),
-    ("RF", 4),
-    ("radio frequency", 4),
-    ("geospatial", 4),
-    ("GIS", 3),
-    ("satellite data", 5),
     ("space data", 3),
     ("aerial imagery", 3),
+    ("geospatial", 4),
+    ("GIS", 3),
+    ("constellation", 3),
+    ("tasking", 3),
+    ("multi-mission", 4),
+    ("data access", 3),
+
+    # ── Maritime / vessel ─────────────────────────────────────────────────
     ("maritime", 5),
     ("vessel", 4),
     ("shipping", 3),
+    ("AIS", 5),
     ("AIS data", 5),
     ("fishing", 4),
     ("IUU", 5),
@@ -118,6 +177,8 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("dark vessel", 4),
     ("vessel monitoring", 5),
     ("dark shipping", 4),
+
+    # ── Environment / climate ─────────────────────────────────────────────
     ("environmental monitoring", 5),
     ("climate", 3),
     ("carbon", 3),
@@ -134,6 +195,9 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("greenhouse gas", 3),
     ("flood", 3),
     ("wildfire", 3),
+    ("forestry", 3),
+
+    # ── Risk / finance ────────────────────────────────────────────────────
     ("supply chain", 4),
     ("risk", 3),
     ("risk intelligence", 4),
@@ -144,20 +208,20 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("trade intelligence", 4),
     ("commodity", 3),
     ("due diligence", 3),
+
+    # ── Government / defence ──────────────────────────────────────────────
     ("government", 2),
     ("defense", 2),
     ("intelligence", 2),
     ("national security", 3),
+
+    # ── Agriculture ───────────────────────────────────────────────────────
     ("agriculture", 3),
     ("agri", 2),
     ("crop", 2),
     ("food security", 3),
-    ("forestry", 3),
-    ("API", 2),
-    ("data platform", 2),
-    ("analytics", 2),
-    ("data licensing", 5),
-    ("data products", 3),
+    ("RF", 4),
+    ("radio frequency", 4),
 ]
 
 # Titles containing these tokens are junior/support roles –
@@ -244,7 +308,23 @@ def fetch_html(url: str, timeout: int = 45, retries: int = 2) -> str:
     raise last_exc  # type: ignore[misc]
 
 
-# link extraction
+# ─────────────────────────────────────────────────────────────────────────────
+# SPECIAL SITE DETECTION
+# ─────────────────────────────────────────────────────────────────────────────
+
+def is_notion_url(url: str) -> bool:
+    """Notion public pages are JavaScript-rendered and cannot be scraped."""
+    u = url.lower()
+    return "notion.site" in u or "notion.so" in u
+
+
+def is_linkedin_url(url: str) -> bool:
+    return "linkedin.com" in url.lower()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LINK EXTRACTION
+# ─────────────────────────────────────────────────────────────────────────────
 
 REJECT_SUBSTRINGS = [
     "linkedin.com", "facebook.com", "twitter.com", "x.com",
@@ -343,7 +423,9 @@ def is_board_url(url: str) -> bool:
     return any(b in u for b in BOARD_HOSTS)
 
 
-# garbage detection
+# ─────────────────────────────────────────────────────────────────────────────
+# GARBAGE DETECTION
+# ─────────────────────────────────────────────────────────────────────────────
 
 def looks_like_garbage(items: list[dict]) -> bool:
     """
@@ -384,7 +466,9 @@ def is_js_heavy(url: str) -> bool:
     return any(p in u for p in JS_HEAVY_PATTERNS)
 
 
-# Playwright scraper (Pass 2)
+# ─────────────────────────────────────────────────────────────────────────────
+# PLAYWRIGHT SCRAPER (Pass 2)
+# ─────────────────────────────────────────────────────────────────────────────
 
 def get_playwright_links(company: dict) -> list[dict]:
     """
@@ -454,9 +538,6 @@ def get_playwright_links(company: dict) -> list[dict]:
             browser = p.chromium.launch(headless=True)
             page = browser.new_page()
             page.on("response", handle_response)
-            # domcontentloaded fires as soon as the DOM is ready – much faster
-            # than networkidle and avoids timeouts on sites with persistent
-            # background requests (analytics, chat widgets, etc.)
             page.goto(url, wait_until="domcontentloaded", timeout=60_000)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
             page.wait_for_timeout(2000)
@@ -465,12 +546,10 @@ def get_playwright_links(company: dict) -> list[dict]:
             html = page.content()
             browser.close()
 
-        # Intercepted structured data is cleanest – use it if we got any
         if intercepted_jobs:
             log.info(f"  {company['name']}: intercepted {len(intercepted_jobs)} jobs from API")
             return intercepted_jobs
 
-        # Otherwise parse rendered HTML for links
         links = extract_links(html, url)
         if links:
             return [
@@ -478,7 +557,6 @@ def get_playwright_links(company: dict) -> list[dict]:
                 for l in sorted(links)
             ]
 
-        # Nothing usable found
         log.warning(f"  {company['name']}: Playwright found nothing – site may need manual check")
         return []
 
@@ -490,25 +568,50 @@ def get_playwright_links(company: dict) -> list[dict]:
         return []
 
 
-# per-type scrapers
+# ─────────────────────────────────────────────────────────────────────────────
+# PER-TYPE SCRAPERS
+# ─────────────────────────────────────────────────────────────────────────────
 
 def get_html_links(company: dict) -> list[dict]:
     """
     Two-pass scraper:
     Pass 1 – fast requests + BS4.
-    Pass 2 – Playwright, triggered automatically if Pass 1 looks like garbage.
+    Pass 2 – Playwright, triggered if:
+      - Pass 1 finds fewer than MIN_LINK_THRESHOLD links, OR
+      - the sampled titles look like garbage.
+
+    Special cases handled before scraping:
+      - LinkedIn URLs: warn and skip (requires login, scraping blocked).
+      - Notion pages: warn and skip (JS-rendered, no public API).
     """
     base_url = company["url"]
+    name = company["name"]
 
-    if "linkedin.com" in base_url.lower():
-        log.warning(f"  {company['name']}: LinkedIn URL – skipping (requires login)")
+    # ── Special-case: LinkedIn ────────────────────────────────────────────
+    if is_linkedin_url(base_url):
+        log.warning(
+            f"  {name}: LinkedIn URL detected. LinkedIn blocks scrapers and requires "
+            f"login. Replace this URL in companies.yaml with the company's direct "
+            f"ATS URL (Greenhouse, Lever, Workable, etc.) for reliable results."
+        )
         return []
 
+    # ── Special-case: Notion ──────────────────────────────────────────────
+    if is_notion_url(base_url):
+        log.warning(
+            f"  {name}: Notion page detected. Notion public pages are fully "
+            f"JavaScript-rendered and cannot be scraped with requests or Playwright. "
+            f"Find this company's ATS URL directly (check their job posts for "
+            f"an apply link to Greenhouse/Lever/Ashby/etc.) and update companies.yaml."
+        )
+        return []
+
+    # ── Known JS-heavy ATS: skip Pass 1 entirely ─────────────────────────
     if is_js_heavy(base_url):
-        log.info(f"  {company['name']}: known JS-heavy site, going straight to Playwright")
+        log.info(f"  {name}: known JS-heavy site, going straight to Playwright")
         return get_playwright_links(company)
 
-    # Pass 1
+    # ── Pass 1: requests + BS4 ────────────────────────────────────────────
     pages_to_fetch: set[str] = {base_url}
     pages_to_fetch.update(pagination_urls(base_url))
     links: set[str] = set()
@@ -545,20 +648,27 @@ def get_html_links(company: dict) -> list[dict]:
         links = {l for l in links if needle in l}
 
     pass1_items = [
-        {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
+        {"id": sha(name + "|" + l), "url": l, "title": None}
         for l in sorted(links)
     ]
 
-    # Sample a few titles to check for garbage before committing to Pass 1
+    # ── Escalation check 1: too few links ────────────────────────────────
+    if len(pass1_items) < MIN_LINK_THRESHOLD:
+        log.info(
+            f"  {name}: Pass 1 found only {len(pass1_items)} link(s) "
+            f"(threshold: {MIN_LINK_THRESHOLD}) – escalating to Playwright"
+        )
+        return get_playwright_links(company)
+
+    # ── Escalation check 2: titles look like garbage ──────────────────────
     sampled = pass1_items[:5]
     for item in sampled:
         if item["title"] is None:
             item["title"] = fetch_title(item["url"])
 
-    if looks_like_garbage(sampled) or len(pass1_items) == 0:
+    if looks_like_garbage(sampled):
         log.info(
-            f"  {company['name']}: Pass 1 looks like noise "
-            f"({len(pass1_items)} items) – escalating to Playwright"
+            f"  {name}: Pass 1 titles look like noise – escalating to Playwright"
         )
         return get_playwright_links(company)
 
@@ -694,7 +804,9 @@ def fetch_title(url: str) -> str:
     return ""
 
 
-# deduplication
+# ─────────────────────────────────────────────────────────────────────────────
+# DEDUPLICATION
+# ─────────────────────────────────────────────────────────────────────────────
 
 def deduplicate(items: list[dict]) -> list[dict]:
     """
@@ -715,7 +827,144 @@ def deduplicate(items: list[dict]) -> list[dict]:
     return out
 
 
-# email
+# ─────────────────────────────────────────────────────────────────────────────
+# WEEKLY SEARCH SWEEP
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Runs once per week (checks a local cache file for last run date).
+# Searches a handful of ATS board domains for relevant roles in the EO /
+# geospatial / maritime / BD space that aren't from companies already in
+# your YAML watchlist.
+#
+# Requires the `googlesearch-python` package:
+#   pip install googlesearch-python
+#
+# If the package isn't installed the sweep is silently skipped and a
+# warning is logged. No hard dependency.
+# ─────────────────────────────────────────────────────────────────────────────
+
+SEARCH_QUERIES = [
+    'site:jobs.lever.co "earth observation" "business development"',
+    'site:jobs.lever.co "satellite" "partnerships"',
+    'site:jobs.lever.co "geospatial" "director"',
+    'site:jobs.ashbyhq.com "earth observation" "business development"',
+    'site:jobs.ashbyhq.com "satellite" "partnerships"',
+    'site:boards.greenhouse.io "earth observation" "sales"',
+    'site:boards.greenhouse.io "geospatial" "partnerships"',
+    'site:jobs.lever.co "maritime" "business development"',
+    'site:jobs.lever.co "remote sensing" "commercial"',
+    'site:jobs.ashbyhq.com "geospatial" "head of commercial"',
+]
+
+
+def _load_search_cache() -> dict:
+    if os.path.exists(SEARCH_CACHE_FILE):
+        with open(SEARCH_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def _save_search_cache(cache: dict) -> None:
+    with open(SEARCH_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2)
+
+
+def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
+    """
+    Runs Google searches against ATS boards to surface roles from companies
+    not in your YAML watchlist. Returns a list of new items (same shape as
+    main scraper items) to be scored and added to the digest.
+
+    Runs at most once per 7 days (tracked via search_cache.json).
+    """
+    cache = _load_search_cache()
+    last_run_str = cache.get("last_search_sweep")
+    if last_run_str:
+        last_run = datetime.fromisoformat(last_run_str)
+        if datetime.now(timezone.utc) - last_run < timedelta(days=7):
+            log.info("Search sweep: last run < 7 days ago, skipping.")
+            return []
+
+    try:
+        from googlesearch import search as google_search
+    except ImportError:
+        log.warning(
+            "Search sweep skipped: 'googlesearch-python' not installed. "
+            "Run: pip install googlesearch-python"
+        )
+        return []
+
+    known_domains = set()
+    for co in known_companies:
+        url = co.get("url", "")
+        try:
+            known_domains.add(urlparse(url).netloc.lower())
+        except Exception:
+            pass
+
+    seen_urls: set[str] = set(cache.get("seen_search_urls", []))
+    sweep_items: list[dict] = []
+
+    for query in SEARCH_QUERIES:
+        log.info(f"Search sweep: {query}")
+        try:
+            results = list(google_search(query, num_results=10, sleep_interval=2))
+        except Exception as e:
+            log.warning(f"Search sweep query failed: {e}")
+            continue
+
+        for url in results:
+            if url in seen_urls:
+                continue
+            seen_urls.add(url)
+
+            # Skip if this URL belongs to a domain already in YAML
+            try:
+                domain = urlparse(url).netloc.lower()
+            except Exception:
+                continue
+            if any(kd in domain or domain in kd for kd in known_domains):
+                continue
+
+            # Derive a company name from the URL path (best-effort)
+            parts = url.split("/")
+            inferred_name = parts[3] if len(parts) > 3 else domain
+
+            sweep_items.append({
+                "id": sha("__sweep__|" + url),
+                "url": url,
+                "title": None,
+                "company": f"[Sweep] {inferred_name}",
+            })
+
+        time.sleep(1)
+
+    # Fetch titles for sweep items
+    for item in sweep_items:
+        if item["title"] is None:
+            item["title"] = fetch_title(item["url"])
+
+    cache["last_search_sweep"] = datetime.now(timezone.utc).isoformat()
+    cache["seen_search_urls"] = list(seen_urls)
+    _save_search_cache(cache)
+
+    scored = []
+    for item in sweep_items:
+        title = item.get("title") or ""
+        if is_garbage_title(title):
+            continue
+        s = score_title(title, item["url"])
+        if s > 0:
+            item["score"] = s
+            scored.append(item)
+
+    log.info(f"Search sweep complete: {len(scored)} relevant new results from {len(sweep_items)} URLs")
+    return scored
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# EMAIL
+# ─────────────────────────────────────────────────────────────────────────────
 
 def build_html_email(
     new_items: list[dict],
@@ -752,9 +1001,12 @@ def build_html_email(
     rows = ""
     for company_name, items in sorted_companies:
         items_sorted = sorted(items, key=lambda x: x["score"], reverse=True)
+        # Flag sweep results with a subtle indicator
+        is_sweep = company_name.startswith("[Sweep]")
+        label_style = "color:#7c3aed;" if is_sweep else "color:#111;"
         rows += (
             f'<tr><td colspan="2" style="padding:12px 8px 4px;'
-            f'font-weight:bold;font-size:14px;color:#111;'
+            f'font-weight:bold;font-size:14px;{label_style}'
             f'border-top:2px solid #e5e7eb;">'
             f'{company_name}</td></tr>\n'
         )
@@ -791,6 +1043,7 @@ def build_html_email(
   <span style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 5px;">&#9670; 2-3</span> good match &nbsp;
   <span style="background:#6b7280;color:#fff;border-radius:4px;padding:1px 5px;">&middot; 1</span> weak match &nbsp;
   <span style="background:#d1d5db;color:#fff;border-radius:4px;padding:1px 5px;">&middot;</span> unscored
+  &nbsp; <span style="color:#7c3aed;font-weight:bold;">Purple company name</span> = found via search sweep (not in watchlist)
 </p>
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
@@ -830,7 +1083,9 @@ def send_email(subject: str, html_body: str, plain_body: str) -> None:
         log.error(f"Email send failed: {type(e).__name__}: {e}")
 
 
-# main
+# ─────────────────────────────────────────────────────────────────────────────
+# MAIN
+# ─────────────────────────────────────────────────────────────────────────────
 
 def main() -> None:
     log.info("JOB TRACKER STARTED")
@@ -875,33 +1130,54 @@ def main() -> None:
 
             for item in items:
                 item_id = item["id"]
-                if item_id not in seen:
-                    title = item.get("title") or ""
-                    if not title and item.get("url"):
-                        title = fetch_title(item["url"])
 
-                    # Drop genuine garbage titles
-                    if is_garbage_title(title):
-                        continue
+                # ── Re-evaluate previously zero-scored items ───────────────
+                # If an item was stored with scored=False it means it was
+                # seen before but scored 0 at the time. Re-score it now in
+                # case keyword list has been updated since then.
+                if item_id in seen:
+                    entry = seen[item_id]
+                    if entry.get("scored") is False:
+                        title = entry.get("title", "")
+                        new_score = score_title(title, entry.get("url", ""))
+                        if new_score > 0:
+                            log.info(
+                                f"  Re-scored previously zero-scored job: "
+                                f"'{title}' now scores {new_score}"
+                            )
+                            entry["score"] = new_score
+                            entry["scored"] = True
+                            new_items.append({
+                                "company": name,
+                                "url": entry["url"],
+                                "title": title,
+                                "score": new_score,
+                            })
+                    continue
 
-                    relevance = score_title(title, item.get("url", ""))
+                # ── New item ──────────────────────────────────────────────
+                title = item.get("title") or ""
+                if not title and item.get("url"):
+                    title = fetch_title(item["url"])
 
-                    seen[item_id] = {
-                        "company": name,
-                        "url": item["url"],
-                        "title": title,
-                        "score": relevance,
-                        "first_seen_utc": datetime.now(timezone.utc).isoformat(),
-                    }
+                if is_garbage_title(title):
+                    continue
 
-                    # Only add to digest if score > 0
-                    # (zero-score jobs are stored in seen so they won't re-appear,
-                    # but are not emailed – avoids irrelevant roles like
-                    # receptionists, truck drivers, etc. from portfolio feeds)
-                    if relevance > 0:
-                        new_items.append(
-                            {"company": name, "url": item["url"], "title": title, "score": relevance}
-                        )
+                relevance = score_title(title, item.get("url", ""))
+
+                seen[item_id] = {
+                    "company": name,
+                    "url": item["url"],
+                    "title": title,
+                    "score": relevance,
+                    "scored": relevance > 0,   # False = zero-scored, re-evaluate next run
+                    "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                }
+
+                if relevance > 0:
+                    new_items.append(
+                        {"company": name, "url": item["url"], "title": title, "score": relevance}
+                    )
 
         except Exception as e:
             msg = f"{name}: {type(e).__name__}: {e}"
@@ -912,7 +1188,22 @@ def main() -> None:
         else:
             companies_ok += 1
 
-    # Deduplicate same title across multiple boards
+    # ── Weekly search sweep ───────────────────────────────────────────────
+    sweep_items = run_weekly_search_sweep(config["companies"])
+    for item in sweep_items:
+        item_id = item["id"]
+        if item_id not in seen:
+            seen[item_id] = {
+                "company": item["company"],
+                "url": item["url"],
+                "title": item.get("title", ""),
+                "score": item["score"],
+                "scored": True,
+                "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+            }
+            new_items.append(item)
+
+    # ── Deduplicate same title across boards ─────────────────────────────
     new_items = deduplicate(new_items)
 
     save_seen(seen)
