@@ -1,44 +1,40 @@
-Job Tracker Digest - 2026-03-12 14:25 UTC
+Job Tracker Digest - 2026-03-13 14:26 UTC
 232/232 companies scraped successfully
-20 new postings
+18 new postings
 
-[Commonwealth Fusion Systems] Director, Supply Chain - Indirect
-  https://jobs.lever.co/cfsenergy/bc3f90ca-87d1-46a2-a0e1-51df3c4bafd9
-[Mapbox] Software Development Engineer III, Logistics API
-  https://jobs.ashbyhq.com/mapbox/f9447a7c-34bc-499e-88eb-49d4c8fa61c3/application
-[Pole Star Global] Data Analyst
-  https://careers.polestarglobal.com/jobs/7371690-data-analyst-maritime-technology
-[Loft Orbital] RF System Engineer
-  https://jobs.lever.co/loftorbital/5b19f777-fcaf-43fa-8dad-747df1dc5acc
-[ASTERRA] Business Development Manager, Brazil
-  https://asterra.io/jobs/business-development-manager-brazil/
-[Sylvera] Enterprise Account Executive
-  https://jobs.ashbyhq.com/sylvera/3258e405-ce4b-4b42-b0e9-096c6f15adcb
-[Planet Labs] Sales Development Representative
-  https://job-boards.greenhouse.io/planetlabs/jobs/7644675
-[Congruent Ventures Portfolio] Head of People
-  https://ats.rippling.com/bonsairoboticsmain/jobs/5ad58ec7-0684-4d11-a52a-fedfd95dafa0
-[DCVC Portfolio] Limited XRT- Part Time @ Carbon Health
-  https://jobs.dcvc.com/companies/carbon-health/jobs/70253265-limited-xrt-part-time
-[DCVC Portfolio] Director, Organizational Development & Effectiveness @ Recursion Pharmaceuticals
-  https://jobs.dcvc.com/companies/recursion-pharmaceuticals-2-ccbe89ca-ec35-439d-885e-ca59051ce93b/jobs/70251758-director-organizational-development-effectiveness
-[Near Space Labs] Account Executive
-  https://job-boards.greenhouse.io/nearspacelabs/jobs/5149616008
-[Near Space Labs] Sales Coordinator
-  https://job-boards.greenhouse.io/nearspacelabs/jobs/5149628008
-[Mapbox] Senior Account Executive
-  https://jobs.ashbyhq.com/mapbox/453a3cbf-1e51-4a04-8088-ad5f527781b3/application
-[AAC Clyde Space] Head of Contracts
-  https://www.aac-clyde.space/jobs/head-of-contracts-uk-sweden-or-netherlands
-[ICEYE] Senior Manager, Finance Automation & AI
-  https://apply.workable.com/j/1CC1D5BBE1
-[Lowercarbon Capital Portfolio] Analista de Portfólio Geração
-  https://lemonenergia.inhire.app/vagas/71797802-b079-43f8-a012-9e1c9d78881f/analista-de-portfolio-geracao
-[DCVC Portfolio] Principal/Senior Scientist, Analytical Science @ GenEdit
-  https://jobs.dcvc.com/companies/genedit/jobs/70230205-principal-senior-scientist-analytical-science
-[DCVC Portfolio] Support Engineer
-  https://jobs.dcvc.com/companies/singlestore-2/jobs/70247043-support-engineer-west-coast
-[UP42] Technical Support Engineer (m/f/x)
-  https://up42.com/company/careers
-[Mapbox] Technical Support Engineer III
-  https://jobs.ashbyhq.com/mapbox/219d4354-3f7d-40f9-b556-fbee304b8137/application
+[ICEYE] Senior Manager Supply Chain, Strategy
+  https://apply.workable.com/j/45D0CDA0BB
+[Spire Global] RF Intelligence Solutions Engineer
+  https://spire.com/careers/job-openings/job/?gh_jid=7709693
+[Lowercarbon Capital Portfolio] Vice President - Supply Chain
+  https://jobs.lever.co/thea.energy/9a6a2338-3829-4bbf-be70-363f203f052a
+[Isar Aerospace] Job Application for Associate, POQ (Production, Operations & Quality) (m/f/d)
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4799420101
+[ICEYE] Senior RF Production Specialist
+  https://apply.workable.com/j/0E5E9755F2
+[Piersight] Embedded Software Intern
+  https://jobs.gohire.io/piersight-rfd9c90d/embedded-software-intern-277274/
+[Lowercarbon Capital Portfolio] Supply Chain Manager
+  https://jobs.lever.co/thea.energy/82004c35-5202-4df4-8ac5-5e6740496582
+[DCVC Portfolio] Software Engineer, AI Systems & Infrastructure
+  https://jobs.dcvc.com/companies/planet/jobs/70341255-software-engineer-ai-systems-infrastructure-ai-geospatial-assistant-team
+[DCVC Portfolio] Software Engineer, Applied GenAI Apps
+  https://jobs.dcvc.com/companies/planet/jobs/70341259-software-engineer-applied-genai-apps-ai-geospatial-assistant-team
+[DCVC Portfolio] RF Systems Engineer I/II
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/70348006-rf-systems-engineer-i-ii-ts-sci-pipeline
+[Element 84] Software Engineer - Federal Geospatial (Can be remote)
+  https://jobs.ashbyhq.com/element84/02201c12-1076-4f5d-bb7c-a967f10ded56/application
+[LiveEO] Head of Product Design (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2563174?language=en
+[Planet Labs] Industry Marketing Manager, Commercial
+  https://job-boards.greenhouse.io/planetlabs/jobs/7683178
+[Carbon Direct] Job Application for Hybrid Decarbonization Scientist
+  https://job-boards.greenhouse.io/carbondirect/jobs/5076799007
+[Lowercarbon Capital Portfolio] Director - Nuclear Engineering
+  https://jobs.lever.co/thea.energy/46036869-ef98-40df-aca4-6191991d2e50
+[Open Cosmos] Head of Spectrum & Regulatory Affairs
+  https://careers.open-cosmos.com/jobs/7311970-head-of-spectrum-regulatory-affairs
+[DCVC Portfolio] Senior Product Manager, AI Geo Assistant @ Planet
+  https://jobs.dcvc.com/companies/planet/jobs/70341175-senior-product-manager-ai-geo-assistant
+[Maxar] Intelligence Analyst
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Tampa-FL/Intelligence-Analyst_R23548
