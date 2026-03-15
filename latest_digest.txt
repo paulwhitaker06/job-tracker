@@ -1,50 +1,32 @@
-Job Tracker Digest - 2026-03-14 14:19 UTC
+Job Tracker Digest - 2026-03-15 15:08 UTC
 232/232 companies scraped successfully
-23 new postings
+14 new postings
 
-[DCVC Portfolio] Senior Commercial Account Exec (Growth Accounts) Africa @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634871-senior-commercial-account-exec-growth-accounts-africa
-[DCVC Portfolio] Senior Commercial Account Exec (Growth Accounts) Netherlands @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634872-senior-commercial-account-exec-growth-accounts-netherlands
-[DCVC Portfolio] APAC Director, Performance Media @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634877-apac-director-performance-media
-[DCVC Portfolio] Sr Enterprise Account Executive @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634889-sr-enterprise-account-executive
-[DCVC Portfolio] AMS/Global Director, Media Strategy & Activation @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634993-ams-global-director-media-strategy-activation
-[DCVC Portfolio] Senior Manager, GTM Insights @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70635070-senior-manager-gtm-insights
-[AENU Portfolio] Revenue Strategy Student Assistant @ Monta
-  https://jobs.aenu.com/companies/monta-2/jobs/70545041-revenue-strategy-student-assistant
-[DCVC Portfolio] Director of People Analytics @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70635071-director-of-people-analytics
-[Congruent Ventures Portfolio] Business Development Associate
-  https://apply.workable.com/j/0D1F937741
-[DCVC Portfolio] Enterprise Account Exec
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634874-enterprise-account-exec-new-business
-[DCVC Portfolio] Sr Enterprise Account Exec -Retail @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634876-sr-enterprise-account-exec-retail
-[NatureMetrics] Sales Operations Manager
-  https://naturemetrics.jobs.personio.de/job/2562523?language=en
-[AENU Portfolio] Head of Product @ trawa
-  https://jobs.aenu.com/companies/trawa-2-4ddb7570-a751-4ea6-908c-9a5e9391f049/jobs/70585267-head-of-product
-[DCVC Portfolio] Solution Sales Executive @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634881-solution-sales-executive
-[DCVC Portfolio] Director, Product Design, AI Transformation @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634892-director-product-design-ai-transformation
-[DCVC Portfolio] Media Vendor & Finance Operations Director @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70634905-media-vendor-finance-operations-director
-[DCVC Portfolio] Federal DOD/Intel Senior Solution Sales Executive- Identity and Security @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70635073-federal-dod-intel-senior-solution-sales-executive-identity-and-security
-[DCVC Portfolio] Federal Civilian Solution Sales Executive- Identity and Security @ Element AI
-  https://jobs.dcvc.com/companies/element-ai/jobs/70635074-federal-civilian-solution-sales-executive-identity-and-security
-[Astranis] Sales Operations Manager 
-  https://job-boards.greenhouse.io/astranis/jobs/4663070006
-[Loft Orbital] Onboard Software Solutions Engineer
-  https://jobs.lever.co/loftorbital/d397a101-3df6-49e2-ae4d-59ddc3ae7783
-[Congruent Ventures Portfolio] Market Revenue Specialist
-  https://apply.workable.com/j/578A60FA57
-[Congruent Ventures Portfolio] Product Manager
-  https://apply.workable.com/j/D0DBE1514C
-[DCVC Portfolio] Staff Inbound Product Manager
-  https://jobs.dcvc.com/companies/element-ai/jobs/70635072-staff-inbound-product-manager-cpq-pricing
+[DCVC Portfolio] Lakebase Account Executive @ Databricks
+  https://jobs.dcvc.com/companies/databricks/jobs/70755756-lakebase-account-executive
+[DCVC Portfolio] Director, Strategy & Execution @ Databricks
+  https://jobs.dcvc.com/companies/databricks/jobs/70755754-director-strategy-execution
+[AENU Portfolio] ALT 2026
+  https://jobs.aenu.com/companies/xfuel/jobs/70738676-alt-2026-apprenti-ingenieur-devops-pour-les-essais-satellites-h-f
+[Lowercarbon Capital Portfolio] Business Development Manager - US
+  https://boards.greenhouse.io/antora/jobs/5826133004
+[Lowercarbon Capital Portfolio] Business Development MBA Intern
+  https://boards.greenhouse.io/antora/jobs/5823600004
+[DCVC Portfolio] Business Development Representative (French Speaking) @ Databricks
+  https://jobs.dcvc.com/companies/databricks/jobs/70755750-business-development-representative-french-speaking
+[DCVC Portfolio] Talent Specialist
+  https://jobs.dcvc.com/companies/halter/jobs/70730257-talent-specialist-go-to-market
+[AENU Portfolio] ALT2026_Apprenti(e) en Pilotage de l'activité Commerciale (F/H) @ XFuel
+  https://jobs.aenu.com/companies/xfuel/jobs/70738678-alt2026_apprenti-e-en-pilotage-de-l-activite-commerciale-f-h
+[DCVC Portfolio] Commercial Counsel @ Databricks
+  https://jobs.dcvc.com/companies/databricks/jobs/70755751-commercial-counsel
+[DCVC Portfolio] Head of Product Design @ Halter
+  https://jobs.dcvc.com/companies/halter/jobs/70730259-head-of-product-design
+[DCVC Portfolio] Senior Manager, Hardware Abstraction @ Agility Robotics
+  https://jobs.dcvc.com/companies/agility-robotics/jobs/70742873-senior-manager-hardware-abstraction
+[DCVC Portfolio] IT Support Specialist @ Databricks
+  https://jobs.dcvc.com/companies/databricks/jobs/70755755-it-support-specialist
+[DCVC Portfolio] Senior Manager
+  https://jobs.dcvc.com/companies/halter/jobs/70730243-senior-manager-hardware-returns-failure-analysis
+[DCVC Portfolio] Principal Welding Engineer @ Impulse Space
+  https://jobs.dcvc.com/companies/impulse-space-2/jobs/70757463-principal-welding-engineer
