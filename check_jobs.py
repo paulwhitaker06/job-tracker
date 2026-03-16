@@ -17,7 +17,7 @@ Improvements in this version
     from domain keywords).
 5.  Garbage detection  – heuristic that flags a scrape result as noise
     before it ever reaches the email.
-6.  Retry logic  – requests retried twice with 3s back-off.
+6.  Retry logic  – requests retried with exponential backoff via Session.
 7.  Scrape summary  – email header shows X/Y companies scraped OK.
 8.  Failure notification  – separate step in workflow emails on crash.
 9.  seen_jobs.json pruning  – entries older than 90 days removed.
@@ -29,6 +29,14 @@ Improvements in this version
 15. LinkedIn URLs warn clearly rather than silently skipping.
 16. Notion pages detected and warned (JS-rendered, cannot be scraped).
 17. Weekly search sweep – discovers new companies not in YAML.
+18. URL canonicalization – tracking params stripped before hashing, prevents
+    duplicate seen_jobs entries for the same posting with different referral params.
+19. Title canonicalization – location suffixes, remote tags, pipe junk stripped
+    before scoring, producing cleaner digest titles.
+20. Three-bucket scoring – seniority / function / domain scored and capped
+    independently, preventing URL keyword inflation.
+21. JSON-LD title extraction – structured data checked before <title> tag,
+    giving more accurate job titles from ATS pages.
 """
 
 from __future__ import annotations
@@ -43,11 +51,16 @@ import time
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from urllib.parse import urljoin, urldefrag, urlparse
+from email.utils import parsedate_to_datetime
+from urllib.parse import (
+    parse_qsl, urlencode, urljoin, urldefrag, urlparse, urlunparse,
+)
 
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s  %(message)s")
@@ -68,108 +81,130 @@ HEADERS = {
 # Below this threshold we escalate to Playwright even if titles look clean.
 MIN_LINK_THRESHOLD = 3
 
+# URL canonicalization: tracking params to strip before hashing
+TRACKING_PARAM_PREFIXES = ("utm_", "gh_", "mc_", "mkt_", "ref", "src", "trk", "tracking")
+TRACKING_PARAM_EXACT = {
+    "ashby_jid", "jobsource", "lever-source", "lever-via", "source",
+    "linkedin", "linkedin_apply", "li_fat_id", "li_source",
+    "fbclid", "gclid", "gad_source", "mc_cid", "mc_eid",
+}
+
+# Location/format words stripped from job titles
+REMOTE_WORDS = {
+    "remote", "hybrid", "onsite", "united states", "usa", "us", "u.s.",
+    "u.s.a.", "north america", "europe", "uk", "united kingdom", "canada",
+    "global", "multiple locations", "various locations",
+    "remote us", "remote usa", "remote within the us", "remote in the us",
+    "m/f/d", "f/m/d",
+}
+
 # ─────────────────────────────────────────────────────────────────────────────
-# RELEVANCE KEYWORDS
+# RELEVANCE KEYWORDS  –  three independent scored buckets
 # ─────────────────────────────────────────────────────────────────────────────
 #
-# Scoring philosophy:
-#   5 = near-perfect signal (exact role title match or niche domain term)
-#   4 = strong match (common title in right seniority band, or key domain)
-#   3 = good signal (broad titles that often apply, general domain terms)
-#   2 = weak/supporting signal (useful context but not enough alone)
+# Each bucket is capped independently before summing, so a URL packed with
+# domain keywords can't inflate seniority/function scores.
 #
-# Title keywords are matched against the full "title + url" string, so
-# ATS URLs that include the role slug also benefit from these scores.
+#   seniority cap  = 5
+#   function  cap  = 8
+#   domain    cap  = 10
+#
+# Scoring philosophy within each bucket:
+#   5 = near-perfect signal
+#   4 = strong match
+#   3 = good signal
+#   2 = weak/supporting signal
 # ─────────────────────────────────────────────────────────────────────────────
 
-RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
-
-    # ── Seniority / title tier ────────────────────────────────────────────
-    ("VP", 3),
+SENIORITY_KEYWORDS: list[tuple[str, int]] = [
+    ("vp", 3),
     ("vice president", 3),
     ("head of", 3),
     ("director", 3),
     ("senior manager", 2),
     ("principal", 2),
     ("chief", 2),
-
-    # ── Role families ─────────────────────────────────────────────────────
-    ("business development", 4),
-    ("partnerships", 4),
-    ("strategic partnerships", 5),
-    ("revenue partnerships", 5),
-    ("data partnerships", 5),
-    ("commercialization", 4),
-    ("commercial", 3),
-    ("go-to-market", 4),
-    ("GTM", 4),
-    ("sales", 3),
-    ("account executive", 3),
-    ("account manager", 2),
-    ("enterprise sales", 4),
-    ("customer success", 2),
-    ("solutions engineer", 2),
-    ("product manager", 2),
-    ("strategy", 3),
-    ("alliances", 3),
-    ("channel", 2),
-
-    # ── Seniority + commercial combos (real job titles) ───────────────────
-    # These catch "VP Commercial", "Head of Commercial", "Chief Commercial
-    # Officer", "Director of Commercial" etc. without needing two separate
-    # keyword hits, because score_title joins title + url into one string.
+    # Exact seniority+function combos that are unambiguous
+    ("commercial director", 5),
+    ("director of commercial", 5),
     ("head of commercial", 5),
     ("vp commercial", 5),
     ("vp of commercial", 5),
     ("chief commercial officer", 5),
     ("cco", 4),
-    ("director of commercial", 5),
-    ("commercial director", 5),
-    ("commercial lead", 4),
+]
 
-    # ── Licensing / revenue ───────────────────────────────────────────────
+FUNCTION_KEYWORDS: list[tuple[str, int]] = [
+    ("business development", 4),
+    ("strategic partnerships", 5),
+    ("revenue partnerships", 5),
+    ("data partnerships", 5),
+    ("partnerships", 4),
+    ("commercialization", 4),
+    ("commercial strategy", 4),
+    ("commercial", 3),
+    ("go-to-market", 4),
+    ("gtm", 4),
+    ("sales", 3),
+    ("enterprise sales", 4),
+    ("account executive", 3),
+    ("enterprise account executive", 4),
+    ("account director", 3),
+    ("account manager", 2),
+    ("client partner", 3),
+    ("strategic accounts", 3),
+    ("industry lead", 3),
+    ("market development", 4),
+    ("growth", 2),
+    ("customer success", 2),
+    ("solutions engineer", 2),
+    ("solutions consultant", 2),
+    ("presales", 2),
+    ("pre-sales", 2),
+    ("strategy", 3),
+    ("alliances", 3),
+    ("ecosystem", 2),
+    ("channel", 2),
+    ("product marketing", 3),
+    ("product manager", 2),
+    ("portfolio strategy", 3),
     ("licensing", 5),
     ("data licensing", 5),
     ("commercial licensing", 5),
     ("data commercialization", 4),
     ("earned revenue", 4),
     ("revenue", 2),
+]
 
-    # ── Data / platform ───────────────────────────────────────────────────
-    ("data products", 3),
-    ("data platform", 2),
-    ("API", 2),
-    ("analytics", 2),
-
-    # ── Earth observation / satellite ─────────────────────────────────────
+DOMAIN_KEYWORDS: list[tuple[str, int]] = [
+    # Earth observation / satellite
     ("earth observation", 5),
     ("satellite imagery", 5),
     ("satellite data", 5),
     ("remote sensing", 5),
-    ("SAR", 5),
+    ("sar", 5),
     ("synthetic aperture radar", 5),
     ("optical imagery", 4),
     ("multispectral", 4),
     ("hyperspectral", 4),
-    ("LiDAR", 3),
+    ("lidar", 3),
     ("radar", 3),
     ("space data", 3),
     ("aerial imagery", 3),
     ("geospatial", 4),
-    ("GIS", 3),
+    ("gis", 3),
     ("constellation", 3),
     ("tasking", 3),
     ("multi-mission", 4),
     ("data access", 3),
-
-    # ── Maritime / vessel ─────────────────────────────────────────────────
+    # Maritime / vessel
     ("maritime", 5),
     ("vessel", 4),
     ("shipping", 3),
-    ("AIS", 5),
-    ("AIS data", 5),
+    ("ais", 5),
+    ("ais data", 5),
     ("fishing", 4),
-    ("IUU", 5),
+    ("iuu", 5),
     ("illegal fishing", 5),
     ("ocean", 3),
     ("marine", 3),
@@ -177,27 +212,25 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("dark vessel", 4),
     ("vessel monitoring", 5),
     ("dark shipping", 4),
-
-    # ── Environment / climate ─────────────────────────────────────────────
+    # Environment / climate
     ("environmental monitoring", 5),
     ("climate", 3),
     ("carbon", 3),
     ("emissions", 3),
     ("sustainability", 2),
-    ("ESG", 3),
+    ("esg", 3),
     ("deforestation", 4),
     ("forest monitoring", 5),
     ("biodiversity", 3),
     ("nature-based", 3),
     ("oil spill", 5),
     ("methane", 4),
-    ("GHG", 3),
+    ("ghg", 3),
     ("greenhouse gas", 3),
     ("flood", 3),
     ("wildfire", 3),
     ("forestry", 3),
-
-    # ── Risk / finance ────────────────────────────────────────────────────
+    # Risk / finance
     ("supply chain", 4),
     ("risk", 3),
     ("risk intelligence", 4),
@@ -208,56 +241,86 @@ RELEVANCE_KEYWORDS: list[tuple[str, int]] = [
     ("trade intelligence", 4),
     ("commodity", 3),
     ("due diligence", 3),
-
-    # ── Government / defence ──────────────────────────────────────────────
+    # Government / defence
     ("government", 2),
     ("defense", 2),
     ("intelligence", 2),
     ("national security", 3),
-
-    # ── Agriculture ───────────────────────────────────────────────────────
+    # Agriculture
     ("agriculture", 3),
     ("agri", 2),
     ("crop", 2),
     ("food security", 3),
-    ("RF", 4),
+    ("rf", 4),
     ("radio frequency", 4),
+    # Data / platform
+    ("data products", 3),
+    ("data platform", 2),
+    ("api", 2),
+    ("analytics", 2),
 ]
 
 # Titles containing these tokens are junior/support roles –
 # suppressed unless they pick up enough domain-keyword score (>= 4)
 JUNIOR_TOKENS = re.compile(
-    r"\b(intern|internship|junior|jr\.?|technician|technologist|"
-    r"apprentice|trainee|associate(?!\s+director))\b",
+    r"\b(intern|internship|junior|jr\.?|technician|technologist|apprentice|"
+    r"trainee|associate(?!\s+director)|coordinator|specialist)\b",
     re.IGNORECASE,
 )
 
 # Patterns indicating a title is navigation noise rather than a real job
 GARBAGE_TITLE_PATTERNS = re.compile(
     r"^(jobs|careers|job openings|career opportunities|open positions|"
-    r"current vacancies|work with us|join us|our team|about us|"
-    r"sign in|login|apply|candidates pool|bamboohr|teamtailor|"
-    r"rippling|dover|jazzhr|page_title|\(untitled\)|"
-    r"jobs archive|job listings|"
-    r"candidatura|candidature|bewerbung|"
-    r"show_more|load more|next page|"
+    r"current vacancies|work with us|join us|our team|about us|sign in|login|"
+    r"apply|apply now|submit application|candidate pool|bamboohr|teamtailor|"
+    r"rippling|dover|jazzhr|page_title|\(untitled\)|jobs archive|job listings|"
+    r"candidatura|candidature|bewerbung|show more|load more|next page|previous page|"
     r"footer\.|social_link|nav_|menu_)$",
     re.IGNORECASE,
 )
 
+JOB_TEXT_HINTS = re.compile(
+    r"\b(job|jobs|career|careers|opening|openings|position|positions|vacancy|vacancies|role|roles)\b",
+    re.IGNORECASE,
+)
+
+
+def _compile_word_pattern(term: str) -> re.Pattern[str]:
+    esc = re.escape(term.lower())
+    if re.fullmatch(r"[a-z0-9 ]+", term.lower()):
+        return re.compile(rf"(?<![a-z0-9]){esc}(?![a-z0-9])", re.IGNORECASE)
+    return re.compile(esc, re.IGNORECASE)
+
+
+SENIORITY_PATTERNS = [(_compile_word_pattern(k), v) for k, v in SENIORITY_KEYWORDS]
+FUNCTION_PATTERNS  = [(_compile_word_pattern(k), v) for k, v in FUNCTION_KEYWORDS]
+DOMAIN_PATTERNS    = [(_compile_word_pattern(k), v) for k, v in DOMAIN_KEYWORDS]
+
+
+def _bucket_score(text: str, patterns: list[tuple[re.Pattern[str], int]], cap: int) -> int:
+    score = 0
+    for pattern, weight in patterns:
+        if pattern.search(text):
+            score += weight
+    return min(score, cap)
+
 
 def score_title(title: str, url: str = "") -> int:
-    """Return relevance score. Junior roles capped unless strong domain match."""
-    text = (title + " " + url).lower()
-    raw = sum(w for kw, w in RELEVANCE_KEYWORDS if kw.lower() in text)
-    if JUNIOR_TOKENS.search(title) and raw < 4:
+    """Three-bucket scoring: seniority / function / domain, each independently capped."""
+    clean_title = canonicalize_title(title)
+    text = f"{clean_title} {url}".lower()
+    seniority = _bucket_score(text, SENIORITY_PATTERNS, cap=5)
+    function  = _bucket_score(text, FUNCTION_PATTERNS,  cap=8)
+    domain    = _bucket_score(text, DOMAIN_PATTERNS,    cap=10)
+    raw = seniority + function + domain
+    if JUNIOR_TOKENS.search(clean_title) and domain < 4 and function < 4:
         return 0
     return raw
 
 
 def is_garbage_title(title: str) -> bool:
     """True if the title looks like nav/page noise rather than a real job."""
-    t = title.strip()
+    t = canonicalize_title(title)
     if not t or len(t) < 4:
         return True
     if GARBAGE_TITLE_PATTERNS.match(t):
@@ -272,13 +335,131 @@ def is_garbage_title(title: str) -> bool:
 
 def normalise_title(title: str) -> str:
     """Lowercase + strip punctuation for dedup comparison."""
-    return re.sub(r"[^a-z0-9 ]", "", title.lower()).strip()
+    t = canonicalize_title(title).lower()
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
 
 
-# utilities
+# ─────────────────────────────────────────────────────────────────────────────
+# URL + TITLE CANONICALIZATION
+# ─────────────────────────────────────────────────────────────────────────────
+
+def canonicalize_url(url: str) -> str:
+    """Strip tracking params and normalize URL before hashing or storing."""
+    if not url:
+        return ""
+    url = urldefrag(url.strip())[0]
+    p = urlparse(url)
+    scheme = (p.scheme or "https").lower()
+    netloc = p.netloc.lower()
+    if netloc.startswith("www."):
+        netloc = netloc[4:]
+    path = re.sub(r"/{2,}", "/", p.path or "/")
+    if path != "/" and path.endswith("/"):
+        path = path[:-1]
+    kept = []
+    for k, v in parse_qsl(p.query, keep_blank_values=False):
+        kl = k.lower()
+        if kl in TRACKING_PARAM_EXACT:
+            continue
+        if any(kl.startswith(prefix) for prefix in TRACKING_PARAM_PREFIXES):
+            continue
+        kept.append((k, v))
+    query = urlencode(sorted(kept))
+    return urlunparse((scheme, netloc, path, "", query, ""))
+
+
+def _strip_title_separators(text: str) -> str:
+    for sep in [" | ", " :: ", " · ", " @ "]:
+        if sep in text:
+            left = text.split(sep)[0].strip()
+            if len(left) >= 4:
+                return left
+    return text.strip()
+
+
+def _maybe_strip_dash_suffix(text: str) -> str:
+    if " - " not in text:
+        return text
+    parts = [p.strip() for p in text.split(" - ") if p.strip()]
+    if len(parts) < 2:
+        return text
+    last = parts[-1].lower()
+    if last in REMOTE_WORDS:
+        return " - ".join(parts[:-1]).strip()
+    if re.fullmatch(r"[A-Za-z .]{2,30}", parts[-1]) and len(parts[-1].split()) <= 4:
+        return " - ".join(parts[:-1]).strip()
+    return text
+
+
+def canonicalize_title(title: str) -> str:
+    """Strip location tags, remote suffixes, and pipe/separator junk from job titles."""
+    t = re.sub(r"\s+", " ", (title or "").strip())
+    t = _strip_title_separators(t)
+    prev = None
+    while t and prev != t:
+        prev = t
+        t = re.sub(
+            r"\s*\((remote|hybrid|onsite|usa?|united states|north america|europe|"
+            r"uk|united kingdom|canada|global|multiple locations|various locations|m/f/d|f/m/d)\)\s*$",
+            "", t, flags=re.I,
+        )
+        t = _maybe_strip_dash_suffix(t)
+        t = re.sub(
+            r"\s*[,|/]\s*(remote|hybrid|onsite|usa?|united states|north america|europe|"
+            r"uk|united kingdom|canada|global|multiple locations|various locations)\s*$",
+            "", t, flags=re.I,
+        )
+    t = re.sub(r"\s*[,|/-]\s*$", "", t).strip()
+    return t
+
+
+def parse_dt(value: str | None) -> datetime | None:
+    """Parse an ISO or RFC-2822 datetime string to a UTC-aware datetime."""
+    if not value:
+        return None
+    try:
+        dt = datetime.fromisoformat(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+    try:
+        dt = parsedate_to_datetime(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+# utilities (session, sha, load/save)
 
 def sha(s: str) -> str:
     return hashlib.sha256(s.encode("utf-8", errors="ignore")).hexdigest()
+
+
+def _build_session() -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=1.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET", "HEAD"]),
+        raise_on_status=False,
+        respect_retry_after_header=True,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=50, pool_maxsize=50)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    session.headers.update(HEADERS)
+    return session
+
+
+SESSION = _build_session()
+HTML_CACHE: dict[str, str] = {}
+TITLE_CACHE: dict[str, str] = {}
 
 
 def load_seen() -> dict:
@@ -293,19 +474,16 @@ def save_seen(seen: dict) -> None:
         json.dump(seen, f, indent=2, sort_keys=True)
 
 
-def fetch_html(url: str, timeout: int = 45, retries: int = 2) -> str:
-    """Fetch a URL with automatic retries on failure."""
-    last_exc: Exception | None = None
-    for attempt in range(retries + 1):
-        try:
-            r = requests.get(url, timeout=timeout, headers=HEADERS)
-            r.raise_for_status()
-            return r.text
-        except Exception as e:
-            last_exc = e
-            if attempt < retries:
-                time.sleep(3)
-    raise last_exc  # type: ignore[misc]
+def fetch_html(url: str, timeout: int = 45) -> str:
+    """Fetch a URL via the shared session (retries handled by HTTPAdapter)."""
+    cu = canonicalize_url(url)
+    if cu in HTML_CACHE:
+        return HTML_CACHE[cu]
+    r = SESSION.get(cu, timeout=timeout)
+    r.raise_for_status()
+    html = r.text
+    HTML_CACHE[cu] = html
+    return html
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -685,14 +863,14 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
     else:
         raise ValueError("Greenhouse: missing 'board' key")
 
-    r = requests.get(gh_url, timeout=45, headers=HEADERS)
+    r = SESSION.get(gh_url, timeout=45)
     r.raise_for_status()
     data = r.json()
 
     results = []
     for job in data.get("jobs", []):
-        job_url = job.get("absolute_url") or job.get("url")
-        title = job.get("title") or ""
+        job_url = canonicalize_url(job.get("absolute_url") or job.get("url") or "")
+        title = canonicalize_title(job.get("title") or "")
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
             continue
@@ -712,14 +890,14 @@ def get_lever_jobs(company: dict) -> list[dict]:
             raise ValueError("Lever: missing 'lever_company' key")
 
     api_url = f"https://api.lever.co/v0/postings/{lever_company}?mode=json"
-    r = requests.get(api_url, timeout=45, headers=HEADERS)
+    r = SESSION.get(api_url, timeout=45)
     r.raise_for_status()
     data = r.json()
 
     results = []
     for job in data:
-        job_url = job.get("hostedUrl") or job.get("applyUrl")
-        title = job.get("text") or job.get("title") or ""
+        job_url = canonicalize_url(job.get("hostedUrl") or job.get("applyUrl") or "")
+        title = canonicalize_title(job.get("text") or job.get("title") or "")
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
             continue
@@ -740,13 +918,13 @@ def get_workable_jobs(company: dict) -> list[dict]:
 
     api_url = f"https://apply.workable.com/api/v3/accounts/{account}/jobs?state=published"
     try:
-        r = requests.get(api_url, timeout=45, headers=HEADERS)
+        r = SESSION.get(api_url, timeout=45)
         r.raise_for_status()
         data = r.json()
         results = []
         for job in data.get("results", []):
-            job_url = job.get("shortlink") or job.get("url")
-            title = job.get("title") or ""
+            job_url = canonicalize_url(job.get("shortlink") or job.get("url") or "")
+            title = canonicalize_title(job.get("title") or "")
             job_id = job.get("id") or sha(job_url or title)
             if not job_url:
                 continue
@@ -755,53 +933,92 @@ def get_workable_jobs(company: dict) -> list[dict]:
             )
         return results
     except Exception:
-        board_url = f"https://apply.workable.com/{account}/"
+        board_url = canonicalize_url(f"https://apply.workable.com/{account}/")
         html = fetch_html(board_url)
         links = {l for l in extract_links(html, board_url) if "apply.workable.com" in l}
         return [
-            {"id": sha(company["name"] + "|" + l), "url": l, "title": None}
+            {"id": sha(company["name"] + "|" + canonicalize_url(l)), "url": canonicalize_url(l), "title": None}
             for l in sorted(links)
         ]
 
 
 def get_ashby_jobs(company: dict) -> list[dict]:
-    r = requests.get(company["url"], timeout=45, headers=HEADERS)
+    r = SESSION.get(company["url"], timeout=45)
     r.raise_for_status()
     data = r.json()
     results = []
     for job in data.get("jobs", []):
-        job_url = job.get("jobUrl")
+        job_url = canonicalize_url(job.get("jobUrl") or "")
         if not job_url:
             continue
         job_id = job.get("id") or sha(job_url)
         results.append({
             "id": sha(company["name"] + "|" + str(job_id)),
             "url": job_url,
-            "title": job.get("title"),
+            "title": canonicalize_title(job.get("title") or ""),
         })
     return results
 
 
+def _extract_jsonld_title(soup: BeautifulSoup) -> str:
+    """Pull job title from JSON-LD structured data if present."""
+    for script in soup.find_all("script", type="application/ld+json"):
+        raw = script.string or script.get_text(strip=True)
+        if not raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        stack = data if isinstance(data, list) else [data]
+        for obj in stack:
+            if isinstance(obj, dict):
+                if obj.get("@type") == "JobPosting" and obj.get("title"):
+                    return str(obj["title"]).strip()
+                for entry in obj.get("@graph", []):
+                    if isinstance(entry, dict) and entry.get("@type") == "JobPosting" and entry.get("title"):
+                        return str(entry["title"]).strip()
+    return ""
+
+
 def fetch_title(url: str) -> str:
+    """Fetch and return a cleaned job title, trying JSON-LD before falling back to HTML tags."""
+    cu = canonicalize_url(url)
+    if not cu:
+        return ""
+    if cu in TITLE_CACHE:
+        return TITLE_CACHE[cu]
+    title = ""
     try:
-        r = requests.get(url, timeout=20, headers=HEADERS)
+        r = SESSION.get(cu, timeout=20)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
-        if soup.title and soup.title.string:
-            t = soup.title.string.strip()
-            for sep in [" - ", " | ", " – ", " — ", " at ", " :: "]:
-                if sep in t:
-                    t = t.split(sep)[0].strip()
-            return t
-        og = soup.find("meta", property="og:title")
-        if og and og.get("content"):
-            return og["content"].strip()
-        h1 = soup.find("h1")
-        if h1:
-            return h1.get_text(strip=True)
+        # 1. JSON-LD structured data (most accurate for ATS pages)
+        title = _extract_jsonld_title(soup)
+        # 2. OpenGraph / twitter meta tags
+        if not title:
+            for attrs in ({"property": "og:title"}, {"name": "twitter:title"}, {"name": "title"}):
+                tag = soup.find("meta", attrs=attrs)
+                if tag and tag.get("content"):
+                    title = tag["content"].strip()
+                    break
+        # 3. Heading tags
+        if not title:
+            for selector in ("h1", "h2"):
+                tag = soup.select_one(selector)
+                if tag:
+                    text = tag.get_text(" ", strip=True)
+                    if text:
+                        title = text
+                        break
+        # 4. <title> tag as last resort
+        if not title and soup.title and soup.title.string:
+            title = soup.title.string.strip()
+        title = canonicalize_title(title)
     except Exception:
-        pass
-    return ""
+        title = ""
+    TITLE_CACHE[cu] = title
+    return title
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1095,8 +1312,12 @@ def main() -> None:
     seen = load_seen()
 
     # Prune seen_jobs older than 90 days
-    cutoff_dt = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
-    pruned = {k: v for k, v in seen.items() if v.get("first_seen_utc", "9999") >= cutoff_dt}
+    cutoff_dt = datetime.now(timezone.utc) - timedelta(days=90)
+    pruned = {}
+    for k, v in seen.items():
+        first_seen = parse_dt(v.get("first_seen_utc"))
+        if not first_seen or first_seen >= cutoff_dt:
+            pruned[k] = v
     if len(pruned) < len(seen):
         log.info(f"Pruned {len(seen) - len(pruned)} old entries from seen_jobs.json")
     seen = pruned
