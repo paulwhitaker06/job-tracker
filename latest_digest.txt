@@ -1,32 +1,50 @@
-Job Tracker Digest - 2026-03-15 15:08 UTC
+Job Tracker Digest - 2026-03-16 17:22 UTC
 232/232 companies scraped successfully
-14 new postings
+23 new postings
 
-[DCVC Portfolio] Lakebase Account Executive @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/70755756-lakebase-account-executive
-[DCVC Portfolio] Director, Strategy & Execution @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/70755754-director-strategy-execution
-[AENU Portfolio] ALT 2026
-  https://jobs.aenu.com/companies/xfuel/jobs/70738676-alt-2026-apprenti-ingenieur-devops-pour-les-essais-satellites-h-f
-[Lowercarbon Capital Portfolio] Business Development Manager - US
-  https://boards.greenhouse.io/antora/jobs/5826133004
-[Lowercarbon Capital Portfolio] Business Development MBA Intern
-  https://boards.greenhouse.io/antora/jobs/5823600004
-[DCVC Portfolio] Business Development Representative (French Speaking) @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/70755750-business-development-representative-french-speaking
-[DCVC Portfolio] Talent Specialist
-  https://jobs.dcvc.com/companies/halter/jobs/70730257-talent-specialist-go-to-market
-[AENU Portfolio] ALT2026_Apprenti(e) en Pilotage de l'activité Commerciale (F/H) @ XFuel
-  https://jobs.aenu.com/companies/xfuel/jobs/70738678-alt2026_apprenti-e-en-pilotage-de-l-activite-commerciale-f-h
-[DCVC Portfolio] Commercial Counsel @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/70755751-commercial-counsel
-[DCVC Portfolio] Head of Product Design @ Halter
-  https://jobs.dcvc.com/companies/halter/jobs/70730259-head-of-product-design
-[DCVC Portfolio] Senior Manager, Hardware Abstraction @ Agility Robotics
-  https://jobs.dcvc.com/companies/agility-robotics/jobs/70742873-senior-manager-hardware-abstraction
-[DCVC Portfolio] IT Support Specialist @ Databricks
-  https://jobs.dcvc.com/companies/databricks/jobs/70755755-it-support-specialist
-[DCVC Portfolio] Senior Manager
-  https://jobs.dcvc.com/companies/halter/jobs/70730243-senior-manager-hardware-returns-failure-analysis
-[DCVC Portfolio] Principal Welding Engineer @ Impulse Space
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/70757463-principal-welding-engineer
+[DCVC Portfolio] Sr Enterprise Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/70823111-sr-enterprise-account-executive-mrd
+[DCVC Portfolio] Senior Account Executive @ Reality Defender
+  https://jobs.dcvc.com/companies/reality-defender-2/jobs/70834713-senior-account-executive
+[Mitiga Solutions] Head of Sales
+  https://www.mitigasolutions.com/jobs/head-of-sales
+[DCVC Portfolio] Medical Science Liaison (Houston) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828433-medical-science-liaison-houston
+[DCVC Portfolio] Medical Science Liaison (Cleveland) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828435-medical-science-liaison-cleveland
+[DCVC Portfolio] Clinical Sales Manager (Capitol) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828436-clinical-sales-manager-capitol
+[Isar Aerospace] Job Application for Working Student, Ground Systems (m/f/d)
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4802021101
+[Isar Aerospace] Job Application for Avionics Engineer
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4802374101
+[Isar Aerospace] Job Application for Manager, Mechanical Ground Systems (m/f/d)
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4802843101
+[Piersight] Power Electronics Technician
+  https://jobs.gohire.io/piersight-rfd9c90d/power-electronics-technician-277597/
+[Piersight] Software QA Engineer
+  https://jobs.gohire.io/piersight-rfd9c90d/software-qa-engineer-hdl-and-embedded-systems-277639/
+[Piersight] Space Mechanism Engineer
+  https://jobs.gohire.io/piersight-rfd9c90d/space-mechanism-engineer-277598/
+[Lowercarbon Capital Portfolio] Principal Product Manager
+  https://www.linkedin.com/jobs/view/principal-product-manager-at-greenhouse-software-4383059343
+[DCVC Portfolio] Staff Inbound Product Manager
+  https://jobs.dcvc.com/companies/element-ai/jobs/70823118-staff-inbound-product-manager-servicenow-platform-analytics
+[ICEYE] Electronics Engineering Manager, Radar Payload Team
+  https://apply.workable.com/j/07A6BFDFCC
+[NatureMetrics] Sales Operations Manager
+  https://naturemetrics.jobs.personio.de/job/2562523?language=en&apply
+[Lowercarbon Capital Portfolio] Email Marketing Manager
+  https://jobs.ashbyhq.com/cruxclimate/71ecab1d-01b0-44ca-b45e-72fd5f1a2103?embed=js&customCssUrl=https%3A%2F%2Fmagenta-melania-20.tiiny.site%2Fjobs14.css
+[DCVC Portfolio] Senior Solution Sales Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/70823120-senior-solution-sales-executive-crm-industry-workflows
+[DCVC Portfolio] Clinical Sales Manager (Kansas City) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828437-clinical-sales-manager-kansas-city
+[DCVC Portfolio] Clinical Sales Manager (Indianapolis) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828438-clinical-sales-manager-indianapolis
+[DCVC Portfolio] Clinical Sales Manager (Seattle) @ Karius
+  https://jobs.dcvc.com/companies/karius/jobs/70828439-clinical-sales-manager-seattle
+[SatSure] Sales Engineer
+  https://satsure.keka.com/careers
+[DCVC Portfolio] Sr Staff Inbound Product Manager
+  https://jobs.dcvc.com/companies/element-ai/jobs/70823112-sr-staff-inbound-product-manager-partner-relationship-mgmt
