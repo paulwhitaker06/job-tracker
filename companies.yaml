@@ -960,3 +960,37 @@ companies:
   - name: OceanScore
     type: html_links
     url: https://oceanscore.com/jobs/
+    
+- name: Astraea
+    type: html_links
+    url: https://www.astraea.earth/careers
+
+  - name: Arlula
+    type: html_links
+    url: https://www.arlula.com/careers
+
+  - name: Sateliot
+    type: html_links
+    url: https://careers.sateliot.com/jobs
+    # Commercial dept filter: https://careers.sateliot.com/jobs?query=&department=Commercial
+
+  - name: Verra
+    type: html_links
+    url: https://ats.rippling.com/verra-opportunities/jobs
+
+  - name: CIBO Technologies
+    type: html_links
+    url: https://cibotechnologies.bamboohr.com/careers
+
+  - name: Globhe
+    type: html_links
+    url: https://www.globhe.com/career
+
+  - name: VITO Remote Sensing
+    type: html_links
+    url: https://vito.be/en/jobs
+
+  - name: Pixxel
+    type: playwright
+    url: https://pixxel.darwinbox.in/ms/candidatev2/main/careers/allJobs
+    # URL confirmed by Paul — keep darwinbox
