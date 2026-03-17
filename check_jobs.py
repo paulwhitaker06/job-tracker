@@ -1216,6 +1216,7 @@ def build_html_email(
     errors: list[str],
     run_time: str,
     scrape_summary: str = "",
+    manual_check_companies: list[dict] | None = None,
 ) -> str:
     from collections import defaultdict
 
@@ -1277,6 +1278,25 @@ def build_html_email(
         if scrape_summary else ""
     )
 
+    # Monday manual check section
+    manual_section = ""
+    if manual_check_companies and datetime.now(timezone.utc).weekday() == 0:
+        mc_rows = "".join(
+            f'<tr><td style="padding:4px 8px 4px 20px;font-size:13px;">'
+            f'<a href="{co["url"]}" style="color:#1d4ed8;">{co["name"]}</a></td></tr>\n'
+            for co in sorted(manual_check_companies, key=lambda c: c["name"].lower())
+        )
+        manual_section = f"""
+<hr style="border:none;border-top:2px solid #e5e7eb;margin:24px 0 16px;">
+<h3 style="color:#111;margin-bottom:4px;font-size:15px;">&#128269; Manual Check</h3>
+<p style="color:#6b7280;font-size:12px;margin-top:0;">
+  These {len(manual_check_companies)} companies can't be scraped automatically.
+  Click each to check their careers page directly.
+</p>
+<table width="100%" cellpadding="0" cellspacing="0">
+{mc_rows}
+</table>"""
+
     html = f"""<!DOCTYPE html>
 <html><body style="font-family:Arial,sans-serif;max-width:700px;margin:auto;padding:16px;">
 <h2 style="color:#111;margin-bottom:4px;">Job Tracker Digest</h2>
@@ -1294,6 +1314,7 @@ def build_html_email(
 {rows}
 </table>
 {error_section}
+{manual_section}
 </body></html>"""
     return html
 
@@ -1354,6 +1375,7 @@ def main() -> None:
     errors: list[str] = []
     companies_ok: int = 0
     companies_failed: int = 0
+    manual_check_companies: list[dict] = []  # skipped during scraping, shown in Monday digest
 
     # Pass 1: scrape all companies, collect raw items.
     # Titles are NOT fetched here -- they are batch-fetched concurrently below,
@@ -1363,6 +1385,12 @@ def main() -> None:
     for company in config["companies"]:
         name = company["name"]
         ctype = company["type"]
+
+        # manual_check: skip scraping entirely, collect for Monday digest section
+        if ctype == "manual_check":
+            manual_check_companies.append(company)
+            continue
+
         log.info(f"Checking {name} ({ctype})")
         try:
             if ctype == "html_links":
@@ -1493,7 +1521,7 @@ def main() -> None:
         subject = f"No new jobs today - {now_utc[:10]}"
         plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
 
-    html_body = build_html_email(new_items, errors, now_utc, scrape_summary)
+    html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies)
 
     with open("latest_digest.html", "w", encoding="utf-8") as f:
         f.write(html_body)
@@ -1508,3 +1536,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+    
