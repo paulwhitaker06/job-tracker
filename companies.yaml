@@ -961,7 +961,7 @@ companies:
     type: html_links
     url: https://oceanscore.com/jobs/
     
-- name: Astraea
+  - name: Astraea
     type: html_links
     url: https://www.astraea.earth/careers
 
