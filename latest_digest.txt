@@ -1,64 +1,26 @@
-Job Tracker Digest - 2026-03-17 18:36 UTC
-240/240 companies scraped successfully
-30 new postings
+Job Tracker Digest - 2026-03-18 16:11 UTC
+177/178 companies scraped successfully · 1 failed
+11 new postings
 
-[CarbonCure] Senior Director, Carbon Strategy & Partnerships
-  https://carboncure.bamboohr.com/careers/255
-[ICEYE] Senior RF Engineer, Radar Payload Team
-  https://apply.workable.com/j/FC398EEC45
-[Satellogic] Senior Manager, Partner and Channel Strategy – Europe
-  https://satellogic.bamboohr.com/careers/497
-[CIBO Technologies] Senior Sales Executive, Enterprise Sales
-  https://cibotechnologies.bamboohr.com/careers/69
-[VITO Remote Sensing] Business Development & Sales
-  https://vito.be/en/jobs/business-development-sales
-[Lowercarbon Capital Portfolio] Manager - Defense Business Operations & Partnerships
-  https://ke.linkedin.com/jobs/view/manager-defense-business-operations-partnerships-at-solugen-4383689412
-[Congruent Ventures Portfolio] Sales Account Executive - Onsite in UK, Contract
-  https://bellwether.bamboohr.com/careers/244
-[Synspective] Senior Manager Partnerships & Key Accounts EMEA
-  https://careers.synspective.com/o/senior-manager-partnerships-key-accounts-emea
-[Fugro] Regional Director Strategic Sales &amp; Marketing Europe &amp; Africa
-  https://www.fugro.com/careers/jobs/R0030789-regional-director-strategic-sales-%26-marketing-europe-%26-africa
-[Planet Labs] Account Executive, Defence & Intelligence, Sweden
-  https://job-boards.greenhouse.io/planetlabs/jobs/7711289
-[Satlantis] SENIOR COMPUTER VISION ENGINEER &amp;#8211; REMOTE SENSING VACANCY
-  https://www.satlantis.com/job/senior-computer-vision-engineer-remote-sensing-vacancy/
-[Satellogic] Business Development & Lead Generation Representative
-  https://satellogic.bamboohr.com/careers/498
-[Piersight] Jobs at PierSight
-  https://jobs.gohire.io/piersight-rfd9c90d?offset=20/lead-rf-and-antenna-design-engineer-274982/
-[CarbonCure] Senior Market Development Manager
-  https://carboncure.bamboohr.com/careers/252
-[CIBO Technologies] Ag Market Development
-  https://cibotechnologies.bamboohr.com/careers/68
-[ICEYE] Head of Logistics & Freight Forwarding
-  https://apply.workable.com/j/C792A9343B
-[Planet Labs] US Army Account Executive
-  https://job-boards.greenhouse.io/planetlabs/jobs/7704446
-[Congruent Ventures Portfolio] Head of Global Service Operations
-  https://bellwether.bamboohr.com/careers/256
-[DCVC Portfolio] Primary Care Physician (Family Medicine / Internal Medicine)
-  https://jobs.dcvc.com/companies/carbon-health/jobs/70943117-primary-care-physician-family-medicine-internal-medicine
-[DCVC Portfolio] Medical Assistant Externship
-  https://jobs.dcvc.com/companies/carbon-health/jobs/70943124-medical-assistant-externship
-[DCVC Portfolio] Clinic Manager
-  https://jobs.dcvc.com/companies/carbon-health/jobs/70943128-clinic-manager
-[DCVC Portfolio] Urgent Care Physician Assistant or Nurse Practitioner
-  https://jobs.dcvc.com/companies/carbon-health/jobs/70943134-urgent-care-physician-assistant-or-nurse-practitioner
-[DCVC Portfolio] Strategic Account Executive, Financial Services
-  https://jobs.dcvc.com/companies/databricks/jobs/70902311-strategic-account-executive-financial-services
-[Synspective] Sales Engineer EMEA
-  https://careers.synspective.com/o/sales-engineer-emea
-[EarthOptics] Director of Lab Operations (Soil Chemistry)
-  https://earthoptics.bamboohr.com/careers/356
-[VITO Remote Sensing] HR strategy for researchers
-  https://vito.be/en/jobs/hr-strategy-researchers
-[DCVC Portfolio] DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/70943869-principal-autonomy-engineer-spacecraft
-[Fugro] Senior Compliance Counsel
-  https://www.fugro.com/careers/jobs/R0030102-senior-compliance-counsel
-[Sateliot] Principal Mechanical Engineer
-  https://careers.sateliot.com/jobs/7159330-principal-mechanical-engineer
-[Sateliot] Principal Hardware Engineer
-  https://careers.sateliot.com/jobs/7179490-principal-hardware-engineer
+[DCVC Portfolio] Sr Enterprise Account Executive - State & Local Government
+  https://jobs.dcvc.com/companies/element-ai/jobs/71037162-sr-enterprise-account-executive-state-local-government
+[DCVC Portfolio] Sr Enterprise Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/71037143-sr-enterprise-account-executive
+[DCVC Portfolio] Enterprise Sales Associate
+  https://jobs.dcvc.com/companies/element-ai/jobs/71037146-enterprise-sales-associate
+[Synspective] システムエンジニア（SAR画像パイプライン）
+  https://careers.synspective.com/o/176k9w7fec
+[DCVC Portfolio] Urgent Care Nurse Practitioner or Physician Assistant
+  https://jobs.dcvc.com/companies/carbon-health/jobs/71031539-urgent-care-nurse-practitioner-or-physician-assistant
+[DCVC Portfolio] Primary Care Physician (Family Medicine/Internal Medicine)
+  https://jobs.dcvc.com/companies/carbon-health/jobs/71031547-primary-care-physician-family-medicine-internal-medicine
+[DCVC Portfolio] Sr. CRM Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/71037152-sr-crm-account-executive
+[Muon Space] Head of Accounting, Corporate Controller
+  https://job-boards.greenhouse.io/muonspace/jobs/5082922007
+[Greenly] Software Engineer (ESG)
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/software-engineer-esg_paris
+[DCVC Portfolio] Senior Manager, Global Media AMS
+  https://jobs.dcvc.com/companies/element-ai/jobs/71037154-senior-manager-global-media-ams
+[Astranis] Government Contracts Manager
+  https://job-boards.greenhouse.io/astranis/jobs/4664260006
