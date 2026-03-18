@@ -970,3 +970,15 @@ companies:
   - name: VITO Remote Sensing
     type: html_links
     url: https://vito.be/en/jobs
+    
+  - name: Spexi
+    type: manual_check
+    url: https://spexi.com/about
+
+  - name: Vexcel Data Program
+    type: html_links
+    url: https://www2.appone.com/Search/Search.aspx?ServerVar=vexcel.appone.com
+
+  - name: Urban Sky
+    type: html_links
+    url: https://urbansky.applytojob.com/apply
