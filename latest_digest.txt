@@ -1,6 +1,46 @@
-Job Tracker Digest - 2026-03-18 17:57 UTC
-177/178 companies scraped successfully · 1 failed
-1 new postings
+Job Tracker Digest - 2026-03-19 14:35 UTC
+179/180 companies scraped successfully · 1 failed
+21 new postings
 
-[Planet Labs] Working Student, Tasking
-  https://job-boards.greenhouse.io/planetlabs/jobs/7700858
+[DCVC Portfolio] Enterprise Account Executive
+  https://jobs.dcvc.com/companies/sentinelone/jobs/71138160-enterprise-account-executive
+[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158065-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
+[AENU Portfolio] Head of / Leiter Batteriespeicher BESS (m/w/d) Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158066-head-of-leiter-batteriespeicher-bess-m-w-d-agri-pv
+[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158070-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
+[Windward] Maritime Analyst Hawaii
+  https://windward.ai/company/careers/co/hawaii/D4.765/maritime-analyst-hawaii/all
+[Windward] Maritime Analyst UK
+  https://windward.ai/company/careers/co/london/1B.760/maritime-analyst-uk/all
+[DCVC Portfolio] Director of Projects
+  https://jobs.dcvc.com/companies/mainspring-energy/jobs/71156550-director-of-projects
+[DCVC Portfolio] Senior Sales Engineer
+  https://jobs.dcvc.com/companies/mainspring-energy/jobs/71156552-senior-sales-engineer
+[DCVC Portfolio] Director / Senior Director of Engineering
+  https://jobs.dcvc.com/companies/sentinelone/jobs/71138159-director-senior-director-of-engineering
+[True Anomaly] Director, Corporate Real Estate & Facilities
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5083858007
+[Maxar] VP, Marketing
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/VP--Marketing_R23573
+[Astranis] Civil Space Community Sales Manager
+  https://job-boards.greenhouse.io/astranis/jobs/4664644006
+[Astranis] USG Intel Community Sales Manager
+  https://job-boards.greenhouse.io/astranis/jobs/4664631006
+[Spire Global] Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7731774
+[AENU Portfolio] Bauleiter Photovoltaik (m/w/d) - Energietechnik / Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158059-bauleiter-photovoltaik-m-w-d-energietechnik-agri-pv
+[AENU Portfolio] Chief of Staff (m/w/d)
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158061-chief-of-staff-m-w-d
+[AENU Portfolio] Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158062-elektriker-m-w-d-agri-photovoltaik-anlagenbau
+[DCVC Portfolio] Compliance Analyst (Part Time Contractor)
+  https://jobs.dcvc.com/companies/unlearn-ai-2/jobs/71103168-compliance-analyst-part-time-contractor
+[Taranis] Conservation Customer Success
+  https://www.taranis.com/careers/conservation-customer-success-aa-765
+[Altana AI] Chief of Staff to the CEO
+  https://job-boards.greenhouse.io/altanaai/jobs/7670955003
+[Altana AI] Senior Technical Account Manager, Federal
+  https://job-boards.greenhouse.io/altanaai/jobs/7657562003
