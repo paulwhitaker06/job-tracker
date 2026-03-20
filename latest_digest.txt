@@ -1,14 +1,32 @@
-Job Tracker Digest - 2026-03-19 16:52 UTC
+Job Tracker Digest - 2026-03-20 16:34 UTC
 179/180 companies scraped successfully · 1 failed
-5 new postings
+14 new postings
 
-[Lowercarbon Capital Portfolio] Head of Sales
-  https://www.mitigasolutions.com/jobs/head-of-sales
-[Exolaunch] Business Development Associate
-  https://exolaunch.jobs.personio.de/job/2570430
-[Congruent Ventures Portfolio] Head of Accounting, Corporate Controller
-  https://job-boards.greenhouse.io/muonspace/jobs/5082922007
-[Congruent Ventures Portfolio] Technical Program Director, Missiles &amp; Hypersonic Strike Systems
-  https://jobs.lever.co/MachinaLabs/bbc6b020-3773-4106-8e56-25942a189b4e?lever-source%5B%5D=jobs.congruentvc.com
-[Congruent Ventures Portfolio] Product Manager, Australia
-  https://jobs.lever.co/omnidian/da3a81e0-b87f-4e38-ae93-c099e7cc14c0?lever-source%5B%5D=jobs.congruentvc.com
+[Congruent Ventures Portfolio] Director of Commercial Enterprise Sales
+  https://jobs.lever.co/omnidian/4cb6d246-220e-4498-9ce0-530f7b58a26b?lever-source%5B%5D=jobs.congruentvc.com
+[Tomorrow.io] Enterprise Account Executive
+  https://boards.greenhouse.io/tomorrow/jobs/7672831003?gh_jid=7672831003
+[ICEYE] Senior Manager, Supply Chain Engineering
+  https://apply.workable.com/j/E3AAFC74E3
+[Extantia Portfolio] Junior Pre-Sales Manager (m/w/d)
+  https://vamo.jobs.personio.de/job/2570128
+[Congruent Ventures Portfolio] Principal Engineer - Risk & Reliability
+  https://job-boards.greenhouse.io/veir/jobs/4507592008
+[Planet Labs] Working Student, Tasking
+  https://job-boards.greenhouse.io/planetlabs/jobs/7700872
+[DCVC Portfolio] Sr. Commercial Account Representative
+  https://jobs.dcvc.com/companies/illumio-2/jobs/71338758-sr-commercial-account-representative
+[Mapbox] Head of Marketing
+  https://jobs.ashbyhq.com/mapbox/b49271ee-6d9b-4f34-91f1-93ddee53f00f/application
+[AENU Portfolio] Senior Customer Success Manager (DACH)
+  https://jobs.aenu.com/companies/monta-2/jobs/71363998-senior-customer-success-manager-dach
+[DCVC Portfolio] Senior Account Manager (Canterbury & Otago)
+  https://jobs.dcvc.com/companies/halter/jobs/71376167-senior-account-manager-canterbury-otago
+[DCVC Portfolio] Chief Product Officer
+  https://jobs.dcvc.com/companies/halter/jobs/71376176-chief-product-officer
+[DCVC Portfolio] Snr/Principal Data Scientist - Turing (LLMs, Agents, Data & Scientific Reasoning)
+  https://jobs.dcvc.com/companies/relation-therapeutics/jobs/71338649-snr-principal-data-scientist-turing-llms-agents-data-scientific-reasoning
+[D-Orbit] Product Manager – Avionics
+  https://dorbit-space.factorial.it/job_posting/product-manager-avionics-292272
+[ASTERRA] Account Manager, East
+  https://asterra.io/jobs/account-manager-east/
