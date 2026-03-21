@@ -1,32 +1,28 @@
-Job Tracker Digest - 2026-03-20 16:34 UTC
+Job Tracker Digest - 2026-03-21 15:24 UTC
 179/180 companies scraped successfully · 1 failed
-14 new postings
+12 new postings
 
-[Congruent Ventures Portfolio] Director of Commercial Enterprise Sales
-  https://jobs.lever.co/omnidian/4cb6d246-220e-4498-9ce0-530f7b58a26b?lever-source%5B%5D=jobs.congruentvc.com
-[Tomorrow.io] Enterprise Account Executive
-  https://boards.greenhouse.io/tomorrow/jobs/7672831003?gh_jid=7672831003
-[ICEYE] Senior Manager, Supply Chain Engineering
-  https://apply.workable.com/j/E3AAFC74E3
-[Extantia Portfolio] Junior Pre-Sales Manager (m/w/d)
-  https://vamo.jobs.personio.de/job/2570128
-[Congruent Ventures Portfolio] Principal Engineer - Risk & Reliability
-  https://job-boards.greenhouse.io/veir/jobs/4507592008
-[Planet Labs] Working Student, Tasking
-  https://job-boards.greenhouse.io/planetlabs/jobs/7700872
-[DCVC Portfolio] Sr. Commercial Account Representative
-  https://jobs.dcvc.com/companies/illumio-2/jobs/71338758-sr-commercial-account-representative
-[Mapbox] Head of Marketing
-  https://jobs.ashbyhq.com/mapbox/b49271ee-6d9b-4f34-91f1-93ddee53f00f/application
-[AENU Portfolio] Senior Customer Success Manager (DACH)
-  https://jobs.aenu.com/companies/monta-2/jobs/71363998-senior-customer-success-manager-dach
-[DCVC Portfolio] Senior Account Manager (Canterbury & Otago)
-  https://jobs.dcvc.com/companies/halter/jobs/71376167-senior-account-manager-canterbury-otago
-[DCVC Portfolio] Chief Product Officer
-  https://jobs.dcvc.com/companies/halter/jobs/71376176-chief-product-officer
-[DCVC Portfolio] Snr/Principal Data Scientist - Turing (LLMs, Agents, Data & Scientific Reasoning)
-  https://jobs.dcvc.com/companies/relation-therapeutics/jobs/71338649-snr-principal-data-scientist-turing-llms-agents-data-scientific-reasoning
-[D-Orbit] Product Manager – Avionics
-  https://dorbit-space.factorial.it/job_posting/product-manager-avionics-292272
-[ASTERRA] Account Manager, East
-  https://asterra.io/jobs/account-manager-east/
+[AENU Portfolio] VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71484410-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
+[EarthDaily] Product Marketing Manager
+  https://earthdaily.applytojob.com/apply/ACHib9uD0g/Product-Marketing-Manager
+[Lowercarbon Capital Portfolio] Senior Director, Acquisitions
+  https://jobs.ashbyhq.com/Crusoe/b114511a-4f40-4c5e-9b0a-a557448476d8
+[Lowercarbon Capital Portfolio] Senior Director, Development
+  https://jobs.ashbyhq.com/Crusoe/9e851989-6203-4c9b-af0f-06e872969b20
+[Lowercarbon Capital Portfolio] Real Estate Strategy Manager
+  https://jobs.ashbyhq.com/Crusoe/75001056-f7c6-4154-8b9a-53a14a897d0f
+[DCVC Portfolio] Director of Projects
+  https://jobs.dcvc.com/companies/mainspring-energy/jobs/71594083-director-of-projects
+[EarthDaily Analytics (Earth Daily Analytics)] Product Marketing Manager
+  https://earthdaily.com/job-openings
+[Muon Space] Director of Product Management-Muon Halo
+  https://job-boards.greenhouse.io/muonspace/jobs/5086026007
+[AENU Portfolio] Bauleiter (m/w/d) Photovoltaik - Energietechnik / Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71484398-bauleiter-m-w-d-photovoltaik-energietechnik-agri-pv
+[AENU Portfolio] Technischer Projektmanager / Projektentwickler (m/w/d) Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71484404-technischer-projektmanager-projektentwickler-m-w-d-agri-pv
+[AENU Portfolio] AENU Job Board
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71484406-vertriebsmitarbeiter-aussendienst-m-w-d-agri-photovoltaik
+[Safe Software] Technical Product Manager
+  https://jobs.ashbyhq.com/safe/a9ad784b-af99-42e3-a98f-828a72e68239
