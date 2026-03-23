@@ -1,4 +1,12 @@
 {
+  "000d6155cbecadaeadff44c31541af14aa9d5930e348ddbedffaec3c62a1e76e": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.713474+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Research Associate",
+    "url": "https://jobs.dcvc.com/companies/noetik-2/jobs/71659144-research-associate"
+  },
   "000d7e655ef43d689c15dab71a5ac95038272386288c00d9587b72ffe54e64ca": {
     "company": "Mapbox",
     "first_seen_utc": "2026-03-07T15:16:37.195174+00:00",
@@ -2887,6 +2895,14 @@
     "title": "EO DS",
     "url": "https://satsure.keka.com/careers"
   },
+  "1e64b0265fad9c5d4312727348d93b3484c2830544a3ac1f75bdeaa6934c8b2a": {
+    "company": "ASTERRA",
+    "first_seen_utc": "2026-03-23T15:43:44.733808+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Territory Sales Manager, East",
+    "url": "https://asterra.io/jobs/territory-sales-manager-east/"
+  },
   "1e806209b494a00b59b37db4a368c2a9f9a14ae4dd55af1308e80c59c9bce405": {
     "company": "UP42",
     "first_seen_utc": "2026-03-07T14:39:58.227485+00:00",
@@ -3212,6 +3228,14 @@
     "score": 0,
     "title": "Executive Assistant",
     "url": "https://jobs.lever.co/cfsenergy/e3eb4099-30a6-4ece-83be-ff6a4a22aff2"
+  },
+  "223a4aa69d5a8fb535febbabccf8d9b3773f6218c1a2d2a1c202db59a681bc8c": {
+    "company": "Open Cosmos",
+    "first_seen_utc": "2026-03-23T15:43:44.718599+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Supplier Quality Assurance (SQA) Manager",
+    "url": "https://careers.open-cosmos.com/jobs/7441125-supplier-quality-assurance-sqa-manager"
   },
   "22433310b7ed030d527c3f1e6cf8fe4494d2dd93fa67dac234aa658dd367dead": {
     "company": "ICEYE",
@@ -4046,6 +4070,14 @@
     "title": "Environmental Test Engineer",
     "url": "https://nanoavionics.com/careers/environmental-test-engineer/"
   },
+  "2b70f5b55257f0665662298ee3f54c63fe5ce6993575d45cedaf704f97e608f3": {
+    "company": "Open Cosmos",
+    "first_seen_utc": "2026-03-23T15:43:44.718948+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Head of Software &amp; Cloud Infrastructure",
+    "url": "https://careers.open-cosmos.com/jobs/7441126-head-of-software-cloud-infrastructure"
+  },
   "2b9405dd6ebd14306c2af0c6d5a79ad021bff2c37aac3ecdbcd75174c3b3c57b": {
     "company": "Mapbox",
     "first_seen_utc": "2026-03-07T15:16:37.193674+00:00",
@@ -4377,6 +4409,14 @@
     "score": 4,
     "title": "Geospatial Data Engineer",
     "url": "https://www.aac-clyde.space/jobs/geospatial-data-engineer-glasgow-or-london"
+  },
+  "2e5d810e4ac9ddc3ccfae169eea3ade93bfdbed211e3435590333ae50c181fc3": {
+    "company": "ICEYE",
+    "first_seen_utc": "2026-03-23T15:43:44.662238+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Service Desk Lead",
+    "url": "https://apply.workable.com/j/D4E13B3785"
   },
   "2e5de190895c73bcc5af1cd1ff34ae3707114cfad4c1e118856a8268b670d01c": {
     "company": "Isar Aerospace",
@@ -6118,6 +6158,14 @@
     "title": "Geotechnical Engineer (m/w/d)",
     "url": "https://www.fugro.com/careers/jobs/R0028219-geotechnical-engineer-m-w-d"
   },
+  "40c356b176a4efa4a44c80d1b320584c3b9fde88fdf22aa7abd1b64e2c8e9960": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.713221+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Electrical Engineer, Power Electronics",
+    "url": "https://jobs.dcvc.com/companies/mainspring-energy/jobs/71677911-electrical-engineer-power-electronics"
+  },
   "40cdbafe32e95a8667812a71be8df69eb9ea22596768790b9dd89d11b63a5e31": {
     "company": "Dioxycle",
     "first_seen_utc": "2026-03-06T19:39:08.200751+00:00",
@@ -6198,6 +6246,14 @@
     "score": 3,
     "title": "R0030574",
     "url": "https://www.fugro.com/careers/jobs/R0030574-logistics-assistant"
+  },
+  "41dc710d25c6ebeb8a4bd13031b7a80d068a1fef8095ef579581779c29f618f4": {
+    "company": "Isar Aerospace",
+    "first_seen_utc": "2026-03-23T15:43:44.762115+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Real Estate Specialist",
+    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4811427101"
   },
   "41e0fdf69231f7907b1716f6f059dceda485d2dbac38780bc216b1dc9c07ac13": {
     "company": "Persefoni",
@@ -6964,6 +7020,14 @@
     "title": "(Senior) Process & Operations Manager (m/w/d) EPC",
     "url": "https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71158069-senior-process-operations-manager-m-w-d-epc"
   },
+  "4b08fb493fa9670028cbc8980ef2a6693524fb89c84f8a2701c4940f849547bc": {
+    "company": "Spire Global",
+    "first_seen_utc": "2026-03-23T15:43:44.673995+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Job Openings - Spire : Global Data and Analytics",
+    "url": "https://spire.com/careers/job-openings/job/?gh_jid=7739287"
+  },
   "4b4a99e1e3a6f93980018c34573afe95b999bbd6a6103edc59e50190049f4f25": {
     "company": "Greenly",
     "first_seen_utc": "2026-03-06T19:21:56.775366+00:00",
@@ -7598,6 +7662,14 @@
     "title": "Space Procurement",
     "url": "https://dorbit-space.factorial.it/job_posting/space-procurement-category-specialist-avionics-mechatronics-engineering-services-285308"
   },
+  "51bde08cc2fc3c08753e4142f1c154bd42e640f0378b87058923ac48ba9d2404": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.713837+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Sr. Network & IT Infrastructure Manager",
+    "url": "https://jobs.dcvc.com/companies/noetik-2/jobs/71659145-sr-network-it-infrastructure-manager"
+  },
   "51deeb33567371be7e8196d32ee6fdc4555e6579cc9ba3c2b0c3b253a18e08ba": {
     "company": "AENU Portfolio",
     "first_seen_utc": "2026-03-11T12:16:58.044868+00:00",
@@ -8187,6 +8259,14 @@
     "score": 0,
     "title": "LKW- / Berufskraftfahrer CE (m/w/d) S\u00fcddeutschland @ feld.energy GMBH",
     "url": "https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/70071445-lkw-berufskraftfahrer-ce-m-w-d-suddeutschland"
+  },
+  "5859f5ee9e698e43f1ff97a93899ad98522d16bfcc1aa9a9fdd4f42383c3d791": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.708488+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Billing Specialist",
+    "url": "https://jobs.dcvc.com/companies/carbon-health/jobs/71684701-billing-specialist"
   },
   "586c3dee6833b660e22d89e758ff3b238da1eb0ce46a03e3f925ae352493deaf": {
     "company": "Fugro",
@@ -8818,6 +8898,14 @@
     "title": "Sr Enterprise Account Executive",
     "url": "https://jobs.dcvc.com/companies/element-ai/jobs/71037143-sr-enterprise-account-executive"
   },
+  "5f50dede9bc03b893680e4220b8e5f5c1c97c0ec3879273a4a93da5d18cc7ea5": {
+    "company": "Open Cosmos",
+    "first_seen_utc": "2026-03-23T15:43:44.717179+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Satellite Payload Processing Engineer",
+    "url": "https://careers.open-cosmos.com/jobs/7231065-satellite-payload-processing-engineer"
+  },
   "5f60aec0fb390d2792e87eefb48a973290a418ba8ce07e9a296641203a7f5d31": {
     "company": "Maxar",
     "first_seen_utc": "2026-03-10T13:17:32.235448+00:00",
@@ -9204,6 +9292,14 @@
     "scored": false,
     "title": "Production Associate (Raleigh)",
     "url": "https://earthoptics.bamboohr.com/careers/355"
+  },
+  "6306c39a288e8eeefdbda63373bf14d38bb1f0e8cdd5fbf13716c392e14ad125": {
+    "company": "Open Cosmos",
+    "first_seen_utc": "2026-03-23T15:43:44.717436+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Data Software Engineer",
+    "url": "https://careers.open-cosmos.com/jobs/7231067-data-software-engineer"
   },
   "6312189975555675373df0120ce11127efa9ee605d179bc8842f0ccd56d7d6c1": {
     "company": "CARTO",
@@ -9835,6 +9931,14 @@
     "title": "Synspective",
     "url": "https://careers.synspective.com/o/fe4396bab3"
   },
+  "69b6944b84b593d2ee572588c018aacb33b700f1f078de6700223f46c03fdb06": {
+    "company": "Varda Space Industries",
+    "first_seen_utc": "2026-03-23T15:43:44.733546+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Director of Production",
+    "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7674977003"
+  },
   "69c86211e40865a83a2ac2876e7e12f87492ab43ec94e66378fe120eb4789b1f": {
     "company": "Axelspace",
     "first_seen_utc": "2026-03-06T18:57:23.200046+00:00",
@@ -10154,6 +10258,14 @@
     "title": "Job Application for Engine Assembly Technician (m/f/d)",
     "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4761068101"
   },
+  "6e2ec5ad7e900ce1bd03e82d1273b22d06a566a0cb11e30e9b95efffc7e29413": {
+    "company": "AENU Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.698816+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Maintenance Technician",
+    "url": "https://jobs.aenu.com/companies/heirloom-2-d62e7650-54a9-4430-9b60-039aa9e0015e/jobs/71669329-maintenance-technician"
+  },
   "6e388ada829a591da7ef6d7df6bd87eb9c2cfb76353ab3e8bfbe1aa058586681": {
     "company": "Extantia Portfolio",
     "first_seen_utc": "2026-03-11T12:17:13.762070+00:00",
@@ -10355,6 +10467,14 @@
     "title": "Global payroll manager \u2013 Watershed Careers",
     "url": "https://watershed.com/careers/52dffb54-global-payroll-manager"
   },
+  "6fdb6db383a14f7a5958ec4e3d78a41740aed80daf732af456b132bb33ee6189": {
+    "company": "Congruent Ventures Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.703846+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Director of Product Management-Muon Halo",
+    "url": "https://job-boards.greenhouse.io/muonspace/jobs/5086026007"
+  },
   "6fee0169b40cda1b95345634e2b4ec629a8af0aa4b546019fbc0d02b156c3491": {
     "company": "AENU Portfolio",
     "first_seen_utc": "2026-03-19T14:35:03.433720+00:00",
@@ -10489,6 +10609,14 @@
     "score": 0,
     "title": "Engineering Manager, HD Maps",
     "url": "https://jobs.ashbyhq.com/mapbox/b1e3c77c-4bb7-47ec-9039-fa58263d56b6/application"
+  },
+  "713ac6ffd0588309b0b0a299cc2b6b7a646e1c9e222df049449f95cb278d8e20": {
+    "company": "Isar Aerospace",
+    "first_seen_utc": "2026-03-23T15:43:44.762948+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Production Mechanic Post Processing / Nachbearbeitung, POQ",
+    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4814866101"
   },
   "7161c23457e2c9b15441a136ebb03d00ad0b39dbc5dd384de1f232807bb5cbcb": {
     "company": "DCVC Portfolio",
@@ -11348,6 +11476,14 @@
     "title": "Chief Of Staff",
     "url": "https://careers.open-cosmos.com/jobs/7272240-chief-of-staff"
   },
+  "79e7501058036738c339503e420bcbe5eaee1248d227ca11d201e7bf6a5e65d2": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.711522+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Customer Success Manager",
+    "url": "https://jobs.dcvc.com/companies/element-ai/jobs/71664944-customer-success-manager-moveworks"
+  },
   "7a19e67b8bbeafad2596ef5af7d83fed8fee7005e3b940b3d8b42b9a412c0f7d": {
     "company": "Synspective",
     "first_seen_utc": "2026-03-18T16:11:06.572715+00:00",
@@ -11421,6 +11557,14 @@
     "score": 6,
     "title": "IO Careers: Head of Sales",
     "url": "https://www.impactobservatory.com/careers/head-of-sales"
+  },
+  "7aa87ad93625e3b4dcd7d89513cf76ebd3c7db8c32bc86cd6e7d72afc83c14ce": {
+    "company": "Congruent Ventures Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.706857+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Office &amp; Employee Experience Manager",
+    "url": "https://jobs.lever.co/MachinaLabs/2173c6cb-6b8a-4a06-bbe0-1f0a2f35d73e?lever-source%5B%5D=jobs.congruentvc.com"
   },
   "7aae75696258000e2e35250e186d9f5fe847b32ffb92f8c00ac7eb7fab96fc91": {
     "company": "DCVC Portfolio",
@@ -11830,6 +11974,14 @@
     "title": "QA Lead @ Reality Defender",
     "url": "https://jobs.dcvc.com/companies/reality-defender-2/jobs/69622216-qa-lead"
   },
+  "801bbec4667ce8f63abb930243638b71223bb0fdb9ad0a21fbce28e115dea6bf": {
+    "company": "ASTERRA",
+    "first_seen_utc": "2026-03-23T15:43:44.734161+00:00",
+    "score": 5,
+    "scored": true,
+    "title": "Territory Sales Manager, UK (Channel & Partner Sales)",
+    "url": "https://asterra.io/jobs/territory-sales-manager-uk-channel-partner-sales/"
+  },
   "8022728acd07df3a97412a541baaae6f414868e1c6a951b2b617c765e20d7bed": {
     "company": "Isar Aerospace",
     "first_seen_utc": "2026-03-07T15:41:16.106429+00:00",
@@ -11880,6 +12032,14 @@
     "score": 0,
     "title": "JazzHR \u00bb Job Listings",
     "url": "https://earthdaily.applytojob.com/apply/jobs/details/qVEixHdBrU?&"
+  },
+  "8089adf30dd5ed67b953130ba00ac284e8f9c0b22c8258fb590d68fd785f47d6": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.711198+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Data Product Manager",
+    "url": "https://jobs.dcvc.com/companies/electronx/jobs/71702111-data-product-manager"
   },
   "80a0fad5c21182523eb2121ffa9a163173842cd52e0905acea7d091c429ef882": {
     "company": "Astranis",
@@ -12198,6 +12358,22 @@
     "score": 2,
     "title": "Support Engineer",
     "url": "https://jobs.dcvc.com/companies/singlestore-2/jobs/70247043-support-engineer-west-coast"
+  },
+  "841181df635c2a1915bdc8ef38c7f356b165cb2e12c2238aaac776c27f996d5e": {
+    "company": "Slingshot Aerospace",
+    "first_seen_utc": "2026-03-23T15:43:44.728397+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Space Surveillance Engineer I",
+    "url": "https://job-boards.greenhouse.io/slingshotaerospace/jobs/5833362004?gh_jid=5833362004"
+  },
+  "8414fab3102cb7d401ec4e546f7c8bba47bd0df31f6045168329ff9a9b709fee": {
+    "company": "Exotrail",
+    "first_seen_utc": "2026-03-23T15:43:44.760111+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Technical Project Manager Team Lead F/M",
+    "url": "https://careers.exotrail.com/jobs/7442760-technical-project-manager-team-lead-f-m"
   },
   "841b1d67304a8b2978a3177a4278a567cbc58ea2cfef7238ec0af802d92dcda1": {
     "company": "75F",
@@ -13419,6 +13595,14 @@
     "title": "Operativer Eink\u00c3\u00a4ufer / Technical Buyer (m/w/d)",
     "url": "https://exolaunch.jobs.personio.de/job/2570347"
   },
+  "8fb7b9d290c75f3aaf1ff94be9ecd914b7e664e9faedbd5d1ac83372f2f5b9ac": {
+    "company": "Open Cosmos",
+    "first_seen_utc": "2026-03-23T15:43:44.718254+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior People Partner",
+    "url": "https://careers.open-cosmos.com/jobs/7441124-senior-people-partner"
+  },
   "8fbe434313f71868f2142d09da5e5319e482a68dd0337e0f90835a6dcc813181": {
     "company": "Orsted",
     "first_seen_utc": "2026-03-06T20:02:30.812434+00:00",
@@ -13642,6 +13826,14 @@
     "title": "Accounting manager, GL \u2013 Watershed Careers",
     "url": "https://watershed.com/careers/c833eb62-accounting-manager-gl"
   },
+  "92ec21579ff86cbef98fa45e3bfa61443cecd81998e158d50ce82d1c0a88f6be": {
+    "company": "Treefera",
+    "first_seen_utc": "2026-03-23T15:43:44.666332+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Treefera Internship Programme",
+    "url": "https://jobs.ashbyhq.com/treefera/800f0bc8-ca10-4d6e-8b89-f9bc8867e63f"
+  },
   "92f6c9dc5350db4e7fd95a865587d0782012314e5f3b50da593db50bb41a4629": {
     "company": "Lowercarbon Capital Portfolio",
     "first_seen_utc": "2026-03-18T16:11:06.547021+00:00",
@@ -13656,6 +13848,14 @@
     "score": 0,
     "title": "Aerospace Human Systems Integration (HSI) Lead, ISS Missions",
     "url": "https://axiomspace.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Houston/Aerospace-Human-Systems-Integration--HSI--Lead--ISS-Missions_JR100415"
+  },
+  "931eccc97c517edda7f7d6482339de785e1f69b0a44961e55bd9a00d1ebc4429": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.714167+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Chief of Staff",
+    "url": "https://jobs.dcvc.com/companies/odyssey-2-78d923d2-e2c3-4e86-bc41-809802ac0318/jobs/71682105-chief-of-staff"
   },
   "9348ffb6ddce4be27e1de4d6e3cab79d3e972386dd71433227325db9bf258747": {
     "company": "Maxar",
@@ -14456,6 +14656,14 @@
     "title": "Jobs at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d?paged=2/software-qa-engineer-hdl-and-embedded-systems-277639/"
   },
+  "99616a77163c546da8cbc5b1216d8b7a160ea9323c54761cc577cdacef472ac8": {
+    "company": "AENU Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.699842+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Presales Solution Architect",
+    "url": "https://jobs.aenu.com/companies/monta-2/jobs/71662389-presales-solution-architect"
+  },
   "9967b307fca2b31fd3f6a13a1b08f49fb6ec0f5a82a730f84cf0cc58285c9685": {
     "company": "Congruent Ventures Portfolio",
     "first_seen_utc": "2026-03-07T14:22:48.881647+00:00",
@@ -14497,6 +14705,14 @@
     "score": 0,
     "title": "Radiation Effects Engineer Intern (Summer 2026)",
     "url": "https://job-boards.greenhouse.io/astranis/jobs/4649397006"
+  },
+  "99c60ad4bda260d73455374e2a28d85f625eb36702fc6221dd6672acd6e3862f": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.710938+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Chief of Staff, Office of the CEO",
+    "url": "https://jobs.dcvc.com/companies/electronx/jobs/71702110-chief-of-staff-office-of-the-ceo"
   },
   "99d5a336c799b4d8b788cf978c45df5e1a66143dd8e39f5a5cf333cd0877ed2b": {
     "company": "Extantia Portfolio",
@@ -15848,6 +16064,14 @@
     "title": "Integration Technician",
     "url": "https://job-boards.greenhouse.io/muonspace/jobs/5045969007"
   },
+  "a7b7df8a81b6b6a67e79405f04b16aaad2c9283ddf701341bfdc0754fc831edd": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.710217+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Sr. Solutions Engineer",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702057-sr-solutions-engineer"
+  },
   "a7b9f12e0bec344afac4df5174eab684aef993d73504b113ceab9cc96186d2c0": {
     "company": "AENU Portfolio",
     "first_seen_utc": "2026-03-11T12:16:45.391439+00:00",
@@ -16227,6 +16451,14 @@
     "title": "Map Designer III",
     "url": "https://jobs.ashbyhq.com/mapbox/c8b95f05-6623-4694-b90f-db8555de7522/application"
   },
+  "ab8264e96db7b8507c0af0166d3a2541bf10f1333e47d782c01d6a9eaad70399": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-03-23T15:43:44.747984+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Party Chief",
+    "url": "https://www.fugro.com/careers/jobs/R0030803-party-chief-geotechnics"
+  },
   "ab858ab6c26407c23f78fab8a2b72721af8eec3ce42e4e35c69729ef66fb1909": {
     "company": "Lowercarbon Capital Portfolio",
     "first_seen_utc": "2026-03-18T16:11:06.547683+00:00",
@@ -16271,6 +16503,14 @@
     "score": 2,
     "title": "Account Manager",
     "url": "https://boards.greenhouse.io/tomorrow/jobs/7602500003?gh_jid=7602500003"
+  },
+  "ac160771af41cf033a2b33c1816ccc2b7ba6bc0015155070bce2f6f6190071a5": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.708743+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Solutions Architect",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702052-solutions-architect"
   },
   "ac5c6dea4f6a87ef20f611fab3aa2020af0bc2743a10329b3de619f00a001367": {
     "company": "PAL Aerospace",
@@ -16541,6 +16781,14 @@
     "title": "Dover",
     "url": "https://app.dover.com/apply/manatee/4c989b12-c592-4a17-b559-f38ef5b39b59"
   },
+  "af8c5244ec4dc8e2ad1e9dc9839db6e0436c620c383c094294c213e09bbd0c60": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.709376+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Solutions Architect (Thailand)",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702054-solutions-architect-thailand"
+  },
   "af962b23193ad107ae14a1f06dd78c6bcd7a1efed7edf3f1aefb4d28fb1e5867": {
     "company": "DCVC Portfolio",
     "first_seen_utc": "2026-03-20T16:34:07.173463+00:00",
@@ -16715,6 +16963,14 @@
     "scored": false,
     "title": "Junior AIT Engineer (all genders)",
     "url": "https://reflex-aerospace-gmbh.jobs.personio.de/job/2560818?language=en"
+  },
+  "b0f831a894169a99397bb51147e9ca3fe5fcd187a6e3b17b8db7fc928a702103": {
+    "company": "Congruent Ventures Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.704031+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "VP Engineering",
+    "url": "https://job-boards.greenhouse.io/veir/jobs/4985883008"
   },
   "b0fb20887cf768cfa277a21b5f5be0bb2ba6b3c942fd1000d00abfcf3dcadcbd": {
     "company": "Patch",
@@ -17019,6 +17275,14 @@
     "score": 0,
     "title": "Technical Recruiter - (Fixed Term)",
     "url": "https://job-boards.greenhouse.io/astranis/jobs/4594971006"
+  },
+  "b3d649fe07369ea24c221150ac44118e16caf774b589b2d2342ebd86ba57f29b": {
+    "company": "Maxar",
+    "first_seen_utc": "2026-03-23T15:43:44.753092+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Federal Proposal Coordinator",
+    "url": "https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Federal-Proposal-Coordinator_R23582"
   },
   "b3fb78ffbd739767283836e1a35e6fe1815668e08c5f13a16b899a471b1f9a20": {
     "company": "Spire Global",
@@ -17621,6 +17885,14 @@
     "scored": false,
     "title": "Jobs at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d?offset=20/backend-developer-274388/"
+  },
+  "baf678b3cbcadc64ff26f3d13a95bd47e091716c6ffe3a7e31fdf700e522fdfd": {
+    "company": "Isar Aerospace",
+    "first_seen_utc": "2026-03-23T15:43:44.762599+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Manager Propulsion Valves",
+    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4812619101"
   },
   "bb004da78efc9d1aa0bd6477443af978d02b105d9c63258d98b30a25a5926bd1": {
     "company": "Sweep",
@@ -20286,6 +20558,14 @@
     "title": "CEO's Office",
     "url": "https://satsure.keka.com/careers"
   },
+  "d875a0cde6c917b977e80dbe055a8a434b85d25602754e803ce349ede75db807": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.709682+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Solutions Architect (Vietnam)",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702055-solutions-architect-vietnam"
+  },
   "d880c4e71859b5f47a7d1e377be548f65ea361710ef540eb71cac9baf28a3c10": {
     "company": "Western Resource Advocates",
     "first_seen_utc": "2026-03-06T18:44:48.337884+00:00",
@@ -20670,6 +20950,14 @@
     "title": "Senior Network & Systems Administrator",
     "url": "https://www.rideriver.com/careers/job-openings/367?location=River%20HQ,%20Bengaluru&department=IT%20Network%20and%20Security&title=Senior%20Network%20%26%20Systems%20Administrator"
   },
+  "dcb132844892cb4b1677a5e843bc95010867565c9c1f73f39c7cd594e92d7db2": {
+    "company": "Congruent Ventures Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.703073+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Field Service Solutions Technician",
+    "url": "https://job-boards.greenhouse.io/ampsortation/jobs/7656848003"
+  },
   "dcb380c4e3faa4941f415b28b09d133cd6101d0dfe65852bb43a03516d96cc60": {
     "company": "SatSure",
     "first_seen_utc": "2026-03-07T15:48:48.286456+00:00",
@@ -20933,6 +21221,14 @@
     "title": "Talent Attraction Partner",
     "url": "https://apply.workable.com/j/5219316BA2"
   },
+  "dfa045ce952eee087d2dace3ddeabb96bc9a86b7e5aff5fff0513011c73de6f7": {
+    "company": "Congruent Ventures Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.707573+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Engineering Manager (Australia)",
+    "url": "https://jobs.lever.co/omnidian/db6efa5c-c766-4572-ae2c-8ed6ab12cb3b?lever-source%5B%5D=jobs.congruentvc.com"
+  },
   "dfb04740523220d36771bea11f6a667fd7cf773c746b3e86fa7fad936cd1964d": {
     "company": "Mapbox",
     "first_seen_utc": "2026-03-20T16:34:07.209793+00:00",
@@ -21152,6 +21448,14 @@
     "scored": false,
     "title": "Jobs at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d?paged=2/backend-developer-274388/"
+  },
+  "e1fbd4c5421af9cfab1cecdefbbc79a63ff802bada488f997457f28ea66ce09c": {
+    "company": "Satlantis",
+    "first_seen_utc": "2026-03-23T15:43:44.675495+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "PRODUCT ASSURANCE MANAGER &amp;#8211; SPACE MISSIONS VACANCY",
+    "url": "https://www.satlantis.com/job/product-assurance-manager-space-missions-vacancy/"
   },
   "e1fc8b505e252a34f41f78418640fd0f0609e78b5b9fcef6be9ea70632c40d83": {
     "company": "Albedo",
@@ -22039,6 +22343,14 @@
     "title": "Senior Systems Engineer",
     "url": "https://careers.open-cosmos.com/jobs/6607409-senior-systems-engineer-porto-portugal"
   },
+  "eb9d5903ea5bd0debce4d0c97ae78f70cb159797591f672762e71f38ce9a1ddf": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.709950+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Sr. Solutions Engineer",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702056-sr-solutions-engineer"
+  },
   "ebbdf7b57833a9a99d74a34c401a0e7d170cee16680517c4b1bfca23f9bffb23": {
     "company": "GalaxEye",
     "first_seen_utc": "2026-03-07T14:26:39.199022+00:00",
@@ -22622,6 +22934,14 @@
     "score": 3,
     "title": "Director of Product Management (Public Sector)",
     "url": "https://job-boards.greenhouse.io/altanaai/jobs/7648048003"
+  },
+  "f2008ca7042c4f3b78db961256d94c87f3bc2de93dc25fa2cfddcba8aed1856c": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.709057+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Solutions Architect (Adelaide)",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702053-solutions-architect-adelaide"
   },
   "f2067c0579830140c8c8730fc01d237294fe5c84745e23dbd74d18c769595d8d": {
     "company": "Planet Labs",
@@ -23210,6 +23530,14 @@
     "title": "Operations Lead (Thailand)",
     "url": "https://jobs.dcvc.com/companies/halter/jobs/71376173-operations-lead-thailand"
   },
+  "f7a5e38a49eec251c3b145f044ba9536c261bc48a4b35cd942d9a812aa2b7c2f": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-03-23T15:43:44.710595+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Sr.Staff Software Engineer- Networking",
+    "url": "https://jobs.dcvc.com/companies/databricks/jobs/71702058-sr-staff-software-engineer-networking"
+  },
   "f7b7f9fc425014131e0163d78c5a552510eaae38437aa60b305a64ee9e9c352e": {
     "company": "Mapbox",
     "first_seen_utc": "2026-03-07T15:16:37.194227+00:00",
@@ -23658,6 +23986,14 @@
     "scored": false,
     "title": "Senior Software Engineer, Strategic Customer Engagements",
     "url": "https://jobs.dcvc.com/companies/planet/jobs/71586109-senior-software-engineer-strategic-customer-engagements"
+  },
+  "fb8673ad5d2b67fb72b7c649c93a19cb86c858bcfa9af30c1cf625a2edfaba75": {
+    "company": "Exotrail",
+    "first_seen_utc": "2026-03-23T15:43:44.759783+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Customer Project Manager Team Lead F/M",
+    "url": "https://careers.exotrail.com/jobs/7442743-customer-project-manager-team-lead-f-m"
   },
   "fb9d1e5c00a135f8e97938aecfc26edb8600dc397bd201e63a5a582239c83fc6": {
     "company": "Lowercarbon Capital Portfolio",
