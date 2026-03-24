@@ -1,32 +1,16 @@
-Job Tracker Digest - 2026-03-24 14:47 UTC
+Job Tracker Digest - 2026-03-24 17:24 UTC
 179/180 companies scraped successfully · 1 failed
-14 new postings
+6 new postings
 
-[Synspective] SARリサーチエンジニア
-  https://careers.synspective.com/o/kr8lcfsbty
-[DCVC Portfolio] RF Systems Engineer II
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/71817736-rf-systems-engineer-ii-operations
-[DCVC Portfolio] Senior RF Payload Formulation Systems Engineer
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/71817739-senior-rf-payload-formulation-systems-engineer-secret-clearance
-[Element 84] Software Engineer - Federal Geospatial (Remote - Washington, DC Area)
-  https://jobs.ashbyhq.com/element84/02201c12-1076-4f5d-bb7c-a967f10ded56/application
-[Varda Space Industries] Supply Chain Internship - Fall 2026
-  https://job-boards.greenhouse.io/vardaspace/jobs/7676391003
-[Maxar] RF SIGINT Technical Analyst
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Reston-VA/Mid-Senior-Strategic-Signals-Analyst_R23589
-[DCVC Portfolio] Clinical Sales Manager (Mid-Atlantic)
-  https://jobs.dcvc.com/companies/karius/jobs/71820441-clinical-sales-manager-mid-atlantic
-[Maxar] Account Executive, United States Air Force
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Account-Executive--United-States-Air-Force_R23583
-[Spire Global] Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7745871
-[AENU Portfolio] Bauleiter (m/w/d) Photovoltaik - Energietechnik / Agri-PV
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/71799705-bauleiter-m-w-d-photovoltaik-energietechnik-agri-pv
-[AENU Portfolio] Customer Success Manager, Germany & UK
-  https://jobs.aenu.com/companies/monta-2/jobs/71736909-customer-success-manager-germany-uk
-[DCVC Portfolio] DCVC Job Board
-  https://jobs.dcvc.com/companies/impulse-space-2/jobs/71800357-principal-network-engineer
-[Fugro] Global Manager – Business Solutions &amp; Analytics
-  https://www.fugro.com/careers/jobs/R0030897-global-manager-business-solutions-%26-analytics
-[Sateliot] PRINCIPAL ANTENNA PRODUCT ENGINEER
-  https://careers.sateliot.com/jobs/7452727-principal-antenna-product-engineer
+[Lowercarbon Capital Portfolio] Commercial Director
+  https://www.entocycle.com/careers#openings
+[DCVC Portfolio] Director, Engineering
+  https://jobs.dcvc.com/companies/illumio-2/jobs/71859873-director-engineering
+[DCVC Portfolio] Future Opportunity: Sales Development Representative (German Speaker)
+  https://jobs.dcvc.com/companies/sentinelone/jobs/71843841-future-opportunity-sales-development-representative-german-speaker
+[Maxar] GIS Back-End Engineer (TS/SCI)
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/GIS-Back-End-Engineer--TS-SCI-_R23182
+[DCVC Portfolio] Product Manager
+  https://jobs.dcvc.com/companies/illumio-2/jobs/71859923-product-manager
+[DCVC Portfolio] Principal Design Engineer
+  https://jobs.dcvc.com/companies/zwitterco/jobs/71840730-principal-design-engineer
