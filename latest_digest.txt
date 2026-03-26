@@ -1,14 +1,38 @@
-Job Tracker Digest - 2026-03-25 11:53 UTC
+Job Tracker Digest - 2026-03-26 13:21 UTC
 179/180 companies scraped successfully · 1 failed
-5 new postings
+17 new postings
 
-[Vulcan EarthRanger] Director of AI Infrastructure
-  https://job-boards.greenhouse.io/thealleninstitute/jobs/7747664
-[Extantia Portfolio] (Key) Account Manager (m/w/d)
-  https://join.com/jobs/15901180-key-account-manager-m-w-d-berlin
-[Extantia Portfolio] Teamlead Growth Management (m/w/d)
-  https://join.com/jobs/15901183-teamlead-growth-management-m-w-d
-[DCVC Portfolio] Principal Systems Engineer
-  https://jobs.dcvc.com/companies/fourth-power-2/jobs/71892746-principal-systems-engineer
-[Esri] Federal Account Manager- Public Safety & Law Enforcement Job
-  https://www.esri.com/careers/5006960007
+[AENU Portfolio] Partnerships & Alliances Manager
+  https://jobs.aenu.com/companies/monta-2/jobs/71946435-partnerships-alliances-manager
+[Altana AI] Business Development Representative
+  https://job-boards.greenhouse.io/altanaai/jobs/7678722003
+[Sylvera] Sales Development Representative
+  https://jobs.ashbyhq.com/sylvera/08577c83-92b9-40a7-84b6-d4f3ac8977fc
+[DCVC Portfolio] Director of AI
+  https://jobs.dcvc.com/companies/agility-robotics/jobs/72057274-director-of-ai
+[DCVC Portfolio] Head of Strategic Initiatives
+  https://jobs.dcvc.com/companies/zap-energy-2/jobs/72162800-head-of-strategic-initiatives
+[Fugro] HSSE Project Support Advisor
+  https://www.fugro.com/careers/jobs/R0030500-hsse-project-support-advisor-marine
+[Fugro] DGNSS Solutions Manager
+  https://www.fugro.com/careers/jobs/R0030783-dgnss-solutions-manager-marine
+[Maxar] Product Strategy &amp; Operations Manager, AI Transformation
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Product-Strategy---Operations-Manager--AI-Transformation_R23598
+[Watershed] Customer success manager, strategic
+  https://watershed.com/careers/f7437d2c-customer-success-manager-strategic
+[Spire Global] Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7277405
+[AENU Portfolio] (Senior) Product Manager (d/f/m)
+  https://jobs.aenu.com/companies/entrix-2/jobs/72027001-senior-product-manager-d-f-m
+[DCVC Portfolio] Senior Manager, AI Innovation
+  https://jobs.dcvc.com/companies/agility-robotics/jobs/72057276-senior-manager-ai-innovation
+[DCVC Portfolio] Solutions Engineer
+  https://jobs.dcvc.com/companies/kentik/jobs/72059117-solutions-engineer-emea
+[DCVC Portfolio] Senior/Principal Scientist (Theory)
+  https://jobs.dcvc.com/companies/zap-energy-2/jobs/72162804-senior-principal-scientist-theory
+[True Anomaly] Principal Flight Software Engineer
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5089134007
+[True Anomaly] Principal GNC Engineer
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5089061007
+[Varda Space Industries] Accounting and Finance Principal
+  https://job-boards.greenhouse.io/vardaspace/jobs/7666687003
