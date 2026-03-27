@@ -1,38 +1,38 @@
-Job Tracker Digest - 2026-03-26 13:21 UTC
+Job Tracker Digest - 2026-03-27 11:53 UTC
 179/180 companies scraped successfully · 1 failed
 17 new postings
 
-[AENU Portfolio] Partnerships & Alliances Manager
-  https://jobs.aenu.com/companies/monta-2/jobs/71946435-partnerships-alliances-manager
-[Altana AI] Business Development Representative
-  https://job-boards.greenhouse.io/altanaai/jobs/7678722003
-[Sylvera] Sales Development Representative
-  https://jobs.ashbyhq.com/sylvera/08577c83-92b9-40a7-84b6-d4f3ac8977fc
-[DCVC Portfolio] Director of AI
-  https://jobs.dcvc.com/companies/agility-robotics/jobs/72057274-director-of-ai
-[DCVC Portfolio] Head of Strategic Initiatives
-  https://jobs.dcvc.com/companies/zap-energy-2/jobs/72162800-head-of-strategic-initiatives
-[Fugro] HSSE Project Support Advisor
-  https://www.fugro.com/careers/jobs/R0030500-hsse-project-support-advisor-marine
-[Fugro] DGNSS Solutions Manager
-  https://www.fugro.com/careers/jobs/R0030783-dgnss-solutions-manager-marine
-[Maxar] Product Strategy &amp; Operations Manager, AI Transformation
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Product-Strategy---Operations-Manager--AI-Transformation_R23598
-[Watershed] Customer success manager, strategic
-  https://watershed.com/careers/f7437d2c-customer-success-manager-strategic
-[Spire Global] Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=7277405
-[AENU Portfolio] (Senior) Product Manager (d/f/m)
-  https://jobs.aenu.com/companies/entrix-2/jobs/72027001-senior-product-manager-d-f-m
-[DCVC Portfolio] Senior Manager, AI Innovation
-  https://jobs.dcvc.com/companies/agility-robotics/jobs/72057276-senior-manager-ai-innovation
-[DCVC Portfolio] Solutions Engineer
-  https://jobs.dcvc.com/companies/kentik/jobs/72059117-solutions-engineer-emea
-[DCVC Portfolio] Senior/Principal Scientist (Theory)
-  https://jobs.dcvc.com/companies/zap-energy-2/jobs/72162804-senior-principal-scientist-theory
-[True Anomaly] Principal Flight Software Engineer
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5089134007
-[True Anomaly] Principal GNC Engineer
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5089061007
-[Varda Space Industries] Accounting and Finance Principal
-  https://job-boards.greenhouse.io/vardaspace/jobs/7666687003
+[DCVC Portfolio] Go-To-Market (GTM) Digital Natives Program Leader
+  https://jobs.dcvc.com/companies/databricks/jobs/72215188-go-to-market-gtm-digital-natives-program-leader
+[Lowercarbon Capital Portfolio] Enterprise Sales Development Representative
+  https://boards.greenhouse.io/greenhouse/jobs/7704734
+[DCVC Portfolio] Enterprise Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/72215180-enterprise-account-executive-financial-services
+[Extantia Portfolio] Head of Asia, Pacific & West Coast Sales (based in US)
+  https://leydenjar.recruitee.com/o/head-of-asia-pacific-west-coast-sales-based-in-us
+[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72194592-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
+[Planet Labs] Customer Success Manager II, EMEA (DACH - Civil Government)
+  https://job-boards.greenhouse.io/planetlabs/jobs/7742352
+[DCVC Portfolio] Business Development Rep
+  https://jobs.dcvc.com/companies/databricks/jobs/72215176-business-development-rep
+[Lowercarbon Capital Portfolio] Account Executive
+  https://jobs.ashbyhq.com/StandInsurance/8e92979a-18bf-4c43-818d-578c290c8b53
+[Lowercarbon Capital Portfolio] Head of Strategic Initiatives
+  https://ats.rippling.com/zap-energy-careers/jobs/a3567ac8-7318-4a45-928b-29c2b9660a1d
+[AENU Portfolio] Sales Development Representative
+  https://jobs.aenu.com/companies/monta-2/jobs/72182570-sales-development-representative
+[Extantia Portfolio] Head of Marketing (based in US)
+  https://leydenjar.recruitee.com/o/head-of-marketing-based-in-us
+[Fugro] Global Head of Finance
+  https://www.fugro.com/careers/jobs/R0030245-global-head-of-finance-fleet-services
+[Lowercarbon Capital Portfolio] Senior/Principal Scientist (Theory)
+  https://ats.rippling.com/zap-energy-careers/jobs/1319089a-76bd-4da9-9055-7c2f66df7597
+[DCVC Portfolio] Senior Technical Solutions Engineer - Platform (Greater China Region)
+  https://jobs.dcvc.com/companies/databricks/jobs/72215196-senior-technical-solutions-engineer-platform-greater-china-region
+[DCVC Portfolio] Sr. Solutions Engineer
+  https://jobs.dcvc.com/companies/databricks/jobs/72215197-sr-solutions-engineer
+[Maxar] Strategic Account Manager (SAM)
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Strategic-Account-Manager--SAM-_R23604
+[Altana AI] Technical Account Manager, Logistics
+  https://job-boards.greenhouse.io/altanaai/jobs/7680957003
