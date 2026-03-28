@@ -1,38 +1,36 @@
-Job Tracker Digest - 2026-03-27 11:53 UTC
+Job Tracker Digest - 2026-03-28 10:47 UTC
 179/180 companies scraped successfully · 1 failed
-17 new postings
+16 new postings
 
-[DCVC Portfolio] Go-To-Market (GTM) Digital Natives Program Leader
-  https://jobs.dcvc.com/companies/databricks/jobs/72215188-go-to-market-gtm-digital-natives-program-leader
-[Lowercarbon Capital Portfolio] Enterprise Sales Development Representative
-  https://boards.greenhouse.io/greenhouse/jobs/7704734
-[DCVC Portfolio] Enterprise Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/72215180-enterprise-account-executive-financial-services
-[Extantia Portfolio] Head of Asia, Pacific & West Coast Sales (based in US)
-  https://leydenjar.recruitee.com/o/head-of-asia-pacific-west-coast-sales-based-in-us
-[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72194592-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
-[Planet Labs] Customer Success Manager II, EMEA (DACH - Civil Government)
-  https://job-boards.greenhouse.io/planetlabs/jobs/7742352
-[DCVC Portfolio] Business Development Rep
-  https://jobs.dcvc.com/companies/databricks/jobs/72215176-business-development-rep
-[Lowercarbon Capital Portfolio] Account Executive
-  https://jobs.ashbyhq.com/StandInsurance/8e92979a-18bf-4c43-818d-578c290c8b53
-[Lowercarbon Capital Portfolio] Head of Strategic Initiatives
-  https://ats.rippling.com/zap-energy-careers/jobs/a3567ac8-7318-4a45-928b-29c2b9660a1d
-[AENU Portfolio] Sales Development Representative
-  https://jobs.aenu.com/companies/monta-2/jobs/72182570-sales-development-representative
-[Extantia Portfolio] Head of Marketing (based in US)
-  https://leydenjar.recruitee.com/o/head-of-marketing-based-in-us
-[Fugro] Global Head of Finance
-  https://www.fugro.com/careers/jobs/R0030245-global-head-of-finance-fleet-services
-[Lowercarbon Capital Portfolio] Senior/Principal Scientist (Theory)
-  https://ats.rippling.com/zap-energy-careers/jobs/1319089a-76bd-4da9-9055-7c2f66df7597
-[DCVC Portfolio] Senior Technical Solutions Engineer - Platform (Greater China Region)
-  https://jobs.dcvc.com/companies/databricks/jobs/72215196-senior-technical-solutions-engineer-platform-greater-china-region
-[DCVC Portfolio] Sr. Solutions Engineer
-  https://jobs.dcvc.com/companies/databricks/jobs/72215197-sr-solutions-engineer
-[Maxar] Strategic Account Manager (SAM)
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Strategic-Account-Manager--SAM-_R23604
-[Altana AI] Technical Account Manager, Logistics
-  https://job-boards.greenhouse.io/altanaai/jobs/7680957003
+[DCVC Portfolio] Strategic Enterprise Account Executive, Lakebase
+  https://jobs.dcvc.com/companies/databricks/jobs/72341979-strategic-enterprise-account-executive-lakebase
+[Commonwealth Fusion Systems] Lead RF Electro-Mechanical Technician
+  https://jobs.lever.co/cfsenergy/a6d69919-22d5-4422-9d39-6ed5e4bcc008
+[Planet Labs] Talent Acquisition Partner, Commercial & G&A
+  https://job-boards.greenhouse.io/planetlabs/jobs/7740641
+[Lowercarbon Capital Portfolio] Head of Data
+  https://ats.rippling.com/zap-energy-careers/jobs/cd931ab3-9ef6-412f-9eee-945b704ca087
+[Extantia Portfolio] Product Owner (m/w/d) Marketing & Sales
+  https://vamo.jobs.personio.de/job/2578988
+[DCVC Portfolio] RVP, Insurance, Wealth & Asset Management
+  https://jobs.dcvc.com/companies/databricks/jobs/72341957-rvp-insurance-wealth-asset-management
+[Fugro] Project Manager Uncrewed Solutions
+  https://www.fugro.com/careers/jobs/R0030499-project-manager-uncrewed-solutions-marine
+[Fugro] Global Manager Sales Technology &amp; CRM Transformation
+  https://www.fugro.com/careers/jobs/R0030897-global-manager-sales-technology-%26-crm-transformation
+[Watershed] Customer success manager, strategic
+  https://watershed.com/careers/f7437d2c-customer-success-manager-strategic-dach
+[Planet Labs] Senior Manager, Talent Acquisition
+  https://job-boards.greenhouse.io/planetlabs/jobs/7740657
+[Planet Labs] Senior Manager, Talent Operations
+  https://job-boards.greenhouse.io/planetlabs/jobs/7740653
+[DCVC Portfolio] Senior/Principal Controls Systems Engineer
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/72361630-senior-principal-controls-systems-engineer-secret-clearance
+[True Anomaly] Mechanical Engineer, Missile Defense (Senior-Staff)
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5092507007
+[True Anomaly] Principal Spacecraft Simulation Software Engineer
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091767007
+[EagleView] Sr. Technical Product Manager
+  https://careers.eagleview.com/jobs/2760?lang=en-us
+[Fugro] Product Manager In-situ probes &amp; sensors
+  https://www.fugro.com/careers/jobs/R0030693-product-manager-in-situ-probes-%26-sensors
