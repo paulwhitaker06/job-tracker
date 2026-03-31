@@ -1,14 +1,52 @@
-Job Tracker Digest - 2026-03-30 12:15 UTC
+Job Tracker Digest - 2026-03-31 12:08 UTC
 179/180 companies scraped successfully · 1 failed
-5 new postings
+24 new postings
 
-[DCVC Portfolio] CRM Business Development
-  https://jobs.dcvc.com/companies/element-ai/jobs/72598520-crm-business-development-global-partners
-[DCVC Portfolio] Supply Chain Buyer
-  https://jobs.dcvc.com/companies/lumafield/jobs/72603071-supply-chain-buyer
+[AENU Portfolio] Strategic Partnerships Manager:in (m/w/d)
+  https://jobs.aenu.com/companies/voltfang/jobs/72435072-strategic-partnerships-manager-in-m-w-d
+[SatSure] Associate Director - Agri & Forestry
+  https://satsure.keka.com/careers
+[Satlantis] EUROPE BUSINESS DEVELOPMENT AND SALES MANAGER VACANCY
+  https://www.satlantis.com/job/europe-business-development-and-sales-manager-vacancy/
+[DCVC Portfolio] Commercial Account Executive
+  https://jobs.dcvc.com/companies/sentinelone/jobs/72670218-commercial-account-executive
+[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72644587-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
+[Open Cosmos] Information Security Governance Risk and Compliance Lead
+  https://careers.open-cosmos.com/jobs/7487026-information-security-governance-risk-and-compliance-lead
+[Planet Labs] Senior Business Development Manager, D&I
+  https://job-boards.greenhouse.io/planetlabs/jobs/7746403
+[DCVC Portfolio] Partner Business Development Manager, CRM & AI ANZ
+  https://jobs.dcvc.com/companies/element-ai/jobs/72655790-partner-business-development-manager-crm-ai-anz
+[Greenly] Chief Revenue Officer (CRO)
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/chief-revenue-officer-cro_paris
+[LiveEO] Account Executive North America (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=en&apply
 [LiveEO] Director of Information Security & Sovereign Operations (f/m/x)
-  https://liveeo-gmbh.jobs.personio.de/job/2435599?language=de
-[DCVC Portfolio] Medical Assistant
-  https://jobs.dcvc.com/companies/carbon-health/jobs/72583502-medical-assistant
-[Lowercarbon Capital Portfolio] Group Product Manager, Bare Metal Services (SF, Sunnyvale, Seattle)
-  https://www.linkedin.com/jobs/view/group-product-manager-bare-metal-services-sf-sunnyvale-seattle-at-crusoe-4377580191
+  https://liveeo-gmbh.jobs.personio.de/job/2435599?language=en&apply
+[LiveEO] Senior Account Executive (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=en&apply
+[Lowercarbon Capital Portfolio] Director
+  https://jobs.lever.co/thea.energy/b5fb61a3-e32d-4cef-84f1-218a21d1a502
+[AENU Portfolio] AENU Job Board
+  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72647745-werkstudent-in-grants-public-affairs-f-m-x
+[DCVC Portfolio] Corporate Sales Manager (Queensland, Beef)
+  https://jobs.dcvc.com/companies/halter/jobs/72673239-corporate-sales-manager-queensland-beef
+[DCVC Portfolio] Regional Sales Manager (New South Wales)
+  https://jobs.dcvc.com/companies/halter/jobs/72673240-regional-sales-manager-new-south-wales
+[SatSure] Associate Director
+  https://satsure.keka.com/careers
+[Planet Labs] Cost Accounting Senior Manager
+  https://job-boards.greenhouse.io/planetlabs/jobs/7740659
+[AENU Portfolio] Compliance Manager:in im Qualitätsmanagement (m/w/d)
+  https://jobs.aenu.com/companies/voltfang/jobs/72435065-compliance-manager-in-im-qualitatsmanagement-m-w-d
+[DCVC Portfolio] Senior/Principal Data Scientist
+  https://jobs.dcvc.com/companies/relation-therapeutics/jobs/72704971-senior-principal-data-scientist
+[DCVC Portfolio] Senior/Principal Controls Systems Engineer
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/72702912-senior-principal-controls-systems-engineer-secret-clearance
+[True Anomaly] Staff Security Architect, Missile Defense
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5093698007
+[Windward] Customer Success Manager DC
+  https://windward.ai/company/careers/co/washington-dc-area/F6.869/customer-success-manager-dc/all
+[SatSure] Senior Manager
+  https://satsure.keka.com/careers
