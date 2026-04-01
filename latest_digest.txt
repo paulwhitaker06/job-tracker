@@ -1,52 +1,46 @@
-Job Tracker Digest - 2026-03-31 12:08 UTC
+Job Tracker Digest - 2026-04-01 12:16 UTC
 179/180 companies scraped successfully · 1 failed
-24 new postings
+21 new postings
 
-[AENU Portfolio] Strategic Partnerships Manager:in (m/w/d)
-  https://jobs.aenu.com/companies/voltfang/jobs/72435072-strategic-partnerships-manager-in-m-w-d
-[SatSure] Associate Director - Agri & Forestry
-  https://satsure.keka.com/careers
-[Satlantis] EUROPE BUSINESS DEVELOPMENT AND SALES MANAGER VACANCY
-  https://www.satlantis.com/job/europe-business-development-and-sales-manager-vacancy/
-[DCVC Portfolio] Commercial Account Executive
-  https://jobs.dcvc.com/companies/sentinelone/jobs/72670218-commercial-account-executive
-[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72644587-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
-[Open Cosmos] Information Security Governance Risk and Compliance Lead
-  https://careers.open-cosmos.com/jobs/7487026-information-security-governance-risk-and-compliance-lead
-[Planet Labs] Senior Business Development Manager, D&I
-  https://job-boards.greenhouse.io/planetlabs/jobs/7746403
-[DCVC Portfolio] Partner Business Development Manager, CRM & AI ANZ
-  https://jobs.dcvc.com/companies/element-ai/jobs/72655790-partner-business-development-manager-crm-ai-anz
-[Greenly] Chief Revenue Officer (CRO)
-  https://www.welcometothejungle.com/en/companies/greenly/jobs/chief-revenue-officer-cro_paris
-[LiveEO] Account Executive North America (f/m/x)
-  https://liveeo-gmbh.jobs.personio.de/job/2006503?language=en&apply
-[LiveEO] Director of Information Security & Sovereign Operations (f/m/x)
-  https://liveeo-gmbh.jobs.personio.de/job/2435599?language=en&apply
-[LiveEO] Senior Account Executive (f/m/x)
-  https://liveeo-gmbh.jobs.personio.de/job/2518567?language=en&apply
-[Lowercarbon Capital Portfolio] Director
-  https://jobs.lever.co/thea.energy/b5fb61a3-e32d-4cef-84f1-218a21d1a502
-[AENU Portfolio] AENU Job Board
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72647745-werkstudent-in-grants-public-affairs-f-m-x
-[DCVC Portfolio] Corporate Sales Manager (Queensland, Beef)
-  https://jobs.dcvc.com/companies/halter/jobs/72673239-corporate-sales-manager-queensland-beef
-[DCVC Portfolio] Regional Sales Manager (New South Wales)
-  https://jobs.dcvc.com/companies/halter/jobs/72673240-regional-sales-manager-new-south-wales
-[SatSure] Associate Director
-  https://satsure.keka.com/careers
-[Planet Labs] Cost Accounting Senior Manager
-  https://job-boards.greenhouse.io/planetlabs/jobs/7740659
-[AENU Portfolio] Compliance Manager:in im Qualitätsmanagement (m/w/d)
-  https://jobs.aenu.com/companies/voltfang/jobs/72435065-compliance-manager-in-im-qualitatsmanagement-m-w-d
-[DCVC Portfolio] Senior/Principal Data Scientist
-  https://jobs.dcvc.com/companies/relation-therapeutics/jobs/72704971-senior-principal-data-scientist
-[DCVC Portfolio] Senior/Principal Controls Systems Engineer
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/72702912-senior-principal-controls-systems-engineer-secret-clearance
-[True Anomaly] Staff Security Architect, Missile Defense
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5093698007
-[Windward] Customer Success Manager DC
-  https://windward.ai/company/careers/co/washington-dc-area/F6.869/customer-success-manager-dc/all
-[SatSure] Senior Manager
-  https://satsure.keka.com/careers
+[Lowercarbon Capital Portfolio] Commercial Director
+  https://www.entocycle.com/careers#4qpxecvjagdewj61rumsea3d2&:~:text=Commercial%20Director
+[LiveEO] Enterprise Sales Engineer (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2589173?language=en
+[Lowercarbon Capital Portfolio] Director of Ski Resort Partnerships
+  https://jobs.lever.co/make-rain/e3535955-fe34-423d-9e9f-8cc7c9e2da9f
+[Lowercarbon Capital Portfolio] Enterprise Account Executive
+  https://jobs.ashbyhq.com/Crusoe/60417d4a-e972-4973-ba51-ef6e3fadb7c2
+[Satellogic] Account Manager – US and Allied Defense and Intelligence
+  https://satellogic.bamboohr.com/careers/513
+[DCVC Portfolio] Director of Customer Success
+  https://jobs.dcvc.com/companies/mainspring-energy/jobs/72851393-director-of-customer-success
+[Lowercarbon Capital Portfolio] Sales Manager - Animal Nutrition, Aquaculture, Pet Food
+  https://www.entocycle.com/careers#2je3lhsxaym10d1gly54qfucn&:~:text=Sales%20Manager%20-%20Animal%20Nutrition,%20Aquaculture,%20Pet%20Food
+[Lowercarbon Capital Portfolio] Director, Site Construction
+  https://jobs.ashbyhq.com/Crusoe/b94b1a00-3a0b-42e2-b023-9acdbc83234d
+[DCVC Portfolio] Head of Product
+  https://jobs.dcvc.com/companies/electronx/jobs/72853921-head-of-product
+[DCVC Portfolio] Director, Technical Product Management
+  https://jobs.dcvc.com/companies/freenome/jobs/72930149-director-technical-product-management
+[DCVC Portfolio] Associate Director / Director, Analytical Development
+  https://jobs.dcvc.com/companies/genedit/jobs/72934977-associate-director-director-analytical-development
+[Fugro] Head of Internal Communications
+  https://www.fugro.com/careers/jobs/R0030177-head-of-internal-communications
+[Fugro] Head of Product – ROAMES &amp; PaaS
+  https://www.fugro.com/careers/jobs/R0030864-head-of-product-roames-%26-paas
+[Fugro] Online Surveyor
+  https://www.fugro.com/careers/jobs/R0030876-online-surveyor-marine
+[Maxar] Solutions Architect Director
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/London-United-Kingdom/Solutions-Architect-Director_R23616
+[Maxar] GIS Data Engineer
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Orlando-FL/GIS-Data-Engineer_R23602
+[AENU Portfolio] (Senior) Product Manager (d/f/m)
+  https://jobs.aenu.com/companies/entrix-2/jobs/72763959-senior-product-manager-d-f-m
+[DCVC Portfolio] Senior Manager, Manufacturing Engineering, NPI
+  https://jobs.dcvc.com/companies/agility-robotics/jobs/72851599-senior-manager-manufacturing-engineering-npi
+[DCVC Portfolio] Principal Scientist / Senior Scientist, Analytical Chemistry (Biopolymers)
+  https://jobs.dcvc.com/companies/genedit/jobs/72934979-principal-scientist-senior-scientist-analytical-chemistry-biopolymers
+[True Anomaly] Principal Thermal Engineer
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091242007
+[Maxar] Solutions Engineer
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/London-United-Kingdom/Solutions-Engineer_R23596
