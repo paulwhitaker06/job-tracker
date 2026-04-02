@@ -1,52 +1,44 @@
-Job Tracker Digest - 2026-04-02 12:31 UTC
+Job Tracker Digest - 2026-04-02 21:01 UTC
 179/180 companies scraped successfully · 1 failed
-24 new postings
+20 new postings
 
-[AENU Portfolio] Working Student / Intern Business Development (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72953374-working-student-intern-business-development-f-m-x
-[Lowercarbon Capital Portfolio] Manager - Defense Business Operations & Partnerships
-  https://ke.linkedin.com/jobs/view/manager-defense-business-operations-partnerships-at-solugen-4394154923
-[AENU Portfolio] Commercial Project Manager (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72953371-commercial-project-manager-f-m-x
-[Greentown Labs (Green Town Labs)] Director/VP of Software
-  https://jobs.ashbyhq.com/allspice/7b9852d3-9aaf-4344-9912-90d4d5244a36?utm_source=jobs.greentownlabs.com
-[Maxar] Senior Manager, Third-Party Risk Management (TPRM)
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Senior-Manager--Third-Party-Risk-Management--TPRM-_R23635
-[Sylvera] Carbon Analyst
-  https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944
-[Sylvera] Applied Scientist – Forest Lidar & 3D ML
-  https://jobs.ashbyhq.com/sylvera/f1f3287a-b1cf-429d-b55d-f1b2c5846fc6
-[Lowercarbon Capital Portfolio] Mid-Market Sales Development Representative
-  https://www.linkedin.com/jobs/view/mid-market-sales-development-representative-at-greenhouse-software-4395147750
-[AENU Portfolio] Automation & Controls Engineer (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72953368-automation-controls-engineer-f-m-x
-[AENU Portfolio] Bilanzbuchhalter:in (Teilzeit, Hybrid) (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72953375-bilanzbuchhalter-in-teilzeit-hybrid-f-m-x
-[AENU Portfolio] Werkstudent:in Grants & Public Affairs (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/72953377-werkstudent-in-grants-public-affairs-f-m-x
-[DCVC Portfolio] Associate Director, Strategic Alliance (Genetic Medicine)
-  https://jobs.dcvc.com/companies/asimov/jobs/73039680-associate-director-strategic-alliance-genetic-medicine
-[Greentown Labs (Green Town Labs)] Sales Engineer
-  https://jobs.ashbyhq.com/dandelion/4c67814b-0d14-4c58-9611-9c7e822f142a?utm_source=jobs.greentownlabs.com
-[Greentown Labs (Green Town Labs)] Sales Operations / Inside Sales (m/w/d)
-  https://solar-materials-gmbh.jobs.personio.de/job/2585700
-[Greentown Labs (Green Town Labs)] 1.8. Director of Finance
-  https://jobs.lever.co/PhoenixTailings/16d19faa-3fff-4630-97e6-dedb3ffa912d?lever-source%5B%5D=jobs.greentownlabs.com
-[Greentown Labs (Green Town Labs)] 1.6. Legal Counsel-Commercial Contracts
-  https://jobs.lever.co/PhoenixTailings/9a1c407d-273e-4c3b-8f09-71f15527f1ec?lever-source%5B%5D=jobs.greentownlabs.com
-[Slingshot Aerospace] VP, Global Controller
-  https://job-boards.greenhouse.io/slingshotaerospace/jobs/5843301004?gh_jid=5843301004
-[Maxar] Director, Strategic Sourcing - Aerospace &amp; Engineering
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Director--Strategic-Sourcing---Aerospace---Engineering_R23634
-[Overstory] Enterprise Customer Success Manager
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4792521101
-[AENU Portfolio] Elektriker (m/w/d) Agri Photovoltaik / Anlagenbau
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72999870-elektriker-m-w-d-agri-photovoltaik-anlagenbau
-[AENU Portfolio] Vertriebsmitarbeiter Außendienst (m/w/d) - Agri-Photovoltaik
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/72999877-vertriebsmitarbeiter-aussendienst-m-w-d-agri-photovoltaik
-[DCVC Portfolio] Staff Technical Account Manager
-  https://jobs.dcvc.com/companies/illumio-2/jobs/73073975-staff-technical-account-manager
-[Greentown Labs (Green Town Labs)] Enterprise Customer Success Manager
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4792521101
-[True Anomaly] Staff Security Architect (ISSE), Missile Defense
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5093698007
+[Treefera] Enterprise Sales Development Representative
+  https://jobs.ashbyhq.com/treefera/42263bef-73be-47fc-8b27-08fbaf03b60d
+[DCVC Portfolio] Sr Enterprise Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133762-sr-enterprise-account-executive
+[DCVC Portfolio] Senior Enterprise Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133770-senior-enterprise-account-executive
+[DCVC Portfolio] Global Head of CHRO GTM Lead
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133773-global-head-of-chro-gtm-lead
+[DCVC Portfolio] Director, Canada Partnerships & Channels
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133781-director-canada-partnerships-channels
+[LiveEO] Senior Institutional Business Development Manager (f/m/x) - Government Program (EU)
+  https://liveeo-gmbh.jobs.personio.de/job/2591470?language=en
+[DCVC Portfolio] Senior Solution Sales Executive (Risk/Sec)
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133790-senior-solution-sales-executive-risk-sec
+[DCVC Portfolio] Senior Solution Sales Executive (Risk/Security)
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133792-senior-solution-sales-executive-risk-security
+[DCVC Portfolio] Senior Manager, Digital Experience Strategy
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133776-senior-manager-digital-experience-strategy
+[DCVC Portfolio] Director, Head of Editorial & Thought Leadership
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133795-director-head-of-editorial-thought-leadership
+[DCVC Portfolio] Senior Commercial Account Exec (Growth Accounts) Denmark
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133798-senior-commercial-account-exec-growth-accounts-denmark
+[LiveEO] Business Development Representative North America (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2489283?language=en&apply
+[Congruent Ventures Portfolio] Principal Product Manager
+  https://job-boards.greenhouse.io/veir/jobs/5168795008
+[DCVC Portfolio] Client Director Large Telco Customer
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133764-client-director-large-telco-customer
+[DCVC Portfolio] Senior Solution Sales Executive, Data & AI
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133767-senior-solution-sales-executive-data-ai
+[DCVC Portfolio] Federal DOD/Intel Senior Solution Sales Executive- Identity and Security
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133783-federal-dod-intel-senior-solution-sales-executive-identity-and-security
+[Greentown Labs (Green Town Labs)] 1.7. Vice President of Finance
+  https://jobs.lever.co/PhoenixTailings/f65d6ef7-57ca-46e4-be8f-366d9af771ae?lever-source%5B%5D=jobs.greentownlabs.com
+[AENU Portfolio] Technischer Projektmanager / Projektentwickler (m/w/d) Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73113605-technischer-projektmanager-projektentwickler-m-w-d-agri-pv
+[DCVC Portfolio] Senior Manager, Expert Services Management - CRM & Industry Workflows
+  https://jobs.dcvc.com/companies/element-ai/jobs/73133765-senior-manager-expert-services-management-crm-industry-workflows
+[True Anomaly] Engineering Manager, Missile Defense Mechanical
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5098311007
