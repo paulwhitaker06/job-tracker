@@ -640,6 +640,7 @@ def looks_like_garbage(items: list[dict]) -> bool:
 JS_HEAVY_PATTERNS = [
     "myworkdayjobs.com", "wd1.myworkdaysite.com", "wd3.myworkdaysite.com",
     "wd5.myworkdayjobs.com", "workforcenow.adp.com", "ats.rippling.com",
+    "csod.com",
 ]
 
 
@@ -706,6 +707,9 @@ def get_playwright_links(company: dict) -> list[dict]:
                                 for job in container:
                                     t = job.get(title_field, "")
                                     u = job.get(url_field, "") if url_field else ""
+                                    # Filter out LinkedIn and other rejected URLs from intercepted data
+                                    if u and any(x in u.lower() for x in ["linkedin.com", "facebook.com", "glassdoor.com"]):
+                                        continue
                                     if t:
                                         intercepted_jobs.append({
                                             "id": sha(company["name"] + "|intercepted|" + str(t) + str(u)),

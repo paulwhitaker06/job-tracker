@@ -54,11 +54,11 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/sylvera
 
   - name: Upstream Tech
-    type: manual_check
+    type: html_links
     url: https://jobs.upstream.tech/
 
   - name: WindBorne Systems
-    type: manual_check
+    type: html_links
     url: https://windbornesystems.com/careers
 
   - name: OroraTech
@@ -87,7 +87,7 @@ companies:
     url: https://kayrros1.recruitee.com/
 
   - name: Carbon Mapper
-    type: manual_check
+    type: html_links
     url: https://jobs.gusto.com/boards/carbon-mapper-inc-3ff9ef6d-ec4f-45af-94e4-2a67e7b31154
 
   - name: Planet Labs
@@ -100,7 +100,7 @@ companies:
     url: https://spire.com/careers/job-openings/
 
   - name: Sust Global
-    type: manual_check
+    type: html_links
     url: https://www.sustglobal.com/careers
 
   - name: ClimateAI
@@ -112,7 +112,7 @@ companies:
     url: https://skyfi.com/en/careers
 
   - name: Orbio Earth
-    type: manual_check
+    type: html_links
     url: https://www.orbio.earth/careers
 
   - name: Satlantis
@@ -125,7 +125,7 @@ companies:
 
   - name: Regrow
     type: lever_api
-    url: https://jobs.lever.co/regrow.ag
+    url: https://jobs.lever.co/regrow
 
   - name: Persefoni
     type: html_links
@@ -140,7 +140,7 @@ companies:
     url: https://www.downforce.tech/careers
 
   - name: Capella Space
-    type: manual_check
+    type: html_links
     url: https://www.capellaspace.com/company/careers#open-positions
 
   - name: Umbra Space (Umbra Lab)
@@ -152,7 +152,7 @@ companies:
     url: https://blacksky.com/company/careers/
 
   - name: GeoOptics
-    type: manual_check
+    type: html_links
     url: https://geooptics.com/careers-2-2/
 
   - name: Axiom Space
@@ -305,11 +305,11 @@ companies:
     url: https://rsmetrics.com/careers/
 
   - name: SpaceKnow
-    type: manual_check
+    type: html_links
     url: https://spaceknow.com/careers/#positions
 
   - name: SparkGeo
-    type: manual_check
+    type: html_links
     url: https://sparkgeo.com/careers/
 
   - name: UP42
@@ -325,19 +325,19 @@ companies:
     url: https://www.carbonchain.com/careers
 
   - name: Climate X
-    type: manual_check
+    type: html_links
     url: https://www.climate-x.com/careers
 
   - name: Climate Central
-    type: manual_check
+    type: html_links
     url: https://www.climatecentral.org/what-we-do/jobs
 
   - name: ClimateView
-    type: manual_check
+    type: html_links
     url: https://www.climateview.global/us/career
 
   - name: Terra Climate
-    type: manual_check
+    type: html_links
     url: https://www.climatologylab.org/openings.html
 
   - name: E-Space
@@ -345,7 +345,7 @@ companies:
     url: https://www.e-space.com/pages/careers
 
   - name: Earthshot Labs
-    type: manual_check
+    type: html_links
     url: https://www.earthshot.eco/about/about-a
 
   - name: GeologicAI
@@ -365,7 +365,7 @@ companies:
     url: https://www.privateer.com/careers
 
   - name: Scout Space
-    type: manual_check
+    type: html_links
     url: https://www.scout.space/careers
 
   - name: Slingshot Aerospace
@@ -494,7 +494,7 @@ companies:
     url: https://maxar.wd1.myworkdayjobs.com/Vantor
 
   - name: Nearmap
-    type: manual_check
+    type: html_links
     url: https://www.nearmap.com/careers
 
   - name: Normative
@@ -510,7 +510,7 @@ companies:
     url: https://oceanmind.global/about-us/careers/
 
   - name: OpenOcean Robotics
-    type: manual_check
+    type: html_links
     url: https://www.openoceanrobotics.com/careers
 
   - name: Patch
@@ -563,11 +563,11 @@ companies:
     url: https://www.tomtom.com/careers/joboverview/
 
   - name: Undo Carbon
-    type: manual_check
+    type: html_links
     url: https://un-do.careers.hibob.com/jobs
 
   - name: Vaulted Deep
-    type: manual_check
+    type: html_links
     url: https://jobs.gusto.com/boards/vaulted-deep-f80523c0-4d4e-4e4c-9636-4db9035a1561
 
   - name: Vulcan EarthRanger
@@ -611,11 +611,11 @@ companies:
     url: https://cubicpv.com/careers/#openings
 
   - name: Dandelion Energy
-    type: manual_check
+    type: html_links
     url: https://dandelionenergy.com/careers
 
   - name: Dawn Aerospace
-    type: manual_check
+    type: html_links
     url: https://dawnaerospace.bamboohr.com/careers
 
   - name: Dioxycle
@@ -623,7 +623,7 @@ companies:
     url: https://dioxycle.com/career/
 
   - name: Dragonfly Aerospace
-    type: manual_check
+    type: html_links
     url: https://dragonflyaerospace.com/blog/career/
 
   - name: Earth-i
@@ -631,7 +631,7 @@ companies:
     url: https://earthi.space/about-us/#careers
 
   - name: Electric Hydrogen
-    type: manual_check
+    type: html_links
     url: https://eh2.com/join-the-team/#careers
 
   - name: Fervo Energy
@@ -643,7 +643,7 @@ companies:
     url: https://formenergy.com/careers/open-jobs/
 
   - name: Alén Space
-    type: manual_check
+    type: playwright
     url: https://gmv.csod.com/ux/ats/careersite/6/home?c=gmv&lang=en-US
 
   - name: Isar Aerospace
@@ -665,7 +665,7 @@ companies:
     url: https://www.brimstone.com/careers
 
   - name: Conservation X Labs
-    type: manual_check
+    type: html_links
     url: https://jobs.gusto.com/boards/conservation-x-labs-inc-14fc6ae7-e196-4389-acac-1241aa0f143d
 
   - name: Commonwealth Fusion Systems
@@ -709,15 +709,15 @@ companies:
     url: https://weatherstream.com/careers/
 
   - name: Sidus Space
-    type: manual_check
+    type: playwright
     url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=274f5796-403b-41e3-b324-309840b20c85&ccId=19000101_000001&lang=en_US
 
   - name: Orbcomm
-    type: manual_check
+    type: playwright
     url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b9e6f585-387b-496e-8b63-bee5bed64c3e&ccId=19000101_000001&type=JS&lang=en_US
 
   - name: ESS Inc
-    type: manual_check
+    type: playwright
     url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ca44b751-a5b8-4956-b756-4564a6eec5ff&ccId=19000101_000001&lang=en_US
 
   - name: AAC Clyde Space
@@ -725,11 +725,11 @@ companies:
     url: https://www.aac-clyde.space/careers
 
   - name: Aetherflux
-    type: manual_check
+    type: html_links
     url: https://www.aetherflux.com/#careers-anchor
 
   - name: Antora Energy
-    type: manual_check
+    type: html_links
     url: https://www.antora.com/careers#jobs
 
   - name: Baseload Capital
@@ -745,7 +745,7 @@ companies:
     url: https://www.carboncure.com/careers/
 
   - name: Clearbot
-    type: manual_check
+    type: html_links
     url: https://www.clearbot.org/about-us#
 
   - name: H2Pro
@@ -757,7 +757,7 @@ companies:
     url: https://www.endurosat.com/careers/
 
   - name: Equilibrium Energy
-    type: manual_check
+    type: html_links
     url: https://www.equilibriumenergy.com/careers#jobs
 
   - name: Flowminder
@@ -777,19 +777,19 @@ companies:
     url: https://www.guidewheel.com/company/careers#open-roles
 
   - name: Skyloom
-    type: manual_check
+    type: html_links
     url: https://skyloom.com/careers
 
   - name: MapHubs
-    type: manual_check
+    type: html_links
     url: https://www.maphubs.com/careers
 
   - name: Pixalytics
-    type: manual_check
+    type: html_links
     url: https://www.pixalytics.com/contact-us/vacancies/
 
   - name: PLD Space
-    type: manual_check
+    type: html_links
     url: https://www.pldspace.com/pld-space-empleo/posiciones-abiertas/
 
   - name: Skytek
@@ -801,29 +801,27 @@ companies:
     url: https://www.subcimaging.com/careers/#current-openings
 
   - name: Windfall Bio
-    type: manual_check
+    type: html_links
     url: https://www.windfall.bio/careers
 
-  # ── HIGH-PRIORITY (curated from CV + meeting notes) ──────────────────────────
-
   - name: MarineTraffic
-    type: manual_check
+    type: html_links
     url: https://www.marinetraffic.com/en/p/careers
 
   - name: Lloyd's List Intelligence
-    type: manual_check
+    type: html_links
     url: https://lloydslist.com/about/careers
 
   - name: Skylight
-    type: manual_check
+    type: html_links
     url: https://www.skylight.global/about#careers
 
   - name: Veson Nautical
-    type: manual_check
+    type: html_links
     url: https://vesonnautical.com/careers/
 
   - name: DNV
-    type: manual_check
+    type: html_links
     url: https://www.dnv.com/careers/
 
   - name: Orsted
@@ -831,11 +829,11 @@ companies:
     url: https://orsted.com/en/careers
 
   - name: MDA Space
-    type: manual_check
+    type: html_links
     url: https://mda.space/en/careers/
 
   - name: Kontur
-    type: manual_check
+    type: html_links
     url: https://kontur.io/jobs
 
   - name: PAL Aerospace
@@ -843,15 +841,15 @@ companies:
     url: https://palaerospace.com/careers/
 
   - name: Unseenlabs
-    type: manual_check
+    type: html_links
     url: https://unseenlabs.space/join-us/
 
   - name: Kleos Space
-    type: manual_check
+    type: html_links
     url: https://kleos.space/about/careers/
 
   - name: Ursa Space
-    type: manual_check
+    type: html_links
     url: https://ursaspace.com/about/careers/
 
   - name: Pachama
@@ -868,15 +866,15 @@ companies:
     url: https://sayari.com/company/careers/
 
   - name: South Pole
-    type: manual_check
+    type: html_links
     url: https://www.southpole.com/careers
 
   - name: NCX
-    type: manual_check
+    type: html_links
     url: https://ncx.com/careers/
 
   - name: CTrees
-    type: manual_check
+    type: html_links
     url: https://ctrees.org/about/careers
 
   - name: Cervest
@@ -884,7 +882,7 @@ companies:
     url: https://cervest.earth/careers
 
   - name: Reask
-    type: manual_check
+    type: html_links
     url: https://reask.earth/about/careers/
 
   - name: SkyTruth
@@ -892,11 +890,12 @@ companies:
     url: https://skytruth.org/jobs/
 
   - name: Sofar Ocean
-    type: manual_check
+    type: greenhouse_api
     url: https://job-boards.greenhouse.io/sofarocean
+    board: sofarocean
 
   - name: Carbon Trust
-    type: manual_check
+    type: html_links
     url: https://www.carbontrust.com/who-we-are/join-us
 
   - name: Descartes Labs
@@ -920,7 +919,7 @@ companies:
     url: https://careers.kuvaspace.com/
 
   - name: Starboard Maritime Intelligence
-    type: manual_check
+    type: html_links
     url: https://www.starboardintelligence.com/careers
 
   - name: Satelytics
@@ -928,15 +927,15 @@ companies:
     url: https://www.satelytics.com/careers/
 
   - name: EarthBlox
-    type: manual_check
+    type: html_links
     url: https://www.earthblox.io/careers
 
   - name: Chloris Geospatial
-    type: manual_check
+    type: html_links
     url: https://chlorisgeospatial.com/careers/
 
   - name: Primer AI
-    type: manual_check
+    type: html_links
     url: https://primer.ai/about-primer/careers/
 
   - name: OceanScore
@@ -944,11 +943,11 @@ companies:
     url: https://oceanscore.com/jobs/
 
   - name: Astraea
-    type: manual_check
+    type: html_links
     url: https://www.astraea.earth/careers
 
   - name: Arlula
-    type: manual_check
+    type: html_links
     url: https://www.arlula.com/careers
 
   - name: Sateliot
@@ -964,15 +963,15 @@ companies:
     url: https://cibotechnologies.bamboohr.com/careers
 
   - name: Globhe
-    type: manual_check
+    type: html_links
     url: https://www.globhe.com/career
 
   - name: VITO Remote Sensing
     type: html_links
     url: https://vito.be/en/jobs
-    
+
   - name: Spexi
-    type: manual_check
+    type: html_links
     url: https://spexi.com/about
 
   - name: Vexcel Data Program
@@ -982,3 +981,220 @@ companies:
   - name: Urban Sky
     type: html_links
     url: https://urbansky.applytojob.com/apply
+
+  - name: Orbital Insight
+    type: html_links
+    url: https://orbitalinsight.com/careers
+
+  - name: Orca AI
+    type: html_links
+    url: https://www.orca-ai.io/careers
+
+  - name: Xeneta
+    type: html_links
+    url: https://www.xeneta.com/careers
+
+  - name: Bearing AI
+    type: html_links
+    url: https://bearing.ai/careers
+
+  - name: Vortexa
+    type: html_links
+    url: https://www.vortexa.com/careers
+
+  - name: Spire Maritime
+    type: html_links
+    url: https://spire.com/maritime/
+
+  - name: Project44
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/project44
+    board: project44
+
+  - name: Resilinc
+    type: html_links
+    url: https://www.resilinc.com/careers/
+
+  - name: Interos
+    type: html_links
+    url: https://www.interos.ai/careers/
+
+  - name: Everstream Analytics
+    type: html_links
+    url: https://www.everstream.ai/careers/
+
+  - name: FourKites
+    type: html_links
+    url: https://www.fourkites.com/careers/
+
+  - name: Zesty.ai
+    type: html_links
+    url: https://www.zesty.ai/careers
+
+  - name: Arbol
+    type: html_links
+    url: https://www.arbol.io/careers
+
+  - name: Descartes Underwriting
+    type: html_links
+    url: https://www.descartesunderwriting.com/careers/
+
+  - name: Previsico
+    type: html_links
+    url: https://www.previsico.com/careers/
+
+  - name: Blackshark.ai
+    type: html_links
+    url: https://blackshark.ai/careers/
+
+  - name: Nextbillion.ai
+    type: html_links
+    url: https://nextbillion.ai/careers
+
+  - name: Space Intelligence
+    type: html_links
+    url: https://www.space-intelligence.com/careers/
+
+  - name: Picterra
+    type: html_links
+    url: https://picterra.ch/careers/
+
+  - name: Puro.earth
+    type: html_links
+    url: https://puro.earth/careers/
+
+  - name: BeZero Carbon
+    type: html_links
+    url: https://bezerocarbon.com/careers/
+
+  - name: Rubicon Carbon
+    type: html_links
+    url: https://www.rubiconcarbon.com/careers
+
+  - name: Calyx Global
+    type: html_links
+    url: https://calyxglobal.com/careers/
+
+  - name: Carbonplace
+    type: html_links
+    url: https://www.carbonplace.com/careers/
+
+  - name: Aerospacelab
+    type: html_links
+    url: https://www.aerospacelab.be/careers
+
+  - name: Climavision
+    type: html_links
+    url: https://climavision.com/careers/
+
+  - name: Pano AI
+    type: html_links
+    url: https://www.pano.ai/careers
+
+  - name: Rezatec
+    type: html_links
+    url: https://www.rezatec.com/careers/
+
+  - name: Preligens (Safran)
+    type: html_links
+    url: https://preligens.com/en/careers/
+
+  - name: Spottitt
+    type: html_links
+    url: https://spottitt.com/careers/
+
+  - name: Clarity AI
+    type: html_links
+    url: https://clarity.ai/careers/
+
+  - name: Sinai Technologies
+    type: html_links
+    url: https://www.sinaitechnologies.com/careers
+
+  - name: Supercritical
+    type: html_links
+    url: https://www.supercritical.com/careers
+
+  - name: Oceankind
+    type: html_links
+    url: https://oceankind.org/careers/
+
+  - name: Ocean Visions
+    type: html_links
+    url: https://www.oceanvisions.org/careers
+
+  - name: Pelagic Data Systems
+    type: html_links
+    url: https://www.pelagicdata.com/careers
+
+  - name: Breakthrough Energy Portfolio
+    type: html_links
+    url: https://jobs.breakthroughenergy.org/jobs
+
+  - name: S2G Ventures Portfolio
+    type: html_links
+    url: https://jobs.s2gventures.com/jobs
+
+  - name: Energy Impact Partners Portfolio
+    type: html_links
+    url: https://jobs.energyimpactpartners.com/jobs
+
+  - name: Pale Blue Dot Portfolio
+    type: html_links
+    url: https://jobs.pale.blue/jobs
+
+  - name: Overture VC Portfolio
+    type: html_links
+    url: https://jobs.overture.vc/jobs
+
+  - name: Obvious Ventures Portfolio
+    type: html_links
+    url: https://jobs.obvious.com/jobs
+
+  - name: Galvanize Climate Portfolio
+    type: html_links
+    url: https://jobs.galvanizeclimate.com/jobs
+
+  - name: Planet A Ventures Portfolio
+    type: html_links
+    url: https://jobs.planet-a.com/jobs
+
+  - name: Clean Energy Ventures Portfolio
+    type: html_links
+    url: https://jobs.cleanenergyventures.com/jobs
+
+  - name: Prelude Ventures Portfolio
+    type: html_links
+    url: https://jobs.preludeventures.com/jobs
+
+  - name: G2 Venture Partners Portfolio
+    type: html_links
+    url: https://jobs.g2vp.com/jobs
+
+  - name: ClimateTechList
+    type: html_links
+    url: https://www.climatetechlist.com/
+
+  - name: Climate Draft
+    type: html_links
+    url: https://www.climatedraft.org/jobs
+
+  - name: Space Crew
+    type: html_links
+    url: https://spacecrew.com/space-jobs
+
+  - name: Lloyd's Register
+    type: html_links
+    url: https://www.lr.org/en/careers/
+
+  - name: Precisely (MapInfo)
+    type: html_links
+    url: https://www.precisely.com/careers
+
+  - name: Envision Digital
+    type: html_links
+    url: https://www.envision-digital.com/careers/
+
+  - name: Gro Intelligence
+    type: html_links
+    url: https://www.gro-intelligence.com/careers
