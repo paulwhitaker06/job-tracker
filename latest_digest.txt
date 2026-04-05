@@ -1,38 +1,22 @@
-Job Tracker Digest - 2026-04-04 09:35 UTC
+Job Tracker Digest - 2026-04-05 10:22 UTC
 179/180 companies scraped successfully · 1 failed
-17 new postings
+9 new postings
 
-[AENU Portfolio] VP / Head of Ops & Strategy (m/w/d) ERP & Prozessoptimierung
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73218855-vp-head-of-ops-strategy-m-w-d-erp-prozessoptimierung
-[DCVC Portfolio] Director, Customer & GTM Operations
-  https://jobs.dcvc.com/companies/alation/jobs/73284685-director-customer-gtm-operations
-[Electra] Analyst III – Supply Chain Operations
-  https://job-boards.greenhouse.io/electrasteel/jobs/4675814005
-[Lowercarbon Capital Portfolio] Director of Dispatch Operations, Texas
-  https://jobs.ashbyhq.com/nevoya/c93ca9e6-e54f-48ec-9c05-0e58d80a1281
-[Lowercarbon Capital Portfolio] Contractor Sales Lead (Colorado) — Short-Term / Flexible Engagement
-  https://jobs.polymer.co/eli/39524
-[AENU Portfolio] Senior Sales Manager (m/w/d) - PV-Projektentwicklung
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73264278-senior-sales-manager-m-w-d-pv-projektentwicklung
-[DCVC Portfolio] Medical Assistant
-  https://jobs.dcvc.com/companies/carbon-health/jobs/73279028-medical-assistant
-[Charm Industrial] Technical Strategy & Process Economics Lead
+[DCVC Portfolio] Director, Business Development and Government Relations
+  https://jobs.dcvc.com/companies/lumafield/jobs/73366399-director-business-development-and-government-relations
+[Lowercarbon Capital Portfolio] Senior Director, Product Marketing
+  https://jobs.ashbyhq.com/Crusoe/2e9d8d09-c37b-47b7-ad79-5970294e17b2
+[Lowercarbon Capital Portfolio] Technical Strategy & Process Economics Lead
   https://jobs.lever.co/charmindustrial/a5d45336-ee45-4d29-95b0-14fc6aeb696e
-[Watershed] Forward Deployed Sustainability Engineer, Sustainability AI
-  https://watershed.com/careers/0f104079-forward-deployed-sustainability-engineer-sustainability-ai
-[Umbra Space (Umbra Lab)] IT Solutions Engineer
-  https://umbra-1.workable.com/jobs/5695233
-[Lowercarbon Capital Portfolio] Forward Deployed Sustainability Engineer, Product Footprints
-  https://watershed.com/careers/76d15794-forward-deployed-sustainability-engineer-product-footprints
-[DCVC Portfolio] Senior Product Manager II
-  https://jobs.dcvc.com/companies/alation/jobs/73284689-senior-product-manager-ii
-[True Anomaly] Principal Autonomy Engineer
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099106007
-[True Anomaly] Senior Manager, AI Platform Engineering
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099698007
-[True Anomaly] Senior Manager, Data Engineering
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099686007
-[True Anomaly] Senior Manager, Infrastructure Engineering
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099702007
-[Maxar] Staff Intelligence Analyst
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Reston-VA/Staff-Intelligence-Analyst_R23318
+[DCVC Portfolio] Clinician Recruiter
+  https://jobs.dcvc.com/companies/carbon-health/jobs/73397280-clinician-recruiter-primary-care
+[DCVC Portfolio] Medical Assistant
+  https://jobs.dcvc.com/companies/carbon-health/jobs/73397284-medical-assistant
+[DCVC Portfolio] Strategic Core Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73361441-strategic-core-account-executive
+[Greentown Labs (Green Town Labs)] Project & Risk Controls Manager – US
+  https://careers.blykalla.com/jobs/7513686-project-risk-controls-manager-us
+[Lowercarbon Capital Portfolio] Senior API Engineer
+  https://www.linkedin.com/jobs/view/senior-api-engineer-at-crusoe-4372148896
+[DCVC Portfolio] Chief Information Security Officer (CISO)
+  https://jobs.dcvc.com/companies/lumafield/jobs/73366397-chief-information-security-officer-ciso
