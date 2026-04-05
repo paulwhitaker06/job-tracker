@@ -10,7 +10,7 @@ companies:
     link_contains: iceye.com/career
 
   - name: Pixxel
-    type: playwright
+    type: manual_check
     url: https://pixxel.darwinbox.in/ms/candidatev2/main/careers/allJobs
 
   - name: Satellogic
@@ -54,11 +54,11 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/sylvera
 
   - name: Upstream Tech
-    type: html_links
+    type: manual_check
     url: https://jobs.upstream.tech/
 
   - name: WindBorne Systems
-    type: html_links
+    type: manual_check
     url: https://windbornesystems.com/careers
 
   - name: OroraTech
@@ -189,7 +189,7 @@ companies:
     url: https://albedo.com/company#jobs
 
   - name: Congruent Ventures Portfolio
-    type: html_links
+    type: manual_check
     url: https://jobs.congruentvc.com/jobs
 
   - name: DCVC Portfolio
@@ -218,7 +218,7 @@ companies:
     url: https://careers.galaxeye.space/jobs/Careers
 
   - name: Intercontinental Exchange
-    type: html_links
+    type: manual_check
     url: https://careers.ice.com/jobs
 
   - name: Open Cosmos
@@ -305,11 +305,11 @@ companies:
     url: https://rsmetrics.com/careers/
 
   - name: SpaceKnow
-    type: html_links
+    type: manual_check
     url: https://spaceknow.com/careers/#positions
 
   - name: SparkGeo
-    type: html_links
+    type: manual_check
     url: https://sparkgeo.com/careers/
 
   - name: UP42
@@ -325,19 +325,19 @@ companies:
     url: https://www.carbonchain.com/careers
 
   - name: Climate X
-    type: html_links
+    type: manual_check
     url: https://www.climate-x.com/careers
 
   - name: Climate Central
-    type: html_links
+    type: manual_check
     url: https://www.climatecentral.org/what-we-do/jobs
 
   - name: ClimateView
-    type: html_links
+    type: manual_check
     url: https://www.climateview.global/us/career
 
   - name: Terra Climate
-    type: html_links
+    type: manual_check
     url: https://www.climatologylab.org/openings.html
 
   - name: E-Space
@@ -345,7 +345,7 @@ companies:
     url: https://www.e-space.com/pages/careers
 
   - name: Earthshot Labs
-    type: html_links
+    type: manual_check
     url: https://www.earthshot.eco/about/about-a
 
   - name: GeologicAI
@@ -353,7 +353,7 @@ companies:
     url: https://www.geologicai.com/careers/
 
   - name: Impact Observatory
-    type: html_links
+    type: manual_check
     url: https://www.impactobservatory.com/careers/
 
   - name: Mitiga Solutions

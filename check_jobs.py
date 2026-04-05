@@ -447,8 +447,8 @@ def sha(s: str) -> str:
 def _build_session() -> requests.Session:
     session = requests.Session()
     retry = Retry(
-        total=3,
-        backoff_factor=1.5,
+        total=2,
+        backoff_factor=1.0,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=frozenset(["GET", "HEAD"]),
         raise_on_status=False,
@@ -478,7 +478,7 @@ def save_seen(seen: dict) -> None:
         json.dump(seen, f, indent=2, sort_keys=True)
 
 
-def fetch_html(url: str, timeout: int = 45) -> str:
+def fetch_html(url: str, timeout: int = 30) -> str:
     """Fetch a URL via the shared session (retries handled by HTTPAdapter)."""
     cu = canonicalize_url(url)
     if cu in HTML_CACHE:
@@ -802,29 +802,41 @@ def get_html_links(company: dict) -> list[dict]:
         return pw_items
 
     # ── Pass 1: requests + BS4 ────────────────────────────────────────────
-    pages_to_fetch: set[str] = {base_url}
-    pages_to_fetch.update(pagination_urls(base_url))
+    # Fetch the base URL first; only attempt pagination if it succeeds.
     links: set[str] = set()
     fetched: set[str] = set()
+    base_ok = False
 
-    for page_url in sorted(pages_to_fetch):
-        try:
-            html = fetch_html(page_url)
-            fetched.add(page_url)
-            new_links = extract_links(html, page_url)
-            links |= new_links
-            if page_url == base_url:
-                for np in find_next_page_links(html, page_url):
-                    if np not in fetched and len(fetched) < 8:
-                        try:
-                            np_html = fetch_html(np)
-                            links |= extract_links(np_html, np)
-                            fetched.add(np)
-                        except Exception:
-                            pass
-        except Exception:
-            pass
+    try:
+        html = fetch_html(base_url)
+        fetched.add(base_url)
+        base_ok = True
+        links |= extract_links(html, base_url)
+        # Follow real "next page" links found on the page
+        for np in find_next_page_links(html, base_url):
+            if np not in fetched and len(fetched) < 6:
+                try:
+                    np_html = fetch_html(np)
+                    links |= extract_links(np_html, np)
+                    fetched.add(np)
+                except Exception:
+                    pass
+    except Exception:
+        pass
 
+    # Only try speculative pagination if the base URL succeeded
+    if base_ok:
+        for page_url in pagination_urls(base_url):
+            if page_url in fetched:
+                continue
+            try:
+                html = fetch_html(page_url, timeout=15)
+                fetched.add(page_url)
+                links |= extract_links(html, page_url)
+            except Exception:
+                pass
+
+    # Follow links to known ATS board pages found in the results
     board_links = sorted({l for l in links if is_board_url(l) and l != base_url})
     for board_url in board_links[:3]:
         try:
