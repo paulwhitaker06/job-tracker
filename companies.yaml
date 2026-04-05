@@ -1198,3 +1198,120 @@ companies:
   - name: Gro Intelligence
     type: html_links
     url: https://www.gro-intelligence.com/careers
+
+  - name: Signal Ocean
+    type: workable_api
+    url: https://apply.workable.com/thesignalgroup/
+    workable_account: thesignalgroup
+
+  - name: Planblue
+    type: html_links
+    url: https://www.planblue.com/careers
+
+  - name: HUB Ocean
+    type: html_links
+    url: https://www.hubocean.earth/about
+
+  - name: TheOceann.ai
+    type: html_links
+    url: https://theoceann.ai/career
+
+  - name: Ecopia AI
+    type: html_links
+    url: https://www.ecopiatech.com/careers
+
+  - name: Felt
+    type: html_links
+    url: https://felt.com/careers
+
+  - name: Overture Maps Foundation
+    type: html_links
+    url: https://overturemaps.org/
+
+  - name: Beacon
+    type: html_links
+    url: https://www.beacon.com/careers
+
+  - name: Sourcemap
+    type: html_links
+    url: https://www.sourcemap.com/careers
+
+  - name: XDI Systems
+    type: html_links
+    url: https://xdi.systems/careers/
+
+  - name: Cotality
+    type: html_links
+    url: https://www.cotality.com/careers
+
+  - name: Carbonmark
+    type: html_links
+    url: https://www.carbonmark.com/careers
+
+  - name: Flowcarbon
+    type: html_links
+    url: https://www.flowcarbon.com/careers
+
+  - name: Gold Standard
+    type: html_links
+    url: https://www.goldstandard.org/about-us/careers
+
+  - name: Climatebase
+    type: html_links
+    url: https://climatebase.org/jobs
+
+  - name: Terra.do Job Board
+    type: html_links
+    url: https://www.terra.do/climate-jobs/job-board/
+
+  - name: Trellis Jobs
+    type: html_links
+    url: https://jobs.trellis.net/
+
+  - name: CTVC Climate Tech Jobs
+    type: html_links
+    url: https://ctvc.niceboard.co/
+
+  - name: GEO Careers
+    type: html_links
+    url: https://www.geo-careers.com/
+
+  - name: Acre Sustainability Jobs
+    type: html_links
+    url: https://www.acre.com/jobs
+
+  - name: Blue Economy Jobs
+    type: html_links
+    url: https://www.blueeconomyjobs.org/
+
+  - name: Space-Careers
+    type: html_links
+    url: https://www.space-careers.com/
+
+  - name: Dendra Systems
+    type: html_links
+    url: https://www.dendra.io/careers
+
+  - name: SambaNova (climate AI infra)
+    type: html_links
+    url: https://sambanova.ai/careers
+
+  - name: Ocean Ledger
+    type: html_links
+    url: https://www.oceanledger.co/careers
+
+  - name: Riskthinking.AI
+    type: html_links
+    url: https://riskthinking.ai/careers/
+
+  - name: ClimatePartner
+    type: html_links
+    url: https://www.climatepartner.com/en/careers
+
+  - name: Spherical Analytics
+    type: html_links
+    url: https://sphericalanalytics.com/careers/
+
+  - name: Mosaic Materials
+    type: html_links
+    url: https://www.mosaicmaterials.com/careers

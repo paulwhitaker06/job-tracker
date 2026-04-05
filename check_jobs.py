@@ -795,7 +795,11 @@ def get_html_links(company: dict) -> list[dict]:
     # ── Known JS-heavy ATS: skip Pass 1 entirely ─────────────────────────
     if is_js_heavy(base_url):
         log.info(f"  {name}: known JS-heavy site, going straight to Playwright")
-        return get_playwright_links(company)
+        pw_items = get_playwright_links(company)
+        if company.get("link_contains"):
+            needle = company["link_contains"]
+            pw_items = [i for i in pw_items if needle in i.get("url", "")]
+        return pw_items
 
     # ── Pass 1: requests + BS4 ────────────────────────────────────────────
     pages_to_fetch: set[str] = {base_url}
@@ -844,7 +848,11 @@ def get_html_links(company: dict) -> list[dict]:
             f"  {name}: Pass 1 found only {len(pass1_items)} link(s) "
             f"(threshold: {MIN_LINK_THRESHOLD}) – escalating to Playwright"
         )
-        return get_playwright_links(company)
+        pw_items = get_playwright_links(company)
+        if company.get("link_contains"):
+            needle = company["link_contains"]
+            pw_items = [i for i in pw_items if needle in i.get("url", "")]
+        return pw_items
 
     # ── Escalation check 2: titles look like garbage ──────────────────────
     sampled = pass1_items[:5]
@@ -856,7 +864,11 @@ def get_html_links(company: dict) -> list[dict]:
         log.info(
             f"  {name}: Pass 1 titles look like noise – escalating to Playwright"
         )
-        return get_playwright_links(company)
+        pw_items = get_playwright_links(company)
+        if company.get("link_contains"):
+            needle = company["link_contains"]
+            pw_items = [i for i in pw_items if needle in i.get("url", "")]
+        return pw_items
 
     return pass1_items
 
@@ -1095,6 +1107,7 @@ def deduplicate(items: list[dict]) -> list[dict]:
 # ─────────────────────────────────────────────────────────────────────────────
 
 SEARCH_QUERIES = [
+    # Earth observation / satellite / geospatial
     'site:jobs.lever.co "earth observation" "business development"',
     'site:jobs.lever.co "satellite" "partnerships"',
     'site:jobs.lever.co "geospatial" "director"',
@@ -1102,9 +1115,35 @@ SEARCH_QUERIES = [
     'site:jobs.ashbyhq.com "satellite" "partnerships"',
     'site:boards.greenhouse.io "earth observation" "sales"',
     'site:boards.greenhouse.io "geospatial" "partnerships"',
-    'site:jobs.lever.co "maritime" "business development"',
     'site:jobs.lever.co "remote sensing" "commercial"',
     'site:jobs.ashbyhq.com "geospatial" "head of commercial"',
+    'site:job-boards.greenhouse.io "satellite data" "director"',
+    'site:job-boards.greenhouse.io "geospatial" "business development"',
+    'site:apply.workable.com "earth observation" "partnerships"',
+    'site:apply.workable.com "satellite" "director"',
+    # Maritime / ocean
+    'site:jobs.lever.co "maritime" "business development"',
+    'site:jobs.lever.co "maritime" "director"',
+    'site:boards.greenhouse.io "maritime" "partnerships"',
+    'site:job-boards.greenhouse.io "maritime" "commercial"',
+    'site:jobs.lever.co "ocean" "business development"',
+    'site:jobs.ashbyhq.com "maritime" "head of"',
+    # Climate / carbon / ESG
+    'site:jobs.lever.co "climate" "partnerships" "director"',
+    'site:jobs.lever.co "carbon" "business development"',
+    'site:boards.greenhouse.io "climate risk" "director"',
+    'site:job-boards.greenhouse.io "sustainability" "partnerships"',
+    'site:jobs.ashbyhq.com "climate" "commercial"',
+    'site:apply.workable.com "climate" "business development"',
+    # Supply chain / trade intelligence
+    'site:jobs.lever.co "supply chain" "partnerships"',
+    'site:boards.greenhouse.io "trade intelligence" "director"',
+    'site:job-boards.greenhouse.io "supply chain visibility" "director"',
+    # Data licensing / commercialization
+    'site:jobs.lever.co "data licensing"',
+    'site:boards.greenhouse.io "data licensing"',
+    'site:jobs.lever.co "data commercialization"',
+    'site:job-boards.greenhouse.io "data partnerships" "director"',
 ]
 
 

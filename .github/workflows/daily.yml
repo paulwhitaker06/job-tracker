@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests pyyaml beautifulsoup4 playwright
+          pip install requests pyyaml beautifulsoup4 playwright googlesearch-python
           python -m playwright install --with-deps chromium
 
       - name: Run script
