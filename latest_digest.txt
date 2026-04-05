@@ -1,22 +1,200 @@
-Job Tracker Digest - 2026-04-05 10:22 UTC
-179/180 companies scraped successfully · 1 failed
-9 new postings
+Job Tracker Digest - 2026-04-05 20:21 UTC
+322/324 companies scraped successfully · 2 failed
+98 new postings
 
-[DCVC Portfolio] Director, Business Development and Government Relations
-  https://jobs.dcvc.com/companies/lumafield/jobs/73366399-director-business-development-and-government-relations
-[Lowercarbon Capital Portfolio] Senior Director, Product Marketing
-  https://jobs.ashbyhq.com/Crusoe/2e9d8d09-c37b-47b7-ad79-5970294e17b2
-[Lowercarbon Capital Portfolio] Technical Strategy & Process Economics Lead
-  https://jobs.lever.co/charmindustrial/a5d45336-ee45-4d29-95b0-14fc6aeb696e
-[DCVC Portfolio] Clinician Recruiter
-  https://jobs.dcvc.com/companies/carbon-health/jobs/73397280-clinician-recruiter-primary-care
-[DCVC Portfolio] Medical Assistant
-  https://jobs.dcvc.com/companies/carbon-health/jobs/73397284-medical-assistant
-[DCVC Portfolio] Strategic Core Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/73361441-strategic-core-account-executive
-[Greentown Labs (Green Town Labs)] Project & Risk Controls Manager – US
-  https://careers.blykalla.com/jobs/7513686-project-risk-controls-manager-us
-[Lowercarbon Capital Portfolio] Senior API Engineer
-  https://www.linkedin.com/jobs/view/senior-api-engineer-at-crusoe-4372148896
-[DCVC Portfolio] Chief Information Security Officer (CISO)
-  https://jobs.dcvc.com/companies/lumafield/jobs/73366397-chief-information-security-officer-ciso
+[Orca AI] Job opportunity: Head of Maritime Certification & Regulatory Strategy (IC)
+  https://www.orca-ai.io/careers/co/israel/EA.76F-85.203/head-of-maritime-certification-regulatory-strategy-ic/all
+[Spire Maritime] Junior IUU Fishing Analyst
+  https://jobs.lever.co/kpler/11b858b3-0e80-473c-b130-607bb6d938fe
+[Spire Maritime] Commercial Manager - Maritime (Indonesia)
+  https://jobs.lever.co/kpler/67f8e723-398e-4e95-9d17-f9e248517450
+[Spire Maritime] Account Executive -Maritime (New Business)
+  https://jobs.lever.co/kpler/e93266e5-a6b6-4e90-ae3e-100b6bb6f154
+[Prelude Ventures Portfolio] Head of Commercial Agronomy
+  https://jobs.preludeventures.com/companies/pivot-bio/jobs/73229335-head-of-commercial-agronomy
+[Space-Careers] Remote Sensing, Optics and GIS jobs
+  https://www.space-careers.com/jobs/remote_sensing_optics_and_gis
+[Orca AI] Enterprise Account Executive
+  https://www.orca-ai.io/careers/co/japan/09.665/enterprise-account-executive-japan/all
+[Project44] Enterprise Account Executive
+  https://job-boards.greenhouse.io/project44/jobs/7338688
+[Descartes Underwriting] AVP, Business Development
+  https://careers.descartesunderwriting.com/jobs/7355120-avp-or-vp-business-development-florida
+[Descartes Underwriting] VP, Business Development
+  https://careers.descartesunderwriting.com/jobs/7428180-vp-business-development-florida
+[Obvious Ventures Portfolio] Enterprise Account Executive
+  https://jobs.obvious.com/companies/nemesis-media/jobs/73380818-enterprise-account-executive
+[Planet A Ventures Portfolio] Enterprise Account Executive
+  https://jobs.planet-a.com/companies/optiml-2/jobs/73085747-enterprise-account-executive
+[Prelude Ventures Portfolio] Director, Supply Chain
+  https://jobs.preludeventures.com/companies/amp-2-be75603c-c7b1-4c65-87ca-8422b7e1c997/jobs/73255827-director-supply-chain
+[Orca AI] Job opportunity: Regional Sales Director (APAC)
+  https://www.orca-ai.io/careers/co/singapore/AF.169/regional-sales-director-apac/all
+[Project44] Vice President of Sales Performance
+  https://job-boards.greenhouse.io/project44/jobs/7386827
+[Energy Impact Partners Portfolio] Sales Director (META)
+  https://jobs.energyimpactpartners.com/companies/swimlane-2/jobs/73400997-sales-director-meta
+[G2 Venture Partners Portfolio] Senior Director, Product Marketing
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73371389-senior-director-product-marketing
+[Acre Sustainability Jobs] Principal, Business Development
+  https://www.acre.com/jobs/acre-13505-acre-13505
+[Acre Sustainability Jobs] Director, Carbon Products &amp; Market Design
+  https://www.acre.com/jobs/acre-13630-acre-13630
+[Spire Maritime] Junior Risk &amp; Compliance Analyst
+  https://jobs.lever.co/kpler/a7e98c03-a0c6-4572-98c2-4dd038b593ca
+[Project44] Head of Talent Acquisition (Director)
+  https://job-boards.greenhouse.io/project44/jobs/7747857
+[Energy Impact Partners Portfolio] Senior Pre-Sales Solution Architect (Federal)
+  https://jobs.energyimpactpartners.com/companies/dragos/jobs/73402349-senior-pre-sales-solution-architect-federal
+[Clean Energy Ventures Portfolio] Chief of Staff
+  https://jobs.cleanenergyventures.com/companies/queens-carbon/jobs/72019852-chief-of-staff
+[Lloyd's Register] We’re shaping the future of the maritime economy
+  https://www.lr.org/en/careers/what-we-do/
+[GEO Careers] Spatial Data Scientist - Machine Learning & Remote Sensing
+  https://www.geo-careers.com/
+[Spire Maritime] Business Development Manager
+  https://jobs.lever.co/kpler/28b2bc60-9021-4f3c-94d8-2fe6b7882887
+[Project44] Senior Manager, Revenue Operations
+  https://job-boards.greenhouse.io/project44/jobs/7540135
+[Project44] Sr Manager, Product Partnerships
+  https://job-boards.greenhouse.io/project44/jobs/7760180
+[S2G Ventures Portfolio] Analyst III – Supply Chain Operations
+  https://boards.greenhouse.io/electrasteel/jobs/4675814005
+[Clean Energy Ventures Portfolio] Principal Product Manager
+  https://jobs.cleanenergyventures.com/companies/pearl-certification/jobs/70582367-principal-product-manager
+[GEO Careers] Academic Administrator V - Geospatial Information Systems & Technologies Program
+  https://www.geo-careers.com/
+[GEO Careers] Geospatial Technical Specialist
+  https://www.geo-careers.com/
+[Space-Careers] RF Engineer jobs
+  https://www.space-careers.com/jobs/rf_engineer
+[Orca AI] Marketing Director
+  https://www.orca-ai.io/careers/co/israel/07.767/marketing-director/all
+[Orca AI] Sales Development Representative (SDR)
+  https://www.orca-ai.io/careers/co/israel/1C.824/sales-development-representative-sdr/all
+[Spire Maritime] Senior Accounting Manager (Head of GL Accounting)
+  https://jobs.lever.co/kpler/0ff04573-83f0-46a3-988f-99bd10656e30
+[Spire Maritime] Sales Manager - Energy &amp; Commodities
+  https://jobs.lever.co/kpler/1c26c460-b5b8-466d-83b1-ae8d2f1a31db
+[Spire Maritime] Product Marketing Manager
+  https://jobs.lever.co/kpler/a3cc2269-5a6c-4519-8502-fc7669f4b4ab
+[Spire Maritime] Sales Development Representative- New Business
+  https://jobs.lever.co/kpler/ae35c775-4e0f-4364-a8c5-d21214f3c370
+[Spire Maritime] Commercial Manager LATAM (Energy/Commodities)
+  https://jobs.lever.co/kpler/d6c0d83a-b8ad-443e-9d06-ed83def238a5
+[Spire Maritime] Commercial Development Manager
+  https://jobs.lever.co/kpler/fb408e75-f9b8-47b7-8f81-9e4335d40397
+[Project44] Sales Development Representative
+  https://job-boards.greenhouse.io/project44/jobs/7724797
+[Project44] Sales Development Representative (Dutch Speaker)
+  https://job-boards.greenhouse.io/project44/jobs/7442969
+[Project44] Sales Development Representative (German Speaker)
+  https://job-boards.greenhouse.io/project44/jobs/7442940
+[Project44] Strategic Account Executive
+  https://job-boards.greenhouse.io/project44/jobs/7718249
+[Everstream Analytics] Senior Account Executive
+  https://everstream.ai/careers/jobs/?gh_jid=5675798004
+[Everstream Analytics] Strategic Account Executive
+  https://everstream.ai/careers/jobs/?gh_jid=5631389004
+[Descartes Underwriting] Reinsurance Program Officer
+  https://careers.descartesunderwriting.com/jobs/7276851-reinsurance-program-officer-cdi
+[Ocean Visions] Careers at Ocean Visions
+  https://oceanvisions.org/careers/
+[Overture VC Portfolio] Product Marketing Manager
+  https://jobs.overture.vc/companies/crux/jobs/73025636-product-marketing-manager
+[Planet A Ventures Portfolio] Head of Operations [100%], Zürich
+  https://jobs.planet-a.com/companies/optiml-2/jobs/73085753-head-of-operations-100-zurich-hybrid
+[Clean Energy Ventures Portfolio] Operations Manager
+  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/70410185-operations-manager
+[Clean Energy Ventures Portfolio] Solar Electrician
+  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/71054624-solar-electrician
+[Clean Energy Ventures Portfolio] Journeyman Electrician (Red Seal)
+  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/71054628-journeyman-electrician-red-seal
+[Clean Energy Ventures Portfolio] Director, Technical Program Management
+  https://jobs.cleanenergyventures.com/companies/linevision/jobs/72144578-director-technical-program-management
+[ClimateTechList] Climate tech jobs by country, state, region, and city
+  https://www.climatetechlist.com/jobs/by-location
+[ClimateTechList] Latest Colorado, Boulder, Denver, & Fort Collins based jobs from 500+ Climate Tech Companies — ClimateTechList
+  https://www.climatetechlist.com/jobs/colorado
+[GEO Careers] Interdisciplinary (GIS Manager / Community Planner / Geographer / Cartographer)
+  https://www.geo-careers.com/
+[Acre Sustainability Jobs] Vice President, Development
+  https://www.acre.com/jobs/acre-13403-acre-13403
+[Acre Sustainability Jobs] Head of Development
+  https://www.acre.com/jobs/acre-13557-acre-13557
+[Acre Sustainability Jobs] Senior Director Finance
+  https://www.acre.com/jobs/acre-13611-acre-13611
+[Acre Sustainability Jobs] Director of Solutions Development
+  https://www.acre.com/jobs/acre-13620-acre-13620
+[Acre Sustainability Jobs] Power Plant Investment Manager/Director
+  https://www.acre.com/jobs/acre-13636-acre-13636
+[ClimatePartner] Carbon Sourcing Manager
+  https://climatepartner-gmbh.jobs.personio.de/job/2551765?language=en&display=en
+[ClimatePartner] Carbon Offset & Green Energy Services
+  https://www.climatepartner.com/en/career/carbon-offset-green-energy-services
+[ClimatePartner] Sales
+  https://www.climatepartner.com/en/career/sales
+[Orca AI] Enterprise Customer Success Manager - Cyprus/Greece
+  https://www.orca-ai.io/careers/co/athens-greece/BF.26E-79.400/enterprise-customer-success-manager-cyprus-greece/all
+[Orca AI] Enterprise Customer Success Manager
+  https://www.orca-ai.io/careers/co/remote-europe/26.764/enterprise-customer-success-manager-europe/all
+[Spire Maritime] Revenue Operations Analyst
+  https://jobs.lever.co/kpler/058d272d-6232-46e3-b3c9-60c8b591181c
+[Spire Maritime] Global Account Manager
+  https://jobs.lever.co/kpler/1632bc19-f4dc-4103-bd5f-5a8eecab1480
+[Spire Maritime] Account Manager (Financials &amp; Commodities) – Brazil
+  https://jobs.lever.co/kpler/3e35a4bb-5045-4ea0-81b8-8fff54d82163
+[Spire Maritime] Senior Customer Success Manager (Geneva)
+  https://jobs.lever.co/kpler/41cdd6dc-4636-4585-9fa6-d36d91304990
+[Spire Maritime] Senior Product Manager
+  https://jobs.lever.co/kpler/429e3e99-6ad0-41a1-9d7e-e1ce8fb53b86
+[Spire Maritime] Account Manager
+  https://jobs.lever.co/kpler/7fa94d0d-8e69-4bbd-95db-7edcbf219b05
+[Spire Maritime] Senior Account Manager - Hedge Funds &amp; Banks
+  https://jobs.lever.co/kpler/83bb2f14-06ca-44d6-8f71-ccce61441c18
+[Spire Maritime] Customer Success Manager (Governments)
+  https://jobs.lever.co/kpler/a60cba92-9ae8-4f26-9220-2db27afa6d7d
+[Spire Maritime] Product Manager
+  https://jobs.lever.co/kpler/c68e9c8a-4d72-4771-bc3e-007b997890c3
+[Spire Maritime] Careers - Spire : Global Data and Analytics
+  https://spire.com/careers/
+[Spire Maritime] Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/
+[Project44] Customer Success Manager
+  https://job-boards.greenhouse.io/project44/jobs/7683877
+[Project44] Product Manager, Data Science Platform (AI/ML)
+  https://job-boards.greenhouse.io/project44/jobs/7656153
+[Project44] Product Manager - Transportation Management System (TMS)
+  https://job-boards.greenhouse.io/project44/jobs/7747318
+[Project44] Renewal Account Manager
+  https://job-boards.greenhouse.io/project44/jobs/7705667
+[Project44] Senior Manager, People Systems & Operations
+  https://job-boards.greenhouse.io/project44/jobs/7650019
+[Project44] Senior Solutions Engineer
+  https://job-boards.greenhouse.io/project44/jobs/7718155
+[Project44] Solutions Engineer
+  https://job-boards.greenhouse.io/project44/jobs/7650314
+[Project44] Staff Product Manager
+  https://job-boards.greenhouse.io/project44/jobs/7673615
+[Project44] Staff Product Manager - Yard Management System (YMS)
+  https://job-boards.greenhouse.io/project44/jobs/7673589
+[Energy Impact Partners Portfolio] Startup Customer Success Manager
+  https://jobs.energyimpactpartners.com/companies/ashby/jobs/73324370-startup-customer-success-manager-emea
+[Energy Impact Partners Portfolio] Solutions Engineer (META)
+  https://jobs.energyimpactpartners.com/companies/swimlane-2/jobs/73401002-solutions-engineer-meta
+[Overture VC Portfolio] Principal, Power Procurement
+  https://jobs.overture.vc/companies/antora-energy-2/jobs/73019421-principal-power-procurement
+[Obvious Ventures Portfolio] Enterprise Applications Product Manager
+  https://jobs.obvious.com/companies/gusto/jobs/73377315-enterprise-applications-product-manager
+[Planet A Ventures Portfolio] Planet A Job Board
+  https://jobs.planet-a.com/companies/optiml-2/jobs/72591489-product-intelligence-analyst-100-zurich-hybrid
+[Clean Energy Ventures Portfolio] Senior Technical Product Manager
+  https://jobs.cleanenergyventures.com/companies/linevision/jobs/72799771-senior-technical-product-manager-data-platform
+[G2 Venture Partners Portfolio] Staff Product Manager, Orchestration
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73351508-staff-product-manager-orchestration
+[G2 Venture Partners Portfolio] Senior API Engineer
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73351515-senior-api-engineer
+[Acre Sustainability Jobs] Sustainability Data Manager (Maternity Cover)
+  https://www.acre.com/jobs/acre-13631-acre-13631
+[ClimatePartner] Team Lead Data Analytics & BI
+  https://climatepartner-gmbh.jobs.personio.de/job/2492444?display=en&language=en&apply
