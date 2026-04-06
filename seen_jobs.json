@@ -151,6 +151,14 @@
     "title": "Software Engineer I, Front End",
     "url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/4992058007"
   },
+  "01ae456e60c4464fcce3c9487b61fca5cd32923cf2dcdfdb7672b3c6b02a2d24": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.246411+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Manufacturing Engineer II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464316-manufacturing-engineer-ii-mechanical-assembly"
+  },
   "01b37a1d396d1df0ed9a8e3325227a39e1b894b68725a4a30702ef60d2da9deb": {
     "company": "Astranis",
     "first_seen_utc": "2026-04-02T22:09:50.642463+00:00",
@@ -886,6 +894,14 @@
     "scored": false,
     "title": "General Application",
     "url": "https://boards.greenhouse.io/carbondirect/jobs/4117885007"
+  },
+  "0ae0ef0bf943b1287d3808ab0b050592c075aa234a5fc734722d604e02c259ed": {
+    "company": "Lowercarbon Capital Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.232427+00:00",
+    "score": 7,
+    "scored": true,
+    "title": "Enterprise Account Executive",
+    "url": "https://boards.greenhouse.io/greenhouse/jobs/7752517"
   },
   "0ae94718d799dbafe73570c6c5e454e0e872a8838f24aea76036b91e80d2cb10": {
     "company": "CIBO Technologies",
@@ -1846,6 +1862,14 @@
     "scored": false,
     "title": "Sorry",
     "url": "https://arnergy.zohorecruit.com/jobs/{{getJobViewUrl(record.id,record.Posting_Title,meta)}}"
+  },
+  "15e2b9fd9347dea9f769d9507b527f2420f794cc22a49837ac97434f2940ec48": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.242490+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Assembly Integration and Test Technician III / Senior",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464302-assembly-integration-and-test-technician-iii-senior-b-shift"
   },
   "1602078280cd888a16c10a643f7c8bc2e4db9001cf9e4aa913f46817e9cb7c85": {
     "company": "Extantia Portfolio",
@@ -2887,6 +2911,14 @@
     "title": "HR Business Partner",
     "url": "https://jobs.lever.co/kpler/ee53a8a3-cd4a-4045-8101-0232fa34f970"
   },
+  "21e57cfa6312b5bb28fd2319f3552acee2ff76f1a5a205a285e59aa4a7995a84": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.244809+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Spacecraft GNC Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464311-spacecraft-gnc-engineer-i-ii"
+  },
   "21f7c0402652dbfb135a92e75d2e3fafc1d66cf297dc117a814f189c52452ca8": {
     "company": "Isar Aerospace",
     "first_seen_utc": "2026-04-02T22:09:50.611148+00:00",
@@ -3567,6 +3599,14 @@
     "title": "\u30a2\u30eb\u30d0\u30a4\u30c8\uff5c\u885b\u661f\u904b\u7528\u30b7\u30b9\u30c6\u30e0 \u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u30a8\u30f3\u30b8\u30cb\u30a2",
     "url": "https://hrmos.co/pages/axelspace/jobs/9000000004"
   },
+  "2a25e26fdafc9e68bf3dc115d45fc90f03df69511348cfd7ff86d76c92cb5eac": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-04-06T10:45:06.368696+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Material Senior Lab Technician",
+    "url": "https://www.fugro.com/careers/jobs/R0030018-material-senior-lab-technician"
+  },
   "2a2f559fed5d55b1b4f50bfd263d5a7382ba61ba613c77a19b064ed9801ffd65": {
     "company": "Fugro",
     "first_seen_utc": "2026-04-02T22:09:50.514407+00:00",
@@ -3814,6 +3854,14 @@
     "scored": false,
     "title": "Intern, Space Systems, Geometric Software Engineer",
     "url": "https://job-boards.greenhouse.io/planetlabs/jobs/7733188"
+  },
+  "2c8a545147b8e511810dfaf52effa260a854e7217779e37f2a5ff12f7e4f8c21": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.243437+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Spacecraft Operations Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464306-senior-spacecraft-operations-engineer-i-ii-secret-clearance"
   },
   "2ca4aadd8ceb136fafe83ad3924eda841d13a5b08ffcae3183e5b23a81c4a0d2": {
     "company": "Overstory",
@@ -4863,6 +4911,14 @@
     "title": "Jobs at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d?page=2/backend-developer-274388/"
   },
+  "39405651ced26e6f87f5888a122857fb736b3c3feda61108d01e5c6086fc22a2": {
+    "company": "Windward",
+    "first_seen_utc": "2026-04-06T10:45:06.419104+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Solution Architect",
+    "url": "https://windward.ai/company/careers/co/london/F8.861/solution-architect/all"
+  },
   "398cea9f3860c197bceec96aac32405277a673580a930e3304a408460b76f8e3": {
     "company": "ClimatePartner",
     "first_seen_utc": "2026-04-05T20:21:05.670399+00:00",
@@ -4942,6 +4998,14 @@
     "scored": false,
     "title": "Verfahrensingenieur R&D (m/w/d) Technologie und Prozessimplementierung",
     "url": "https://jobs.planet-a.com/companies/ineratec/jobs/72434523-verfahrensingenieur-r-d-m-w-d-technologie-und-prozessimplementierung"
+  },
+  "3ad8ac96f7fc55d08657cb886222a649948988c85df477b3b6c3de2df1c6c488": {
+    "company": "Extantia Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.236766+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Head of HSE",
+    "url": "https://epochbiodesign.factorialhr.com/job_posting/head-of-hse-294883"
   },
   "3ae07b0c69102505450ce0e5dcd5da6148d19ff8c5e8b4e164babe4c7e9aba55": {
     "company": "Electra",
@@ -5206,6 +5270,14 @@
     "scored": true,
     "title": "Job Openings - Spire : Global Data and Analytics",
     "url": "https://spire.com/careers/job-openings/?department=science-research"
+  },
+  "3de34d2c8e4632bdb147643e9819451c1603588c39999c15414ed1bf3a2021de": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.245123+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Spacecraft GNC Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464312-spacecraft-gnc-engineer-i-ii"
   },
   "3e05eb3d994937a249b988dc878d92ca852a6addc48032ce8f20b16ac5bff380": {
     "company": "Esri",
@@ -5711,6 +5783,14 @@
     "title": "Product Manager - Transportation Management System (TMS)",
     "url": "https://job-boards.greenhouse.io/project44/jobs/7747318"
   },
+  "446c9b9893bad122f30ae7ad1c67d5ae99ad3f813f33b6e1cc410a5dbc2183e0": {
+    "company": "Project44",
+    "first_seen_utc": "2026-04-06T10:45:06.554369+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Software Engineer 1",
+    "url": "https://job-boards.greenhouse.io/project44/jobs/7767843"
+  },
   "44c14140e6142ca2aee8e2f4556b6bec1a47b74734649c35aa1a772748f72e09": {
     "company": "Fugro",
     "first_seen_utc": "2026-04-02T22:09:50.517870+00:00",
@@ -5911,6 +5991,14 @@
     "title": "Enterprise Sales Development Representative",
     "url": "https://jobs.ashbyhq.com/treefera/42263bef-73be-47fc-8b27-08fbaf03b60d"
   },
+  "475acfcdee188e4a95811bdb22a66c24dbc2598163d3ef0af6d45e0baf9e890e": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.243791+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Manufacturing Engineer, Machining",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464308-senior-manufacturing-engineer-machining"
+  },
   "4760dd07f41f380b207c2649a48ddd1f1a1b28c9f3a47879a202b71a5be7a130": {
     "company": "Fugro",
     "first_seen_utc": "2026-04-02T22:09:50.515691+00:00",
@@ -6103,6 +6191,14 @@
     "title": "Senior Technical Sourcer (Fixed Term)",
     "url": "https://job-boards.greenhouse.io/astranis/jobs/4656251006"
   },
+  "49778da7c9ad5f91519af91a775e66f326dc9dee90e2c8a419e84b782ff0dccc": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.240779+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Harness Technician II/III",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464297-harness-technician-ii-iii"
+  },
   "499780ff92bf8ca497d98716cb7d995b6e907e67d31fed9c9835e09913482cff": {
     "company": "Tomorrow.io",
     "first_seen_utc": "2026-04-02T22:09:50.217449+00:00",
@@ -6159,6 +6255,14 @@
     "title": "Recruitment",
     "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=06351502-0666-4c6f-9a0b-165c5faeab35&ccId=9200783961908_2&lang=en_CA"
   },
+  "4a59980240d6937a0645be24450cfa5d65de19d4e7445bb6e0ff6676194dddf4": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.245768+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Flight Dynamics Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464314-flight-dynamics-engineer-i-ii"
+  },
   "4a641e0a6648000aed3c875f3adb90518726a87963beb27635ba3a7e98c4d7a3": {
     "company": "Fugro",
     "first_seen_utc": "2026-04-02T22:09:50.516741+00:00",
@@ -6174,6 +6278,14 @@
     "scored": false,
     "title": "Sr. Program Manager",
     "url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5049243007"
+  },
+  "4a6a0e5c175c4378555d1951e848c13b2573b7772db5199806a517c54b828d98": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.247733+00:00",
+    "score": 2,
+    "scored": true,
+    "title": "Senior Manager, DevOps Engineering",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464320-senior-manager-devops-engineering"
   },
   "4a6fa7e96d09171d928fdf16957ed378310d5540a3c3022db11ffada7d4c5dfc": {
     "company": "Loft Orbital",
@@ -6582,6 +6694,14 @@
     "scored": true,
     "title": "Principal Autonomy Engineer",
     "url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099106007"
+  },
+  "4f1199c5c9daa088866b9940c5d9563a1c33bfdb43d246f215f00487e8942b78": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-04-06T10:45:06.368402+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Mechanic",
+    "url": "https://www.fugro.com/careers/jobs/R0029755-mechanic"
   },
   "4f429c80a4941abc79ee96cc91b9724ffc10aa2f0514f30c8c159557195835ce": {
     "company": "Umbra Space (Umbra Lab)",
@@ -7190,6 +7310,14 @@
     "scored": true,
     "title": "Carbon Sourcing Manager",
     "url": "https://climatepartner-gmbh.jobs.personio.de/job/2551765?language=en&display=en"
+  },
+  "56a4b88ce0e3156c61f5f7d3cf473d83c1ec842702d0e6fa9098a53eb431d466": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.246739+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Flight Software Engineer",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464317-senior-flight-software-engineer-neutron"
   },
   "56c2c99590fa3ff044d0d5a7ac28605c071de42094bc2900aee9822b221f2c70": {
     "company": "Baseload Capital",
@@ -8111,6 +8239,14 @@
     "title": "Job Openings - Spire : Global Data and Analytics",
     "url": "https://spire.com/careers/job-openings/job/?gh_jid=7663049"
   },
+  "6169d606f46b2ef4f8bcfac9b23fcd069428bb6bf5aaba33733144c51f749665": {
+    "company": "Overture VC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.568705+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Production Engineer",
+    "url": "https://jobs.overture.vc/companies/dexmat/jobs/73460017-production-engineer"
+  },
   "616b1af221ac69a4aba8051a350481d2ea54497b1302bb485a31d5efe4bf3b64": {
     "company": "Sweep",
     "first_seen_utc": "2026-04-02T22:09:50.569878+00:00",
@@ -8374,6 +8510,14 @@
     "scored": false,
     "title": "Senior Electrical Technician",
     "url": "https://jobs.dcvc.com/companies/radiant/jobs/73277716-senior-electrical-technician"
+  },
+  "64dbbd9b229c2bc8896473e8de2d051883d852620114450c1c6c03b679a770b2": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.241072+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Finance Systems Analyst I",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464298-finance-systems-analyst-i"
   },
   "653b15ef5c54693ae66c331797f0cf348257671184d303914e0251d9ac7db9c7": {
     "company": "Spire Maritime",
@@ -9583,6 +9727,14 @@
     "title": "Software Development Engineer III, Telemetry",
     "url": "https://jobs.ashbyhq.com/mapbox/dfeb1598-b717-427b-9da3-7caaef670eb9/application"
   },
+  "73c09731418aaa7cae2f0000bfb429a584a95ef167c693787110f21328d1293e": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-04-06T10:45:06.372167+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Marine Weather Forecaster",
+    "url": "https://www.fugro.com/careers/jobs/R0030956-marine-weather-forecaster"
+  },
   "74139f01d5c473c7998594c258deef8a684f2bdd1704a760a2f034ffe9fbb97e": {
     "company": "True Anomaly",
     "first_seen_utc": "2026-04-02T22:09:50.477263+00:00",
@@ -10215,6 +10367,14 @@
     "title": "Staff Data Scientist",
     "url": "https://job-boards.greenhouse.io/project44/jobs/7757162"
   },
+  "7af3c0a55b097adb2dd4c60f99fedad10492c79c65ae3541842e062b214ee516": {
+    "company": "Lowercarbon Capital Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.232193+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Technical Support Specialist",
+    "url": "https://boards.greenhouse.io/greenhouse/jobs/7763582"
+  },
   "7b09317c07957a50c5c0572ff17662b7cd4aeb7e69481758cc949585fce63420": {
     "company": "Project44",
     "first_seen_utc": "2026-04-05T20:21:05.587907+00:00",
@@ -10487,6 +10647,14 @@
     "title": "Account Executive",
     "url": "https://www.guidewheel.com/jobs/account-executive"
   },
+  "7dd940d6c52a0f5bdbd644d7f94b3af932f586909fcfccfa95216c3109b565e3": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.242039+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Structural Analysis Engineer I/II - TS/SCI Clearance",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464300-senior-structural-analysis-engineer-i-ii-ts-sci-clearance"
+  },
   "7ded3890da3023a658acbc9a12b8fffba8c9267ae3a55a4bdd28389114f5b967": {
     "company": "Planet Labs",
     "first_seen_utc": "2026-04-02T22:09:50.249484+00:00",
@@ -10615,6 +10783,14 @@
     "title": "Senior Software Engineer Scientific Engine (Python)",
     "url": "https://careers.descartesunderwriting.com/jobs/2450291-intermediate-senior-software-engineer-scientific-engine-python-cdi"
   },
+  "7fe017d563fd60f19f28b3d9aef64ba9fc0834c2ccdc41c0d69cdc5846be1d28": {
+    "company": "Isar Aerospace",
+    "first_seen_utc": "2026-04-06T10:45:06.457111+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Group Accountant",
+    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4824761101"
+  },
   "7fe62ca76faac1296a1f80cc0eebef4a226d99cfa08c04c03d13babd124d3be5": {
     "company": "Clean Energy Ventures Portfolio",
     "first_seen_utc": "2026-04-05T20:21:05.626761+00:00",
@@ -10670,6 +10846,14 @@
     "scored": false,
     "title": "Jobs at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d?paged=3/space-mechanism-engineer-277598/"
+  },
+  "8098812368266aa3f2f8e5f8c20838eb7c43fde668f36c54e12856cbc751a906": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-04-06T10:45:06.370538+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Intern \\ Estagi\u00e1rio",
+    "url": "https://www.fugro.com/careers/jobs/R0030788-intern-estagi%C3%A1rio"
   },
   "80a17ee1f7474696175472e7488969f36d49042212ee011e07fd89693aa4b2d4": {
     "company": "Astranis",
@@ -11462,6 +11646,14 @@
     "scored": false,
     "title": "Senior Software Engineer (Order and Delivery) - (10 years exp)",
     "url": "https://umbra-1.workable.com/jobs/5507154"
+  },
+  "895add310de613400ef61185aef7ae1206789d89184cf1056ff04bb25bcfce69": {
+    "company": "Isar Aerospace",
+    "first_seen_utc": "2026-04-06T10:45:06.457377+00:00",
+    "score": 3,
+    "scored": true,
+    "title": "Director of Group Accounting",
+    "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4826335101"
   },
   "895ccdfa2928d617f075a88d8231015bafa186566b87e3d12fd863c80f5106a7": {
     "company": "Loft Orbital",
@@ -13847,6 +14039,14 @@
     "title": "Office Administration Specialist",
     "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4722279101"
   },
+  "a3ede0bbaf2d4479fff8f1e2e895db1d0ab69fa0b4161b6f75dc45b22ecb1aca": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.246083+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Flight Dynamics Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464315-flight-dynamics-engineer-i-ii"
+  },
   "a3f6f0494ff5a47f9d9537426b449e24ef32ed94c13a4f0bd4bfe3507d2ab5f5": {
     "company": "GEO Careers",
     "first_seen_utc": "2026-04-05T20:21:05.651952+00:00",
@@ -14886,6 +15086,14 @@
     "scored": false,
     "title": "Product Engineer (Fintech & Market Infrastructure)",
     "url": "https://jobs.ashbyhq.com/patch.io/df68b14d-16dc-441c-b866-b9c5890b6275/application"
+  },
+  "b114cc836ba288a740e2a7fdc4910f27fd1448b2a8d52a61b8f91f719e2464c3": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.243026+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Manufacturing Engineer - Vehicle Integration (Night Shift, 4 day week)",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464304-manufacturing-engineer-vehicle-integration-night-shift-4-day-week"
   },
   "b121c7396aab9b0ece6310883aa55b4ece2bb88a5cb13f4de8a2e02edb402344": {
     "company": "Orsted",
@@ -17919,6 +18127,14 @@
     "title": "Data Scientist",
     "url": "https://jobs.lever.co/kpler/06a57092-de06-4b74-85a5-ec5966954dc2"
   },
+  "d807cd9542acc1b0cabd9ba5bcaf43abce994adb7e057c2a2e09baa267acea74": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.244509+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Propulsion Test Technician III",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464310-propulsion-test-technician-iii-b-shift"
+  },
   "d81c6380c64b2af595176801f6f3ad149d6f8488f93f7f6feb2122f175a8764c": {
     "company": "Spire Global",
     "first_seen_utc": "2026-04-02T22:09:50.270693+00:00",
@@ -18175,6 +18391,14 @@
     "title": "In Field Mechanic",
     "url": "https://jobs.preludeventures.com/companies/lime/jobs/73228956-in-field-mechanic"
   },
+  "dbe1d05a0b88556cc0f5f10be5f77c6cdd07815b76837e2d0ef9ff1296d58c61": {
+    "company": "GEO Careers",
+    "first_seen_utc": "2026-04-06T10:45:06.593181+00:00",
+    "score": 4,
+    "scored": true,
+    "title": "Geospatial Analyst",
+    "url": "https://www.geo-careers.com/"
+  },
   "dbfde4f8013353f844cd3dbee8718a69ddba780af5506af0fcae2e96654d4521": {
     "company": "Varda Space Industries",
     "first_seen_utc": "2026-04-02T22:09:50.484334+00:00",
@@ -18246,6 +18470,14 @@
     "scored": false,
     "title": "Embedded Software Intern at PierSight",
     "url": "https://jobs.gohire.io/piersight-rfd9c90d/embedded-software-intern-277274/"
+  },
+  "dcf348eb17f3760f28ed896de30bf177696a4105cde832a3653a6d8a87fd0f28": {
+    "company": "Project44",
+    "first_seen_utc": "2026-04-06T10:45:06.555182+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Software Engineer 2",
+    "url": "https://job-boards.greenhouse.io/project44/jobs/7771208"
   },
   "dd15188db49a06a439d252762a5d0debcb64d4206d5eea83f6f509d9da99078f": {
     "company": "Project44",
@@ -18583,6 +18815,14 @@
     "title": "Recruitment",
     "url": "https://www.iceye.com/careers/recruitment?hsLang=en"
   },
+  "e0bdf021f45937ec732de8cb901ff7bfd4da9dd7d8370593beab105b5d540fa9": {
+    "company": "Windward",
+    "first_seen_utc": "2026-04-06T10:45:06.418647+00:00",
+    "score": 6,
+    "scored": true,
+    "title": "Senior Manager, Data Acquisition & Partnerships",
+    "url": "https://windward.ai/company/careers/co/london/A8.86F/senior-manager-data-acquisition-partnerships/all"
+  },
   "e0de5c758f84a7eefdddd806a8854ccac3f6a044939be5ea7f24fff7b550aae5": {
     "company": "Isar Aerospace",
     "first_seen_utc": "2026-04-02T22:09:50.623099+00:00",
@@ -18678,6 +18918,14 @@
     "scored": false,
     "title": "Structural Analyst",
     "url": "https://job-boards.greenhouse.io/albedo/jobs/4146895009"
+  },
+  "e20b6fc7aba21d45cba86993187da4dbbe6a9fd187afc6316d9287ae1a5b820a": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.247408+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Manufacturing Engineer II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464319-manufacturing-engineer-ii-vehicle-integration"
   },
   "e20df65de2aa2efdec515a51207a77639835125a53f16d59b787e4f0767eef89": {
     "company": "Isar Aerospace",
@@ -19431,6 +19679,14 @@
     "title": "Senior Mechanical Design Engineer",
     "url": "https://careers.blykalla.com/jobs/7499324-senior-mechanical-design-engineer"
   },
+  "eabc5a68e5a17d1bd05bb2ccc1b5f611fee2e94495bb01c6b78bb32c713b427d": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.241563+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Spacecraft Structural Analysis Engineer I/II - TS/SCI Clearance",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464299-spacecraft-structural-analysis-engineer-i-ii-ts-sci-clearance"
+  },
   "eac8d5fe0fdbefc771bc2f0ec28e9e77ef26621428e2152236e666b23ffe7f90": {
     "company": "Commonwealth Fusion Systems",
     "first_seen_utc": "2026-04-02T22:09:50.670446+00:00",
@@ -19438,6 +19694,14 @@
     "scored": false,
     "title": "Facilities and Maintenance Technician",
     "url": "https://jobs.lever.co/cfsenergy/68da74a2-624e-4893-8214-779c1d543a31"
+  },
+  "eb07c75acb72561b0ba2e8dc0ba4f1ec34109008fd8c091fcceeed97df08102d": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.244182+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Flight Software Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464309-senior-flight-software-engineer-i-ii-secret-clearance"
   },
   "eb396af32d365ce3811f991be66611b133c680c089fc4f6f6f5d0d546488985e": {
     "company": "True Anomaly",
@@ -20158,6 +20422,14 @@
     "scored": false,
     "title": "Teamcenter Administrator",
     "url": "https://job-boards.greenhouse.io/vardaspace/jobs/7599463003"
+  },
+  "f2920e6eba8152e2db0046226d2982bbd96571c19265b84644faa15b3b2e409d": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.245465+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Ground Software Engineer I/II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464313-senior-ground-software-engineer-i-ii"
   },
   "f292fa94a0e1e492a6d0d6a0acd06e293954d237457082a2bd9aafd5254e32a5": {
     "company": "Loft Orbital",
@@ -21071,6 +21343,14 @@
     "title": "Electrician",
     "url": "https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4779843101"
   },
+  "fdf2c91f55150ef2939632e95b27b1aa3f2a8461eda8858648b6d6dc002e3932": {
+    "company": "DCVC Portfolio",
+    "first_seen_utc": "2026-04-06T10:45:06.247081+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Senior Financial Systems Analyst II",
+    "url": "https://jobs.dcvc.com/companies/rocket-lab/jobs/73464318-senior-financial-systems-analyst-ii"
+  },
   "fe11b3046322a0a58ffc760d3885002ff7f56fc9ab7ef71fb9431399bf58b8ba": {
     "company": "SatSure",
     "first_seen_utc": "2026-04-02T22:09:50.698441+00:00",
@@ -21174,6 +21454,14 @@
     "scored": true,
     "title": "Sr Enterprise Account Executive",
     "url": "https://jobs.dcvc.com/companies/element-ai/jobs/73133762-sr-enterprise-account-executive"
+  },
+  "ffc9e5538b9546dcfbf8203f7152432142ba5602d5e7bf23c5f716e23d35381d": {
+    "company": "Fugro",
+    "first_seen_utc": "2026-04-06T10:45:06.371045+00:00",
+    "score": 0,
+    "scored": false,
+    "title": "Mechanical Engineer Intern",
+    "url": "https://www.fugro.com/careers/jobs/R0030850-mechanical-engineer-intern"
   },
   "ffe35c04fb7e1e273b4d9ace1aef15b928be5ba0093308f170fcc1156e5cd2cd": {
     "company": "Umbra Space (Umbra Lab)",
