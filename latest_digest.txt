@@ -1,18 +1,52 @@
-Job Tracker Digest - 2026-04-06 10:45 UTC
+Job Tracker Digest - 2026-04-07 10:50 UTC
 309/311 companies scraped successfully · 2 failed
-7 new postings
+24 new postings
 
-[Lowercarbon Capital Portfolio] Enterprise Account Executive
-  https://boards.greenhouse.io/greenhouse/jobs/7752517
-[Windward] Senior Manager, Data Acquisition & Partnerships
-  https://windward.ai/company/careers/co/london/A8.86F/senior-manager-data-acquisition-partnerships/all
-[GEO Careers] Geospatial Analyst
+[Kepler Communications] Director of Sales – US Commercial Space
+  https://jobs.lever.co/kepler/1c25d90c-4819-4052-852f-3523993829f2
+[DCVC Portfolio] Senior Director, Partnerships and Channels (India)
+  https://jobs.dcvc.com/companies/element-ai/jobs/73479305-senior-director-partnerships-and-channels-india
+[Project44] Senior Customer Success Manager (Supply chain experience)
+  https://job-boards.greenhouse.io/project44/jobs/7705645
+[True Anomaly] Sr. Technical Program Manager, Governance, Risk, and Compliance (GRC)
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099704007
+[GEO Careers] Forest Monitoring Technician
   https://www.geo-careers.com/
-[Extantia Portfolio] Head of HSE
-  https://epochbiodesign.factorialhr.com/job_posting/head-of-hse-294883
-[Fugro] Marine Weather Forecaster
-  https://www.fugro.com/careers/jobs/R0030956-marine-weather-forecaster
-[Isar Aerospace] Director of Group Accounting
-  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4826335101
-[DCVC Portfolio] Senior Manager, DevOps Engineering
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/73464320-senior-manager-devops-engineering
+[Overstory] Staff Software Engineer, Geospatial Data
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4779122101
+[Planet Labs] Customer Success Manager - Defence and Intelligence (Middle East)
+  https://job-boards.greenhouse.io/planetlabs/jobs/7746422
+[Isar Aerospace] Supply Chain Management Specialist / Project Buyer – Ground Systems Projects
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4828191101
+[Overstory] Director of Platform Engineering
+  https://job-boards.eu.greenhouse.io/overstory/jobs/4777118101
+[Lowercarbon Capital Portfolio] Director
+  https://jobs.lever.co/thea.energy/7a5436ac-56e0-495e-87d6-262d183ff8f0
+[Greentown Labs (Green Town Labs)] Sr. Sales Engineer
+  https://jobs.ashbyhq.com/dandelion/4c67814b-0d14-4c58-9611-9c7e822f142a?utm_source=jobs.greentownlabs.com
+[Maxar] VP, Marketing
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/VP--Marketing_R23573
+[Overture VC Portfolio] Founding Account Executive, West
+  https://jobs.overture.vc/companies/glacier/jobs/73496779-founding-account-executive-west
+[Obvious Ventures Portfolio] Registered Nurse
+  https://jobs.obvious.com/companies/incredible-health/jobs/73506927-registered-nurse-med-surg-director
+[Prelude Ventures Portfolio] Director
+  https://jobs.preludeventures.com/companies/thea-energy-2/jobs/73477087-director-site-development
+[GEO Careers] GIS Industry Solutions Manager
+  https://www.geo-careers.com/
+[GEO Careers] Departmental Analyst 9-P11 (Fire Data Systems & GIS Analyst)
+  https://www.geo-careers.com/
+[Planet Labs] Senior Product Manager, Real Time Insights
+  https://job-boards.greenhouse.io/planetlabs/jobs/7625356
+[DCVC Portfolio] Senior Technical Solutions Engineer - Platform (Greater China Region)
+  https://jobs.dcvc.com/companies/databricks/jobs/73488810-senior-technical-solutions-engineer-platform-greater-china-region
+[DCVC Portfolio] Senior Product Analytics
+  https://jobs.dcvc.com/companies/tala/jobs/73532488-senior-product-analytics
+[True Anomaly] Staff Security Architect (ISSE), Missile Defense Software
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5093698007
+[Energy Impact Partners Portfolio] Sr. Regional Account Manager
+  https://jobs.energyimpactpartners.com/companies/hopskipdrive/jobs/73497708-sr-regional-account-manager
+[Energy Impact Partners Portfolio] Regional Account Manager
+  https://jobs.energyimpactpartners.com/companies/hopskipdrive/jobs/73497709-regional-account-manager
+[G2 Venture Partners Portfolio] Staff Product Manager, Compute (SF, Sunnyvale)
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73351509-staff-product-manager-compute-sf-sunnyvale
