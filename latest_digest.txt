@@ -1,52 +1,72 @@
-Job Tracker Digest - 2026-04-07 10:50 UTC
+Job Tracker Digest - 2026-04-08 10:39 UTC
 309/311 companies scraped successfully · 2 failed
-24 new postings
+34 new postings
 
-[Kepler Communications] Director of Sales – US Commercial Space
-  https://jobs.lever.co/kepler/1c25d90c-4819-4052-852f-3523993829f2
-[DCVC Portfolio] Senior Director, Partnerships and Channels (India)
-  https://jobs.dcvc.com/companies/element-ai/jobs/73479305-senior-director-partnerships-and-channels-india
-[Project44] Senior Customer Success Manager (Supply chain experience)
-  https://job-boards.greenhouse.io/project44/jobs/7705645
-[True Anomaly] Sr. Technical Program Manager, Governance, Risk, and Compliance (GRC)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099704007
-[GEO Careers] Forest Monitoring Technician
+[DCVC Portfolio] Enterprise Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73598373-enterprise-account-executive-fsi
+[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73606662-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
+[Safe Software] Senior Director, Customer Success
+  https://jobs.ashbyhq.com/safe/89b48d29-0020-48b7-8ad8-d343cf1ede12
+[DCVC Portfolio] Business Development Representative (UKI)
+  https://jobs.dcvc.com/companies/databricks/jobs/73598313-business-development-representative-uki
+[GEO Careers] Backend Geospatial Software Engineer
   https://www.geo-careers.com/
-[Overstory] Staff Software Engineer, Geospatial Data
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4779122101
-[Planet Labs] Customer Success Manager - Defence and Intelligence (Middle East)
-  https://job-boards.greenhouse.io/planetlabs/jobs/7746422
-[Isar Aerospace] Supply Chain Management Specialist / Project Buyer – Ground Systems Projects
-  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4828191101
-[Overstory] Director of Platform Engineering
-  https://job-boards.eu.greenhouse.io/overstory/jobs/4777118101
-[Lowercarbon Capital Portfolio] Director
-  https://jobs.lever.co/thea.energy/7a5436ac-56e0-495e-87d6-262d183ff8f0
-[Greentown Labs (Green Town Labs)] Sr. Sales Engineer
-  https://jobs.ashbyhq.com/dandelion/4c67814b-0d14-4c58-9611-9c7e822f142a?utm_source=jobs.greentownlabs.com
-[Maxar] VP, Marketing
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/VP--Marketing_R23573
-[Overture VC Portfolio] Founding Account Executive, West
-  https://jobs.overture.vc/companies/glacier/jobs/73496779-founding-account-executive-west
-[Obvious Ventures Portfolio] Registered Nurse
-  https://jobs.obvious.com/companies/incredible-health/jobs/73506927-registered-nurse-med-surg-director
-[Prelude Ventures Portfolio] Director
-  https://jobs.preludeventures.com/companies/thea-energy-2/jobs/73477087-director-site-development
-[GEO Careers] GIS Industry Solutions Manager
+[Planet Labs] Satellite Tasking Engineer, Collection Planning
+  https://job-boards.greenhouse.io/planetlabs/jobs/7402921
+[DCVC Portfolio] Director, Enterprise - Retail & CPG
+  https://jobs.dcvc.com/companies/databricks/jobs/73598322-director-enterprise-retail-cpg
+[DCVC Portfolio] Director, Enterprise - Retail & CPG, m/f/d
+  https://jobs.dcvc.com/companies/databricks/jobs/73598357-director-enterprise-retail-cpg-m-f-d
+[DCVC Portfolio] FINS Sales Leader
+  https://jobs.dcvc.com/companies/databricks/jobs/73598375-fins-sales-leader
+[DCVC Portfolio] Strategic Core Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73598384-strategic-core-account-executive-discrete-manufacturing
+[DCVC Portfolio] Strategic Hunter Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73598390-strategic-hunter-account-executive
+[DCVC Portfolio] Accounting and Finance Director
+  https://jobs.dcvc.com/companies/unspun/jobs/73592412-accounting-and-finance-director
+[Fugro] Head of Design &amp; Engineering
+  https://www.fugro.com/careers/jobs/R0030962-head-of-design-%26-engineering
+[Energy Impact Partners Portfolio] Inside Sales Representative (Join our Talent Community)
+  https://jobs.energyimpactpartners.com/companies/corelight/jobs/73624185-inside-sales-representative-join-our-talent-community
+[Obvious Ventures Portfolio] E-Commerce Director
+  https://jobs.obvious.com/companies/beyond-meat/jobs/73603410-e-commerce-director
+[G2 Venture Partners Portfolio] Mid-Market Account Executive
+  https://jobs.g2vp.com/companies/linksquares/jobs/73594096-mid-market-account-executive
+[GEO Careers] Senior GIS Developer
   https://www.geo-careers.com/
-[GEO Careers] Departmental Analyst 9-P11 (Fire Data Systems & GIS Analyst)
+[GEO Careers] GIS Analyst Senior
   https://www.geo-careers.com/
-[Planet Labs] Senior Product Manager, Real Time Insights
-  https://job-boards.greenhouse.io/planetlabs/jobs/7625356
-[DCVC Portfolio] Senior Technical Solutions Engineer - Platform (Greater China Region)
-  https://jobs.dcvc.com/companies/databricks/jobs/73488810-senior-technical-solutions-engineer-platform-greater-china-region
-[DCVC Portfolio] Senior Product Analytics
-  https://jobs.dcvc.com/companies/tala/jobs/73532488-senior-product-analytics
-[True Anomaly] Staff Security Architect (ISSE), Missile Defense Software
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5093698007
-[Energy Impact Partners Portfolio] Sr. Regional Account Manager
-  https://jobs.energyimpactpartners.com/companies/hopskipdrive/jobs/73497708-sr-regional-account-manager
-[Energy Impact Partners Portfolio] Regional Account Manager
-  https://jobs.energyimpactpartners.com/companies/hopskipdrive/jobs/73497709-regional-account-manager
-[G2 Venture Partners Portfolio] Staff Product Manager, Compute (SF, Sunnyvale)
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/73351509-staff-product-manager-compute-sf-sunnyvale
+[GEO Careers] GIS Cartography and Data Management Steward
+  https://www.geo-careers.com/
+[GEO Careers] Senior GIS Analyst
+  https://www.geo-careers.com/
+[ClimatePartner] Carbon Offset & Green Energy Services
+  https://www.climatepartner.com/index%2ephp/en/career/carbon-offset-green-energy-services
+[ClimatePartner] Sales
+  https://www.climatepartner.com/index%2ephp/en/career/sales
+[Watershed] Senior product manager, datasets & objects
+  https://watershed.com/careers/40e6ee21-senior-product-manager-datasets-objects
+[DCVC Portfolio] Sr. Delivery Solutions Engineer
+  https://jobs.dcvc.com/companies/databricks/jobs/73598381-sr-delivery-solutions-engineer
+[Varda Space Industries] CMMC Compliance Program Manager
+  https://job-boards.greenhouse.io/vardaspace/jobs/7693007003
+[Maxar] Backend Developer, Data Platform
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Reston-VA/Backend-Developer--Data-Platform_R23667
+[Energy Impact Partners Portfolio] Product Sustainability & LCA Manager
+  https://jobs.energyimpactpartners.com/companies/instagrid/jobs/73550743-product-sustainability-lca-manager-f-m-d
+[Energy Impact Partners Portfolio] Solutions Consultant
+  https://jobs.energyimpactpartners.com/companies/urbint/jobs/73608215-solutions-consultant
+[Obvious Ventures Portfolio] National Account Manager
+  https://jobs.obvious.com/companies/beyond-meat/jobs/73603428-national-account-manager-beverage
+[Obvious Ventures Portfolio] Growth Marketing Manager
+  https://jobs.obvious.com/companies/nemesis-media/jobs/73603664-growth-marketing-manager
+[G2 Venture Partners Portfolio] Senior Manager, R&D
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73623360-senior-manager-r-d
+[G2 Venture Partners Portfolio] Senior Manager, People Programs
+  https://jobs.g2vp.com/companies/oyster/jobs/73583346-senior-manager-people-programs
+[G2 Venture Partners Portfolio] Senior Manager, Canadian Policy and Public Affairs
+  https://jobs.g2vp.com/companies/waabi/jobs/73579144-senior-manager-canadian-policy-and-public-affairs
+[G2 Venture Partners Portfolio] Senior Manager, Federal Policy and Public Affairs
+  https://jobs.g2vp.com/companies/waabi/jobs/73579147-senior-manager-federal-policy-and-public-affairs
