@@ -1,72 +1,88 @@
-Job Tracker Digest - 2026-04-08 10:39 UTC
+Job Tracker Digest - 2026-04-09 10:51 UTC
 309/311 companies scraped successfully · 2 failed
-34 new postings
+42 new postings
 
-[DCVC Portfolio] Enterprise Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/73598373-enterprise-account-executive-fsi
-[AENU Portfolio] Technischer Leiter / Head of Engineering (m/w/d) Agri-PV & Green Energy
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73606662-technischer-leiter-head-of-engineering-m-w-d-agri-pv-green-energy
-[Safe Software] Senior Director, Customer Success
-  https://jobs.ashbyhq.com/safe/89b48d29-0020-48b7-8ad8-d343cf1ede12
-[DCVC Portfolio] Business Development Representative (UKI)
-  https://jobs.dcvc.com/companies/databricks/jobs/73598313-business-development-representative-uki
-[GEO Careers] Backend Geospatial Software Engineer
+[DCVC Portfolio] Director, Business Development and Government Relations
+  https://jobs.dcvc.com/companies/lumafield/jobs/73750975-director-business-development-and-government-relations
+[DCVC Portfolio] Named Enterprise Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73739316-named-enterprise-account-executive-manufacturing
+[Vulcan EarthRanger] Director, Partnerships
+  https://job-boards.greenhouse.io/nimblegravity/jobs/4660065005
+[G2 Venture Partners Portfolio] Senior Director, Energy Partnerships
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/73666445-senior-director-energy-partnerships
+[DCVC Portfolio] Director, Commercial Manufacturing
+  https://jobs.dcvc.com/companies/orca-bio/jobs/73707723-director-commercial-manufacturing
+[Umbra Space (Umbra Lab)] Director, Defense
+  https://umbra-1.workable.com/jobs/5434175
+[Maxar] Senior Account Executive, U.S. Government (TS)
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Senior-Account-Executive--US-Government--TS-_R23656
+[GEO Careers] GIS Solution Engineer - State & Local Government (Northern Midwest)
   https://www.geo-careers.com/
-[Planet Labs] Satellite Tasking Engineer, Collection Planning
-  https://job-boards.greenhouse.io/planetlabs/jobs/7402921
-[DCVC Portfolio] Director, Enterprise - Retail & CPG
-  https://jobs.dcvc.com/companies/databricks/jobs/73598322-director-enterprise-retail-cpg
-[DCVC Portfolio] Director, Enterprise - Retail & CPG, m/f/d
-  https://jobs.dcvc.com/companies/databricks/jobs/73598357-director-enterprise-retail-cpg-m-f-d
-[DCVC Portfolio] FINS Sales Leader
-  https://jobs.dcvc.com/companies/databricks/jobs/73598375-fins-sales-leader
-[DCVC Portfolio] Strategic Core Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/73598384-strategic-core-account-executive-discrete-manufacturing
-[DCVC Portfolio] Strategic Hunter Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/73598390-strategic-hunter-account-executive
-[DCVC Portfolio] Accounting and Finance Director
-  https://jobs.dcvc.com/companies/unspun/jobs/73592412-accounting-and-finance-director
-[Fugro] Head of Design &amp; Engineering
-  https://www.fugro.com/careers/jobs/R0030962-head-of-design-%26-engineering
-[Energy Impact Partners Portfolio] Inside Sales Representative (Join our Talent Community)
-  https://jobs.energyimpactpartners.com/companies/corelight/jobs/73624185-inside-sales-representative-join-our-talent-community
-[Obvious Ventures Portfolio] E-Commerce Director
-  https://jobs.obvious.com/companies/beyond-meat/jobs/73603410-e-commerce-director
-[G2 Venture Partners Portfolio] Mid-Market Account Executive
-  https://jobs.g2vp.com/companies/linksquares/jobs/73594096-mid-market-account-executive
-[GEO Careers] Senior GIS Developer
+[Maxar] Data Hunter/Librarian
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Customer-Site-Virginia/Geospatial-Data-Specialist_R23682
+[Descartes Underwriting] AVP, Business Development Singapore
+  https://careers.descartesunderwriting.com/jobs/7283717-avp-business-development-singapore
+[Energy Impact Partners Portfolio] GTM Engineering and Systems Manager
+  https://jobs.energyimpactpartners.com/companies/ashby/jobs/73708432-gtm-engineering-and-systems-manager
+[Prelude Ventures Portfolio] Supply Chain Intern
+  https://jobs.preludeventures.com/companies/amp-2-be75603c-c7b1-4c65-87ca-8422b7e1c997/jobs/73700257-supply-chain-intern
+[GEO Careers] Geospatial Project Manager
   https://www.geo-careers.com/
-[GEO Careers] GIS Analyst Senior
+[DCVC Portfolio] Director, Americas Field Marketing Programs
+  https://jobs.dcvc.com/companies/databricks/jobs/73739298-director-americas-field-marketing-programs
+[DCVC Portfolio] Geo Core Account Executive - Energy & Manufacturing
+  https://jobs.dcvc.com/companies/databricks/jobs/73739302-geo-core-account-executive-energy-manufacturing
+[DCVC Portfolio] Geo Core Account Executive - HLS & CPG
+  https://jobs.dcvc.com/companies/databricks/jobs/73739305-geo-core-account-executive-hls-cpg
+[DCVC Portfolio] Geo Core Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73739313-geo-core-account-executive-mixed-industries
+[DCVC Portfolio] Sr. Product Marketing Manager, AI
+  https://jobs.dcvc.com/companies/databricks/jobs/73739336-sr-product-marketing-manager-ai
+[DCVC Portfolio] Strategic Account Executive
+  https://jobs.dcvc.com/companies/singlestore-2/jobs/73723504-strategic-account-executive
+[Greentown Labs (Green Town Labs)] 6.1. Vice President of People
+  https://jobs.lever.co/PhoenixTailings/52dac956-6f95-47db-91c0-3f4326d6bc94?lever-source%5B%5D=jobs.greentownlabs.com
+[Greentown Labs (Green Town Labs)] Account Executive
+  https://jobs.upstream.tech/39581
+[Maxar] Director, Talent Mgmt and Compensation
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Director--Talent-Mgmt-and-Compensation_R23674
+[Altana AI] Sales Enablement Manager
+  https://job-boards.greenhouse.io/altanaai/jobs/7688626003
+[Spire Maritime] Inbound Sales Development Representative -Trilingual Spanish, Portuguese and English languages required
+  https://jobs.lever.co/kpler/3e15096d-868b-4d88-bd8f-11f4abd76589
+[Spire Maritime] Sales Development Representative - Energy/Financials
+  https://jobs.lever.co/kpler/61cc355f-f7a3-47f5-b0fc-ccf7b9e22367
+[S2G Ventures Portfolio] Yard Driver/Jockey - Shipping 2nd shift Acorn
+  https://farmerfocus.wd5.myworkdayjobs.com/FarmerFocus/job/Harrisonburg-VA/Yard-Driver-Jockey---Shipping-2nd-shift-Acorn_JR1434
+[Energy Impact Partners Portfolio] Lead GIS Architect
+  https://jobs.energyimpactpartners.com/companies/trc-companies-2/jobs/73712906-lead-gis-architect
+[Obvious Ventures Portfolio] Account Executive
+  https://jobs.obvious.com/companies/lynx-2-9f2d0d1e-9cb8-48f6-88a2-74cb271e2071/jobs/73731269-account-executive
+[Planet A Ventures Portfolio] Product Marketing Manager
+  https://jobs.planet-a.com/companies/optiml-2/jobs/73684151-product-marketing-manager-london-hybrid
+[Clean Energy Ventures Portfolio] Journeyman Electrician
+  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/73663972-journeyman-electrician
+[GEO Careers] GIS Developer/Analyst
   https://www.geo-careers.com/
-[GEO Careers] GIS Cartography and Data Management Steward
+[Acre Sustainability Jobs] Product Sales Manager
+  https://www.acre.com/jobs/acre-13638-acre-13638
+[Lowercarbon Capital Portfolio] Senior Manager, R&D
+  https://jobs.ashbyhq.com/Crusoe/14e5f5a1-cb56-4b3e-ac4c-a31152b6fcbf
+[DCVC Portfolio] Chief of Staff
+  https://jobs.dcvc.com/companies/fervo-energy/jobs/73734528-chief-of-staff
+[DCVC Portfolio] Chief Information Security Officer (CISO)
+  https://jobs.dcvc.com/companies/lumafield/jobs/73750974-chief-information-security-officer-ciso
+[True Anomaly] Electrical Engineer (Senior - Principal), Harness
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5102779007
+[True Anomaly] GNC Engineer, Missile Defense
+  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5101069007
+[Spire Maritime] Customer Success Manager
+  https://jobs.lever.co/kpler/306d1fab-a44b-48f0-a38c-fffd95b2d491
+[Energy Impact Partners Portfolio] Regional Account Manager
+  https://jobs.energyimpactpartners.com/companies/hopskipdrive/jobs/73733409-regional-account-manager
+[Prelude Ventures Portfolio] Chief of Staff
+  https://jobs.preludeventures.com/companies/fervo-energy/jobs/73734528-chief-of-staff
+[G2 Venture Partners Portfolio] Senior Manager, Implementation
+  https://jobs.g2vp.com/companies/motive-2/jobs/73735498-senior-manager-implementation
+[GEO Careers] Cartographic Applied Research Section Chief
   https://www.geo-careers.com/
-[GEO Careers] Senior GIS Analyst
-  https://www.geo-careers.com/
-[ClimatePartner] Carbon Offset & Green Energy Services
-  https://www.climatepartner.com/index%2ephp/en/career/carbon-offset-green-energy-services
-[ClimatePartner] Sales
-  https://www.climatepartner.com/index%2ephp/en/career/sales
-[Watershed] Senior product manager, datasets & objects
-  https://watershed.com/careers/40e6ee21-senior-product-manager-datasets-objects
-[DCVC Portfolio] Sr. Delivery Solutions Engineer
-  https://jobs.dcvc.com/companies/databricks/jobs/73598381-sr-delivery-solutions-engineer
-[Varda Space Industries] CMMC Compliance Program Manager
-  https://job-boards.greenhouse.io/vardaspace/jobs/7693007003
-[Maxar] Backend Developer, Data Platform
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Reston-VA/Backend-Developer--Data-Platform_R23667
-[Energy Impact Partners Portfolio] Product Sustainability & LCA Manager
-  https://jobs.energyimpactpartners.com/companies/instagrid/jobs/73550743-product-sustainability-lca-manager-f-m-d
-[Energy Impact Partners Portfolio] Solutions Consultant
-  https://jobs.energyimpactpartners.com/companies/urbint/jobs/73608215-solutions-consultant
-[Obvious Ventures Portfolio] National Account Manager
-  https://jobs.obvious.com/companies/beyond-meat/jobs/73603428-national-account-manager-beverage
-[Obvious Ventures Portfolio] Growth Marketing Manager
-  https://jobs.obvious.com/companies/nemesis-media/jobs/73603664-growth-marketing-manager
-[G2 Venture Partners Portfolio] Senior Manager, R&D
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/73623360-senior-manager-r-d
-[G2 Venture Partners Portfolio] Senior Manager, People Programs
-  https://jobs.g2vp.com/companies/oyster/jobs/73583346-senior-manager-people-programs
-[G2 Venture Partners Portfolio] Senior Manager, Canadian Policy and Public Affairs
-  https://jobs.g2vp.com/companies/waabi/jobs/73579144-senior-manager-canadian-policy-and-public-affairs
-[G2 Venture Partners Portfolio] Senior Manager, Federal Policy and Public Affairs
-  https://jobs.g2vp.com/companies/waabi/jobs/73579147-senior-manager-federal-policy-and-public-affairs
