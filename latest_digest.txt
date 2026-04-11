@@ -1,96 +1,74 @@
-Job Tracker Digest - 2026-04-10 10:42 UTC
+Job Tracker Digest - 2026-04-11 10:05 UTC
 309/311 companies scraped successfully · 2 failed
-46 new postings
+35 new postings
 
-[Patch] Enterprise Account Executive
-  https://jobs.ashbyhq.com/patch.io/e4ea582d-5a71-42ac-9af0-a268c00cc3cb/application
-[DCVC Portfolio] Regional Sales Director (East)
-  https://jobs.dcvc.com/companies/karius/jobs/73879047-regional-sales-director-east
-[Satlantis] JUNIOR EARTH OBSERVATION MISSION &amp;#038; APPLICATIONS ENGINEER VACANCY
-  https://www.satlantis.com/job/junior-earth-observation-mission-applications-engineer-vacancy/
-[Axelspace] Earth Observation Data Scientist
-  https://hrmos.co/pages/axelspace/jobs/2000000008
-[Spire Maritime] Head of Compliance (EU based)
-  https://jobs.lever.co/kpler/d02bcca4-ade0-4dc1-a306-4324bee381a8
-[Clean Energy Ventures Portfolio] Chief of Staff (Fundraising track record a MUST)
-  https://jobs.cleanenergyventures.com/companies/queens-carbon/jobs/73794842-chief-of-staff-fundraising-track-record-a-must
-[UP42] Partnerships Lead (m/f/x)
-  https://up42gmbh.recruitee.com/l/de/o/partnerships-lead-mfx
-[True Anomaly] Principal Structural Dynamics Engineer, Missile Defense
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5025858007
-[Fugro] Regional Procurement &amp; Supply Chain Leader
-  https://www.fugro.com/careers/jobs/R0031006-regional-procurement-%26-supply-chain-leader
-[Sateliot] Supply Chain Specialist
-  https://careers.sateliot.com/jobs/7544000-supply-chain-specialist
-[GEO Careers] Geospatial Data Engineer
+[AENU Portfolio] Enterprise Account Executive
+  https://jobs.aenu.com/companies/patch-3-0347b824-a214-430d-b570-c5100c20c839/jobs/73962236-enterprise-account-executive
+[Energy Impact Partners Portfolio] Enterprise Account Executive
+  https://jobs.energyimpactpartners.com/companies/measurabl/jobs/73979523-enterprise-account-executive
+[Obvious Ventures Portfolio] Senior Director, Business Development
+  https://jobs.obvious.com/companies/medable/jobs/73959244-senior-director-business-development-cro-focus
+[S2G Ventures Portfolio] Head of Sales
+  https://job-boards.greenhouse.io/electrasteel/jobs/4630723005
+[AENU Portfolio] Head of / Leiter Batteriespeicher BESS (m/w/d) Agri-PV
+  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/73947047-head-of-leiter-batteriespeicher-bess-m-w-d-agri-pv
+[Maxar] Director, Strategic Growth NRO
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/Director--Strategic-Growth-NRO_R23697
+[Satlantis] CORPORATE &amp;#038; BUSINESS DEVELOPMENT MANAGER VACANCY
+  https://www.satlantis.com/job/corporate-business-development-manager-vacancy/
+[DCVC Portfolio] Senior RF Systems Engineer I/II Pipeline
+  https://jobs.dcvc.com/companies/rocket-lab/jobs/73976582-senior-rf-systems-engineer-i-ii-pipeline
+[Maxar] Geospatial Technical Targeter
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/McLean-VA/Geospatial-Technical-Targeter_R23707
+[S2G Ventures Portfolio] Supply Chain Operations Analyst III
+  https://job-boards.greenhouse.io/electrasteel/jobs/4675814005
+[NatureMetrics] Interim Head of Marketing (Contract)
+  https://naturemetrics.jobs.personio.de/job/2595918?language=en
+[DCVC Portfolio] Named Core Account Executive
+  https://jobs.dcvc.com/companies/databricks/jobs/73967720-named-core-account-executive-energy
+[DCVC Portfolio] Deal Strategy & Operations Manager
+  https://jobs.dcvc.com/companies/safely-you/jobs/73978602-deal-strategy-operations-manager
+[Greentown Labs (Green Town Labs)] Field Operations Director - Mid-Atlantic
+  https://jobs.ashbyhq.com/dandelion/ecd7673a-f8e8-47ed-be9b-15f74fe9681d?utm_source=jobs.greentownlabs.com
+[Fugro] Product Commercialisation Manager - Climate &amp; Nature
+  https://www.fugro.com/careers/jobs/R0031009-product-commercialisation-manager-climate-%26-nature
+[Fugro] Commercial Manager
+  https://www.fugro.com/careers/jobs/R0031035-commercial-manager
+[S2G Ventures Portfolio] Director - Capital Projects Procurement & Contracts
+  https://job-boards.greenhouse.io/electrasteel/jobs/4652147005
+[Energy Impact Partners Portfolio] Director of Support Engineering
+  https://jobs.energyimpactpartners.com/companies/ashby/jobs/73964200-director-of-support-engineering-americas
+[Energy Impact Partners Portfolio] Strategic Account Executive
+  https://jobs.energyimpactpartners.com/companies/rubicon-2/jobs/73975993-strategic-account-executive
+[G2 Venture Partners Portfolio] Head of Hardware Production
+  https://jobs.g2vp.com/companies/carbon3d-com/jobs/73932870-head-of-hardware-production
+[G2 Venture Partners Portfolio] Customer Marketing Director
+  https://jobs.g2vp.com/companies/linksquares/jobs/73945247-customer-marketing-director
+[G2 Venture Partners Portfolio] Mid-Market Account Executive
+  https://jobs.g2vp.com/companies/motive-2/jobs/73988439-mid-market-account-executive-remote
+[G2 Venture Partners Portfolio] Senior Account Executive (UKI)
+  https://jobs.g2vp.com/companies/oyster/jobs/73990110-senior-account-executive-uki
+[GEO Careers] GIS Cultural Resources and Web Mapping Steward - AmeriCorps (NPS National Capital Regional Office)
   https://www.geo-careers.com/
-[GEO Careers] Enterprise Geospatial Systems Analyst
-  https://www.geo-careers.com/
-[AENU Portfolio] Werkstudent:in Grants & Public Affairs (f/m/x)
-  https://jobs.aenu.com/companies/greenlyte-carbon-technologies/jobs/73859881-werkstudent-in-grants-public-affairs-f-m-x
-[DCVC Portfolio] Startup Hunter Account Executive, Germany
-  https://jobs.dcvc.com/companies/databricks/jobs/73853093-startup-hunter-account-executive-germany
-[DCVC Portfolio] Strategic Account Executive, Life Science
-  https://jobs.dcvc.com/companies/databricks/jobs/73853096-strategic-account-executive-life-science
-[DCVC Portfolio] Strategic Core Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/73853100-strategic-core-account-executive-bfsi
-[DCVC Portfolio] Clinical Sales Manager (Capitol)
-  https://jobs.dcvc.com/companies/karius/jobs/73879044-clinical-sales-manager-capitol
-[DCVC Portfolio] Clinical Sales Manager (Indianapolis)
-  https://jobs.dcvc.com/companies/karius/jobs/73879050-clinical-sales-manager-indianapolis
-[Fugro] eROV Supervisor
-  https://www.fugro.com/careers/jobs/R0030049-erov-supervisor-marine
-[AAC Clyde Space] Sales Engineer
-  https://www.aac-clyde.space/jobs/sales-engineer-delft
-[Altana AI] Sales Engineer, Logistics
-  https://job-boards.greenhouse.io/altanaai/jobs/7695723003
-[Energy Impact Partners Portfolio] Lead GIS Architect
-  https://jobs.energyimpactpartners.com/companies/trc-companies-2/jobs/73869206-lead-gis-architect
-[Energy Impact Partners Portfolio] Director Quality
-  https://jobs.energyimpactpartners.com/companies/urbint/jobs/73857219-director-quality
-[Overture VC Portfolio] Senior Product Marketing Manager
-  https://jobs.overture.vc/companies/crux/jobs/73025636-senior-product-marketing-manager
-[Overture VC Portfolio] Sales Ops and Distribution Analyst
-  https://jobs.overture.vc/companies/harbinger/jobs/73794951-sales-ops-and-distribution-analyst
-[Planet A Ventures Portfolio] Sales Development Representative (SDR)
-  https://jobs.planet-a.com/companies/podero-2/jobs/73840746-sales-development-representative-sdr-m-f-d
-[G2 Venture Partners Portfolio] Director, Employee Success
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/73793925-director-employee-success
-[GEO Careers] GIS Solution Engineer
-  https://www.geo-careers.com/
-[GEO Careers] GIS Data Management and Web Mapping Steward - AmeriCorps (Urban Parks DC)
-  https://www.geo-careers.com/
-[GEO Careers] GIS Cultural Resources Steward - AmeriCorps (Virgin Islands)
-  https://www.geo-careers.com/
-[ClimatePartner] Carbon Offset & Green Energy Services
-  https://www.climatepartner.com/index%2Ephp/en/career/carbon-offset-green-energy-services
-[ClimatePartner] Sales
-  https://www.climatepartner.com/index%2Ephp/en/career/sales
+[Acre Sustainability Jobs] Academy Director
+  https://www.acre.com/jobs/acre-13604-acre-13604
 [Spire Global] Job Openings - Spire : Global Data and Analytics
-  https://spire.com/careers/job-openings/job/?gh_jid=6930485
-[Lowercarbon Capital Portfolio] Senior product manager, datasets & objects
-  https://jobs.ashbyhq.com/Watershed/1e7c8e55-bb6f-4896-bb76-65c640e6ee21
-[Lowercarbon Capital Portfolio] Customer Success Representative
-  https://ats.rippling.com/en-US/jetson/jobs/70e378eb-f2f1-40a0-9c31-0482ccfa11c5
-[DCVC Portfolio] Chief of Staff, to the CPO
-  https://jobs.dcvc.com/companies/databricks/jobs/73853083-chief-of-staff-to-the-cpo
-[True Anomaly] Principal, Integrated Test Operations Lead
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5104218007
-[True Anomaly] Structural Dynamics Engineer, Missile Defense (III to Staff)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5104156007
-[Astranis] Total Rewards & Analytics Analyst
-  https://job-boards.greenhouse.io/astranis/jobs/4667482006
-[Energy Impact Partners Portfolio] Principal Architect
-  https://jobs.energyimpactpartners.com/companies/trc-companies-2/jobs/73869187-principal-architect
-[Obvious Ventures Portfolio] Global People Analytics & Systems Lead
-  https://jobs.obvious.com/companies/recursion-pharmaceuticals-2-ccbe89ca-ec35-439d-885e-ca59051ce93b/jobs/73808987-global-people-analytics-systems-lead
-[Prelude Ventures Portfolio] Principal Hardware Engineer
-  https://jobs.preludeventures.com/companies/atom-computing/jobs/73796186-principal-hardware-engineer
-[Prelude Ventures Portfolio] Principal/Staff People Business Partner
-  https://jobs.preludeventures.com/companies/quantumscape/jobs/73843463-principal-staff-people-business-partner
-[G2 Venture Partners Portfolio] Senior Solutions Engineer
-  https://jobs.g2vp.com/companies/locus-robotics/jobs/73809144-senior-solutions-engineer
-[G2 Venture Partners Portfolio] Senior Manager, Field Services
-  https://jobs.g2vp.com/companies/locus-robotics/jobs/73809145-senior-manager-field-services
-[G2 Venture Partners Portfolio] Lead Product Manager, Autonomy
-  https://jobs.g2vp.com/companies/waabi/jobs/73821762-lead-product-manager-autonomy
+  https://spire.com/careers/job-openings/?department=weather-science-research
+[DCVC Portfolio] Global Account Manager
+  https://jobs.dcvc.com/companies/databricks/jobs/73967718-global-account-manager-pharmaceutical-industry
+[DCVC Portfolio] Sr Manager, Engineering- Cloud Intelligence & Infrastructure Economics
+  https://jobs.dcvc.com/companies/databricks/jobs/73967723-sr-manager-engineering-cloud-intelligence-infrastructure-economics
+[DCVC Portfolio] Solutions Engineer, Enterprise
+  https://jobs.dcvc.com/companies/kentik/jobs/73994640-solutions-engineer-enterprise-west
+[Slingshot Aerospace] Manager of Growth, APAC
+  https://job-boards.greenhouse.io/slingshotaerospace/jobs/5848537004?gh_jid=5848537004
+[S2G Ventures Portfolio] Principal Data Scientist
+  https://job-boards.greenhouse.io/electrasteel/jobs/4656810005
+[Energy Impact Partners Portfolio] Solutions Engineer
+  https://jobs.energyimpactpartners.com/companies/ashby/jobs/73964201-solutions-engineer-dach
+[Energy Impact Partners Portfolio] Senior Technical Account Manager
+  https://jobs.energyimpactpartners.com/companies/rapidsos/jobs/73951873-senior-technical-account-manager
+[Planet A Ventures Portfolio] Product Intelligence Analyst [100%], Zürich
+  https://jobs.planet-a.com/companies/optiml-2/jobs/73942528-product-intelligence-analyst-100-zurich-hybrid
+[G2 Venture Partners Portfolio] Customer Success Manager I
+  https://jobs.g2vp.com/companies/relay-2-57e4438c-f610-46a6-8c2a-70623375f634/jobs/73998026-customer-success-manager-i-hospitality
