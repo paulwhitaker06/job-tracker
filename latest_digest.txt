@@ -1,52 +1,36 @@
-Job Tracker Digest - 2026-04-12 10:16 UTC
+Job Tracker Digest - 2026-04-13 11:15 UTC
 309/311 companies scraped successfully · 2 failed
-24 new postings
+16 new postings
 
-[Open Cosmos] Sales Lead, Earth Observation Data
-  https://careers.open-cosmos.com/jobs/7231054-sales-lead-earth-observation-data-europe
-[Obvious Ventures Portfolio] Senior Manager, Supply Chain
-  https://jobs.obvious.com/companies/beyond-meat/jobs/74059283-senior-manager-supply-chain
-[Obvious Ventures Portfolio] Head of PEO Sales
-  https://jobs.obvious.com/companies/gusto/jobs/74051199-head-of-peo-sales
-[Obvious Ventures Portfolio] Director, Compliance
-  https://jobs.obvious.com/companies/iterative-scopes/jobs/74053692-director-compliance
-[GEO Careers] Postdoctoral Research Associate - Remote Sensing of Harmful Algal Blooms
+[Fugro] Regional Director, Strategic Sales
+  https://www.fugro.com/careers/jobs/R0031060-regional-director-strategic-sales
+[Windward] Maritime Analyst IL
+  https://windward.ai/company/careers/co/tlv-israel/49.864/maritime-analyst-il/all
+[Planet A Ventures Portfolio] Product Manager
+  https://jobs.planet-a.com/companies/carbon-re/jobs/74112351-product-manager
+[Planet A Ventures Portfolio] Solutions Engineer
+  https://jobs.planet-a.com/companies/carbon-re/jobs/74112352-solutions-engineer
+[GEO Careers] Geospatial Data Analyst
   https://www.geo-careers.com/
-[DCVC Portfolio] Senior Program Manager II, RF Systems - TS/SCI
-  https://jobs.dcvc.com/companies/rocket-lab/jobs/74075501-senior-program-manager-ii-rf-systems-ts-sci
-[Obvious Ventures Portfolio] Customer Success Manager - Defence and Intelligence (Middle East)
-  https://jobs.obvious.com/companies/planet/jobs/74069823-customer-success-manager-defence-and-intelligence-middle-east
-[GEO Careers] Geospatial Developer
+[DCVC Portfolio] Director, Data Architect
+  https://jobs.dcvc.com/companies/pivot-bio/jobs/74086513-director-data-architect
+[DCVC Portfolio] Head of Applications Engineering
+  https://jobs.dcvc.com/companies/slip-robotics/jobs/74087451-head-of-applications-engineering
+[Planet A Ventures Portfolio] Lead Edge Engineer
+  https://jobs.planet-a.com/companies/carbon-re/jobs/74112348-lead-edge-engineer
+[Planet A Ventures Portfolio] Software Engineer
+  https://jobs.planet-a.com/companies/carbon-re/jobs/74112349-software-engineer
+[Planet A Ventures Portfolio] Software Engineer Enablement
+  https://jobs.planet-a.com/companies/carbon-re/jobs/74112350-software-engineer-enablement
+[Prelude Ventures Portfolio] Director, Data Architect
+  https://jobs.preludeventures.com/companies/pivot-bio/jobs/74086513-director-data-architect
+[G2 Venture Partners Portfolio] Director, Data Architect
+  https://jobs.g2vp.com/companies/pivot-bio/jobs/74086513-director-data-architect
+[GEO Careers] GIS Analyst
   https://www.geo-careers.com/
-[Obvious Ventures Portfolio] Group Creative Director, Copy
-  https://jobs.obvious.com/companies/gusto/jobs/74051197-group-creative-director-copy
-[Obvious Ventures Portfolio] Senior Franchise Account Executive
-  https://jobs.obvious.com/companies/gusto/jobs/74051213-senior-franchise-account-executive
-[Obvious Ventures Portfolio] Satellite Tasking Engineer, Collection Planning
-  https://jobs.obvious.com/companies/planet/jobs/74069825-satellite-tasking-engineer-collection-planning
-[GEO Careers] Sr. GIS Solution Engineer
-  https://www.geo-careers.com/
-[GEO Careers] GIS Developer & Systems Analyst
-  https://www.geo-careers.com/
-[DCVC Portfolio] Global Supply Manager
-  https://jobs.dcvc.com/companies/agility-robotics/jobs/74079116-global-supply-manager-ecosystem-devices
-[Open Cosmos] Data Customer Success Manager
-  https://careers.open-cosmos.com/jobs/6828587-data-customer-success-manager
-[Energy Impact Partners Portfolio] Survey Crew Chief
-  https://jobs.energyimpactpartners.com/companies/trc-companies-2/jobs/74063699-survey-crew-chief
-[Overture VC Portfolio] Sr. Manager, Energy Market Analytics & Forecasting
-  https://jobs.overture.vc/companies/antora-energy-2/jobs/74028373-sr-manager-energy-market-analytics-forecasting
-[Obvious Ventures Portfolio] Compliance
-  https://jobs.obvious.com/companies/devoted-health/jobs/74041762-compliance-fdr-manager
-[Obvious Ventures Portfolio] Senior Manager of Grievances and Medicare Complaints
-  https://jobs.obvious.com/companies/devoted-health/jobs/74041763-senior-manager-of-grievances-and-medicare-complaints
-[Obvious Ventures Portfolio] Principal Product Operations Manager, Benefits
-  https://jobs.obvious.com/companies/gusto/jobs/74051210-principal-product-operations-manager-benefits
-[Prelude Ventures Portfolio] Principal Technical Program Manager
-  https://jobs.preludeventures.com/companies/atom-computing/jobs/74059829-principal-technical-program-manager
-[G2 Venture Partners Portfolio] Senior Manager, Commissioning
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/74064211-senior-manager-commissioning
-[G2 Venture Partners Portfolio] Principal Software Engineer, Model LifeCycle
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/74064212-principal-software-engineer-model-lifecycle
-[GEO Careers] Hydrography Section Chief (Supervisory Geographer/Cartographer)
-  https://www.geo-careers.com/
+[DCVC Portfolio] Solutions Engineer, Enterprise
+  https://jobs.dcvc.com/companies/kentik/jobs/74084439-solutions-engineer-enterprise-west
+[Energy Impact Partners Portfolio] Channel Manager
+  https://jobs.energyimpactpartners.com/companies/flo-2/jobs/74087445-channel-manager
+[Energy Impact Partners Portfolio] Channel Development Manager
+  https://jobs.energyimpactpartners.com/companies/flo-2/jobs/74087446-channel-development-manager
