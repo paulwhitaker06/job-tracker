@@ -1315,3 +1315,211 @@ companies:
   - name: Mosaic Materials
     type: html_links
     url: https://www.mosaicmaterials.com/careers
+
+  - name: Ocean Conservancy
+    type: html_links
+    url: https://oceanconservancy.org/our-people/career-opportunities/
+
+  - name: Oceana
+    type: html_links
+    url: https://oceana.org/employment-opportunities/
+
+  - name: Wildlife Conservation Society
+    type: html_links
+    url: https://www.wcs.org/about-us/careers
+
+  - name: Ocean Wise
+    type: html_links
+    url: https://ocean.org/careers/
+
+  - name: The Nature Conservancy
+    type: html_links
+    url: https://careers.nature.org/
+
+  - name: Marine Conservation Institute
+    type: html_links
+    url: https://marine-conservation.org/work-with-us/
+
+  - name: Monterey Bay Aquarium Research Institute (MBARI)
+    type: html_links
+    url: https://www.mbari.org/about/careers/
+
+  - name: Schmidt Ocean Institute
+    type: html_links
+    url: https://schmidtocean.org/about/careers/
+
+  - name: Schmidt Marine Jobs Board
+    type: html_links
+    url: https://jobs.schmidtmarine.org/
+
+  - name: The Ocean Foundation
+    type: html_links
+    url: https://oceanfdn.org/careers/
+
+  - name: Pew Charitable Trusts
+    type: html_links
+    url: https://www.pewtrusts.org/en/about/careers
+
+  - name: Global Seafood Alliance
+    type: html_links
+    url: https://www.globalseafood.org/jobs/
+
+  - name: Sustainable Fisheries Partnership
+    type: html_links
+    url: https://www.sustainablefish.org/About-SFP/Careers
+
+  - name: Marine Stewardship Council
+    type: html_links
+    url: https://www.msc.org/about-the-msc/careers
+
+  - name: Environmental Investigation Agency
+    type: html_links
+    url: https://us.eia.org/about/jobs/
+
+  - name: TRAFFIC
+    type: html_links
+    url: https://www.traffic.org/about-us/careers/
+
+  - name: Seven Seas Ocean Jobs
+    type: html_links
+    url: https://sevenseasmedia.org/ocean-jobs/
+
+  - name: Ocean Conservation Careers
+    type: html_links
+    url: https://oceanconservationcareers.com/job-listings
+
+  - name: Environmental Defense Fund
+    type: html_links
+    url: https://www.edf.org/jobs
+
+  - name: World Resources Institute
+    type: html_links
+    url: https://www.wri.org/careers
+
+  - name: Conservation International
+    type: html_links
+    url: https://www.conservation.org/about/careers
+
+  - name: World Wildlife Fund
+    type: html_links
+    url: https://www.worldwildlife.org/about/careers
+
+  - name: Rare Conservation
+    type: html_links
+    url: https://rare.org/careers/
+
+  - name: Natural Resources Defense Council
+    type: html_links
+    url: https://www.nrdc.org/about/careers
+
+  - name: Rainforest Alliance
+    type: html_links
+    url: https://www.rainforest-alliance.org/careers/
+
+  - name: Wildlife Conservation Network
+    type: html_links
+    url: https://wildnet.org/careers/
+
+  - name: Woods Hole Oceanographic Institution
+    type: html_links
+    url: https://careers.whoi.edu/
+
+  - name: Scripps Institution of Oceanography
+    type: html_links
+    url: https://scripps.ucsd.edu/portal/jobs
+
+  - name: National Audubon Society
+    type: html_links
+    url: https://www.audubon.org/content/careers-audubon
+
+  - name: Restore America's Estuaries
+    type: html_links
+    url: https://estuaries.org/about-us/careers/
+
+  - name: Rocky Mountain Institute
+    type: html_links
+    url: https://rmi.org/about/careers/
+
+  - name: ClimateWorks Foundation
+    type: html_links
+    url: https://www.climateworks.org/careers/
+
+  - name: Clean Air Task Force
+    type: html_links
+    url: https://www.catf.us/careers/
+
+  - name: Carbon180
+    type: html_links
+    url: https://carbon180.org/careers
+
+  - name: Wellfound (AngelList)
+    type: html_links
+    url: https://wellfound.com/jobs
+
+  - name: Y Combinator Jobs
+    type: html_links
+    url: https://www.ycombinator.com/jobs
+
+  - name: Work at a Startup (YC)
+    type: html_links
+    url: https://www.workatastartup.com/jobs
+
+  - name: Greentown Labs Jobs
+    type: html_links
+    url: https://greentown.org/jobs/
+
+  - name: Techstars Jobs
+    type: html_links
+    url: https://jobs.techstars.com/jobs
+
+  - name: Climate Tech Careers
+    type: html_links
+    url: https://www.climatetechcareers.com/
+
+  - name: Climate Change Jobs
+    type: html_links
+    url: https://climatechangejobs.com
+
+  - name: Climate Jobs List
+    type: html_links
+    url: https://www.climatejobslist.com/
+
+  - name: Rejobs Renewable Energy
+    type: html_links
+    url: https://rejobs.org/en
+
+  - name: Jobs in Carbon
+    type: html_links
+    url: https://jobsincarbon.niceboard.co/
+
+  - name: Work on Climate
+    type: html_links
+    url: https://workonclimate.org/
+
+  - name: My Climate Journey Jobs
+    type: html_links
+    url: https://www.mcjcollective.com/jobs
+
+  - name: 80,000 Hours Job Board
+    type: html_links
+    url: https://80000hours.org/job-board/
+
+  - name: Idealist
+    type: html_links
+    url: https://www.idealist.org/en/careers
+
+  - name: Nonprofit Jobs (Chronicle of Philanthropy)
+    type: html_links
+    url: https://jobs.philanthropy.com/
+
+  - name: Conservation Job Board
+    type: html_links
+    url: https://conservationjobboard.com/
+
+  - name: MethaneSAT
+    type: html_links
+    url: https://www.methanesat.org/careers/
+
+  - name: Global Forest Watch
+    type: html_links
+    url: https://www.globalforestwatch.org/about/
