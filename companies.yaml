@@ -1523,3 +1523,159 @@ companies:
   - name: Global Forest Watch
     type: html_links
     url: https://www.globalforestwatch.org/about/
+
+  - name: 2150 VC Portfolio
+    type: html_links
+    url: https://jobs.2150.vc/jobs
+
+  - name: Aclima
+    type: html_links
+    url: https://aclima.io/careers/
+
+  - name: AgriWebb
+    type: html_links
+    url: https://www.agriwebb.com/careers/
+
+  - name: Allen Institute for AI
+    type: html_links
+    url: https://allenai.org/careers
+
+  - name: Bezos Earth Fund
+    type: html_links
+    url: https://www.bezosearthfund.org/careers
+
+  - name: Biome Makers
+    type: html_links
+    url: https://biomemakers.com/careers
+
+  - name: Blue Ventures
+    type: html_links
+    url: https://blueventures.org/careers/
+
+  - name: BlueHalo
+    type: html_links
+    url: https://www.bluehalo.com/careers/
+
+  - name: Booz Allen
+    type: html_links
+    url: https://www.boozallen.com/careers/
+
+  - name: CACI
+    type: html_links
+    url: https://careers.caci.com/
+
+  - name: CGIAR
+    type: html_links
+    url: https://www.cgiar.org/careers/
+
+  - name: Cape Analytics
+    type: html_links
+    url: https://capeanalytics.com/careers/
+
+  - name: Captura
+    type: html_links
+    url: https://capturacorp.com/careers
+
+  - name: Carbon Engineering
+    type: html_links
+    url: https://carbonengineering.com/careers/
+
+  - name: Climeworks
+    type: html_links
+    url: https://climeworks.com/careers
+
+  - name: CropX
+    type: html_links
+    url: https://cropx.com/careers/
+
+  - name: Cropin
+    type: html_links
+    url: https://www.cropin.com/careers
+
+  - name: Equatic
+    type: html_links
+    url: https://www.equatic.tech/careers
+
+  - name: FIDO Tech
+    type: html_links
+    url: https://www.fido.tech/careers/
+
+  - name: Farmers Business Network
+    type: html_links
+    url: https://www.fbn.com/careers
+
+  - name: Forest Trends
+    type: html_links
+    url: https://www.forest-trends.org/careers/
+
+  - name: Foursquare
+    type: html_links
+    url: https://careers.foursquare.com/
+
+  - name: Hewlett Foundation
+    type: html_links
+    url: https://hewlett.org/about-us/careers/
+
+  - name: Hortau
+    type: html_links
+    url: https://hortau.com/careers/
+
+  - name: Ketos
+    type: html_links
+    url: https://ketos.co/careers/
+
+  - name: L3Harris
+    type: html_links
+    url: https://careers.l3harris.com/
+
+  - name: Mati Carbon
+    type: html_links
+    url: https://www.mati.earth/careers
+
+  - name: Meteomatics
+    type: html_links
+    url: https://www.meteomatics.com/en/careers/
+
+  - name: Packard Foundation
+    type: html_links
+    url: https://www.packard.org/about-the-foundation/careers/
+
+  - name: Pix4D
+    type: html_links
+    url: https://www.pix4d.com/careers
+
+  - name: Rainforest Connection
+    type: html_links
+    url: https://rfcx.org/careers
+
+  - name: SafeGraph
+    type: html_links
+    url: https://www.safegraph.com/careers
+
+  - name: SeekOps
+    type: html_links
+    url: https://www.seekops.com/careers
+
+  - name: Semios
+    type: html_links
+    url: https://semios.com/careers/
+
+  - name: Third Sphere Portfolio
+    type: html_links
+    url: https://jobs.thirdsphere.com/jobs
+
+  - name: Travertine
+    type: html_links
+    url: https://travertinetech.com/careers
+
+  - name: Tule Technologies
+    type: html_links
+    url: https://tuletechnologies.com/careers/
+
+  - name: Vaisala
+    type: html_links
+    url: https://www.vaisala.com/en/careers
+
+  - name: WeatherXM
+    type: html_links
+    url: https://weatherxm.com/careers/
