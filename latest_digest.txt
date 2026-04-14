@@ -1,36 +1,62 @@
-Job Tracker Digest - 2026-04-13 11:15 UTC
+Job Tracker Digest - 2026-04-14 11:00 UTC
 309/311 companies scraped successfully · 2 failed
-16 new postings
+29 new postings
 
-[Fugro] Regional Director, Strategic Sales
-  https://www.fugro.com/careers/jobs/R0031060-regional-director-strategic-sales
-[Windward] Maritime Analyst IL
-  https://windward.ai/company/careers/co/tlv-israel/49.864/maritime-analyst-il/all
-[Planet A Ventures Portfolio] Product Manager
-  https://jobs.planet-a.com/companies/carbon-re/jobs/74112351-product-manager
-[Planet A Ventures Portfolio] Solutions Engineer
-  https://jobs.planet-a.com/companies/carbon-re/jobs/74112352-solutions-engineer
-[GEO Careers] Geospatial Data Analyst
+[DCVC Portfolio] Senior Enterprise Account Executive, Bundesländer West
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164228-senior-enterprise-account-executive-bundeslander-west
+[DCVC Portfolio] Senior Enterprise Account Executive, Bundesländer Ost
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164232-senior-enterprise-account-executive-bundeslander-ost
+[DCVC Portfolio] Senior Enterprise Account Executive, Deutsche Rentenversicherung & DGUV
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164234-senior-enterprise-account-executive-deutsche-rentenversicherung-dguv
+[DCVC Portfolio] Senior Enterprise Account Executive, Transport & Mobility (KRITIS District)
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164235-senior-enterprise-account-executive-transport-mobility-kritis-district
+[DCVC Portfolio] Enterprise Account Executive
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164241-enterprise-account-executive
+[DCVC Portfolio] Director, Canada Partnerships & Channels
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164256-director-canada-partnerships-channels
+[Planetary Technologies] Director of Business Development
+  https://ph2.bamboohr.com/careers/67
+[Planet Labs] Customer Success Manager, U.S. Defense and Intelligence
+  https://job-boards.greenhouse.io/planetlabs/jobs/7727892
+[DCVC Portfolio] Global Account Director Automotive
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164242-global-account-director-automotive
+[DCVC Portfolio] Sr Staff Outbound Product Manager - D&A Partnerships
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164249-sr-staff-outbound-product-manager-d-a-partnerships
+[DCVC Portfolio] Director, CRM Sales
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164250-director-crm-sales-enterprise-tech
+[GEO Careers] Physical Scientist (Remote Sensing)
   https://www.geo-careers.com/
-[DCVC Portfolio] Director, Data Architect
-  https://jobs.dcvc.com/companies/pivot-bio/jobs/74086513-director-data-architect
-[DCVC Portfolio] Head of Applications Engineering
-  https://jobs.dcvc.com/companies/slip-robotics/jobs/74087451-head-of-applications-engineering
-[Planet A Ventures Portfolio] Lead Edge Engineer
-  https://jobs.planet-a.com/companies/carbon-re/jobs/74112348-lead-edge-engineer
-[Planet A Ventures Portfolio] Software Engineer
-  https://jobs.planet-a.com/companies/carbon-re/jobs/74112349-software-engineer
-[Planet A Ventures Portfolio] Software Engineer Enablement
-  https://jobs.planet-a.com/companies/carbon-re/jobs/74112350-software-engineer-enablement
-[Prelude Ventures Portfolio] Director, Data Architect
-  https://jobs.preludeventures.com/companies/pivot-bio/jobs/74086513-director-data-architect
-[G2 Venture Partners Portfolio] Director, Data Architect
-  https://jobs.g2vp.com/companies/pivot-bio/jobs/74086513-director-data-architect
-[GEO Careers] GIS Analyst
-  https://www.geo-careers.com/
-[DCVC Portfolio] Solutions Engineer, Enterprise
-  https://jobs.dcvc.com/companies/kentik/jobs/74084439-solutions-engineer-enterprise-west
-[Energy Impact Partners Portfolio] Channel Manager
-  https://jobs.energyimpactpartners.com/companies/flo-2/jobs/74087445-channel-manager
-[Energy Impact Partners Portfolio] Channel Development Manager
-  https://jobs.energyimpactpartners.com/companies/flo-2/jobs/74087446-channel-development-manager
+[Planet Labs] Senior Geospatial AI/ML Engineer
+  https://job-boards.greenhouse.io/planetlabs/jobs/7799787
+[Greentown Labs (Green Town Labs)] Business Development Intern
+  https://docs.google.com/forms/d/e/1FAIpQLSfNA2-XG6DArlxGUV3jNXUgq4dcGntW6W1DoxONB3dESj4ZHw/viewform
+[EarthDaily] Product Marketing Manager
+  https://earthdaily.applytojob.com/apply/jobs/details/tTP68YI11W?&
+[DCVC Portfolio] Area Vice President, Technology & Strategic Partnership APAC
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164237-area-vice-president-technology-strategic-partnership-apac
+[DCVC Portfolio] Director, Partner Solution Consulting
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164240-director-partner-solution-consulting-apac
+[DCVC Portfolio] Delivery Director, Healthcare and Life Sciences (HCLS)
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164251-delivery-director-healthcare-and-life-sciences-hcls
+[Fugro] Global Head of Finance
+  https://www.fugro.com/careers/jobs/R0030245-global-head-of-finance-fleet-services
+[Fugro] Risk Management Lead
+  https://www.fugro.com/careers/jobs/R0031003-risk-management-lead-erm
+[Maxar] Creative Director
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Tampa-FL/Creative-Director_R23717
+[Energy Impact Partners Portfolio] Sales Manager, DACH
+  https://jobs.energyimpactpartners.com/companies/aeroseal/jobs/74160042-sales-manager-dach
+[G2 Venture Partners Portfolio] Sales Data Quality Analyst II
+  https://jobs.g2vp.com/companies/motive-2/jobs/74157981-sales-data-quality-analyst-ii
+[Sylvera] Customer Success Manager
+  https://jobs.ashbyhq.com/sylvera/6b91670a-c86c-4954-b927-edfb7d4fff89
+[DCVC Portfolio] Senior Customer Success Manager
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164247-senior-customer-success-manager-moveworks
+[DCVC Portfolio] Principal Technical Consultant - SecOps & IRM
+  https://jobs.dcvc.com/companies/element-ai/jobs/74164275-principal-technical-consultant-secops-irm
+[Maxar] Editor-in-Chief
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Tampa-FL/Editor-in-Chief_R23716
+[Maxar] AI Solutions Engineer
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/AI-Solutions-Engineer_R23718
+[G2 Venture Partners Portfolio] Customer Success Manager
+  https://jobs.g2vp.com/companies/scandit/jobs/74173062-customer-success-manager
