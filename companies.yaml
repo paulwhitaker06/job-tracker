@@ -1798,3 +1798,117 @@ companies:
     type: lever_api
     url: https://jobs.lever.co/aquabyte
     lever_company: aquabyte
+
+  - name: Earth Fire Alliance
+    type: html_links
+    url: https://www.earthfirealliance.org/join-our-team#open-roles
+
+  - name: Salo Sciences
+    type: html_links
+    url: https://salo.ai/careers
+
+  - name: Genasys (acq. ZoneHaven)
+    type: html_links
+    url: https://genasys.applicantpro.com/jobs/
+
+  - name: Frontline Wildfire Defense
+    type: html_links
+    url: https://www.frontlinewildfire.com/careers/
+
+  - name: Burnbot
+    type: playwright
+    url: https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0bf0d861-644f-4d20-9d3a-0233325f1c5a&ccId=19000101_000001&type=JS&lang=en_US
+
+  - name: Rain Industries
+    type: html_links
+    url: https://www.rain.aero/careers
+
+  - name: Convective Capital Portfolio
+    type: html_links
+    url: https://jobs.convectivecapital.com/jobs
+
+  - name: Mast Reforestation
+    type: lever_api
+    url: https://jobs.lever.co/MastReforestation
+    lever_company: MastReforestation
+
+  - name: Land Life Company
+    type: html_links
+    url: https://landlifecompany.recruitee.com/
+
+  - name: WeForest
+    type: html_links
+    url: https://www.weforest.org/about-us/careers/
+
+  - name: One Tree Planted
+    type: html_links
+    url: https://onetreeplanted.org/pages/careers
+
+  - name: Plant-for-the-Planet
+    type: html_links
+    url: https://www.plant-for-the-planet.org/career/
+
+  - name: Mighty Earth
+    type: html_links
+    url: https://mightyearth.org/careers/
+
+  - name: Forest Stewardship Council
+    type: html_links
+    url: https://fsc.org/en/careers-at-fsc
+
+  - name: PEFC International
+    type: html_links
+    url: https://www.pefc.org/discover-pefc/jobs
+
+  - name: Rainforest Action Network
+    type: html_links
+    url: https://www.ran.org/jobs/
+
+  - name: Amazon Conservation Association
+    type: html_links
+    url: https://www.amazonconservation.org/about/careers-internships/
+
+  - name: Amazon Conservation Team
+    type: html_links
+    url: https://www.amazonteam.org/subscribe/jobs/
+
+  - name: Wildlife Works
+    type: workable_api
+    url: https://apply.workable.com/wildlife-works/
+    workable_account: wildlife-works
+
+  - name: Trees for the Future
+    type: html_links
+    url: https://ats.rippling.com/trees/jobs
+
+  - name: Single.Earth
+    type: html_links
+    url: https://careers.single.earth/
+
+  - name: Pivotal Future
+    type: html_links
+    url: https://pivotalfuture.bamboohr.com/careers
+
+  - name: EmberPoint
+    type: manual_check
+    url: https://www.linkedin.com/company/emberpoint-co/jobs/
+
+  - name: Satellites on Fire
+    type: manual_check
+    url: https://www.linkedin.com/company/satellitesonfire/jobs/
+
+  - name: Akula Tech
+    type: manual_check
+    url: https://www.linkedin.com/company/akula-tech/jobs/
+
+  - name: Pyregence Consortium
+    type: manual_check
+    url: https://www.linkedin.com/company/spatial-informatics-group-llc/jobs/
+
+  - name: Restor
+    type: manual_check
+    url: https://www.linkedin.com/company/restor-eco/jobs/
+
+  - name: American Forests
+    type: manual_check
+    url: https://www.linkedin.com/company/american-forests/jobs/
