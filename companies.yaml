@@ -1740,3 +1740,61 @@ companies:
   - name: Reef Renewal USA
     type: html_links
     url: https://reefrenewalusa.org/get-involved/#openings
+
+  - name: Placer.ai
+    type: html_links
+    url: https://www.placer.ai/company/we-are-hiring
+
+  - name: Ceres Imaging
+    type: html_links
+    url: https://ceres.ai/careers
+
+  - name: Carbon Robotics
+    type: html_links
+    url: https://carbonrobotics.com/job-openings
+
+  - name: Indigo Ag
+    type: html_links
+    url: https://www.indigoag.com/careers
+
+  - name: BeeHero
+    type: html_links
+    url: https://www.beehero.io/careers
+
+  - name: Kilimo
+    type: html_links
+    url: https://kilimo.com/en/talent/#open-positions
+
+  - name: Greeneye Technology
+    type: html_links
+    url: https://greeneye.ag/career
+
+  - name: NatureServe
+    type: html_links
+    url: https://www.natureserve.org/careers
+
+  - name: Kairos Aerospace
+    type: lever_api
+    url: https://jobs.lever.co/InsightM
+    lever_company: insightm
+
+  - name: Bridger Photonics
+    type: html_links
+    url: https://www.bridgerphotonics.com/careers
+
+  - name: LongPath Technologies
+    type: html_links
+    url: https://www.longpathtech.com/about-us#careers
+
+  - name: Project Canary
+    type: html_links
+    url: https://projectcanary.pinpointhq.com/#js-careers-jobs-block
+
+  - name: ZeroNorth
+    type: html_links
+    url: https://careers.zeronorth.com/jobs
+
+  - name: Aquabyte
+    type: lever_api
+    url: https://jobs.lever.co/aquabyte
+    lever_company: aquabyte
