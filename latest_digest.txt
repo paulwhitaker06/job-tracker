@@ -1,526 +1,164 @@
-Job Tracker Digest - 2026-04-15 00:25 UTC
-400/402 companies scraped successfully · 2 failed
-261 new postings
+Job Tracker Digest - 2026-04-15 11:28 UTC
+415/417 companies scraped successfully · 2 failed
+80 new postings
 
-[True Anomaly] Principal Electrical Engineer, Radio Frequency (RF)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5107030007
-[Techstars Jobs] Director of Product Strategy, Sales Engagement
-  https://jobs.techstars.com/companies/outreach/jobs/74232906-director-of-product-strategy-sales-engagement
-[Jobs in Carbon] Senior/Assistant Director, Carbon Strategy Division
-  https://www.careers.hrp.gov.sg/sap/bc/ui5_ui5/sap/zgercfa004/index.html?source=linkedin#/jobdescription/16238026/005056a3-53e2-1fd1-8d97-b895475953ec
-[Jobs in Carbon] Vice President - Carbon & ESG Products
-  https://hkex.wd3.myworkdayjobs.com/hkexcareerpage/job/hk-two-es-7f/vice-president---carbon---esg-products_r002984
-[True Anomaly] Electrical Engineer II, Radio Frequency (RF)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5105733007
-[True Anomaly] Senior Electrical Engineer, Radio Frequency (RF)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5106295007
-[True Anomaly] Staff Electrical Engineer, Radio Frequency (RF)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5107027007
-[Techstars Jobs] VP, Channel & Strategic Alliances
-  https://jobs.techstars.com/companies/logicgate/jobs/74225575-vp-channel-strategic-alliances
-[Jobs in Carbon] Associate Director
-  https://careers.macegroup.com/gb/en/job/42054/associate-director---sustainability---carbon-lead?src=jobsincarbon
-[Jobs in Carbon] Carbon Accounting & Climate Consultant Contractual (AU Sustainability,Hybrid)
-  https://connectos.co/careers/job/?jid=849739&utm_source=jobsincarbon
-[DCVC Portfolio] Strategy & Execution Manager
-  https://jobs.dcvc.com/companies/databricks/jobs/74239457-strategy-execution-manager-gtm-planning
-[S2G Ventures Portfolio] Internship: Sales &amp; Supply Chain
-  https://farmerfocus.wd5.myworkdayjobs.com/FarmerFocus/job/Harrisonburg-VA/Internship--Sales---Supply-Chain_JR1444
-[Ocean Conservation Careers] Marine Partnerships Officer
-  https://www.cornwallwildlifetrust.org.uk/jobs/marine-partnerships-officer
-[Climate Change Jobs] Director, Energy Innovation and Commercialization
-  https://climatechangejobs.com/jobs/441266045-director-energy-innovation-and-commercialization
-[Climate Change Jobs] Enterprise Account Executive
-  https://climatechangejobs.com/jobs/441428407-enterprise-account-executive
-[Jobs in Carbon] EU Market Development, Climate
-  https://stripe.com/jobs/listing/eu-market-development-climate/7722641
-[Jobs in Carbon] CDR Demand and Market Development Lead
-  https://carbon-gap.jobs.personio.com/job/2593250
-[Jobs in Carbon] Director, Business Development
-  https://job-boards.greenhouse.io/rubiconcarbon/jobs/4676382005?gh_src=dza0p8zd5us
-[Cropin] ENTERPRISE SALES
-  https://www.cropin.com/careers
-[SeekOps] Methane And Carbon Emission Detection Job Opening
-  https://seekops.com/careers/
-[Extantia Portfolio] Head of Risk
-  https://bees-bears-gmbh.jobs.personio.de/job/2601213
-[DCVC Portfolio] Customer Success Manager, U.S. Defense and Intelligence
-  https://jobs.dcvc.com/companies/planet/jobs/74242406-customer-success-manager-u-s-defense-and-intelligence
-[Obvious Ventures Portfolio] Customer Success Manager, U.S. Defense and Intelligence
-  https://jobs.obvious.com/companies/planet/jobs/74242406-customer-success-manager-u-s-defense-and-intelligence
+[Fleetzero] Head of Strategic Partnerships
+  https://jobs.lever.co/fleetzero/c825871f-39ed-4bec-ad0b-6626135efbb6
+[Voyager Ventures Portfolio] Director of Business Development, East Coast
+  https://copperhome.com/pages/jobs?gh_jid=5095210007
+[Voyager Ventures Portfolio] Head of Supply Chain
+  https://job-boards.greenhouse.io/remoracarbon/jobs/5091779007
+[Greentown Labs (Green Town Labs)] Growth & GTM Operations intern
+  https://jobs.ashbyhq.com/allspice/61bdcd82-2402-460c-ae4b-07a59f3a0a10?utm_source=jobs.greentownlabs.com
+[Schmidt Marine Jobs Board] Head of Technology Projects & Business Systems
+  https://jobs.schmidtmarine.org/companies/marine-stewardship-council/jobs/74309785-head-of-technology-projects-business-systems
+[Climate Jobs List] Director, Product Marketing at Span
+  https://www.climatejobslist.com/jobs/director-product-marketing-at-span-aug-23
+[Climate Jobs List] Strategic Sales Director at UtilityAPI
+  https://www.climatejobslist.com/jobs/strategic-sales-director-at-utilityapi-aug-23
+[Jobs in Carbon] Carbon Data Transformation Director / Consultant
+  https://alcumus.pinpointhq.com/en/postings/22f284c4-0b3d-4f03-90fc-ff1b0febd199?source=jobsincarbon
+[At One Ventures Portfolio] Strategic Sales Director, HVAC (West Coast)
+  https://job-boards.greenhouse.io/gradientcomfort/jobs/5821981004
+[DCVC Portfolio] Technician, Quality Control Environmental Monitoring
+  https://jobs.dcvc.com/companies/orca-bio/jobs/74307567-technician-quality-control-environmental-monitoring
+[Jobs in Carbon] Sustainability Analyst – Carbon Reporting & Power Bi Dashboard Development Consultancy
+  https://jobs.jobvite.com/mercycorps/job/od2zzfwx?__jvst=job+board&__jvsd=jobsincarbon
+[Climate Jobs List] Business Development Manager at Allume Energy
+  https://www.climatejobslist.com/jobs/business-development-manager-at-allume-energy-aug-23
+[Climate Jobs List] RF Electrical Engineer, Team Lead at Geli
+  https://www.climatejobslist.com/jobs/rf-electrical-engineer-team-lead-at-geli-aug-23
+[Climate Jobs List] Supply Chain General Manager at ZeroAvia
+  https://www.climatejobslist.com/jobs/supply-chain-general-manager-at-zeroavia-aug-23
+[MCJ Collective Portfolio] Manager of Global Supply Chain
+  https://jobs.mcj.vc/companies/lightship-2-8860648c-15ac-45b4-81f6-8b18d4ac636a/jobs/74232952-manager-of-global-supply-chain
+[MCJ Collective Portfolio] Business Development Representative
+  https://jobs.mcj.vc/companies/runwise-2/jobs/74200193-business-development-representative
+[DCVC Portfolio] Clinical Sales Manager (Western NY & PA)
+  https://jobs.dcvc.com/companies/karius/jobs/74280128-clinical-sales-manager-western-ny-pa
+[DCVC Portfolio] Director, Clinical Operations
+  https://jobs.dcvc.com/companies/karius/jobs/74280129-director-clinical-operations
+[DCVC Portfolio] Sr Product Marketing Manager
+  https://jobs.dcvc.com/companies/kentik/jobs/74288622-sr-product-marketing-manager
+[Energy Impact Partners Portfolio] Inside Sales Representative
+  https://jobs.energyimpactpartners.com/companies/corelight/jobs/74311724-inside-sales-representative-central
+[Obvious Ventures Portfolio] Senior Director, Project Management Office
+  https://jobs.obvious.com/companies/medable/jobs/74251465-senior-director-project-management-office
+[Obvious Ventures Portfolio] Director, IT & Security
+  https://jobs.obvious.com/companies/octave/jobs/74294668-director-it-security
+[Clean Energy Ventures Portfolio] Solar Electrician
+  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/74272721-solar-electrician
+[Prelude Ventures Portfolio] Key Accounts Director- North America
+  https://jobs.preludeventures.com/companies/minesense-technologies-2/jobs/74270885-key-accounts-director-north-america
+[ClimatePartner] Director Technology
+  https://climatepartner-gmbh.jobs.personio.de/job/2594906?language=en&display=en
 [Schmidt Marine Jobs Board] Schmidt Marine
-  https://jobs.schmidtmarine.org/companies/corpower-ocean/jobs/74241856-engenheiro-eletrotecnico-media-tensao-wave-energy-m-f-nb
-[Ocean Conservation Careers] Assistant Professor of Marine Biology - College of Fisheries and Ocean Sciences
-  https://careers.alaska.edu/jobs/assistant-professor-of-marine-biology-college-of-fisheries-and-ocean-sciences-fairbanks-alaska-united-states
-[Ocean Conservation Careers] Program Director, Launchpad at Ocean Visions, Inc
-  https://ocean-visions.breezy.hr/p/d31e0e116ff5-program-director-launchpad
-[Climate Change Jobs] EDG Commercial Development Director, Nuclear
-  https://climatechangejobs.com/jobs/441266041-edg-commercial-development-director-nuclear
-[Climate Change Jobs] EDG Director, Nuclear Commercial Development
-  https://climatechangejobs.com/jobs/441266041/apply
-[Climate Change Jobs] Director, US Agriculture
-  https://greenjobs.greenjobsearch.org/jobs/director-us-agriculture/
-[Jobs in Carbon] Carbon Sales Trader
-  https://otcflow.bamboohr.com/careers/303?source=jobsincarbon
-[Jobs in Carbon] Sales Trader
-  https://afsenergy.recruitee.com/o/sales-trader-voluntary-carbon-market?source=jobsincarbon
-[Jobs in Carbon] Carbon Sales Manager
-  https://biolite.bamboohr.com/careers/101?source=awq9nte%3d
-[Jobs in Carbon] Quantitative Risk Manager – Energy & Carbon Trading
-  https://careersatdeloitte.com/vacancy/quantitative-risk-manager-energy-and-carbon-trading-ref3991q/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Associate Director of Digital Strategy, Advancement Communications
-  https://jobs.philanthropy.com/job/51815/senior-associate-director-of-digital-strategy-advancement-communications/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director, Strategy and Operations
-  https://jobs.philanthropy.com/job/51962/senior-director-strategy-and-operations/?LinkSource=PromotedJob
-[AENU Portfolio] Head of EPC (m/w/d) Agri-PV: Bau & Projektumsetzung
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/74203034-head-of-epc-m-w-d-agri-pv-bau-projektumsetzung
-[Maxar] Director, Marketing &amp; Communications, International Government
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/London-United-Kingdom/Director--Marketing---Communications--International-Government_R21125
-[World Resources Institute] Senior Manager and Lead, Campaign for People, Nature and Climate
-  https://www.wri.org/careers/jobs/senior-manager-and-lead-campaign-people-nature-and-climate-2026-jr100029
-[Techstars Jobs] Account Executive, Video Intelligence APAC
-  https://jobs.techstars.com/companies/twelve-labs/jobs/74227260-account-executive-video-intelligence-apac
-[Climate Change Jobs] Strategy & Operations Principal, Partner Operations
-  https://climatechangejobs.com/jobs/441264504-strategy-operations-principal-partner-operations
-[Climate Change Jobs] Port Townsend, Washington, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-port-townsend-washington-united-states
-[Jobs in Carbon] Senior Manager, Renewables and Carbon Procurement
-  https://job-boards.greenhouse.io/airtrunk/jobs/7659594003?gh_src=02cb1e9b3us
-[Jobs in Carbon] Senior Sustainability Manager
-  https://jobs.gatwickairport.com/jobs/vacancy/senior-sustainability-manager---carbon-4638/4664/description/
-[Jobs in Carbon] Senior Environment & Sustainability Advisor
-  https://jobs.nationalgrid.com/uk/jobs/6927/senior-environment-sustainability-advisor-carbon?src=jobsincarbon
-[Jobs in Carbon] Senior / Principal Carbon Advisor
-  https://anthesisgroup.pinpointhq.com/postings/7f78ffd7-2ee1-4e14-b59a-e8b9f881bcea
-[Jobs in Carbon] Product Manager Carbon Capture
-  https://careersathost.com/o/product-manager-carbon-capture
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Managing Director of Major and Principal Gifts
-  https://jobs.philanthropy.com/job/52058/senior-managing-director-of-major-and-principal-gifts/
-[DCVC Portfolio] Senior Geospatial AI/ML Engineer
-  https://jobs.dcvc.com/companies/planet/jobs/74242409-senior-geospatial-ai-ml-engineer
-[SatSure] Supply Chain Engineer
-  https://satsure.keka.com/careers
-[Obvious Ventures Portfolio] Manager of Global Supply Chain
-  https://jobs.obvious.com/companies/lightship-2-8860648c-15ac-45b4-81f6-8b18d4ac636a/jobs/74232952-manager-of-global-supply-chain
-[Obvious Ventures Portfolio] Senior Geospatial AI/ML Engineer
-  https://jobs.obvious.com/companies/planet/jobs/74242409-senior-geospatial-ai-ml-engineer
-[Prelude Ventures Portfolio] Manager of Global Supply Chain
-  https://jobs.preludeventures.com/companies/lightship-2-8860648c-15ac-45b4-81f6-8b18d4ac636a/jobs/74232952-manager-of-global-supply-chain
-[Ocean Conservation Careers] Global Fishing Watch
-  https://job-boards.greenhouse.io/globalfishingwatch/jobs/6616217003
-[Environmental Defense Fund] Institutional Partnerships Coordinator
-  https://www.edf.org/jobs/institutional-partnerships-coordinator
-[Clean Air Task Force] Europe Policy Manager, Methane Pollution Prevention
-  https://www.catf.us/career/europe-policy-manager-methane-pollution-prevention/
-[Clean Air Task Force] Manager, Coal Mine Methane
-  https://www.catf.us/career/manager-coal-mine-methane/
-[Clean Air Task Force] Oil and Gas Manager, Methane Pollution Prevention
-  https://www.catf.us/career/oil-and-gas-manager-methane-pollution-prevention/
-[Climate Change Jobs] Business Development Specialist
-  https://climatechangejobs.com/jobs/43458918-business-development-specialist
-[Climate Change Jobs] Apply for Business Development Specialist job at Green Jobs Network
-  https://climatechangejobs.com/jobs/43458918/apply
-[Climate Change Jobs] 5.2. Business Development Associate
-  https://climatechangejobs.com/jobs/441427116-5-2-business-development-associate
-[Nonprofit Jobs (Chronicle of Philanthropy)] Corporate Partnerships Manager
-  https://jobs.philanthropy.com/job/52054/corporate-partnerships-manager/
-[AENU Portfolio] Senior Sales Manager (m/w/d) - PV-Projektentwicklung
-  https://jobs.aenu.com/companies/feld-energy-gmbh-2/jobs/74203036-senior-sales-manager-m-w-d-pv-projektentwicklung
-[DCVC Portfolio] Solutions Architect - Financial Services (Insurance)
-  https://jobs.dcvc.com/companies/databricks/jobs/74239448-solutions-architect-financial-services-insurance
-[DCVC Portfolio] Sr. Director, Industry Solutions
-  https://jobs.dcvc.com/companies/databricks/jobs/74239449-sr-director-industry-solutions
-[DCVC Portfolio] Strategic Hunter Account Executive
-  https://jobs.dcvc.com/companies/databricks/jobs/74239456-strategic-hunter-account-executive-lakebase
-[Fugro] GroundIQ Sales Lead
-  https://www.fugro.com/careers/jobs/R0031041-groundiq-sales-lead
-[Greenly] Sales Development Representative (SDR / BDR) - European market (German/Dutch speaking)
-  https://www.welcometothejungle.com/en/companies/greenly/jobs/sales-development-representative-sdr-bdr-european-market-german-dutch-speaking_paris
-[Maxar] Director, Corporate Attorney
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Director--Corporate-Attorney_R23382
-[Spire Maritime] Senior Cross Commodity Analyst
-  https://jobs.lever.co/kpler/b1193811-4d30-4477-9bf8-d1a4dc2c3417
-[Energy Impact Partners Portfolio] Sales Development Representative (SDR / BDR) - European market (German/Dutch speaking)
-  https://jobs.energyimpactpartners.com/companies/greenly/jobs/74225714-sales-development-representative-sdr-bdr-european-market-german-dutch-speaking
-[Schmidt Marine Jobs Board] Field Biologist - 6 Months Term
-  https://jobs.schmidtmarine.org/companies/canada-s-ocean-supercluster/jobs/74091567-field-biologist-6-months-term
-[Schmidt Marine Jobs Board] Research Assistant I or II
-  https://jobs.schmidtmarine.org/companies/marine-biological-laboratory/jobs/73725190-research-assistant-i-or-ii-oceanic-flux-program
-[Ocean Conservation Careers] Marine Biologist
-  https://aisobservers.bamboohr.com/careers/100
-[Ocean Conservation Careers] Marine Project Officer - Coastal Monitoring and Adaptation Planning (CMAP)
-  https://careers.louthcoco.ie/Job/JobDetail?JobId=43
-[Ocean Conservation Careers] Search results
-  https://careers.udel.edu/cw/en-us/job/502477/post-doctoral-researcher-marine-science-and-policy
-[Ocean Conservation Careers] Recent Jobs
-  https://careers.umassd.edu/en-us/job/528567/assistantassociate-professor-estuarine-ocean-sciences-deos
-[Ocean Conservation Careers] Officer, Pew Marine Fellows
-  https://pewtrusts.wd5.myworkdayjobs.com/en-US/TrustsExternal/job/Officer--Pew-Marine-Fellows_R003135
-[Ocean Conservation Careers] Job Not Found
-  https://recruiting.paylocity.com/recruiting/jobs/Details/3657244/Gulf-of-Maine-Research-I%5B%E2%80%A6%5DClimate-Ocean-and-Coastal-Law-Policy-Research-Specialist
-[Ocean Conservation Careers] Breadcrumb
-  https://wwf.id/id/vacancy/job/monitoring-and-evaluation-specialist-marine-and-fisheries-program
-[Ocean Conservation Careers] PDRA in Marine Mammal Ecology (D10/25.DR)
-  https://www.sams.ac.uk/vacancies/pdra-in-marine-mammal-ecology-d1025dr/
-[World Resources Institute] Regional Director
-  https://www.wri.org/careers/jobs/regional-director-europe-2026-jr100173
-[Clean Air Task Force] Senior Director
-  https://www.catf.us/career/senior-director-europe/
-[Clean Air Task Force] U.S. Director, Nuclear Energy
-  https://www.catf.us/career/u-s-director-nuclear-energy/
-[Y Combinator Jobs] Director of Software & Product
-  https://www.ycombinator.com/companies/snapmagic/jobs/vZrseMD-director-of-software-product
-[Work at a Startup (YC)] Director of Software & Product at SnapMagic
-  https://www.workatastartup.com/jobs/86692
-[Work at a Startup (YC)] Head of Engineering at Human Archive
-  https://www.workatastartup.com/jobs/92096
-[Work at a Startup (YC)] Director of Platform Engineering at Checkr
-  https://www.workatastartup.com/jobs/92267
-[Work at a Startup (YC)] Sales jobs at Y Combinator startups
-  https://www.workatastartup.com/jobs/l/sales-manager
-[Techstars Jobs] Account Executive
-  https://jobs.techstars.com/companies/logicgate/jobs/74225572-account-executive
-[Techstars Jobs] Manager, Sales Development (Chicago or Seattle)
-  https://jobs.techstars.com/companies/logicgate/jobs/74225579-manager-sales-development-chicago-or-seattle
-[Techstars Jobs] Director, Procurement
-  https://jobs.techstars.com/companies/outreach/jobs/74232907-director-procurement
-[Climate Change Jobs] All Climate Jobs
-  https://climatechangejobs.com/jobs/
-[Climate Change Jobs] Forestry / Landscape Field Supervisor
-  https://climatechangejobs.com/jobs/351707160-forestry-landscape-field-supervisor
-[Climate Change Jobs] Executive Director
-  https://climatechangejobs.com/jobs/374104432-executive-director
-[Climate Change Jobs] Jefferson Land Trust Executive Director
-  https://climatechangejobs.com/jobs/374104432/apply
-[Climate Change Jobs] Canvassing Manager (Door to Door Sales)
-  https://climatechangejobs.com/jobs/412735060-canvassing-manager-door-to-door-sales
-[Climate Change Jobs] Traveling Solar Sales Manager
-  https://climatechangejobs.com/jobs/441132102-traveling-solar-sales-manager
-[Climate Change Jobs] Director, Project Development
-  https://climatechangejobs.com/jobs/441264330-director-project-development
-[Climate Change Jobs] Sales Executive (B2C)
-  https://climatechangejobs.com/jobs/441275954/apply
-[Climate Change Jobs] Key Account Executive
-  https://climatechangejobs.com/jobs/441399985-key-account-executive
-[Climate Change Jobs] Sales Manager, DACH
-  https://climatechangejobs.com/jobs/441427084-sales-manager-dach
-[Climate Change Jobs] Director of Internal Audits
-  https://climatechangejobs.com/jobs/441428408-director-of-internal-audits
-[Climate Change Jobs] Life Scientist/Environmental Engineer/Physical Scientist (LISO Director)
-  https://climatechangejobs.com/jobs/441429189-life-scientist-environmental-engineer-physical-scientist-liso-director
-[Climate Change Jobs] Regional Director, Northeast
-  https://climatechangejobs.com/jobs/441429203-regional-director-northeast
-[Climate Change Jobs] Director, Natural Resources Division
-  https://climatechangejobs.com/jobs/441429206-director-natural-resources-division
-[Climate Change Jobs] Solar Sales Representative
-  https://climatechangejobs.com/jobs/441500995-solar-sales-representative
-[Climate Change Jobs] Climate Adaptation & Resilience jobs
-  https://climatechangejobs.com/jobs/climate-adaptation-resilience
-[Climate Change Jobs] climate science jobs
-  https://climatechangejobs.com/jobs/climate-science
-[Climate Change Jobs] #environmentaljustice #Climate #solar #communitysolar #justtransition #renewableenergy jobs
-  https://climatechangejobs.com/jobs/environmentaljustice-climate-solar-communitysolar-justtransition-renewableenergy
-[Climate Change Jobs] Executive Director jobs
-  https://climatechangejobs.com/jobs/executive-director
-[Climate Change Jobs] Food, Farming, and Agriculture jobs
-  https://climatechangejobs.com/jobs/food-farming-agriculture
-[Climate Change Jobs] Aberdeen, Aberdeen City, Scotland, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-aberdeen-aberdeen-city-scotland-united-kingdom
-[Climate Change Jobs] Abilene, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-abilene-texas-united-states
-[Climate Change Jobs] Ancarano, Teramo, Italy Climate Jobs
-  https://climatechangejobs.com/jobs/in-ancarano-teramo-italy
-[Climate Change Jobs] Arvada, Colorado, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-arvada-colorado-united-states
-[Climate Change Jobs] Austin, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-austin-texas-united-states
-[Climate Change Jobs] Berlin, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-berlin-germany
-[Climate Change Jobs] Boston, Massachusetts, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-boston-massachusetts-united-states
-[Climate Change Jobs] Bremen, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-bremen-germany
-[Climate Change Jobs] Broomfield, Colorado, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-broomfield-colorado-united-states
-[Climate Change Jobs] Burlington, Massachusetts, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-burlington-massachusetts-united-states
-[Climate Change Jobs] Calgary, Alberta, Canada Climate Jobs
-  https://climatechangejobs.com/jobs/in-calgary-alberta-canada
-[Climate Change Jobs] California Climate Jobs
-  https://climatechangejobs.com/jobs/in-california
-[Climate Change Jobs] Campbell, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-campbell-california-united-states
-[Climate Change Jobs] Chicago, Illinois, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-chicago-illinois-united-states
-[Climate Change Jobs] Christiansted, Saint Croix, US Virgin Islands Climate Jobs
-  https://climatechangejobs.com/jobs/in-christiansted-saint-croix-us-virgin-islands
-[Climate Change Jobs] Colorado Climate Jobs
-  https://climatechangejobs.com/jobs/in-colorado
-[Climate Change Jobs] Dallas, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-dallas-texas-united-states
-[Climate Change Jobs] Denver, Colorado, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-denver-colorado-united-states
-[Climate Change Jobs] Devens, Massachusetts, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-devens-massachusetts-united-states
-[Climate Change Jobs] District of Columbia Climate Jobs
-  https://climatechangejobs.com/jobs/in-district-of-columbia
-[Climate Change Jobs] Dumfries, Dumfries And Galloway, Scotland, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-dumfries-dumfries-and-galloway-scotland-united-kingdom
-[Climate Change Jobs] Durham, North Carolina, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-durham-north-carolina-united-states
-[Climate Change Jobs] Edmonton, Alberta, Canada Climate Jobs
-  https://climatechangejobs.com/jobs/in-edmonton-alberta-canada
-[Climate Change Jobs] Hinckley, Leicestershire, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-hinckley-leicestershire-england-united-kingdom
-[Climate Change Jobs] Houston, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-houston-texas-united-states
-[Climate Change Jobs] Hull, City Of Kingston Upon Hull, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-hull-city-of-kingston-upon-hull-england-united-kingdom
-[Climate Change Jobs] Jackson, Mississippi, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-jackson-mississippi-united-states
-[Climate Change Jobs] Las Vegas, Nevada, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-las-vegas-nevada-united-states
-[Climate Change Jobs] London, Greater London, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-london-greater-london-england-united-kingdom
-[Climate Change Jobs] Manchester, Greater Manchester, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-manchester-greater-manchester-england-united-kingdom
-[Climate Change Jobs] Mexico City, Mexico Climate Jobs
-  https://climatechangejobs.com/jobs/in-mexico-city-mexico
-[Climate Change Jobs] Milano, Milan, Italy Climate Jobs
-  https://climatechangejobs.com/jobs/in-milano-milan-italy
-[Climate Change Jobs] New York Climate Jobs
-  https://climatechangejobs.com/jobs/in-new-york
-[Climate Change Jobs] New York, New York, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-new-york-new-york-united-states
-[Climate Change Jobs] Newark, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-newark-california-united-states
-[Climate Change Jobs] Novi, Michigan, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-novi-michigan-united-states
-[Climate Change Jobs] Orlando, Florida, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-orlando-florida-united-states
-[Climate Change Jobs] Orléans, Loiret, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-orleans-loiret-france
-[Climate Change Jobs] Paris, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-paris-france
-[Climate Change Jobs] Philadelphia, Pennsylvania, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-philadelphia-pennsylvania-united-states
-[Climate Change Jobs] Portland, Oregon, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-portland-oregon-united-states
-[Climate Change Jobs] Reno, Nevada, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-reno-nevada-united-states
-[Climate Change Jobs] Sacramento, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-sacramento-california-united-states
-[Climate Change Jobs] Salt Lake City, Utah, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-salt-lake-city-utah-united-states
-[Climate Change Jobs] San Bruno, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-san-bruno-california-united-states
-[Climate Change Jobs] San Francisco, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-san-francisco-california-united-states
-[Climate Change Jobs] San Jose, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-san-jose-california-united-states
-[Climate Change Jobs] Seattle, Washington, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-seattle-washington-united-states
-[Climate Change Jobs] Singapore, Central, Singapore Climate Jobs
-  https://climatechangejobs.com/jobs/in-singapore-central-singapore
-[Climate Change Jobs] Southfield, Michigan, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-southfield-michigan-united-states
-[Climate Change Jobs] Springfield, Illinois, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-springfield-illinois-united-states
-[Climate Change Jobs] St George, Utah, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-st-george-utah-united-states
-[Climate Change Jobs] Stockholm Climate Jobs
-  https://climatechangejobs.com/jobs/in-stockholm
-[Climate Change Jobs] Tampa, Florida, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-tampa-florida-united-states
-[Climate Change Jobs] Tel Aviv-Yafo, Tel Aviv District, Israel Climate Jobs
-  https://climatechangejobs.com/jobs/in-tel-aviv-yafo-tel-aviv-district-israel
-[Climate Change Jobs] Texas Climate Jobs
-  https://climatechangejobs.com/jobs/in-texas
-[Climate Change Jobs] Tokyo Prefecture, Japan Climate Jobs
-  https://climatechangejobs.com/jobs/in-tokyo-prefecture
-[Climate Change Jobs] Truro, Cornwall, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-truro-cornwall-england-united-kingdom
-[Climate Change Jobs] Valencia, Spain Climate Jobs
-  https://climatechangejobs.com/jobs/in-valencia
-[Climate Change Jobs] Washington, District of Columbia, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-washington-district-of-columbia-united-states
-[Climate Change Jobs] Weybridge, Surrey, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-weybridge-surrey-england-united-kingdom
-[Climate Change Jobs] Wiesbaden, Hesse, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-wiesbaden-hesse-germany
-[Climate Change Jobs] Woods Hole, Massachusetts, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-woods-hole-massachusetts-united-states
-[Climate Change Jobs] Würzburg, Bavaria, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-wurzburg-bavaria-germany
-[Climate Change Jobs] Yosemite National Park, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-yosemite-national-park-california-united-states
-[Climate Change Jobs] Sales jobs
-  https://climatechangejobs.com/jobs/sales
-[Climate Jobs List] Director of Security Engineering at Amperon
-  https://www.climatejobslist.com/jobs/director-of-security-engineering-at-amperon-aug-23
-[Climate Jobs List] Director Procurement at TerViva
-  https://www.climatejobslist.com/jobs/director-procurement-at-terviva-aug-23
-[Climate Jobs List] Senior Director of Community Solar & Storage at Geli
-  https://www.climatejobslist.com/jobs/senior-director-of-community-solar-storage-at-geli-aug-23
-[Jobs in Carbon] Valuation Manager - RE, Infra & Carbon
-  https://aviva.wd1.myworkdayjobs.com/aviva_investors_external/job/luxembourg/valuation-manager---re--infra---carbon_r-166257-1?source=jobsincarbon
-[Jobs in Carbon] HEAD OF FINANCE
-  https://pyreg-gmbh.jobs.personio.de/job/2595605?display=en&language=en&pid=32a15225-65cb-4e7f-a7fd-94464b23a525&it=nmotr3di9reb50fr3wwkig&_ghcid=71e67ea4-f328-4404-ad0c-95e7b0e31743
-[Jobs in Carbon] Student Assistant – Carbon Footprint Improvement
-  https://meo.jobs.personio.de/job/2599090?src=jobsincarbon
-[Jobs in Carbon] Implementation Consultant
-  https://workiva.wd503.myworkdayjobs.com/careers/job/singapore/implementation-consultant---carbon-accounting_r11563?source=job+board%253a+jobsincarbon
-[Jobs in Carbon] Senior Researcher - Service Design (Carbon Solutions)
+  https://jobs.schmidtmarine.org/companies/havforskningsinstituttet/jobs/74313324-it-drift-havforskningsinstiuttet
+[Schmidt Marine Jobs Board] Fisheries Standard Manager
+  https://jobs.schmidtmarine.org/companies/marine-stewardship-council/jobs/74309782-fisheries-standard-manager
+[Techstars Jobs] VP Marketing
+  https://jobs.techstars.com/companies/gorgias-com/jobs/74251328-vp-marketing
+[Climate Change Jobs] Director, State Policy
+  https://climatechangejobs.com/jobs/441625608-director-state-policy
+[Climate Change Jobs] Ann Arbor, Michigan, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-ann-arbor-michigan-united-states
+[Climate Change Jobs] Cheyenne, Wyoming, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-cheyenne-wyoming-united-states
+[Climate Change Jobs] Denali Park, Alaska, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-denali-park-alaska-united-states
+[Climate Change Jobs] Dublin, Ireland Climate Jobs
+  https://climatechangejobs.com/jobs/in-dublin-ireland
+[Climate Change Jobs] Eminence, Missouri, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-eminence-missouri-united-states
+[Climate Change Jobs] Fort Payne, Alabama, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-fort-payne-alabama-united-states
+[Climate Change Jobs] Grand Canyon, Arizona, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-grand-canyon-arizona-united-states
+[Climate Change Jobs] Heidelberg, Baden-Württemberg, Germany Climate Jobs
+  https://climatechangejobs.com/jobs/in-heidelberg-baden-wurttemberg-germany
+[Climate Change Jobs] Idaho Falls, Idaho, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-idaho-falls-idaho-united-states
+[Climate Change Jobs] Stillwater, New York, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-stillwater-new-york-united-states
+[Climate Change Jobs] Sulphur, Oklahoma, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-sulphur-oklahoma-united-states
+[Climate Change Jobs] Tulsa, Oklahoma, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-tulsa-oklahoma-united-states
+[Climate Change Jobs] Wellfleet, Massachusetts, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-wellfleet-massachusetts-united-states
+[Climate Change Jobs] West Glacier, Montana, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-west-glacier-montana-united-states
+[Climate Change Jobs] Yankton, South Dakota, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-yankton-south-dakota-united-states
+[Climate Jobs List] Electrification Sales Consultant at Helio Home
+  https://www.climatejobslist.com/jobs/electrification-sales-consultant-at-helio-home-aug-23
+[Climate Jobs List] GES Director of Tracker Technology at Geli
+  https://www.climatejobslist.com/jobs/ges-director-of-tracker-technology-at-geli-sep-23
+[Climate Jobs List] Head of Motor Design at ZeroAvia
+  https://www.climatejobslist.com/jobs/head-of-motor-design-at-zeroavia-may-23
+[Climate Jobs List] Inside Sales Representative at Span
+  https://www.climatejobslist.com/jobs/inside-sales-representative-at-span-aug-23
+[Climate Jobs List] Sales Delivery Manager at Xos Trucks
+  https://www.climatejobslist.com/jobs/sales-delivery-manager-at-xos-trucks-aug-23
+[Climate Jobs List] Vice President of Project Management / Construction Management at Geli
+  https://www.climatejobslist.com/jobs/vice-president-of-project-management-construction-management-at-geli-aug-23
+[Jobs in Carbon] Research Fellow in Machine Learning in Carbon Capture Utilisation & Storage
+  https://jobs.leeds.ac.uk/vacancy.aspx?ref=epsme1205
+[Jobs in Carbon] Research Fellow (Carbon materials enhanced concrete)
+  https://ntu.wd3.myworkdayjobs.com/careers/job/ntu-main-campus-singapore/research-fellow--carbon-materials-enhanced-concrete-_r00023981
+[Jobs in Carbon] Carbon Footprint Consultant
   https://jobsincarbon.niceboard.co/
-[Jobs in Carbon] Senior Researcher (Carbon Capture & Storage)
-  https://jobsincarbon.niceboard.co/
-[Jobs in Carbon] Carbon Advisor
-  https://www.balfourbeatty.com/careers/job-search/details/apply/?jobid=pdmfk026203f3vbqb79v468by-542845&langcode=en_gb&stype=jobsincarbon
-[Jobs in Carbon] Carbon Consultant
-  https://careers.jacobs.com/en_us/careers/jobdetail/carbon-consultant/37226?src=jb-10147
-[Jobs in Carbon] Forestry Project Manager
-  https://iberdrola.wd3.myworkdayjobs.com/es/iberdrola/details/forestry-project-manager_r-26517
-[Jobs in Carbon] Auditing Manager - Validation & Verification
-  https://careers.eq-earth.com/jobs/7542389-auditing-manager-validation-verification?promotion=1939170-trackable-share-link-jobs-in-carbon
-[Jobs in Carbon] Carbon Analyst
-  https://jobs.ashbyhq.com/sylvera/c13b52bb-4162-4d30-b233-487abdb08944?utm_source=jobsincarbon
-[Jobs in Carbon] ESG and Impact Manager
-  https://www.welcometothejungle.com/en/companies/removall/jobs/esg-and-impact-manager_paris?fromapply=true&igbtracker=895821029&referrer=vonq_opn
 [Nonprofit Jobs (Chronicle of Philanthropy)] Executive Vice President for University Development and Alumni Relations
-  https://jobs.philanthropy.com/job/51758/executive-vice-president-for-university-development-and-alumni-relations/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development I (Aerospace Engineering)
-  https://jobs.philanthropy.com/job/51765/director-of-development-i-aerospace-engineering-/?LinkSource=PromotedJob
+  https://jobs.philanthropy.com/job/51758/executive-vice-president-for-university-development-and-alumni-relations/?LinkSource=HomePage
 [Nonprofit Jobs (Chronicle of Philanthropy)] Vice President of Development
-  https://jobs.philanthropy.com/job/51776/vice-president-of-development/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director
-  https://jobs.philanthropy.com/job/51777/executive-director/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development
-  https://jobs.philanthropy.com/job/51781/director-of-development/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director of Advancement, Siteman Cancer Center
-  https://jobs.philanthropy.com/job/51817/senior-director-of-advancement-siteman-cancer-center/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Advancement, Medical Advancement
-  https://jobs.philanthropy.com/job/51819/director-of-advancement-medical-advancement/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Vice President for the Office of Institutional Advancement
-  https://jobs.philanthropy.com/job/51822/vice-president-for-the-office-of-institutional-advancement/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director, Gift Planning
-  https://jobs.philanthropy.com/job/51861/executive-director-gift-planning/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Individual Giving
-  https://jobs.philanthropy.com/job/51866/director-of-individual-giving/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Associate Director of Individual Giving
-  https://jobs.philanthropy.com/job/51867/associate-director-of-individual-giving/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Assistant Director, Innovation and Networks
-  https://jobs.philanthropy.com/job/51880/assistant-director-innovation-and-networks/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development, LGBT Archives & Museum
-  https://jobs.philanthropy.com/job/51887/director-of-development-lgbt-archives-and-museum/?LinkSource=HomePage
-[Nonprofit Jobs (Chronicle of Philanthropy)] Assistant Vice President for Engagement
-  https://jobs.philanthropy.com/job/51905/assistant-vice-president-for-engagement/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director of Advancement – North America/Diaspora
-  https://jobs.philanthropy.com/job/51911/executive-director-of-advancement-north-america-diaspora/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director, Philanthropic Impact
-  https://jobs.philanthropy.com/job/51963/director-philanthropic-impact/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Associate Director, Philanthropy
-  https://jobs.philanthropy.com/job/51969/associate-director-philanthropy/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Development Director
-  https://jobs.philanthropy.com/job/52034/development-director/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Sales and Marketing jobs
-  https://jobs.philanthropy.com/jobs/sales-and-marketing/
-[2150 VC Portfolio] Sales Manager, DACH
-  https://jobs.2150.vc/companies/aeroseal/jobs/74160042-sales-manager-dach
-[2150 VC Portfolio] Interim Head of Marketing (Contract)
-  https://jobs.2150.vc/companies/naturemetrics-2/jobs/73932873-interim-head-of-marketing-contract
-[Allen Institute for AI] Director of AI Infrastructure
-  https://job-boards.greenhouse.io/thealleninstitute/jobs/7747664
-[CGIAR] International Institute of Tropical Agriculture(IITA)
-  https://apply.workable.com/iita/
-[CropX] Territory Sales Manager
-  https://apply.workable.com/j/D47DA5116D
-[Cropin] INSIDE SALES
-  https://www.cropin.com/careers
-[Cropin] SALES ACCOUNT MANAGEMENT
-  https://www.cropin.com/careers
-[Third Sphere Portfolio] Director, Cyber Security
-  https://jobs.thirdsphere.com/companies/mark43-2/jobs/73674614-director-cyber-security
-[Third Sphere Portfolio] Director Quality
-  https://jobs.thirdsphere.com/companies/urbint/jobs/73857219-director-quality
-[Planet Labs] Manager, Customer Success EMEA
-  https://job-boards.greenhouse.io/planetlabs/jobs/7772694
-[DCVC Portfolio] Manager, Customer Success EMEA
-  https://jobs.dcvc.com/companies/planet/jobs/74242407-manager-customer-success-emea
-[Energy Impact Partners Portfolio] Principal Consultant
-  https://jobs.energyimpactpartners.com/companies/dragos/jobs/74238905-principal-consultant
-[Energy Impact Partners Portfolio] Principal Software Engineer
-  https://jobs.energyimpactpartners.com/companies/urbint/jobs/74203363-principal-software-engineer
-[Obvious Ventures Portfolio] Manager, Customer Success EMEA
-  https://jobs.obvious.com/companies/planet/jobs/74242407-manager-customer-success-emea
-[Clean Air Task Force] Chief of Development
-  https://www.catf.us/career/chief-of-development/
-[Clean Air Task Force] Senior Manager, Institutional Giving
-  https://www.catf.us/career/senior-manager-institutional-giving/
-[Carbon180] Government Affairs Advisor - Carbon180
-  https://apply.workable.com/carbon180/j/E6D7EEC546/
-[Work at a Startup (YC)] Product Manager jobs at Y Combinator startups
-  https://www.workatastartup.com/jobs/l/product-manager
-[Work at a Startup (YC)] Product Manager jobs at Y Combinator startups in Los Angeles
-  https://www.workatastartup.com/jobs/los-angeles/product-manager
-[Work at a Startup (YC)] Product Manager jobs at Y Combinator startups in New York
-  https://www.workatastartup.com/jobs/new-york/product-manager
-[Work at a Startup (YC)] Product Manager jobs at Y Combinator startups in San Francisco
-  https://www.workatastartup.com/jobs/san-francisco/product-manager
-[Techstars Jobs] Manager, Customer Success (Chicago)
-  https://jobs.techstars.com/companies/logicgate/jobs/74225573-manager-customer-success-chicago
-[Techstars Jobs] Manager, Customer Success (Seattle)
-  https://jobs.techstars.com/companies/logicgate/jobs/74225576-manager-customer-success-seattle
-[Climate Change Jobs] Key Account Manager
-  https://climatechangejobs.com/jobs/441253185-key-account-manager
-[Climate Change Jobs] Senior Key Account Manager - 12 Month, Fixed Term
-  https://climatechangejobs.com/jobs/441253185/apply
-[Climate Change Jobs] Senior API Integration Engineer
-  https://climatechangejobs.com/jobs/441428399-senior-api-integration-engineer
-[Climate Change Jobs] Senior API Engineer
-  https://climatechangejobs.com/jobs/441428399/apply
-[Climate Change Jobs] Senior to Senior Staff Solutions Engineer
-  https://climatechangejobs.com/jobs/441428410-senior-to-senior-staff-solutions-engineer
-[Climate Change Jobs] Senior Revenue Accountant
-  https://climatechangejobs.com/jobs/441623622-senior-revenue-accountant
-[Climate Change Jobs] Senior Manager, Controls Engineering
-  https://climatechangejobs.com/jobs/441625420-senior-manager-controls-engineering
-[Climate Change Jobs] Sustainability jobs
-  https://climatechangejobs.com/jobs/sustainability
-[Climate Jobs List] Chief of Staff & RevOps Manager at Amperon
-  https://www.climatejobslist.com/jobs/chief-of-staff-revops-manager-at-amperon-aug-23
-[Climate Jobs List] Partner Success Principal at Via Transportation
-  https://www.climatejobslist.com/jobs/partner-success-principal-at-via-transportation-aug-23
-[Climate Jobs List] Principal Motor Design Engineer at ZeroAvia
-  https://www.climatejobslist.com/jobs/principal-motor-design-engineer-at-zeroavia-jun-23
-[Climate Jobs List] Senior Product Manager, Edge AI and IoT Connectors at Geli
-  https://www.climatejobslist.com/jobs/senior-product-manager-edge-ai-and-iot-connectors-at-geli-aug-23
-[Climate Jobs List] Senior R&D Engineer (Principal Investigator, Solar Calciner) at Heliogen
-  https://www.climatejobslist.com/jobs/senior-r-d-engineer-principal-investigator-solar-calciner-at-heliogen-sep-23
-[Idealist] Mentorship as a Tool for Growth, Inclusion, and Equity
-  https://www.idealist.org/en/careers/mentorship-diversity-inclusion
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Advancement Officer
-  https://jobs.philanthropy.com/job/51763/chief-advancement-officer/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Technology Officer (CTO)
-  https://jobs.philanthropy.com/job/51810/chief-technology-officer-cto-/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Development and Communications Officer
-  https://jobs.philanthropy.com/job/51852/chief-development-and-communications-officer/?LinkSource=PromotedJob
+  https://jobs.philanthropy.com/job/51776/vice-president-of-development/?LinkSource=HomePage
+[Voyager Ventures Portfolio] Vice President of Operations
+  https://job-boards.greenhouse.io/remoracarbon/jobs/5096654007
+[World Fund Portfolio] Visiting Analyst (Scientific Background)
+  https://www.worldfund.vc/jobs/climate-investment-internship
+[World Fund Portfolio] Head of Investor Relations
+  https://www.worldfund.vc/jobs/head-of-investor-relations
+[SOSV Portfolio] German Speaking Technical Sales Executive - (Relocation to Berlin)
+  https://careers.formlabs.com/job/7816367/apply/?gh_jid=7816367
+[At One Ventures Portfolio] Head of Factory Engineering
+  https://ats.rippling.com/inlyte-energy/jobs/b52249c3-884c-4afa-ae5e-c43253a3e25a
+[At One Ventures Portfolio] Head of Communications
+  https://jobs.ashbyhq.com/blue-energy/934bd8b5-7b81-447f-9e1f-c48ee435376e?utm_source=jobs.atoneventures.com
+[Planet Labs] Senior Customer Success Manager (D&I - India)
+  https://job-boards.greenhouse.io/planetlabs/jobs/7772704
+[Greentown Labs (Green Town Labs)] Senior Manager, Logistics
+  https://formenergy.com/careers/open-jobs?ashby_jid=d5169de1-a0d4-40aa-a68e-a50fc0a4eb0a&utm_source=jobs.greentownlabs.com
+[Greentown Labs (Green Town Labs)] Senior Manager, Global Supply Management
+  https://formenergy.com/careers/open-jobs?ashby_jid=ecfad128-9ab8-4cc2-897e-96ec4abaeeac&utm_source=jobs.greentownlabs.com
+[Safe Software] Customer Success Manager II
+  https://jobs.ashbyhq.com/safe/4f49126e-ceef-4b96-b68f-224eab5ed246
+[Safe Software] Customer Success Manager III
+  https://jobs.ashbyhq.com/safe/722c1587-e868-4064-b257-85a8a9f80fa8
+[Prelude Ventures Portfolio] Product Manager
+  https://jobs.preludeventures.com/companies/voltus/jobs/74299196-product-manager-market-platform
+[Prelude Ventures Portfolio] Staff Accountant
+  https://jobs.preludeventures.com/companies/voltus/jobs/74299203-staff-accountant-revenue-accounting
+[G2 Venture Partners Portfolio] Principal Production Engineer
+  https://jobs.g2vp.com/companies/crusoe-2/jobs/74291085-principal-production-engineer
+[Y Combinator Jobs] Growth Engineer
+  https://www.ycombinator.com/companies/tavus/jobs/9wcyCeO-growth-engineer
+[Climate Change Jobs] Senior Manager, Payroll
+  https://climatechangejobs.com/jobs/441625610/apply
+[Climate Change Jobs] Deputy Chief Information Officer for Resources Management
+  https://climatechangejobs.com/jobs/441629002-deputy-chief-information-officer-for-resources-management
+[Climate Change Jobs] Staff Accountant – Revenue Accounting
+  https://climatechangejobs.com/jobs/441638830-staff-accountant-revenue-accounting
+[Climate Jobs List] Senior Manager of Marketing at Geli
+  https://www.climatejobslist.com/jobs/senior-manager-of-marketing-at-geli-sep-23
+[Climate Jobs List] Senior Strategic Account Manager - Mobility Solutions at Via Transportation
+  https://www.climatejobslist.com/jobs/senior-strategic-account-manager-mobility-solutions-at-via-transportation-aug-23
 [Nonprofit Jobs (Chronicle of Philanthropy)] Chief Development Officer
-  https://jobs.philanthropy.com/job/52000/chief-development-officer/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Government Relations and Advocacy jobs
-  https://jobs.philanthropy.com/jobs/government-relations-and-advocacy/
-[2150 VC Portfolio] Conservation Account Manager
-  https://jobs.2150.vc/companies/naturemetrics-2/jobs/72434027-conservation-account-manager
-[2150 VC Portfolio] Solutions Engineer (UK Remote)
-  https://jobs.2150.vc/companies/nodes-links/jobs/73974864-solutions-engineer-uk-remote
-[Allen Institute for AI] The Allen Institute for Artificial Intelligence
-  https://job-boards.greenhouse.io/thealleninstitute
-[Climeworks] Principal Design Engineer - Mechanical Equipment (80-100%)
-  https://climeworks.com/jobs/principal-design-engineer-mechanical-equipment-80-100
-[CropX] Revenue Operations Analyst
-  https://apply.workable.com/j/DDC4C9208D
-[Cropin] CUSTOMER SUCCESS
-  https://www.cropin.com/careers
-[Third Sphere Portfolio] Solutions Consultant
-  https://jobs.thirdsphere.com/companies/urbint/jobs/73608215-solutions-consultant
-[Third Sphere Portfolio] Principal Software Engineer
-  https://jobs.thirdsphere.com/companies/urbint/jobs/74203363-principal-software-engineer
+  https://jobs.philanthropy.com/job/52000/chief-development-officer/?LinkSource=HomePage
+[Fleetzero] Growth Manager
+  https://jobs.lever.co/fleetzero/87c1b7b3-870f-47fc-8966-21b1f0e6b3d4
+[MCJ Collective Portfolio] Principal Production Engineer
+  https://jobs.mcj.vc/companies/crusoe-2/jobs/74291085-principal-production-engineer
+[MCJ Collective Portfolio] Customer Success Manager
+  https://jobs.mcj.vc/companies/david-energy/jobs/74257003-customer-success-manager
+[Voyager Ventures Portfolio] Principal Electrical Engineer (High Voltage Systems)
+  https://job-boards.greenhouse.io/remoracarbon/jobs/5084104007
