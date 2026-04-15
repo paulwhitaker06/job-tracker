@@ -1679,3 +1679,64 @@ companies:
   - name: WeatherXM
     type: html_links
     url: https://weatherxm.com/careers/
+
+  - name: Vesta
+    type: html_links
+    url: https://www.vesta.earth/the-project#Jobs
+
+  - name: Seabound
+    type: html_links
+    url: https://www.seabound.co/#careers
+
+  - name: IUCN
+    type: html_links
+    url: https://hrms.iucn.org/iresy/index.cfm?event=vac.showOpenList
+
+  - name: Fleetzero
+    type: lever_api
+    url: https://jobs.lever.co/fleetzero
+    lever_company: fleetzero
+
+  - name: Spiritus
+    type: html_links
+    url: https://jobs.ashbyhq.com/spiritus
+
+  - name: Verdox
+    type: html_links
+    url: https://verdox.pinpointhq.com
+
+  - name: Elemental Excelerator Portfolio
+    type: html_links
+    url: https://jobs.elementalimpact.com/jobs
+
+  - name: MCJ Collective Portfolio
+    type: html_links
+    url: https://jobs.mcj.vc/jobs
+
+  - name: Voyager Ventures Portfolio
+    type: html_links
+    url: https://careers.voyagervc.com/jobs
+
+  - name: World Fund Portfolio
+    type: html_links
+    url: https://www.worldfund.vc/career
+
+  - name: SOSV Portfolio
+    type: html_links
+    url: https://techjobs.sosv.com/jobs
+
+  - name: At One Ventures Portfolio
+    type: html_links
+    url: https://jobs.atoneventures.com/jobs
+
+  - name: Moore Foundation
+    type: html_links
+    url: https://www.moore.org/about/careers
+
+  - name: Ellen MacArthur Foundation
+    type: html_links
+    url: https://www.ellenmacarthurfoundation.org/careers/overview
+
+  - name: Reef Renewal USA
+    type: html_links
+    url: https://reefrenewalusa.org/get-involved/#openings
