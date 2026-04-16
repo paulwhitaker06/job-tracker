@@ -641,6 +641,18 @@ JS_HEAVY_PATTERNS = [
     "myworkdayjobs.com", "wd1.myworkdaysite.com", "wd3.myworkdaysite.com",
     "wd5.myworkdayjobs.com", "workforcenow.adp.com", "ats.rippling.com",
     "csod.com",
+    # Getro-powered VC portfolio boards — go straight to Playwright + intercept
+    "jobs.dcvc.com", "jobs.energyimpactpartners.com", "jobs.g2vp.com",
+    "jobs.obvious.com", "jobs.aenu.com", "jobs.atoneventures.com",
+    "jobs.cleanenergyventures.com", "jobs.preludeventures.com",
+    "jobs.s2gventures.com", "jobs.galvanizeclimate.com",
+    "jobs.breakthroughenergy.org", "jobs.pale.blue", "jobs.overture.vc",
+    "jobs.planet-a.com", "jobs.convectivecapital.com",
+    "jobs.elementalimpact.com", "jobs.mcj.vc", "jobs.thirdsphere.com",
+    "jobs.systemiq.earth", "jobs.worldfund.vc", "jobs.2150.vc",
+    "jobs.energyimpactpartners.com", "jobs.dcvc.com",
+    "careers.voyagervc.com", "careers.extantia.com",
+    "techjobs.sosv.com", "jobs.congruentvc.com",
 ]
 
 
@@ -656,19 +668,83 @@ def is_js_heavy(url: str) -> bool:
 def get_playwright_links(company: dict) -> list[dict]:
     """
     Full Playwright scrape with two strategies:
-    1. Intercept JSON API responses that contain job data (handles Synspective,
-       Workday variants, custom ATS etc.)
+    1. Intercept JSON API responses that contain job data (Getro VC portfolio
+       boards, Synspective, Workday variants, custom ATS, etc.). Accumulates
+       across multiple paginated responses and dedupes by title+url.
     2. Fall back to rendering the page and extracting <a> links.
 
-    Uses domcontentloaded instead of networkidle to avoid timeouts on sites
-    that never fully settle (analytics pings, chat widgets, etc.).
-    Timeout reduced to 60s as a result.
+    For Getro-style boards (jobs.{vc}.com) and other paginated APIs, scrolls
+    aggressively to trigger pagination of API calls. Catches API responses
+    even when the URL doesn't include obvious 'job' keywords by also matching
+    Getro/board-specific patterns.
     """
     try:
         from playwright.sync_api import sync_playwright
 
         url = company["url"]
         intercepted_jobs: list[dict] = []
+        seen_keys: set = set()
+
+        # Detect Getro/portfolio-board patterns; scroll harder for these
+        ulow = url.lower()
+        is_paginated_board = (
+            ulow.startswith("https://jobs.") or
+            ulow.startswith("https://careers.") or
+            "getro" in ulow or
+            "/jobs" in ulow.rstrip("/")
+        )
+
+        # Broader keyword filter: include getro, talent, boards, listings,
+        # collections, search — covers Getro API and similar portfolio platforms
+        URL_KEYWORDS = [
+            "job", "position", "career", "posting", "opening",
+            "vacancy", "recruit", "jobs", "offer",
+            "getro", "talent", "boards", "listings",
+            "collections", "search", "openings",
+        ]
+
+        # Container keys to walk in JSON responses (top-level and one nested level)
+        CONTAINER_KEYS = [
+            "jobs", "positions", "postings", "results",
+            "data", "items", "offers", "vacancies",
+            "listings", "openings", "hits", "records",
+        ]
+
+        TITLE_FIELDS = ["title", "name", "jobTitle", "position", "job_title", "text"]
+        URL_FIELDS = ["absolute_url", "hostedUrl", "applyUrl", "url", "link",
+                      "apply_url", "jobUrl", "shortlink", "href"]
+
+        def extract_from_container(container):
+            """Pull jobs out of one container (list of dicts)."""
+            if not container or not isinstance(container, list) or len(container) == 0:
+                return
+            sample = container[0]
+            if not isinstance(sample, dict):
+                return
+            tf = next((k for k in TITLE_FIELDS if k in sample), None)
+            if not tf:
+                return
+            uf = next((k for k in URL_FIELDS if k in sample), None)
+            for job in container:
+                if not isinstance(job, dict):
+                    continue
+                t = job.get(tf, "")
+                u = job.get(uf, "") if uf else ""
+                if not t:
+                    continue
+                # Filter rejected URLs
+                if u and any(x in str(u).lower() for x in
+                             ["linkedin.com", "facebook.com", "glassdoor.com"]):
+                    continue
+                key = f"{str(t).strip()}|{str(u).strip()}"
+                if key in seen_keys:
+                    continue
+                seen_keys.add(key)
+                intercepted_jobs.append({
+                    "id": sha(company["name"] + "|intercepted|" + str(t) + str(u)),
+                    "url": u or url,
+                    "title": str(t),
+                })
 
         def handle_response(response):
             try:
@@ -676,47 +752,25 @@ def get_playwright_links(company: dict) -> list[dict]:
                 if "json" not in ctype:
                     return
                 rurl = response.url.lower()
-                if not any(kw in rurl for kw in [
-                    "job", "position", "career", "posting", "opening",
-                    "vacancy", "recruit", "jobs", "offer",
-                ]):
+                if not any(kw in rurl for kw in URL_KEYWORDS):
                     return
                 data = response.json()
-                for container_key in ["jobs", "positions", "postings", "results",
-                                       "data", "items", "offers", "vacancies"]:
-                    container = None
-                    if isinstance(data, list):
-                        container = data
-                    elif isinstance(data, dict):
-                        container = data.get(container_key)
-                    if container and isinstance(container, list) and len(container) > 0:
-                        sample = container[0]
-                        if isinstance(sample, dict):
-                            title_field = next(
-                                (k for k in ["title", "name", "jobTitle",
-                                             "position", "job_title", "text"]
-                                 if k in sample), None
-                            )
-                            url_field = next(
-                                (k for k in ["absolute_url", "hostedUrl",
-                                             "applyUrl", "url", "link",
-                                             "apply_url", "jobUrl", "shortlink"]
-                                 if k in sample), None
-                            )
-                            if title_field:
-                                for job in container:
-                                    t = job.get(title_field, "")
-                                    u = job.get(url_field, "") if url_field else ""
-                                    # Filter out LinkedIn and other rejected URLs from intercepted data
-                                    if u and any(x in u.lower() for x in ["linkedin.com", "facebook.com", "glassdoor.com"]):
-                                        continue
-                                    if t:
-                                        intercepted_jobs.append({
-                                            "id": sha(company["name"] + "|intercepted|" + str(t) + str(u)),
-                                            "url": u or url,
-                                            "title": str(t),
-                                        })
-                                return
+                # Walk top-level
+                if isinstance(data, list):
+                    extract_from_container(data)
+                elif isinstance(data, dict):
+                    for k in CONTAINER_KEYS:
+                        if k in data:
+                            v = data[k]
+                            if isinstance(v, list):
+                                extract_from_container(v)
+                    # Walk one level nested (data.results.jobs etc.)
+                    for outer_k in ["data", "results", "payload"]:
+                        outer = data.get(outer_k)
+                        if isinstance(outer, dict):
+                            for k in CONTAINER_KEYS:
+                                if k in outer and isinstance(outer[k], list):
+                                    extract_from_container(outer[k])
             except Exception:
                 pass
 
@@ -725,10 +779,14 @@ def get_playwright_links(company: dict) -> list[dict]:
             page = browser.new_page()
             page.on("response", handle_response)
             page.goto(url, wait_until="domcontentloaded", timeout=60_000)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(2000)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            page.wait_for_timeout(2000)
+            # Aggressive scrolling for paginated boards (Getro typically loads
+            # 50 jobs per page; need 5-10 scrolls to capture 250-500 jobs)
+            scroll_count = 10 if is_paginated_board else 3
+            for _ in range(scroll_count):
+                page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                page.wait_for_timeout(1200)
+            # Final settle for any pending responses
+            page.wait_for_timeout(2500)
             html = page.content()
             browser.close()
 
