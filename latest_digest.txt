@@ -1,164 +1,688 @@
-Job Tracker Digest - 2026-04-15 11:28 UTC
-415/417 companies scraped successfully · 2 failed
-80 new postings
+Job Tracker Digest - 2026-04-16 11:44 UTC
+450/453 companies scraped successfully · 3 failed
+342 new postings
 
-[Fleetzero] Head of Strategic Partnerships
-  https://jobs.lever.co/fleetzero/c825871f-39ed-4bec-ad0b-6626135efbb6
-[Voyager Ventures Portfolio] Director of Business Development, East Coast
-  https://copperhome.com/pages/jobs?gh_jid=5095210007
-[Voyager Ventures Portfolio] Head of Supply Chain
-  https://job-boards.greenhouse.io/remoracarbon/jobs/5091779007
-[Greentown Labs (Green Town Labs)] Growth & GTM Operations intern
-  https://jobs.ashbyhq.com/allspice/61bdcd82-2402-460c-ae4b-07a59f3a0a10?utm_source=jobs.greentownlabs.com
-[Schmidt Marine Jobs Board] Head of Technology Projects & Business Systems
-  https://jobs.schmidtmarine.org/companies/marine-stewardship-council/jobs/74309785-head-of-technology-projects-business-systems
-[Climate Jobs List] Director, Product Marketing at Span
-  https://www.climatejobslist.com/jobs/director-product-marketing-at-span-aug-23
-[Climate Jobs List] Strategic Sales Director at UtilityAPI
-  https://www.climatejobslist.com/jobs/strategic-sales-director-at-utilityapi-aug-23
-[Jobs in Carbon] Carbon Data Transformation Director / Consultant
-  https://alcumus.pinpointhq.com/en/postings/22f284c4-0b3d-4f03-90fc-ff1b0febd199?source=jobsincarbon
-[At One Ventures Portfolio] Strategic Sales Director, HVAC (West Coast)
-  https://job-boards.greenhouse.io/gradientcomfort/jobs/5821981004
-[DCVC Portfolio] Technician, Quality Control Environmental Monitoring
-  https://jobs.dcvc.com/companies/orca-bio/jobs/74307567-technician-quality-control-environmental-monitoring
-[Jobs in Carbon] Sustainability Analyst – Carbon Reporting & Power Bi Dashboard Development Consultancy
-  https://jobs.jobvite.com/mercycorps/job/od2zzfwx?__jvst=job+board&__jvsd=jobsincarbon
-[Climate Jobs List] Business Development Manager at Allume Energy
-  https://www.climatejobslist.com/jobs/business-development-manager-at-allume-energy-aug-23
-[Climate Jobs List] RF Electrical Engineer, Team Lead at Geli
-  https://www.climatejobslist.com/jobs/rf-electrical-engineer-team-lead-at-geli-aug-23
-[Climate Jobs List] Supply Chain General Manager at ZeroAvia
-  https://www.climatejobslist.com/jobs/supply-chain-general-manager-at-zeroavia-aug-23
-[MCJ Collective Portfolio] Manager of Global Supply Chain
-  https://jobs.mcj.vc/companies/lightship-2-8860648c-15ac-45b4-81f6-8b18d4ac636a/jobs/74232952-manager-of-global-supply-chain
-[MCJ Collective Portfolio] Business Development Representative
-  https://jobs.mcj.vc/companies/runwise-2/jobs/74200193-business-development-representative
-[DCVC Portfolio] Clinical Sales Manager (Western NY & PA)
-  https://jobs.dcvc.com/companies/karius/jobs/74280128-clinical-sales-manager-western-ny-pa
-[DCVC Portfolio] Director, Clinical Operations
-  https://jobs.dcvc.com/companies/karius/jobs/74280129-director-clinical-operations
-[DCVC Portfolio] Sr Product Marketing Manager
-  https://jobs.dcvc.com/companies/kentik/jobs/74288622-sr-product-marketing-manager
-[Energy Impact Partners Portfolio] Inside Sales Representative
-  https://jobs.energyimpactpartners.com/companies/corelight/jobs/74311724-inside-sales-representative-central
-[Obvious Ventures Portfolio] Senior Director, Project Management Office
-  https://jobs.obvious.com/companies/medable/jobs/74251465-senior-director-project-management-office
-[Obvious Ventures Portfolio] Director, IT & Security
-  https://jobs.obvious.com/companies/octave/jobs/74294668-director-it-security
-[Clean Energy Ventures Portfolio] Solar Electrician
-  https://jobs.cleanenergyventures.com/companies/carbon-upcycling-technologies-2/jobs/74272721-solar-electrician
-[Prelude Ventures Portfolio] Key Accounts Director- North America
-  https://jobs.preludeventures.com/companies/minesense-technologies-2/jobs/74270885-key-accounts-director-north-america
-[ClimatePartner] Director Technology
-  https://climatepartner-gmbh.jobs.personio.de/job/2594906?language=en&display=en
+[Terra.do Job Board] Director, Wildfire Strategy (Honolulu, Hawaii (HI), US, 96813)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Commercial Director
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director, Global Environmental Compliance & Sustainability
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director of Strategic Growth & Revenue Architecture
+  https://www.terra.do/climate-jobs/job-board/
+[Voyager Ventures Portfolio] Director of Business Development & Strategy
+  https://jobs.ashbyhq.com/limelight-steel/b7917a03-f523-48de-8e5f-407f5e44af3c?utm_source=careers.voyagervc.com
+[Climatebase] Head of Partnerships (m/w/d) – Hardware & Installer Channel
+  https://climatebase.org/jobs
+[Terra.do Job Board] Director of Treasury, Risk and Fleet Management
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director of Space Monetization Sales Marketing Lead
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] AVP Construction Risk Manager - Sustainability (Affordable Housing Finance)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director Value Chain Sustainability
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] E&S Analyst - Greenhouse Gas/Energy & Sustainability
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Technology Organization Risk & Compliance Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director of Sustainability Products
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Manager, Sustainability Legislation
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Principal – Domain Advisor Senior Specialist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] EPP Supply Chain Leader
+  https://www.terra.do/climate-jobs/job-board/
+[Ceres Imaging] Senior Enterprise Account Executive
+  https://ceresai.bamboohr.com/careers/25
+[Ceres Imaging] Enterprise Sales Lead - Agricultural Capital Markets (Individual Contributor)
+  https://ceresai.bamboohr.com/careers/26
+[Frontline Wildfire Defense] Business Development Representative (Commercial & Production Homes)
+  https://www.frontlinewildfire.com/careers/
+[Maxar] Director, Corporate Attorney Commercial Litigation/Employment
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Director--Corporate-Attorney-Commercial-Litigation-Employment_R23467
+[Climatebase] Head of Sales (m/w/d) - 1KOMMA5° Rheinland
+  https://climatebase.org/jobs
+[Climatebase] Head of Sales (m/w/d) - 1KOMMA5° Ost
+  https://climatebase.org/jobs
+[Climatebase] Head of Sales (m/w/d) - 1KOMMA5° Nord-West
+  https://climatebase.org/jobs
+[Climatebase] International Sales Director (m/w/d)
+  https://climatebase.org/jobs
+[Climatebase] Head of Sales (gn) - 40 Std, (hybrid) (München)
+  https://climatebase.org/jobs
+[Climatebase] VP, Operations & Commercial Affairs
+  https://climatebase.org/jobs
+[Terra.do Job Board] Director of Renewable Tax Solutions
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Risk Advisor
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director of Policy, Energy
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director of Energy Policy
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Director, Finance
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Commercial Solar Installer - Illinois (IL)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Director – Argonne Grid Program
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Associate Director
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Door to Door Green Energy Sales Representative
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Head of Power Congestion Trading & Optimization
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Sales Consultant
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Sales Consultant
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Gas Utility Decarbonization Strategy Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Climate Adaptation and Resilience Associate Director
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Director, Financial Planning & Analysis
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Credit Risk Senior Officer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Marine Wildlife Response Specialist – Hawaii Island
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Sales Representative
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Climate Risk Governance and Reporting Senior Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Renewables Project Development Team Leader (Sr. Manager - Director level)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Postdoc Research Fellow: Climate, Trade & Agriculture
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Managing Director
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Sales Representative
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Entry Level Sales and Marketing (Atlanta, GA)
+  https://www.terra.do/climate-jobs/job-board/
+[Project Canary] Vice President of Sales, Oil & Gas
+  https://projectcanary.pinpointhq.com/en/postings/75c09efb-c0d2-473a-a0e2-cc310af50cc2
+[Terra.do Job Board] AES Indiana – NERC Compliance Engineer (Power Generation)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Senior Project Manager/Principal
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Principal Consultant, Project Manager, Electric Transmission Routing and Siting
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Manager, Policy
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Coordinator
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Investments Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Planner, Government, Environmental​/ Urban Planning
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewable Energy Civil Engineer: Site Design & Growth
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Village of Oak Park, Sustainability Coordinator
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Principal Process Safety Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Environmental, Health, Safety & Sustainability Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Crew [Chicago]
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] UNPAID VOLUNTEER - Principal / Senior / Legal Advisors / Assistants (US-based)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] EHS&S Management Information Systems (EMIS) Principal Consultant
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Key Account Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Research Assistant Professor - Institute for Climate & Sustainable Growth
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Scientist III – Compliance Assessments
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental, Health, Safety & Sustainability Support
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Paper Mill Sustainability Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Design Leader for High-Performance Projects
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Specialist, Environmental & Sustainability
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental & Sustainability Specialist I
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Program Managers
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Consultant- Energy Modeler
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Product Sustainability Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Manager Turner Construction Making a Difference
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainability Packaging Engineer II
+  https://www.terra.do/climate-jobs/job-board/
+[Climate Change Jobs] Director, Compliance & Regulatory Programs
+  https://climatechangejobs.com/jobs/441702177-director-compliance-regulatory-programs
+[Climate Change Jobs] Strategy & Operations Principal, Vehicle Operations
+  https://climatechangejobs.com/jobs/443701814-strategy-operations-principal-vehicle-operations
+[Jobs in Carbon] VP or Head of Engineering
+  https://www.rement.tech/career-listings/vp-or-head-of-engineering-m-f-d
+[Jobs in Carbon] Senior Manager, Carbon Projects Delivery
+  https://phh.tbe.taleo.net/phh04/ats/careers/v2/viewrequisition?org=conservation&cws=39&rid=2701
+[Ceres Imaging] Senior Software Product Manager – Ag Insurance
+  https://ceresai.bamboohr.com/careers/24
+[LiveEO] Junior Business Development Representative EMEA (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2603728?language=en
+[Exotrail] Supply Chain Manager (F/M)
+  https://careers.exotrail.com/jobs/7579535-supply-chain-manager-f-m
+[Ocean Conservation Careers] Fundraising &amp; Partnerships Manager - Bridgend (Pen-y-bont ar Ogwr) job with Project Seagrass
+  https://jobs.theguardian.com/job/9852512/fundraising-and-partnerships-manager
+[Techstars Jobs] Business Development Representative
+  https://jobs.techstars.com/companies/abby-by-gogotech-2/jobs/74423125-business-development-representative
+[Project Canary] Supply Chain & Logistics Manager
+  https://projectcanary.pinpointhq.com/en/postings/8dbb97c4-36cb-4558-b6f2-e4da8d833c1f
+[ZeroNorth] Vessel Optimisation Analyst
+  https://careers.zeronorth.com/jobs/5396649-vessel-optimisation-analyst
+[ZeroNorth] (Senior) Business Development Representative
+  https://careers.zeronorth.com/jobs/7396238-senior-business-development-representative
+[Frontline Wildfire Defense] Market Development Representative
+  https://www.frontlinewildfire.com/careers/
+[Greentown Labs (Green Town Labs)] Project Director (LNG / Power / Midstream)
+  https://jobs.ashbyhq.com/candidintelligence/57b13df5-376e-45cf-bc37-91be3f2e09e2?utm_source=jobs.greentownlabs.com
+[Greentown Labs (Green Town Labs)] VP of Projects
+  https://jobs.ashbyhq.com/candidintelligence/58a53c87-f5e3-43ab-892e-0e2623e9408a?utm_source=jobs.greentownlabs.com
+[Greenly] Senior Account Executive - English Speaking 🌎
+  https://www.welcometothejungle.com/en/companies/greenly/jobs/senior-account-executive-english-speaking_paris
+[Climatebase] Director Technology
+  https://climatebase.org/jobs
+[Climatebase] Head of Operations
+  https://climatebase.org/jobs
+[Climatebase] Head of Innovation - IIX Platforms & IIX Fintech
+  https://climatebase.org/jobs
+[Climatebase] Commercial Manager (FTC)
+  https://climatebase.org/jobs
+[Climatebase] Director of Product
+  https://climatebase.org/jobs
+[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Hannover
+  https://climatebase.org/jobs
+[Terra.do Job Board] Clean Energy Assets Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Site Safety Leader
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Portfolio Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] 2nd Shift Solar Equipment Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental, Health and Safety Supervisor
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Construction Project Executive (Solar / Renewables)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Scientists
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Technicians
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Efficiency Engineering Lead
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Manager II
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] CDL-A Truck Driver
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Engineer - Water Services - (2026 New Grads!)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] IN South Bend: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Water/Wastewater Process Engineer/Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Education Fellowship
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Consultant, Permitted Bat Biologist, Natural Resources
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Lead Environmental Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Manager 2
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Experienced Civil EIT
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental, Health & Safety Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Middle Market Banker
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Manager - Renewable Energy Site Development
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Water Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] City Planner
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Research and Policy Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Resources Service Lead
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainable Designer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Entry City Planner — Shape & Community
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Manager of Stewardship and Sustainable Investments
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewable Energy Managers
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Water & Wastewater Operations Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Manager, Environmental (Water)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Auditor, Sustainable Seafood Chain of Custody
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewable Energy Program Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Regional Planners
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Application Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Manager, Procurement Solar & BESS
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Civil Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Analyst, ILSFA
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Manager, Procurement
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Installer I, II, III
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Storage Systems (ESS) Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Engineer, Renewable Electrical Engineering
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Manager, Renewable Procurement
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Installer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] FP&A Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Component Engineer-Energy Management
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Energy Consultant -- Renewable Engineering Experience
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Leader – Midewin National Tallgrass Prairie Crew
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Leader – Little Red Schoolhouse Youth Crew
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Urban Green – Morton Arboretum Tree Conservation Crew
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Energy Storage Project Development Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Renewables Networks Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Investment Banking Full-Time Analyst 2026
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Investment Banking Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Planner (Urban Planning)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewable Energy Technical Lead
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Seasonal Restoration Ecologist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Restoration Technicians
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] IL West Suburban Cook County: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Great Lakes Senior Field Representative
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Site Assessment (ESA)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Future Opportunities in Advocacy, Legal and Economist positions
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Save Our Global Forests Organizer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Adjunct Faculty, Environmental Science (Undergraduate)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Adjunct Instructor, College of Science, Technology, and Health (Environmental/Earth Science)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Testing Client Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Project Engineer II
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sr. Manager, Stamping Operations
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewables Origination Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] ECE008 - Assistant Professors - Ecological Consequences of Climate Engineering
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Energy Consultant – Paid Training
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Services Associates
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Science
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Energy Representative
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Services Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior EHS Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] IL Dolton: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] IL Quad Cities: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Water Resources Group Leader
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Ecologist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Archaeological Field Technicians (Field Based)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Central Illinois Environmental Justice Education Youth Facilitator
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Water Resources Project Engineer/Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Policy Analysts
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Climate Resiliency Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Justice Organizer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Science Teacher
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Manager - Construction/Stormwater Water Quality
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Science Lecturers
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Research Data Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Interdisciplinary Fisheries Biologist/Wildlife Biologist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Studies
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Wastewater Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Engineering Tech
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] ID Boise: Push Congress to pass climate laws
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] ID Pocatello: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewable Energy Project Manager – Boise, ID
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Development Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Health Specialists
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] ENV HLTH SPEC SR
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Energy Consultant - Boise, ID
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Staff Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Managers
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] HI Big Island: Push Congress to pass climate laws
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] General Manager, International Corporate Banking
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Enviromental/Construction PM
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Manager, Energy Procurement
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Field Forester
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] National Environmental Policy Act – Environmental Planner Sr
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] INTERDISCIPLINARY ENVIRONMENTAL ENGINEER/PHYSICAL SCIENTIST
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Financial Analyst
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Infrastructure Project Originator – Hawai\’i
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Client Service Leader
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] HI Kauai: Help solve America's pollution problem.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] One-Year Project Attorney, Mid-Pacific
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] River Restoration Scientist
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Outreach Forester
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Field Laborer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Statistician
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Strike Team- Crew Leader I (DAY CREW)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environment, Health and Safety Manager Sr.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Grants Administrator, Conservation
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] GA Augusta: Push Congress to pass climate laws.
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Utility Engagement Project Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Landscape Architect — Lead Sustainable Urban Design
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Construction Superintendent-Environmental/Heavy Civil
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Supervisory Wildlife Inspector
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Sustainable Design Leader
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Sciences-Earth Science
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Electrical Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] High School Environmental Science Teacher - SY 2026-2027
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Architectural Designer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Architects and Interior Designer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Mechanical Engineer – Energy Storage
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Administrators
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Reporters
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Oceanographers
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental, Health & Safety (EH&S) Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Service Manager – Electrical Contracting & EV Infrastructure
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Construction Lead - Georgia Battery Energy Storage System (BESS)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Renewables Project Engineer / Engineering Analyst (SPC Renewable Energy O&M)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Quantum Space Node – Hardware & Field Systems Engineer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Experienced Analyst, Portfolio Valuations
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior LEED Certification Reviewer
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Business Analyst I, II, III, IV, or V
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Climate Change Reporter
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Health, Safety and Environment Manager
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Project Manager (Senior)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Remote Solar Finance Controller
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Solar Pro
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Georgia Solar Project Developer & Community Outreach Lead
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Environmental Project Manager (5-12 yrs)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Electrician
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Professional Civil Engineer, Renewables in Atlanta
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Site Safety Manager (Field Based)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Senior Engineering Consultant
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Project Finance Analyst (Remote or Hybrid)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] CONSTRUCTION INSPECTOR ROADWAY
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Seasonal Land Steward
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] 2027 Global Private Bank Advisor Program (Summer Analyst)
+  https://www.terra.do/climate-jobs/job-board/
+[Terra.do Job Board] Controller (Remote or Hybrid)
+  https://www.terra.do/climate-jobs/job-board/
+[Marine Conservation Institute] Work with Us » Marine Conservation Institute
+  https://marine-conservation.org/work-with-us/
 [Schmidt Marine Jobs Board] Schmidt Marine
-  https://jobs.schmidtmarine.org/companies/havforskningsinstituttet/jobs/74313324-it-drift-havforskningsinstiuttet
-[Schmidt Marine Jobs Board] Fisheries Standard Manager
-  https://jobs.schmidtmarine.org/companies/marine-stewardship-council/jobs/74309782-fisheries-standard-manager
-[Techstars Jobs] VP Marketing
-  https://jobs.techstars.com/companies/gorgias-com/jobs/74251328-vp-marketing
-[Climate Change Jobs] Director, State Policy
-  https://climatechangejobs.com/jobs/441625608-director-state-policy
-[Climate Change Jobs] Ann Arbor, Michigan, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-ann-arbor-michigan-united-states
-[Climate Change Jobs] Cheyenne, Wyoming, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-cheyenne-wyoming-united-states
-[Climate Change Jobs] Denali Park, Alaska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-denali-park-alaska-united-states
-[Climate Change Jobs] Dublin, Ireland Climate Jobs
-  https://climatechangejobs.com/jobs/in-dublin-ireland
-[Climate Change Jobs] Eminence, Missouri, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-eminence-missouri-united-states
-[Climate Change Jobs] Fort Payne, Alabama, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-fort-payne-alabama-united-states
-[Climate Change Jobs] Grand Canyon, Arizona, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-grand-canyon-arizona-united-states
-[Climate Change Jobs] Heidelberg, Baden-Württemberg, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-heidelberg-baden-wurttemberg-germany
-[Climate Change Jobs] Idaho Falls, Idaho, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-idaho-falls-idaho-united-states
-[Climate Change Jobs] Stillwater, New York, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-stillwater-new-york-united-states
-[Climate Change Jobs] Sulphur, Oklahoma, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-sulphur-oklahoma-united-states
-[Climate Change Jobs] Tulsa, Oklahoma, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-tulsa-oklahoma-united-states
-[Climate Change Jobs] Wellfleet, Massachusetts, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-wellfleet-massachusetts-united-states
-[Climate Change Jobs] West Glacier, Montana, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-west-glacier-montana-united-states
-[Climate Change Jobs] Yankton, South Dakota, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-yankton-south-dakota-united-states
-[Climate Jobs List] Electrification Sales Consultant at Helio Home
-  https://www.climatejobslist.com/jobs/electrification-sales-consultant-at-helio-home-aug-23
-[Climate Jobs List] GES Director of Tracker Technology at Geli
-  https://www.climatejobslist.com/jobs/ges-director-of-tracker-technology-at-geli-sep-23
-[Climate Jobs List] Head of Motor Design at ZeroAvia
-  https://www.climatejobslist.com/jobs/head-of-motor-design-at-zeroavia-may-23
-[Climate Jobs List] Inside Sales Representative at Span
-  https://www.climatejobslist.com/jobs/inside-sales-representative-at-span-aug-23
-[Climate Jobs List] Sales Delivery Manager at Xos Trucks
-  https://www.climatejobslist.com/jobs/sales-delivery-manager-at-xos-trucks-aug-23
-[Climate Jobs List] Vice President of Project Management / Construction Management at Geli
-  https://www.climatejobslist.com/jobs/vice-president-of-project-management-construction-management-at-geli-aug-23
-[Jobs in Carbon] Research Fellow in Machine Learning in Carbon Capture Utilisation & Storage
-  https://jobs.leeds.ac.uk/vacancy.aspx?ref=epsme1205
-[Jobs in Carbon] Research Fellow (Carbon materials enhanced concrete)
-  https://ntu.wd3.myworkdayjobs.com/careers/job/ntu-main-campus-singapore/research-fellow--carbon-materials-enhanced-concrete-_r00023981
-[Jobs in Carbon] Carbon Footprint Consultant
-  https://jobsincarbon.niceboard.co/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Vice President for University Development and Alumni Relations
-  https://jobs.philanthropy.com/job/51758/executive-vice-president-for-university-development-and-alumni-relations/?LinkSource=HomePage
-[Nonprofit Jobs (Chronicle of Philanthropy)] Vice President of Development
-  https://jobs.philanthropy.com/job/51776/vice-president-of-development/?LinkSource=HomePage
-[Voyager Ventures Portfolio] Vice President of Operations
-  https://job-boards.greenhouse.io/remoracarbon/jobs/5096654007
-[World Fund Portfolio] Visiting Analyst (Scientific Background)
-  https://www.worldfund.vc/jobs/climate-investment-internship
-[World Fund Portfolio] Head of Investor Relations
-  https://www.worldfund.vc/jobs/head-of-investor-relations
-[SOSV Portfolio] German Speaking Technical Sales Executive - (Relocation to Berlin)
-  https://careers.formlabs.com/job/7816367/apply/?gh_jid=7816367
-[At One Ventures Portfolio] Head of Factory Engineering
-  https://ats.rippling.com/inlyte-energy/jobs/b52249c3-884c-4afa-ae5e-c43253a3e25a
-[At One Ventures Portfolio] Head of Communications
-  https://jobs.ashbyhq.com/blue-energy/934bd8b5-7b81-447f-9e1f-c48ee435376e?utm_source=jobs.atoneventures.com
-[Planet Labs] Senior Customer Success Manager (D&I - India)
-  https://job-boards.greenhouse.io/planetlabs/jobs/7772704
-[Greentown Labs (Green Town Labs)] Senior Manager, Logistics
-  https://formenergy.com/careers/open-jobs?ashby_jid=d5169de1-a0d4-40aa-a68e-a50fc0a4eb0a&utm_source=jobs.greentownlabs.com
-[Greentown Labs (Green Town Labs)] Senior Manager, Global Supply Management
-  https://formenergy.com/careers/open-jobs?ashby_jid=ecfad128-9ab8-4cc2-897e-96ec4abaeeac&utm_source=jobs.greentownlabs.com
-[Safe Software] Customer Success Manager II
-  https://jobs.ashbyhq.com/safe/4f49126e-ceef-4b96-b68f-224eab5ed246
-[Safe Software] Customer Success Manager III
-  https://jobs.ashbyhq.com/safe/722c1587-e868-4064-b257-85a8a9f80fa8
-[Prelude Ventures Portfolio] Product Manager
-  https://jobs.preludeventures.com/companies/voltus/jobs/74299196-product-manager-market-platform
-[Prelude Ventures Portfolio] Staff Accountant
-  https://jobs.preludeventures.com/companies/voltus/jobs/74299203-staff-accountant-revenue-accounting
-[G2 Venture Partners Portfolio] Principal Production Engineer
-  https://jobs.g2vp.com/companies/crusoe-2/jobs/74291085-principal-production-engineer
-[Y Combinator Jobs] Growth Engineer
-  https://www.ycombinator.com/companies/tavus/jobs/9wcyCeO-growth-engineer
-[Climate Change Jobs] Senior Manager, Payroll
-  https://climatechangejobs.com/jobs/441625610/apply
-[Climate Change Jobs] Deputy Chief Information Officer for Resources Management
-  https://climatechangejobs.com/jobs/441629002-deputy-chief-information-officer-for-resources-management
-[Climate Change Jobs] Staff Accountant – Revenue Accounting
-  https://climatechangejobs.com/jobs/441638830-staff-accountant-revenue-accounting
-[Climate Jobs List] Senior Manager of Marketing at Geli
-  https://www.climatejobslist.com/jobs/senior-manager-of-marketing-at-geli-sep-23
-[Climate Jobs List] Senior Strategic Account Manager - Mobility Solutions at Via Transportation
-  https://www.climatejobslist.com/jobs/senior-strategic-account-manager-mobility-solutions-at-via-transportation-aug-23
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Development Officer
-  https://jobs.philanthropy.com/job/52000/chief-development-officer/?LinkSource=HomePage
-[Fleetzero] Growth Manager
-  https://jobs.lever.co/fleetzero/87c1b7b3-870f-47fc-8966-21b1f0e6b3d4
-[MCJ Collective Portfolio] Principal Production Engineer
-  https://jobs.mcj.vc/companies/crusoe-2/jobs/74291085-principal-production-engineer
-[MCJ Collective Portfolio] Customer Success Manager
-  https://jobs.mcj.vc/companies/david-energy/jobs/74257003-customer-success-manager
-[Voyager Ventures Portfolio] Principal Electrical Engineer (High Voltage Systems)
-  https://job-boards.greenhouse.io/remoracarbon/jobs/5084104007
+  https://jobs.schmidtmarine.org/companies/japan-agency-for-marine-earth-science-technology-jamstec/jobs/74429928-2-bgr26-001
+[Schmidt Marine Jobs Board] ESA Section 7 Consultation Support
+  https://jobs.schmidtmarine.org/companies/ocean-associates/jobs/74370628-esa-section-7-consultation-support
+[Schmidt Marine Jobs Board] Marine Scientist
+  https://jobs.schmidtmarine.org/companies/oceana/jobs/74413622-marine-scientist
+[Schmidt Marine Jobs Board] Director of Western Water
+  https://jobs.schmidtmarine.org/companies/trcp/jobs/74416483-director-of-western-water
+[Ocean Conservation Careers] Head of Campaigns - London (Paddington) or Cornwall (Newquay) office job with OCEANA UK
+  https://jobs.theguardian.com/job/9979558/head-of-campaigns/?LinkSource=TopJob
+[Y Combinator Jobs] Vision Sales Engineer
+  https://www.ycombinator.com/companies/overview/jobs/oGRC43e-vision-sales-engineer-san-francisco
+[Techstars Jobs] Commercial Counsel
+  https://jobs.techstars.com/companies/chainalysis/jobs/74431383-commercial-counsel
+[Techstars Jobs] Director, Total Rewards
+  https://jobs.techstars.com/companies/chainalysis/jobs/74431385-director-total-rewards
+[Techstars Jobs] Account Executive (Private Sector) - Middle East, Central Asia, Africa
+  https://jobs.techstars.com/companies/chainalysis/jobs/74431386-account-executive-private-sector-middle-east-central-asia-africa
+[Climate Change Jobs] General Engineer/Physical Scientist (Federal Project Director)
+  https://climatechangejobs.com/jobs/443704388-general-engineer-physical-scientist-federal-project-director
+[Climate Change Jobs] County Executive Director Expanded
+  https://climatechangejobs.com/jobs/443704390-county-executive-director-expanded
+[Climate Change Jobs] Supervisory Life Scientist/Environmental Engineer/Physical Scientist (Deputy Director)
+  https://climatechangejobs.com/jobs/443704402-supervisory-life-scientist-environmental-engineer-physical-scientist-deputy-director
+[Climate Change Jobs] Assistant Director
+  https://climatechangejobs.com/jobs/443704406-assistant-director-ecological-services
+[Climate Change Jobs] Amarillo, Texas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-amarillo-texas-united-states
+[Climate Change Jobs] Athens, Georgia, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-athens-georgia-united-states
+[Climate Change Jobs] Atlanta, Georgia, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-atlanta-georgia-united-states
+[Climate Change Jobs] Caldwell, Idaho, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-caldwell-idaho-united-states
+[Climate Change Jobs] Hyde Park, New York, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-hyde-park-new-york-united-states
+[Climate Change Jobs] København, Capital Region of Denmark, Denmark Climate Jobs
+  https://climatechangejobs.com/jobs/in-kobenhavn-capital-region-of-denmark-denmark
+[Climate Change Jobs] Lenexa, Kansas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-lenexa-kansas-united-states
+[Climate Change Jobs] Lewiston, Idaho, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-lewiston-idaho-united-states
+[Climate Change Jobs] Milpitas, California, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-milpitas-california-united-states
+[Climate Change Jobs] New Philadelphia, Ohio, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-new-philadelphia-ohio-united-states
+[Climate Change Jobs] Paterson, New Jersey, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-paterson-new-jersey-united-states
+[Climate Change Jobs] Sunnyvale, California, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-sunnyvale-california-united-states
+[Climate Change Jobs] Trenton, New Jersey, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-trenton-new-jersey-united-states
+[Climate Change Jobs] West Palm Beach, Florida, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-west-palm-beach-florida-united-states
+[Jobs in Carbon] Postdoc in Carbon Capture Modeling
+  https://efzu.fa.em2.oraclecloud.com/hcmui/candidateexperience/da/sites/cx_2001/job/7167?utm_medium=jobshare
+[Jobs in Carbon] Carbon Analyst
+  https://smartestenergy.teamtailor.com/jobs/7381943-carbon-analyst
+[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director of Advancement – North America/Diaspora
+  https://jobs.philanthropy.com/job/51911/executive-director-of-advancement-north-america-diaspora/?LinkSource=HomePage
+[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director
+  https://jobs.philanthropy.com/job/52060/executive-director/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development
+  https://jobs.philanthropy.com/job/52065/director-of-development/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Development Director
+  https://jobs.philanthropy.com/job/52070/development-director/
+[Carbon Engineering] Carbon Engineering Ltd.
+  http://carbonengineering.applytojob.com/apply/
+[SOSV Portfolio] VP of Business Operations
+  https://www.careers-page.com/myrobinid/job/V6Y3W7X6
+[Project Canary] Technical Sales Engineer
+  https://projectcanary.pinpointhq.com/en/postings/22414137-8733-45b4-a800-4944946fd351
+[Project Canary] Vice President of Engineering
+  https://projectcanary.pinpointhq.com/en/postings/7f19049f-0a98-481b-a47d-b9c8cd663b1e
+[ZeroNorth] Emissions Analyst
+  https://careers.zeronorth.com/jobs/6861235-emissions-analyst
+[Aquabyte] Global Director of Human Resources
+  https://jobs.lever.co/aquabyte/1089c317-6ebd-480a-be73-5dce52321efc
+[Frontline Wildfire Defense] Director of Architectural Engineering & Design
+  https://www.frontlinewildfire.com/careers/
+[Frontline Wildfire Defense] Director of Installation
+  https://www.frontlinewildfire.com/careers/
+[Frontline Wildfire Defense] VP of Finance
+  https://www.frontlinewildfire.com/careers/
+[Mast Reforestation] Sales Manager
+  https://jobs.lever.co/MastReforestation/bf7f0698-1d1a-4fe9-ac23-3020ae981d5c
+[One Tree Planted] Project Manager, Nature-Based Solutions
+  https://onetreeplanted.bamboohr.com/careers/120
+[Plant-for-the-Planet] Join Our Team: Shaping a Climate-just & Livable Future
+  https://www.plant-for-the-planet.org/career/
+[Planet Labs] Customer Success Manager (D&I - South Korea & ANZ)
+  https://job-boards.greenhouse.io/planetlabs/jobs/7772699
+[Lowercarbon Capital Portfolio] Principal Production Engineer
+  https://jobs.ashbyhq.com/Crusoe/8922b466-0d11-4068-91eb-643477ba2805
+[Isar Aerospace] Principal Engineer (m/w/d)
+  https://job-boards.eu.greenhouse.io/isaraerospace/jobs/4837001101
+[Commonwealth Fusion Systems] Principal Mechanical Engineer
+  https://jobs.lever.co/cfsenergy/e2af201d-ec4b-404e-9f70-1496854d23f5
+[Sayari] Careers at Sayari: Join the Corporate Intelligence Team
+  https://sayari.com/careers/
+[S2G Ventures Portfolio] Chief of Staff to the CEO
+  https://boards.greenhouse.io/formic/jobs/4672499006
+[Climatebase] Senior API Integration Engineer
+  https://climatebase.org/jobs
+[Climatebase] Local Compliance Officer
+  https://climatebase.org/jobs
+[Climatebase] People & Culture Reporting & Analytics Lead
+  https://climatebase.org/jobs
+[Climatebase] Data Modeller / Analytics Engineer
+  https://climatebase.org/jobs
+[Climatebase] Staff Software Engineer (Core Tech API Platform - Customer)
+  https://climatebase.org/jobs
+[Climatebase] Senior Manager, Strategic Communications (Litigation)
+  https://climatebase.org/jobs
+[Acre Sustainability Jobs] Customer Success Manager
+  https://www.acre.com/jobs/acre-13644-acre-13644
+[Y Combinator Jobs] Software Engineer, Data Platform
+  https://www.ycombinator.com/companies/onechronos/jobs/vqgGG8a-software-engineer-data-platform
+[Climate Change Jobs] Principal Mechanical Engineer
+  https://climatechangejobs.com/jobs/374466343-principal-mechanical-engineer
+[Climate Change Jobs] Principal Production Engineer
+  https://climatechangejobs.com/jobs/396605535-principal-production-engineer
+[Climate Change Jobs] Chief Marketing & Communications Officer
+  https://climatechangejobs.com/jobs/442953732-chief-marketing-communications-officer
+[Climate Change Jobs] Senior API Integration Engineer
+  https://climatechangejobs.com/jobs/443702775-senior-api-integration-engineer
+[Idealist] Mentorship as a Tool for Growth, Inclusion, and Equity
+  en/careers/mentorship-diversity-inclusion
+[Nonprofit Jobs (Chronicle of Philanthropy)] Principal Gifts Officer
+  https://jobs.philanthropy.com/job/52069/principal-gifts-officer/
+[L3Harris] Senior Manager, Systems Engineering (Technical Manager - Ground System Integration and Test)
+  https://careers.l3harris.com/en/job/melbourne/senior-manager-systems-engineering-technical-manager-ground-system-integration-and-test/4832/94009490336
+[Project Canary] Product Manager
+  https://projectcanary.pinpointhq.com/en/postings/264d0e7d-2ec3-46ee-8fc4-1d4797000bda
+[ZeroNorth] Customer Success Manager
+  https://careers.zeronorth.com/jobs/7437213-customer-success-manager
+[Aquabyte] Product Manager
+  https://jobs.lever.co/aquabyte/5f9ab339-40e7-4ce2-a8b4-0ff36e0614cc
+[Trees for the Future] Data Systems Senior Manager
+  https://ats.rippling.com/trees/jobs/9d5075b9-46c9-43f4-a5ff-21be28383c06
