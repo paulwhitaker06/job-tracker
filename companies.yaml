@@ -1912,3 +1912,213 @@ companies:
   - name: American Forests
     type: manual_check
     url: https://www.linkedin.com/company/american-forests/jobs/
+
+  - name: Technosylva
+    type: html_links
+    url: https://technosylva.com/careers/
+
+  - name: Treeswift
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/treeswift
+
+  - name: Veritree
+    type: workable_api
+    url: https://apply.workable.com/veritree/
+    workable_account: veritree
+
+  - name: GreenWood Resources
+    type: html_links
+    url: https://careercenter.eforester.org/jobs/
+
+  - name: Climate TRACE
+    type: manual_check
+    url: https://www.linkedin.com/company/climate-trace/jobs
+
+  - name: Allen Coral Atlas
+    type: manual_check
+    url: https://www.linkedin.com/company/allen-coral-atlas/jobs
+
+  - name: Planetary Health Alliance
+    type: html_links
+    url: https://planetaryhealthalliance.org/opportunities/
+
+  - name: Future Earth
+    type: html_links
+    url: https://futureearth.org/about/careers/
+
+  - name: Panthera
+    type: html_links
+    url: https://panthera.org/careers
+
+  - name: WildAid
+    type: html_links
+    url: https://wildaid.org/about/jobs/
+
+  - name: African Wildlife Foundation
+    type: playwright
+    url: https://recruiting.ultipro.com/AFR1000AFWI/JobBoard/20e4eecc-c532-4e6a-bb5f-39ea79059f29/?q=&o=postedDateDesc&w=&wc=&we=&wpst=
+
+  - name: Re:wild (formerly Global Wildlife Conservation)
+    type: html_links
+    url: https://app.dover.com/jobs/rewild
+
+  - name: Fauna & Flora International
+    type: html_links
+    url: https://www.fauna-flora.org/career/
+
+  - name: BirdLife International
+    type: html_links
+    url: https://www.birdlife.org/careers-hub/#roles
+
+  - name: Defenders of Wildlife
+    type: html_links
+    url: https://defenders.org/about/jobs
+
+  - name: International Fund for Animal Welfare (IFAW)
+    type: html_links
+    url: https://www.ifaw.org/careers
+
+  - name: Sierra Club
+    type: lever_api
+    url: https://jobs.lever.co/sierraclub
+    lever_company: sierraclub
+
+  - name: Greenpeace
+    type: html_links
+    url: https://www.greenpeace.org/usa/current-job-openings/
+
+  - name: Friends of the Earth
+    type: html_links
+    url: https://foe.org/jobs/
+
+  - name: Royal Society for Protection of Birds (RSPB)
+    type: html_links
+    url: https://www.rspb.org.uk/careers/vacancies-listing
+
+  - name: Frankfurt Zoological Society
+    type: html_links
+    url: https://fzs.org/en/about-us/organization/jobs/
+
+  - name: Conservation Strategy Fund
+    type: html_links
+    url: https://www.conservation-strategy.org/careers
+
+  - name: Trout Unlimited
+    type: html_links
+    url: https://www.tu.org/about/jobs-and-internships/
+
+  - name: Wild Salmon Center
+    type: html_links
+    url: https://wildsalmoncenter.org/careers/
+
+  - name: Wildlife Trust of India
+    type: html_links
+    url: https://jobs.wti.org.in/
+
+  - name: Climate Policy Initiative
+    type: html_links
+    url: https://www.climatepolicyinitiative.org/about-cpi/careers/
+
+  - name: Climate Analytics
+    type: html_links
+    url: https://climate.jobs.personio.com
+
+  - name: E3G
+    type: html_links
+    url: https://www.e3g.org/about/careers/
+
+  - name: Mission Possible Partnership
+    type: html_links
+    url: https://www.missionpossiblepartnership.org/careers
+
+  - name: CDP (formerly Carbon Disclosure Project)
+    type: html_links
+    url: https://cdpworldwide.teamtailor.com/#jobs
+
+  - name: Science Based Targets initiative (SBTi)
+    type: html_links
+    url: https://sciencebasedtargets.org/about-us/join-our-team
+
+  - name: Ceres
+    type: html_links
+    url: https://www.ceres.org/careers/opportunities
+
+  - name: WBCSD
+    type: manual_check
+    url: https://www.linkedin.com/jobs/search
+
+  - name: BSR (Business for Social Responsibility)
+    type: html_links
+    url: https://www.bsr.org/en/careers
+
+  - name: Net Zero Tracker
+    type: manual_check
+    url: https://www.linkedin.com/company/net-zero-tracker/jobs
+
+  - name: Energy Transitions Commission
+    type: manual_check
+    url: https://www.linkedin.com/company/energy-transitions-commission/jobs
+
+  - name: World Climate Foundation
+    type: html_links
+    url: https://www.worldclimatefoundation.org/careers
+
+  - name: Climate Group
+    type: html_links
+    url: https://climategroup.peoplehr.accessacloud.com/jobboard
+
+  - name: Project Drawdown
+    type: html_links
+    url: https://drawdown.org/careers
+
+  - name: Carbon Brief
+    type: manual_check
+    url: https://www.linkedin.com/company/carbon-brief/jobs
+
+  - name: The Ocean Cleanup
+    type: html_links
+    url: https://theoceancleanup.com/careers/
+
+  - name: SALT Lofoten
+    type: manual_check
+    url: https://www.linkedin.com/company/salt-as/jobs
+
+  - name: Plastic Bank
+    type: html_links
+    url: https://plasticbank.com/careers/
+
+  - name: Plastic Odyssey
+    type: html_links
+    url: https://plasticodyssey.org/en/jobs/
+
+  - name: 5 Gyres Institute
+    type: html_links
+    url: https://www.5gyres.org/careers
+
+  - name: Lonely Whale
+    type: manual_check
+    url: https://www.linkedin.com/company/lonelywhale/jobs
+
+  - name: Surfrider Foundation
+    type: html_links
+    url: https://www.surfrider.org/careers
+
+  - name: Ocean Voyages Institute
+    type: manual_check
+    url: https://www.linkedin.com/company/ocean-voyages-institute/jobs
+
+  - name: Sea Shepherd
+    type: html_links
+    url: https://seashepherd.org/employment/
+
+  - name: Trimble
+    type: html_links
+    url: https://trimblecareers.trimble.com/careers
+
+  - name: Topcon Positioning Systems
+    type: playwright
+    url: https://topcon.wd1.myworkdayjobs.com/TopconPositioningCareers
+
+  - name: Bentley Systems
+    type: html_links
+    url: https://jobs.bentley.com/search
