@@ -1,58 +1,180 @@
-Job Tracker Digest - 2026-04-20 12:11 UTC
+Job Tracker Digest - 2026-04-21 12:07 UTC
 493/496 companies scraped successfully · 3 failed
-27 new postings
+88 new postings
 
-[Schmidt Marine Jobs Board] Senior Manager, Biodiversity Initiative (Interim - Maternity Leave Cover)
-  https://jobs.schmidtmarine.org/companies/global-fishing-watch/jobs/74962732-senior-manager-biodiversity-initiative-interim-maternity-leave-cover
-[Climatebase] Commercial Director, Singapore
+[Climatebase] Commercial Strategy Manager / Senior Manager
   https://climatebase.org/jobs
-[Climatebase] Werkstudent (m/w/d) Business Development & Sales
+[Climatebase] Commercial Strategy Associate / Senior Associate
   https://climatebase.org/jobs
-[Climatebase] Strategic Account Director (US/NYC-based)
+[Techstars Jobs] Client Account Director - NatSec/Intelligence
+  https://jobs.techstars.com/companies/chainalysis/jobs/75580804-client-account-director-natsec-intelligence
+[Exotrail] Business Development &amp; Sales Manager (H/F)
+  https://careers.exotrail.com/jobs/7606512-business-development-sales-manager-h-f
+[Climatebase] Director, Business Development
   https://climatebase.org/jobs
-[Jobs in Carbon] Director Carbon Markets - Chicago, IL or Decatur, IL
-  https://sjobs.brassring.com/tgnewui/search/home/homewithpreload?pagetype=jobdetails&partnerid=25416&siteid=5998&jobid=3352268&codes=linkedin_adm#jobdetails=3352268_5998
-[Jobs in Carbon] Freelance Verifier, EU Emissions Trading System (EU ETS) / Carbon Border Adjustment Mechanism (CBAM)
-  https://scs.clearcompany.com/careers/jobs/e12662a3-0b0c-82d3-ff3d-0273744fbff2/apply?source=3574340-jb-1018
-[Climate Change Jobs] Business Development Executive - Außendienst (w/m/d)
-  https://climatechangejobs.com/jobs/444383890-business-development-executive-aussendienst-w-m-d
-[Climate Change Jobs] Senior GTM Sourcer
-  https://climatechangejobs.com/jobs/444392697-senior-gtm-sourcer
-[Jobs in Carbon] Business Development Internship
-  https://tinyurl.com/ccjoboard
-[Fugro] Head of Product Operations &amp; Strategic Portfolio Management
-  https://www.fugro.com/careers/jobs/R0031122-head-of-product-operations-%26-strategic-portfolio-management
-[Climatebase] Director, PEPC - Structural - “High-Rise & Complex Buildings"
+[Nonprofit Jobs (Chronicle of Philanthropy)] Assistant Vice President - Careers and Industry Partnerships
+  https://jobs.philanthropy.com/job/52107/assistant-vice-president-careers-and-industry-partnerships-/
+[Bentley Systems] Market Development Director, North America Transportation
+  https://jobs.bentley.com/job/Remote-Market-Development-Director%2C-North-America-Transportation-CA/1383677300/
+[Climatebase] Manager / Senior Manager, Business Development
   https://climatebase.org/jobs
-[Climatebase] Expression Of Interest: Contract and Commercial Opportunities
+[Climate Change Jobs] Senior Manager, Partnerships and Impact, GCoM
+  https://climatechangejobs.com/jobs/444524205-senior-manager-partnerships-and-impact-gcom
+[Climatebase] Environmental Monitoring Specialist- (Position is in Lebanon, Indiana)
   https://climatebase.org/jobs
-[Climatebase] Director, Data Centre Architecture
+[Climatebase] Environmental Monitoring Specialist-ENTRY LEVEL (Position is in Lebanon, Indiana)
   https://climatebase.org/jobs
-[GEO Careers] Head of the American Geographical Society Library
+[Climatebase] Business Development Associate – Data Centers
+  https://climatebase.org/jobs
+[Climatebase] Business Development Manager, Reunion PWA
+  https://climatebase.org/jobs
+[Climatebase] Biopharmaceutical Inside Business Development Specialist
+  https://climatebase.org/jobs
+[SOSV Portfolio] Business Development Representative
+  https://ecisolutions.hrmdirect.com/employment/job-opening.php?req=3692598&req_loc=1293619&&#job
+[Fugro] GroundIQ Sales Manager
+  https://www.fugro.com/careers/jobs/R0031142-groundiq-sales-manager-germany
+[Maxar] Sr. Director, USG Transformation
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Sr-Director--USG-Transformation_R23779
+[Arnergy] Arnergy Solar Limited - Sales Executive in Ibadan/Enugu
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469048/Sales-Executive?source=CareerSite
+[Arnergy] Arnergy Solar Limited - Sales Manager in Lagos & Abuja
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469093/Sales-Manager?source=CareerSite
+[Exotrail] Head of Product in Orbit Services (F/M)
+  https://careers.exotrail.com/jobs/7602643-head-of-product-in-orbit-services-f-m
+[Climatebase] Director, Transactions & Finance
+  https://climatebase.org/jobs
+[Climatebase] Area Sales Manager
+  https://climatebase.org/jobs
+[Climatebase] Market Risk Manager - Western Europe with downstream background
+  https://climatebase.org/jobs
+[Climatebase] International Sales Controller
+  https://climatebase.org/jobs
+[Climatebase] Associate Director
+  https://climatebase.org/jobs
+[Climatebase] Director BioPharma Services Laboratory Operations
+  https://climatebase.org/jobs
+[GEO Careers] GIS Developer
   https://www.geo-careers.com/
+[GEO Careers] GIS Analyst / Developer II
+  https://www.geo-careers.com/
+[Acre Sustainability Jobs] Director of Communications &amp; Public Affairs
+  https://www.acre.com/jobs/acre-13650-acre-13650
 [Schmidt Marine Jobs Board] Schmidt Marine
-  https://jobs.schmidtmarine.org/companies/japan-agency-for-marine-earth-science-technology-jamstec/jobs/75303943-bgp26-001
-[Schmidt Marine Jobs Board] Executive Director
-  https://jobs.schmidtmarine.org/companies/wiseoceans-ltd/jobs/74565780-executive-director
-[Y Combinator Jobs] Vice President of Technology
-  https://www.ycombinator.com/companies/parallel-bio/jobs/9RGTubS-vice-president-of-technology
-[Climate Change Jobs] Bakersfield, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-bakersfield-california-united-states
-[Climate Change Jobs] Dortmund, North Rhine-Westphalia, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-dortmund-north-rhine-westphalia-germany
+  https://jobs.schmidtmarine.org/companies/marine-institute/jobs/75571870-temporary-laboratory-analyst-water-framework-directive
+[Schmidt Marine Jobs Board] EMERGE Alaska Program
+  https://jobs.schmidtmarine.org/companies/university-of-alaska-fairbanks-college-of-fisheries-and-ocean-sciences/jobs/75572074-emerge-alaska-program
+[Techstars Jobs] Sales Lead
+  https://jobs.techstars.com/companies/aftershoot/jobs/75581726-sales-lead
+[Climate Change Jobs] County Executive Director in Training
+  https://climatechangejobs.com/jobs/444511221-county-executive-director-in-training
+[Climate Change Jobs] County Executive Director
+  https://climatechangejobs.com/jobs/444511225-county-executive-director
+[Climate Change Jobs] Supervisory Agricultural District Director
+  https://climatechangejobs.com/jobs/444511229-supervisory-agricultural-district-director
+[Climate Change Jobs] Regional Director, Intermountain
+  https://climatechangejobs.com/jobs/444511246-regional-director-intermountain
+[Climate Change Jobs] Deputy Director OSS
+  https://climatechangejobs.com/jobs/444511248-deputy-director-oss
+[Climate Change Jobs] STATE DIRECTOR
+  https://climatechangejobs.com/jobs/444511249-state-director
+[Climate Change Jobs] General Engineer/Physical Scientist (Senior Federal Project Director)
+  https://climatechangejobs.com/jobs/444511250-general-engineer-physical-scientist-senior-federal-project-director
+[Climate Change Jobs] Director of EPC
+  https://climatechangejobs.com/jobs/444523348-director-of-epc
+[Climate Change Jobs] Commercial Licensed Journeyman Electrician
+  https://climatechangejobs.com/jobs/444524297-commercial-licensed-journeyman-electrician
+[Climate Change Jobs] Commercial Licensed Journeyman
+  https://climatechangejobs.com/jobs/444524297/apply
+[Climate Change Jobs] Alameda, California, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-alameda-california-united-states
+[Climate Change Jobs] Asbury Park, New Jersey, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-asbury-park-new-jersey-united-states
+[Climate Change Jobs] Braga, Braga, Portugal Climate Jobs
+  https://climatechangejobs.com/jobs/in-braga-braga-portugal
+[Climate Change Jobs] Breaux Bridge, Louisiana, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-breaux-bridge-louisiana-united-states
+[Climate Change Jobs] College Station, Texas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-college-station-texas-united-states
 [Climate Change Jobs] Köln, North Rhine-Westphalia, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-koln-north-rhine-westphalia-germany
-[Nonprofit Jobs (Chronicle of Philanthropy)] Executive Director
-  https://jobs.philanthropy.com/job/52100/executive-director/?LinkSource=PromotedJob
-[L3Harris] Head of Engineering
-  https://careers.l3harris.com/en/job/washington-d-c/head-of-engineering/4832/93649721456
-[Climatebase] Expression Of Interest: Planning, Approvals and Sustainability
+  https://climatechangejobs.com/jobs/in-cologne-north-rhine-westphalia-germany
+[Climate Change Jobs] Fort Worth, Texas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-fort-worth-texas-united-states
+[Climate Change Jobs] Franklin, Indiana, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-franklin-indiana-united-states
+[Climate Change Jobs] Harrison, Nebraska, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-harrison-nebraska-united-states
+[Climate Change Jobs] Lakewood, Colorado, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-lakewood-colorado-united-states
+[Climate Change Jobs] Medford, Wisconsin, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-medford-wisconsin-united-states
+[Climate Change Jobs] Melbourne, Victoria, Australia Climate Jobs
+  https://climatechangejobs.com/jobs/in-melbourne-victoria-australia
+[Climate Change Jobs] Oak Ridge, Tennessee, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-oak-ridge-tennessee-united-states
+[Climate Change Jobs] Oxford, New Jersey, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-oxford-new-jersey-united-states
+[Climate Change Jobs] Patchogue, New York, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-patchogue-new-york-united-states
+[Climate Change Jobs] Porter, Indiana, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-porter-indiana-united-states
+[Climate Change Jobs] Porto, Porto, Portugal Climate Jobs
+  https://climatechangejobs.com/jobs/in-porto-porto-portugal
+[Climate Change Jobs] Scranton, Pennsylvania, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-scranton-pennsylvania-united-states
+[Climate Change Jobs] Seguin, Texas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-seguin-texas-united-states
+[Climate Change Jobs] Sheffield, South Yorkshire, England, United Kingdom Climate Jobs
+  https://climatechangejobs.com/jobs/in-sheffield-south-yorkshire-england-united-kingdom
+[Climate Change Jobs] Silver Spring, Maryland, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-silver-spring-maryland-united-states
+[Climate Change Jobs] Tupelo, Mississippi, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-tupelo-mississippi-united-states
+[Climate Change Jobs] Wausau, Wisconsin, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-wausau-wisconsin-united-states
+[Climate Change Jobs] Yellowstone National Park, Wyoming, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-yellowstone-national-park-wyoming-united-states
+[Jobs in Carbon] Doctoral Researcher in Carbon Uptake, Durability, and Regeneration of Reused Concrete
+  https://recruitment.uni.lu/en/details.html?id=qmufk026203f3vbqb7v7vv4s8&lg=uk&browserchk=no&component=lay9999_jdesc100a&mask=karriereseiten&mtbrwchk=nok&npostingid=115960&npostingtargetid=162779&source=linkedin
+[Jobs in Carbon] Lead - Carbon Abatement (CO2 Capture)
+  https://www.expertia.ai/ril-hydrocarbons/job/hiring-lead-carbon-abatement-co2-capture-66c6d624eeb64d95b2c85195?utm_source=linkedin-jw&easy_apply=true
+[Jobs in Carbon] Lead forest carbon scientist
+  https://jobsincarbon.niceboard.co/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Finance Director
+  https://jobs.philanthropy.com/job/52102/finance-director/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director of Development
+  https://jobs.philanthropy.com/job/52103/senior-director-of-development/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Gifts and Records Administration
+  https://jobs.philanthropy.com/job/52104/director-of-gifts-and-records-administration/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development
+  https://jobs.philanthropy.com/job/52106/director-of-development/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Program Director, Democracy and Civic Life
+  https://jobs.philanthropy.com/job/52110/program-director-democracy-and-civic-life/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Marketing and Communications
+  https://jobs.philanthropy.com/job/52114/director-of-marketing-and-communications/?LinkSource=PromotedJob
+[Spire Global] Job Openings - Spire : Global Data and Analytics
+  https://spire.com/careers/job-openings/job/?gh_jid=7831466
+[Greentown Labs (Green Town Labs)] Senior Manager, Factory Testing Engineering
+  https://formenergy.com/careers/open-jobs?ashby_jid=4e416ae5-0fff-4f46-9eee-5d84cfb622fd&utm_source=jobs.greentownlabs.com
+[Arnergy] Arnergy Solar Limited - Account Manager (Public Sector) in Lagos / Abuja
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469061/Account-Manager-Public-Sector-?source=CareerSite
+[Arnergy] Arnergy Solar Limited - Account Manager (Office Buildings) in Lagos
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469069/Account-Manager-Office-Buildings-?source=CareerSite
+[Arnergy] Arnergy Solar Limited - Account Manager (Healthcare & Education) in Lagos
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469077/Account-Manager-Healthcare-Education-?source=CareerSite
+[Arnergy] Arnergy Solar Limited - Account Manager (Retail & Hospitality) in Lagos
+  https://arnergy.zohorecruit.com/jobs/Careers/551716000010469085/Account-Manager-Retail-Hospitality-?source=CareerSite
+[Climatebase] Senior Manager, Controls Deployment
   https://climatebase.org/jobs
-[Climatebase] Platinum Client Account Manager
+[Climatebase] Chief of Staff
   https://climatebase.org/jobs
-[Climatebase] Principal Structural Engineer
+[Climatebase] Key Account Manager
   https://climatebase.org/jobs
-[Climatebase] Principal Civil Engineer
+[Climatebase] Engageret Account Manager til Eurofins BioPharma Product Testing Denmark
   https://climatebase.org/jobs
-[L3Harris] Senior Manager, Systems Engineering (Space Vehicle Design Technical Manager)
-  https://careers.l3harris.com/en/job/palm-bay/senior-manager-systems-engineering-space-vehicle-design-technical-manager/4832/93195789888
+[Techstars Jobs] Technical Account Manager
+  https://jobs.techstars.com/companies/chainalysis/jobs/75580810-technical-account-manager-israel
+[Techstars Jobs] Sr. Principal Electrical Engineer
+  https://jobs.techstars.com/companies/twelve-2/jobs/75568619-sr-principal-electrical-engineer
+[Climate Change Jobs] Senior Manager, Controls Deployment
+  https://climatechangejobs.com/jobs/444506237-senior-manager-controls-deployment
