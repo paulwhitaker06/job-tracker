@@ -1,270 +1,170 @@
-Job Tracker Digest - 2026-04-22 12:05 UTC
+Job Tracker Digest - 2026-04-23 12:04 UTC
 493/496 companies scraped successfully · 3 failed
-133 new postings
+83 new postings
 
-[Climate Change Jobs] Strategy Director- Low Carbon Energy
-  https://climatechangejobs.com/jobs/444628986-strategy-director-low-carbon-energy
-[Climate Change Jobs] Vice President of Commercial Sales
-  https://climatechangejobs.com/jobs/444662217-vice-president-of-commercial-sales
-[Arable Labs] Senior Strategic Partnerships Manager – AgTech
+[S2G Ventures Portfolio] Senior Strategic Partnerships Manager – AgTech
   https://jobs.lever.co/arable/89a85250-f289-480e-87ef-b590ec4c0747
-[Techstars Jobs] Client Account Director - NatSec/Intelligence
-  https://jobs.techstars.com/companies/chainalysis/jobs/75586025-client-account-director-natsec-intelligence
-[Climate Change Jobs] Area Vice President, Business and Market Development – Mission Critical Infrastructure
-  https://climatechangejobs.com/jobs/444630880-area-vice-president-business-and-market-development-mission-critical-infrastructure
-[Climate Change Jobs] Director, Energy Innovation and Commercialization
-  https://climatechangejobs.com/jobs/444643534-director-energy-innovation-and-commercialization
-[Pole Star Global] Data Scientist
-  https://careers.polestarglobal.com/jobs/7357236-data-scientist-maritime-technology
-[Nonprofit Jobs (Chronicle of Philanthropy)] Associate Director, Principal Gift Development
-  https://jobs.philanthropy.com/job/52134/associate-director-principal-gift-development/
-[SOSV Portfolio] Master’s Thesis – Grants, Funding & Innovation Strategy for Deep Tech Growth
-  https://odoo.smartex.ai/jobs/masters-thesis-grants-funding-innovation-strategy-for-deep-tech-growth-324
-[Trimble] Sr. Manager, Global Strategic Accounts Customer Success
-  https://trimblecareers.trimble.com/careers
-[Element 84] Software Engineer - Federal Geospatial (Hub-Remote: DC or Philly Metro)
-  https://jobs.ashbyhq.com/element84/0c5bbdde-eb9c-4f7c-9dea-e1d75a44f66b/application
-[Commonwealth Fusion Systems] Supply Chain Coordinator
-  https://jobs.lever.co/cfsenergy/30422ecd-2e54-4471-96c4-78cb71c96580
-[Climatebase] Partnerships
-  https://climatebase.org/jobs
-[Climatebase] Business Development, Technical Initiatives
-  https://climatebase.org/jobs
-[Climatebase] Business Development, Strategic Initiatives
-  https://climatebase.org/jobs
-[GEO Careers] Consultant (Advisory Geospatial)
+[GEO Careers] Cartographer - Maritime GIS Analyst (Hiring Event)
   https://www.geo-careers.com/
-[Climate Change Jobs] Business Development Manager – PV & BESS
-  https://climatechangejobs.com/jobs/444630528-business-development-manager-pv-bess
-[Climate Change Jobs] RES recherche Business Development Manager – PV & BESS.
-  https://climatechangejobs.com/jobs/444630528/apply
-[Climate Change Jobs] Business Development Manager
-  https://climatechangejobs.com/jobs/444630543-business-development-manager-renewable-energy
-[Climate Change Jobs] Business Development Manager - Renewable Energy (Burnaby, BC)
-  https://climatechangejobs.com/jobs/444630543/apply
-[Climate Change Jobs] Project Manager, Partnerships & Projects
-  https://climatechangejobs.com/jobs/444662219-project-manager-partnerships-projects
-[Climate Change Jobs] Project Manager, Partnerships &amp; Projects
-  https://climatechangejobs.com/jobs/444662219/apply
-[L3Harris] Senior Specialist, Supply Chain Management
-  https://careers.l3harris.com/en/job/huntsville/senior-specialist-supply-chain-management/4832/92967558256
-[L3Harris] Lead, Supply Chain Management
-  https://careers.l3harris.com/en/job/palm-bay/lead-supply-chain-management/4832/94246485440
-[L3Harris] Lead, Business Development - Tradeshow Marketing & Communications Operations
-  https://careers.l3harris.com/en/job/united-states/lead-business-development-tradeshow-marketing-and-communications-operations/4832/93139645856
-[Planet Labs] Director, Americas Regional Marketing
-  https://job-boards.greenhouse.io/planetlabs/jobs/7822385
-[Greentown Labs (Green Town Labs)] Head of Operations
-  https://jobs.ashbyhq.com/reframesystems/c6d7776d-2767-4b4c-b9f9-242adc8ef36d?utm_source=jobs.greentownlabs.com
-[Maxar] Sr. Director of AI &amp; Architecture
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Westminster-CO/Sr-Director-of-AI---Architecture_R23780
-[Climatebase] Director of Quality
+[Schmidt Marine Jobs Board] Internship (Aquatic Biodiversity & Environmental Monitoring)
+  https://jobs.schmidtmarine.org/companies/world-fish/jobs/75859636-internship-aquatic-biodiversity-environmental-monitoring
+[Techstars Jobs] Channel Sales Manager - Partnerships & Alliances
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926004-channel-sales-manager-partnerships-alliances
+[Pole Star Global] Data Analyst Opportunity - Maritime Technology &amp; intelligence
+  https://careers.polestarglobal.com/jobs/7615646-data-analyst-opportunity-maritime-technology-intelligence
+[Climatebase] Head of Sales, Northern Europe
   https://climatebase.org/jobs
-[Climatebase] Werkstudent (m/w/d) im Bereich Strategy, Pricing & AI-Operations
+[Pole Star Global] Senior Data Analyst
+  https://careers.polestarglobal.com/jobs/7357230-senior-data-analyst-maritime-technology
+[Climate Change Jobs] Port Republic, New Jersey, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-port-republic-new-jersey-united-states
+[Watershed] GTM operations, customer
+  https://watershed.com/careers/f8053080-gtm-operations-customer
+[Climate Change Jobs] Partnerships Manager
+  https://climatechangejobs.com/jobs/444908258-partnerships-manager-european-speaking
+[Satellogic] Sales Operations Analyst
+  https://satellogic.bamboohr.com/careers/516
+[LiveEO] Account Executive North America (West MST) (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2601315?language=en
+[LiveEO] Account Executive Central and Eastern Europe (f/m/x)
+  https://liveeo-gmbh.jobs.personio.de/job/2610152?language=en
+[Extantia Portfolio] Sales Manager (m/w/d)
+  https://bees-bears-gmbh.jobs.personio.de/job/2610378
+[Varda Space Industries] Director, Mechanisms Engineering
+  https://job-boards.greenhouse.io/vardaspace/jobs/7699293003
+[Maxar] GIS DevOps Engineer
+  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Herndon-VA/GIS-DevOps-Engineer_R23791
+[Sateliot] International Sales Development Representative
+  https://careers.sateliot.com/jobs/7615803-international-sales-development-representative
+[Climatebase] Head of Service
   https://climatebase.org/jobs
-[Climatebase] Head of Corporate IT
+[Climatebase] Area Sales Manager*in im Außendienst (Großraum München, Garmisch-Partenkirchen, Bad Tölz)
   https://climatebase.org/jobs
-[Climatebase] Regional Sales Manager (m/w/d) für Süd- und Westdeutschland
+[Climatebase] Account Executive North America (West MST) (f/m/x)
   https://climatebase.org/jobs
-[Climatebase] Regional Sales Manager (m/w/d) für Nord- und Ostdeutschland
+[Climatebase] Account Executive Central and Eastern Europe (f/m/x)
   https://climatebase.org/jobs
-[Climatebase] Senior Account Executive
+[Climatebase] Head of HR & Admin
   https://climatebase.org/jobs
-[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Heidelberg
+[Climatebase] Senior Sales Manager, Northern Europe
   https://climatebase.org/jobs
-[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Riederich
+[Climatebase] Head of Customer
   https://climatebase.org/jobs
-[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Berlin
+[Climatebase] Category & Sales Marketing Analyst - B2C (f/m/x)
   https://climatebase.org/jobs
-[GEO Careers] ARC_AIR Postdoctoral Research Position in Agricultural Emissions Monitoring
-  https://www.geo-careers.com/
-[Techstars Jobs] Mid-Market Account Executive (Full-Cycle)
-  https://jobs.techstars.com/companies/tread-2-8588c389-5760-4552-ab54-dd23ec872b3b/jobs/75600816-mid-market-account-executive-full-cycle
-[Climate Change Jobs] Area Sales Manager
-  https://climatechangejobs.com/jobs/444630136-area-sales-manager
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Jalandhar
-  https://climatechangejobs.com/jobs/444630136/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Ghaziabad
-  https://climatechangejobs.com/jobs/444630142/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Panipat
-  https://climatechangejobs.com/jobs/444630179/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Mayurbhanj
-  https://climatechangejobs.com/jobs/444630222/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Balangir
-  https://climatechangejobs.com/jobs/444630241/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Gurgaon Kty.
-  https://climatechangejobs.com/jobs/444630265/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Ahmadabad City
-  https://climatechangejobs.com/jobs/444630280/apply
-[Climate Change Jobs] Account Executive
-  https://climatechangejobs.com/jobs/444630295-account-executive-europe
-[Climate Change Jobs] Account Executive, Europe at SkySpecs
-  https://climatechangejobs.com/jobs/444630295/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Lucknow
-  https://climatechangejobs.com/jobs/444630322/apply
-[Climate Change Jobs] Director of North Europe HSQE
-  https://climatechangejobs.com/jobs/444630356-director-of-north-europe-hsqe-global-services
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Sonipat
-  https://climatechangejobs.com/jobs/444630360/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Delhi
-  https://climatechangejobs.com/jobs/444630387/apply
-[Climate Change Jobs] Associate Director, Power Marketing & Origination
-  https://climatechangejobs.com/jobs/444630399-associate-director-power-marketing-origination
-[Climate Change Jobs] GIS Solutions Manager
-  https://climatechangejobs.com/jobs/444630440-gis-solutions-manager
-[Climate Change Jobs] RES recherche GIS Solutions Manager.
-  https://climatechangejobs.com/jobs/444630440/apply
-[Climate Change Jobs] Goverment Sales Executive
-  https://climatechangejobs.com/jobs/444630504-goverment-sales-executive
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Goverment Sales Executive in Faridabad
-  https://climatechangejobs.com/jobs/444630504/apply
-[Climate Change Jobs] Global Head of O&M Engineering
-  https://climatechangejobs.com/jobs/444630512-global-head-of-o-m-engineering
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Buxar
-  https://climatechangejobs.com/jobs/444630597/apply
-[Climate Change Jobs] GIS Analyst I
-  https://climatechangejobs.com/jobs/444630602-gis-analyst-i
-[Climate Change Jobs] RES recherche GIS Analyst I.
-  https://climatechangejobs.com/jobs/444630602/apply
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Area Sales Manager in Faridabad
-  https://climatechangejobs.com/jobs/444630603/apply
-[Climate Change Jobs] Field Sales Executive
-  https://climatechangejobs.com/jobs/444630760-field-sales-executive
-[Climate Change Jobs] Loom Solar Pvt. Ltd. - Field Sales Executive in Amroha
-  https://climatechangejobs.com/jobs/444630760/apply
-[Climate Change Jobs] American Fork, Utah, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-american-fork-utah-united-states
-[Climate Change Jobs] Amsterdam, North Holland, Netherlands Climate Jobs
-  https://climatechangejobs.com/jobs/in-amsterdam-north-holland-netherlands
-[Climate Change Jobs] Arkansas Climate Jobs
-  https://climatechangejobs.com/jobs/in-arkansas
-[Climate Change Jobs] Avignon, Vaucluse, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-avignon-vaucluse-france
-[Climate Change Jobs] Balangir, Odisha, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-balangir-odisha-india
-[Climate Change Jobs] Bangkok, Thailand Climate Jobs
-  https://climatechangejobs.com/jobs/in-bangkok-thailand
-[Climate Change Jobs] Béziers, Hérault, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-beziers-herault-france
-[Climate Change Jobs] Blythe, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-blythe-california-united-states
-[Climate Change Jobs] Bordeaux, Gironde, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-bordeaux-gironde-france
-[Climate Change Jobs] Brisbane, Queensland, Australia Climate Jobs
-  https://climatechangejobs.com/jobs/in-brisbane-queensland-australia
-[Climate Change Jobs] Brockport, New York, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-brockport-new-york-united-states
-[Climate Change Jobs] Cambridge, Cambridgeshire, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-cambridge-cambridgeshire-england-united-kingdom
-[Climate Change Jobs] Cape Town, Western Cape, South Africa Climate Jobs
-  https://climatechangejobs.com/jobs/in-cape-town-western-cape-south-africa
-[Climate Change Jobs] Charlotte, North Carolina, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-charlotte-north-carolina-united-states
-[Climate Change Jobs] Chartres, Eure-et-Loir, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-chartres-eure-et-loir-france
-[Climate Change Jobs] Cork Climate Jobs
-  https://climatechangejobs.com/jobs/in-cork
-[Climate Change Jobs] Dreux, Eure-et-Loir, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-dreux-eure-et-loir-france
-[Climate Change Jobs] Faridabad, Haryana, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-faridabad-haryana-india
-[Climate Change Jobs] Ghaziabad, Uttar Pradesh, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-ghaziabad-uttar-pradesh-india
-[Climate Change Jobs] Glasgow, Glasgow City, Scotland, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-glasgow-glasgow-city-scotland-united-kingdom
-[Climate Change Jobs] Hereford, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-hereford-texas-united-states
-[Climate Change Jobs] Indianapolis, Indiana, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-indianapolis-indiana-united-states
-[Climate Change Jobs] Jalandhar, Punjab, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-jalandhar-punjab-india
-[Climate Change Jobs] København, Capital RegionDenmark, Denmark Climate Jobs
-  https://climatechangejobs.com/jobs/in-kobenhavn-capital-regiondenmark-denmark
-[Climate Change Jobs] Lake Forest, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-lake-forest-california-united-states
-[Climate Change Jobs] Le Mans, Sarthe, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-le-mans-sarthe-france
-[Climate Change Jobs] Lexington, Kentucky, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-lexington-kentucky-united-states
-[Climate Change Jobs] Lucknow, Uttar Pradesh, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-lucknow-uttar-pradesh-india
-[Climate Change Jobs] Lyon, Rhône, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-lyon-rhone-france
-[Climate Change Jobs] McAllen, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-mcallen-texas-united-states
-[Climate Change Jobs] Memphis, Tennessee, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-memphis-tennessee-united-states
-[Climate Change Jobs] Metairie, Louisiana, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-metairie-louisiana-united-states
-[Climate Change Jobs] Midland, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-midland-texas-united-states
-[Climate Change Jobs] Montpellier, Hérault, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-montpellier-herault-france
-[Climate Change Jobs] Morlaix, Finistère, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-morlaix-finistere-france
-[Climate Change Jobs] Newburgh, Indiana, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-newburgh-indiana-united-states
-[Climate Change Jobs] Norfolk, Virginia, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-norfolk-virginia-united-states
-[Climate Change Jobs] Ocala, Florida, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-ocala-florida-united-states
-[Climate Change Jobs] Panipat, Haryana, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-panipat-haryana-india
-[Climate Change Jobs] Phoenix, Arizona, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-phoenix-arizona-united-states
-[Climate Change Jobs] Quezon City, Philippines Climate Jobs
-  https://climatechangejobs.com/jobs/in-quezon-city-philippines
-[Climate Change Jobs] Redmond, Washington, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-redmond-washington-united-states
-[Climate Change Jobs] Rotan, Texas, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-rotan-texas-united-states
-[Climate Change Jobs] Sonipat, Haryana, India Climate Jobs
-  https://climatechangejobs.com/jobs/in-sonipat-haryana-india
-[Climate Change Jobs] Toulouse, Occitania, France Climate Jobs
-  https://climatechangejobs.com/jobs/in-toulouse-occitania-france
-[Climate Change Jobs] Tucson, Arizona, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-tucson-arizona-united-states
-[Jobs in Carbon] Forest Carbon Program Manager - First 30X30
-  https://jobsincarbon.niceboard.co/
-[Nonprofit Jobs (Chronicle of Philanthropy)] DIRECTOR, GRANTS MANAGEMENT
-  https://jobs.philanthropy.com/job/52117/director-grants-management/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Technology Director
-  https://jobs.philanthropy.com/job/52121/technology-director-remote-/
+[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Euskirchen
+  https://climatebase.org/jobs
+[Climatebase] Sales Manager (m/w/d)
+  https://climatebase.org/jobs
+[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Moers
+  https://climatebase.org/jobs
+[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Dortmund
+  https://climatebase.org/jobs
+[Climatebase] Sales Manager (m/w/d) für intelligente Energiesysteme - 1KOMMA5° Köln
+  https://climatebase.org/jobs
+[Climatebase] Director of Quality Assurance, Renewables
+  https://climatebase.org/jobs
+[Climatebase] Senior Sales Consultants
+  https://climatebase.org/jobs
+[Climatebase] VP of Logistics & Operations
+  https://climatebase.org/jobs
+[ClimatePartner] Sales Manager Switzerland
+  https://climatepartner-gmbh.jobs.personio.de/job/2608137?language=en&display=en
+[ClimatePartner] Sales Manager UK
+  https://climatepartner-gmbh.jobs.personio.de/job/2608141?language=en&display=en
+[ClimatePartner] Sales Manager Benelux
+  https://climatepartner-gmbh.jobs.personio.de/job/2608307?language=en&display=en
+[Schmidt Marine Jobs Board] Executive Assistant, Office of the Managing Director, Regional Programs
+  https://jobs.schmidtmarine.org/companies/rare/jobs/75785694-executive-assistant-office-of-the-managing-director-regional-programs
+[Techstars Jobs] Account Executive
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926001-account-executive
+[Techstars Jobs] EMEA Account Executive
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926005-emea-account-executive
+[Techstars Jobs] LATAM Account Executive
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926007-latam-account-executive
+[Techstars Jobs] Outbound Sales Development Representative
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926009-outbound-sales-development-representative
+[Techstars Jobs] Sales Development Representative
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75926011-sales-development-representative
+[Climate Change Jobs] Japan Country Director
+  https://climatechangejobs.com/jobs/444897511-japan-country-director
+[Climate Change Jobs] Director of Engineering (Citymapper)
+  https://climatechangejobs.com/jobs/444897708-director-of-engineering-citymapper
+[Climate Change Jobs] Director of Customer Operations
+  https://climatechangejobs.com/jobs/444897969-director-of-customer-operations
+[Climate Change Jobs] Supervisory Agricultural District Director
+  https://climatechangejobs.com/jobs/444899715-supervisory-agricultural-district-director
+[Climate Change Jobs] In-Home Solar Sales Consultant
+  https://climatechangejobs.com/jobs/445311835-in-home-solar-sales-consultant
+[Climate Change Jobs] Climate Justice & Equity jobs
+  https://climatechangejobs.com/jobs/climate-justice
+[Climate Change Jobs] Barcelona Climate Jobs
+  https://climatechangejobs.com/jobs/in-barcelona
+[Climate Change Jobs] Columbus, Ohio, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-columbus-ohio-united-states
+[Climate Change Jobs] El Campo, Texas, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-el-campo-texas-united-states
+[Climate Change Jobs] Green Bay, Wisconsin, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-green-bay-wisconsin-united-states
+[Climate Change Jobs] Gulf Breeze, Florida, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-gulf-breeze-florida-united-states
+[Climate Change Jobs] Lisbon, Lisboa, Portugal Climate Jobs
+  https://climatechangejobs.com/jobs/in-lisboa-lisbon-portugal
+[Climate Change Jobs] Madrid Climate Jobs
+  https://climatechangejobs.com/jobs/in-madrid
+[Climate Change Jobs] Madrid, Madrid, Spain Climate Jobs
+  https://climatechangejobs.com/jobs/in-madrid-madrid-spain
+[Climate Change Jobs] München, Bavaria, Germany Climate Jobs
+  https://climatechangejobs.com/jobs/in-munich-bavaria-germany
+[Climate Change Jobs] Rome, New York, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-rome-new-york-united-states
+[Climate Change Jobs] Valencia, Spain Climate Jobs
+  https://climatechangejobs.com/jobs/in-valencia-spain
+[Climate Change Jobs] Vinton, Virginia, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-vinton-virginia-united-states
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Institutional Giving
+  https://jobs.philanthropy.com/job/52123/director-of-institutional-giving/
 [Nonprofit Jobs (Chronicle of Philanthropy)] Development Director
-  https://jobs.philanthropy.com/job/52124/development-director/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development
-  https://jobs.philanthropy.com/job/52126/director-of-development/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Nonprofit Managing Director
-  https://jobs.philanthropy.com/job/52129/nonprofit-managing-director/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Alumni Relations
-  https://jobs.philanthropy.com/job/52131/director-of-alumni-relations/
-[Lowercarbon Capital Portfolio] Senior Manager, Controls Deployment
-  https://jobs.ashbyhq.com/Crusoe/25e8cb1a-5a9e-4f73-8442-be5b5ee71173
-[Lowercarbon Capital Portfolio] Sr. Principal Electrical Engineer
-  https://jobs.ashbyhq.com/twelve/bb373cae-5418-4f7c-9b30-17002574002f
-[Climatebase] Growth
+  https://jobs.philanthropy.com/job/52137/development-director/?LinkSource=PromotedJob
+[Trimble] Vice President of Global Business Transformation & Finance Operations
+  https://trimblecareers.trimble.com/careers
+[Bentley Systems] Director, Community Marketing
+  https://jobs.bentley.com/job/Exton-Director%2C-Community-Marketing-PA-19341/1384705400/
+[Satellogic] Image Processing and Analytics
+  https://satellogic.bamboohr.com/careers/517
+[Climatebase] Senior Product Manager (US - ET)
   https://climatebase.org/jobs
-[Climatebase] Senior Manager, Communications
+[Climatebase] Senior Account Manager
   https://climatebase.org/jobs
-[Climatebase] Chief Financial Officer
+[Climatebase] Senior Staff/ Principal Research Scientist – Dexterous Manipulation
   https://climatebase.org/jobs
-[Climatebase] Motor Finance Account Manager (East Midlands)
+[Climatebase] Distribution Account Manager
   https://climatebase.org/jobs
-[Climatebase] Data & Cloud Solutions Engineer (M.S. or Ph.D.)
+[Climatebase] Senior/Principal Technical Recruiter
   https://climatebase.org/jobs
-[Techstars Jobs] Technical Account Manager
-  https://jobs.techstars.com/companies/chainalysis/jobs/75586029-technical-account-manager-israel
-[Climate Change Jobs] Principal Supplier Development Engineer, Battery (Starlink)
-  https://climatechangejobs.com/jobs/444629009-principal-supplier-development-engineer-battery-starlink
-[Climate Change Jobs] Strategic Account Manager
-  https://climatechangejobs.com/jobs/444630584-strategic-account-manager-federal
-[Climate Change Jobs] Senior Customer Success Manager
-  https://climatechangejobs.com/jobs/444643547-senior-customer-success-manager
+[Climatebase] Product Manager
+  https://climatebase.org/jobs
+[ClimatePartner] Sustainability Consultant Benelux
+  https://climatepartner-gmbh.jobs.personio.de/job/2608287?language=en&display=en
+[ClimatePartner] Sustainability Consultant Italy
+  https://climatepartner-gmbh.jobs.personio.de/job/2608315?language=en&display=en
+[Techstars Jobs] Account Manager
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75925986-account-manager
+[Techstars Jobs] EMEA Enterprise Account Manager
+  https://jobs.techstars.com/companies/tive-2-8fbbc8fb-684d-422c-92fd-639b157cda05/jobs/75925991-emea-enterprise-account-manager
+[Climate Change Jobs] Import Compliance Manager
+  https://climatechangejobs.com/jobs/444698739-import-compliance-manager
+[Climate Change Jobs] Senior Manager, General Ledger Accounting
+  https://climatechangejobs.com/jobs/444897964-senior-manager-general-ledger-accounting
+[Climate Change Jobs] Senior Manager, FP&A
+  https://climatechangejobs.com/jobs/444897965-senior-manager-fp-a
+[Climate Change Jobs] Senior Manager, Finance
+  https://climatechangejobs.com/jobs/444897965/apply
+[Climate Change Jobs] Principal Production Engineer
+  https://climatechangejobs.com/jobs/444897966-principal-production-engineer
 [Nonprofit Jobs (Chronicle of Philanthropy)] Chief Development Officer
-  https://jobs.philanthropy.com/job/52132/chief-development-officer/?LinkSource=PromotedJob
-[SOSV Portfolio] Senior Product Manager, Hardware
-  https://careers.formlabs.com/job/7837664/apply/?gh_jid=7837664
-[Trimble] Customer Success Manager
-  https://trimblecareers.trimble.com/careers
-[Trimble] Marketing Analytics Engineer
-  https://trimblecareers.trimble.com/careers
+  https://jobs.philanthropy.com/job/52144/chief-development-officer/
+[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Experience Officer
+  https://jobs.philanthropy.com/job/52145/chief-experience-officer/?LinkSource=PremiumListing
+[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Manager, Institutional Giving
+  https://jobs.philanthropy.com/job/52146/senior-manager-institutional-giving/
