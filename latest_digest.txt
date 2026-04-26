@@ -1,160 +1,50 @@
-Job Tracker Digest - 2026-04-25 11:16 UTC
+Job Tracker Digest - 2026-04-26 11:20 UTC
 493/496 companies scraped successfully · 3 failed
-78 new postings
+23 new postings
 
-[Xeneta] Enterprise Account Executive
-  https://xeneta.pinpointhq.com/en/postings/153eaee9-5f94-49ab-9176-d420068904cf
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Partnerships
-  https://jobs.philanthropy.com/job/52162/director-of-partnerships/?LinkSource=PromotedJob
-[Lowercarbon Capital Portfolio] EDG Director, Nuclear Commercial Development
-  https://jobs.ashbyhq.com/Crusoe/62e191f9-0ddc-4262-890f-ba6a8dff151f
-[Lowercarbon Capital Portfolio] Senior Manager, Supply Chain
-  https://jobs.ashbyhq.com/Crusoe/fe5389d1-cfb8-4762-be95-77306df40e59
-[Climatebase] Senior Institutional Business Development Manager (f/m/x) - Government Program (EU)
+[Climatebase] Business Development Director
   https://climatebase.org/jobs
-[Climatebase] Senior Business Development Manager - Government Program Germany (f/m/x)
+[Techstars Jobs] Enterprise Account Executive Mid
+  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295536-enterprise-account-executive-mid-market
+[Climatebase] Territory Manager- Channel Sales
   https://climatebase.org/jobs
-[Climate Change Jobs] Senior Manager, Supply Chain
-  https://climatechangejobs.com/jobs/450347827-senior-manager-supply-chain
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director, Digital and Marketing Strategy
-  https://jobs.philanthropy.com/job/52168/director-digital-and-marketing-strategy/
-[L3Harris] Principal, Business Development
-  https://careers.l3harris.com/en/job/united-states/principal-business-development/4832/94198454256
-[Climate Change Jobs] Vice President, Research & Government Relations
-  https://climatechangejobs.com/jobs/449934268-vice-president-research-government-relations-indonesia
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Principal Gifts
-  https://jobs.philanthropy.com/job/52170/director-of-principal-gifts/
-[Xeneta] Senior Business Development Manager
-  https://xeneta.pinpointhq.com/en/postings/ba687e4d-0fa7-40ab-8ef7-7f6234b91ef0
-[Schmidt Marine Jobs Board] Request for Proposal (RFP) - Workforce Engagement Assessment
-  https://jobs.schmidtmarine.org/companies/global-fishing-watch/jobs/76154776-request-for-proposal-rfp-workforce-engagement-assessment
-[Techstars Jobs] AI Product Manager - Customer Experience & Growth
-  https://jobs.techstars.com/companies/inspektlabs/jobs/76204857-ai-product-manager-customer-experience-growth
-[Climate Change Jobs] Staff Product Manager, Managed Intelligence (SF/Sunnyvale)
-  https://climatechangejobs.com/jobs/447581411-staff-product-manager-managed-intelligence-sf-sunnyvale
-[Climate Change Jobs] Business Development Representative
-  https://climatechangejobs.com/jobs/449934261-business-development-representative-key-accounts
-[Lowercarbon Capital Portfolio] Managing Director, Industry Coverage & Debt Advisory
-  https://jobs.ashbyhq.com/cruxclimate/0d77264e-dccb-4c00-a051-68e815ccc3f5
-[True Anomaly] Director of Finance
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120691007
-[True Anomaly] Enterprise Risk Analyst
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120748007
-[True Anomaly] Senior Enterprise Risk Manager
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120807007
-[Esri] Sr. Sales Recruiter Job
-  https://www.esri.com/careers/5012804007
-[Commonwealth Fusion Systems] Director of Radiation Protection
-  https://jobs.lever.co/cfsenergy/88b30fa0-cb11-4eb0-921b-01c2643cee44
-[S2G Ventures Portfolio] Global HSE Director
-  https://apply.workable.com/aerones/j/BD29750C50
-[Climatebase] Senior Director, AI Model LifeCycle
+[Techstars Jobs] GTM Engineer (Brasil)
+  https://jobs.techstars.com/companies/atom-2-1ce1fe2a-0966-4f29-ad73-ecd5e66fb53f/jobs/76295698-gtm-engineer-brasil
+[Climate Change Jobs] Lead RF Electro-Mechanical Technician
+  https://climatechangejobs.com/jobs/452567052-lead-rf-electro-mechanical-technician
+[Climatebase] Regional Sales Manager
   https://climatebase.org/jobs
-[Climatebase] Sales Manager (m/w/d) - 100 % remote
+[Climatebase] Regional Sales Manager - Dairy & Beverage
   https://climatebase.org/jobs
-[Climatebase] Senior Climate Policy Analyst - NDC Implementation & Finance
+[Climatebase] Central US Area Sales Manager
   https://climatebase.org/jobs
-[Climatebase] Sales Development Representative Werkstudent Deutschland
+[Climatebase] Technical Consulting Director, Water and Nature
   https://climatebase.org/jobs
-[Climatebase] le ou la Gestionnaire des solutions SIG GIS Solutions Manager
+[Climatebase] Head of Medical Device Services Europe
   https://climatebase.org/jobs
-[Climatebase] Director - Expanding Wholesale Markets, MISO/SPP
-  https://climatebase.org/jobs
-[Climatebase] Risk Consultant
-  https://climatebase.org/jobs
-[Climatebase] Regional Sales Lead
-  https://climatebase.org/jobs
-[GEO Careers] GIS Analyst/Web Programmer (Faculty Research Assistant)
+[GEO Careers] IT Professional - Applications (GIS Developer)
   https://www.geo-careers.com/
-[Schmidt Marine Jobs Board] Woodbine Tech Student
-  https://jobs.schmidtmarine.org/companies/canada-s-ocean-supercluster/jobs/76160930-woodbine-tech-student
-[Schmidt Marine Jobs Board] MANAGING DIRECTOR SKILLTRADE
-  https://jobs.schmidtmarine.org/companies/deep-bv-hydrography-geophysics/jobs/76181660-managing-director-skilltrade
-[Techstars Jobs] Full Cycle Account Executive (AE)
-  https://jobs.techstars.com/companies/onevillage/jobs/76199472-full-cycle-account-executive-ae
-[Climate Change Jobs] Sales Representative
-  https://climatechangejobs.com/jobs/449934260-sales-representative
-[Climate Change Jobs] 1.8. Director of Finance
-  https://climatechangejobs.com/jobs/450224524-1-8-director-of-finance
-[Climate Change Jobs] 1.7. Vice President of Finance
-  https://climatechangejobs.com/jobs/450224525-1-7-vice-president-of-finance
-[Climate Change Jobs] 1.6. Legal Counsel-Commercial Contracts
-  https://climatechangejobs.com/jobs/450224526/apply
-[Climate Change Jobs] Vice President of Financial Planning and Analysis
-  https://climatechangejobs.com/jobs/450318534-vice-president-of-financial-planning-and-analysis
-[Climate Change Jobs] Director of Radiation Protection
-  https://climatechangejobs.com/jobs/450318539-director-of-radiation-protection
-[Climate Change Jobs] Senior Director, AI Model LifeCycle
-  https://climatechangejobs.com/jobs/450347835-senior-director-ai-model-lifecycle
-[Climate Change Jobs] Deputy Director (DETAIL/TEMP PROMOTION NTE 1 YEAR)
-  https://climatechangejobs.com/jobs/450398589-deputy-director-detail-temp-promotion-nte-1-year
-[Climate Change Jobs] Director, National Laboratory Programs
-  https://climatechangejobs.com/jobs/450398597-director-national-laboratory-programs
-[Climate Change Jobs] Solar Sales Manager
-  https://climatechangejobs.com/jobs/450907968-solar-sales-manager
-[Climate Change Jobs] Cardiff, Caerdydd, Wales, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-cardiff-caerdydd-wales-united-kingdom
-[Climate Change Jobs] Edinburgh, City Of Edinburgh, Scotland, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-edinburgh-city-of-edinburgh-scotland-united-kingdom
-[Climate Change Jobs] Fairbanks, Alaska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-fairbanks-alaska-united-states
-[Climate Change Jobs] Flat Rock, North Carolina, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-flat-rock-north-carolina-united-states
-[Climate Change Jobs] Highlands, New Jersey, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-highlands-new-jersey-united-states
-[Climate Change Jobs] Ho Chi Minh City, Vietnam Climate Jobs
-  https://climatechangejobs.com/jobs/in-ho-chi-minh-city-vietnam
-[Climate Change Jobs] Interior, South Dakota, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-interior-south-dakota-united-states
-[Climate Change Jobs] Middlesboro, Kentucky, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-middlesboro-kentucky-united-states
-[Climate Change Jobs] Portsmouth, City Of Portsmouth, England, United Kingdom Climate Jobs
-  https://climatechangejobs.com/jobs/in-portsmouth-city-of-portsmouth-england-united-kingdom
-[Climate Change Jobs] Put in Bay, Ohio, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-put-in-bay-ohio-united-states
-[Climate Change Jobs] Springfield, Ohio, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-springfield-ohio-united-states
-[Climate Change Jobs] Stuttgart, Baden-Württemberg, Germany Climate Jobs
-  https://climatechangejobs.com/jobs/in-stuttgart-baden-wurttemberg-germany
-[Nonprofit Jobs (Chronicle of Philanthropy)] Managing Director
-  https://jobs.philanthropy.com/job/52163/managing-director/?LinkSource=PromotedJob
-[Nonprofit Jobs (Chronicle of Philanthropy)] Office of Program Performance, Director
-  https://jobs.philanthropy.com/job/52164/office-of-program-performance-director/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Director, Major Gifts
-  https://jobs.philanthropy.com/job/52167/director-major-gifts/
-[SOSV Portfolio] Head of Product, SLS
-  https://careers.formlabs.com/job/7792435/apply/?gh_jid=7792435
-[Climate Analytics] Senior Climate Policy Analyst - NDC Implementation & Finance
-  https://climate.jobs.personio.com/job/2612928
-[True Anomaly] Mechanical CAD Drafter (Staff or Principal)
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120446007
-[True Anomaly] Sr. Compliance Engineer
-  https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120791007
-[Varda Space Industries] Principal Mechanisms Engineer
-  https://job-boards.greenhouse.io/vardaspace/jobs/7714057003
-[Mapbox] Senior Manager, Driver Operations
-  https://jobs.ashbyhq.com/mapbox/45ad59ca-3bed-4089-bf19-31637156c5d1/application
-[Constellr] Chief Operating Officer
-  https://constellr.recruitee.com/o/chief-operating-officer
-[Climatebase] Senior Ecosystem Marketing Manager
+[Techstars Jobs] Sales Enablement Manager
+  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295538-sales-enablement-manager
+[Climate Change Jobs] Sales Executive
+  https://climatechangejobs.com/jobs/452273159-sales-executive-warsaw
+[Climate Change Jobs] Inside Sales Team Lead
+  https://climatechangejobs.com/jobs/452273160-inside-sales-team-lead-smb
+[Climate Change Jobs] Sales Manager
+  https://climatechangejobs.com/jobs/452273160/apply
+[Climate Change Jobs] Senior Director, Recruiting - G&A, & Manufacturing
+  https://climatechangejobs.com/jobs/452577132-senior-director-recruiting-g-a-manufacturing
+[Climate Change Jobs] Director, Recruiting - G&A, & Manufacturing
+  https://climatechangejobs.com/jobs/452577132/apply
+[Climate Change Jobs] California Climate Jobs
+  https://climatechangejobs.com/jobs/in-california-united-states
+[Climate Change Jobs] Warsaw, Masovian Voivodeship, Poland Climate Jobs
+  https://climatechangejobs.com/jobs/in-warsaw-masovian-voivodeship-poland
+[Climatebase] Chief Commissioning Engineer, Plant Automation
   https://climatebase.org/jobs
-[Climatebase] Impact & Sustainability Lead (12 month maternity cover)
-  https://climatebase.org/jobs
-[Climatebase] Chief Operating Officer
-  https://climatebase.org/jobs
-[Climatebase] Marketing Growth & Lifestyle Analyst
-  https://climatebase.org/jobs
-[Climatebase] Teamlead Customer Success & Support (gn) - 40 Std, hybrid (München)
-  https://climatebase.org/jobs
-[World Resources Institute] Colorado River Basin Senior Manager
-  https://www.wri.org/careers/jobs/colorado-river-basin-senior-manager-2026-jr100207
-[Techstars Jobs] Customer Success Manager - B2B Benefits + Health Tech
-  https://jobs.techstars.com/companies/onevillage/jobs/76199470-customer-success-manager-b2b-benefits-health-tech
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Experience Officer
-  https://jobs.philanthropy.com/job/52145/chief-experience-officer/?LinkSource=HomePage
-[Nonprofit Jobs (Chronicle of Philanthropy)] Chief Executive Officer
-  https://jobs.philanthropy.com/job/52169/chief-executive-officer/
-[Trimble] Customer Success Manager
-  https://trimblecareers.trimble.com/careers
-[Bentley Systems] Technical Account Manager
-  https://jobs.bentley.com/job/Remote-Technical-Account-Manager-CA/1385463400/
+[Techstars Jobs] Technical Product Manager
+  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295544-technical-product-manager
+[Climate Change Jobs] Product Manager
+  https://climatechangejobs.com/jobs/452657796-product-manager
+[Climate Change Jobs] Chief of Staff
+  https://climatechangejobs.com/jobs/452890142-chief-of-staff
