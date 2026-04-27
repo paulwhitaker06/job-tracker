@@ -1,50 +1,68 @@
-Job Tracker Digest - 2026-04-26 11:20 UTC
+Job Tracker Digest - 2026-04-27 12:25 UTC
 493/496 companies scraped successfully · 3 failed
-23 new postings
+32 new postings
 
-[Climatebase] Business Development Director
-  https://climatebase.org/jobs
-[Techstars Jobs] Enterprise Account Executive Mid
-  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295536-enterprise-account-executive-mid-market
-[Climatebase] Territory Manager- Channel Sales
-  https://climatebase.org/jobs
-[Techstars Jobs] GTM Engineer (Brasil)
-  https://jobs.techstars.com/companies/atom-2-1ce1fe2a-0966-4f29-ad73-ecd5e66fb53f/jobs/76295698-gtm-engineer-brasil
-[Climate Change Jobs] Lead RF Electro-Mechanical Technician
-  https://climatechangejobs.com/jobs/452567052-lead-rf-electro-mechanical-technician
-[Climatebase] Regional Sales Manager
-  https://climatebase.org/jobs
-[Climatebase] Regional Sales Manager - Dairy & Beverage
-  https://climatebase.org/jobs
-[Climatebase] Central US Area Sales Manager
-  https://climatebase.org/jobs
-[Climatebase] Technical Consulting Director, Water and Nature
-  https://climatebase.org/jobs
-[Climatebase] Head of Medical Device Services Europe
-  https://climatebase.org/jobs
-[GEO Careers] IT Professional - Applications (GIS Developer)
+[Jobs in Carbon] Carbon Credits Market Development Lead
+  https://jobs.exxonmobil.com/job/spring-carbon-credits-market-development-lead-tx-77389/1379601300/?feedid=223600&utm_source=linkedinjobpostings&utm_campaign=eom_linkedin
+[Jobs in Carbon] Carbon Farming Advisor (Business Development)
+  https://www.seek.com.au/job/91582979?type=standard&ref=search-standalone&origin=cardtitle#sol=1fc21edff5b9b69086dc60edf44891460f1f0ed3
+[Lowercarbon Capital Portfolio] Senior Manager, Supply Chain
+  https://jobs.ashbyhq.com/Crusoe/259de8c2-9b8a-4400-b50d-798bf05e769c
+[Jobs in Carbon] Carbon & Sustainability Data Specialist
+  https://hiringnow.dei.gr/adsutilities/login.jsp
+[Jobs in Carbon] Carbon Compliance Adviser
+  https://careers.harbourenergy.com/job/london-carbon-compliance-adviser/1349951655/
+[Jobs in Carbon] Sustainability Manager - Carbon Accounting & SBTi Commitment (Randers SV, DK, 8940)
+  https://jobs.danishcrown.com/job/randers-sv-sustainability-manager-carbon-accounting-&-sbti-commitment-8940/1386035633/
+[Jobs in Carbon] Chief Operating Officer
+  https://carbonlimits.zohorecruit.eu/jobs/careers/44618000004968001/chief-operating-officer---climate-consultancy-business?source=linkedin-basic&embedsource=linkedin%2blimited%2blistings
+[GEO Careers] INTERN - Geodesy and Geospatial Research Support
   https://www.geo-careers.com/
-[Techstars Jobs] Sales Enablement Manager
-  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295538-sales-enablement-manager
-[Climate Change Jobs] Sales Executive
-  https://climatechangejobs.com/jobs/452273159-sales-executive-warsaw
-[Climate Change Jobs] Inside Sales Team Lead
-  https://climatechangejobs.com/jobs/452273160-inside-sales-team-lead-smb
-[Climate Change Jobs] Sales Manager
-  https://climatechangejobs.com/jobs/452273160/apply
-[Climate Change Jobs] Senior Director, Recruiting - G&A, & Manufacturing
-  https://climatechangejobs.com/jobs/452577132-senior-director-recruiting-g-a-manufacturing
-[Climate Change Jobs] Director, Recruiting - G&A, & Manufacturing
-  https://climatechangejobs.com/jobs/452577132/apply
-[Climate Change Jobs] California Climate Jobs
-  https://climatechangejobs.com/jobs/in-california-united-states
-[Climate Change Jobs] Warsaw, Masovian Voivodeship, Poland Climate Jobs
-  https://climatechangejobs.com/jobs/in-warsaw-masovian-voivodeship-poland
-[Climatebase] Chief Commissioning Engineer, Plant Automation
+[GEO Careers] Geospatial Analyst (Journeyman)
+  https://www.geo-careers.com/
+[GEO Careers] Geospatial Data Scientist / Research Data Analyst
+  https://www.geo-careers.com/
+[Lowercarbon Capital Portfolio] Senior Director, AI Model LifeCycle
+  https://jobs.ashbyhq.com/Crusoe/0c663a15-3cb1-4022-8d01-5f7317167816
+[Climatebase] PE Associate Director/Director, Electrical - “High-Rise & Complex Buildings”
   https://climatebase.org/jobs
-[Techstars Jobs] Technical Product Manager
-  https://jobs.techstars.com/companies/westcott-multimedia/jobs/76295544-technical-product-manager
-[Climate Change Jobs] Product Manager
-  https://climatechangejobs.com/jobs/452657796-product-manager
-[Climate Change Jobs] Chief of Staff
-  https://climatechangejobs.com/jobs/452890142-chief-of-staff
+[Climatebase] PE Associate Director/Director, Mechanical - “High-Rise & Complex Buildings”
+  https://climatebase.org/jobs
+[Climatebase] Associated Director
+  https://climatebase.org/jobs
+[Climatebase] Service Commercial Manager
+  https://climatebase.org/jobs
+[Climatebase] VP of Accounting
+  https://climatebase.org/jobs
+[Climatebase] Director of Major Gifts
+  https://climatebase.org/jobs
+[Schmidt Marine Jobs Board] Youth and Family Services Director
+  https://jobs.schmidtmarine.org/companies/nwifc/jobs/76305749-youth-and-family-services-director
+[Schmidt Marine Jobs Board] Vice President, Global Development
+  https://jobs.schmidtmarine.org/companies/oceana/jobs/76317682-vice-president-global-development
+[Climate Change Jobs] Public Relations Director
+  https://climatechangejobs.com/jobs/454475230-public-relations-director
+[Climate Change Jobs] Director, OSP/ISP Construction
+  https://climatechangejobs.com/jobs/454491414-director-osp-isp-construction
+[Jobs in Carbon] Auditor, Carbon Offsets (Energy & Industry)
+  https://scs.clearcompany.com/careers/jobs/57fe54e5-774e-b5a4-6097-f006d227e707/apply?source=3627093-jb-1018
+[Jobs in Carbon] Officer, Global Voluntary Carbon Market (GVCM) Unit
+  https://careers.gggi.org/vacancy/officer-global-voluntary-carbon-market-gvcm-unit-609729.html
+[Jobs in Carbon] Early Career Consultant
+  https://erm.wd3.myworkdayjobs.com/erm_careers/job/sydney-australia/early-career-consultant---carbon-markets_r00030095-2
+[Jobs in Carbon] Carbon Analyst
+  https://sjp.csod.com/ux/ats/careersite/4/requisition/4286/application?c=sjp&source=linkedin&jobboardid=0#1
+[Jobs in Carbon] Environmental Commodities Trader: EAC & Voluntary Carbon Markets)
+  https://careers.southpole.com/jobs/7613605-environmental-commodities-tradereac-voluntary-carbon-markets
+[Nonprofit Jobs (Chronicle of Philanthropy)] Director of Development and Communications
+  https://jobs.philanthropy.com/job/52171/director-of-development-and-communications/?LinkSource=PremiumListing
+[Climatebase] Principal Mechanical Engineer
+  https://climatebase.org/jobs
+[Climatebase] Principal Water Design Manager
+  https://climatebase.org/jobs
+[Climate Change Jobs] 6.6. Chief Financial Officer
+  https://climatechangejobs.com/jobs/454442610-6-6-chief-financial-officer
+[Climate Change Jobs] 1.1. Chief Financial Officer
+  https://climatechangejobs.com/jobs/454442610/apply
+[Climate Change Jobs] Principal Systems Software Engineer
+  https://climatechangejobs.com/jobs/454491412-principal-systems-software-engineer
