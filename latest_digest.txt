@@ -1,130 +1,72 @@
-Job Tracker Digest - 2026-05-02 11:43 UTC
+Job Tracker Digest - 2026-05-03 11:54 UTC
 493/496 companies scraped successfully · 3 failed
-63 new postings
+34 new postings
 
-[Climatebase] Strategic Partnerships & Funding Manager
+[Climate Change Jobs] Enterprise Account Executive
+  https://climatechangejobs.com/jobs/464182329-enterprise-account-executive
+[Climatebase] Product Manager, Operations and Supply Chain
   https://climatebase.org/jobs
-[Climatebase] Director, Commercial Development
+[Climate Change Jobs] Senior Director, Product Marketing
+  https://climatechangejobs.com/jobs/464414372-senior-director-product-marketing
+[Jobs in Carbon] Senior Manager, Beyond Carbon Benefits Certification
+  https://winrock.org/work-with-us/careers/job-openings/?gh_jid=8338006002&gh_src=e3551b072us&source=jobsincarbon
+[Trimble] Channel Sales Manager (Civil Construction)
+  https://trimblecareers.trimble.com/careers
+[Trimble] Channel Sales Manager - Northern Europe (Civil Construction)
+  https://trimblecareers.trimble.com/careers
+[The Ocean Cleanup] Senior Business Development Manager
+  https://theoceancleanup.com/careers/jobs/senior-business-development-manager/
+[Climatebase] Director, Operations InHealth Technologies
   https://climatebase.org/jobs
-[Climatebase] Partnerships Growth Manager
+[Climatebase] Stage en Digital Sales / Ventes Internationales – Hambourg
   https://climatebase.org/jobs
-[Climate Change Jobs] Director, Commercial Development
-  https://climatechangejobs.com/jobs/463355370-director-commercial-development
-[Arable Labs] Principal Hardware Engineer / Director of Hardware
-  https://jobs.lever.co/arable/0bbab1b6-8480-44c5-ac2c-372ce6916eff
-[Climate Change Jobs] Aquatic Remote Sensing
-  https://climatechangejobs.com/jobs/463356256-aquatic-remote-sensing
-[Lowercarbon Capital Portfolio] Strategic Transactions Manager, Software GTM
-  https://jobs.ashbyhq.com/cruxclimate/e3e90874-000f-4c0d-9be6-d2d52d866e22?embed=js&customCssUrl=https%3A%2F%2Fmagenta-melania-20.tiiny.site%2Fjobs14.css
-[Climatebase] Business Development Lead
+[Climatebase] Praktikum im Digital Sales / International Sales
   https://climatebase.org/jobs
-[Climatebase] Sr. Business Development Manager
+[Climatebase] Product Marketing Manager
   https://climatebase.org/jobs
-[Acre Sustainability Jobs] Business Development Manager
-  https://www.acre.com/jobs/acre-13587-acre-13587
-[Watershed] Staff software engineer, data products
-  https://watershed.com/careers/649bc926-staff-software-engineer-data-products
-[Lowercarbon Capital Portfolio] Director of Quality Control
-  https://jobs.ashbyhq.com/Crusoe/e5ca6f1f-b3c8-4a9d-9d3f-8099ad172a0d
-[Kepler Communications] Director of Product - Platform, Payload & Services
-  https://jobs.lever.co/kepler/210e1106-9fb1-4c43-bdb4-484a8936ff0b
-[Esri] Sr. Sales Recruiter Job
-  https://www.esri.com/careers/5012808007
-[Climatebase] Vice President
+[Climatebase] Inside Sales Representative
   https://climatebase.org/jobs
-[Climatebase] Staff software engineer, data products
-  https://climatebase.org/jobs
-[Climatebase] Director, Business Systems & IT
-  https://climatebase.org/jobs
-[Climatebase] Director, Development
-  https://climatebase.org/jobs
-[Schmidt Marine Jobs Board] Inside Sales Representative
-  https://jobs.schmidtmarine.org/companies/tidal-vision-2/jobs/77089068-inside-sales-representative
-[Techstars Jobs] Sales Relationship Officer
-  https://jobs.techstars.com/companies/avenews/jobs/77080956-sales-relationship-officer
-[Techstars Jobs] Sales Manager
-  https://jobs.techstars.com/companies/reppls/jobs/77084591-sales-manager
-[Climate Change Jobs] Director of Development
-  https://climatechangejobs.com/jobs/463352609-director-of-development
-[Climate Change Jobs] WY Director of Conservation Programs
-  https://climatechangejobs.com/jobs/463352610-wy-director-of-conservation-programs
-[Climate Change Jobs] Director of Science
-  https://climatechangejobs.com/jobs/463352611-director-of-science
-[Climate Change Jobs] County Executive Director
-  https://climatechangejobs.com/jobs/463356232-county-executive-director-expanded
-[Climate Change Jobs] Director, Biopesticides and Pollution Prevention Division
-  https://climatechangejobs.com/jobs/463356247-director-biopesticides-and-pollution-prevention-division
-[Climate Change Jobs] Sales Talent - Energy Helper am Point of Sale (m/w/d) - Berlin & Potsdam
-  https://climatechangejobs.com/jobs/463369036-sales-talent-energy-helper-am-point-of-sale-m-w-d-berlin-potsdam
-[Climate Change Jobs] Sales Talent - Energy Helper am Point of Sale (m/w/d) - Berlin &amp; Potsdam
-  https://climatechangejobs.com/jobs/463369036/apply
-[Climate Change Jobs] Anchorage, Alaska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-anchorage-alaska-united-states
-[Climate Change Jobs] Arlington, Virginia, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-arlington-virginia-united-states
-[Climate Change Jobs] Casa Grande, Arizona, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-casa-grande-arizona-united-states
-[Climate Change Jobs] College Park, Maryland, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-college-park-maryland-united-states
-[Climate Change Jobs] Cortland, New York, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-cortland-new-york-united-states
-[Climate Change Jobs] Crowley, Louisiana, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-crowley-louisiana-united-states
-[Climate Change Jobs] Falls City, Nebraska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-falls-city-nebraska-united-states
-[Climate Change Jobs] Gulfport, Mississippi, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-gulfport-mississippi-united-states
-[Climate Change Jobs] Kearneysville, West Virginia, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-kearneysville-west-virginia-united-states
-[Climate Change Jobs] King Salmon, Alaska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-king-salmon-alaska-united-states
-[Climate Change Jobs] Lander, Wyoming, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-lander-wyoming-united-states
-[Climate Change Jobs] Lincoln, Nebraska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-lincoln-nebraska-united-states
-[Climate Change Jobs] Naples, Florida, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-naples-florida-united-states
-[Climate Change Jobs] Oakland, California, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-oakland-california-united-states
-[Climate Change Jobs] Palmer, Alaska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-palmer-alaska-united-states
-[Climate Change Jobs] Valentine, Nebraska, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-valentine-nebraska-united-states
-[Climate Change Jobs] Vicksburg, Mississippi, United States Climate Jobs
-  https://climatechangejobs.com/jobs/in-vicksburg-mississippi-united-states
+[GEO Careers] GIS Solution Engineer
+  https://www.geo-careers.com/
+[Y Combinator Jobs] Director of Software
+  https://www.ycombinator.com/companies/albedo/jobs/Jf8Jr49-director-of-software
+[Techstars Jobs] Director of Product Design
+  https://jobs.techstars.com/companies/narmi-2/jobs/77100414-director-of-product-design
+[Climate Change Jobs] Sales Assistant
+  https://climatechangejobs.com/jobs/352201188-sales-assistant
+[Climate Change Jobs] Sales Assistant in Midleton
+  https://climatechangejobs.com/jobs/352201188/apply
+[Climate Change Jobs] Chesterfield, Virginia, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-chesterfield-virginia-united-states
+[Climate Change Jobs] Van Buren, Missouri, United States Climate Jobs
+  https://climatechangejobs.com/jobs/in-van-buren-missouri-united-states
+[Jobs in Carbon] Consultant－Carbon Management－Assurance－A&A
+  https://careers.apac.deloitte.com/taiwan/job/consultant%ef%bc%8dcarbon-management%ef%bc%8dassurance%ef%bc%8da&a/680-en_us/
+[Jobs in Carbon] Policy Advisor (Carbon Capture & Storage and Nuclear)
+  https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1996452
+[Jobs in Carbon] Carbon Marketing Manager
+  https://weyerhaeuser.taleo.net/careersection/10000/jobdetail.ftl?job=01024230&lang=en
+[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director, Finance & Operations
+  https://jobs.philanthropy.com/job/52241/senior-director-finance-and-operations/
 [Nonprofit Jobs (Chronicle of Philanthropy)] Director of Annual Giving
-  https://jobs.philanthropy.com/job/52242/director-of-annual-giving/?LinkSource=HomePage
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director of Development, School of Law
-  https://jobs.philanthropy.com/job/52244/senior-director-of-development-school-of-law/?LinkSource=PremiumListing
-[Nonprofit Jobs (Chronicle of Philanthropy)] Deputy Director, Development for the Louisiana/Alabama/Mississippi Business Unit
-  https://jobs.philanthropy.com/job/52246/deputy-director-development-for-the-louisiana-alabama-mississippi-business-unit/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Senior Director of Major Gifts
-  https://jobs.philanthropy.com/job/52248/senior-director-of-major-gifts/
-[Nonprofit Jobs (Chronicle of Philanthropy)] Managing Director of Development and Special Projects, FDR Presidential Library and Museum
-  https://jobs.philanthropy.com/job/52249/managing-director-of-development-and-special-projects-fdr-presidential-library-and-museum-/
-[SOSV Portfolio] Operations Strategy Lead
-  https://careers.formlabs.com/job/7875072/apply/?gh_jid=7875072
-[Bentley Systems] Product Sales Engineer, MicroStation
-  https://jobs.bentley.com/job/Remote-Product-Sales-Engineer%2C-MicroStation-TX/1387410700/
-[Greentown Labs (Green Town Labs)] 8.2. Principal Production Engineer -Burlington
-  https://jobs.lever.co/PhoenixTailings/197e0e92-3ae5-492f-8ca2-e0122bef80dd?lever-source%5B%5D=jobs.greentownlabs.com
-[Mapbox] Manager, Revenue Accounting
-  https://jobs.ashbyhq.com/mapbox/60bfca10-1b73-4cd3-8564-c56f3f96f269/application
-[Maxar] Security &amp; Compliance Analyst (TS/SCI)
-  https://maxar.wd1.myworkdayjobs.com/en-US/Vantor/job/Doral-FL-Customer-Site/Security---Compliance-Analyst--TS-SCI-_R23431-2
-[Climatebase] Food Service Account Manager
+  https://jobs.philanthropy.com/job/52245/director-of-annual-giving-/
+[L3Harris] Director, Program Management
+  https://careers.l3harris.com/en/job/huntsville/director-program-management-mac/4832/94577360192
+[Trimble] Product Marketing Professional
+  https://trimblecareers.trimble.com/careers
+[Trimble] Civil Engineering Sales Engineer
+  https://trimblecareers.trimble.com/careers
+[Climatebase] Principal Electrical Engineering
   https://climatebase.org/jobs
-[Y Combinator Jobs] Senior Frontend Developer
-  https://www.ycombinator.com/companies/coulomb-ai/jobs/pDofAWl-senior-frontend-developer-analytics-platform
-[Climate Change Jobs] Management and Program Analyst (Chief of Staff)
-  https://climatechangejobs.com/jobs/463356266-management-and-program-analyst-chief-of-staff
-[Climate Change Jobs] Senior Account Manager
-  https://climatechangejobs.com/jobs/463369037-senior-account-manager
-[Nonprofit Jobs (Chronicle of Philanthropy)] Principal Gifts Officer
-  https://jobs.philanthropy.com/job/52243/principal-gifts-officer/?LinkSource=HomePage
-[SOSV Portfolio] Trade Compliance & CTPAT Manager
-  https://hisenseusacorporation.bamboohr.com/careers/282
-[Bentley Systems] Senior Product Manager
-  https://jobs.bentley.com/job/Philadelphia-Senior-Product-Manager-PA-19019/1387470100/
-[Bentley Systems] Senior Manager, Software Development
-  https://jobs.bentley.com/job/Senior-Manager%2C-Software-Development/1370454900/
+[Climatebase] Principal Structural Engineer
+  https://climatebase.org/jobs
+[Climatebase] Senior Manager, Electrical Engineering
+  https://climatebase.org/jobs
+[Climatebase] Account Manager
+  https://climatebase.org/jobs
+[Techstars Jobs] Techstars
+  https://jobs.techstars.com/companies/ev-safe-charge/jobs/77109965-growth-marketing-manager
+[Climate Change Jobs] Tax Manager, Compliance and Planning
+  https://climatechangejobs.com/jobs/464037720-tax-manager-compliance-and-planning
+[Bentley Systems] Principal Application Engineer
+  https://jobs.bentley.com/job/Mumbai-Principal-Application-Engineer-MH/1370806800/
