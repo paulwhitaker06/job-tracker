@@ -24,12 +24,12 @@ Output:
   - Writes rejected entries to rejected_candidates.txt with the reason.
 """
 
+import os
 import re
 import sys
 import yaml
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from urllib.parse import urljoin
 
 HEADERS = {
     "User-Agent": (
@@ -300,8 +300,10 @@ def main():
             lines.append(f"    lever_company: {c['lever_company']}")
         lines.append("")
 
-    with open("companies.yaml", "w") as f:
+    tmp = "companies.yaml.tmp"
+    with open(tmp, "w") as f:
         f.write("\n".join(lines))
+    os.replace(tmp, "companies.yaml")
 
     print(f"\n=== SUMMARY ===")
     print(f"Added {added} verified companies to companies.yaml")

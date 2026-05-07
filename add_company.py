@@ -23,6 +23,7 @@ For api types, required fields are auto-inferred from URL when possible:
   - workable_api: infers workable_account from apply.workable.com/{account}
 """
 
+import os
 import re
 import sys
 import yaml
@@ -170,8 +171,10 @@ def main():
         if "lever_company" in c:
             lines.append(f"    lever_company: {c['lever_company']}")
         lines.append("")
-    with open("companies.yaml", "w") as f:
+    tmp = "companies.yaml.tmp"
+    with open(tmp, "w") as f:
         f.write("\n".join(lines))
+    os.replace(tmp, "companies.yaml")
 
     # Validate result parses cleanly
     with open("companies.yaml", "r") as f:

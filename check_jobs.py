@@ -283,12 +283,6 @@ GARBAGE_TITLE_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
-JOB_TEXT_HINTS = re.compile(
-    r"\b(job|jobs|career|careers|opening|openings|position|positions|vacancy|vacancies|role|roles)\b",
-    re.IGNORECASE,
-)
-
-
 def _compile_word_pattern(term: str) -> re.Pattern[str]:
     esc = re.escape(term.lower())
     if re.fullmatch(r"[a-z0-9 ]+", term.lower()):
@@ -474,8 +468,13 @@ def load_seen() -> dict:
 
 
 def save_seen(seen: dict) -> None:
-    with open(SEEN_FILE, "w", encoding="utf-8") as f:
+    # Atomic write: a crash mid-rewrite of seen_jobs.json (now ~5 MB) would
+    # otherwise truncate prod state. Tempfile + os.replace makes the swap
+    # atomic on the same filesystem.
+    tmp = SEEN_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(seen, f, indent=2, sort_keys=True)
+    os.replace(tmp, SEEN_FILE)
 
 
 def fetch_html(url: str, timeout: int = 30) -> str:
@@ -650,7 +649,6 @@ JS_HEAVY_PATTERNS = [
     "jobs.planet-a.com", "jobs.convectivecapital.com",
     "jobs.elementalimpact.com", "jobs.mcj.vc", "jobs.thirdsphere.com",
     "jobs.systemiq.earth", "jobs.worldfund.vc", "jobs.2150.vc",
-    "jobs.energyimpactpartners.com", "jobs.dcvc.com",
     "careers.voyagervc.com", "careers.extantia.com",
     "techjobs.sosv.com", "jobs.congruentvc.com",
 ]
@@ -1225,8 +1223,10 @@ def _load_search_cache() -> dict:
 
 
 def _save_search_cache(cache: dict) -> None:
-    with open(SEARCH_CACHE_FILE, "w", encoding="utf-8") as f:
+    tmp = SEARCH_CACHE_FILE + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=2)
+    os.replace(tmp, SEARCH_CACHE_FILE)
 
 
 def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
