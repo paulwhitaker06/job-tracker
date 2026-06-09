@@ -14,7 +14,7 @@ companies:
     url: https://pixxel.darwinbox.in/ms/candidatev2/main/careers/allJobs
 
   - name: Satellogic
-    type: html_links
+    type: bamboohr_api
     url: https://satellogic.bamboohr.com/careers
 
   - name: Treefera
@@ -66,7 +66,8 @@ companies:
     url: https://ororatech.com/company/careers
 
   - name: Overstory
-    type: html_links
+    type: greenhouse_api
+    board: overstory
     url: https://job-boards.eu.greenhouse.io/overstory
 
   - name: Hydrosat
@@ -83,7 +84,7 @@ companies:
     workable_account: ghgsat
 
   - name: Kayrros
-    type: html_links
+    type: recruitee_api
     url: https://kayrros1.recruitee.com/
 
   - name: Carbon Mapper
@@ -156,7 +157,7 @@ companies:
     url: https://geooptics.com/careers-2-2/
 
   - name: Axiom Space
-    type: html_links
+    type: workday_api
     url: https://axiomspace.wd5.myworkdayjobs.com/External_Career_Site
 
   - name: Western Resource Advocates
@@ -242,7 +243,7 @@ companies:
     url: https://earthdaily.com/job-openings
 
   - name: EarthOptics
-    type: html_links
+    type: bamboohr_api
     url: https://earthoptics.bamboohr.com/careers
 
   - name: Element 84
@@ -401,7 +402,7 @@ companies:
     url: https://abatable.com/careers/
 
   - name: Airbus Intelligence
-    type: html_links
+    type: workday_api
     url: https://ag.wd3.myworkdayjobs.com/Airbus
 
   - name: ASTERRA
@@ -490,7 +491,7 @@ companies:
     url: https://www.mapbox.com/careers
 
   - name: Maxar
-    type: html_links
+    type: workday_api
     url: https://maxar.wd1.myworkdayjobs.com/Vantor
 
   - name: Nearmap
@@ -615,7 +616,7 @@ companies:
     url: https://dandelionenergy.com/careers
 
   - name: Dawn Aerospace
-    type: html_links
+    type: bamboohr_api
     url: https://dawnaerospace.bamboohr.com/careers
 
   - name: Dioxycle
@@ -911,7 +912,7 @@ companies:
     url: https://jobs.lever.co/synmax
 
   - name: Constellr
-    type: html_links
+    type: recruitee_api
     url: https://constellr.recruitee.com/
 
   - name: Kuva Space
@@ -959,7 +960,7 @@ companies:
     url: https://ats.rippling.com/verra-opportunities/jobs
 
   - name: CIBO Technologies
-    type: html_links
+    type: bamboohr_api
     url: https://cibotechnologies.bamboohr.com/careers
 
   - name: Globhe
@@ -1698,8 +1699,8 @@ companies:
     lever_company: fleetzero
 
   - name: Spiritus
-    type: html_links
-    url: https://jobs.ashbyhq.com/spiritus
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/spiritus
 
   - name: Verdox
     type: html_links
@@ -1833,7 +1834,7 @@ companies:
     lever_company: MastReforestation
 
   - name: Land Life Company
-    type: html_links
+    type: recruitee_api
     url: https://landlifecompany.recruitee.com/
 
   - name: WeForest
@@ -1886,7 +1887,7 @@ companies:
     url: https://careers.single.earth/
 
   - name: Pivotal Future
-    type: html_links
+    type: bamboohr_api
     url: https://pivotalfuture.bamboohr.com/careers
 
   - name: EmberPoint
@@ -2116,7 +2117,7 @@ companies:
     url: https://trimblecareers.trimble.com/careers
 
   - name: Topcon Positioning Systems
-    type: playwright
+    type: workday_api
     url: https://topcon.wd1.myworkdayjobs.com/TopconPositioningCareers
 
   - name: Bentley Systems

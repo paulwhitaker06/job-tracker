@@ -459,6 +459,21 @@ SESSION = _build_session()
 HTML_CACHE: dict[str, str] = {}
 TITLE_CACHE: dict[str, str] = {}
 
+# Concurrency. The per-company scrape used to run sequentially over 525
+# companies, which is the 2+ hour runtime. Pass A (requests-based: the *_api
+# adapters + the fast Pass-1 of html_links) is I/O-bound and parallelises
+# safely on the shared thread-safe Session. Playwright (Pass B) defaults to
+# sequential because the sync API is not thread-safe; bump PLAYWRIGHT_WORKERS
+# only with a process pool.
+MAX_SCRAPE_WORKERS = int(os.environ.get("SCRAPE_WORKERS", "16"))
+MAX_PLAYWRIGHT_WORKERS = int(os.environ.get("PLAYWRIGHT_WORKERS", "1"))
+
+
+class _DeferToPlaywright(Exception):
+    """Raised by get_html_links(defer_playwright=True) when Pass 1 wants to
+    escalate, so the parallel orchestrator can batch the slow Playwright work
+    into a separate (bounded) phase instead of blocking a fast worker."""
+
 
 def load_seen() -> dict:
     if os.path.exists(SEEN_FILE):
@@ -814,7 +829,7 @@ def get_playwright_links(company: dict) -> list[dict]:
 # PER-TYPE SCRAPERS
 # ─────────────────────────────────────────────────────────────────────────────
 
-def get_html_links(company: dict) -> list[dict]:
+def get_html_links(company: dict, defer_playwright: bool = False) -> list[dict]:
     """
     Two-pass scraper:
     Pass 1 – fast requests + BS4.
@@ -851,6 +866,8 @@ def get_html_links(company: dict) -> list[dict]:
     # ── Known JS-heavy ATS: skip Pass 1 entirely ─────────────────────────
     if is_js_heavy(base_url):
         log.info(f"  {name}: known JS-heavy site, going straight to Playwright")
+        if defer_playwright:
+            raise _DeferToPlaywright()
         pw_items = get_playwright_links(company)
         if company.get("link_contains"):
             needle = company["link_contains"]
@@ -916,6 +933,8 @@ def get_html_links(company: dict) -> list[dict]:
             f"  {name}: Pass 1 found only {len(pass1_items)} link(s) "
             f"(threshold: {MIN_LINK_THRESHOLD}) – escalating to Playwright"
         )
+        if defer_playwright:
+            raise _DeferToPlaywright()
         pw_items = get_playwright_links(company)
         if company.get("link_contains"):
             needle = company["link_contains"]
@@ -932,6 +951,8 @@ def get_html_links(company: dict) -> list[dict]:
         log.info(
             f"  {name}: Pass 1 titles look like noise – escalating to Playwright"
         )
+        if defer_playwright:
+            raise _DeferToPlaywright()
         pw_items = get_playwright_links(company)
         if company.get("link_contains"):
             needle = company["link_contains"]
@@ -944,6 +965,7 @@ def get_html_links(company: dict) -> list[dict]:
 def get_greenhouse_jobs(company: dict) -> list[dict]:
     board = company.get("board")
     url = company.get("url", "")
+    # The standard board API host serves all boards, including EU-rendered ones.
     if board:
         gh_url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
     elif "boards-api.greenhouse.io" in url:
@@ -1045,6 +1067,107 @@ def get_ashby_jobs(company: dict) -> list[dict]:
             "url": job_url,
             "title": canonicalize_title(job.get("title") or ""),
         })
+    return results
+
+
+def get_recruitee_jobs(company: dict) -> list[dict]:
+    """Recruitee public offers API: {sub}.recruitee.com/api/offers/"""
+    url = company.get("url", "")
+    sub = company.get("recruitee_company")
+    if not sub:
+        m = re.search(r"https?://([^.]+)\.recruitee\.com", url)
+        if not m:
+            raise ValueError("Recruitee: cannot determine subdomain from URL")
+        sub = m.group(1)
+    r = SESSION.get(f"https://{sub}.recruitee.com/api/offers/", timeout=45)
+    r.raise_for_status()
+    results = []
+    for job in r.json().get("offers", []):
+        job_url = canonicalize_url(job.get("careers_url") or job.get("careers_apply_url") or "")
+        if not job_url:
+            continue
+        job_id = job.get("id") or sha(job_url)
+        results.append({
+            "id": sha(company["name"] + "|" + str(job_id)),
+            "url": job_url,
+            "title": canonicalize_title(job.get("title") or ""),
+        })
+    return results
+
+
+def get_bamboohr_jobs(company: dict) -> list[dict]:
+    """BambooHR public careers JSON: {sub}.bamboohr.com/careers/list"""
+    url = company.get("url", "")
+    sub = company.get("bamboohr_account")
+    if not sub:
+        m = re.search(r"https?://([^.]+)\.bamboohr\.com", url)
+        if not m:
+            raise ValueError("BambooHR: cannot determine subdomain from URL")
+        sub = m.group(1)
+    r = SESSION.get(f"https://{sub}.bamboohr.com/careers/list", timeout=45,
+                    headers={"Accept": "application/json"})
+    r.raise_for_status()
+    results = []
+    for job in r.json().get("result", []):
+        job_id = job.get("id")
+        if job_id is None:
+            continue
+        job_url = canonicalize_url(f"https://{sub}.bamboohr.com/careers/{job_id}")
+        results.append({
+            "id": sha(company["name"] + "|" + str(job_id)),
+            "url": job_url,
+            "title": canonicalize_title(job.get("jobOpeningName") or ""),
+        })
+    return results
+
+
+def get_workday_jobs(company: dict) -> list[dict]:
+    """Workday CXS JSON API. Parses tenant + site from a myworkdayjobs URL
+    (https://{tenant}.{dc}.myworkdayjobs.com/[{lang}/]{site}) and pages through
+    the jobs endpoint. Replaces the slow Playwright path for Workday sites."""
+    url = company.get("url", "")
+    m = re.match(
+        r"https?://([^/]*\.myworkdayjobs\.com)/(?:([a-zA-Z]{2}-[A-Z]{2})/)?([^/?#]+)",
+        url,
+    )
+    if not m:
+        raise ValueError("Workday: cannot parse host/site from URL")
+    host, lang, site = m.group(1), m.group(2), m.group(3)
+    tenant = host.split(".")[0]
+    cxs = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
+    lang_seg = f"{lang}/" if lang else ""
+
+    results: list[dict] = []
+    seen_paths: set[str] = set()
+    offset, limit, total = 0, 20, None
+    while True:
+        r = SESSION.post(
+            cxs,
+            json={"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": ""},
+            timeout=45,
+            headers={"Accept": "application/json", "Content-Type": "application/json"},
+        )
+        r.raise_for_status()
+        data = r.json()
+        if total is None:
+            total = data.get("total", 0)
+        postings = data.get("jobPostings", [])
+        if not postings:
+            break
+        for job in postings:
+            path = job.get("externalPath") or ""
+            if not path or path in seen_paths:
+                continue
+            seen_paths.add(path)
+            job_url = canonicalize_url(f"https://{host}/{lang_seg}{site}{path}")
+            results.append({
+                "id": sha(company["name"] + "|" + path),
+                "url": job_url,
+                "title": canonicalize_title(job.get("title") or ""),
+            })
+        offset += limit
+        if offset >= (total or 0) or offset > 2000:  # safety cap
+            break
     return results
 
 
@@ -1488,46 +1611,85 @@ def main() -> None:
     errors: list[str] = []
     companies_ok: int = 0
     companies_failed: int = 0
-    manual_check_companies: list[dict] = []  # skipped during scraping, shown in Monday digest
 
-    # Pass 1: scrape all companies, collect raw items.
-    # Titles are NOT fetched here -- they are batch-fetched concurrently below,
-    # which is the primary fix for the 2+ hour runtime.
+    # manual_check companies are skipped during scraping, shown in Monday digest.
+    manual_check_companies = [c for c in config["companies"] if c.get("type") == "manual_check"]
+    work = [c for c in config["companies"] if c.get("type") != "manual_check"]
+
+    # Requests-based scrapers are I/O-bound and safe to run concurrently on the
+    # shared thread-safe Session. (html_links is special-cased: it takes
+    # defer_playwright so its slow Playwright escalation is batched into Pass 1b.)
+    REQUEST_SCRAPERS = {
+        "ashby_api": get_ashby_jobs,
+        "greenhouse_api": get_greenhouse_jobs,
+        "lever_api": get_lever_jobs,
+        "workable_api": get_workable_jobs,
+        "recruitee_api": get_recruitee_jobs,
+        "bamboohr_api": get_bamboohr_jobs,
+        "workday_api": get_workday_jobs,
+    }
+
     all_company_items: list[tuple[str, list[dict]]] = []
+    playwright_queue: list[dict] = []
 
-    for company in config["companies"]:
-        name = company["name"]
-        ctype = company["type"]
-
-        # manual_check: skip scraping entirely, collect for Monday digest section
-        if ctype == "manual_check":
-            manual_check_companies.append(company)
-            continue
-
-        log.info(f"Checking {name} ({ctype})")
+    def _scrape_requests(company: dict):
+        name, ctype = company["name"], company["type"]
+        if ctype == "playwright":
+            return ("defer", company)
+        if ctype != "html_links" and ctype not in REQUEST_SCRAPERS:
+            log.warning(f"Unsupported type: {ctype} ({name})")
+            return ("skip", name)
         try:
             if ctype == "html_links":
-                items = get_html_links(company)
-            elif ctype == "ashby_api":
-                items = get_ashby_jobs(company)
-            elif ctype == "playwright":
-                items = get_playwright_links(company)
-            elif ctype == "greenhouse_api":
-                items = get_greenhouse_jobs(company)
-            elif ctype == "lever_api":
-                items = get_lever_jobs(company)
-            elif ctype == "workable_api":
-                items = get_workable_jobs(company)
+                items = get_html_links(company, defer_playwright=True)
             else:
-                log.warning(f"Unsupported type: {ctype}")
-                continue
-            all_company_items.append((name, items))
-            companies_ok += 1
+                items = REQUEST_SCRAPERS[ctype](company)
+            return ("ok", name, items)
+        except _DeferToPlaywright:
+            return ("defer", company)
         except Exception as e:
-            msg = f"{name}: {type(e).__name__}: {e}"
-            log.error(msg)
-            errors.append(msg)
-            companies_failed += 1
+            return ("err", name, f"{type(e).__name__}: {e}")
+
+    # ── Pass 1a: requests-based scrape, parallel (the 2+ hour runtime fix) ────
+    log.info(f"Pass 1a: scraping {len(work)} companies with {MAX_SCRAPE_WORKERS} workers...")
+    with ThreadPoolExecutor(max_workers=MAX_SCRAPE_WORKERS) as ex:
+        for res in ex.map(_scrape_requests, work):
+            if res[0] == "ok":
+                all_company_items.append((res[1], res[2]))
+                companies_ok += 1
+            elif res[0] == "defer":
+                playwright_queue.append(res[1])
+            elif res[0] == "err":
+                log.error(f"{res[1]}: {res[2]}")
+                errors.append(f"{res[1]}: {res[2]}")
+                companies_failed += 1
+            # "skip": unsupported type, already warned
+
+    # ── Pass 1b: Playwright for JS-heavy sites + escalations ─────────────────
+    # Sequential by default: the Playwright sync API is not thread-safe. Bump
+    # PLAYWRIGHT_WORKERS only behind a process pool.
+    def _scrape_playwright(company: dict):
+        name = company["name"]
+        try:
+            items = get_playwright_links(company)
+            if company.get("link_contains"):
+                needle = company["link_contains"]
+                items = [i for i in items if needle in i.get("url", "")]
+            return ("ok", name, items)
+        except Exception as e:
+            return ("err", name, f"{type(e).__name__}: {e}")
+
+    if playwright_queue:
+        log.info(f"Pass 1b: Playwright for {len(playwright_queue)} JS-heavy companies...")
+        with ThreadPoolExecutor(max_workers=MAX_PLAYWRIGHT_WORKERS) as ex:
+            for res in ex.map(_scrape_playwright, playwright_queue):
+                if res[0] == "ok":
+                    all_company_items.append((res[1], res[2]))
+                    companies_ok += 1
+                else:
+                    log.error(f"{res[1]}: {res[2]}")
+                    errors.append(f"{res[1]}: {res[2]}")
+                    companies_failed += 1
 
     # Pass 2: identify all unseen items that need a title fetched.
     unseen_needing_title: list[dict] = []
