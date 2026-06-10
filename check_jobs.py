@@ -342,6 +342,32 @@ def normalise_title(title: str) -> str:
 # URL + TITLE CANONICALIZATION
 # ─────────────────────────────────────────────────────────────────────────────
 
+# Aggregator roots and location-browse indexes: pages that pass the "/jobs"
+# style indicators but are never a single posting, so they pollute the digest
+# and can never be scored downstream. Mirrors AGGREGATOR_PATTERNS in
+# paul-job-pipeline/pipeline/jd_fetcher.py -- keep the two lists in sync.
+JUNK_LISTING_PATTERNS = [
+    re.compile(r"^https?://(www\.)?climatebase\.org/jobs/?([?#].*)?$", re.I),
+    re.compile(r"^https?://(www\.)?climatebase\.org/?([?#].*)?$", re.I),
+    re.compile(r"^https?://(www\.)?geo-careers\.com/?([?#].*)?$", re.I),
+    re.compile(r"^https?://(www\.)?climatechangejobs\.com/jobs/in-", re.I),
+    re.compile(r"^https?://(www\.)?climatechangejobs\.com/?([?#].*)?$", re.I),
+    re.compile(r"^https?://(www\.)?trimble\.com/(en/)?careers/?([?#].*)?$", re.I),
+    re.compile(r"^https?://careers\.trimble\.com/?([?#].*)?$", re.I),
+    re.compile(r"^https?://jobsincarbon\.com/?([?#].*)?$", re.I),
+    re.compile(r"^https?://(www\.)?schmidtmarine\.org/?([?#].*)?$", re.I),
+]
+
+# /jobs/123/apply is the application form for /jobs/123 -- the posting is one
+# path segment up. Rewritten (not dropped) in canonicalize_url so the apply
+# link and its JD-page sibling hash to the same id and dedupe.
+APPLY_SUFFIX_RE = re.compile(r"(/jobs/\d+)/apply/?$", re.I)
+
+
+def is_junk_listing_url(url: str) -> bool:
+    return any(p.search(url or "") for p in JUNK_LISTING_PATTERNS)
+
+
 def canonicalize_url(url: str) -> str:
     """Strip tracking params and normalize URL before hashing or storing."""
     if not url:
@@ -355,6 +381,9 @@ def canonicalize_url(url: str) -> str:
     path = re.sub(r"/{2,}", "/", p.path or "/")
     if path != "/" and path.endswith("/"):
         path = path[:-1]
+    m = APPLY_SUFFIX_RE.search(path)
+    if m:
+        path = path[:m.end(1)]
     kept = []
     for k, v in parse_qsl(p.query, keep_blank_values=False):
         kl = k.lower()
@@ -576,6 +605,8 @@ def extract_links(html: str, base_url: str) -> set[str]:
         full = urldefrag(full)[0]
         u = full.lower()
         if any(x in u for x in REJECT_SUBSTRINGS):
+            continue
+        if is_junk_listing_url(full):
             continue
         if "jobs.lever.co/" in u and "?" in u:
             path = u.split("jobs.lever.co/", 1)[1]
@@ -1695,7 +1726,8 @@ def main() -> None:
     unseen_needing_title: list[dict] = []
     for name, items in all_company_items:
         for item in items:
-            if item["id"] not in seen and not item.get("title") and item.get("url"):
+            if (item["id"] not in seen and not item.get("title") and item.get("url")
+                    and not is_junk_listing_url(item["url"])):
                 unseen_needing_title.append(item)
 
     # Pass 3: fetch all missing titles concurrently in one batch.
@@ -1727,6 +1759,21 @@ def main() -> None:
                             "title": title,
                             "score": new_score,
                         })
+                continue
+
+            # Aggregator/browse URLs are never a single posting: suppress
+            # permanently (stored in seen, score 0) so they neither leak into
+            # the digest nor burn a title fetch on every future run.
+            if is_junk_listing_url(item.get("url", "")):
+                seen[item_id] = {
+                    "company": name,
+                    "url": item["url"],
+                    "title": "",
+                    "score": 0,
+                    "scored": True,
+                    "junk_url": True,
+                    "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                }
                 continue
 
             # New item -- title already populated by batch_fetch_titles above
