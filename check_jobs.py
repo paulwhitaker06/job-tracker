@@ -1176,6 +1176,34 @@ def get_recruitee_jobs(company: dict) -> list[dict]:
     return results
 
 
+def get_rippling_jobs(company: dict) -> list[dict]:
+    """Rippling public board API: api.rippling.com/platform/api/ats/v1/board/{slug}/jobs.
+    The slug is the path segment in ats.rippling.com/{slug}/jobs (locale prefixes stripped)."""
+    slug = company.get("board")
+    if not slug:
+        path = urlparse(company.get("url", "")).path.strip("/").split("/")
+        # drop a leading locale segment like "en" or "en-US", then take the board slug
+        if path and re.fullmatch(r"[a-z]{2}([_-][A-Za-z]{2,4})?", path[0]) and len(path) > 1:
+            path = path[1:]
+        if not path or not path[0] or path[0] == "jobs":
+            raise ValueError("Rippling: could not derive board slug from url")
+        slug = path[0]
+    r = SESSION.get(f"https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs", timeout=45)
+    r.raise_for_status()
+    results = []
+    for job in r.json():
+        job_url = canonicalize_url(job.get("url") or "")
+        if not job_url:
+            continue
+        job_id = job.get("uuid") or sha(job_url)
+        results.append({
+            "id": sha(company["name"] + "|" + str(job_id)),
+            "url": job_url,
+            "title": canonicalize_title(job.get("name") or ""),
+        })
+    return results
+
+
 def get_bamboohr_jobs(company: dict) -> list[dict]:
     """BambooHR public careers JSON: {sub}.bamboohr.com/careers/list"""
     url = company.get("url", "")
@@ -1725,6 +1753,7 @@ def main() -> None:
         "recruitee_api": get_recruitee_jobs,
         "bamboohr_api": get_bamboohr_jobs,
         "workday_api": get_workday_jobs,
+        "rippling_api": get_rippling_jobs,
     }
 
     all_company_items: list[tuple[str, list[dict]]] = []

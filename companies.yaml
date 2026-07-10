@@ -534,8 +534,8 @@ companies:
     url: https://recruiting.paylocity.com/recruiting/jobs/All/ce28f66e-1b03-4839-ab7c-ba91bea99e01/Terradepth-Inc
 
   - name: Terradot
-    type: html_links
-    url: https://ats.rippling.com/en-GB/terradot-careers/jobs
+    type: rippling_api
+    url: https://ats.rippling.com/terradot-careers/jobs
 
   - name: TomTom
     type: html_links
@@ -570,7 +570,7 @@ companies:
     url: https://arnergy.zohorecruit.com/jobs/Careers
 
   - name: Orbit Fab
-    type: html_links
+    type: rippling_api
     url: https://ats.rippling.com/orbitfab/jobs
 
   - name: Blue Frontier
@@ -932,7 +932,7 @@ companies:
     url: https://careers.sateliot.com/jobs
 
   - name: Verra
-    type: html_links
+    type: rippling_api
     url: https://ats.rippling.com/verra-opportunities/jobs
 
   - name: CIBO Technologies
@@ -1858,7 +1858,7 @@ companies:
     workable_account: wildlife-works
 
   - name: Trees for the Future
-    type: html_links
+    type: rippling_api
     url: https://ats.rippling.com/trees/jobs
 
   - name: Single.Earth
