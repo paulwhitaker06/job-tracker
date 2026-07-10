@@ -2183,3 +2183,12 @@ companies:
     url: https://jobs.spacetalent.org/jobs
     note: Space Capital's Getro aggregator, 15k roles; newest-first so daily delta is what surfaces
 
+  - name: HawkEye 360
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/hawkeye360
+    # auto-added from Payload intel 2026-07-10
+
+  - name: Latitude
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/latitude
+    # auto-added from Payload intel 2026-07-10
