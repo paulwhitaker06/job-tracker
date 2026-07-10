@@ -73,6 +73,12 @@ log = logging.getLogger("job-tracker")
 # constants
 SEEN_FILE = "seen_jobs.json"
 SEARCH_CACHE_FILE = "search_cache.json"
+HEALTH_FILE = "company_health.json"
+
+# Board-health attention thresholds (units: consecutive daily runs)
+FAIL_ATTENTION_STREAK = 3     # scraper errored this many runs in a row
+EMPTY_ATTENTION_STREAK = 30   # produced items before, now zero for this long
+NEW_BOARD_GRACE_RUNS = 7      # never produced anything within this many runs
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -502,6 +508,56 @@ class _DeferToPlaywright(Exception):
     """Raised by get_html_links(defer_playwright=True) when Pass 1 wants to
     escalate, so the parallel orchestrator can batch the slow Playwright work
     into a separate (bounded) phase instead of blocking a fast worker."""
+
+
+def load_health() -> dict:
+    """Per-company scrape health: makes 'succeeded but found nothing forever'
+    visible instead of indistinguishable from a healthy quiet board."""
+    if os.path.exists(HEALTH_FILE):
+        with open(HEALTH_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_health(health: dict) -> None:
+    with open(HEALTH_FILE, "w", encoding="utf-8") as f:
+        json.dump(health, f, indent=1, sort_keys=True)
+
+
+def update_health(health: dict, name: str, status: str, n_items: int = 0) -> None:
+    """status: 'ok' or 'err'. Streak counters are consecutive daily runs."""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    h = health.setdefault(name, {"first_tracked": today, "runs": 0,
+                                 "empty_streak": 0, "fail_streak": 0})
+    h["runs"] = h.get("runs", 0) + 1
+    if status == "err":
+        h["fail_streak"] = h.get("fail_streak", 0) + 1
+        return
+    h["last_ok"] = today
+    h["fail_streak"] = 0
+    if n_items > 0:
+        h["last_nonempty"] = today
+        h["empty_streak"] = 0
+    else:
+        h["empty_streak"] = h.get("empty_streak", 0) + 1
+
+
+def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
+    """Boards that need a human look, worst first."""
+    out = []
+    for name in sorted(active_names):
+        h = health.get(name)
+        if not h:
+            continue
+        if h.get("fail_streak", 0) >= FAIL_ATTENTION_STREAK:
+            out.append(f"{name}: scrape FAILING {h['fail_streak']} runs in a row")
+        elif h.get("last_nonempty") and h.get("empty_streak", 0) >= EMPTY_ATTENTION_STREAK:
+            out.append(f"{name}: zero items for {h['empty_streak']} runs "
+                       f"(last produced {h['last_nonempty']}); verify the board moved or died")
+        elif not h.get("last_nonempty") and h.get("runs", 0) >= NEW_BOARD_GRACE_RUNS:
+            out.append(f"{name}: never produced a single item in {h['runs']} runs "
+                       f"since {h.get('first_tracked', '?')}; URL or type is probably wrong")
+    return out
 
 
 def load_seen() -> dict:
@@ -1478,6 +1534,7 @@ def build_html_email(
     run_time: str,
     scrape_summary: str = "",
     manual_check_companies: list[dict] | None = None,
+    attention: list[str] | None = None,
 ) -> str:
     from collections import defaultdict
 
@@ -1525,6 +1582,17 @@ def build_html_email(
                 f'<td style="padding:3px 8px;white-space:nowrap;">'
                 f'{score_badge(item["score"])}</td></tr>\n'
             )
+
+    attention_section = ""
+    if attention:
+        shown = attention[:20]
+        more = (f"<li style='font-size:12px;color:#92400e;'>...and {len(attention) - 20} more "
+                f"(see company_health.json)</li>" if len(attention) > 20 else "")
+        att = "".join(f"<li style='font-size:12px;color:#92400e;'>{a}</li>" for a in shown)
+        attention_section = (
+            f"<p style='margin-top:24px;color:#b45309;font-size:13px;font-weight:bold;'>"
+            f"&#9888; Boards needing attention ({len(attention)})</p><ul>{att}{more}</ul>"
+        )
 
     error_section = ""
     if errors:
@@ -1574,6 +1642,7 @@ def build_html_email(
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
 </table>
+{attention_section}
 {error_section}
 {manual_section}
 </body></html>"""
@@ -1620,13 +1689,17 @@ def main() -> None:
         config = yaml.safe_load(f)
 
     seen = load_seen()
+    health = load_health()
 
-    # Prune seen_jobs older than 90 days
+    # Prune seen_jobs not sighted on any board for 90 days. Keyed on
+    # last_seen_utc (falling back to first_seen for pre-migration entries):
+    # pruning on first_seen resurrected still-live postings as "new" every
+    # 90 days, re-emailing them and re-feeding the scoring pipeline.
     cutoff_dt = datetime.now(timezone.utc) - timedelta(days=90)
     pruned = {}
     for k, v in seen.items():
-        first_seen = parse_dt(v.get("first_seen_utc"))
-        if not first_seen or first_seen >= cutoff_dt:
+        last_seen = parse_dt(v.get("last_seen_utc") or v.get("first_seen_utc"))
+        if not last_seen or last_seen >= cutoff_dt:
             pruned[k] = v
     if len(pruned) < len(seen):
         log.info(f"Pruned {len(seen) - len(pruned)} old entries from seen_jobs.json")
@@ -1682,12 +1755,14 @@ def main() -> None:
             if res[0] == "ok":
                 all_company_items.append((res[1], res[2]))
                 companies_ok += 1
+                update_health(health, res[1], "ok", len(res[2]))
             elif res[0] == "defer":
                 playwright_queue.append(res[1])
             elif res[0] == "err":
                 log.error(f"{res[1]}: {res[2]}")
                 errors.append(f"{res[1]}: {res[2]}")
                 companies_failed += 1
+                update_health(health, res[1], "err")
             # "skip": unsupported type, already warned
 
     # ── Pass 1b: Playwright for JS-heavy sites + escalations ─────────────────
@@ -1711,10 +1786,12 @@ def main() -> None:
                 if res[0] == "ok":
                     all_company_items.append((res[1], res[2]))
                     companies_ok += 1
+                    update_health(health, res[1], "ok", len(res[2]))
                 else:
                     log.error(f"{res[1]}: {res[2]}")
                     errors.append(f"{res[1]}: {res[2]}")
                     companies_failed += 1
+                    update_health(health, res[1], "err")
 
     # Pass 2: identify all unseen items that need a title fetched.
     unseen_needing_title: list[dict] = []
@@ -1730,6 +1807,7 @@ def main() -> None:
     log.info("Title fetch complete.")
 
     # Pass 4: score, store, and build digest items.
+    now_iso = datetime.now(timezone.utc).isoformat()
     for name, items in all_company_items:
         for item in items:
             item_id = item["id"]
@@ -1737,6 +1815,7 @@ def main() -> None:
             # Re-evaluate previously zero-scored items
             if item_id in seen:
                 entry = seen[item_id]
+                entry["last_seen_utc"] = now_iso
                 if entry.get("scored") is False:
                     title = entry.get("title", "")
                     new_score = score_title(title, entry.get("url", ""))
@@ -1767,6 +1846,7 @@ def main() -> None:
                     "scored": True,
                     "junk_url": True,
                     "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                    "last_seen_utc": datetime.now(timezone.utc).isoformat(),
                 }
                 continue
 
@@ -1785,6 +1865,7 @@ def main() -> None:
                 "score": relevance,
                 "scored": relevance > 0,
                 "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                "last_seen_utc": datetime.now(timezone.utc).isoformat(),
             }
 
             if relevance > 0:
@@ -1805,6 +1886,7 @@ def main() -> None:
                 "score": item["score"],
                 "scored": True,
                 "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                "last_seen_utc": datetime.now(timezone.utc).isoformat(),
             }
             new_items.append(item)
 
@@ -1812,6 +1894,12 @@ def main() -> None:
     new_items = deduplicate(new_items)
 
     save_seen(seen)
+    save_health(health)
+    attention = build_attention_list(health, {c["name"] for c in work})
+    if attention:
+        log.warning(f"{len(attention)} boards need attention:")
+        for line in attention:
+            log.warning(f"  {line}")
 
     now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     total_companies = companies_ok + companies_failed
@@ -1832,12 +1920,17 @@ def main() -> None:
         for item in sorted(new_items, key=lambda x: x["score"], reverse=True):
             plain_lines.append(f"[{item['company']}] {item.get('title') or '(no title)'}")
             plain_lines.append(f"  {item['url']}")
+        if attention:
+            plain_lines += ["", f"Boards needing attention ({len(attention)}):"]
+            plain_lines += [f"  {a}" for a in attention[:20]]
+            if len(attention) > 20:
+                plain_lines.append(f"  ...and {len(attention) - 20} more (see company_health.json)")
         plain_body = "\n".join(plain_lines)
     else:
         subject = f"No new jobs today - {now_utc[:10]}"
         plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
 
-    html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies)
+    html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies, attention)
 
     with open("latest_digest.html", "w", encoding="utf-8") as f:
         f.write(html_body)
