@@ -1567,6 +1567,106 @@ def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# MONTHLY MANUAL-CHECK RE-PROBE
+# ─────────────────────────────────────────────────────────────────────────────
+# Companies migrate ATS: a board that needed manual checking last year may be
+# on Ashby today. Once every 30 days, fetch each manual_check company's page,
+# look for an ATS embed, verify it against the live API, and upgrade the YAML
+# entry in place (committed by the workflow) so the company joins the daily
+# scrape permanently.
+
+ATS_PROBE_PATTERNS = [
+    # (page regex, yaml type, API verify template, yaml url template)
+    (r"boards\.greenhouse\.io/(?:embed/job_board\?for=)?([a-z0-9]+)", "greenhouse_api",
+     "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
+     "https://job-boards.greenhouse.io/{slug}"),
+    (r"job-boards\.greenhouse\.io/([a-z0-9]+)", "greenhouse_api",
+     "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
+     "https://job-boards.greenhouse.io/{slug}"),
+    (r"jobs\.lever\.co/([A-Za-z0-9-]+)", "lever_api",
+     "https://api.lever.co/v0/postings/{slug}?mode=json",
+     "https://jobs.lever.co/{slug}"),
+    (r"jobs\.ashbyhq\.com/([A-Za-z0-9-.]+)", "ashby_api",
+     "https://api.ashbyhq.com/posting-api/job-board/{slug}",
+     "https://api.ashbyhq.com/posting-api/job-board/{slug}"),
+    (r"apply\.workable\.com/([a-z0-9-]+)", "workable_api",
+     "https://apply.workable.com/api/v1/widget/accounts/{slug}?details=false",
+     "https://apply.workable.com/{slug}/"),
+    (r"([a-z0-9-]+)\.recruitee\.com", "recruitee_api",
+     "https://{slug}.recruitee.com/api/offers/",
+     "https://{slug}.recruitee.com"),
+    (r"ats\.rippling\.com/(?!jobs)([A-Za-z0-9-]+)/jobs", "rippling_api",
+     "https://api.rippling.com/platform/api/ats/v1/board/{slug}/jobs",
+     "https://ats.rippling.com/{slug}/jobs"),
+]
+PROBE_BAD_SLUGS = {"embed", "jobs", "job", "careers", "www", "en", "api", "wp-content"}
+
+
+def probe_page_for_ats(page_url: str):
+    """Fetch a careers page and return (type, url) for a verified ATS embed."""
+    html = fetch_html(page_url, timeout=20)
+    for pat, ctype, vtmpl, utmpl in ATS_PROBE_PATTERNS:
+        for m in re.finditer(pat, html):
+            slug = m.group(1)
+            if slug.lower() in PROBE_BAD_SLUGS or len(slug) < 3:
+                continue
+            try:
+                r = SESSION.get(vtmpl.format(slug=slug), timeout=12)
+                r.raise_for_status()
+                d = r.json()
+            except Exception:
+                continue
+            jobs = d if isinstance(d, list) else next(
+                (d[k] for k in ("jobs", "offers") if isinstance(d.get(k), list)), None)
+            if jobs is not None:
+                return ctype, utmpl.format(slug=slug)
+    return None
+
+
+def run_monthly_manual_recheck(manual_companies: list[dict]) -> list[str]:
+    """Re-probe manual_check companies for a scrapeable ATS; upgrade YAML in
+    place on a verified hit. Gated to once per 30 days via search_cache.json."""
+    cache = _load_search_cache()
+    last = cache.get("last_manual_recheck")
+    if last and datetime.now(timezone.utc) - datetime.fromisoformat(last) < timedelta(days=30):
+        return []
+
+    upgrades: list[str] = []
+    yaml_path = "companies.yaml"
+    with open(yaml_path, "r", encoding="utf-8") as f:
+        ytext = f.read()
+
+    for co in manual_companies:
+        try:
+            hit = probe_page_for_ats(co["url"])
+        except Exception:
+            continue
+        if not hit:
+            continue
+        ctype, curl = hit
+        pat = (rf"(  - name: {re.escape(co['name'])}\n)    type: manual_check\n"
+               rf"    url: .+\n(?:    note: .+\n)?")
+        extra = ""
+        if ctype == "greenhouse_api":
+            extra = f"    board: {curl.rsplit('/', 1)[1]}\n"
+        repl = (rf"\g<1>    type: {ctype}\n    url: {curl}\n{extra}"
+                rf"    # auto-upgraded from manual_check "
+                rf"{datetime.now(timezone.utc).strftime('%Y-%m-%d')}\n")
+        ytext, n = re.subn(pat, repl, ytext)
+        if n == 1:
+            upgrades.append(f"{co['name']}: manual_check upgraded to {ctype} ({curl})")
+            log.info(f"  Manual recheck: {upgrades[-1]}")
+
+    if upgrades:
+        with open(yaml_path, "w", encoding="utf-8") as f:
+            f.write(ytext)
+    cache["last_manual_recheck"] = datetime.now(timezone.utc).isoformat()
+    _save_search_cache(cache)
+    log.info(f"Manual recheck complete: {len(upgrades)} of {len(manual_companies)} upgraded")
+    return upgrades
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # EMAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -1939,6 +2039,11 @@ def main() -> None:
     save_seen(seen)
     save_health(health)
     attention = build_attention_list(health, {c["name"] for c in work})
+    try:
+        upgrades = run_monthly_manual_recheck(manual_check_companies)
+        attention = [f"UPGRADED &#10003; {u}" for u in upgrades] + attention
+    except Exception as e:
+        log.warning(f"Manual recheck failed (non-fatal): {type(e).__name__}: {e}")
     if attention:
         log.warning(f"{len(attention)} boards need attention:")
         for line in attention:
