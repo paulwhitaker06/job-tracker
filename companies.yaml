@@ -67,8 +67,8 @@ companies:
 
   - name: Overstory
     type: greenhouse_api
-    board: overstory
     url: https://job-boards.eu.greenhouse.io/overstory
+    board: overstory
 
   - name: Hydrosat
     type: html_links
@@ -2123,3 +2123,55 @@ companies:
   - name: Bentley Systems
     type: html_links
     url: https://jobs.bentley.com/search
+
+  - name: Northwood Space
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/northwoodspace
+
+  - name: Apex Space
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/apex-technology-inc
+
+  - name: AnySignal
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/anysignal
+
+  - name: Rainmaker
+    type: lever_api
+    url: https://jobs.lever.co/make-rain
+    lever_company: make-rain
+
+  - name: Katalyst Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/katalyst
+    board: katalyst
+
+  - name: Momentus
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/momentus
+    board: momentus
+
+  - name: NewOrbit
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/neworbit
+
+  - name: Starcloud
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/starcloud
+    board: starcloud
+
+  - name: FOSSA Systems
+    type: html_links
+    url: https://careers.fossa.systems/jobs
+
+  - name: U-Space
+    type: html_links
+    url: https://www.u-space.fr/en/careers
+
+  - name: Impulse Space
+    type: html_links
+    url: https://www.impulsespace.com/careers
+
+  - name: LeoLabs
+    type: html_links
+    url: https://leolabs.space/careers
