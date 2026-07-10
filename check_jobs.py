@@ -1477,14 +1477,25 @@ def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
             log.info("Search sweep: last run < 7 days ago, skipping.")
             return []
 
-    try:
-        from googlesearch import search as google_search
-    except ImportError:
+    cse_key = os.environ.get("GOOGLE_CSE_KEY")
+    cse_id = os.environ.get("GOOGLE_CSE_ID")
+    if not cse_key or not cse_id:
         log.warning(
-            "Search sweep skipped: 'googlesearch-python' not installed. "
-            "Run: pip install googlesearch-python"
+            "Search sweep skipped: GOOGLE_CSE_KEY / GOOGLE_CSE_ID not set. "
+            "The old googlesearch-python HTML scraping was silently blocked "
+            "from CI; the JSON API needs these two secrets."
         )
         return []
+
+    def google_search(query: str, num_results: int = 10) -> list[str]:
+        """Google Custom Search JSON API. Free tier: 100 queries/day."""
+        r = SESSION.get(
+            "https://www.googleapis.com/customsearch/v1",
+            params={"key": cse_key, "cx": cse_id, "q": query, "num": num_results},
+            timeout=30,
+        )
+        r.raise_for_status()
+        return [item["link"] for item in r.json().get("items", [])]
 
     known_domains = set()
     for co in known_companies:
@@ -1500,9 +1511,12 @@ def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
     for query in SEARCH_QUERIES:
         log.info(f"Search sweep: {query}")
         try:
-            results = list(google_search(query, num_results=10, sleep_interval=2))
+            results = google_search(query, num_results=10)
         except Exception as e:
             log.warning(f"Search sweep query failed: {e}")
+            if "429" in str(e) or "quota" in str(e).lower():
+                log.warning("Search sweep: daily API quota exhausted, stopping early.")
+                break
             continue
 
         for url in results:
