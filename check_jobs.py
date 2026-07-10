@@ -1057,30 +1057,24 @@ def get_workable_jobs(company: dict) -> list[dict]:
         else:
             raise ValueError("Workable: missing 'workable_account' key")
 
-    api_url = f"https://apply.workable.com/api/v3/accounts/{account}/jobs?state=published"
-    try:
-        r = SESSION.get(api_url, timeout=45)
-        r.raise_for_status()
-        data = r.json()
-        results = []
-        for job in data.get("results", []):
-            job_url = canonicalize_url(job.get("shortlink") or job.get("url") or "")
-            title = canonicalize_title(job.get("title") or "")
-            job_id = job.get("id") or sha(job_url or title)
-            if not job_url:
-                continue
-            results.append(
-                {"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title}
-            )
-        return results
-    except Exception:
-        board_url = canonicalize_url(f"https://apply.workable.com/{account}/")
-        html = fetch_html(board_url)
-        links = {l for l in extract_links(html, board_url) if "apply.workable.com" in l}
-        return [
-            {"id": sha(company["name"] + "|" + canonicalize_url(l)), "url": canonicalize_url(l), "title": None}
-            for l in sorted(links)
-        ]
+    # v1 widget endpoint: the only Workable listing API that answers GET.
+    # (v3 accounts/{slug}/jobs is POST-only and 404s on GET, which made every
+    # workable_api company silently return zero for months.)
+    api_url = f"https://apply.workable.com/api/v1/widget/accounts/{account}?details=false"
+    r = SESSION.get(api_url, timeout=45)
+    r.raise_for_status()
+    data = r.json()
+    results = []
+    for job in data.get("jobs", []):
+        job_url = canonicalize_url(job.get("shortlink") or job.get("url") or "")
+        title = canonicalize_title(job.get("title") or "")
+        job_id = job.get("shortcode") or sha(job_url or title)
+        if not job_url:
+            continue
+        results.append(
+            {"id": sha(company["name"] + "|" + str(job_id)), "url": job_url, "title": title}
+        )
+    return results
 
 
 def get_ashby_jobs(company: dict) -> list[dict]:
