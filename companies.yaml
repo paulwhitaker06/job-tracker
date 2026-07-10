@@ -125,16 +125,18 @@ companies:
     url: https://www.carbon-direct.com/careers
 
   - name: Regrow
-    type: lever_api
-    url: https://jobs.lever.co/regrow
+    type: manual_check
+    url: https://www.regrow.ag/careers
+    note: posts roles only on LinkedIn; Lever board deleted 2026
 
   - name: Persefoni
     type: html_links
     url: https://www.persefoni.com/company/careers
 
   - name: Terrascope
-    type: lever_api
-    url: https://jobs.lever.co/terrascope
+    type: manual_check
+    url: https://www.terrascope.com/careers
+    note: posts roles only on LinkedIn; Lever board deleted 2026
 
   - name: Downforce Technologies
     type: html_links
@@ -266,11 +268,6 @@ companies:
     type: html_links
     url: https://isometric.com/careers
 
-  - name: Floodbase
-    type: greenhouse_api
-    url: https://job-boards.greenhouse.io/floodbase
-    board: floodbase
-
   - name: Muon Space
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/muonspace
@@ -300,10 +297,6 @@ companies:
   - name: Nara Space
     type: html_links
     url: https://naraspace.careers.team/job-descriptions?locale=en
-
-  - name: RS Metrics
-    type: html_links
-    url: https://rsmetrics.com/careers/
 
   - name: SpaceKnow
     type: manual_check
@@ -542,10 +535,6 @@ companies:
   - name: Sea Machines
     type: html_links
     url: https://sea-machines.com/careers/open-positions/
-
-  - name: SkyWatch
-    type: html_links
-    url: https://skywatch.com/careers/#openroles
 
   - name: Sweep
     type: html_links
@@ -853,10 +842,6 @@ companies:
     type: html_links
     url: https://ursaspace.com/about/careers/
 
-  - name: Pachama
-    type: lever_api
-    url: https://jobs.lever.co/pachama
-
   - name: Altana AI
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/altanaai
@@ -891,9 +876,8 @@ companies:
     url: https://skytruth.org/jobs/
 
   - name: Sofar Ocean
-    type: greenhouse_api
-    url: https://job-boards.greenhouse.io/sofarocean
-    board: sofarocean
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/sofarocean
 
   - name: Carbon Trust
     type: html_links
