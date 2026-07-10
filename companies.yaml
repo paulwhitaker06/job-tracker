@@ -2154,3 +2154,32 @@ companies:
   - name: LeoLabs
     type: html_links
     url: https://leolabs.space/careers
+
+  # ── Expansion batch 2026-07-09: GFW-archetype nonprofits + FFRDCs + space talent board ──
+
+  - name: WattTime
+    type: html_links
+    url: https://watttime.hire.trakstar.com/
+    note: nonprofit, grid-emissions data products (Climate TRACE co-founder)
+
+  - name: C4ADS
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/c4ads
+    board: c4ads
+    note: nonprofit, conflict/maritime data products; board live, 0 postings 2026-07-09
+
+  - name: Aerospace Corporation
+    type: workday_api
+    url: https://aero.wd5.myworkdayjobs.com/External
+    note: FFRDC space nonprofit, 344 postings at add time
+
+  - name: MITRE
+    type: playwright
+    url: https://careers.mitre.org/us/en/search-results
+    note: FFRDC; Workday tenant gated behind Phenom frontend, needs JS render
+
+  - name: Space Talent Job Board
+    type: playwright
+    url: https://jobs.spacetalent.org/jobs
+    note: Space Capital's Getro aggregator, 15k roles; newest-first so daily delta is what surfaces
+
