@@ -1444,6 +1444,22 @@ SEARCH_QUERIES = [
     'site:boards.greenhouse.io "data licensing"',
     'site:jobs.lever.co "data commercialization"',
     'site:job-boards.greenhouse.io "data partnerships" "director"',
+    # Rippling / SmartRecruiters (hosts added to the CSE 2026-07-09)
+    'site:ats.rippling.com "business development" "space"',
+    'site:ats.rippling.com "partnerships" "director"',
+    'site:jobs.smartrecruiters.com "earth observation" "commercial"',
+    'site:jobs.smartrecruiters.com "satellite" "business development"',
+    # Nonprofit commercialization (the GFW archetype: mission org, data
+    # product, revenue role)
+    'site:jobs.lever.co "nonprofit" "earned revenue" "director"',
+    'site:job-boards.greenhouse.io "nonprofit" "data" "partnerships"',
+    'site:jobs.lever.co "conservation" "business development"',
+    'site:boards.greenhouse.io "environmental data" "commercial"',
+    # Space economy commercial roles
+    'site:jobs.ashbyhq.com "space" "head of sales"',
+    'site:jobs.ashbyhq.com "launch" "business development"',
+    'site:job-boards.greenhouse.io "ground station" "sales"',
+    'site:jobs.lever.co "space" "government affairs" "director"',
 ]
 
 
