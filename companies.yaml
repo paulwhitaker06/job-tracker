@@ -2192,3 +2192,21 @@ companies:
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/latitude
     # auto-added from Payload intel 2026-07-10
+
+  # ── OceanSight platform (XPV Water Partners roll-up) 2026-07-17: inbound retained search ──
+
+  - name: Ocean Floor Geophysics
+    type: manual_check
+    url: https://www.oceanfloorgeophysics.com/
+    note: OceanSight platform co; subsea geophysical survey; careers page not machine-findable
+
+  - name: Sound Metrics
+    type: manual_check
+    url: https://www.soundmetrics.com/
+    note: OceanSight platform co; ARIS imaging sonar; site refuses direct probes
+
+  - name: Neptune Sonar
+    type: manual_check
+    url: https://neptune-sonar.co.uk/
+    note: OceanSight platform co; UK sonar transducers
+
