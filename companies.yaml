@@ -1500,7 +1500,7 @@ companies:
   - name: My Climate Journey Jobs
     type: html_links
     url: https://jobs.mcj.vc/jobs
-    # careers URL repaired 2026-07-20 (health-ledger pass)
+    note: runs on Consider (not Getro); API not publicly parseable, known-quiet
 
   - name: 80,000 Hours Job Board
     type: html_links
@@ -2204,7 +2204,7 @@ companies:
     note: FFRDC; Workday tenant gated behind Phenom frontend, needs JS render
 
   - name: Space Talent Job Board
-    type: playwright
+    type: html_links
     url: https://jobs.spacetalent.org/jobs
     note: Space Capital's Getro aggregator, 15k roles; newest-first so daily delta is what surfaces
 

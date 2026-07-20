@@ -742,23 +742,77 @@ JS_HEAVY_PATTERNS = [
     "myworkdayjobs.com", "wd1.myworkdaysite.com", "wd3.myworkdaysite.com",
     "wd5.myworkdayjobs.com", "workforcenow.adp.com", "ats.rippling.com",
     "csod.com",
-    # Getro-powered VC portfolio boards — go straight to Playwright + intercept
-    "jobs.dcvc.com", "jobs.energyimpactpartners.com", "jobs.g2vp.com",
-    "jobs.obvious.com", "jobs.aenu.com", "jobs.atoneventures.com",
-    "jobs.cleanenergyventures.com", "jobs.preludeventures.com",
-    "jobs.s2gventures.com", "jobs.galvanizeclimate.com",
-    "jobs.breakthroughenergy.org", "jobs.pale.blue", "jobs.overture.vc",
-    "jobs.planet-a.com", "jobs.convectivecapital.com",
-    "jobs.elementalimpact.com", "jobs.mcj.vc", "jobs.thirdsphere.com",
-    "jobs.systemiq.earth", "jobs.worldfund.vc", "jobs.2150.vc",
-    "careers.voyagervc.com", "careers.extantia.com",
-    "techjobs.sosv.com", "jobs.congruentvc.com",
+    # Getro boards moved to the requests-based get_getro_jobs handler 2026-07-20
 ]
 
 
 def is_js_heavy(url: str) -> bool:
     u = url.lower()
     return any(p in u for p in JS_HEAVY_PATTERNS)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GETRO BOARDS (VC portfolio job sites)
+# ─────────────────────────────────────────────────────────────────────────────
+# Getro rebuilt on Next.js and the old Playwright network-intercept caught
+# nothing for 10+ days (health ledger, 2026-07-20). The /jobs page now
+# server-renders the 20 newest postings inside __NEXT_DATA__, so a plain
+# requests fetch captures the daily delta, faster and more reliably than a
+# browser ever did. Each job carries the real portfolio company name and a
+# direct source URL, so digest entries read "[Board] Title - Company".
+
+GETRO_HOSTS = {
+    "jobs.dcvc.com", "jobs.energyimpactpartners.com", "jobs.g2vp.com",
+    "jobs.obvious.com", "jobs.aenu.com", "jobs.atoneventures.com",
+    "jobs.cleanenergyventures.com", "jobs.preludeventures.com",
+    "jobs.s2gventures.com", "jobs.galvanizeclimate.com",
+    "jobs.pale.blue", "jobs.overture.vc", "jobs.planet-a.com",
+    "jobs.convectivecapital.com", "jobs.elementalimpact.com",
+    "jobs.thirdsphere.com", "jobs.systemiq.earth",
+    "jobs.worldfund.vc", "jobs.2150.vc", "careers.voyagervc.com",
+    "careers.extantia.com", "techjobs.sosv.com", "jobs.congruentvc.com",
+    "jobs.spacetalent.org",
+}
+
+_NEXT_DATA_RE = re.compile(
+    r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
+
+
+def is_getro_url(url: str) -> bool:
+    from urllib.parse import urlparse
+    return urlparse(url).netloc.lower() in GETRO_HOSTS
+
+
+def get_getro_jobs(company: dict) -> list[dict]:
+    from urllib.parse import urlparse
+    base = company["url"].rstrip("/")
+    parsed = urlparse(base)
+    page_url = base if parsed.path.endswith("/jobs") else f"{parsed.scheme}://{parsed.netloc}/jobs"
+    html = fetch_html(page_url)
+    m = _NEXT_DATA_RE.search(html)
+    if not m:
+        raise ValueError("Getro board: no __NEXT_DATA__ found (layout changed again?)")
+    data = json.loads(m.group(1))
+    found = (data.get("props", {}).get("pageProps", {})
+                 .get("initialState", {}).get("jobs", {}).get("found", []))
+    results = []
+    for j in found:
+        org = (j.get("organization") or {}).get("name", "")
+        title = canonicalize_title(j.get("title") or "")
+        if not title:
+            continue
+        if org:
+            title = f"{title} - {org}"
+        url = j.get("url") or ""
+        if not url:
+            org_slug = (j.get("organization") or {}).get("slug", "")
+            url = f"{parsed.scheme}://{parsed.netloc}/companies/{org_slug}/jobs/{j.get('slug','')}"
+        results.append({
+            "id": sha(company["name"] + "|getro:" + str(j.get("id"))),
+            "url": canonicalize_url(url),
+            "title": title,
+        })
+    return results
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -949,6 +1003,13 @@ def get_html_links(company: dict, defer_playwright: bool = False) -> list[dict]:
             f"an apply link to Greenhouse/Lever/Ashby/etc.) and update companies.yaml."
         )
         return []
+
+    # ── Getro boards: server-rendered JSON, no browser needed ────────────
+    if is_getro_url(base_url):
+        try:
+            return get_getro_jobs(company)
+        except ValueError:
+            pass  # board left Getro or changed layout; fall through to Pass 1
 
     # ── Known JS-heavy ATS: skip Pass 1 entirely ─────────────────────────
     if is_js_heavy(base_url):
