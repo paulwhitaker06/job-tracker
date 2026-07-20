@@ -1605,6 +1605,13 @@ def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
                 continue
             seen_urls.add(url)
 
+            # Entire-web CSE returns anything; accept only known ATS hosts so
+            # sweep names stay derivable and junk domains die here (2026-07-20:
+            # a German research center and a jobs aggregator reached the
+            # dashboard with garbage company names).
+            if not re.match(r"https?://(jobs\.lever\.co|job-boards\.greenhouse\.io|boards\.greenhouse\.io|jobs\.ashbyhq\.com|apply\.workable\.com|ats\.rippling\.com|jobs\.smartrecruiters\.com)/", url):
+                continue
+
             # Skip if this URL belongs to a domain already in YAML
             try:
                 domain = urlparse(url).netloc.lower()
