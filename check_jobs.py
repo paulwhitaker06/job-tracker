@@ -1053,6 +1053,10 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
     board = company.get("board")
     url = company.get("url", "")
     # The standard board API host serves all boards, including EU-rendered ones.
+    if not board:
+        m = re.search(r"job-boards\.greenhouse\.io/([A-Za-z0-9]+)", url)
+        if m:
+            board = m.group(1)  # frontend URL carries the slug; 2026-07-20 HawkEye fix
     if board:
         gh_url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true"
     elif "boards-api.greenhouse.io" in url:
