@@ -2236,3 +2236,86 @@ companies:
     url: https://neptune-sonar.co.uk/
     note: OceanSight platform co; UK sonar transducers
 
+  - name: Longshot
+    type: rippling_api
+    url: https://ats.rippling.com/longshot/jobs
+    # auto-added from Payload intel 2026-07-21
+
+  - name: World Labs
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/worldlabs
+    board: worldlabs
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Transcelestial
+    type: rippling_api
+    url: https://ats.rippling.com/transcelestial/jobs
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Portal Space Systems
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/portalspacesystems
+    board: portalspacesystems
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Matter Intelligence
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/matter-intelligence
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Inversion Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/inversionspace
+    board: inversionspace
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Outpost Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/outpostspace
+    board: outpostspace
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Mesh Optical Technologies
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/meshopticaltechnologies
+    board: meshopticaltechnologies
+    # auto-added from Payload intel 2026-07-21
+
+  - name: First Street
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/firststreet
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Advanced Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/advancedspace
+    board: advancedspace
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Avantus
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/avantus
+    board: avantus
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Aalo Atomics
+    type: rippling_api
+    url: https://ats.rippling.com/aalo-atomics/jobs
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Beyond Reach Labs
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/beyondreachlabs
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Syntetica
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/syntetica
+    board: syntetica
+    # auto-added from Payload intel 2026-07-21
+
+  - name: Green Project Technologies
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/greenprojecttechnologies
+    board: greenprojecttechnologies
+    # auto-added from Payload intel 2026-07-21
