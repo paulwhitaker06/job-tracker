@@ -2319,3 +2319,20 @@ companies:
     url: https://job-boards.greenhouse.io/greenprojecttechnologies
     board: greenprojecttechnologies
     # auto-added from Payload intel 2026-07-21
+
+  - name: Hubble Network
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/hubblenetwork
+    board: hubblenetwork
+    # auto-added from Payload intel 2026-07-23
+
+  - name: Overview Energy
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/overviewenergy
+    # auto-added from Payload intel 2026-07-23
+
+  - name: Star Catcher
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/star-catcher
+    board: star-catcher
+    # auto-added from Payload intel 2026-07-23
