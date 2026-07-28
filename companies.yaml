@@ -2336,3 +2336,20 @@ companies:
     url: https://job-boards.greenhouse.io/star-catcher
     board: star-catcher
     # auto-added from Payload intel 2026-07-23
+
+  - name: BAE Systems
+    type: workable_api
+    url: https://apply.workable.com/bae-systems/
+    # auto-added from Payload intel 2026-07-28
+
+  - name: Sila Nanotechnologies
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/silananotechnologies
+    board: silananotechnologies
+    # auto-added from Payload intel 2026-07-28
+
+  - name: Modo Energy
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/modoenergy
+    board: modoenergy
+    # auto-added from Payload intel 2026-07-28
