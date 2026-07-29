@@ -2353,3 +2353,9 @@ companies:
     url: https://job-boards.greenhouse.io/modoenergy
     board: modoenergy
     # auto-added from Payload intel 2026-07-28
+
+  - name: Sphinx Defense
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/sphinxdefense
+    board: sphinxdefense
+    # auto-added from Payload intel 2026-07-29
