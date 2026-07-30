@@ -2359,3 +2359,14 @@ companies:
     url: https://job-boards.greenhouse.io/sphinxdefense
     board: sphinxdefense
     # auto-added from Payload intel 2026-07-29
+
+  - name: Antares
+    type: workable_api
+    url: https://apply.workable.com/antares/
+    # auto-added from Payload intel 2026-07-30
+
+  - name: Armada
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/armada
+    board: armada
+    # auto-added from Payload intel 2026-07-30
