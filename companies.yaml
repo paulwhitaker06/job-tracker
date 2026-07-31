@@ -2370,3 +2370,13 @@ companies:
     url: https://job-boards.greenhouse.io/armada
     board: armada
     # auto-added from Payload intel 2026-07-30
+
+  - name: Hop Aero
+    type: workable_api
+    url: https://apply.workable.com/hop-aero/
+    # auto-added from Payload intel 2026-07-31
+
+  - name: Airbase
+    type: workable_api
+    url: https://apply.workable.com/airbase/
+    # auto-added from Payload intel 2026-07-31
