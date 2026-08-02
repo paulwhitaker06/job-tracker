@@ -2380,3 +2380,8 @@ companies:
     type: workable_api
     url: https://apply.workable.com/airbase/
     # auto-added from Payload intel 2026-07-31
+
+  - name: North Vector Dynamics
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/northvectordynamics
+    # auto-added from Payload intel 2026-08-02
