@@ -2385,3 +2385,30 @@ companies:
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/northvectordynamics
     # auto-added from Payload intel 2026-08-02
+
+  - name: Lydian
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/lydian
+    # auto-added from Payload intel 2026-08-04
+
+  - name: Greyparrot
+    type: workable_api
+    url: https://apply.workable.com/greyparrot/
+    # auto-added from Payload intel 2026-08-04
+
+  - name: AirTrunk
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/airtrunk
+    board: airtrunk
+    # auto-added from Payload intel 2026-08-04
+
+  - name: Morrow
+    type: workable_api
+    url: https://apply.workable.com/morrow/
+    # auto-added from Payload intel 2026-08-04
+
+  - name: Amperesand
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/amperesand
+    board: amperesand
+    # auto-added from Payload intel 2026-08-04
