@@ -2412,3 +2412,8 @@ companies:
     url: https://job-boards.greenhouse.io/amperesand
     board: amperesand
     # auto-added from Payload intel 2026-08-04
+
+  - name: Canada Rocket Company
+    type: rippling_api
+    url: https://ats.rippling.com/canada-rocket-company/jobs
+    # auto-added from Payload intel 2026-08-05
