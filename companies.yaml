@@ -2417,3 +2417,8 @@ companies:
     type: rippling_api
     url: https://ats.rippling.com/canada-rocket-company/jobs
     # auto-added from Payload intel 2026-08-05
+
+  - name: Nineteen Group
+    type: workable_api
+    url: https://apply.workable.com/nineteen-group/
+    # auto-added from Payload intel 2026-08-06
