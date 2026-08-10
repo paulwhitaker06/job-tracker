@@ -2422,3 +2422,8 @@ companies:
     type: workable_api
     url: https://apply.workable.com/nineteen-group/
     # auto-added from Payload intel 2026-08-06
+
+  - name: ETL Systems
+    type: workable_api
+    url: https://apply.workable.com/etl-systems/
+    # auto-added from Payload intel 2026-08-10
