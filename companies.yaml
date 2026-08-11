@@ -2427,3 +2427,40 @@ companies:
     type: workable_api
     url: https://apply.workable.com/etl-systems/
     # auto-added from Payload intel 2026-08-10
+
+  - name: Valar Atomics
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/valaratomics
+    board: valaratomics
+    # auto-added from Payload intel 2026-08-11
+
+  - name: River Mobility
+    type: workable_api
+    url: https://apply.workable.com/rivermobility/
+    # auto-added from Payload intel 2026-08-11
+
+  - name: Buzz Solutions
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/buzzsolutions
+    board: buzzsolutions
+    # auto-added from Payload intel 2026-08-11
+
+  - name: Mitti Labs
+    type: workable_api
+    url: https://apply.workable.com/mitti-labs/
+    # auto-added from Payload intel 2026-08-11
+
+  - name: Sonnedix
+    type: workable_api
+    url: https://apply.workable.com/sonnedix/
+    # auto-added from Payload intel 2026-08-11
+
+  - name: Inlyte Energy
+    type: rippling_api
+    url: https://ats.rippling.com/inlyte-energy/jobs
+    # auto-added from Payload intel 2026-08-11
+
+  - name: CREW Carbon
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/crewcarbon
+    # auto-added from Payload intel 2026-08-11
