@@ -2464,3 +2464,13 @@ companies:
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/crewcarbon
     # auto-added from Payload intel 2026-08-11
+
+  - name: Orbital Paradigm
+    type: workable_api
+    url: https://apply.workable.com/orbital-paradigm/
+    # auto-added from Payload intel 2026-08-12
+
+  - name: SciTec
+    type: workable_api
+    url: https://apply.workable.com/scitec/
+    # auto-added from Payload intel 2026-08-12
