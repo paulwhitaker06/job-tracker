@@ -2474,3 +2474,19 @@ companies:
     type: workable_api
     url: https://apply.workable.com/scitec/
     # auto-added from Payload intel 2026-08-12
+
+  - name: Space Kinetic
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/spacekinetic
+    board: spacekinetic
+    # auto-added from Payload intel 2026-08-13
+
+  - name: Invariant
+    type: workable_api
+    url: https://apply.workable.com/invariant/
+    # auto-added from Payload intel 2026-08-13
+
+  - name: Mantis Space
+    type: workable_api
+    url: https://apply.workable.com/mantis-space/
+    # auto-added from Payload intel 2026-08-13
