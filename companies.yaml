@@ -2490,3 +2490,19 @@ companies:
     type: workable_api
     url: https://apply.workable.com/mantis-space/
     # auto-added from Payload intel 2026-08-13
+
+  - name: Blue Energy
+    type: workable_api
+    url: https://apply.workable.com/blue-energy/
+    # auto-added from Payload intel 2026-08-17
+
+  - name: The Nuclear Company
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/thenuclearcompany
+    board: thenuclearcompany
+    # auto-added from Payload intel 2026-08-17
+
+  - name: Radiant
+    type: workable_api
+    url: https://apply.workable.com/radiant/
+    # auto-added from Payload intel 2026-08-17
