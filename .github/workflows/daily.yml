@@ -10,6 +10,11 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    # Job ceiling: a normal run takes ~55-65 min. Without this, a hang rides
+    # GitHub's 6-hour limit and ends as "cancelled", which skips the
+    # if: failure() email below -- exactly what happened twice on 2026-08-19
+    # (runs 32235450255 and 32294869961, both dead at 6h, both silent).
+    timeout-minutes: 110
     steps:
       - uses: actions/checkout@v4
 
@@ -19,9 +24,18 @@ jobs:
           python-version: 3.11
 
       - name: Install dependencies
+        # Step ceiling: 'playwright install --with-deps' hides a bare
+        # 'apt-get update' that hung indefinitely twice on 2026-08-19 (stuck
+        # after fetching noble-security InRelease). The apt update now runs
+        # explicitly with connect timeouts and retries, and the whole step
+        # dies in 12 minutes instead of 6 hours. A step timeout counts as a
+        # FAILURE, so the failure-notification email actually sends.
+        timeout-minutes: 12
         run: |
           pip install requests pyyaml beautifulsoup4 playwright
-          python -m playwright install --with-deps chromium
+          sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 update
+          python -m playwright install-deps chromium
+          python -m playwright install chromium
 
       - name: Run script
         env:
