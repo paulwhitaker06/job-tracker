@@ -2506,3 +2506,19 @@ companies:
     type: workable_api
     url: https://apply.workable.com/radiant/
     # auto-added from Payload intel 2026-08-17
+
+  - name: Telesat
+    type: workable_api
+    url: https://apply.workable.com/telesat/
+    # auto-added from Payload intel 2026-08-21
+
+  - name: Mach Industries
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/machindustries
+    board: machindustries
+    # auto-added from Payload intel 2026-08-21
+
+  - name: Cambium Networks
+    type: lever_api
+    url: https://jobs.lever.co/cambiumnetworks
+    # auto-added from Payload intel 2026-08-21
