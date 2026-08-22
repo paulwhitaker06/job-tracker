@@ -2522,3 +2522,8 @@ companies:
     type: lever_api
     url: https://jobs.lever.co/cambiumnetworks
     # auto-added from Payload intel 2026-08-21
+
+  - name: ENPULSION
+    type: workable_api
+    url: https://apply.workable.com/enpulsion/
+    # auto-added from Payload intel 2026-08-22
