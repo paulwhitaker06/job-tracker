@@ -2527,3 +2527,8 @@ companies:
     type: workable_api
     url: https://apply.workable.com/enpulsion/
     # auto-added from Payload intel 2026-08-22
+
+  - name: Amentum
+    type: workable_api
+    url: https://apply.workable.com/amentum/
+    # auto-added from Payload intel 2026-08-25
