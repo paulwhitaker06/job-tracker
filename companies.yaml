@@ -2532,3 +2532,14 @@ companies:
     type: workable_api
     url: https://apply.workable.com/amentum/
     # auto-added from Payload intel 2026-08-25
+
+  - name: Ursa Major
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/ursamajor
+    board: ursamajor
+    # auto-added from Payload intel 2026-08-25
+
+  - name: Integrate
+    type: workable_api
+    url: https://apply.workable.com/integrate/
+    # auto-added from Payload intel 2026-08-25
