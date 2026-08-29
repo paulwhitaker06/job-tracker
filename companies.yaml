@@ -2543,3 +2543,13 @@ companies:
     type: workable_api
     url: https://apply.workable.com/integrate/
     # auto-added from Payload intel 2026-08-25
+
+  - name: 1Aardvark
+    type: workable_api
+    url: https://apply.workable.com/1aardvark/
+    # auto-added from Payload intel 2026-08-29
+
+  - name: Infleqtion
+    type: workable_api
+    url: https://apply.workable.com/infleqtion/
+    # auto-added from Payload intel 2026-08-29
