@@ -2575,3 +2575,8 @@ companies:
     url: https://job-boards.greenhouse.io/pacificfusion
     board: pacificfusion
     # auto-added from Payload intel 2026-08-31
+
+  - name: MARS Energy Group
+    type: workable_api
+    url: https://apply.workable.com/mars-energy-group/
+    # auto-added from Payload intel 2026-08-31
