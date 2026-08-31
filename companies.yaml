@@ -2553,3 +2553,25 @@ companies:
     type: workable_api
     url: https://apply.workable.com/infleqtion/
     # auto-added from Payload intel 2026-08-29
+
+  - name: REGENT
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/regent
+    board: regent
+    # auto-added from Payload intel 2026-08-31
+
+  - name: Mantel
+    type: workable_api
+    url: https://apply.workable.com/mantel/
+    # auto-added from Payload intel 2026-08-31
+
+  - name: Teragen Energy
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/teragenenergy
+    # auto-added from Payload intel 2026-08-31
+
+  - name: Pacific Fusion
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/pacificfusion
+    board: pacificfusion
+    # auto-added from Payload intel 2026-08-31
