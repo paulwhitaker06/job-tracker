@@ -2580,3 +2580,19 @@ companies:
     type: workable_api
     url: https://apply.workable.com/mars-energy-group/
     # auto-added from Payload intel 2026-08-31
+
+  - name: Helogen
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/helogen
+    # auto-added from Payload intel 2026-09-01
+
+  - name: Neros Technologies
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/nerostechnologies
+    board: nerostechnologies
+    # auto-added from Payload intel 2026-09-01
+
+  - name: Outlier
+    type: workable_api
+    url: https://apply.workable.com/outlier/
+    # auto-added from Payload intel 2026-09-01
