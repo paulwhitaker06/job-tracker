@@ -2596,3 +2596,8 @@ companies:
     type: workable_api
     url: https://apply.workable.com/outlier/
     # auto-added from Payload intel 2026-09-01
+
+  - name: Leonardo DRS
+    type: workable_api
+    url: https://apply.workable.com/leonardo-drs/
+    # auto-added from Payload intel 2026-09-02
