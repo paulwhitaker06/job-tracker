@@ -673,6 +673,7 @@ companies:
   - name: Orbcomm
     type: playwright
     url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b9e6f585-387b-496e-8b63-bee5bed64c3e&ccId=19000101_000001&type=JS&lang=en_US
+    item_selector: ".current-openings-item"
 
   - name: ESS Inc
     type: playwright
@@ -1112,7 +1113,7 @@ companies:
     url: https://www.ecopiatech.com/careers
 
   - name: Felt
-    type: html_links
+    type: manual_check
     url: https://felt.com/careers
 
   - name: Beacon
@@ -1814,6 +1815,7 @@ companies:
   - name: African Wildlife Foundation
     type: playwright
     url: https://recruiting.ultipro.com/AFR1000AFWI/JobBoard/20e4eecc-c532-4e6a-bb5f-39ea79059f29/?q=&o=postedDateDesc&w=&wc=&we=&wpst=
+    render_wait_ms: 6000
 
   - name: Re:wild (formerly Global Wildlife Conservation)
     type: html_links

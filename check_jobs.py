@@ -928,9 +928,18 @@ def get_playwright_links(company: dict) -> list[dict]:
             except Exception:
                 pass
 
+        selector_jobs: list[dict] = []
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
-            page = browser.new_page()
+            # Real-Chrome UA: some ATS boards (UKG UltiPro among them) serve an
+            # unsupported-browser gate to the default HeadlessChrome UA.
+            context = browser.new_context(
+                user_agent=("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/128.0.0.0 Safari/537.36"),
+                viewport={"width": 1440, "height": 900},
+            )
+            page = context.new_page()
             page.on("response", handle_response)
             page.goto(url, wait_until="domcontentloaded", timeout=60_000)
             # Aggressive scrolling for paginated boards (Getro typically loads
@@ -939,14 +948,39 @@ def get_playwright_links(company: dict) -> list[dict]:
             for _ in range(scroll_count):
                 page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 page.wait_for_timeout(1200)
-            # Final settle for any pending responses
-            page.wait_for_timeout(2500)
+            # Final settle for any pending responses; slow SPAs can extend it
+            # per board via an optional render_wait_ms config key.
+            page.wait_for_timeout(max(2500, int(company.get("render_wait_ms", 0))))
+            # Optional per-board item_selector: boards like Orbcomm's ADP page
+            # render each opening as an element with no anchor href, invisible
+            # to link extraction. URLs are synthesized from the title for
+            # dedup; the board URL is where a human lands to apply.
+            sel = company.get("item_selector")
+            if sel:
+                for el in page.query_selector_all(sel):
+                    t = (el.inner_text() or "").strip().split("\n")[0].strip()
+                    if not t or len(t) > 200:
+                        continue
+                    frag = re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+                    key = f"{t}|selector"
+                    if key in seen_keys:
+                        continue
+                    seen_keys.add(key)
+                    selector_jobs.append({
+                        "id": sha(company["name"] + "|selector|" + t),
+                        "url": f"{url}#{frag}",
+                        "title": t,
+                    })
             html = page.content()
             browser.close()
 
         if intercepted_jobs:
             log.info(f"  {company['name']}: intercepted {len(intercepted_jobs)} jobs from API")
             return intercepted_jobs
+
+        if selector_jobs:
+            log.info(f"  {company['name']}: extracted {len(selector_jobs)} jobs via item_selector")
+            return selector_jobs
 
         links = extract_links(html, url)
         if links:
