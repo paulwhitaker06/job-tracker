@@ -109,3 +109,9 @@ Note: expect most of these to fail even with Playwright — JS-rendered pages of
 | Company | Candidate URL | Why it fits | Status |
 |---|---|---|---|
 | **ORBES** | https://www.orbes.us | Outreach radar 71.5; pre-seed inspection sats; apply.workable.com/orbes account exists but unconfirmed as theirs, zero jobs | parked 2026-09-10, radar backlog audit |
+| **Gilat Satellite Networks** | https://www.gilat.com/career/ | Radar 34.0; careers behind Sucuri JS challenge, old Comeet board dead; needs a real browser | parked 2026-09-10, radar backlog audit |
+| **Seagate Space** | https://seagatespace.com/ | Radar 79.0; 2025 offshore-launch startup, site has NO careers page, LinkedIn-only hiring | parked 2026-09-10, radar backlog audit |
+| **Sophia Space** | https://sophia.space/ | Radar 69.5; no careers page, jobs via LinkedIn/ZipRecruiter only | parked 2026-09-10, radar backlog audit |
+| **Starfighters Space** | https://starfightersspace.com/ | Radar 51.5; no careers section on site, no ATS found | parked 2026-09-10, radar backlog audit |
+| **NordSpace** | https://www.nordspace.com/careers | Radar 56.5; careers page is an unfinished Webflow template, real path careers@nordspace.com | parked 2026-09-10, radar backlog audit |
+| **Mission Space** | https://www.mission.space/ | Radar 56.0; space-weather co, no careers page at all, LinkedIn-only | parked 2026-09-10, radar backlog audit |
