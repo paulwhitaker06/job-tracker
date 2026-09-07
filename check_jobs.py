@@ -75,6 +75,9 @@ SEEN_FILE = "seen_jobs.json"
 SEARCH_CACHE_FILE = "search_cache.json"
 HEALTH_FILE = "company_health.json"
 
+EMPTY_ALARM_RUNS = 30         # digest flags boards freshly crossing this many empty runs
+EMPTY_ALARM_WINDOW_DAYS = 7   # ...for this many days after the crossing
+
 # Board-health attention thresholds (units: consecutive daily runs)
 FAIL_ATTENTION_STREAK = 3     # scraper errored this many runs in a row
 EMPTY_ATTENTION_STREAK = 30   # produced items before, now zero for this long
@@ -538,8 +541,17 @@ def update_health(health: dict, name: str, status: str, n_items: int = 0) -> Non
     if n_items > 0:
         h["last_nonempty"] = today
         h["empty_streak"] = 0
+        h.pop("crossed_30_on", None)
     else:
         h["empty_streak"] = h.get("empty_streak", 0) + 1
+        # Empty-streak alarm stamp: rot used to sit invisible until an audit
+        # found a third of the config silent. Stamping the crossing date lets
+        # the digest surface boards the week they go quiet, one or two at a
+        # time instead of 159 at once.
+        crossed = (h["empty_streak"] == EMPTY_ALARM_RUNS or
+                   (not h.get("last_nonempty") and h.get("runs", 0) == EMPTY_ALARM_RUNS))
+        if crossed and "crossed_30_on" not in h:
+            h["crossed_30_on"] = today
 
 
 def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
@@ -558,6 +570,34 @@ def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
             out.append(f"{name}: never produced a single item in {h['runs']} runs "
                        f"since {h.get('first_tracked', '?')}; URL or type is probably wrong")
     return out
+
+
+def build_alarm_list(health: dict, active_names: set[str]) -> list[str]:
+    """Boards that crossed EMPTY_ALARM_RUNS within the last window: the
+    early-rot line, distinct from the full attention dump."""
+    today = datetime.now(timezone.utc)
+    out = []
+    for name in sorted(active_names):
+        h = health.get(name)
+        stamp = (h or {}).get("crossed_30_on")
+        if not stamp:
+            continue
+        try:
+            age = (today - datetime.strptime(stamp, "%Y-%m-%d").replace(tzinfo=timezone.utc)).days
+        except Exception:
+            continue
+        if age <= EMPTY_ALARM_WINDOW_DAYS:
+            out.append(f"{name} (crossed {EMPTY_ALARM_RUNS} empty runs {stamp})")
+    return out
+
+
+def prune_health(health: dict, active_names: set[str]) -> list[str]:
+    """Drop health entries for companies no longer in companies.yaml so ghost
+    boards stop haunting the digest footer (e.g. Kairos Aerospace)."""
+    ghosts = [k for k in health if k not in active_names]
+    for k in ghosts:
+        del health[k]
+    return ghosts
 
 
 def load_seen() -> dict:
@@ -1799,6 +1839,7 @@ def build_html_email(
     scrape_summary: str = "",
     manual_check_companies: list[dict] | None = None,
     attention: list[str] | None = None,
+    alarm: list[str] | None = None,
 ) -> str:
     from collections import defaultdict
 
@@ -1846,6 +1887,14 @@ def build_html_email(
                 f'<td style="padding:3px 8px;white-space:nowrap;">'
                 f'{score_badge(item["score"])}</td></tr>\n'
             )
+
+    alarm_section = ""
+    if alarm:
+        al = "".join(f"<li style='font-size:12px;color:#b91c1c;'>{a}</li>" for a in alarm)
+        alarm_section = (
+            f"<p style='font-size:13px;font-weight:600;color:#b91c1c;margin:16px 0 4px;'>"
+            f"&#128276; New boards crossing 30 empty runs this week ({len(alarm)})</p><ul>{al}</ul>"
+        )
 
     attention_section = ""
     if attention:
@@ -1906,7 +1955,7 @@ def build_html_email(
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
 </table>
-{attention_section}
+{alarm_section}{attention_section}
 {error_section}
 {manual_section}
 </body></html>"""
@@ -2159,8 +2208,13 @@ def main() -> None:
     new_items = deduplicate(new_items)
 
     save_seen(seen)
+    active_names = {c["name"] for c in work}
+    ghosts = prune_health(health, active_names)
+    if ghosts:
+        log.info(f"Pruned {len(ghosts)} health entries for removed boards: {', '.join(sorted(ghosts)[:5])}...")
     save_health(health)
-    attention = build_attention_list(health, {c["name"] for c in work})
+    attention = build_attention_list(health, active_names)
+    alarm = build_alarm_list(health, active_names)
     try:
         upgrades = run_monthly_manual_recheck(manual_check_companies)
         attention = [f"UPGRADED &#10003; {u}" for u in upgrades] + attention
@@ -2190,6 +2244,9 @@ def main() -> None:
         for item in sorted(new_items, key=lambda x: x["score"], reverse=True):
             plain_lines.append(f"[{item['company']}] {item.get('title') or '(no title)'}")
             plain_lines.append(f"  {item['url']}")
+        if alarm:
+            plain_lines += ["", f"New boards crossing 30 empty runs this week ({len(alarm)}):"]
+            plain_lines += [f"  {a}" for a in alarm]
         if attention:
             plain_lines += ["", f"Boards needing attention ({len(attention)}):"]
             plain_lines += [f"  {a}" for a in attention[:20]]
@@ -2200,7 +2257,7 @@ def main() -> None:
         subject = f"No new jobs today - {now_utc[:10]}"
         plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
 
-    html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies, attention)
+    html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies, attention, alarm)
 
     with open("latest_digest.html", "w", encoding="utf-8") as f:
         f.write(html_body)

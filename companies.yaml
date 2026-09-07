@@ -528,7 +528,7 @@ companies:
     url: https://www.tomtom.com/careers/joboverview/
 
   - name: Undo Carbon
-    type: html_links
+    type: playwright
     url: https://un-do.careers.hibob.com/jobs
 
   - name: Vaulted Deep
@@ -768,7 +768,8 @@ companies:
 
   - name: Veson Nautical
     type: html_links
-    url: https://vesonnautical.com/careers/
+    url: https://jobs.jobvite.com/veson/jobs
+    link_contains: /veson/job
 
   - name: DNV
     type: html_links
@@ -792,9 +793,8 @@ companies:
     url: https://palaerospace.com/careers/
 
   - name: Unseenlabs
-    type: html_links
+    type: playwright
     url: https://careers.werecruit.io/en/unseenlabs
-    # careers URL repaired 2026-07-20 (health-ledger pass)
 
   - name: Ursa Space
     type: html_links
@@ -830,9 +830,8 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/sofarocean
 
   - name: Carbon Trust
-    type: html_links
-    url: https://www.carbontrust.com/who-we-are/our-career-opportunities
-    # careers URL repaired 2026-07-20 (health-ledger pass)
+    type: playwright
+    url: https://careers.carbontrust.com
 
   - name: EOS Data Analytics
     type: html_links
@@ -1101,7 +1100,8 @@ companies:
 
   - name: Planblue
     type: html_links
-    url: https://www.planblue.com/careers
+    url: https://join.com/companies/planblue
+    link_contains: /companies/planblue/
 
   - name: TheOceann.ai
     type: manual_check
@@ -1118,7 +1118,8 @@ companies:
 
   - name: Beacon
     type: html_links
-    url: https://www.beacon.com/careers
+    url: https://www.beacon.com/vacancies
+    link_contains: /vacancies
 
   - name: Sourcemap
     type: html_links
@@ -1241,7 +1242,8 @@ companies:
 
   - name: Sustainable Fisheries Partnership
     type: html_links
-    url: https://www.sustainablefish.org/About-SFP/Careers
+    url: https://sfp.hrpartner.io/jobs
+    link_contains: /jobs/
 
   - name: Marine Stewardship Council
     type: playwright
@@ -1313,7 +1315,8 @@ companies:
 
   - name: Restore America's Estuaries
     type: html_links
-    url: https://estuaries.org/about-us/careers/
+    url: https://estuaries.org/employment/
+    link_contains: /employment/
 
   - name: Rocky Mountain Institute
     type: html_links
@@ -1477,8 +1480,8 @@ companies:
     url: https://www.fido.tech/careers/
 
   - name: Farmers Business Network
-    type: html_links
-    url: https://www.fbn.com/careers
+    type: playwright
+    url: https://www.fbn.com/about/careers
 
   - name: Forest Trends
     type: html_links
@@ -1831,7 +1834,7 @@ companies:
     link_contains: /jobs/
 
   - name: Defenders of Wildlife
-    type: html_links
+    type: playwright
     url: https://defenders.org/about/jobs
 
   - name: International Fund for Animal Welfare (IFAW)
