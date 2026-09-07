@@ -1,8 +1,7 @@
 companies:
   - name: Satelligence
-    type: html_links
+    type: playwright
     url: https://satelligence.com/careers/
-    link_contains: homerun.co
 
   - name: ICEYE
     type: html_links
@@ -103,6 +102,7 @@ companies:
   - name: Sust Global
     type: html_links
     url: https://www.sustglobal.com/careers
+    link_contains: mailto:careers
 
   - name: ClimateAI
     type: html_links
@@ -111,10 +111,6 @@ companies:
   - name: SkyFi
     type: html_links
     url: https://skyfi.com/en/careers
-
-  - name: Orbio Earth
-    type: html_links
-    url: https://www.orbio.earth/careers
 
   - name: Satlantis
     type: html_links
@@ -138,10 +134,6 @@ companies:
     type: manual_check
     url: https://www.terrascope.com/careers
     note: posts roles only on LinkedIn; Lever board deleted 2026
-
-  - name: Downforce Technologies
-    type: html_links
-    url: https://www.downforce.tech/careers
 
   - name: Capella Space
     type: greenhouse_api
@@ -209,10 +201,6 @@ companies:
     type: workable_api
     url: https://apply.workable.com/satellitevu/
     workable_account: satellitevu
-
-  - name: Atlas AI
-    type: html_links
-    url: https://atlasai.applytojob.com/apply/
 
   - name: Fathom
     type: html_links
@@ -345,8 +333,8 @@ companies:
     url: https://www.privateer.com/careers
 
   - name: Scout Space
-    type: html_links
-    url: https://www.scout.space/careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/scoutspace
 
   - name: Slingshot Aerospace
     type: html_links
@@ -378,10 +366,6 @@ companies:
     url: https://www.xplore.com/pages/careers.html
     # careers URL repaired 2026-07-20 (health-ledger pass)
 
-  - name: Abatable
-    type: html_links
-    url: https://abatable.com/careers/
-
   - name: Airbus Intelligence
     type: workday_api
     url: https://ag.wd3.myworkdayjobs.com/Airbus
@@ -395,8 +379,8 @@ companies:
     url: https://atlasspace.com/careers/
 
   - name: Bedrock Ocean
-    type: html_links
-    url: https://www.bedrock.earth/careers
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/bedrockocean
 
   - name: Carbonfuture
     type: greenhouse_api
@@ -457,8 +441,8 @@ companies:
     url: https://hexagon.com/company/careers/job-listings
 
   - name: Infostellar
-    type: html_links
-    url: https://www.infostellar.net/careers
+    type: workable_api
+    url: https://apply.workable.com/infostellar/
 
   - name: Leaf Space
     type: html_links
@@ -478,7 +462,7 @@ companies:
     url: https://maxar.wd1.myworkdayjobs.com/Vantor
 
   - name: Nearmap
-    type: html_links
+    type: playwright
     url: https://www.nearmap.com/careers
 
   - name: Normative
@@ -496,6 +480,7 @@ companies:
   - name: OpenOcean Robotics
     type: html_links
     url: https://www.openoceanrobotics.com/careers
+    link_contains: job-posting
 
   - name: Patch
     type: ashby_api
@@ -519,8 +504,8 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/safe
 
   - name: Saildrone
-    type: html_links
-    url: https://www.saildrone.com/careers/available-jobs
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/saildroneinc
 
   - name: Sea Machines
     type: html_links
@@ -547,9 +532,8 @@ companies:
     url: https://un-do.careers.hibob.com/jobs
 
   - name: Vaulted Deep
-    type: playwright
-    url: https://jobs.gusto.com/boards/vaulted-deep-f80523c0-4d4e-4e4c-9636-4db9035a1561
-    # 403/redirect to plain requests; playwright 2026-07-20
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/vaulted-deep
 
   - name: Vulcan EarthRanger
     type: html_links
@@ -596,15 +580,16 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/dandelion
 
   - name: Dawn Aerospace
-    type: bamboohr_api
-    url: https://dawnaerospace.bamboohr.com/careers
+    type: html_links
+    url: https://job-boards.anz.greenhouse.io/dawnaerospace
+    link_contains: /dawnaerospace/jobs/
 
   - name: Dioxycle
     type: lever_api
     url: https://jobs.lever.co/Dioxycle
 
   - name: Dragonfly Aerospace
-    type: html_links
+    type: playwright
     url: https://dragonflyaerospace.com/blog/career/
 
   - name: Earth-i
@@ -612,8 +597,8 @@ companies:
     url: https://earthi.space/about-us/#careers
 
   - name: Electric Hydrogen
-    type: html_links
-    url: https://eh2.com/join-the-team/#careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/eh2
 
   - name: Fervo Energy
     type: html_links
@@ -622,10 +607,6 @@ companies:
   - name: Form Energy
     type: html_links
     url: https://formenergy.com/careers/open-jobs/
-
-  - name: Alén Space
-    type: playwright
-    url: https://gmv.csod.com/ux/ats/careersite/6/home?c=gmv&lang=en-US
 
   - name: Isar Aerospace
     type: html_links
@@ -673,10 +654,6 @@ companies:
     type: html_links
     url: https://opengeohub.org/category/jobs/
 
-  - name: Orbex
-    type: html_links
-    url: https://orbex.space/work-with-us/current-vacancies
-
   - name: Reflex Aerospace
     type: html_links
     url: https://reflex-aerospace-gmbh.jobs.personio.de/
@@ -703,11 +680,12 @@ companies:
 
   - name: AAC Clyde Space
     type: html_links
-    url: https://www.aac-clyde.space/careers
+    url: https://www.space-careers.com/jobs_at/aac_clyde_space/11768
+    link_contains: /job_display/
 
   - name: Aetherflux
-    type: html_links
-    url: https://www.aetherflux.com/#careers-anchor
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/cowboyspace
 
   - name: Antora Energy
     type: html_links
@@ -724,10 +702,6 @@ companies:
   - name: CarbonCure
     type: html_links
     url: https://www.carboncure.com/careers/
-
-  - name: Clearbot
-    type: html_links
-    url: https://www.clearbot.org/about-us#
 
   - name: H2Pro
     type: html_links
@@ -758,10 +732,6 @@ companies:
     type: html_links
     url: https://www.guidewheel.com/company/careers#open-roles
 
-  - name: Skyloom
-    type: html_links
-    url: https://skyloom.com/careers
-
   - name: MapHubs
     type: html_links
     url: https://www.maphubs.com/careers
@@ -771,8 +741,8 @@ companies:
     url: https://www.pixalytics.com/contact-us/vacancies/
 
   - name: PLD Space
-    type: html_links
-    url: https://www.pldspace.com/pld-space-empleo/posiciones-abiertas/
+    type: playwright
+    url: https://www.pldspace.com/en/pld-space-open-positions/
 
   - name: Skytek
     type: html_links
@@ -788,11 +758,12 @@ companies:
 
   - name: Lloyd's List Intelligence
     type: html_links
-    url: https://lloydslist.com/about/careers
+    url: https://careers.lloydslistintelligence.com/
+    link_contains: /jobs/
 
   - name: Skylight
-    type: html_links
-    url: https://www.skylight.global/about#careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/thealleninstitute
 
   - name: Veson Nautical
     type: html_links
@@ -800,15 +771,16 @@ companies:
 
   - name: DNV
     type: html_links
-    url: https://www.dnv.com/careers/
+    url: https://jobs.dnv.com/
+    link_contains: /job-search/
 
   - name: Orsted
     type: html_links
     url: https://orsted.com/en/careers
 
   - name: MDA Space
-    type: html_links
-    url: https://mda.space/en/careers/
+    type: playwright
+    url: https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/
 
   - name: Kontur
     type: html_links
@@ -822,10 +794,6 @@ companies:
     type: html_links
     url: https://careers.werecruit.io/en/unseenlabs
     # careers URL repaired 2026-07-20 (health-ledger pass)
-
-  - name: Kleos Space
-    type: html_links
-    url: https://kleos.space/about/careers/
 
   - name: Ursa Space
     type: html_links
@@ -847,21 +815,9 @@ companies:
     url: https://careers.southpole.com/
     # careers URL repaired 2026-07-20 (health-ledger pass)
 
-  - name: NCX
-    type: html_links
-    url: https://ncx.com/careers/
-
-  - name: CTrees
-    type: html_links
-    url: https://ctrees.org/about/careers
-
   - name: Cervest
     type: html_links
     url: https://cervest.earth/careers
-
-  - name: Reask
-    type: html_links
-    url: https://reask.earth/about/careers/
 
   - name: SkyTruth
     type: html_links
@@ -876,10 +832,6 @@ companies:
     type: html_links
     url: https://www.carbontrust.com/who-we-are/our-career-opportunities
     # careers URL repaired 2026-07-20 (health-ledger pass)
-
-  - name: Descartes Labs
-    type: html_links
-    url: https://descarteslabs.com/careers/
 
   - name: EOS Data Analytics
     type: html_links
@@ -897,10 +849,6 @@ companies:
     type: html_links
     url: https://careers.kuvaspace.com/
 
-  - name: Starboard Maritime Intelligence
-    type: html_links
-    url: https://www.starboardintelligence.com/careers
-
   - name: Satelytics
     type: html_links
     url: https://www.satelytics.com/careers/
@@ -910,8 +858,8 @@ companies:
     url: https://www.earthblox.io/careers
 
   - name: Chloris Geospatial
-    type: html_links
-    url: https://chlorisgeospatial.com/careers/
+    type: bamboohr_api
+    url: https://chloris.bamboohr.com/careers
 
   - name: Primer AI
     type: greenhouse_api
@@ -922,13 +870,10 @@ companies:
     type: html_links
     url: https://oceanscore.com/jobs/
 
-  - name: Astraea
-    type: html_links
-    url: https://www.astraea.earth/careers
-
   - name: Arlula
     type: html_links
     url: https://www.arlula.com/careers
+    link_contains: /open-positions/
 
   - name: Sateliot
     type: html_links
@@ -959,12 +904,8 @@ companies:
     url: https://www2.appone.com/Search/Search.aspx?ServerVar=vexcel.appone.com
 
   - name: Urban Sky
-    type: html_links
-    url: https://urbansky.applytojob.com/apply
-
-  - name: Orbital Insight
-    type: html_links
-    url: https://orbitalinsight.com/careers
+    type: rippling_api
+    url: https://ats.rippling.com/urban-sky/jobs
 
   - name: Orca AI
     type: html_links
@@ -974,18 +915,9 @@ companies:
     type: html_links
     url: https://www.xeneta.com/careers
 
-  - name: Bearing AI
-    type: playwright
-    url: https://bearing.ai/careers
-    # 403/redirect to plain requests; playwright 2026-07-20
-
   - name: Vortexa
     type: workable_api
     url: https://apply.workable.com/vortexa/
-
-  - name: Spire Maritime
-    type: html_links
-    url: https://spire.com/maritime/
 
   - name: Project44
     type: greenhouse_api
@@ -993,14 +925,13 @@ companies:
     board: project44
 
   - name: Resilinc
-    type: playwright
-    url: https://www.resilinc.com/careers/
-    # 403/redirect to plain requests; playwright 2026-07-20
+    type: lever_api
+    url: https://jobs.lever.co/resilinc
 
   - name: Interos
     type: html_links
-    url: https://www.interos.ai/careers
-    # careers URL repaired 2026-07-20 (health-ledger pass)
+    url: https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0848832f201848c7dbf79011a
+    link_contains: JobIntroduction.action
 
   - name: Everstream Analytics
     type: html_links
@@ -1018,6 +949,7 @@ companies:
   - name: Arbol
     type: html_links
     url: https://www.arbol.io/careers
+    link_contains: /job-listing/
 
   - name: Descartes Underwriting
     type: html_links
@@ -1029,25 +961,18 @@ companies:
     # 403/redirect to plain requests; playwright 2026-07-20
 
   - name: Blackshark.ai
-    type: playwright
-    url: https://blackshark.ai/careers/
-    # 403/redirect to plain requests; playwright 2026-07-20
+    type: html_links
+    url: https://jobs.eu.lever.co/blackshark
+    link_contains: lever.co/blackshark/
 
   - name: Nextbillion.ai
     type: html_links
-    url: https://nextbillion.ai/careers
+    url: https://nextbillion.freshteam.com/jobs
+    link_contains: /jobs/
 
   - name: Space Intelligence
     type: html_links
     url: https://www.space-intelligence.com/careers/
-
-  - name: Picterra
-    type: html_links
-    url: https://picterra.ch/careers/
-
-  - name: Puro.earth
-    type: html_links
-    url: https://puro.earth/careers/
 
   - name: BeZero Carbon
     type: manual_check
@@ -1064,10 +989,6 @@ companies:
     url: https://www.linkedin.com/company/calyx-global/jobs/
     note: posts only on LinkedIn
 
-  - name: Carbonplace
-    type: html_links
-    url: https://www.carbonplace.com/careers/
-
   - name: Aerospacelab
     type: html_links
     url: https://www.aerospacelab.com/jobs
@@ -1082,33 +1003,18 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/pano-ai
     # converted from html_links 2026-07-20; 14 live jobs at conversion
 
-  - name: Rezatec
-    type: html_links
-    url: https://www.rezatec.com/careers/
-
-  - name: Preligens (Safran)
-    type: html_links
-    url: https://preligens.com/en/careers/
-
-  - name: Spottitt
-    type: html_links
-    url: https://spottitt.com/careers/
-
   - name: Clarity AI
     type: html_links
     url: https://clarity.ai/careers/
 
   - name: Sinai Technologies
     type: html_links
-    url: https://www.sinaitechnologies.com/careers
+    url: https://sinai.breezy.hr/
+    link_contains: /p/
 
   - name: Supercritical
-    type: html_links
-    url: https://www.supercritical.com/careers
-
-  - name: Oceankind
-    type: html_links
-    url: https://oceankind.org/careers/
+    type: workable_api
+    url: https://apply.workable.com/supercritical/
 
   - name: Ocean Visions
     type: html_links
@@ -1139,10 +1045,6 @@ companies:
     type: html_links
     url: https://jobs.overture.vc/jobs
 
-  - name: Obvious Ventures Portfolio
-    type: html_links
-    url: https://jobs.obvious.com/jobs
-
   - name: Galvanize Climate Portfolio
     type: manual_check
     url: https://www.galvanizeclimate.com/
@@ -1170,10 +1072,11 @@ companies:
 
   - name: Climate Draft
     type: html_links
-    url: https://www.climatedraft.org/jobs
+    url: https://jobs.climatedraft.org/jobs
+    link_contains: /jobs/
 
   - name: Space Crew
-    type: html_links
+    type: playwright
     url: https://spacecrew.com/space-jobs
 
   - name: Lloyd's Register
@@ -1190,10 +1093,6 @@ companies:
     url: https://www.envision-group.com/
     note: configured domain unresolvable
 
-  - name: Gro Intelligence
-    type: html_links
-    url: https://www.gro-intelligence.com/careers
-
   - name: Signal Ocean
     type: workable_api
     url: https://apply.workable.com/thesignalgroup/
@@ -1202,10 +1101,6 @@ companies:
   - name: Planblue
     type: html_links
     url: https://www.planblue.com/careers
-
-  - name: HUB Ocean
-    type: html_links
-    url: https://www.hubocean.earth/about
 
   - name: TheOceann.ai
     type: manual_check
@@ -1220,10 +1115,6 @@ companies:
     type: html_links
     url: https://felt.com/careers
 
-  - name: Overture Maps Foundation
-    type: html_links
-    url: https://overturemaps.org/
-
   - name: Beacon
     type: html_links
     url: https://www.beacon.com/careers
@@ -1235,15 +1126,11 @@ companies:
   - name: XDI Systems
     type: html_links
     url: https://wf.xdi.systems/work-with-us
-    # careers URL repaired 2026-07-20 (health-ledger pass)
+    link_contains: open-positions
 
   - name: Cotality
     type: html_links
     url: https://www.cotality.com/careers
-
-  - name: Carbonmark
-    type: html_links
-    url: https://www.carbonmark.com/careers
 
   - name: Flowcarbon
     type: html_links
@@ -1265,10 +1152,12 @@ companies:
   - name: Trellis Jobs
     type: html_links
     url: https://jobs.trellis.net/
+    link_contains: ref=jobs.trellis.net
 
   - name: CTVC Climate Tech Jobs
     type: html_links
-    url: https://ctvc.niceboard.co/
+    url: https://ctvc.kardow.com/
+    link_contains: /jobs/
 
   - name: GEO Careers
     type: html_links
@@ -1277,10 +1166,6 @@ companies:
   - name: Acre Sustainability Jobs
     type: html_links
     url: https://www.acre.com/jobs
-
-  - name: Blue Economy Jobs
-    type: html_links
-    url: https://www.blueeconomyjobs.org/
 
   - name: Space-Careers
     type: html_links
@@ -1301,16 +1186,12 @@ companies:
     note: domain unresolvable 2026-07-20
 
   - name: Riskthinking.AI
-    type: html_links
-    url: https://riskthinking.ai/careers/
+    type: workable_api
+    url: https://apply.workable.com/riskthinking/
 
   - name: ClimatePartner
     type: html_links
     url: https://www.climatepartner.com/en/careers
-
-  - name: Spherical Analytics
-    type: html_links
-    url: https://sphericalanalytics.com/careers/
 
   - name: Ocean Conservancy
     type: html_links
@@ -1319,6 +1200,7 @@ companies:
   - name: Oceana
     type: html_links
     url: https://oceana.org/employment-opportunities/
+    link_contains: /employment/
 
   - name: Wildlife Conservation Society
     type: html_links
@@ -1353,21 +1235,16 @@ companies:
     url: https://oceanfdn.org/careers/
 
   - name: Pew Charitable Trusts
-    type: playwright
-    url: https://www.pewtrusts.org/en/about/careers
-    # 403/redirect to plain requests; playwright 2026-07-20
-
-  - name: Global Seafood Alliance
-    type: html_links
-    url: https://www.globalseafood.org/jobs/
+    type: workday_api
+    url: https://pewtrusts.wd5.myworkdayjobs.com/TrustsExternal
 
   - name: Sustainable Fisheries Partnership
     type: html_links
     url: https://www.sustainablefish.org/About-SFP/Careers
 
   - name: Marine Stewardship Council
-    type: html_links
-    url: https://www.msc.org/about-the-msc/careers
+    type: playwright
+    url: https://msc.current-vacancies.com/Careers/MSC%20VSP-1970
 
   - name: Environmental Investigation Agency
     type: html_links
@@ -1378,7 +1255,7 @@ companies:
     url: https://www.traffic.org/about-us/careers/
 
   - name: Seven Seas Ocean Jobs
-    type: html_links
+    type: playwright
     url: https://sevenseasmedia.org/ocean-jobs/
 
   - name: Ocean Conservation Careers
@@ -1399,8 +1276,8 @@ companies:
 
   - name: World Wildlife Fund
     type: html_links
-    url: https://www.worldwildlife.org/about/careers/
-    # careers URL repaired 2026-07-20 (health-ledger pass)
+    url: https://careers.smartrecruiters.com/WorldWildlifeFundInc1/wwfus
+    link_contains: jobs.smartrecruiters.com
 
   - name: Rare Conservation
     type: html_links
@@ -1426,6 +1303,7 @@ companies:
   - name: Scripps Institution of Oceanography
     type: html_links
     url: https://scripps.ucsd.edu/portal/jobs
+    link_contains: employment.ucsd.edu/jobs
 
   - name: National Audubon Society
     type: html_links
@@ -1466,8 +1344,8 @@ companies:
     url: https://www.workatastartup.com/jobs
 
   - name: Greentown Labs Jobs
-    type: html_links
-    url: https://greentown.org/jobs/
+    type: playwright
+    url: https://jobs.greentownlabs.com/jobs
 
   - name: Techstars Jobs
     type: html_links
@@ -1488,6 +1366,7 @@ companies:
   - name: Rejobs Renewable Energy
     type: html_links
     url: https://rejobs.org/en
+    link_contains: /renewable-energy-jobs/
 
   - name: Jobs in Carbon
     type: html_links
@@ -1517,10 +1396,7 @@ companies:
   - name: Conservation Job Board
     type: html_links
     url: https://conservationjobboard.com/
-
-  - name: MethaneSAT
-    type: html_links
-    url: https://www.methanesat.org/careers/
+    link_contains: /job-listing-
 
   - name: Global Forest Watch
     type: html_links
@@ -1531,8 +1407,8 @@ companies:
     url: https://jobs.2150.vc/jobs
 
   - name: Aclima
-    type: html_links
-    url: https://aclima.io/careers/
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/aclima
 
   - name: AgriWebb
     type: html_links
@@ -1544,12 +1420,8 @@ companies:
     board: thealleninstitute
 
   - name: Bezos Earth Fund
-    type: html_links
-    url: https://www.bezosearthfund.org/careers
-
-  - name: Biome Makers
-    type: html_links
-    url: https://biomemakers.com/careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/bezosearthfund
 
   - name: Blue Ventures
     type: html_links
@@ -1671,10 +1543,6 @@ companies:
     type: lever_api
     url: https://jobs.lever.co/travertine
 
-  - name: Tule Technologies
-    type: html_links
-    url: https://tuletechnologies.com/careers/
-
   - name: Vaisala
     type: html_links
     url: https://www.vaisala.com/en/careers
@@ -1694,6 +1562,7 @@ companies:
   - name: IUCN
     type: html_links
     url: https://hrms.iucn.org/iresy/index.cfm?event=vac.showOpenList
+    link_contains: event=vac.show
 
   - name: Fleetzero
     type: lever_api
@@ -1733,8 +1602,8 @@ companies:
     url: https://jobs.atoneventures.com/jobs
 
   - name: Moore Foundation
-    type: html_links
-    url: https://www.moore.org/about/careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/gordonandbettymoorefoundation
 
   - name: Ellen MacArthur Foundation
     type: html_links
@@ -1742,31 +1611,29 @@ companies:
 
   - name: Reef Renewal USA
     type: html_links
-    url: https://reefrenewalusa.org/get-involved/#openings
+    url: https://reefrenewalusa.org/openings-internships/
+    link_contains: wp-content/uploads
 
   - name: Placer.ai
-    type: html_links
-    url: https://www.placer.ai/company/we-are-hiring
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/placerlabs
 
   - name: Ceres Imaging
     type: html_links
     url: https://ceres.ai/careers
 
   - name: Carbon Robotics
-    type: html_links
-    url: https://carbonrobotics.com/job-openings
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/carbonrobotics
 
   - name: Indigo Ag
     type: html_links
     url: https://www.indigoag.com/careers
+    link_contains: job-application
 
   - name: BeeHero
     type: html_links
     url: https://www.beehero.io/careers
-
-  - name: Kilimo
-    type: html_links
-    url: https://kilimo.com/en/talent/#open-positions
 
   - name: Greeneye Technology
     type: html_links
@@ -1785,10 +1652,6 @@ companies:
     type: html_links
     url: https://www.bridgerphotonics.com/careers
 
-  - name: LongPath Technologies
-    type: html_links
-    url: https://www.longpathtech.com/about-us#careers
-
   - name: Project Canary
     type: html_links
     url: https://projectcanary.pinpointhq.com/#js-careers-jobs-block
@@ -1806,10 +1669,6 @@ companies:
     type: html_links
     url: https://www.earthfirealliance.org/join-our-team#open-roles
 
-  - name: Salo Sciences
-    type: html_links
-    url: https://salo.ai/careers
-
   - name: Genasys (acq. ZoneHaven)
     type: html_links
     url: https://genasys.applicantpro.com/jobs/
@@ -1820,11 +1679,12 @@ companies:
 
   - name: Burnbot
     type: playwright
-    url: https://workforcenow.cloud.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0bf0d861-644f-4d20-9d3a-0233325f1c5a&ccId=19000101_000001&type=JS&lang=en_US
+    url: https://secure8.entertimeonline.com/ta/1555.careers?CareersSearch=&ein_id=35066048&lang=en-US
 
   - name: Rain Industries
     type: html_links
     url: https://www.rain.aero/careers
+    link_contains: engineer
 
   - name: Convective Capital Portfolio
     type: html_links
@@ -1844,8 +1704,8 @@ companies:
     url: https://www.weforest.org/about-us/careers/
 
   - name: One Tree Planted
-    type: html_links
-    url: https://onetreeplanted.org/pages/careers
+    type: bamboohr_api
+    url: https://onetreeplanted.bamboohr.com/careers
 
   - name: Plant-for-the-Planet
     type: html_links
@@ -1857,7 +1717,8 @@ companies:
 
   - name: Forest Stewardship Council
     type: html_links
-    url: https://fsc.org/en/careers-at-fsc
+    url: https://fsc.jobs.personio.com/
+    link_contains: /job/
 
   - name: PEFC International
     type: html_links
@@ -1870,6 +1731,7 @@ companies:
   - name: Amazon Conservation Association
     type: html_links
     url: https://www.amazonconservation.org/about/careers-internships/
+    link_contains: /wp-content/uploads/
 
   - name: Amazon Conservation Team
     type: html_links
@@ -1887,10 +1749,6 @@ companies:
   - name: Single.Earth
     type: html_links
     url: https://careers.single.earth/
-
-  - name: Pivotal Future
-    type: bamboohr_api
-    url: https://pivotalfuture.bamboohr.com/careers
 
   - name: EmberPoint
     type: manual_check
@@ -1929,11 +1787,6 @@ companies:
     url: https://apply.workable.com/veritree/
     workable_account: veritree
 
-  - name: GreenWood Resources
-    type: playwright
-    url: https://careercenter.eforester.org/jobs/
-    # 403/redirect to plain requests; playwright 2026-07-20
-
   - name: Climate TRACE
     type: manual_check
     url: https://www.linkedin.com/company/climate-trace/jobs
@@ -1951,8 +1804,8 @@ companies:
     url: https://futureearth.org/about/careers/
 
   - name: Panthera
-    type: html_links
-    url: https://panthera.org/careers
+    type: rippling_api
+    url: https://ats.rippling.com/panthera-careers/jobs
 
   - name: WildAid
     type: html_links
@@ -1972,7 +1825,8 @@ companies:
 
   - name: BirdLife International
     type: html_links
-    url: https://www.birdlife.org/careers-hub/#roles
+    url: https://birdlifeinternational.teamtailor.com/jobs
+    link_contains: /jobs/
 
   - name: Defenders of Wildlife
     type: html_links
@@ -1992,11 +1846,11 @@ companies:
     url: https://www.greenpeace.org/usa/current-job-openings/
 
   - name: Friends of the Earth
-    type: html_links
-    url: https://foe.org/jobs/
+    type: bamboohr_api
+    url: https://foe.bamboohr.com/careers
 
   - name: Royal Society for Protection of Birds (RSPB)
-    type: html_links
+    type: playwright
     url: https://www.rspb.org.uk/careers/vacancies-listing
 
   - name: Frankfurt Zoological Society
@@ -2042,6 +1896,7 @@ companies:
   - name: Science Based Targets initiative (SBTi)
     type: html_links
     url: https://sciencebasedtargets.org/about-us/join-our-team
+    link_contains: /files/JD-
 
   - name: Ceres
     type: html_links
@@ -2053,8 +1908,7 @@ companies:
 
   - name: BSR (Business for Social Responsibility)
     type: playwright
-    url: https://www.bsr.org/en/careers
-    # 403/redirect to plain requests; playwright 2026-07-20
+    url: https://www.bsr.org/en/careers/job-openings
 
   - name: Net Zero Tracker
     type: manual_check
@@ -2069,7 +1923,7 @@ companies:
     url: https://www.worldclimatefoundation.org/careers
 
   - name: Climate Group
-    type: html_links
+    type: playwright
     url: https://climategroup.peoplehr.accessacloud.com/jobboard
 
   - name: Project Drawdown
@@ -2107,6 +1961,7 @@ companies:
   - name: Surfrider Foundation
     type: html_links
     url: https://www.surfrider.org/careers
+    link_contains: /careers/
 
   - name: Ocean Voyages Institute
     type: manual_check
@@ -2215,9 +2070,9 @@ companies:
     # auto-added from Payload intel 2026-07-10; board key added 2026-07-20 (fail-streak fix)
 
   - name: Latitude
-    type: ashby_api
-    url: https://api.ashbyhq.com/posting-api/job-board/latitude
-    # auto-added from Payload intel 2026-07-10
+    type: html_links
+    url: https://www.latitude.eu/jobs/
+    link_contains: hollo.io
 
   # ── OceanSight platform (XPV Water Partners roll-up) 2026-07-17: inbound retained search ──
 
@@ -2338,9 +2193,8 @@ companies:
     # auto-added from Payload intel 2026-07-23
 
   - name: BAE Systems
-    type: workable_api
-    url: https://apply.workable.com/bae-systems/
-    # auto-added from Payload intel 2026-07-28
+    type: playwright
+    url: https://jobs.baesystems.com/global/en/search-results
 
   - name: Sila Nanotechnologies
     type: greenhouse_api
@@ -2361,9 +2215,8 @@ companies:
     # auto-added from Payload intel 2026-07-29
 
   - name: Antares
-    type: workable_api
-    url: https://apply.workable.com/antares/
-    # auto-added from Payload intel 2026-07-30
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/antares
 
   - name: Armada
     type: greenhouse_api
@@ -2392,9 +2245,8 @@ companies:
     # auto-added from Payload intel 2026-08-04
 
   - name: Greyparrot
-    type: workable_api
-    url: https://apply.workable.com/greyparrot/
-    # auto-added from Payload intel 2026-08-04
+    type: recruitee_api
+    url: https://greyparrotai.recruitee.com/
 
   - name: AirTrunk
     type: greenhouse_api
