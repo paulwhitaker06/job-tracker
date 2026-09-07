@@ -2037,8 +2037,10 @@ companies:
     url: https://www.impulsespace.com/careers
 
   - name: LeoLabs
-    type: html_links
-    url: https://leolabs.space/careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/leolabsinc
+    board: leolabsinc
+    # switched from html_links 2026-09-10: Greenhouse API verified, 30 live jobs
 
   # ── Expansion batch 2026-07-09: GFW-archetype nonprofits + FFRDCs + space talent board ──
 
@@ -2458,3 +2460,8 @@ companies:
     type: workable_api
     url: https://apply.workable.com/leonardo-drs/
     # auto-added from Payload intel 2026-09-02
+
+  - name: Reditus Space
+    type: playwright
+    url: https://www.reditus.space/careers
+    # outreach radar backlog audit 2026-09-10: JS-rendered page, no ATS

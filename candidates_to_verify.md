@@ -103,3 +103,9 @@ python3 add_company.py "Amogy" "https://amogy.co/careers/" playwright
 Candidates that may work with playwright: At One Ventures Portfolio, BeeHero, Bridger Photonics, Carbon Robotics, IUCN, Indigo Ag, MacArthur Foundation, Moore Foundation, NatureServe, Project Canary, ZeroNorth.
 
 Note: expect most of these to fail even with Playwright — JS-rendered pages often need custom handling. Only worth enabling if you really want that company tracked.
+
+## Parked from Payload intel (ATS probes missed; verify manually)
+
+| Company | Candidate URL | Why it fits | Status |
+|---|---|---|---|
+| **ORBES** | https://www.orbes.us | Outreach radar 71.5; pre-seed inspection sats; apply.workable.com/orbes account exists but unconfirmed as theirs, zero jobs | parked 2026-09-10, radar backlog audit |
