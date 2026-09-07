@@ -684,9 +684,10 @@ companies:
     url: https://www.space-careers.com/jobs_at/aac_clyde_space/11768
     link_contains: /job_display/
 
-  - name: Aetherflux
+  - name: Cowboy Space
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/cowboyspace
+    # renamed from Aetherflux May 2026 ($275M Series B); alias recorded in company-aliases.md
 
   - name: Antora Energy
     type: html_links
