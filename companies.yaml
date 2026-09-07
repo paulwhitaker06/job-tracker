@@ -2041,7 +2041,7 @@ companies:
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/leolabsinc
     board: leolabsinc
-    # switched from html_links 2026-09-10: Greenhouse API verified, 30 live jobs
+    # switched from html_links 2026-09-07: Greenhouse API verified, 30 live jobs
 
   # ── Expansion batch 2026-07-09: GFW-archetype nonprofits + FFRDCs + space talent board ──
 
@@ -2465,155 +2465,155 @@ companies:
   - name: Reditus Space
     type: playwright
     url: https://www.reditus.space/careers
-    # outreach radar backlog audit 2026-09-10: JS-rendered page, no ATS
+    # outreach radar backlog audit 2026-09-07: JS-rendered page, no ATS
 
   - name: K2 Space
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/k2spacecorporation
     board: k2spacecorporation
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Xona Space
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/xona-space
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Stoke Space
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/stokespacetechnologies
     board: stokespacetechnologies
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Zeno Power
     type: html_links
     url: https://zeno-power.breezy.hr/
     link_contains: /p/
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Relativity Space
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/relativity
     board: relativity
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: AST SpaceMobile
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/astspacemobile
     board: astspacemobile
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Voyager Technologies
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/voyagertechnologiesinc
     board: voyagertechnologiesinc
-    # outreach radar backlog audit 2026-09-10, board verified; also covers Starlab Space (JV hires through this board)
+    # outreach radar backlog audit 2026-09-07, board verified; also covers Starlab Space (JV hires through this board)
 
   - name: Vast
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/vast
     board: vast
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Sierra Space
     type: playwright
     url: https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site
-    # outreach radar backlog audit 2026-09-10, board verified; Workday, JS-rendered
+    # outreach radar backlog audit 2026-09-07, board verified; Workday, JS-rendered
 
   - name: York Space Systems
     type: html_links
     url: https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0821e1a6301823c22a8bd068b
     link_contains: JobIntroduction.action
-    # outreach radar backlog audit 2026-09-10, board verified; Paycor board
+    # outreach radar backlog audit 2026-09-07, board verified; Paycor board
 
   - name: United Launch Alliance
     type: html_links
     url: https://jobs.ulalaunch.com/search/
     link_contains: /job/
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Intuitive Machines
     type: playwright
     url: https://www.intuitivemachines.com/careers
-    # outreach radar backlog audit 2026-09-10, board verified; Vue SPA, token-gated CMS
+    # outreach radar backlog audit 2026-09-07, board verified; Vue SPA, token-gated CMS
 
   - name: Firefly Aerospace
     type: playwright
     url: https://fireflyspace.com/careers/
-    # outreach radar backlog audit 2026-09-10, board verified; ClearCompany JS widget
+    # outreach radar backlog audit 2026-09-07, board verified; ClearCompany JS widget
 
   - name: Astrolab
     type: playwright
     url: https://astrolab.pinpointhq.com/
-    # outreach radar backlog audit 2026-09-10, board verified; Pinpoint, JS-rendered
+    # outreach radar backlog audit 2026-09-07, board verified; Pinpoint, JS-rendered
 
   - name: Iridium Communications
     type: html_links
     url: https://careers-iridium.icims.com/jobs/search?ss=1&in_iframe=1
     link_contains: /jobs/
-    # outreach radar backlog audit 2026-09-10, board verified; iCIMS iframe view has server-side links
+    # outreach radar backlog audit 2026-09-07, board verified; iCIMS iframe view has server-side links
 
   - name: Agile Space Industries
     type: playwright
     url: https://recruiting.paylocity.com/recruiting/jobs/All/d306a0c0-96a3-47d9-8d66-1e9775aad079/Agile-Space-Industries
-    # outreach radar backlog audit 2026-09-10, board verified; Paylocity, jobs in embedded JSON
+    # outreach radar backlog audit 2026-09-07, board verified; Paylocity, jobs in embedded JSON
 
   - name: Redwire
     type: playwright
     url: https://careers.rdw.com/jobs/search
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: NorthStar Earth & Space
     type: playwright
     url: https://northstarearthandspace.bamboohr.com/careers
-    # outreach radar backlog audit 2026-09-10, board verified; BambooHR, JS-rendered
+    # outreach radar backlog audit 2026-09-07, board verified; BambooHR, JS-rendered
 
   - name: The Exploration Company
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/the-exploration-company
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Rocket Factory Augsburg
     type: greenhouse_api
     url: https://job-boards.eu.greenhouse.io/rocketfactoryaugsburgag
     board: rocketfactoryaugsburgag
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Gilmour Space Technologies
     type: html_links
     url: https://www.gspace.com/career
     link_contains: myrecruitmentplus.com/job-details
-    # outreach radar backlog audit 2026-09-10, board verified
+    # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Karman Space & Defense
     type: playwright
     url: https://karman-sd.com/job-openings/
-    # outreach radar backlog audit 2026-09-10, board verified; ADP widget; karman.com is an unrelated rubber company
+    # outreach radar backlog audit 2026-09-07, board verified; ADP widget; karman.com is an unrelated rubber company
 
   - name: MaiaSpace
     type: html_links
     url: https://careers.maia-space.com/jobs-at-maiaspace
     link_contains: /o/
-    # outreach radar backlog audit 2026-09-10, board verified; Recruitee
+    # outreach radar backlog audit 2026-09-07, board verified; Recruitee
 
   - name: Exobiosphere
     type: html_links
     url: https://www.exobiosphere.com/luxembourg
     link_contains: /luxembourg/
-    # outreach radar backlog audit 2026-09-10, board verified; sibling US page /usa
+    # outreach radar backlog audit 2026-09-07, board verified; sibling US page /usa
 
   - name: Lunar Outpost
     type: playwright
     url: https://lunaroutpost.bamboohr.com/careers
-    # outreach radar backlog audit 2026-09-10, board verified; BambooHR, JS-rendered
+    # outreach radar backlog audit 2026-09-07, board verified; BambooHR, JS-rendered
 
   - name: INNOSPACE
     type: html_links
     url: https://innospace.career.greetinghr.com/ko/recruit
     link_contains: /ko/o/
-    # outreach radar backlog audit 2026-09-10, board verified; GreetingHR, Korean-language board
+    # outreach radar backlog audit 2026-09-07, board verified; GreetingHR, Korean-language board
 
   - name: LatConnect 60
     type: html_links
     url: https://lc60.ai/careers/
     link_contains: /careers/
-    # outreach radar backlog audit 2026-09-10, board verified; rebranded to LC60
+    # outreach radar backlog audit 2026-09-07, board verified; rebranded to LC60
