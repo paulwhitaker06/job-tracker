@@ -2617,3 +2617,12 @@ companies:
     url: https://lc60.ai/careers/
     link_contains: /careers/
     # outreach radar backlog audit 2026-09-07, board verified; rebranded to LC60
+
+  - name: Anduril
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/andurilindustries
+
+  - name: Kymeta
+    type: html_links
+    url: https://jobs.jobvite.com/kymetacorp
+    link_contains: kymetacorp/job
