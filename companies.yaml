@@ -2626,3 +2626,63 @@ companies:
     type: html_links
     url: https://jobs.jobvite.com/kymetacorp
     link_contains: kymetacorp/job
+
+  - name: Besxar
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/besxar
+    board: besxar
+    # newsletter harvest 2026-09-09 (Payload, $9.35M seed, in-space semiconductor manufacturing)
+
+  - name: Eclipse Space
+    type: html_links
+    url: https://www.eclipse.space/careers
+    link_contains: /job-listings/
+    # newsletter harvest 2026-09-09 (Payload, turnkey satellite platforms, out of stealth June 2026)
+
+  - name: Gama
+    type: html_links
+    url: https://jobs.world.luccasoftware.com/gama
+    link_contains: /gama/
+    # newsletter harvest 2026-09-09 (Payload, French solar sails and spacecraft power systems)
+
+  - name: SSC Space
+    type: html_links
+    url: https://sscspace.com/career/job-opportunities/
+    link_contains: /career/job-opportunities/
+    # newsletter harvest 2026-09-09 (Payload, Swedish Space Corporation ground segment, direct KSAT analog)
+
+  - name: Simera Sense
+    type: html_links
+    url: https://simera-sense.breezy.hr/
+    link_contains: /p/
+    # newsletter harvest 2026-09-08 (Payload, hyperspectral and optical EO payloads)
+
+  - name: Orbital Lasers
+    type: html_links
+    url: https://hrmos.co/pages/orbital-lasers/jobs
+    link_contains: /pages/orbital-lasers/jobs/
+    # newsletter harvest 2026-09-08 (Payload, SKY Perfect JSAT spinout, spaceborne optics and laser systems)
+
+  - name: Maritime Launch Services
+    type: html_links
+    url: https://www.maritimelaunch.com/careers
+    link_contains: /careers/
+    # newsletter harvest 2026-09-08 (Payload, Spaceport Nova Scotia operator)
+
+  - name: Dcubed
+    type: html_links
+    url: https://dcubed.teamtailor.com/jobs
+    link_contains: /jobs/
+    # newsletter harvest 2026-09-08 (Payload, German in-orbit actuators and deployable structures)
+
+  - name: Galaxia
+    type: html_links
+    url: https://gx.space/careers
+    link_contains: /careers/
+    # newsletter harvest 2026-09-08 (Payload, Halifax intelligent satellites and orbital edge compute)
+
+  - name: Gilat Satellite Networks
+    type: html_links
+    url: https://www.comeet.com/jobs/gilat/39.005
+    link_contains: /jobs/gilat/39.005/
+    # outreach radar cross-check 2026-09-09, board verified; satcom ground systems
