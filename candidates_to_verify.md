@@ -108,12 +108,12 @@ Note: expect most of these to fail even with Playwright — JS-rendered pages of
 
 | Company | Candidate URL | Why it fits | Status |
 |---|---|---|---|
-| **ORBES** | https://www.orbes.us | Outreach radar 71.5; pre-seed inspection sats; apply.workable.com/orbes account exists but unconfirmed as theirs, zero jobs | parked 2026-09-07, radar backlog audit |
+| **ORBES** | https://orbes.space/careers | Outreach radar 71.5; pre-seed inspection sats; apply.workable.com/orbes account exists but unconfirmed as theirs, zero jobs | parked 2026-09-07, radar backlog audit |
 | ~~Gilat Satellite Networks~~ | https://www.gilat.com/career/ | Radar 34.0; careers behind Sucuri JS challenge, old Comeet board dead; needs a real browser | VERIFIED 2026-09-09, added to companies.yaml (Comeet board 39.005, 37 jobs incl. two Director BD roles) |
 | **Seagate Space** | https://seagatespace.com/ | Radar 79.0; 2025 offshore-launch startup, site has NO careers page, LinkedIn-only hiring | parked 2026-09-07, radar backlog audit |
 | **Sophia Space** | https://sophia.space/ | Radar 69.5; no careers page, jobs via LinkedIn/ZipRecruiter only | parked 2026-09-07, radar backlog audit |
 | **Starfighters Space** | https://starfightersspace.com/ | Radar 51.5; no careers section on site, no ATS found | parked 2026-09-07, radar backlog audit |
-| **NordSpace** | https://www.nordspace.com/careers | Radar 56.5; careers page is an unfinished Webflow template, real path careers@nordspace.com | parked 2026-09-07, radar backlog audit |
+| **NordSpace** | https://www.nordspace.ca/careers | Radar 56.5; careers page is an unfinished Webflow template, real path careers@nordspace.com | parked 2026-09-07, radar backlog audit |
 | **Mission Space** | https://www.mission.space/ | Radar 56.0; space-weather co, no careers page at all, LinkedIn-only | parked 2026-09-07, radar backlog audit |
 | ~~Simera Sense~~ | https://simerasense.com/ | Payload 2026-09-08: hyperspectral EO payload for Galaxia; South African optical payload maker, commercial-stage EO hardware; site unreachable from probe, no ATS found | VERIFIED 2026-09-09, added to companies.yaml (simera-sense.breezy.hr, 5 open roles) |
 | ~~Galaxia~~ | https://www.galaxia.ca/ | Payload 2026-09-08: Canadian EO constellation buying a hyperspectral payload from Simera Sense; site unreachable from probe, no ATS found | VERIFIED 2026-09-09, added to companies.yaml (gx.space/careers, 15 listings incl. 3 regional BD Manager roles) |
@@ -125,6 +125,12 @@ Note: expect most of these to fail even with Playwright — JS-rendered pages of
 | **GD1** | https://gd1.vc/ | Outreach radar; New Zealand venture fund, not an operating company, no careers board expected | parked 2026-09-08, radar cross-check |
 | **SaxaVord Spaceport** | https://saxavord.com/recruitment/ | Payload 2026-09-09: receiving 30M GBP from the UK government plus 30M GBP private; UK vertical launch spaceport on Unst, Shetland. Recruitment page loads but states no positions currently available, and past postings sit at top level slugs with no stable substring | parked 2026-09-09, daily newsletter harvest |
 | **LogistLab** | https://logistlab.biz/recruit/ | Payload 2026-09-08: named in an Orbital Lasers equity investment for spaceborne telescopes and optics. The only company of this name is a Kyoto optics R and D venture (precision mirrors, Seimei telescope heritage); its recruit page links four role titles to one generic page, so there is no per job URL. Re-read the Payload item before adding, the name may refer to a firm with no web presence yet | parked 2026-09-09, daily newsletter harvest |
+| **Skynopy** | https://www.welcometothejungle.com/en/companies/skynopy/jobs | Payload 2026-09-10: launched Global AKAR with Eutelsat, a software-defined ground network; ground-station-as-a-service for LEO operators, 15+ stations, EUR 15M raised | parked 2026-09-10, daily newsletter harvest |
+| **Charter Space** | https://www.charter.space/careers | Payload 2026-09-10 (paid sponsor slot, not editorial): US space insurance brokerage; careers page returns 200 but lists zero roles | parked 2026-09-10, daily newsletter harvest |
+| **Venturi Space** | none found | Payload 2026-09-10: unveiled the ALTA LUNA lunar utility vehicle; neither venturi-space.com nor venturispace.com resolved from probe | parked 2026-09-10, daily newsletter harvest |
+| **UNIVITY** | none found | Payload 2026-09-10: claims first mmWave 5G NTN connection with shared uplink and downlink spectrum; real domain unidentified, univity.space is parked for sale | parked 2026-09-10, daily newsletter harvest |
+| **Vaya Defense and Space** | none found | Payload 2026-09-10: hybrid propulsion, signed an MoU with Starfighters Space for suborbital air-launch; no board located | parked 2026-09-10, daily newsletter harvest |
+| **Interstellar Mapping** | none found | Payload 2026-09-10: co-founder in the Off World panel lineup; commercial status unconfirmed, weakest candidate in this batch | parked 2026-09-10, daily newsletter harvest |
 
 Re-check notes, 2026-09-09 radar cross-check (all still parked, same outcome as 2026-09-07):
 - **ORBES** is not European and not Earth observation: it is a Los Angeles Techstars company building in-space inspection and maintenance robots. orbes.space/careers is a real page with one open role, but applications go to an email address and there are zero per job links.
@@ -133,3 +139,10 @@ Re-check notes, 2026-09-09 radar cross-check (all still parked, same outcome as 
 - **Sophia Space**, **Mission Space** and **Starfighters Space** have no careers page on their own sites, confirmed against each site's sitemap. LinkedIn is the only route.
 - **GD1** is confirmed a New Zealand venture fund, not an operating company. Its portfolio aggregator at careers.gd1.vc/jobs is live but would pollute companies.yaml with unrelated roles.
 - **GHGSat** is NOT missing from companies.yaml; it is already tracked under the name "GHG Sat" (workable_api). The outreach radar spells it without the space.
+
+Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias or spelling artifact, or already parked):
+- The cross-check flagged 18 proactive_targets as missing from companies.yaml. Five were subsidiary naming of tracked parents (ICEYE US, EnduroSat USA, Kepler Communications US, Anduril Maritime, EarthDaily Analytics) and three were tracked under different strings (Apex is "Apex Space", Umbra is "Umbra Space (Umbra Lab)", ULA is "United Launch Alliance").
+- The remaining nine were the known backlog. GHGSat is tracked as "GHG Sat"; Starlab Space resolves to the Voyager Technologies board; GD1 is a venture fund; Seagate Space, Sophia Space, Mission Space, Starfighters Space and NordSpace stay parked with the same outcomes as 2026-09-07.
+- ORBES row URL corrected to orbes.space/careers (www.orbes.us was the wrong domain). orbes.space/careers is a real Framer page with one open role, but applications go to a mailto and there are no per job URLs, so it stays parked rather than becoming html_links. It would fit the manual_check convention if that is wanted.
+- NordSpace row URL corrected to nordspace.ca (the .com is a stale template). The .ca TLS failure was reproduced with OpenSSL 3.6.3, LibreSSL curl, Python urllib and WebFetch, so it is a Webflow bot filter rejecting non-browser clients, not a local TLS stack problem.
+- Starlab Space: the bare domain starlab.space is now a GoDaddy for-sale parked page. The live site is starlab-space.com. If the dashboard radar card links to starlab.space, that link is dead.

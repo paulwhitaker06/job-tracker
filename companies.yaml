@@ -2686,3 +2686,29 @@ companies:
     url: https://www.comeet.com/jobs/gilat/39.005
     link_contains: /jobs/gilat/39.005/
     # outreach radar cross-check 2026-09-09, board verified; satcom ground systems
+  - name: TrustPoint
+    type: html_links
+    url: https://trustpoint.breezy.hr/
+    link_contains: /p/
+    # newsletter harvest 2026-09-10 (Payload, commercial GNSS/PNT constellation, 40 sats ordered from EnduroSat)
+
+  - name: ispace
+    type: lever_api
+    url: https://jobs.lever.co/ispace-inc
+    # newsletter harvest 2026-09-10 (Payload, lunar transportation and payload services)
+
+  - name: Danti
+    type: lever_api
+    url: https://jobs.lever.co/danti.ai
+    # newsletter harvest 2026-09-10 (Payload, natural-language search over satellite and geospatial data, USSF TacSRT)
+
+  - name: Cailabs
+    type: html_links
+    url: https://www.cailabs.com/en/careers/our-job-offers/
+    link_contains: /offres/
+    # newsletter harvest 2026-09-10 (Payload, optical ground station as a service, space comms photonics)
+
+  - name: Orbital
+    type: manual_check
+    url: https://orbital.inc/#careers
+    # newsletter harvest 2026-09-10 (Payload, orbital data centers; roles on-page via mailto, no ATS. Note: ashby slug 'orbital' is Orbital Witness, unrelated)
