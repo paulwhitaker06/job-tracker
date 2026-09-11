@@ -2703,10 +2703,11 @@ companies:
     # newsletter harvest 2026-09-10 (Payload, natural-language search over satellite and geospatial data, USSF TacSRT)
 
   - name: Cailabs
-    type: html_links
-    url: https://www.cailabs.com/en/careers/our-job-offers/
-    link_contains: /offres/
+    type: manual_check
+    url: https://www.cailabs.com/our-job-offers/
     # newsletter harvest 2026-09-10 (Payload, optical ground station as a service, space comms photonics)
+    # manual_check 2026-09-11: html_links scraped 0 items. fetch_html strips the trailing slash and the
+    # slash-less URL 404s, and the offer links (/fr/offres/) match no JOB_INDICATORS. Roles are on this page.
 
   - name: Orbital
     type: manual_check
