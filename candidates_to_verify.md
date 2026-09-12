@@ -146,3 +146,14 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 - ORBES row URL corrected to orbes.space/careers (www.orbes.us was the wrong domain). orbes.space/careers is a real Framer page with one open role, but applications go to a mailto and there are no per job URLs, so it stays parked rather than becoming html_links. It would fit the manual_check convention if that is wanted.
 - NordSpace row URL corrected to nordspace.ca (the .com is a stale template). The .ca TLS failure was reproduced with OpenSSL 3.6.3, LibreSSL curl, Python urllib and WebFetch, so it is a Webflow bot filter rejecting non-browser clients, not a local TLS stack problem.
 - Starlab Space: the bare domain starlab.space is now a GoDaddy for-sale parked page. The live site is starlab-space.com. If the dashboard radar card links to starlab.space, that link is dead.
+| **T. Rowe Price** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **AT&T Business** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Amazon Leo** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Vaya Defense & Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **NewOrbit Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Genesia** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Tenchijin** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **iQPS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Deutsche Telekom IoT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **stc group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Graviron Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
