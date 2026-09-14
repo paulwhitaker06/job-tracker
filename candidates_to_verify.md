@@ -157,3 +157,27 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Deutsche Telekom IoT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
 | **stc group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
 | **Graviron Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-12 |
+| **Office of Energy Dominance Financing (EDF/LPO)** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Southern Company** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Pattern Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Westinghouse** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Ford** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Solyndra** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **ARC Ride** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Carrum Mobility** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Molten Salt Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Jaipur Robotics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Rebaba** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Circolife** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **FRYTE Mobility** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Veridue AI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **DigitalPaani** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Elia Transmission Belgium** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Anesco** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Siltworm** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **ENERPARC AG** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Molten Ventures** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Shine** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Fortum** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Jet Zero Australia** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Carbon Neutral Fuels** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |

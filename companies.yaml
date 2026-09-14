@@ -2713,3 +2713,18 @@ companies:
     type: manual_check
     url: https://orbital.inc/#careers
     # newsletter harvest 2026-09-10 (Payload, orbital data centers; roles on-page via mailto, no ATS. Note: ashby slug 'orbital' is Orbital Witness, unrelated)
+
+  - name: NextEra Energy
+    type: workable_api
+    url: https://apply.workable.com/nextera-energy/
+    # auto-added from Payload intel 2026-09-14
+
+  - name: Constellation
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/constellation
+    # auto-added from Payload intel 2026-09-14
+
+  - name: Green Eagle Solutions
+    type: workable_api
+    url: https://apply.workable.com/greeneaglesolutions/
+    # auto-added from Payload intel 2026-09-14
