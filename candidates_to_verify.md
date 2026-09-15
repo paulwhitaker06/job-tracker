@@ -181,3 +181,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Fortum** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
 | **Jet Zero Australia** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
 | **Carbon Neutral Fuels** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-14 |
+| **Space42** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
+| **Elveo Mobile** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
+| **Mitsubishi Heavy Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
+| **ColliMate Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
+| **The Fermi Explorer Mission** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
