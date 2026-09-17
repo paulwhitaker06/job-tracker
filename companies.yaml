@@ -2728,3 +2728,13 @@ companies:
     type: workable_api
     url: https://apply.workable.com/greeneaglesolutions/
     # auto-added from Payload intel 2026-09-14
+
+  - name: Zero Gravity
+    type: workable_api
+    url: https://apply.workable.com/zerogravity/
+    # auto-added from Payload intel 2026-09-17
+
+  - name: Voyager
+    type: workable_api
+    url: https://apply.workable.com/voyager/
+    # auto-added from Payload intel 2026-09-17

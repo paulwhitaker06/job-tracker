@@ -188,3 +188,4 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **The Fermi Explorer Mission** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-15 |
 | **Brightband** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-16 |
 | **Mistral** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-16 |
+| **Ecosmic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-17 |
