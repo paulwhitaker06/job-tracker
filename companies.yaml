@@ -2763,3 +2763,29 @@ companies:
     type: workable_api
     url: https://apply.workable.com/exxonmobil/
     # auto-added from Payload intel 2026-09-21
+
+  - name: Space Cargo Unlimited
+    type: workable_api
+    url: https://apply.workable.com/space-cargo-unlimited/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: ALL.SPACE
+    type: workable_api
+    url: https://apply.workable.com/allspace/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: Starfish Space
+    type: workable_api
+    url: https://apply.workable.com/starfish-space/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: GHGSat
+    type: workable_api
+    url: https://apply.workable.com/ghgsat/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: Rendezvous Robotics
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/rendezvousrobotics
+    board: rendezvousrobotics
+    # auto-added from Payload intel 2026-09-21
