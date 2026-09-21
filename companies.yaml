@@ -2738,3 +2738,28 @@ companies:
     type: workable_api
     url: https://apply.workable.com/voyager/
     # auto-added from Payload intel 2026-09-17
+
+  - name: Orange
+    type: workable_api
+    url: https://apply.workable.com/orange/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: InnerPlant
+    type: workable_api
+    url: https://apply.workable.com/innerplant/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: Terran Orbital
+    type: workable_api
+    url: https://apply.workable.com/terranorbital/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: Planted Solar
+    type: workable_api
+    url: https://apply.workable.com/planted-solar/
+    # auto-added from Payload intel 2026-09-21
+
+  - name: ExxonMobil
+    type: workable_api
+    url: https://apply.workable.com/exxonmobil/
+    # auto-added from Payload intel 2026-09-21

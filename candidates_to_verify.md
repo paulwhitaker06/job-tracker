@@ -189,3 +189,22 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Brightband** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-16 |
 | **Mistral** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-16 |
 | **Ecosmic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-17 |
+| **Dassault** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Argo Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **EQT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Astra** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Mazama** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Kanin Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **LineVision** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Branch Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Nomos** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **CorePower Magnetics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **MCatalysis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Ferm Labs** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Depotcharge** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **PyroCCS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Heron Power** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Tavion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **BioValue** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Kanadevia Inova** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Wittington Ventures** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
