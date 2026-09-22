@@ -2789,3 +2789,14 @@ companies:
     url: https://job-boards.greenhouse.io/rendezvousrobotics
     board: rendezvousrobotics
     # auto-added from Payload intel 2026-09-21
+
+  - name: TRL11
+    type: workable_api
+    url: https://apply.workable.com/trl11-inc/
+    # newsletter harvest 2026-09-22 (Payload, NASA SR-1 Mars imaging contract)
+
+  - name: HEO
+    type: html_links
+    url: https://heo.breezy.hr/
+    link_contains: /p/
+    # newsletter harvest 2026-09-22 (Payload, $25M Series B, non-Earth imaging)

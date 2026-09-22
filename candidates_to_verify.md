@@ -131,6 +131,8 @@ Note: expect most of these to fail even with Playwright — JS-rendered pages of
 | **UNIVITY** | none found | Payload 2026-09-10: claims first mmWave 5G NTN connection with shared uplink and downlink spectrum; real domain unidentified, univity.space is parked for sale | parked 2026-09-10, daily newsletter harvest |
 | **Vaya Defense and Space** | none found | Payload 2026-09-10: hybrid propulsion, signed an MoU with Starfighters Space for suborbital air-launch; no board located | parked 2026-09-10, daily newsletter harvest |
 | **Interstellar Mapping** | none found | Payload 2026-09-10: co-founder in the Off World panel lineup; commercial status unconfirmed, weakest candidate in this batch | parked 2026-09-10, daily newsletter harvest |
+| **Thales Alenia Space** | none found | Payload 2026-09-22: signed an MoU with Dhruva Space on LEO constellations and ground infrastructure; European space prime. thalesaleniaspace.com/en/careers returns 404 and no ATS slug resolved | parked 2026-09-22, daily newsletter harvest |
+| **ORBITInsure** | none found | Payload 2026-09-22: joined the Commercial Space Federation; space insurance, a risk and data pricing vertical adjacent to the AXA and British Marine deals. orbitinsure.com did not resolve at all, likely no public site under that spelling | parked 2026-09-22, daily newsletter harvest |
 
 Re-check notes, 2026-09-09 radar cross-check (all still parked, same outcome as 2026-09-07):
 - **ORBES** is not European and not Earth observation: it is a Los Angeles Techstars company building in-space inspection and maintenance robots. orbes.space/careers is a real page with one open role, but applications go to an email address and there are zero per job links.
@@ -301,7 +303,7 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Aukera Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **Tesla** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **Sirius Space Services** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
-| **HEO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| ~~HEO~~ | https://heo.breezy.hr/ | Payload intel mention; on the outreach radar pipeline. Payload 2026-09-22: closed a $25M Series B led by Beaten Zone VP, 50+ sensors on orbit as hosted payloads, tripling revenue and hiring | VERIFIED 2026-09-22, added to companies.yaml (heo.breezy.hr, 7 open roles across Sydney and Arlington VA) |
 | **Maverick Space Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **Icarus Robotics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **ispace US** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
