@@ -718,3 +718,4 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **ispace-EUROPE** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **Eutelsat OneWeb** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **ST Engineering iDirect** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
+| **Arkwright Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-23 |
