@@ -719,3 +719,26 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Eutelsat OneWeb** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **ST Engineering iDirect** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-21 |
 | **Arkwright Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-23 |
+| **SpinLaunch** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Meridian Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Astro Digital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Aethero** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **GomSpace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Sternula** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **StandardX** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Cura Climate** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Metris Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Xpansiv** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **EnviCore** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Metycle** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Newcleo** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **ONE Nuclear Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Hero Motors Limited** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Commonweal Ventures** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Blue Earth Capital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Energy Revolution Ventures** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **BlueOrchard** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **xAI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Crusoe** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **CGI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **TakeMe2Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |

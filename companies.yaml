@@ -2800,3 +2800,34 @@ companies:
     url: https://heo.breezy.hr/
     link_contains: /p/
     # newsletter harvest 2026-09-22 (Payload, $25M Series B, non-Earth imaging)
+
+  - name: Ultraviolette Automotive
+    type: workable_api
+    url: https://apply.workable.com/ultraviolette-automotive/
+    # auto-added from Payload intel 2026-09-29
+
+  - name: Amber Electric
+    type: lever_api
+    url: https://jobs.lever.co/amberelectric
+    # auto-added from Payload intel 2026-09-29
+
+  - name: GridStor
+    type: workable_api
+    url: https://apply.workable.com/gridstor/
+    # auto-added from Payload intel 2026-09-29
+
+  - name: SB Energy
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/sbenergy
+    board: sbenergy
+    # auto-added from Payload intel 2026-09-29
+
+  - name: Oracle
+    type: workable_api
+    url: https://apply.workable.com/oracle/
+    # auto-added from Payload intel 2026-09-29
+
+  - name: OVHcloud
+    type: workable_api
+    url: https://apply.workable.com/ovhcloud/
+    # auto-added from Payload intel 2026-09-29
