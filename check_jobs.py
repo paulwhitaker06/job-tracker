@@ -47,6 +47,9 @@ Improvements in this version
 24. Garbage-titled items are stored in seen_jobs.json with garbage_title
     instead of being re-fetched every run. An item whose title fetch failed
     outright (empty title) is retried for MAX_TITLE_TRIES runs first.
+25. Deliver first, record second: seen_jobs.json and company_health.json are
+    written only after the digest email is sent. A failed send exits
+    non-zero and writes nothing, so the postings come back on the next run.
 """
 
 from __future__ import annotations
@@ -2142,16 +2145,29 @@ def build_html_email(
     return html
 
 
-def send_email(subject: str, html_body: str, plain_body: str) -> None:
-    host = os.environ.get("SMTP_HOST")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ.get("SMTP_USER")
-    password = os.environ.get("SMTP_PASS")
-    to_email = os.environ.get("TO_EMAIL")
+def send_email(subject: str, html_body: str, plain_body: str) -> bool:
+    """Send the digest. Returns True once it is sent and raises on any
+    failure, so main() can leave seen_jobs.json untouched and exit non-zero.
 
-    if not all([host, user, password, to_email]):
-        log.warning("Email not configured (missing SMTP_HOST/SMTP_USER/SMTP_PASS/TO_EMAIL)")
-        return
+    Returns False only for a local run with no mail settings at all, which
+    stays a dry run. In GitHub Actions a missing or partial setting is a
+    failure: an unset secret loses the digest exactly like an SMTP error."""
+    settings = {
+        "SMTP_HOST": os.environ.get("SMTP_HOST"),
+        "SMTP_USER": os.environ.get("SMTP_USER"),
+        "SMTP_PASS": os.environ.get("SMTP_PASS"),
+        "TO_EMAIL": os.environ.get("TO_EMAIL"),
+    }
+    missing = [k for k, v in settings.items() if not v]
+    if missing:
+        if len(missing) == len(settings) and os.environ.get("GITHUB_ACTIONS") != "true":
+            log.warning("Email not configured (no SMTP_HOST/SMTP_USER/SMTP_PASS/TO_EMAIL): "
+                        "local dry run, nothing sent")
+            return False
+        raise RuntimeError("email settings missing: " + ", ".join(missing))
+    host, user = settings["SMTP_HOST"], settings["SMTP_USER"]
+    password, to_email = settings["SMTP_PASS"], settings["TO_EMAIL"]
+    port = int(os.environ.get("SMTP_PORT") or "587")
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -2160,16 +2176,23 @@ def send_email(subject: str, html_body: str, plain_body: str) -> None:
     msg.attach(MIMEText(plain_body, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
+    server = smtplib.SMTP(host, port, timeout=30)
     try:
-        with smtplib.SMTP(host, port, timeout=30) as server:
-            server.ehlo()
-            server.starttls()
-            server.ehlo()
-            server.login(user, password)
-            server.sendmail(user, [to_email], msg.as_string())
-        log.info(f"Email sent -> {to_email}")
-    except Exception as e:
-        log.error(f"Email send failed: {type(e).__name__}: {e}")
+        server.ehlo()
+        server.starttls()
+        server.ehlo()
+        server.login(user, password)
+        # One recipient, so sendmail raises if the server refuses it.
+        server.sendmail(user, [to_email], msg.as_string())
+    finally:
+        # The message is accepted once sendmail returns. A failed QUIT after
+        # that must not turn a delivered digest into a reported failure.
+        try:
+            server.quit()
+        except Exception:
+            pass
+    log.info(f"Email sent -> {to_email}")
+    return True
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -2462,12 +2485,12 @@ def main() -> None:
     # ── Deduplicate same title across boards ─────────────────────────────
     new_items = deduplicate(new_items)
 
-    save_seen(seen)
+    # seen_jobs.json and company_health.json are written only after the
+    # digest is delivered (see the end of main).
     active_names = {c["name"] for c in work}
     ghosts = prune_health(health, active_names)
     if ghosts:
         log.info(f"Pruned {len(ghosts)} health entries for removed boards: {', '.join(sorted(ghosts)[:5])}...")
-    save_health(health)
     attention = build_attention_list(health, active_names)
     alarm = build_alarm_list(health, active_names)
     try:
@@ -2531,8 +2554,23 @@ def main() -> None:
     with open("latest_digest.txt", "w", encoding="utf-8") as f:
         f.write(plain_body)
 
+    # Deliver first, record second. The send error used to be swallowed after
+    # seen_jobs.json had already been saved, so one SMTP failure marked that
+    # day's postings as seen and they were never sent again. Now a failed send
+    # writes nothing and exits non-zero: the workflow's commit step is skipped
+    # (it has no "if: always()"), its failure notification fires, and the next
+    # run finds the same postings as new.
     log.info("Sending email...")
-    send_email(subject, html_body, plain_body)
+    try:
+        send_email(subject, html_body, plain_body)
+    except Exception as e:
+        log.error(f"Email send failed: {type(e).__name__}: {e}")
+        log.error(f"Digest NOT delivered ({len(new_items)} new postings). seen_jobs.json and "
+                  f"company_health.json were not written, so the next run reports them again.")
+        raise SystemExit(1)
+
+    save_seen(seen)
+    save_health(health)
     log.info("Done.")
     print(plain_body)
 
