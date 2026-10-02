@@ -28,7 +28,8 @@ Improvements in this version
 14. Minimum link threshold – Pass 1 with < 3 links escalates to Playwright.
 15. LinkedIn URLs warn clearly rather than silently skipping.
 16. Notion pages detected and warned (JS-rendered, cannot be scraped).
-17. Weekly search sweep – discovers new companies not in YAML.
+17. (Retired 2026-10: the weekly Google search sweep. See the note above
+    the monthly manual-check re-probe.)
 18. URL canonicalization – tracking params stripped before hashing, prevents
     duplicate seen_jobs entries for the same posting with different referral params.
 19. Title canonicalization – location suffixes, remote tags, pipe junk stripped
@@ -60,7 +61,6 @@ import logging
 import os
 import re
 import smtplib
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
@@ -82,7 +82,7 @@ log = logging.getLogger("job-tracker")
 
 # constants
 SEEN_FILE = "seen_jobs.json"
-SEARCH_CACHE_FILE = "search_cache.json"
+SEARCH_CACHE_FILE = "search_cache.json"   # holds last_manual_recheck (monthly re-probe gate)
 HEALTH_FILE = "company_health.json"
 
 EMPTY_ALARM_RUNS = 30         # digest flags boards freshly crossing this many empty runs
@@ -1713,77 +1713,21 @@ def deduplicate(items: list[dict]) -> list[dict]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# WEEKLY SEARCH SWEEP
+# MONTHLY MANUAL-CHECK RE-PROBE
 # ─────────────────────────────────────────────────────────────────────────────
-#
-# Runs once per week (checks a local cache file for last run date).
-# Searches a handful of ATS board domains for relevant roles in the EO /
-# geospatial / maritime / BD space that aren't from companies already in
-# your YAML watchlist.
-#
-# Requires the `googlesearch-python` package:
-#   pip install googlesearch-python
-#
-# If the package isn't installed the sweep is silently skipped and a
-# warning is logged. No hard dependency.
-# ─────────────────────────────────────────────────────────────────────────────
+# Companies migrate ATS: a board that needed manual checking last year may be
+# on Ashby today. Once every 30 days, fetch each manual_check company's page,
+# look for an ATS embed, verify it against the live API, and upgrade the YAML
+# entry in place (committed by the workflow) so the company joins the daily
+# scrape permanently.
 
-SEARCH_QUERIES = [
-    # Earth observation / satellite / geospatial
-    'site:jobs.lever.co "earth observation" "business development"',
-    'site:jobs.lever.co "satellite" "partnerships"',
-    'site:jobs.lever.co "geospatial" "director"',
-    'site:jobs.ashbyhq.com "earth observation" "business development"',
-    'site:jobs.ashbyhq.com "satellite" "partnerships"',
-    'site:boards.greenhouse.io "earth observation" "sales"',
-    'site:boards.greenhouse.io "geospatial" "partnerships"',
-    'site:jobs.lever.co "remote sensing" "commercial"',
-    'site:jobs.ashbyhq.com "geospatial" "head of commercial"',
-    'site:job-boards.greenhouse.io "satellite data" "director"',
-    'site:job-boards.greenhouse.io "geospatial" "business development"',
-    'site:apply.workable.com "earth observation" "partnerships"',
-    'site:apply.workable.com "satellite" "director"',
-    # Maritime / ocean
-    'site:jobs.lever.co "maritime" "business development"',
-    'site:jobs.lever.co "maritime" "director"',
-    'site:boards.greenhouse.io "maritime" "partnerships"',
-    'site:job-boards.greenhouse.io "maritime" "commercial"',
-    'site:jobs.lever.co "ocean" "business development"',
-    'site:jobs.ashbyhq.com "maritime" "head of"',
-    # Climate / carbon / ESG
-    'site:jobs.lever.co "climate" "partnerships" "director"',
-    'site:jobs.lever.co "carbon" "business development"',
-    'site:boards.greenhouse.io "climate risk" "director"',
-    'site:job-boards.greenhouse.io "sustainability" "partnerships"',
-    'site:jobs.ashbyhq.com "climate" "commercial"',
-    'site:apply.workable.com "climate" "business development"',
-    # Supply chain / trade intelligence
-    'site:jobs.lever.co "supply chain" "partnerships"',
-    'site:boards.greenhouse.io "trade intelligence" "director"',
-    'site:job-boards.greenhouse.io "supply chain visibility" "director"',
-    # Data licensing / commercialization
-    'site:jobs.lever.co "data licensing"',
-    'site:boards.greenhouse.io "data licensing"',
-    'site:jobs.lever.co "data commercialization"',
-    'site:job-boards.greenhouse.io "data partnerships" "director"',
-    # Rippling / SmartRecruiters (hosts added to the CSE 2026-07-09)
-    'site:ats.rippling.com "business development" "space"',
-    'site:ats.rippling.com "partnerships" "director"',
-    'site:jobs.smartrecruiters.com "earth observation" "commercial"',
-    'site:jobs.smartrecruiters.com "satellite" "business development"',
-    # Nonprofit commercialization (the GFW archetype: mission org, data
-    # product, revenue role)
-    'site:jobs.lever.co "nonprofit" "earned revenue" "director"',
-    'site:job-boards.greenhouse.io "nonprofit" "data" "partnerships"',
-    'site:jobs.lever.co "conservation" "business development"',
-    'site:boards.greenhouse.io "environmental data" "commercial"',
-    # Space economy commercial roles
-    'site:jobs.ashbyhq.com "space" "head of sales"',
-    'site:jobs.ashbyhq.com "launch" "business development"',
-    'site:job-boards.greenhouse.io "ground station" "sales"',
-    'site:jobs.lever.co "space" "government affairs" "director"',
-]
-
+# The weekly Google search sweep that used to live above this section was
+# retired on 2026-10-02. It ran on the Google Custom Search JSON API, which
+# answered HTTP 403 to all 44 queries on every run from 2026-07-10 on and
+# never returned one result (Google has closed that API to new customers and
+# shuts it down on 2027-01-01). Discovery of companies outside companies.yaml
+# comes from the Payload auto-add and the LinkedIn alerts in the pipeline.
+# search_cache.json stays because the 30-day gate below lives in it.
 
 def _load_search_cache() -> dict:
     if os.path.exists(SEARCH_CACHE_FILE):
@@ -1798,127 +1742,6 @@ def _save_search_cache(cache: dict) -> None:
         json.dump(cache, f, indent=2)
     os.replace(tmp, SEARCH_CACHE_FILE)
 
-
-def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
-    """
-    Runs Google searches against ATS boards to surface roles from companies
-    not in your YAML watchlist. Returns a list of new items (same shape as
-    main scraper items) to be scored and added to the digest.
-
-    Runs at most once per 7 days (tracked via search_cache.json).
-    """
-    cache = _load_search_cache()
-    last_run_str = cache.get("last_search_sweep")
-    if last_run_str:
-        last_run = datetime.fromisoformat(last_run_str)
-        if datetime.now(timezone.utc) - last_run < timedelta(days=7):
-            log.info("Search sweep: last run < 7 days ago, skipping.")
-            return []
-
-    cse_key = os.environ.get("GOOGLE_CSE_KEY")
-    cse_id = os.environ.get("GOOGLE_CSE_ID")
-    if not cse_key or not cse_id:
-        log.warning(
-            "Search sweep skipped: GOOGLE_CSE_KEY / GOOGLE_CSE_ID not set. "
-            "The old googlesearch-python HTML scraping was silently blocked "
-            "from CI; the JSON API needs these two secrets."
-        )
-        return []
-
-    def google_search(query: str, num_results: int = 10) -> list[str]:
-        """Google Custom Search JSON API. Free tier: 100 queries/day."""
-        r = SESSION.get(
-            "https://www.googleapis.com/customsearch/v1",
-            params={"key": cse_key, "cx": cse_id, "q": query, "num": num_results},
-            timeout=30,
-        )
-        r.raise_for_status()
-        return [item["link"] for item in r.json().get("items", [])]
-
-    known_domains = set()
-    for co in known_companies:
-        url = co.get("url", "")
-        try:
-            known_domains.add(urlparse(url).netloc.lower())
-        except Exception:
-            pass
-
-    seen_urls: set[str] = set(cache.get("seen_search_urls", []))
-    sweep_items: list[dict] = []
-
-    for query in SEARCH_QUERIES:
-        log.info(f"Search sweep: {query}")
-        try:
-            results = google_search(query, num_results=10)
-        except Exception as e:
-            log.warning(f"Search sweep query failed: {e}")
-            if "429" in str(e) or "quota" in str(e).lower():
-                log.warning("Search sweep: daily API quota exhausted, stopping early.")
-                break
-            continue
-
-        for url in results:
-            if url in seen_urls:
-                continue
-            seen_urls.add(url)
-
-            # Entire-web CSE returns anything; accept only known ATS hosts so
-            # sweep names stay derivable and junk domains die here (2026-07-20:
-            # a German research center and a jobs aggregator reached the
-            # dashboard with garbage company names).
-            if not re.match(r"https?://(jobs\.lever\.co|job-boards\.greenhouse\.io|boards\.greenhouse\.io|jobs\.ashbyhq\.com|apply\.workable\.com|ats\.rippling\.com|jobs\.smartrecruiters\.com)/", url):
-                continue
-
-            # Skip if this URL belongs to a domain already in YAML
-            try:
-                domain = urlparse(url).netloc.lower()
-            except Exception:
-                continue
-            if any(kd in domain or domain in kd for kd in known_domains):
-                continue
-
-            # Derive a company name from the URL path (best-effort)
-            parts = url.split("/")
-            inferred_name = parts[3] if len(parts) > 3 else domain
-
-            sweep_items.append({
-                "id": sha("__sweep__|" + url),
-                "url": url,
-                "title": None,
-                "company": f"[Sweep] {inferred_name}",
-            })
-
-        time.sleep(1)
-
-    # Fetch titles for sweep items concurrently
-    batch_fetch_titles(sweep_items)
-
-    cache["last_search_sweep"] = datetime.now(timezone.utc).isoformat()
-    cache["seen_search_urls"] = list(seen_urls)
-    _save_search_cache(cache)
-
-    scored = []
-    for item in sweep_items:
-        title = item.get("title") or ""
-        if is_garbage_title(title):
-            continue
-        s = score_title(title, item["url"])
-        if s > 0:
-            item["score"] = s
-            scored.append(item)
-
-    log.info(f"Search sweep complete: {len(scored)} relevant new results from {len(sweep_items)} URLs")
-    return scored
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# MONTHLY MANUAL-CHECK RE-PROBE
-# ─────────────────────────────────────────────────────────────────────────────
-# Companies migrate ATS: a board that needed manual checking last year may be
-# on Ashby today. Once every 30 days, fetch each manual_check company's page,
-# look for an ATS embed, verify it against the live API, and upgrade the YAML
-# entry in place (committed by the workflow) so the company joins the daily
-# scrape permanently.
 
 ATS_PROBE_PATTERNS = [
     # (page regex, yaml type, API verify template, yaml url template)
@@ -2053,12 +1876,9 @@ def build_html_email(
     rows = ""
     for company_name, items in sorted_companies:
         items_sorted = sorted(items, key=lambda x: x["score"], reverse=True)
-        # Flag sweep results with a subtle indicator
-        is_sweep = company_name.startswith("[Sweep]")
-        label_style = "color:#7c3aed;" if is_sweep else "color:#111;"
         rows += (
             f'<tr><td colspan="2" style="padding:12px 8px 4px;'
-            f'font-weight:bold;font-size:14px;{label_style}'
+            f'font-weight:bold;font-size:14px;color:#111;'
             f'border-top:2px solid #e5e7eb;">'
             f'{company_name}</td></tr>\n'
         )
@@ -2133,7 +1953,6 @@ def build_html_email(
   <span style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 5px;">&#9670; 2-3</span> good match &nbsp;
   <span style="background:#6b7280;color:#fff;border-radius:4px;padding:1px 5px;">&middot; 1</span> weak match &nbsp;
   <span style="background:#d1d5db;color:#fff;border-radius:4px;padding:1px 5px;">&middot;</span> unscored
-  &nbsp; <span style="color:#7c3aed;font-weight:bold;">Purple company name</span> = found via search sweep (not in watchlist)
 </p>
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
@@ -2465,22 +2284,6 @@ def main() -> None:
                     repaired += 1
     log.info(f"Board health: {hollow} boards returned links but no real posting "
              f"(counted as empty); {repaired} legacy last_nonempty stamps corrected")
-
-    # ── Weekly search sweep ───────────────────────────────────────────────
-    sweep_items = run_weekly_search_sweep(config["companies"])
-    for item in sweep_items:
-        item_id = item["id"]
-        if item_id not in seen:
-            seen[item_id] = {
-                "company": item["company"],
-                "url": item["url"],
-                "title": item.get("title", ""),
-                "score": item["score"],
-                "scored": True,
-                "first_seen_utc": datetime.now(timezone.utc).isoformat(),
-                "last_seen_utc": datetime.now(timezone.utc).isoformat(),
-            }
-            new_items.append(item)
 
     # ── Deduplicate same title across boards ─────────────────────────────
     new_items = deduplicate(new_items)
