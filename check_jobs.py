@@ -89,6 +89,7 @@ EMPTY_ALARM_WINDOW_DAYS = 7   # ...for this many days after the crossing
 FAIL_ATTENTION_STREAK = 3     # scraper errored this many runs in a row
 EMPTY_ATTENTION_STREAK = 30   # produced real postings before, now none for this long
 NEW_BOARD_GRACE_RUNS = 7      # never produced a real posting within this many runs
+ATTENTION_CAP = 20            # attention lines shown in the digest; the total is always stated
 
 # An unseen item whose title could not be fetched at all (empty, usually a
 # timeout or a blocked request) gets this many runs before it is left alone.
@@ -576,21 +577,40 @@ def update_health(health: dict, name: str, status: str, n_items: int = 0) -> Non
 
 
 def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
-    """Boards that need a human look, worst first."""
-    out = []
-    for name in sorted(active_names):
+    """Boards that need a human look, worst first: failing scrapes, then
+    boards that went quiet (produced before), then boards that never
+    produced. Within each group the longest streak comes first.
+
+    The digest shows only the first ATTENTION_CAP lines. The list used to be
+    alphabetical, so with 116 entries the failing boards (S, S and W) never
+    made the cut."""
+    ranked: list[tuple[int, int, str, str]] = []
+    for name in active_names:
         h = health.get(name)
         if not h:
             continue
         if h.get("fail_streak", 0) >= FAIL_ATTENTION_STREAK:
-            out.append(f"{name}: scrape FAILING {h['fail_streak']} runs in a row")
+            ranked.append((0, h["fail_streak"], name,
+                           f"{name}: scrape FAILING {h['fail_streak']} runs in a row"))
         elif h.get("last_nonempty") and h.get("empty_streak", 0) >= EMPTY_ATTENTION_STREAK:
-            out.append(f"{name}: no real postings for {h['empty_streak']} runs "
-                       f"(last produced {h['last_nonempty']}); verify the board moved or died")
+            ranked.append((1, h["empty_streak"], name,
+                           f"{name}: no real postings for {h['empty_streak']} runs "
+                           f"(last produced {h['last_nonempty']}); verify the board moved or died"))
         elif not h.get("last_nonempty") and h.get("runs", 0) >= NEW_BOARD_GRACE_RUNS:
-            out.append(f"{name}: never produced a real posting in {h['runs']} runs "
-                       f"since {h.get('first_tracked', '?')}; URL or type is probably wrong")
-    return out
+            ranked.append((2, h["runs"], name,
+                           f"{name}: never produced a real posting in {h['runs']} runs "
+                           f"since {h.get('first_tracked', '?')}; URL or type is probably wrong"))
+    ranked.sort(key=lambda r: (r[0], -r[1], r[2].lower()))
+    return [r[3] for r in ranked]
+
+
+def attention_header(attention: list[str]) -> str:
+    """Section title for the digest, always stating the total."""
+    if len(attention) > ATTENTION_CAP:
+        return (f"Boards needing attention ({len(attention)} in total; "
+                f"the worst {ATTENTION_CAP} shown: failing first, then went quiet, "
+                f"then never produced)")
+    return f"Boards needing attention ({len(attention)}, worst first)"
 
 
 def build_alarm_list(health: dict, active_names: set[str]) -> list[str]:
@@ -2058,13 +2078,13 @@ def build_html_email(
 
     attention_section = ""
     if attention:
-        shown = attention[:20]
-        more = (f"<li style='font-size:12px;color:#92400e;'>...and {len(attention) - 20} more "
-                f"(see company_health.json)</li>" if len(attention) > 20 else "")
+        shown = attention[:ATTENTION_CAP]
+        more = (f"<li style='font-size:12px;color:#92400e;'>...and {len(attention) - ATTENTION_CAP} more "
+                f"(see company_health.json)</li>" if len(attention) > ATTENTION_CAP else "")
         att = "".join(f"<li style='font-size:12px;color:#92400e;'>{a}</li>" for a in shown)
         attention_section = (
             f"<p style='margin-top:24px;color:#b45309;font-size:13px;font-weight:bold;'>"
-            f"&#9888; Boards needing attention ({len(attention)})</p><ul>{att}{more}</ul>"
+            f"&#9888; {attention_header(attention)}</p><ul>{att}{more}</ul>"
         )
 
     error_section = ""
@@ -2468,6 +2488,22 @@ def main() -> None:
 
     log.info(scrape_summary)
 
+    # Board-health footer for the plain-text part, which is the part the
+    # scoring pipeline reads. It goes on every digest, including the
+    # "No new jobs" one (it used to be left off that one). None of these lines
+    # starts with "[", so the pipeline's "[source] title / url" parser never
+    # takes one for a posting.
+    health_lines: list[str] = []
+    if alarm:
+        health_lines += ["", f"New boards crossing 30 empty runs this week ({len(alarm)}):"]
+        health_lines += [f"  {a}" for a in alarm]
+    if attention:
+        health_lines += ["", f"{attention_header(attention)}:"]
+        health_lines += [f"  {a}" for a in attention[:ATTENTION_CAP]]
+        if len(attention) > ATTENTION_CAP:
+            health_lines.append(
+                f"  ...and {len(attention) - ATTENTION_CAP} more (see company_health.json)")
+
     if new_items:
         subject = f"[Job Tracker] {len(new_items)} new posting{'s' if len(new_items)!=1 else ''} - {now_utc[:10]}"
         plain_lines = [
@@ -2479,18 +2515,14 @@ def main() -> None:
         for item in sorted(new_items, key=lambda x: x["score"], reverse=True):
             plain_lines.append(f"[{item['company']}] {item.get('title') or '(no title)'}")
             plain_lines.append(f"  {item['url']}")
-        if alarm:
-            plain_lines += ["", f"New boards crossing 30 empty runs this week ({len(alarm)}):"]
-            plain_lines += [f"  {a}" for a in alarm]
-        if attention:
-            plain_lines += ["", f"Boards needing attention ({len(attention)}):"]
-            plain_lines += [f"  {a}" for a in attention[:20]]
-            if len(attention) > 20:
-                plain_lines.append(f"  ...and {len(attention) - 20} more (see company_health.json)")
+        plain_lines += health_lines
         plain_body = "\n".join(plain_lines)
     else:
         subject = f"No new jobs today - {now_utc[:10]}"
-        plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
+        plain_body = "\n".join(
+            [f"Job Tracker - {now_utc}", scrape_summary, "", "No new postings found."]
+            + health_lines
+        )
 
     html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies, attention, alarm)
 
