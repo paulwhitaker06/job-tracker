@@ -91,9 +91,14 @@ In the digest a Getro posting is listed under the board's name. The same title
 at two different hiring companies is two postings; the same posting URL or the
 same title at one hiring company is one.
 
-If the search endpoint fails, the board counts as failed for that run and goes
-on the attention list after 3 failed runs. The 7-day window picks up what was
-missed on the next good run.
+If the search endpoint fails (HTTP error, timeout, or an answer in a shape the
+code does not know), the board still counts as scraped: it returns the 20
+embedded postings and any search pages it had already read, with the cap
+applied as usual. The failure is listed under Errors in the digest email, one
+line per board. After 2 failed searches in one run (`GETRO_SEARCH_FAIL_LIMIT`)
+the search is skipped for the remaining Getro boards, which are named in one
+more Errors line. The 7-day window picks up what was missed on the next good
+run. A board whose own page cannot be fetched counts as failed, as before.
 
 Climate Draft, Techstars and Schmidt Marine were read as plain page links
 before 2026-10. They keep the same ids and posting URLs
@@ -108,8 +113,15 @@ posting, new or already seen. These do not count:
 - junk listing URLs and garbage titles (the two flags above);
 - the board's own configured URL, when it comes back as a plain link;
 - plain links whose page title is a careers or listing page title
-  ("Careers at Acme", "Job Openings", "Search Openings") or just the company
-  name.
+  ("Careers at Acme", "Job Openings", "Search Openings", "Opportunities",
+  "Our employee benefits") or just the company name;
+- plain links that are an ATS sign-in or share button: titles "Connect",
+  "LinkedIn Login, Sign in", "Sign in to ...", and links to Threads, Bluesky,
+  Teamtailor's sign-in or Breezy's apply-with-LinkedIn on another host.
+
+A general application ("General Application", "General Inquiry") does count:
+it is an entry in the board's own posting list, so it shows the list is being
+read.
 
 So a board that returns only its careers landing page or its menu links is
 empty, and after 7 runs it is listed as "never produced a real posting".

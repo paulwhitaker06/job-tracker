@@ -55,7 +55,12 @@ Improvements in this version
     page, get_getro_jobs reads the network's public search for Sales &
     Business Development postings created in the last 7 days. A Getro board
     can put at most GETRO_DIGEST_CAP postings in one digest; the rest are
-    stored with over_cap and not emailed.
+    stored with over_cap and not emailed. If the search fails, the board
+    still returns its embedded postings and the failure is listed under
+    Errors in the digest.
+27. Greenhouse postings keep gh_jid in their URL, so boards that route
+    postings through the company's own careers page no longer give every
+    posting the same URL.
 """
 
 from __future__ import annotations
@@ -459,8 +464,12 @@ def is_junk_listing_url(url: str) -> bool:
     return any(p.search(url or "") for p in JUNK_LISTING_PATTERNS)
 
 
-def canonicalize_url(url: str) -> str:
-    """Strip tracking params and normalize URL before hashing or storing."""
+def canonicalize_url(url: str, keep_params: tuple[str, ...] = ()) -> str:
+    """Strip tracking params and normalize URL before hashing or storing.
+
+    keep_params names query parameters that stay even though they match a
+    tracking prefix. get_greenhouse_jobs passes gh_jid: on a board that routes
+    postings through the company's own careers page, gh_jid IS the posting."""
     if not url:
         return ""
     url = urldefrag(url.strip())[0]
@@ -478,6 +487,10 @@ def canonicalize_url(url: str) -> str:
     kept = []
     for k, v in parse_qsl(p.query, keep_blank_values=False):
         kl = k.lower()
+        if kl in keep_params:
+            if (k, v) not in kept:   # Spire's API URLs carry gh_jid twice
+                kept.append((k, v))
+            continue
         if kl in TRACKING_PARAM_EXACT:
             continue
         if any(kl.startswith(prefix) for prefix in TRACKING_PARAM_PREFIXES):
@@ -721,9 +734,20 @@ LISTING_TITLE_RE = re.compile(
     r"\bjob (openings?|opportunities|listings?|board|search|offers)\b|"
     r"\b(current|open|search|our) (openings|positions|vacancies|roles|opportunities)\b|"
     r"\bvacancies\b|\bwork (at|with|for)\b|\bjoin (us|our)\b|"
-    r"\bhow to apply\b|\brecruitment\b|^(positions|internships|benefits)$",
+    r"\bhow to apply\b|\brecruitment\b|"
+    r"^(positions|internships|opportunities|(our )?(employee )?benefits)$",
     re.IGNORECASE,
 )
+# Bare links that are an ATS sign-in or share button, not a posting: the
+# Teamtailor "Connect" page and LinkedIn sign-in, Breezy's apply-with-LinkedIn
+# link, share links to Threads and Bluesky. Boards whose only links were these
+# passed as producing (Leaf Space, Blue Ventures, The Nature Conservancy,
+# review 2026-10-02). Matched on the whole title or on the start of the URL.
+SIGN_IN_TITLE_RE = re.compile(
+    r"^(connect|linkedin login\b.*|sign in|sign in to\b.*)$", re.IGNORECASE)
+SIGN_IN_OR_SHARE_URL_RE = re.compile(
+    r"^https?://(www\.)?(threads\.net/|bsky\.app/|tt\.teamtailor\.com/auth/|"
+    r"app\.breezy\.hr/api/apply/)", re.IGNORECASE)
 _TITLE_SEGMENT_SPLIT_RE = re.compile(
     r"\s+[-|\u2013\u2014\u2022\u00b7\u00bb]\s+|:\s+")
 
@@ -782,6 +806,11 @@ def is_real_posting(board: dict, item_id: str, entry: dict) -> bool:
         if _page_key(url) == _page_key(board.get("url", "")):
             return False
         if is_listing_page_title(title, name):
+            return False
+        if SIGN_IN_TITLE_RE.match(title.strip()):
+            return False
+        if (SIGN_IN_OR_SHARE_URL_RE.match(url)
+                and _page_key(url)[0] != _page_key(board.get("url", ""))[0]):
             return False
     return True
 
@@ -1101,6 +1130,40 @@ GETRO_ORG_BONUS_MAX = 4   # most a hiring company's industry tags add when ranki
 # Getro's own seniority label; these are dropped from the search results.
 GETRO_JUNIOR_SENIORITY = {"internship", "entry_level", "associate"}
 _GETRO_LOCK = threading.Lock()   # one search request at a time across all boards
+# The search endpoint is undocumented. When it fails, a board keeps what it
+# could read (the embedded postings and any search pages already read) and the
+# failure goes into the digest's Errors section through the two lists below,
+# which main() empties at the start of a run and reads after the scrape. After
+# GETRO_SEARCH_FAIL_LIMIT failed searches, the search is skipped for the rest
+# of the run, so a closed or rate-limited endpoint costs two rounds of
+# retries and not sixteen.
+GETRO_SEARCH_FAIL_LIMIT = 2
+_GETRO_SEARCH_ERRORS: list[str] = []    # one line per board whose search failed
+_GETRO_SEARCH_SKIPPED: list[str] = []   # boards whose search was skipped after the limit
+_GETRO_SEARCH_STATE = {"failed": 0}     # failed searches this run
+_GETRO_STATE_LOCK = threading.Lock()
+
+
+class _GetroSearchOff(Exception):
+    """The search has failed GETRO_SEARCH_FAIL_LIMIT times this run and is
+    not called again until the next run."""
+
+
+def _getro_search_failed() -> None:
+    with _GETRO_STATE_LOCK:
+        _GETRO_SEARCH_STATE["failed"] += 1
+
+
+def _getro_search_off() -> bool:
+    return _GETRO_SEARCH_STATE["failed"] >= GETRO_SEARCH_FAIL_LIMIT
+
+
+def _getro_reset_run_state() -> None:
+    with _GETRO_STATE_LOCK:
+        _GETRO_SEARCH_ERRORS.clear()
+        _GETRO_SEARCH_SKIPPED.clear()
+        _GETRO_SEARCH_STATE["failed"] = 0
+
 
 _NEXT_DATA_RE = re.compile(
     r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
@@ -1112,13 +1175,43 @@ def is_getro_url(url: str) -> bool:
     return host in GETRO_HOSTS or host in GETRO_PAGE_LINK_HOSTS
 
 
+def _getro_ts(value) -> float:
+    """Getro's created_at as epoch seconds. It is an integer today. A numeric
+    string, a millisecond value or an ISO date is read too; anything else is
+    0.0 (age unknown), so every comparison and sort on it is number against
+    number whatever Getro sends."""
+    if isinstance(value, bool):
+        return 0.0
+    ts = 0.0
+    if isinstance(value, (int, float)):
+        ts = float(value)
+    elif isinstance(value, str) and value.strip():
+        try:
+            ts = float(value)
+        except ValueError:
+            dt = parse_dt(value.strip().replace("Z", "+00:00"))
+            ts = dt.timestamp() if dt else 0.0
+    if ts != ts or ts in (float("inf"), float("-inf")):
+        return 0.0
+    return ts / 1000 if ts > 1e11 else ts
+
+
 def _getro_search_page(network_id: str, page: int) -> list[dict]:
-    """One page of the network's public job search, newest first."""
+    """One page of the network's public job search, newest first. Raises
+    RuntimeError after two failed attempts (HTTP error, timeout, a body that
+    is not JSON or not the expected shape) and _GetroSearchOff once the
+    search has been switched off for this run."""
     body = {"hitsPerPage": 20, "page": page, "query": "",
             "filters": {"job_functions": GETRO_FUNCTIONS}}
     last_error: Exception | None = None
     for attempt in range(2):
+        if attempt:
+            time.sleep(2.0)   # outside the lock, so other boards are not held up
         with _GETRO_LOCK:
+            # Checked under the lock: boards that were already waiting here
+            # when the limit was reached do not call the endpoint either.
+            if _getro_search_off():
+                raise _GetroSearchOff()
             try:
                 r = SESSION.post(
                     GETRO_SEARCH_URL.format(cid=network_id), json=body, timeout=30,
@@ -1126,33 +1219,52 @@ def _getro_search_page(network_id: str, page: int) -> list[dict]:
                 )
                 r.raise_for_status()
                 jobs = r.json()["results"]["jobs"]
+                if not isinstance(jobs, list) or not all(isinstance(j, dict) for j in jobs):
+                    raise ValueError("results.jobs is not a list of postings")
                 time.sleep(0.2)
                 return jobs
             except Exception as e:
                 last_error = e
-                time.sleep(2.0)
+                if attempt:
+                    _getro_search_failed()
     raise RuntimeError(f"Getro search failed for network {network_id}, page {page}: "
                        f"{type(last_error).__name__}: {last_error}")
 
 
-def _getro_recent_commercial(network_id: str) -> list[dict]:
+def _getro_recent_commercial(network_id: str) -> tuple[list[dict], str | None]:
     """Search postings in GETRO_FUNCTIONS created within GETRO_WINDOW_DAYS,
-    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages."""
+    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages.
+
+    Returns (postings, error). It never raises: when a page fails, the
+    postings from the pages already read come back with the error text
+    ("" when the search was skipped because it is off for this run)."""
     cutoff = datetime.now(timezone.utc).timestamp() - GETRO_WINDOW_DAYS * 86400
     recent: list[dict] = []
     for page in range(GETRO_MAX_PAGES):
-        jobs = _getro_search_page(network_id, page)
-        recent += [j for j in jobs
-                   if (j.get("created_at") or 0) >= cutoff
-                   and (j.get("seniority") or "") not in GETRO_JUNIOR_SENIORITY]
-        # Featured postings can sit at the top whatever their age, so only
-        # the ordinary ones tell us whether the page has passed the window.
-        ordinary = [j for j in jobs if not j.get("featured")]
-        if len(jobs) < 20:
-            break
-        if ordinary and all((j.get("created_at") or 0) < cutoff for j in ordinary):
-            break
-    return recent
+        try:
+            jobs = _getro_search_page(network_id, page)
+            if jobs and not any(_getro_ts(j.get("created_at")) for j in jobs):
+                # No readable date on a whole page: the window cannot be
+                # applied, so nothing from this page is taken.
+                _getro_search_failed()
+                raise RuntimeError(f"Getro search for network {network_id}, page {page}: "
+                                   f"no posting carries a readable created_at")
+            recent += [j for j in jobs
+                       if _getro_ts(j.get("created_at")) >= cutoff
+                       and (j.get("seniority") or "") not in GETRO_JUNIOR_SENIORITY]
+            # Featured postings can sit at the top whatever their age, so only
+            # the ordinary ones tell us whether the page has passed the window.
+            ordinary = [j for j in jobs if not j.get("featured")]
+            if len(jobs) < 20:
+                break
+            if ordinary and all(_getro_ts(j.get("created_at")) < cutoff for j in ordinary):
+                break
+        except _GetroSearchOff:
+            return recent, ""
+        except Exception as e:
+            return recent, (str(e) if isinstance(e, RuntimeError)
+                            else f"{type(e).__name__}: {e}")
+    return recent, None
 
 
 def get_getro_jobs(company: dict) -> list[dict]:
@@ -1162,10 +1274,13 @@ def get_getro_jobs(company: dict) -> list[dict]:
     Pass 4 enforces per run (see over_digest_cap).
 
     Raises ValueError if the page is not a Getro page (the caller then falls
-    back to plain link extraction) and RuntimeError if the search endpoint
-    fails (the board then counts as failed for this run, which is what puts a
-    lasting breakage on the attention list; the 7-day window picks the missed
-    postings up on the next good run)."""
+    back to plain link extraction).
+
+    A failing search never fails the board: the embedded postings, which were
+    all this handler read before 2026-10, and any search pages already read
+    are returned as usual, and the failure is reported in the digest's Errors
+    section (_GETRO_SEARCH_ERRORS). The 7-day window picks the missed search
+    postings up on the next good run."""
     from urllib.parse import urlparse
     base = company["url"].rstrip("/")
     parsed = urlparse(base)
@@ -1181,11 +1296,24 @@ def get_getro_jobs(company: dict) -> list[dict]:
     network_id = str((page_props.get("network") or {}).get("id") or "")
 
     searched: list[dict] = []
-    if network_id:
-        searched = _getro_recent_commercial(network_id)
-    else:
+    if not network_id:
         log.warning(f"  {company['name']}: Getro page carries no network id; "
                     f"reading only the {len(found)} embedded postings")
+    else:
+        searched, search_error = _getro_recent_commercial(network_id)
+        if search_error == "":
+            with _GETRO_STATE_LOCK:
+                _GETRO_SEARCH_SKIPPED.append(company["name"])
+            log.warning(f"  {company['name']}: Getro search skipped (it failed "
+                        f"{GETRO_SEARCH_FAIL_LIMIT} times this run); kept the {len(found)} "
+                        f"embedded postings and {len(searched)} search postings already read")
+        elif search_error:
+            line = (f"{company['name']}: Getro commercial search failed, kept the "
+                    f"{len(found)} embedded postings and {len(searched)} search "
+                    f"postings already read ({search_error})")
+            log.error(line)
+            with _GETRO_STATE_LOCK:
+                _GETRO_SEARCH_ERRORS.append(line)
 
     page_links = host in GETRO_PAGE_LINK_HOSTS
     results: list[dict] = []
@@ -1225,7 +1353,7 @@ def get_getro_jobs(company: dict) -> list[dict]:
                 "org_domain": org_domain,
                 "digest_cap": GETRO_DIGEST_CAP,
                 "from_search": from_search,
-                "created_at": j.get("created_at") or 0,
+                "created_at": _getro_ts(j.get("created_at")),
             })
     log.info(f"  {company['name']}: Getro, {len(found)} embedded + {len(searched)} "
              f"commercial postings from the last {GETRO_WINDOW_DAYS} days")
@@ -1263,9 +1391,11 @@ def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
         score = score_title(title, url)
         if score > 0:
             ranked.append((score + (item.get("org_domain") or 0), bool(item.get("from_search")),
-                           item.get("created_at") or 0, item["id"],
+                           _getro_ts(item.get("created_at")), item["id"],
                            (item.get("org") or "", normalise_title(title)), url))
-    ranked.sort(reverse=True)
+    # Sorted on the first four fields only (number, bool, number, id string),
+    # so the order never depends on comparing values of mixed types.
+    ranked.sort(key=lambda r: r[:4], reverse=True)
     kept_keys: set[tuple[str, str]] = set()
     kept_urls: set[str] = set()
     held: set[str] = set()
@@ -1277,6 +1407,28 @@ def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
             kept_urls.add(url)
         else:
             held.add(item_id)
+    return held
+
+
+def digest_cap_in_board_order(items: list[dict], seen: dict) -> set[str]:
+    """What main() uses if over_digest_cap raises: the cap still holds, without
+    the ranking. Of a capped board's postings that could be emailed this run
+    (unseen, or stored with scored False), the first digest_cap stay, search
+    postings before embedded ones, and the rest are held. Some of the ones
+    that stay may score 0, so the board emails at most digest_cap postings
+    and possibly fewer. It reads nothing but ids and flags."""
+    candidates = []
+    for item in items:
+        if not item.get("digest_cap"):
+            continue
+        entry = seen.get(item.get("id"))
+        if entry is None or entry.get("scored") is False:
+            candidates.append(item)
+    candidates.sort(key=lambda i: not i.get("from_search"))
+    held: set[str] = set()
+    for n, item in enumerate(candidates):
+        if n >= int(item["digest_cap"]):
+            held.add(item["id"])
     return held
 
 
@@ -1630,7 +1782,15 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
 
     results = []
     for job in data.get("jobs", []):
-        job_url = canonicalize_url(job.get("absolute_url") or job.get("url") or "")
+        # gh_jid is kept: boards that send postings through the company's own
+        # careers page (Spire Global, Captura, AST SpaceMobile, Saildrone and
+        # others) give every posting the URL {careers page}?gh_jid={job id}.
+        # With gh_jid stripped all of a board's postings shared one URL, which
+        # opened the listing page, and the pipeline (which dedups on job URL)
+        # took them for one posting. The item id is built from the Greenhouse
+        # job id, not the URL, so keeping gh_jid re-emails nothing.
+        job_url = canonicalize_url(job.get("absolute_url") or job.get("url") or "",
+                                   keep_params=("gh_jid",))
         title = canonicalize_title(job.get("title") or "")
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
@@ -2295,6 +2455,7 @@ def main() -> None:
     errors: list[str] = []
     companies_ok: int = 0
     companies_failed: int = 0
+    _getro_reset_run_state()
 
     # manual_check companies are skipped during scraping, shown in Monday digest.
     manual_check_companies = [c for c in config["companies"] if c.get("type") == "manual_check"]
@@ -2380,6 +2541,15 @@ def main() -> None:
                     companies_failed += 1
                     update_health(health, res[1], "err")
 
+    # Getro boards whose commercial search failed still count as scraped (they
+    # returned their embedded postings), so the failure is reported here.
+    errors.extend(_GETRO_SEARCH_ERRORS)
+    if _GETRO_SEARCH_SKIPPED:
+        errors.append(
+            f"Getro commercial search skipped on {len(_GETRO_SEARCH_SKIPPED)} boards after it "
+            f"failed {GETRO_SEARCH_FAIL_LIMIT} times (embedded postings still read): "
+            + ", ".join(sorted(_GETRO_SEARCH_SKIPPED)))
+
     # Pass 2: identify all unseen items that need a title fetched. An item
     # stored on an earlier run with an EMPTY title (the fetch failed outright)
     # is retried until MAX_TITLE_TRIES, so one timeout cannot bury a real
@@ -2414,7 +2584,16 @@ def main() -> None:
     for name, items in all_company_items:
         # Per-run digest cap (Getro boards): worked out before the loop below
         # starts adding this board's items to seen.
-        held_back = over_digest_cap(items, seen)
+        try:
+            held_back = over_digest_cap(items, seen)
+        except Exception as e:
+            # One board's ranking must not end the run for every board. The
+            # cap itself still applies (see digest_cap_in_board_order).
+            held_back = digest_cap_in_board_order(items, seen)
+            log.error(f"{name}: digest cap ranking failed, cap applied in board order: "
+                      f"{type(e).__name__}: {e}")
+            errors.append(f"{name}: digest cap ranking failed, cap applied in board order "
+                          f"({type(e).__name__}: {e})")
         if held_back:
             log.info(f"  {name}: {len(held_back)} postings over the per-run digest cap, "
                      f"stored with over_cap and not emailed")
