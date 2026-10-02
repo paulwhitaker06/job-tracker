@@ -439,8 +439,9 @@ companies:
     url: https://careers-here.icims.com/jobs/search?ss=1&hashed=-435626304
 
   - name: Hexagon Geospatial
-    type: html_links
+    type: manual_check
     url: https://hexagon.com/company/careers/job-listings
+    note: 2026-10-02 listing is a JS widget and the page answers 403 to a plain fetch; the scraper only ever stored site pages (Job Listing, Meet our people)
 
   - name: Infostellar
     type: manual_check
@@ -1243,8 +1244,9 @@ companies:
     note: 2026-10-02 postings live at oceana.org/employment/<slug>/, a path the link filter drops; no openings listed on this date
 
   - name: Wildlife Conservation Society
-    type: html_links
-    url: https://www.wcs.org/about-us/careers
+    type: manual_check
+    url: https://sjobs.brassring.com/TGWebHost/searchopenings.aspx?partnerid=25965&siteid=5168
+    note: 2026-10-02 jobs are on BrassRing (a search form, no reader for it); the careers page only links to it and the scraper stored two site pages
 
   - name: Ocean Wise
     type: manual_check
@@ -1252,8 +1254,9 @@ companies:
     note: 2026-10-02 UKG UltiPro board, JS-rendered; the scraper has no reader for UltiPro (MDA Space and African Wildlife Foundation are empty too)
 
   - name: The Nature Conservancy
-    type: html_links
-    url: https://careers.nature.org/
+    type: manual_check
+    url: https://careers.tnc.org/us/en/search-results
+    note: 2026-10-02 jobs moved to this Phenom site (85 live), list is JS-rendered; old URL returned only share links. Same shape as the MITRE playwright entry, not verified without a browser
 
   - name: Marine Conservation Institute
     type: html_links
@@ -1522,8 +1525,9 @@ companies:
     url: https://careers.foursquare.com/
 
   - name: Hewlett Foundation
-    type: html_links
+    type: manual_check
     url: https://hewlett.org/about-us/careers/
+    note: 2026-10-02 openings load in a ClearCompany JS widget, no reader for it; the scraper only ever stored a site page (Demographics)
 
   - name: Hortau
     type: html_links
