@@ -40,6 +40,13 @@ Improvements in this version
 22. Concurrent title fetching – fetch_title calls run in a thread pool
     (20 workers) instead of sequentially, cutting runtime by ~90% on large
     company lists.
+23. Honest board health: company_health.json counts only real postings.
+    A scrape that returns just the careers landing page, navigation text or
+    junk listing URLs counts as empty, so the board shows up under "Boards
+    needing attention". Health is recorded after the title pass.
+24. Garbage-titled items are stored in seen_jobs.json with garbage_title
+    instead of being re-fetched every run. An item whose title fetch failed
+    outright (empty title) is retried for MAX_TITLE_TRIES runs first.
 """
 
 from __future__ import annotations
@@ -80,8 +87,17 @@ EMPTY_ALARM_WINDOW_DAYS = 7   # ...for this many days after the crossing
 
 # Board-health attention thresholds (units: consecutive daily runs)
 FAIL_ATTENTION_STREAK = 3     # scraper errored this many runs in a row
-EMPTY_ATTENTION_STREAK = 30   # produced items before, now zero for this long
-NEW_BOARD_GRACE_RUNS = 7      # never produced anything within this many runs
+EMPTY_ATTENTION_STREAK = 30   # produced real postings before, now none for this long
+NEW_BOARD_GRACE_RUNS = 7      # never produced a real posting within this many runs
+
+# An unseen item whose title could not be fetched at all (empty, usually a
+# timeout or a blocked request) gets this many runs before it is left alone.
+# A title that came back as navigation text is settled on the first run.
+MAX_TITLE_TRIES = 5
+
+# Legacy repair window for last_nonempty (see repair_unbacked_last_nonempty).
+# Must stay below the 90-day seen_jobs retention.
+HEALTH_REPAIR_WINDOW_DAYS = 80
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -528,7 +544,12 @@ def save_health(health: dict) -> None:
 
 
 def update_health(health: dict, name: str, status: str, n_items: int = 0) -> None:
-    """status: 'ok' or 'err'. Streak counters are consecutive daily runs."""
+    """status: 'ok' or 'err'. Streak counters are consecutive daily runs.
+
+    n_items is the number of REAL postings the board showed this run (see
+    is_real_posting), new or already seen. A scrape that returned only the
+    careers landing page, navigation text or junk listing URLs passes 0 here
+    and counts as empty."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     h = health.setdefault(name, {"first_tracked": today, "runs": 0,
                                  "empty_streak": 0, "fail_streak": 0})
@@ -564,10 +585,10 @@ def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
         if h.get("fail_streak", 0) >= FAIL_ATTENTION_STREAK:
             out.append(f"{name}: scrape FAILING {h['fail_streak']} runs in a row")
         elif h.get("last_nonempty") and h.get("empty_streak", 0) >= EMPTY_ATTENTION_STREAK:
-            out.append(f"{name}: zero items for {h['empty_streak']} runs "
+            out.append(f"{name}: no real postings for {h['empty_streak']} runs "
                        f"(last produced {h['last_nonempty']}); verify the board moved or died")
         elif not h.get("last_nonempty") and h.get("runs", 0) >= NEW_BOARD_GRACE_RUNS:
-            out.append(f"{name}: never produced a single item in {h['runs']} runs "
+            out.append(f"{name}: never produced a real posting in {h['runs']} runs "
                        f"since {h.get('first_tracked', '?')}; URL or type is probably wrong")
     return out
 
@@ -598,6 +619,145 @@ def prune_health(health: dict, active_names: set[str]) -> list[str]:
     for k in ghosts:
         del health[k]
     return ghosts
+
+
+# What counts as a real posting (board health only)
+# Health used to count every scraped link, so a board that returned nothing
+# but its own careers page looked healthy forever (EnduroSat, WHOI, BlackSky
+# and about 90 others, audit 2026-09-30). These helpers decide what counts.
+# They are used ONLY for company_health.json: nothing here removes an item
+# from seen_jobs.json or from the digest.
+
+# Titles a careers landing page, listing page or filter page gives itself.
+# Matched against the leading segment of the title only, so a real role whose
+# page title ends in "... - Careers at Acme" is not caught.
+LISTING_TITLE_RE = re.compile(
+    r"\bcareers\b|\bjobs\b|"
+    r"\bjob (openings?|opportunities|listings?|board|search|offers)\b|"
+    r"\b(current|open|search|our) (openings|positions|vacancies|roles|opportunities)\b|"
+    r"\bvacancies\b|\bwork (at|with|for)\b|\bjoin (us|our)\b|"
+    r"\bhow to apply\b|\brecruitment\b|^(positions|internships|benefits)$",
+    re.IGNORECASE,
+)
+_TITLE_SEGMENT_SPLIT_RE = re.compile(
+    r"\s+[-|\u2013\u2014\u2022\u00b7\u00bb]\s+|:\s+")
+
+
+def _name_key(text: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def is_listing_page_title(title: str, company_name: str) -> bool:
+    """True if a fetched page title reads like a careers or listing page
+    ('Careers at Acme', 'Job Openings - Acme', 'Search Openings') or is just
+    the company's own name."""
+    lead = _TITLE_SEGMENT_SPLIT_RE.split((title or "").strip(), 1)[0]
+    if LISTING_TITLE_RE.search(lead):
+        return True
+    t = _name_key(title)
+    if not t:
+        return False
+    return t in (_name_key(company_name),
+                 _name_key(re.sub(r"\(.*?\)", "", company_name or "")))
+
+
+def _page_key(url: str) -> tuple[str, str, str]:
+    """Host, path and query of a URL for 'is this the board's own page'
+    comparisons. Lighter than canonicalize_url on purpose: that one strips
+    gh_jid-style parameters, which are what tell a posting apart from the
+    listing page it is embedded in."""
+    p = urlparse(urldefrag((url or "").strip())[0])
+    host = p.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host, re.sub(r"/{2,}", "/", p.path).rstrip("/"), p.query
+
+
+def is_link_item(name: str, item_id: str, url: str) -> bool:
+    """True for items minted from a bare page link (get_html_links Pass 1 and
+    the Playwright link fallback, id = sha(name|url)). Their title is whatever
+    the linked page calls itself. API, intercepted and item_selector items use
+    other id schemes and carry a title the board supplied, often with the
+    board's own URL as the item URL."""
+    return item_id == sha(name + "|" + (url or ""))
+
+
+def is_real_posting(board: dict, item_id: str, entry: dict) -> bool:
+    """Board-health test for one stored seen_jobs entry: is this a job posting,
+    as opposed to a junk listing URL, a garbage (navigation) title, the
+    board's own landing page, or a careers/listing page?"""
+    url = entry.get("url") or ""
+    title = entry.get("title") or ""
+    if entry.get("junk_url") or entry.get("garbage_title"):
+        return False
+    if is_junk_listing_url(url) or is_garbage_title(title):
+        return False
+    name = board.get("name", "")
+    if is_link_item(name, item_id, url):
+        if _page_key(url) == _page_key(board.get("url", "")):
+            return False
+        if is_listing_page_title(title, name):
+            return False
+    return True
+
+
+def last_real_sighting_by_board(seen: dict, boards: dict[str, dict]) -> dict[str, str]:
+    """Board name -> latest date (YYYY-MM-DD) a real posting was sighted,
+    from the seen_jobs store (which keeps every posting for 90 days after its
+    last sighting)."""
+    out: dict[str, str] = {}
+    for item_id, entry in seen.items():
+        name = entry.get("company")
+        board = boards.get(name)
+        if not board or not is_real_posting(board, item_id, entry):
+            continue
+        dt = parse_dt(entry.get("last_seen_utc") or entry.get("first_seen_utc"))
+        if not dt:
+            continue
+        day = dt.strftime("%Y-%m-%d")
+        if day > out.get(name, ""):
+            out[name] = day
+    return out
+
+
+def repair_unbacked_last_nonempty(h: dict, backed_date: str | None) -> bool:
+    """One-off correction of stamps written by the old counting.
+
+    Until 2026-10 any scraped link stamped last_nonempty, so a board that only
+    ever returned its landing page carries a recent last_nonempty it never
+    earned, and the 'never produced' line in the attention list could not
+    fire for it. Under the current counting a stamp is always backed by a real
+    posting in seen_jobs, and that posting stays there for 90 days. So a
+    recent stamp with no real stored posting on or near that date is a legacy
+    one: move it back to the last backed sighting, or clear it.
+
+    Call only for a board that scraped OK with zero real postings this run.
+    Returns True if the entry was changed. Adds no fields."""
+    stamp = h.get("last_nonempty")
+    if not stamp:
+        return False
+    try:
+        stamp_dt = datetime.strptime(stamp, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except Exception:
+        return False
+    today = datetime.now(timezone.utc)
+    if (today - stamp_dt).days > HEALTH_REPAIR_WINDOW_DAYS:
+        return False  # too old to check against the 90-day store; leave it
+    if backed_date:
+        try:
+            backed_dt = datetime.strptime(backed_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except Exception:
+            return False
+        # 2 days of slack: a run can straddle midnight UTC.
+        if backed_dt >= stamp_dt - timedelta(days=2):
+            return False
+        h["last_nonempty"] = backed_date
+        quiet_runs = min(h.get("runs", 0), (today - backed_dt).days)
+        h["empty_streak"] = max(h.get("empty_streak", 0), quiet_runs)
+    else:
+        del h["last_nonempty"]
+        h["empty_streak"] = h.get("runs", 0)
+    return True
 
 
 def load_seen() -> dict:
@@ -2067,9 +2227,10 @@ def main() -> None:
     with ThreadPoolExecutor(max_workers=MAX_SCRAPE_WORKERS) as ex:
         for res in ex.map(_scrape_requests, work):
             if res[0] == "ok":
+                # Health for a successful scrape is recorded after the title
+                # pass (Pass 5), once we know which items are real postings.
                 all_company_items.append((res[1], res[2]))
                 companies_ok += 1
-                update_health(health, res[1], "ok", len(res[2]))
             elif res[0] == "defer":
                 playwright_queue.append(res[1])
             elif res[0] == "err":
@@ -2100,23 +2261,38 @@ def main() -> None:
                 if res[0] == "ok":
                     all_company_items.append((res[1], res[2]))
                     companies_ok += 1
-                    update_health(health, res[1], "ok", len(res[2]))
                 else:
                     log.error(f"{res[1]}: {res[2]}")
                     errors.append(f"{res[1]}: {res[2]}")
                     companies_failed += 1
                     update_health(health, res[1], "err")
 
-    # Pass 2: identify all unseen items that need a title fetched.
+    # Pass 2: identify all unseen items that need a title fetched. An item
+    # stored on an earlier run with an EMPTY title (the fetch failed outright)
+    # is retried until MAX_TITLE_TRIES, so one timeout cannot bury a real
+    # posting. Items whose title came back as navigation text are stored with
+    # garbage_title and never fetched again (they used to be re-fetched every
+    # single run: 700-850 fetches a day for 40-90 new postings).
+    def _title_retry_due(entry: dict) -> bool:
+        return (bool(entry.get("garbage_title")) and not entry.get("title")
+                and entry.get("title_tries", 1) < MAX_TITLE_TRIES)
+
     unseen_needing_title: list[dict] = []
+    retry_ids: set[str] = set()
     for name, items in all_company_items:
         for item in items:
-            if (item["id"] not in seen and not item.get("title") and item.get("url")
-                    and not is_junk_listing_url(item["url"])):
+            if item.get("title") or not item.get("url") or is_junk_listing_url(item["url"]):
+                continue
+            entry = seen.get(item["id"])
+            if entry is None:
+                unseen_needing_title.append(item)
+            elif _title_retry_due(entry) and item["id"] not in retry_ids:
+                retry_ids.add(item["id"])
                 unseen_needing_title.append(item)
 
     # Pass 3: fetch all missing titles concurrently in one batch.
-    log.info(f"Fetching titles for {len(unseen_needing_title)} unseen items concurrently...")
+    log.info(f"Fetching titles for {len(unseen_needing_title)} unseen items concurrently "
+             f"({len(retry_ids)} of them retries of an earlier failed fetch)...")
     batch_fetch_titles(unseen_needing_title, max_workers=20)
     log.info("Title fetch complete.")
 
@@ -2125,6 +2301,24 @@ def main() -> None:
     for name, items in all_company_items:
         for item in items:
             item_id = item["id"]
+
+            first_seen_iso = None
+
+            # Stored on an earlier run with a garbage or empty title. It stays
+            # put unless today's scrape carries a real title for it (a retry
+            # that worked, or the board's API now names it); then it falls
+            # through and is handled as the new posting it is.
+            if item_id in seen and seen[item_id].get("garbage_title"):
+                entry = seen[item_id]
+                entry["last_seen_utc"] = now_iso
+                title_now = canonicalize_title(item.get("title") or "")
+                if is_garbage_title(title_now):
+                    if item_id in retry_ids:
+                        entry["title_tries"] = entry.get("title_tries", 1) + 1
+                        entry["title"] = title_now
+                    continue
+                first_seen_iso = entry.get("first_seen_utc")
+                del seen[item_id]
 
             # Re-evaluate previously zero-scored items
             if item_id in seen:
@@ -2167,7 +2361,23 @@ def main() -> None:
             # New item -- title already populated by batch_fetch_titles above
             title = canonicalize_title(item.get("title") or "")
 
+            # Navigation text or no title at all: never a digest item. Stored
+            # with a flag (like junk_url above) so it is not fetched again on
+            # every run and so board health can tell it from a real posting.
+            # scored=True keeps it out of the zero-score re-evaluation above.
             if is_garbage_title(title):
+                seen[item_id] = {
+                    "company": name,
+                    "url": item["url"],
+                    "title": title,
+                    "score": 0,
+                    "scored": True,
+                    "garbage_title": True,
+                    "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                    "last_seen_utc": datetime.now(timezone.utc).isoformat(),
+                }
+                if not title:
+                    seen[item_id]["title_tries"] = 1
                 continue
 
             relevance = score_title(title, item.get("url", ""))
@@ -2178,7 +2388,7 @@ def main() -> None:
                 "title": title,
                 "score": relevance,
                 "scored": relevance > 0,
-                "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                "first_seen_utc": first_seen_iso or datetime.now(timezone.utc).isoformat(),
                 "last_seen_utc": datetime.now(timezone.utc).isoformat(),
             }
 
@@ -2187,6 +2397,31 @@ def main() -> None:
                     {"company": name, "url": item["url"], "title": title, "score": relevance}
                 )
 
+    # Pass 5: board health, now that titles are known. A board counts as
+    # producing only if it showed at least one real posting this run (new or
+    # already seen). Its own landing page, navigation text and junk listing
+    # URLs do not count, so a board that returns nothing else goes into the
+    # existing 'never produced' / 'no real postings for N runs' attention lines.
+    boards = {c["name"]: c for c in work}
+    backed: dict[str, str] | None = None
+    hollow = repaired = 0
+    for name, items in all_company_items:
+        board = boards[name]
+        n_real = sum(
+            1 for i in {it["id"] for it in items}
+            if i in seen and is_real_posting(board, i, seen[i])
+        )
+        update_health(health, name, "ok", n_real)
+        if n_real == 0:
+            if items:
+                hollow += 1
+            if health[name].get("last_nonempty"):
+                if backed is None:
+                    backed = last_real_sighting_by_board(seen, boards)
+                if repair_unbacked_last_nonempty(health[name], backed.get(name)):
+                    repaired += 1
+    log.info(f"Board health: {hollow} boards returned links but no real posting "
+             f"(counted as empty); {repaired} legacy last_nonempty stamps corrected")
 
     # ── Weekly search sweep ───────────────────────────────────────────────
     sweep_items = run_weekly_search_sweep(config["companies"])
