@@ -165,6 +165,9 @@ SENIORITY_KEYWORDS: list[tuple[str, int]] = [
     ("vp of commercial", 5),
     ("chief commercial officer", 5),
     ("cco", 4),
+    # Leadership titles that carry no other keyword (2026-10 audit COV-1)
+    ("general manager", 3),
+    ("country manager", 3),
 ]
 
 FUNCTION_KEYWORDS: list[tuple[str, int]] = [
@@ -173,7 +176,21 @@ FUNCTION_KEYWORDS: list[tuple[str, int]] = [
     ("revenue partnerships", 5),
     ("data partnerships", 5),
     ("partnerships", 4),
+    # 2026-10 audit COV-1: commercial titles that scored 0. Patterns are
+    # word-bounded, so "partnerships" never matched "Partnership Manager";
+    # the singular is in TITLE_ONLY_FUNCTION_PATTERNS below. The new entries
+    # weigh 3, not 4, so the junior rule in score_title still zeroes
+    # "Partnership Coordinator" or "Junior Business Developer".
+    ("partner development", 3),
+    ("business developer", 3),
+    ("new business", 3),
+    ("market access", 3),
+    ("alliance manager", 3),
+    ("alliance director", 3),
+    ("alliance lead", 3),
+    ("strategic alliance", 3),
     ("commercialization", 4),
+    ("commercialisation", 4),
     ("commercial strategy", 4),
     ("commercial", 3),
     ("go-to-market", 4),
@@ -205,6 +222,7 @@ FUNCTION_KEYWORDS: list[tuple[str, int]] = [
     ("data licensing", 5),
     ("commercial licensing", 5),
     ("data commercialization", 4),
+    ("data commercialisation", 4),
     ("earned revenue", 4),
     ("revenue", 2),
 ]
@@ -277,6 +295,7 @@ DOMAIN_KEYWORDS: list[tuple[str, int]] = [
     # Government / defence
     ("government", 2),
     ("defense", 2),
+    ("defence", 2),
     ("intelligence", 2),
     ("national security", 3),
     # Agriculture
@@ -297,7 +316,7 @@ DOMAIN_KEYWORDS: list[tuple[str, int]] = [
 # suppressed unless they pick up enough domain-keyword score (>= 4)
 JUNIOR_TOKENS = re.compile(
     r"\b(intern|internship|junior|jr\.?|technician|technologist|apprentice|"
-    r"trainee|associate(?!\s+director)|coordinator|specialist)\b",
+    r"trainee|associate(?!\s+(?:director|vice[\s-]+president|vp))|coordinator|specialist)\b",
     re.IGNORECASE,
 )
 
@@ -323,6 +342,36 @@ SENIORITY_PATTERNS = [(_compile_word_pattern(k), v) for k, v in SENIORITY_KEYWOR
 FUNCTION_PATTERNS  = [(_compile_word_pattern(k), v) for k, v in FUNCTION_KEYWORDS]
 DOMAIN_PATTERNS    = [(_compile_word_pattern(k), v) for k, v in DOMAIN_KEYWORDS]
 
+# Title-only patterns (2026-10 audit COV-1). The lists above are matched
+# against the title plus the posting URL; these are matched against the title
+# alone, because they are short or ambiguous tokens that turn up in URLs and
+# company slugs for other reasons ("bd", "svp", a ".../capture/..." path).
+# Raw regexes, so they can carry their own context:
+#   svp, evp     not "to the SVP" / "to the EVP" (assistants)
+#   president    not "vice president" (already a keyword) and not "to/of
+#                the President" (assistants, office staff)
+#   partnership  singular; in a URL it is usually an organisation's name
+#   partner manager  not "Business Partner Manager" (an HR role)
+#   capture      the government-sales role ("Capture Manager", "Proposal &
+#                Capture"), not "Carbon Capture" or "Docking, Capture, and ..."
+_B, _E = r"(?<![a-z0-9])", r"(?![a-z0-9])"
+TITLE_ONLY_SENIORITY_PATTERNS: list[tuple[re.Pattern[str], int]] = [
+    (re.compile(rf"(?<!the ){_B}svp{_E}", re.I), 3),
+    (re.compile(rf"(?<!the ){_B}evp{_E}", re.I), 3),
+    (re.compile(rf"{_B}vice-president{_E}", re.I), 3),
+    (re.compile(rf"(?<!vice )(?<!vice-)(?<!the ){_B}president{_E}", re.I), 3),
+]
+TITLE_ONLY_FUNCTION_PATTERNS: list[tuple[re.Pattern[str], int]] = [
+    (re.compile(rf"{_B}partnership{_E}", re.I), 3),
+    (re.compile(rf"(?<!business ){_B}partner manager{_E}", re.I), 3),
+    (re.compile(rf"{_B}bd{_E}", re.I), 3),
+    (re.compile(rf"{_B}bdm{_E}", re.I), 3),
+    (re.compile(
+        rf"{_B}capture\s+(?:manager|lead|director|strategist|management|executive){_E}"
+        rf"|{_B}capture\s+(?:&|and)\s+(?:proposals?|bid){_E}"
+        rf"|(?:&|{_B}and|{_B}of)\s+capture{_E}", re.I), 3),
+]
+
 
 def _bucket_score(text: str, patterns: list[tuple[re.Pattern[str], int]], cap: int) -> int:
     score = 0
@@ -333,11 +382,17 @@ def _bucket_score(text: str, patterns: list[tuple[re.Pattern[str], int]], cap: i
 
 
 def score_title(title: str, url: str = "") -> int:
-    """Three-bucket scoring: seniority / function / domain, each independently capped."""
+    """Three-bucket scoring: seniority / function / domain, each independently capped.
+
+    The keyword lists are matched against the title plus the URL. The
+    TITLE_ONLY_* patterns are matched against the title alone."""
     clean_title = canonicalize_title(title)
     text = f"{clean_title} {url}".lower()
-    seniority = _bucket_score(text, SENIORITY_PATTERNS, cap=5)
-    function  = _bucket_score(text, FUNCTION_PATTERNS,  cap=8)
+    title_text = clean_title.lower()
+    seniority = min(5, _bucket_score(text, SENIORITY_PATTERNS, cap=5)
+                    + _bucket_score(title_text, TITLE_ONLY_SENIORITY_PATTERNS, cap=5))
+    function  = min(8, _bucket_score(text, FUNCTION_PATTERNS, cap=8)
+                    + _bucket_score(title_text, TITLE_ONLY_FUNCTION_PATTERNS, cap=8))
     domain    = _bucket_score(text, DOMAIN_PATTERNS,    cap=10)
     raw = seniority + function + domain
     if JUNIOR_TOKENS.search(clean_title) and domain < 4 and function < 4:

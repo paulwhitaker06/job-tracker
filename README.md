@@ -5,6 +5,33 @@ It reads every board in `companies.yaml`, works out which postings are new, and
 emails a `[Job Tracker]` digest of the new ones whose title scores above 0.
 `companies.yaml` is the single list of boards to scan.
 
+## Title filter
+
+A posting goes into the digest only if `score_title` gives its title more than
+0. The score is the sum of three keyword buckets, each capped: seniority (5),
+function (8) and domain (10). Keywords match whole words, so the plural
+"partnerships" does not match "Partnership Manager"; each form needs its own
+entry.
+
+- `SENIORITY_KEYWORDS`, `FUNCTION_KEYWORDS` and `DOMAIN_KEYWORDS` are matched
+  against the title and the posting URL together.
+- `TITLE_ONLY_SENIORITY_PATTERNS` and `TITLE_ONLY_FUNCTION_PATTERNS` are matched
+  against the title alone. Short or ambiguous tokens go here (`bd`, `bdm`,
+  `svp`, `evp`, `president`, singular `partnership`, `partner manager`, the
+  government-sales sense of `capture`), because they turn up in URLs and
+  company slugs for unrelated reasons.
+- A title with a junior token (intern, junior, associate, coordinator,
+  specialist and so on) scores 0 unless its function or domain bucket reaches 4.
+  "Associate Director" and "Associate Vice President" are not junior.
+- British spellings are listed next to the American ones (`defence`,
+  `commercialisation`).
+- "Bid Manager" is left out on purpose.
+
+A posting stored with score 0 is scored again each time the scraper sights it
+on its board, so after a keyword change the postings that are still live and
+now score above 0 appear in the next digest, once. Postings that have dropped
+off their board do not come back.
+
 ## State files
 
 | File | What it holds |
