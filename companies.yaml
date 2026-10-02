@@ -1363,8 +1363,9 @@ companies:
     link_contains: /employment/
 
   - name: Rocky Mountain Institute
-    type: html_links
-    url: https://rmi.org/about/careers/
+    type: workday_api
+    url: https://rockymountain.wd1.myworkdayjobs.com/RMI
+    # repointed 2026-10-02: rmi.org/about/careers is only a landing page that links to this Workday site
 
   - name: ClimateWorks Foundation
     type: html_links
@@ -1585,7 +1586,8 @@ companies:
 
   - name: Vaisala
     type: html_links
-    url: https://www.vaisala.com/en/careers
+    url: https://careers.vaisala.com/search/
+    # repointed 2026-10-02: vaisala.com/en/careers is only a landing page, this is the listing itself (23 of 23 roles on one page)
 
   - name: WeatherXM
     type: html_links
