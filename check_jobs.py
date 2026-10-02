@@ -51,6 +51,11 @@ Improvements in this version
 25. Deliver first, record second: seen_jobs.json and company_health.json are
     written only after the digest email is sent. A failed send exits
     non-zero and writes nothing, so the postings come back on the next run.
+26. Getro networks are paged: besides the 20 newest postings embedded in the
+    page, get_getro_jobs reads the network's public search for Sales &
+    Business Development postings created in the last 7 days. A Getro board
+    can put at most GETRO_DIGEST_CAP postings in one digest; the rest are
+    stored with over_cap and not emailed.
 """
 
 from __future__ import annotations
@@ -61,6 +66,8 @@ import logging
 import os
 import re
 import smtplib
+import threading
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
@@ -1035,9 +1042,33 @@ def is_js_heavy(url: str) -> bool:
 # Getro rebuilt on Next.js and the old Playwright network-intercept caught
 # nothing for 10+ days (health ledger, 2026-07-20). The /jobs page now
 # server-renders the 20 newest postings inside __NEXT_DATA__, so a plain
-# requests fetch captures the daily delta, faster and more reliably than a
-# browser ever did. Each job carries the real portfolio company name and a
-# direct source URL, so digest entries read "[Board] Title - Company".
+# requests fetch captures them, faster and more reliably than a browser ever
+# did. Each job carries the real portfolio company name and a direct source
+# URL.
+#
+# 2026-10 (audit COV-3): 20 postings is a sliver of the large networks (Space
+# Talent 32,000 live postings, Climate Draft 11,000, Techstars 5,000; the 20
+# newest covered minutes to a few hours of posting time), so most commercial
+# roles were never seen. The board page itself loads further results from a
+# public, no-login search endpoint (the "findJobs" call in its JavaScript):
+#   POST https://api.getro.com/api/v2/collections/{network id}/search/jobs
+#   {"hitsPerPage": 20, "page": N, "filters": {"job_functions": [...]}, "query": ""}
+# It answers newest first, 20 per page (a larger hitsPerPage is ignored).
+# get_getro_jobs now also pages that search, filtered to GETRO_FUNCTIONS,
+# back to GETRO_WINDOW_DAYS.
+#
+# What keeps this from flooding the digest (every digest posting costs a
+# filter call downstream):
+#   1. Only postings created in the last GETRO_WINDOW_DAYS are read at all.
+#      The back catalogue is never fetched, so it can never be emailed, on
+#      the first run or any later one.
+#   2. GETRO_DIGEST_CAP: a Getro board can put at most that many postings in
+#      one digest, best first. The rest are stored in seen_jobs.json with
+#      over_cap and are not emailed on a later run either (see
+#      over_digest_cap and Pass 4).
+#   3. After the first run everything in the window is already in
+#      seen_jobs.json, so only postings created since the previous run are new.
+#   4. GETRO_MAX_PAGES bounds the requests per board per run.
 
 GETRO_HOSTS = {
     "jobs.dcvc.com", "jobs.energyimpactpartners.com", "jobs.g2vp.com",
@@ -1052,45 +1083,201 @@ GETRO_HOSTS = {
     "jobs.spacetalent.org",
 }
 
+# Getro networks that were scraped as plain page links until 2026-10 (they
+# were never added to GETRO_HOSTS). Their stored postings are keyed on the
+# board's own posting URL (id = sha(name|url), url = https://{host}/companies/
+# {org}/jobs/{slug}). The Getro handler keeps exactly that id and URL for these
+# hosts, so nothing already in seen_jobs.json is emailed a second time.
+GETRO_PAGE_LINK_HOSTS = {
+    "jobs.climatedraft.org", "jobs.techstars.com", "jobs.schmidtmarine.org",
+}
+
+GETRO_SEARCH_URL = "https://api.getro.com/api/v2/collections/{cid}/search/jobs"
+GETRO_FUNCTIONS = ["Sales & Business Development"]   # Getro's own job-function label
+GETRO_WINDOW_DAYS = 7     # search postings older than this are never read
+GETRO_MAX_PAGES = 15      # hard cap on search pages per board per run (20 postings a page)
+GETRO_DIGEST_CAP = 10     # hard cap on postings one Getro board can put in one digest
+GETRO_ORG_BONUS_MAX = 4   # most a hiring company's industry tags add when ranking inside the cap
+# Getro's own seniority label; these are dropped from the search results.
+GETRO_JUNIOR_SENIORITY = {"internship", "entry_level", "associate"}
+_GETRO_LOCK = threading.Lock()   # one search request at a time across all boards
+
 _NEXT_DATA_RE = re.compile(
     r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
 
 
 def is_getro_url(url: str) -> bool:
     from urllib.parse import urlparse
-    return urlparse(url).netloc.lower() in GETRO_HOSTS
+    host = urlparse(url).netloc.lower()
+    return host in GETRO_HOSTS or host in GETRO_PAGE_LINK_HOSTS
+
+
+def _getro_search_page(network_id: str, page: int) -> list[dict]:
+    """One page of the network's public job search, newest first."""
+    body = {"hitsPerPage": 20, "page": page, "query": "",
+            "filters": {"job_functions": GETRO_FUNCTIONS}}
+    last_error: Exception | None = None
+    for attempt in range(2):
+        with _GETRO_LOCK:
+            try:
+                r = SESSION.post(
+                    GETRO_SEARCH_URL.format(cid=network_id), json=body, timeout=30,
+                    headers={"Accept": "application/json", "Content-Type": "application/json"},
+                )
+                r.raise_for_status()
+                jobs = r.json()["results"]["jobs"]
+                time.sleep(0.2)
+                return jobs
+            except Exception as e:
+                last_error = e
+                time.sleep(2.0)
+    raise RuntimeError(f"Getro search failed for network {network_id}, page {page}: "
+                       f"{type(last_error).__name__}: {last_error}")
+
+
+def _getro_recent_commercial(network_id: str) -> list[dict]:
+    """Search postings in GETRO_FUNCTIONS created within GETRO_WINDOW_DAYS,
+    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages."""
+    cutoff = datetime.now(timezone.utc).timestamp() - GETRO_WINDOW_DAYS * 86400
+    recent: list[dict] = []
+    for page in range(GETRO_MAX_PAGES):
+        jobs = _getro_search_page(network_id, page)
+        recent += [j for j in jobs
+                   if (j.get("created_at") or 0) >= cutoff
+                   and (j.get("seniority") or "") not in GETRO_JUNIOR_SENIORITY]
+        # Featured postings can sit at the top whatever their age, so only
+        # the ordinary ones tell us whether the page has passed the window.
+        ordinary = [j for j in jobs if not j.get("featured")]
+        if len(jobs) < 20:
+            break
+        if ordinary and all((j.get("created_at") or 0) < cutoff for j in ordinary):
+            break
+    return recent
 
 
 def get_getro_jobs(company: dict) -> list[dict]:
+    """The 20 newest postings embedded in the board page (every job function),
+    plus the last GETRO_WINDOW_DAYS of Sales & Business Development postings
+    from the network's public search. Every item carries digest_cap, which
+    Pass 4 enforces per run (see over_digest_cap).
+
+    Raises ValueError if the page is not a Getro page (the caller then falls
+    back to plain link extraction) and RuntimeError if the search endpoint
+    fails (the board then counts as failed for this run, which is what puts a
+    lasting breakage on the attention list; the 7-day window picks the missed
+    postings up on the next good run)."""
     from urllib.parse import urlparse
     base = company["url"].rstrip("/")
     parsed = urlparse(base)
+    host = parsed.netloc.lower()
     page_url = base if parsed.path.endswith("/jobs") else f"{parsed.scheme}://{parsed.netloc}/jobs"
     html = fetch_html(page_url)
     m = _NEXT_DATA_RE.search(html)
     if not m:
         raise ValueError("Getro board: no __NEXT_DATA__ found (layout changed again?)")
     data = json.loads(m.group(1))
-    found = (data.get("props", {}).get("pageProps", {})
-                 .get("initialState", {}).get("jobs", {}).get("found", []))
-    results = []
-    for j in found:
-        org = (j.get("organization") or {}).get("name", "")
-        title = canonicalize_title(j.get("title") or "")
-        if not title:
-            continue
-        if org:
-            title = f"{title} - {org}"
-        url = j.get("url") or ""
-        if not url:
-            org_slug = (j.get("organization") or {}).get("slug", "")
-            url = f"{parsed.scheme}://{parsed.netloc}/companies/{org_slug}/jobs/{j.get('slug','')}"
-        results.append({
-            "id": sha(company["name"] + "|getro:" + str(j.get("id"))),
-            "url": canonicalize_url(url),
-            "title": title,
-        })
+    page_props = data.get("props", {}).get("pageProps", {})
+    found = page_props.get("initialState", {}).get("jobs", {}).get("found", [])
+    network_id = str((page_props.get("network") or {}).get("id") or "")
+
+    searched: list[dict] = []
+    if network_id:
+        searched = _getro_recent_commercial(network_id)
+    else:
+        log.warning(f"  {company['name']}: Getro page carries no network id; "
+                    f"reading only the {len(found)} embedded postings")
+
+    page_links = host in GETRO_PAGE_LINK_HOSTS
+    results: list[dict] = []
+    ids: set[str] = set()
+    for from_search, jobs in ((False, found), (True, searched)):
+        for j in jobs:
+            organization = j.get("organization") or {}
+            org = organization.get("name", "")
+            org_slug = organization.get("slug", "")
+            title = canonicalize_title(j.get("title") or "")
+            if not title:
+                continue
+            # How far the hiring company's own industry tags match the domain
+            # keyword list, capped at GETRO_ORG_BONUS_MAX so it can lift a
+            # posting past others of similar title score but never outweigh
+            # the title. Used only to rank postings inside the per-run cap;
+            # it never decides whether a posting scores.
+            org_tags = " ".join(str(t) for t in (organization.get("industry_tags") or [])).lower()
+            org_domain = _bucket_score(org_tags, DOMAIN_PATTERNS, cap=GETRO_ORG_BONUS_MAX)
+            if org:
+                title = f"{title} - {org}"
+            board_url = f"{parsed.scheme}://{parsed.netloc}/companies/{org_slug}/jobs/{j.get('slug','')}"
+            if page_links:
+                url = canonicalize_url(board_url)
+                item_id = sha(company["name"] + "|" + url)
+            else:
+                url = canonicalize_url(j.get("url") or board_url)
+                item_id = sha(company["name"] + "|getro:" + str(j.get("id")))
+            if item_id in ids:
+                continue
+            ids.add(item_id)
+            results.append({
+                "id": item_id,
+                "url": url,
+                "title": title,
+                "org": org,
+                "org_domain": org_domain,
+                "digest_cap": GETRO_DIGEST_CAP,
+                "from_search": from_search,
+                "created_at": j.get("created_at") or 0,
+            })
+    log.info(f"  {company['name']}: Getro, {len(found)} embedded + {len(searched)} "
+             f"commercial postings from the last {GETRO_WINDOW_DAYS} days")
     return results
+
+
+def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
+    """Ids of the postings a capped board may not email this run.
+
+    Only items that carry digest_cap take part (Getro boards). The candidates
+    are the postings Pass 4 would email: unseen ones whose title scores above
+    0, and stored zero-scored ones that score above 0 now (the re-evaluation
+    after a keyword change). The best digest_cap stay. Order: title score plus
+    the hiring company's industry-tag bonus (org_domain, 0 to
+    GETRO_ORG_BONUS_MAX), then postings from the commercial search, then
+    newest. A repeat of a posting already kept
+    (same URL, or same title at the same hiring company) does not use up a
+    place, because deduplicate() collapses it."""
+    ranked = []
+    cap = 0
+    for item in items:
+        if not item.get("digest_cap"):
+            continue
+        cap = item["digest_cap"]
+        entry = seen.get(item["id"])
+        if entry is None:
+            title = canonicalize_title(item.get("title") or "")
+            url = item.get("url", "")
+        elif entry.get("scored") is False:
+            title, url = entry.get("title", ""), entry.get("url", "")
+        else:
+            continue
+        if is_garbage_title(title):
+            continue
+        score = score_title(title, url)
+        if score > 0:
+            ranked.append((score + (item.get("org_domain") or 0), bool(item.get("from_search")),
+                           item.get("created_at") or 0, item["id"],
+                           (item.get("org") or "", normalise_title(title)), url))
+    ranked.sort(reverse=True)
+    kept_keys: set[tuple[str, str]] = set()
+    kept_urls: set[str] = set()
+    held: set[str] = set()
+    for _rank, _search, _created, item_id, key, url in ranked:
+        if key in kept_keys or (url and url in kept_urls):
+            continue
+        if len(kept_keys) < cap:
+            kept_keys.add(key)
+            kept_urls.add(url)
+        else:
+            held.add(item_id)
+    return held
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1752,15 +1939,24 @@ def deduplicate(items: list[dict]) -> list[dict]:
     """
     Within a single company's results, collapse duplicate job titles
     (same normalised title seen on multiple boards) to first occurrence.
+    On a Getro network board the hiring company ("org") is part of the key,
+    so the same title at two different portfolio companies is two postings,
+    and one posting URL listed under two company names is one posting.
     """
     seen_norm: dict[str, bool] = {}
+    seen_urls: set[str] = set()
     out: list[dict] = []
     for item in items:
         title = item.get("title") or ""
         norm = normalise_title(title)
-        key = item["company"] + "|" + norm
+        key = item["company"] + "|" + (item.get("org") or "") + "|" + norm
         if norm and key in seen_norm:
             continue
+        if item.get("org") and item.get("url"):
+            url_key = item["company"] + "|" + item["url"]
+            if url_key in seen_urls:
+                continue
+            seen_urls.add(url_key)
         if norm:
             seen_norm[key] = True
         out.append(item)
@@ -2216,6 +2412,12 @@ def main() -> None:
     # Pass 4: score, store, and build digest items.
     now_iso = datetime.now(timezone.utc).isoformat()
     for name, items in all_company_items:
+        # Per-run digest cap (Getro boards): worked out before the loop below
+        # starts adding this board's items to seen.
+        held_back = over_digest_cap(items, seen)
+        if held_back:
+            log.info(f"  {name}: {len(held_back)} postings over the per-run digest cap, "
+                     f"stored with over_cap and not emailed")
         for item in items:
             item_id = item["id"]
 
@@ -2251,12 +2453,16 @@ def main() -> None:
                         )
                         entry["score"] = new_score
                         entry["scored"] = True
-                        new_items.append({
-                            "company": name,
-                            "url": entry["url"],
-                            "title": title,
-                            "score": new_score,
-                        })
+                        if item_id in held_back:
+                            entry["over_cap"] = True
+                        else:
+                            new_items.append({
+                                "company": name,
+                                "url": entry["url"],
+                                "title": title,
+                                "score": new_score,
+                                "org": item.get("org") or "",
+                            })
                 continue
 
             # Aggregator/browse URLs are never a single posting: suppress
@@ -2298,6 +2504,7 @@ def main() -> None:
                 continue
 
             relevance = score_title(title, item.get("url", ""))
+            over_cap = relevance > 0 and item_id in held_back
 
             seen[item_id] = {
                 "company": name,
@@ -2308,10 +2515,16 @@ def main() -> None:
                 "first_seen_utc": first_seen_iso or datetime.now(timezone.utc).isoformat(),
                 "last_seen_utc": datetime.now(timezone.utc).isoformat(),
             }
+            if over_cap:
+                # A real posting that scored, left out of the digest by the
+                # board's per-run cap. scored=True keeps the zero-score
+                # re-evaluation above from emailing it later.
+                seen[item_id]["over_cap"] = True
 
-            if relevance > 0:
+            if relevance > 0 and not over_cap:
                 new_items.append(
-                    {"company": name, "url": item["url"], "title": title, "score": relevance}
+                    {"company": name, "url": item["url"], "title": title, "score": relevance,
+                     "org": item.get("org") or ""}
                 )
 
     # Pass 5: board health, now that titles are known. A board counts as

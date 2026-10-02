@@ -53,6 +53,53 @@ emailed, do not fetch again":
 Anything that counts postings in `seen_jobs.json` should skip entries with
 either flag.
 
+A third flag, `over_cap`, marks a real posting that scored above 0 but was left
+out of the digest by a Getro board's per-run cap (next section). It keeps its
+score, is never emailed later, and can be listed from `seen_jobs.json` at any
+time.
+
+## Getro network boards
+
+The VC portfolio and community job boards on Getro (Space Talent, Climate
+Draft, Techstars, DCVC, Energy Impact Partners and others; the hosts are in
+`GETRO_HOSTS` and `GETRO_PAGE_LINK_HOSTS`) are `html_links` entries in
+`companies.yaml` and are read by `get_getro_jobs`, without a browser:
+
+1. the 20 newest postings embedded in the board page, every job function;
+2. the network's public job search, the same no-login endpoint the board page
+   calls from the browser
+   (`POST https://api.getro.com/api/v2/collections/{network id}/search/jobs`),
+   filtered to the job function "Sales & Business Development", newest first,
+   back 7 days. Postings Getro labels internship, entry level or associate are
+   dropped.
+
+Limits, all constants next to `get_getro_jobs`:
+
+| Constant | Value | Meaning |
+| --- | --- | --- |
+| `GETRO_WINDOW_DAYS` | 7 | Search postings older than this are never read, so the back catalogue cannot reach the digest, on the first run or later. |
+| `GETRO_MAX_PAGES` | 15 | Search pages read per board per run (20 postings a page). |
+| `GETRO_DIGEST_CAP` | 10 | Postings one Getro board can put in one digest. Lower it to cut downstream cost. |
+
+When a board has more new scoring postings than the cap, the ones that stay
+are chosen by title score plus a bonus of up to 4 (`GETRO_ORG_BONUS_MAX`) for
+how well the hiring company's industry tags match the domain keywords, then
+postings from the commercial search, then newest. The rest are stored with `over_cap`. Postings re-scored after a keyword
+change count toward the same cap.
+
+In the digest a Getro posting is listed under the board's name. The same title
+at two different hiring companies is two postings; the same posting URL or the
+same title at one hiring company is one.
+
+If the search endpoint fails, the board counts as failed for that run and goes
+on the attention list after 3 failed runs. The 7-day window picks up what was
+missed on the next good run.
+
+Climate Draft, Techstars and Schmidt Marine were read as plain page links
+before 2026-10. They keep the same ids and posting URLs
+(`https://{host}/companies/{org}/jobs/{slug}`) so nothing stored is emailed
+twice; the other Getro boards use the posting's direct URL.
+
 ## Board health
 
 A board counts as producing on a run only if it showed at least one real
