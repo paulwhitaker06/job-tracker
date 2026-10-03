@@ -742,3 +742,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Crusoe** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
 | **CGI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
 | **TakeMe2Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-09-29 |
+| **Z-Trak Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
+| **Nokia** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
+| **Honda** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
+| **Skyrora** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
+| **AMD** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |

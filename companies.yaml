@@ -2951,3 +2951,8 @@ companies:
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/skywatch
     # added 2026-10-03: EO data marketplace; Ashby board linked from skywatch.com/careers
+
+  - name: Filtronic
+    type: workable_api
+    url: https://apply.workable.com/filtronic/
+    # auto-added from Payload intel 2026-10-03
