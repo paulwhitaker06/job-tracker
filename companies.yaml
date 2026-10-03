@@ -4,9 +4,9 @@ companies:
     url: https://satelligence.com/careers/
 
   - name: ICEYE
-    type: html_links
-    url: https://www.iceye.com/careers
-    link_contains: iceye.com/career
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/iceye
+    # repointed 2026-10-02: iceye.com/careers/positions renders its list client-side from this Ashby board (Workable account iceye is empty)
 
   - name: Pixxel
     type: manual_check
@@ -19,10 +19,6 @@ companies:
   - name: Treefera
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/treefera
-
-  - name: Hawkeye360
-    type: html_links
-    url: https://hawkeye360.applicantstack.com/x/openings
 
   - name: Loft Orbital
     type: lever_api
@@ -77,11 +73,6 @@ companies:
     type: html_links
     url: https://liveeo-gmbh.jobs.personio.de/?language=en
 
-  - name: GHG Sat
-    type: workable_api
-    url: https://apply.workable.com/ghgsat/?lng=en
-    workable_account: ghgsat
-
   - name: Kayrros
     type: recruitee_api
     url: https://kayrros1.recruitee.com/
@@ -96,17 +87,16 @@ companies:
     board: planetlabs
 
   - name: Spire Global
-    type: html_links
-    url: https://spire.com/careers/job-openings/
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/spire
+    board: spire
+    # repointed 2026-10-02: careers page lists jobs as ?gh_jid= links to Greenhouse board spire, html_links read only the landing page.
+    # Job URLs all collapse to the careers page until canonicalize_url keeps gh_jid
 
   - name: Sust Global
     type: html_links
     url: https://www.sustglobal.com/careers
     link_contains: mailto:careers
-
-  - name: ClimateAI
-    type: html_links
-    url: https://climate.ai/careers/
 
   - name: SkyFi
     type: html_links
@@ -137,20 +127,27 @@ companies:
 
   - name: Capella Space
     type: greenhouse_api
-    url: https://job-boards.greenhouse.io/capellaspace
-    board: capellaspace
+    url: https://job-boards.greenhouse.io/ionq
+    board: ionq
+    # Capella is part of IonQ and its roles sit on the IonQ Greenhouse board (own board empty); repointed 2026-10-03
 
   - name: Umbra Space (Umbra Lab)
-    type: html_links
-    url: https://umbra.space/careers/job-openings/
+    type: workable_api
+    url: https://apply.workable.com/umbra-1/
+    workable_account: umbra-1
+    # repointed 2026-10-02: old job-openings page is 404, roles are on Workable account umbra-1 (account umbra is a different company)
 
   - name: BlackSky
-    type: html_links
-    url: https://blacksky.com/company/careers/
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/blacksky
+    board: blacksky
+    # repointed 2026-10-02: careers page embeds Greenhouse board blacksky, html_links read only the landing page
 
   - name: GeoOptics
     type: html_links
-    url: https://geooptics.com/careers-2-2/
+    url: https://geooptics.breezy.hr/
+    link_contains: /p/
+    # repointed 2026-10-02: careers page loads this Breezy board by script (85 empty runs); board empty on this date
 
   - name: Axiom Space
     type: workday_api
@@ -285,8 +282,9 @@ companies:
     url: https://jobs.lever.co/orbitalsidekick
 
   - name: Nara Space
-    type: html_links
+    type: manual_check
     url: https://naraspace.careers.team/job-descriptions?locale=en
+    note: 2026-10-02 flex.team recruiting site, list is JS-rendered and titles are in Korean; the scraper only ever stored the filter tabs
 
   - name: SpaceKnow
     type: manual_check
@@ -297,8 +295,10 @@ companies:
     url: https://sparkgeo.com/careers/
 
   - name: AiDash
-    type: html_links
-    url: https://www.aidash.com/careers/
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/aidashinc
+    board: aidashinc
+    # repointed 2026-10-02: careers page embeds Greenhouse board aidashinc, html_links read only the landing page
 
   - name: Climate X
     type: manual_check
@@ -313,8 +313,10 @@ companies:
     url: https://www.climatologylab.org/openings.html
 
   - name: E-Space
-    type: html_links
-    url: https://www.e-space.com/pages/careers
+    type: lever_api
+    url: https://jobs.lever.co/espace
+    lever_company: espace
+    # repointed 2026-10-03: careers page renders this Lever board by script, static page has no job links
 
   - name: Earthshot Labs
     type: manual_check
@@ -375,8 +377,9 @@ companies:
     url: https://asterra.io/about/careers/
 
   - name: Atlas Space Operations
-    type: html_links
+    type: manual_check
     url: https://atlasspace.com/careers/
+    note: 2026-10-02 openings are root-level WordPress pages (for example /director-of-customer-solutions/), no ATS and no job-like path
 
   - name: Bedrock Ocean
     type: ashby_api
@@ -401,8 +404,9 @@ companies:
     board: cloverly
 
   - name: CLS Group
-    type: html_links
-    url: https://www.cls.fr/carrieres/offres-emploi/
+    type: manual_check
+    url: https://groupecls.softy.pro/offers
+    note: 2026-10-02 Softy ATS, 27 roles at /offers/<id>, a path the link filter drops; cls.fr offer pages all share one generic title
 
   - name: Development Seed
     type: html_links
@@ -413,8 +417,9 @@ companies:
     url: https://careers.eagleview.com/
 
   - name: EOMAP
-    type: html_links
+    type: manual_check
     url: https://eomap.com/about/#join
+    note: 2026-10-02 no ATS; openings are page text with a mailto apply link; none open; part of Fugro since 2025
 
   - name: Esri
     type: html_links
@@ -436,17 +441,16 @@ companies:
     type: html_links
     url: https://careers-here.icims.com/jobs/search?ss=1&hashed=-435626304
 
-  - name: Hexagon Geospatial
-    type: html_links
-    url: https://hexagon.com/company/careers/job-listings
-
   - name: Infostellar
-    type: workable_api
-    url: https://apply.workable.com/infostellar/
+    type: manual_check
+    url: https://infostellar.zohorecruit.com/jobs/Careers
+    note: 2026-10-02 old Workable slug was an unrelated US consultancy; real board is Zoho Recruit, JS-rendered, 3 roles in Tokyo
 
   - name: Leaf Space
     type: html_links
-    url: https://leaf.space/contact/work-with-us/
+    url: https://leafspace.teamtailor.com/jobs
+    link_contains: /jobs/
+    # repointed 2026-10-02: the work-with-us page only links to the Teamtailor root, this is the listing itself
 
   - name: Lithos Carbon
     type: workable_api
@@ -462,20 +466,20 @@ companies:
     url: https://maxar.wd1.myworkdayjobs.com/Vantor
 
   - name: Nearmap
-    type: playwright
+    type: manual_check
     url: https://www.nearmap.com/careers
-
-  - name: Normative
-    type: html_links
-    url: https://careers.normative.io/departments/sales
+    note: 2026-10-02 jobs are on SmartRecruiters (40 live, many sales roles) but the hosted board redirects to this JS page; no reader for it
 
   - name: Ocean Infinity
-    type: html_links
-    url: https://wd1.myworkdaysite.com/en-US/recruiting/oceaninfinity/ocean_infinity_careers
+    type: workable_api
+    url: https://apply.workable.com/ocean-infinity/
+    workable_account: ocean-infinity
+    # repointed 2026-10-02: moved from Workday (now 0 jobs) to Workable
 
   - name: OceanMind
-    type: html_links
+    type: manual_check
     url: https://oceanmind.global/about-us/careers/
+    note: 2026-10-02 no openings; past vacancies were BreatheHR links the scraper titled 'OceanMind' or 'Breathe'; new roles are announced on LinkedIn
 
   - name: OpenOcean Robotics
     type: html_links
@@ -591,22 +595,29 @@ companies:
   - name: Dragonfly Aerospace
     type: playwright
     url: https://dragonflyaerospace.com/blog/career/
+    item_selector: "#career-preview a.post-title"
+    # item_selector added 2026-10-02: vacancies are blog posts at root-level slugs with no job-like path.
+    # Selector checked against the static HTML only (no Playwright locally)
 
   - name: Earth-i
     type: html_links
-    url: https://earthi.space/about-us/#careers
+    url: https://earthi.space/careers/
+    # repointed 2026-10-02: the vacancies page is /careers/ (old URL was the About page); no openings on this date
 
   - name: Electric Hydrogen
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/eh2
 
   - name: Fervo Energy
-    type: html_links
-    url: https://fervoenergy.com/careers/
+    type: playwright
+    url: https://recruiting.paylocity.com/recruiting/jobs/All/12776fae-4a6e-4875-99e9-78e5a8621042/Fervo-Energy-Company
+    # repointed 2026-10-02: fervoenergy.com/careers has no anchor links and answers 403 to the scraper; Paylocity board, same shape as Agile Space Industries.
+    # Not run locally (no Playwright): check the first Actions run
 
   - name: Form Energy
-    type: html_links
-    url: https://formenergy.com/careers/open-jobs/
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/formenergy
+    # repointed 2026-10-03: careers page answers 403 to a plain fetch and embeds this Ashby board
 
   - name: Isar Aerospace
     type: html_links
@@ -623,8 +634,9 @@ companies:
     board: electrasteel
 
   - name: Brimstone
-    type: html_links
-    url: https://www.brimstone.com/careers
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/brimstone
+    # repointed 2026-10-02: careers page embeds this Ashby board, html_links stored only the board link
 
   - name: Conservation X Labs
     type: html_links
@@ -639,8 +651,9 @@ companies:
     url: https://jobs.lever.co/rumin8
 
   - name: MetOcean Telematics
-    type: html_links
+    type: manual_check
     url: https://metocean.com/about/careers/
+    note: 2026-10-02 roles link to Dayforce, where the scraper reads every page title as 'Job Details', so nothing can score
 
   - name: Mission Control Space
     type: html_links
@@ -669,6 +682,9 @@ companies:
   - name: Sidus Space
     type: playwright
     url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=274f5796-403b-41e3-b324-309840b20c85&ccId=19000101_000001&lang=en_US
+    item_selector: ".current-openings-item"
+    # item_selector added 2026-10-02: ADP openings have no links (85 empty runs), same config as Orbcomm.
+    # Not run locally (no Playwright): check the first Actions run
 
   - name: Orbcomm
     type: playwright
@@ -681,8 +697,10 @@ companies:
 
   - name: AAC Clyde Space
     type: html_links
-    url: https://www.space-careers.com/jobs_at/aac_clyde_space/11768
-    link_contains: /job_display/
+    url: https://hr.clarityloop.com/recruitment/open-recruitments/Z0FBQUFBQnFSN19NN29saDZRdlNCX3Y3UUdRckpmN25vdGcxLU5ndTZMdXdiM3pOMVJwQllNSkIxYjV2SGpuN0dSNWt1RjVmNVVJTWNDeks3aUd6RjBscEd6T1luNjQ0elE9PQ%3D%3D/
+    link_contains: /recruitment-details/
+    # repointed 2026-10-02 from space-careers.com to the ClarityLoop board embedded on aac-clyde.space/careers.
+    # If the token in the URL is rotated the scrape fails loudly: take the new iframe URL from that page
 
   - name: Cowboy Space
     type: ashby_api
@@ -695,7 +713,9 @@ companies:
 
   - name: Baseload Capital
     type: html_links
-    url: https://www.baseloadcap.com/careers/
+    url: https://baseloadcap.teamtailor.com/jobs
+    link_contains: /jobs/
+    # repointed 2026-10-02: careers page lists roles through a Teamtailor widget; board empty on this date
 
   - name: C16 Biosciences
     type: html_links
@@ -707,11 +727,14 @@ companies:
 
   - name: H2Pro
     type: html_links
-    url: https://www.comeet.com/jobs/h2pro/A7.001
+    url: https://www.h2pro.co/careers
+    link_contains: /jobs/
+    # repointed 2026-10-02: Comeet board is empty, roles are pages under /jobs/ on the company site (plant roles are titled in Hebrew)
 
   - name: EnduroSat
     type: html_links
-    url: https://www.endurosat.com/careers/
+    url: https://endurosat.applytojob.com/apply/
+    # repointed 2026-10-02: endurosat.com/careers has no link to the JazzHR board; same pattern as the EarthDaily entry
 
   - name: Equilibrium Energy
     type: greenhouse_api
@@ -723,12 +746,14 @@ companies:
     url: https://www.flowminder.org/about-us/work-with-us
 
   - name: GeoVille
-    type: html_links
+    type: manual_check
     url: https://www.geoville.com/careers/
+    note: 2026-10-02 offer pages (/careers/offer/<slug>/) carry no readable job title, so postings can never score
 
   - name: Graphyte
-    type: html_links
-    url: https://www.graphyte.com/
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/graphyte
+    # repointed 2026-10-02: View Open Roles on graphyte.com/careers goes to this Ashby board; empty on this date
 
   - name: Guidewheel
     type: html_links
@@ -743,8 +768,9 @@ companies:
     url: https://www.pixalytics.com/contact-us/vacancies/
 
   - name: PLD Space
-    type: playwright
+    type: manual_check
     url: https://www.pldspace.com/en/pld-space-open-positions/
+    note: 2026-10-02 114 roles sit in a Vue component with no anchors; posting URLs (/en/pld-space-careers/x.html) match no job indicator
 
   - name: Skytek
     type: html_links
@@ -773,21 +799,23 @@ companies:
     link_contains: /veson/job
 
   - name: DNV
-    type: html_links
-    url: https://jobs.dnv.com/
-    link_contains: /job-search/
+    type: manual_check
+    url: https://jobs.dnv.com/job-search
+    note: 2026-10-02 Oracle Cloud HCM behind a JS search, 265 postings; no reader for it and job URLs match no job indicator
 
   - name: Orsted
     type: html_links
     url: https://orsted.com/en/careers
 
   - name: MDA Space
-    type: playwright
-    url: https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/
+    type: manual_check
+    url: https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/?q=&o=postedDateDesc
+    note: 2026-10-02 UKG UltiPro board, no reader for it (85 empty runs); 187 Canada roles incl. business development; US and EMEA boards are linked from mda.space/careers
 
   - name: Kontur
-    type: html_links
-    url: https://kontur.io/jobs
+    type: manual_check
+    url: https://www.kontur.io/join/
+    note: 2026-10-02 kontur.io/jobs redirects to the homepage; careers page is /join/, lists no roles and no ATS
 
   - name: PAL Aerospace
     type: html_links
@@ -817,10 +845,6 @@ companies:
     url: https://careers.southpole.com/
     # careers URL repaired 2026-07-20 (health-ledger pass)
 
-  - name: Cervest
-    type: html_links
-    url: https://cervest.earth/careers
-
   - name: SkyTruth
     type: html_links
     url: https://skytruth.org/careers
@@ -835,16 +859,19 @@ companies:
     url: https://careers.carbontrust.com
 
   - name: EOS Data Analytics
-    type: html_links
-    url: https://eos.com/about-us/careers/
+    type: manual_check
+    url: https://eos.com/company/careers/
+    note: 2026-10-02 careers page moved here (old URL 404s); no listings or ATS, 'Find jobs' opens an HR contact form
 
   - name: SynMax
     type: lever_api
     url: https://jobs.lever.co/synmax
 
   - name: Constellr
-    type: recruitee_api
-    url: https://constellr.recruitee.com/
+    type: greenhouse_api
+    url: https://job-boards.eu.greenhouse.io/constellrgmbh
+    board: constellrgmbh
+    # repointed 2026-10-02: Recruitee board closed (redirects to careers_not_hosted), company moved to Greenhouse EU
 
   - name: Kuva Space
     type: html_links
@@ -855,8 +882,9 @@ companies:
     url: https://www.satelytics.com/careers/
 
   - name: EarthBlox
-    type: html_links
-    url: https://www.earthblox.io/careers
+    type: bamboohr_api
+    url: https://earthblox.bamboohr.com/careers
+    # repointed 2026-10-02: BambooHR account earthblox (Earthblox Ltd), matched by account name since the careers page has no listing; empty on this date
 
   - name: Chloris Geospatial
     type: bamboohr_api
@@ -872,9 +900,9 @@ companies:
     url: https://oceanscore.com/jobs/
 
   - name: Arlula
-    type: html_links
+    type: manual_check
     url: https://www.arlula.com/careers
-    link_contains: /open-positions/
+    note: 2026-10-02 roles are Webflow pages under /open-positions/ (no ATS, apply by email), a path the link filter drops
 
   - name: Sateliot
     type: html_links
@@ -962,9 +990,9 @@ companies:
     # 403/redirect to plain requests; playwright 2026-07-20
 
   - name: Blackshark.ai
-    type: html_links
+    type: manual_check
     url: https://jobs.eu.lever.co/blackshark
-    link_contains: lever.co/blackshark/
+    note: 2026-10-02 Lever EU host (jobs.eu.lever.co); the scraper only reads the US Lever API, so it has read nothing here; 5 roles, all engineering
 
   - name: Nextbillion.ai
     type: html_links
@@ -1068,8 +1096,9 @@ companies:
     url: https://jobs.g2vp.com/jobs
 
   - name: ClimateTechList
-    type: html_links
-    url: https://www.climatetechlist.com/
+    type: manual_check
+    url: https://www.climatetechlist.com/jobs
+    note: 2026-10-02 8,000+ postings load client-side from a token-gated POST; no per-job links in the HTML
 
   - name: Climate Draft
     type: html_links
@@ -1082,7 +1111,9 @@ companies:
 
   - name: Lloyd's Register
     type: html_links
-    url: https://www.lr.org/en/careers/
+    url: https://jobs.lr.org/search/
+    link_contains: /job/
+    # repointed 2026-10-02: lr.org careers search is JS only; this SuccessFactors site lists every role as a static link
 
   - name: Precisely (MapInfo)
     type: html_links
@@ -1110,8 +1141,9 @@ companies:
     note: domain unresolvable 2026-07-20
 
   - name: Ecopia AI
-    type: html_links
-    url: https://www.ecopiatech.com/careers
+    type: manual_check
+    url: https://ecopiatech.applytojobs.ca/
+    note: 2026-10-02 moved from BambooHR to Humi (applytojobs.ca); posting links have no job-like path, scraper cannot read them
 
   - name: Felt
     type: manual_check
@@ -1136,8 +1168,9 @@ companies:
     url: https://www.cotality.com/careers
 
   - name: Flowcarbon
-    type: html_links
+    type: manual_check
     url: https://www.flowcarbon.com/careers
+    note: 2026-10-02 page lists 3 roles but their Greenhouse links 404; Greenhouse and Ashby boards both gone
 
   - name: Gold Standard
     type: manual_check
@@ -1145,8 +1178,9 @@ companies:
     note: careers URL moved; needs manual relocation
 
   - name: Climatebase
-    type: html_links
+    type: manual_check
     url: https://climatebase.org/jobs
+    note: 2026-10-02 Cloudflare bot challenge blocks the scraper; titles intercepted earlier had no per-job URL
 
   - name: Terra.do Job Board
     type: html_links
@@ -1161,10 +1195,6 @@ companies:
     type: html_links
     url: https://ctvc.kardow.com/
     link_contains: /jobs/
-
-  - name: GEO Careers
-    type: html_links
-    url: https://www.geo-careers.com/
 
   - name: Acre Sustainability Jobs
     type: html_links
@@ -1197,33 +1227,40 @@ companies:
     url: https://www.climatepartner.com/en/careers
 
   - name: Ocean Conservancy
-    type: html_links
-    url: https://oceanconservancy.org/our-people/career-opportunities/
+    type: playwright
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4786a4ca-9800-4db8-98cb-8bc9baad2b0d&ccId=19000101_000001&lang=en_US
+    item_selector: ".current-openings-item"
+    # repointed 2026-10-02 from the career-opportunities page (which only links here); ADP Workforce Now, same config as Orbcomm.
+    # Not run locally (no Playwright): check the first Actions run
 
   - name: Oceana
-    type: html_links
+    type: manual_check
     url: https://oceana.org/employment-opportunities/
-    link_contains: /employment/
+    note: 2026-10-02 postings live at oceana.org/employment/<slug>/, a path the link filter drops; no openings listed on this date
 
   - name: Wildlife Conservation Society
-    type: html_links
-    url: https://www.wcs.org/about-us/careers
+    type: manual_check
+    url: https://sjobs.brassring.com/TGWebHost/searchopenings.aspx?partnerid=25965&siteid=5168
+    note: 2026-10-02 jobs are on BrassRing (a search form, no reader for it); the careers page only links to it and the scraper stored two site pages
 
   - name: Ocean Wise
-    type: html_links
-    url: https://ocean.org/careers/
+    type: manual_check
+    url: https://recruiting.ultipro.ca/OCE5100OCEA/JobBoard/1d6422a5-785d-437d-894c-8d6bf40fe3a6/?q=&o=postedDateDesc
+    note: 2026-10-02 UKG UltiPro board, JS-rendered; the scraper has no reader for UltiPro (MDA Space and African Wildlife Foundation are empty too)
 
   - name: The Nature Conservancy
-    type: html_links
-    url: https://careers.nature.org/
+    type: manual_check
+    url: https://careers.tnc.org/us/en/search-results
+    note: 2026-10-02 jobs moved to this Phenom site (85 live), list is JS-rendered; old URL returned only share links. Same shape as the MITRE playwright entry, not verified without a browser
 
   - name: Marine Conservation Institute
     type: html_links
     url: https://marine-conservation.org/work-with-us/
 
   - name: Monterey Bay Aquarium Research Institute (MBARI)
-    type: html_links
-    url: https://www.mbari.org/about/careers/
+    type: manual_check
+    url: https://www.mbari.org/about/careers/job-openings/
+    note: 2026-10-02 postings live at mbari.org/job-opening/<slug>/, a path the link filter drops; only section pages were ever stored
 
   - name: Schmidt Ocean Institute
     type: html_links
@@ -1301,8 +1338,9 @@ companies:
     url: https://wildnet.org/careers/
 
   - name: Woods Hole Oceanographic Institution
-    type: html_links
-    url: https://careers.whoi.edu/
+    type: workday_api
+    url: https://whoi.wd5.myworkdayjobs.com/WHOI-External
+    # repointed 2026-10-02: careers.whoi.edu is only a landing page that links to this Workday site
 
   - name: Scripps Institution of Oceanography
     type: html_links
@@ -1320,8 +1358,9 @@ companies:
     link_contains: /employment/
 
   - name: Rocky Mountain Institute
-    type: html_links
-    url: https://rmi.org/about/careers/
+    type: workday_api
+    url: https://rockymountain.wd1.myworkdayjobs.com/RMI
+    # repointed 2026-10-02: rmi.org/about/careers is only a landing page that links to this Workday site
 
   - name: ClimateWorks Foundation
     type: html_links
@@ -1356,26 +1395,14 @@ companies:
     type: html_links
     url: https://jobs.techstars.com/jobs
 
-  - name: Climate Tech Careers
-    type: html_links
-    url: https://www.climatetechcareers.com/
-
   - name: Climate Change Jobs
     type: html_links
     url: https://climatechangejobs.com
-
-  - name: Climate Jobs List
-    type: html_links
-    url: https://www.climatejobslist.com/
 
   - name: Rejobs Renewable Energy
     type: html_links
     url: https://rejobs.org/en
     link_contains: /renewable-energy-jobs/
-
-  - name: Jobs in Carbon
-    type: html_links
-    url: https://jobsincarbon.niceboard.co/
 
   - name: Work on Climate
     type: html_links
@@ -1403,10 +1430,6 @@ companies:
     url: https://conservationjobboard.com/
     link_contains: /job-listing-
 
-  - name: Global Forest Watch
-    type: html_links
-    url: https://www.globalforestwatch.org/about/
-
   - name: 2150 VC Portfolio
     type: html_links
     url: https://jobs.2150.vc/jobs
@@ -1430,7 +1453,9 @@ companies:
 
   - name: Blue Ventures
     type: html_links
-    url: https://blueventures.org/careers/
+    url: https://careers.blueventures.org/jobs
+    link_contains: /jobs/
+    # repointed 2026-10-02: Teamtailor board on the company's own domain (old URL returned only navigation pages); board empty on this date
 
   - name: BlueHalo
     type: html_links
@@ -1448,13 +1473,12 @@ companies:
     type: workable_api
     url: https://apply.workable.com/cgiar/
 
-  - name: Cape Analytics
-    type: html_links
-    url: https://capeanalytics.com/careers/
-
   - name: Captura
-    type: html_links
-    url: https://capturacorp.com/careers
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/captura
+    board: captura
+    # repointed 2026-10-02: careers page embeds Greenhouse board captura.
+    # Job URLs all collapse to the careers page until canonicalize_url keeps gh_jid
 
   - name: Carbon Engineering
     type: html_links
@@ -1493,8 +1517,9 @@ companies:
     url: https://careers.foursquare.com/
 
   - name: Hewlett Foundation
-    type: html_links
+    type: manual_check
     url: https://hewlett.org/about-us/careers/
+    note: 2026-10-02 openings load in a ClearCompany JS widget, no reader for it; the scraper only ever stored a site page (Demographics)
 
   - name: Hortau
     type: html_links
@@ -1514,7 +1539,9 @@ companies:
 
   - name: Meteomatics
     type: html_links
-    url: https://www.meteomatics.com/en/careers/
+    url: https://meteomatics.teamtailor.com/jobs
+    # repointed 2026-10-02: Teamtailor board behind careers.meteomatics.com. No link_contains on purpose:
+    # two job links alone fall under the 3-link threshold and would push the board to Playwright
 
   - name: Packard Foundation
     type: html_links
@@ -1550,7 +1577,8 @@ companies:
 
   - name: Vaisala
     type: html_links
-    url: https://www.vaisala.com/en/careers
+    url: https://careers.vaisala.com/search/
+    # repointed 2026-10-02: vaisala.com/en/careers is only a landing page, this is the listing itself (23 of 23 roles on one page)
 
   - name: WeatherXM
     type: html_links
@@ -1561,8 +1589,9 @@ companies:
     url: https://www.vesta.earth/the-project#Jobs
 
   - name: Seabound
-    type: html_links
+    type: manual_check
     url: https://www.seabound.co/#careers
+    note: 2026-10-02 role is plain text on the home page with a JS-only Dover apply link; Dover careers API lists 0 jobs
 
   - name: IUCN
     type: html_links
@@ -1585,10 +1614,6 @@ companies:
   - name: Elemental Excelerator Portfolio
     type: html_links
     url: https://jobs.elementalimpact.com/jobs
-
-  - name: MCJ Collective Portfolio
-    type: html_links
-    url: https://jobs.mcj.vc/jobs
 
   - name: Voyager Ventures Portfolio
     type: html_links
@@ -1624,8 +1649,9 @@ companies:
     url: https://job-boards.greenhouse.io/placerlabs
 
   - name: Ceres Imaging
-    type: html_links
-    url: https://ceres.ai/careers
+    type: bamboohr_api
+    url: https://ceresai.bamboohr.com/careers
+    # repointed 2026-10-02: company now brands as Ceres AI, roles are on BambooHR account ceresai
 
   - name: Carbon Robotics
     type: greenhouse_api
@@ -1654,8 +1680,9 @@ companies:
     note: renamed from Kairos; Lever page live but empty and API disabled, so html_links
 
   - name: Bridger Photonics
-    type: html_links
-    url: https://www.bridgerphotonics.com/careers
+    type: rippling_api
+    url: https://ats.rippling.com/bridger-photonics-inc/jobs
+    # repointed 2026-10-02: careers page embeds Rippling board bridger-photonics-inc (85 empty runs as html_links)
 
   - name: Project Canary
     type: html_links
@@ -1671,8 +1698,9 @@ companies:
     lever_company: aquabyte
 
   - name: Earth Fire Alliance
-    type: html_links
-    url: https://www.earthfirealliance.org/join-our-team#open-roles
+    type: manual_check
+    url: https://earthfirealliance.org/careers/
+    note: 2026-10-02 old /join-our-team URL is 404; roles are /job-offer/ links the link filter drops, so the scraper reads none
 
   - name: Genasys (acq. ZoneHaven)
     type: html_links
@@ -1892,8 +1920,9 @@ companies:
     url: https://www.e3g.org/about/careers/
 
   - name: Mission Possible Partnership
-    type: html_links
-    url: https://www.missionpossiblepartnership.org/careers
+    type: manual_check
+    url: https://missionpossiblepartnership.org/careers/
+    note: 2026-10-02 vacancies are plain site pages (e.g. /legal-and-risk-manager/) with no job-like path and no ATS; apply by email
 
   - name: CDP (formerly Carbon Disclosure Project)
     type: html_links
@@ -1905,8 +1934,9 @@ companies:
     link_contains: /files/JD-
 
   - name: Ceres
-    type: html_links
+    type: manual_check
     url: https://www.ceres.org/careers/opportunities
+    note: 2026-10-02 Paycor (Newton) script embed, posting pages carry no title tag; no openings on this date
 
   - name: WBCSD
     type: manual_check
@@ -1931,6 +1961,9 @@ companies:
   - name: Climate Group
     type: playwright
     url: https://climategroup.peoplehr.accessacloud.com/jobboard
+    item_selector: "#tblVacancyOnJobBoard tr.tabletrHght td:first-child span"
+    # item_selector added 2026-10-02: PeopleHR vacancy rows carry no anchor, so link extraction never saw one (85 empty runs).
+    # Selector checked against an archived copy only (board empty on this date, no Playwright locally)
 
   - name: Project Drawdown
     type: html_links
@@ -2021,9 +2054,9 @@ companies:
     url: https://api.ashbyhq.com/posting-api/job-board/neworbit
 
   - name: Starcloud
-    type: greenhouse_api
-    url: https://job-boards.greenhouse.io/starcloud
-    board: starcloud
+    type: html_links
+    url: https://starcloud.octbr.ai
+    # repointed 2026-10-02: moved off Greenhouse (board 404) to an octbr.ai careers site
 
   - name: FOSSA Systems
     type: html_links
@@ -2078,11 +2111,16 @@ companies:
     # auto-added from Payload intel 2026-07-10; board key added 2026-07-20 (fail-streak fix)
 
   - name: Latitude
-    type: html_links
+    type: manual_check
     url: https://www.latitude.eu/jobs/
-    link_contains: hollo.io
+    note: 2026-10-02 roles are apply.hollo.io links the link filter drops, and hollo pages return no title; 7 roles, all engineering
 
   # ── OceanSight platform (XPV Water Partners roll-up) 2026-07-17: inbound retained search ──
+
+  - name: OceanSight
+    type: manual_check
+    url: https://www.oceansight.com/
+    note: 2026-10-02 platform parent of the three companies below; one-page site with no careers page, hiring seen only via retained search and LinkedIn
 
   - name: Ocean Floor Geophysics
     type: manual_check
@@ -2284,9 +2322,9 @@ companies:
     # auto-added from Payload intel 2026-08-06
 
   - name: ETL Systems
-    type: workable_api
-    url: https://apply.workable.com/etl-systems/
-    # auto-added from Payload intel 2026-08-10
+    type: rippling_api
+    url: https://ats.rippling.com/etl-systems/jobs
+    # auto-added from Payload intel 2026-08-10; repointed 2026-10-02: Workable account is an empty shell, roles are on Rippling
 
   - name: Valar Atomics
     type: greenhouse_api
@@ -2347,14 +2385,15 @@ companies:
     # auto-added from Payload intel 2026-08-13
 
   - name: Mantis Space
-    type: workable_api
-    url: https://apply.workable.com/mantis-space/
+    type: manual_check
+    url: https://www.mantis.space/careers
+    note: 2026-10-02 Workable slug is an empty shell; 3 roles on own site under /career-postings/, a path the link filter drops
     # auto-added from Payload intel 2026-08-13
 
   - name: Blue Energy
-    type: workable_api
-    url: https://apply.workable.com/blue-energy/
-    # auto-added from Payload intel 2026-08-17
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/blue-energy
+    # auto-added from Payload intel 2026-08-17; repointed from an empty Workable account to Ashby 2026-10-02
 
   - name: The Nuclear Company
     type: greenhouse_api
@@ -2368,9 +2407,9 @@ companies:
     # auto-added from Payload intel 2026-08-17
 
   - name: Telesat
-    type: workable_api
-    url: https://apply.workable.com/telesat/
-    # auto-added from Payload intel 2026-08-21
+    type: lever_api
+    url: https://jobs.lever.co/telesat
+    # auto-added from Payload intel 2026-08-21; repointed from an empty Workable account to Lever 2026-10-02
 
   - name: Mach Industries
     type: greenhouse_api
@@ -2384,9 +2423,10 @@ companies:
     # auto-added from Payload intel 2026-08-21
 
   - name: ENPULSION
-    type: workable_api
-    url: https://apply.workable.com/enpulsion/
-    # auto-added from Payload intel 2026-08-22
+    type: html_links
+    url: https://www.enpulsion.com/careers/
+    link_contains: /careers/position/
+    # auto-added from Payload intel 2026-08-22; repointed 2026-10-02: Workable account is an empty shell, roles are listed on the company site
 
   - name: Amentum
     type: workable_api
@@ -2434,11 +2474,6 @@ companies:
     type: greenhouse_api
     url: https://job-boards.greenhouse.io/pacificfusion
     board: pacificfusion
-    # auto-added from Payload intel 2026-08-31
-
-  - name: MARS Energy Group
-    type: workable_api
-    url: https://apply.workable.com/mars-energy-group/
     # auto-added from Payload intel 2026-08-31
 
   - name: Helogen
@@ -2515,15 +2550,15 @@ companies:
     # outreach radar backlog audit 2026-09-07, board verified
 
   - name: Sierra Space
-    type: playwright
+    type: workday_api
     url: https://sierraspace.wd1.myworkdayjobs.com/Sierra_Space_External_Career_Site
-    # outreach radar backlog audit 2026-09-07, board verified; Workday, JS-rendered
+    # outreach radar backlog audit 2026-09-07, board verified; switched from playwright to workday_api 2026-10-03
 
   - name: York Space Systems
-    type: html_links
+    type: manual_check
     url: https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d0821e1a6301823c22a8bd068b
-    link_contains: JobIntroduction.action
-    # outreach radar backlog audit 2026-09-07, board verified; Paycor board
+    note: 2026-10-02 Paycor board, 11 roles; job pages carry no title tag, so the scraper reads every posting as untitled
+    # outreach radar backlog audit 2026-09-07; Paycor board
 
   - name: United Launch Alliance
     type: html_links
@@ -2533,13 +2568,17 @@ companies:
 
   - name: Intuitive Machines
     type: playwright
-    url: https://www.intuitivemachines.com/careers
-    # outreach radar backlog audit 2026-09-07, board verified; Vue SPA, token-gated CMS
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b0e24f83-6e4d-492d-9d6a-bc0fea197d6a&ccId=19000101_000001&lang=en_US
+    item_selector: ".current-openings-item"
+    # outreach radar backlog audit 2026-09-07
+    # repointed 2026-10-02 from intuitivemachines.com/careers (Vue SPA that only links here); ADP Workforce Now, same config as Orbcomm.
+    # Not run locally (no Playwright): check the first Actions run
 
   - name: Firefly Aerospace
-    type: playwright
+    type: manual_check
     url: https://fireflyspace.com/careers/
-    # outreach radar backlog audit 2026-09-07, board verified; ClearCompany JS widget
+    note: 2026-10-02 ClearCompany widget; 148 roles load as JSON whose title key (positionTitle) the Playwright intercept does not read
+    # outreach radar backlog audit 2026-09-07
 
   - name: Astrolab
     type: playwright
@@ -2547,10 +2586,10 @@ companies:
     # outreach radar backlog audit 2026-09-07, board verified; Pinpoint, JS-rendered
 
   - name: Iridium Communications
-    type: html_links
-    url: https://careers-iridium.icims.com/jobs/search?ss=1&in_iframe=1
-    link_contains: /jobs/
-    # outreach radar backlog audit 2026-09-07, board verified; iCIMS iframe view has server-side links
+    type: manual_check
+    url: https://careers-iridium.icims.com/jobs/search?ss=1
+    note: 2026-10-02 iCIMS answers the scraper with a 405 Human Verification page; about 20 live roles, read by hand
+    # outreach radar backlog audit 2026-09-07
 
   - name: Agile Space Industries
     type: playwright
@@ -2558,9 +2597,10 @@ companies:
     # outreach radar backlog audit 2026-09-07, board verified; Paylocity, jobs in embedded JSON
 
   - name: Redwire
-    type: playwright
+    type: manual_check
     url: https://careers.rdw.com/jobs/search
-    # outreach radar backlog audit 2026-09-07, board verified
+    note: 2026-10-02 board sits behind an AWS WAF bot challenge, the scraper only ever stored the landing page; about 70 roles, read by hand
+    # outreach radar backlog audit 2026-09-07
 
   - name: NorthStar Earth & Space
     type: playwright
@@ -2586,8 +2626,11 @@ companies:
 
   - name: Karman Space & Defense
     type: playwright
-    url: https://karman-sd.com/job-openings/
-    # outreach radar backlog audit 2026-09-07, board verified; ADP widget; karman.com is an unrelated rubber company
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=82153303-7d5a-4833-b767-9cb13d965e09&ccId=9200631691604_3&lang=en_US
+    item_selector: ".current-openings-item"
+    # outreach radar backlog audit 2026-09-07; karman.com is an unrelated rubber company
+    # repointed 2026-10-02 from karman-sd.com/job-openings/ (ADP widget, no anchors) to the ADP board itself, same config as Orbcomm.
+    # Not run locally (no Playwright): check the first Actions run
 
   - name: MaiaSpace
     type: html_links
@@ -2596,10 +2639,10 @@ companies:
     # outreach radar backlog audit 2026-09-07, board verified; Recruitee
 
   - name: Exobiosphere
-    type: html_links
+    type: manual_check
     url: https://www.exobiosphere.com/luxembourg
-    link_contains: /luxembourg/
-    # outreach radar backlog audit 2026-09-07, board verified; sibling US page /usa
+    note: 2026-10-02 roles listed here and on /usa; links (/luxembourg/<slug>, /usa/<slug>) match no job indicator, scraper reads 0
+    # outreach radar backlog audit 2026-09-07; sibling US page /usa
 
   - name: Lunar Outpost
     type: playwright
@@ -2634,15 +2677,15 @@ companies:
     # newsletter harvest 2026-09-09 (Payload, $9.35M seed, in-space semiconductor manufacturing)
 
   - name: Eclipse Space
-    type: html_links
+    type: manual_check
     url: https://www.eclipse.space/careers
-    link_contains: /job-listings/
+    note: 2026-10-02 11 roles live as /job-listings/ links, which the link filter drops, so the scraper reads none
     # newsletter harvest 2026-09-09 (Payload, turnkey satellite platforms, out of stealth June 2026)
 
   - name: Gama
-    type: html_links
+    type: manual_check
     url: https://jobs.world.luccasoftware.com/gama
-    link_contains: /gama/
+    note: 2026-10-02 Lucca board, about 9 roles; job links (/gama/<slug>-<uuid>) match no job indicator, so html_links reads nothing
     # newsletter harvest 2026-09-09 (Payload, French solar sails and spacecraft power systems)
 
   - name: SSC Space
@@ -2714,29 +2757,20 @@ companies:
     url: https://orbital.inc/#careers
     # newsletter harvest 2026-09-10 (Payload, orbital data centers; roles on-page via mailto, no ATS. Note: ashby slug 'orbital' is Orbital Witness, unrelated)
 
-  - name: NextEra Energy
-    type: workable_api
-    url: https://apply.workable.com/nextera-energy/
-    # auto-added from Payload intel 2026-09-14
-
   - name: Constellation
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/constellation
     # auto-added from Payload intel 2026-09-14
 
   - name: Green Eagle Solutions
-    type: workable_api
-    url: https://apply.workable.com/greeneaglesolutions/
+    type: manual_check
+    url: https://greeneaglesolutions.factorialhr.com/
+    note: 2026-10-02 jobs moved from Workable (empty) to Factorial; 3 roles, links (factorialhr.com/job_posting/...) match no job indicator
     # auto-added from Payload intel 2026-09-14
 
   - name: Zero Gravity
     type: workable_api
     url: https://apply.workable.com/zerogravity/
-    # auto-added from Payload intel 2026-09-17
-
-  - name: Voyager
-    type: workable_api
-    url: https://apply.workable.com/voyager/
     # auto-added from Payload intel 2026-09-17
 
   - name: Orange
@@ -2780,9 +2814,10 @@ companies:
     # auto-added from Payload intel 2026-09-21
 
   - name: GHGSat
-    type: workable_api
-    url: https://apply.workable.com/ghgsat/
+    type: bamboohr_api
+    url: https://ghgsat.bamboohr.com/careers
     # auto-added from Payload intel 2026-09-21
+    # repointed 2026-10-02: moved from Workable (account ghgsat, now 0 jobs) to BambooHR; also replaces the older duplicate entry 'GHG Sat'
 
   - name: Rendezvous Robotics
     type: greenhouse_api
@@ -2812,9 +2847,9 @@ companies:
     # auto-added from Payload intel 2026-09-29
 
   - name: GridStor
-    type: workable_api
-    url: https://apply.workable.com/gridstor/
-    # auto-added from Payload intel 2026-09-29
+    type: html_links
+    url: https://gridstor.applytojob.com/apply/
+    # auto-added from Payload intel 2026-09-29; repointed 2026-10-02: Workable account is an empty shell, careers page embeds JazzHR board gridstor
 
   - name: SB Energy
     type: greenhouse_api
@@ -2831,3 +2866,88 @@ companies:
     type: workable_api
     url: https://apply.workable.com/ovhcloud/
     # auto-added from Payload intel 2026-09-29
+
+  - name: Blue Origin
+    type: manual_check
+    url: https://blueorigin.wd5.myworkdayjobs.com/BlueOrigin?jobFamilyGroup=5f32d2b84652016624bac5d43e17a34f
+    note: 2026-10-02 1789 postings and workday_api cannot filter by job category, so this links the Business Development & Sales view (13 roles)
+
+  - name: Foss Maritime
+    type: manual_check
+    url: https://myjobs.adp.com/fossmaritime
+    note: 2026-10-02 ADP MyJobs single-page app (Saltchuk Marine); no job anchors and the JSON needs an orgoid header, scraper reads 0; 25 roles, mostly vessel crew
+
+  - name: Kodama Systems
+    type: manual_check
+    url: https://app.trinethire.com/companies/229661-kodama-systems-inc/jobs
+    note: 2026-10-02 TriNet Hire pages title every role as the company name, so titles are unreadable; postings also arrive via My Climate Journey Jobs
+
+  - name: BlueShift
+    type: html_links
+    url: https://www.careers-page.com/blueshift
+    link_contains: /blueshift/job/
+    # added 2026-10-02: company's own board (Manatal careers-page), linked from buildblueshift.com; 2 roles, so it runs through the Playwright pass
+
+  - name: Deep BV
+    type: html_links
+    url: https://careers.deepbv.nl/jobs
+    link_contains: /jobs/
+    # added 2026-10-02: hydrographic survey company; Teamtailor board on its own domain
+
+  - name: EVONA
+    type: html_links
+    url: https://evona.com/jobs/
+    link_contains: evona.com/jobs/
+    # added 2026-10-02: space-sector recruiter, client names withheld. The scraper reads the newest 3 of 12 archive pages
+
+  - name: Fuse
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/Fuse
+    # added 2026-10-02: fusion and pulsed power company; Ashby board jobs.ashbyhq.com/Fuse (slug is case sensitive)
+
+  - name: Limelight Steel
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/limelight-steel
+    # added 2026-10-02: Ashby board embedded on limelightsteel.com/careers
+
+  - name: Oklo
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/oklo
+    board: oklo
+    # added 2026-10-02: advanced nuclear; hosted on Greenhouse itself, so job URLs stay distinct
+
+  - name: Phoenix Tailings
+    type: lever_api
+    url: https://jobs.lever.co/PhoenixTailings
+    # added 2026-10-02: Lever board linked from phoenixtailings.com/careers (slug is case sensitive)
+
+  - name: CarbonChain
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/carbonchain
+    board: carbonchain
+    # added 2026-10-03: carbon accounting for commodities; Greenhouse board linked from carbonchain.com/careers
+
+  - name: Climate Central
+    type: manual_check
+    url: https://www.climatecentral.org/what-we-do/jobs
+    note: 2026-10-02 no ATS; jobs page is a CMS list that is empty today, re-added after the 2026-07-09 removal
+
+  - name: Floodbase
+    type: manual_check
+    url: https://www.floodbase.com/careers
+    note: 2026-10-02 Greenhouse board deleted (404); the careers page lists roles that link to Tally forms, unreadable by the scraper
+
+  - name: Impact Observatory
+    type: manual_check
+    url: https://www.impactobservatory.com/careers/
+    note: 2026-10-02 no ATS; one role page (/careers/head-of-sales) linked from here, under the scraper's 3-link threshold
+
+  - name: RS Metrics
+    type: manual_check
+    url: https://rsmetrics.com/careers/
+    note: roles are plain text on one page with a mailto apply, no per-job links for the scraper to read; checked 2026-10-02
+
+  - name: SkyWatch
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/skywatch
+    # added 2026-10-03: EO data marketplace; Ashby board linked from skywatch.com/careers

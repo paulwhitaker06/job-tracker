@@ -28,7 +28,8 @@ Improvements in this version
 14. Minimum link threshold – Pass 1 with < 3 links escalates to Playwright.
 15. LinkedIn URLs warn clearly rather than silently skipping.
 16. Notion pages detected and warned (JS-rendered, cannot be scraped).
-17. Weekly search sweep – discovers new companies not in YAML.
+17. (Retired 2026-10: the weekly Google search sweep. See the note above
+    the monthly manual-check re-probe.)
 18. URL canonicalization – tracking params stripped before hashing, prevents
     duplicate seen_jobs entries for the same posting with different referral params.
 19. Title canonicalization – location suffixes, remote tags, pipe junk stripped
@@ -40,6 +41,26 @@ Improvements in this version
 22. Concurrent title fetching – fetch_title calls run in a thread pool
     (20 workers) instead of sequentially, cutting runtime by ~90% on large
     company lists.
+23. Honest board health: company_health.json counts only real postings.
+    A scrape that returns just the careers landing page, navigation text or
+    junk listing URLs counts as empty, so the board shows up under "Boards
+    needing attention". Health is recorded after the title pass.
+24. Garbage-titled items are stored in seen_jobs.json with garbage_title
+    instead of being re-fetched every run. An item whose title fetch failed
+    outright (empty title) is retried for MAX_TITLE_TRIES runs first.
+25. Deliver first, record second: seen_jobs.json and company_health.json are
+    written only after the digest email is sent. A failed send exits
+    non-zero and writes nothing, so the postings come back on the next run.
+26. Getro networks are paged: besides the 20 newest postings embedded in the
+    page, get_getro_jobs reads the network's public search for Sales &
+    Business Development postings created in the last 7 days. A Getro board
+    can put at most GETRO_DIGEST_CAP postings in one digest; the rest are
+    stored with over_cap and not emailed. If the search fails, the board
+    still returns its embedded postings and the failure is listed under
+    Errors in the digest.
+27. Greenhouse postings keep gh_jid in their URL, so boards that route
+    postings through the company's own careers page no longer give every
+    posting the same URL.
 """
 
 from __future__ import annotations
@@ -50,6 +71,7 @@ import logging
 import os
 import re
 import smtplib
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
@@ -72,7 +94,7 @@ log = logging.getLogger("job-tracker")
 
 # constants
 SEEN_FILE = "seen_jobs.json"
-SEARCH_CACHE_FILE = "search_cache.json"
+SEARCH_CACHE_FILE = "search_cache.json"   # holds last_manual_recheck (monthly re-probe gate)
 HEALTH_FILE = "company_health.json"
 
 EMPTY_ALARM_RUNS = 30         # digest flags boards freshly crossing this many empty runs
@@ -80,8 +102,18 @@ EMPTY_ALARM_WINDOW_DAYS = 7   # ...for this many days after the crossing
 
 # Board-health attention thresholds (units: consecutive daily runs)
 FAIL_ATTENTION_STREAK = 3     # scraper errored this many runs in a row
-EMPTY_ATTENTION_STREAK = 30   # produced items before, now zero for this long
-NEW_BOARD_GRACE_RUNS = 7      # never produced anything within this many runs
+EMPTY_ATTENTION_STREAK = 30   # produced real postings before, now none for this long
+NEW_BOARD_GRACE_RUNS = 7      # never produced a real posting within this many runs
+ATTENTION_CAP = 20            # attention lines shown in the digest; the total is always stated
+
+# An unseen item whose title could not be fetched at all (empty, usually a
+# timeout or a blocked request) gets this many runs before it is left alone.
+# A title that came back as navigation text is settled on the first run.
+MAX_TITLE_TRIES = 5
+
+# Legacy repair window for last_nonempty (see repair_unbacked_last_nonempty).
+# Must stay below the 90-day seen_jobs retention.
+HEALTH_REPAIR_WINDOW_DAYS = 80
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -145,6 +177,9 @@ SENIORITY_KEYWORDS: list[tuple[str, int]] = [
     ("vp of commercial", 5),
     ("chief commercial officer", 5),
     ("cco", 4),
+    # Leadership titles that carry no other keyword (2026-10 audit COV-1)
+    ("general manager", 3),
+    ("country manager", 3),
 ]
 
 FUNCTION_KEYWORDS: list[tuple[str, int]] = [
@@ -153,7 +188,21 @@ FUNCTION_KEYWORDS: list[tuple[str, int]] = [
     ("revenue partnerships", 5),
     ("data partnerships", 5),
     ("partnerships", 4),
+    # 2026-10 audit COV-1: commercial titles that scored 0. Patterns are
+    # word-bounded, so "partnerships" never matched "Partnership Manager";
+    # the singular is in TITLE_ONLY_FUNCTION_PATTERNS below. The new entries
+    # weigh 3, not 4, so the junior rule in score_title still zeroes
+    # "Partnership Coordinator" or "Junior Business Developer".
+    ("partner development", 3),
+    ("business developer", 3),
+    ("new business", 3),
+    ("market access", 3),
+    ("alliance manager", 3),
+    ("alliance director", 3),
+    ("alliance lead", 3),
+    ("strategic alliance", 3),
     ("commercialization", 4),
+    ("commercialisation", 4),
     ("commercial strategy", 4),
     ("commercial", 3),
     ("go-to-market", 4),
@@ -185,6 +234,7 @@ FUNCTION_KEYWORDS: list[tuple[str, int]] = [
     ("data licensing", 5),
     ("commercial licensing", 5),
     ("data commercialization", 4),
+    ("data commercialisation", 4),
     ("earned revenue", 4),
     ("revenue", 2),
 ]
@@ -257,6 +307,7 @@ DOMAIN_KEYWORDS: list[tuple[str, int]] = [
     # Government / defence
     ("government", 2),
     ("defense", 2),
+    ("defence", 2),
     ("intelligence", 2),
     ("national security", 3),
     # Agriculture
@@ -277,7 +328,7 @@ DOMAIN_KEYWORDS: list[tuple[str, int]] = [
 # suppressed unless they pick up enough domain-keyword score (>= 4)
 JUNIOR_TOKENS = re.compile(
     r"\b(intern|internship|junior|jr\.?|technician|technologist|apprentice|"
-    r"trainee|associate(?!\s+director)|coordinator|specialist)\b",
+    r"trainee|associate(?!\s+(?:director|vice[\s-]+president|vp))|coordinator|specialist)\b",
     re.IGNORECASE,
 )
 
@@ -303,6 +354,36 @@ SENIORITY_PATTERNS = [(_compile_word_pattern(k), v) for k, v in SENIORITY_KEYWOR
 FUNCTION_PATTERNS  = [(_compile_word_pattern(k), v) for k, v in FUNCTION_KEYWORDS]
 DOMAIN_PATTERNS    = [(_compile_word_pattern(k), v) for k, v in DOMAIN_KEYWORDS]
 
+# Title-only patterns (2026-10 audit COV-1). The lists above are matched
+# against the title plus the posting URL; these are matched against the title
+# alone, because they are short or ambiguous tokens that turn up in URLs and
+# company slugs for other reasons ("bd", "svp", a ".../capture/..." path).
+# Raw regexes, so they can carry their own context:
+#   svp, evp     not "to the SVP" / "to the EVP" (assistants)
+#   president    not "vice president" (already a keyword) and not "to/of
+#                the President" (assistants, office staff)
+#   partnership  singular; in a URL it is usually an organisation's name
+#   partner manager  not "Business Partner Manager" (an HR role)
+#   capture      the government-sales role ("Capture Manager", "Proposal &
+#                Capture"), not "Carbon Capture" or "Docking, Capture, and ..."
+_B, _E = r"(?<![a-z0-9])", r"(?![a-z0-9])"
+TITLE_ONLY_SENIORITY_PATTERNS: list[tuple[re.Pattern[str], int]] = [
+    (re.compile(rf"(?<!the ){_B}svp{_E}", re.I), 3),
+    (re.compile(rf"(?<!the ){_B}evp{_E}", re.I), 3),
+    (re.compile(rf"{_B}vice-president{_E}", re.I), 3),
+    (re.compile(rf"(?<!vice )(?<!vice-)(?<!the ){_B}president{_E}", re.I), 3),
+]
+TITLE_ONLY_FUNCTION_PATTERNS: list[tuple[re.Pattern[str], int]] = [
+    (re.compile(rf"{_B}partnership{_E}", re.I), 3),
+    (re.compile(rf"(?<!business ){_B}partner manager{_E}", re.I), 3),
+    (re.compile(rf"{_B}bd{_E}", re.I), 3),
+    (re.compile(rf"{_B}bdm{_E}", re.I), 3),
+    (re.compile(
+        rf"{_B}capture\s+(?:manager|lead|director|strategist|management|executive){_E}"
+        rf"|{_B}capture\s+(?:&|and)\s+(?:proposals?|bid){_E}"
+        rf"|(?:&|{_B}and|{_B}of)\s+capture{_E}", re.I), 3),
+]
+
 
 def _bucket_score(text: str, patterns: list[tuple[re.Pattern[str], int]], cap: int) -> int:
     score = 0
@@ -313,11 +394,17 @@ def _bucket_score(text: str, patterns: list[tuple[re.Pattern[str], int]], cap: i
 
 
 def score_title(title: str, url: str = "") -> int:
-    """Three-bucket scoring: seniority / function / domain, each independently capped."""
+    """Three-bucket scoring: seniority / function / domain, each independently capped.
+
+    The keyword lists are matched against the title plus the URL. The
+    TITLE_ONLY_* patterns are matched against the title alone."""
     clean_title = canonicalize_title(title)
     text = f"{clean_title} {url}".lower()
-    seniority = _bucket_score(text, SENIORITY_PATTERNS, cap=5)
-    function  = _bucket_score(text, FUNCTION_PATTERNS,  cap=8)
+    title_text = clean_title.lower()
+    seniority = min(5, _bucket_score(text, SENIORITY_PATTERNS, cap=5)
+                    + _bucket_score(title_text, TITLE_ONLY_SENIORITY_PATTERNS, cap=5))
+    function  = min(8, _bucket_score(text, FUNCTION_PATTERNS, cap=8)
+                    + _bucket_score(title_text, TITLE_ONLY_FUNCTION_PATTERNS, cap=8))
     domain    = _bucket_score(text, DOMAIN_PATTERNS,    cap=10)
     raw = seniority + function + domain
     if JUNIOR_TOKENS.search(clean_title) and domain < 4 and function < 4:
@@ -377,8 +464,12 @@ def is_junk_listing_url(url: str) -> bool:
     return any(p.search(url or "") for p in JUNK_LISTING_PATTERNS)
 
 
-def canonicalize_url(url: str) -> str:
-    """Strip tracking params and normalize URL before hashing or storing."""
+def canonicalize_url(url: str, keep_params: tuple[str, ...] = ()) -> str:
+    """Strip tracking params and normalize URL before hashing or storing.
+
+    keep_params names query parameters that stay even though they match a
+    tracking prefix. get_greenhouse_jobs passes gh_jid: on a board that routes
+    postings through the company's own careers page, gh_jid IS the posting."""
     if not url:
         return ""
     url = urldefrag(url.strip())[0]
@@ -396,6 +487,10 @@ def canonicalize_url(url: str) -> str:
     kept = []
     for k, v in parse_qsl(p.query, keep_blank_values=False):
         kl = k.lower()
+        if kl in keep_params:
+            if (k, v) not in kept:   # Spire's API URLs carry gh_jid twice
+                kept.append((k, v))
+            continue
         if kl in TRACKING_PARAM_EXACT:
             continue
         if any(kl.startswith(prefix) for prefix in TRACKING_PARAM_PREFIXES):
@@ -528,7 +623,12 @@ def save_health(health: dict) -> None:
 
 
 def update_health(health: dict, name: str, status: str, n_items: int = 0) -> None:
-    """status: 'ok' or 'err'. Streak counters are consecutive daily runs."""
+    """status: 'ok' or 'err'. Streak counters are consecutive daily runs.
+
+    n_items is the number of REAL postings the board showed this run (see
+    is_real_posting), new or already seen. A scrape that returned only the
+    careers landing page, navigation text or junk listing URLs passes 0 here
+    and counts as empty."""
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     h = health.setdefault(name, {"first_tracked": today, "runs": 0,
                                  "empty_streak": 0, "fail_streak": 0})
@@ -555,21 +655,40 @@ def update_health(health: dict, name: str, status: str, n_items: int = 0) -> Non
 
 
 def build_attention_list(health: dict, active_names: set[str]) -> list[str]:
-    """Boards that need a human look, worst first."""
-    out = []
-    for name in sorted(active_names):
+    """Boards that need a human look, worst first: failing scrapes, then
+    boards that went quiet (produced before), then boards that never
+    produced. Within each group the longest streak comes first.
+
+    The digest shows only the first ATTENTION_CAP lines. The list used to be
+    alphabetical, so with 116 entries the failing boards (S, S and W) never
+    made the cut."""
+    ranked: list[tuple[int, int, str, str]] = []
+    for name in active_names:
         h = health.get(name)
         if not h:
             continue
         if h.get("fail_streak", 0) >= FAIL_ATTENTION_STREAK:
-            out.append(f"{name}: scrape FAILING {h['fail_streak']} runs in a row")
+            ranked.append((0, h["fail_streak"], name,
+                           f"{name}: scrape FAILING {h['fail_streak']} runs in a row"))
         elif h.get("last_nonempty") and h.get("empty_streak", 0) >= EMPTY_ATTENTION_STREAK:
-            out.append(f"{name}: zero items for {h['empty_streak']} runs "
-                       f"(last produced {h['last_nonempty']}); verify the board moved or died")
+            ranked.append((1, h["empty_streak"], name,
+                           f"{name}: no real postings for {h['empty_streak']} runs "
+                           f"(last produced {h['last_nonempty']}); verify the board moved or died"))
         elif not h.get("last_nonempty") and h.get("runs", 0) >= NEW_BOARD_GRACE_RUNS:
-            out.append(f"{name}: never produced a single item in {h['runs']} runs "
-                       f"since {h.get('first_tracked', '?')}; URL or type is probably wrong")
-    return out
+            ranked.append((2, h["runs"], name,
+                           f"{name}: never produced a real posting in {h['runs']} runs "
+                           f"since {h.get('first_tracked', '?')}; URL or type is probably wrong"))
+    ranked.sort(key=lambda r: (r[0], -r[1], r[2].lower()))
+    return [r[3] for r in ranked]
+
+
+def attention_header(attention: list[str]) -> str:
+    """Section title for the digest, always stating the total."""
+    if len(attention) > ATTENTION_CAP:
+        return (f"Boards needing attention ({len(attention)} in total; "
+                f"the worst {ATTENTION_CAP} shown: failing first, then went quiet, "
+                f"then never produced)")
+    return f"Boards needing attention ({len(attention)}, worst first)"
 
 
 def build_alarm_list(health: dict, active_names: set[str]) -> list[str]:
@@ -598,6 +717,161 @@ def prune_health(health: dict, active_names: set[str]) -> list[str]:
     for k in ghosts:
         del health[k]
     return ghosts
+
+
+# What counts as a real posting (board health only)
+# Health used to count every scraped link, so a board that returned nothing
+# but its own careers page looked healthy forever (EnduroSat, WHOI, BlackSky
+# and about 90 others, audit 2026-09-30). These helpers decide what counts.
+# They are used ONLY for company_health.json: nothing here removes an item
+# from seen_jobs.json or from the digest.
+
+# Titles a careers landing page, listing page or filter page gives itself.
+# Matched against the leading segment of the title only, so a real role whose
+# page title ends in "... - Careers at Acme" is not caught.
+LISTING_TITLE_RE = re.compile(
+    r"\bcareers\b|\bjobs\b|"
+    r"\bjob (openings?|opportunities|listings?|board|search|offers)\b|"
+    r"\b(current|open|search|our) (openings|positions|vacancies|roles|opportunities)\b|"
+    r"\bvacancies\b|\bwork (at|with|for)\b|\bjoin (us|our)\b|"
+    r"\bhow to apply\b|\brecruitment\b|"
+    r"^(positions|internships|opportunities|(our )?(employee )?benefits)$",
+    re.IGNORECASE,
+)
+# Bare links that are an ATS sign-in or share button, not a posting: the
+# Teamtailor "Connect" page and LinkedIn sign-in, Breezy's apply-with-LinkedIn
+# link, share links to Threads and Bluesky. Boards whose only links were these
+# passed as producing (Leaf Space, Blue Ventures, The Nature Conservancy,
+# review 2026-10-02). Matched on the whole title or on the start of the URL.
+SIGN_IN_TITLE_RE = re.compile(
+    r"^(connect|linkedin login\b.*|sign in|sign in to\b.*)$", re.IGNORECASE)
+SIGN_IN_OR_SHARE_URL_RE = re.compile(
+    r"^https?://(www\.)?(threads\.net/|bsky\.app/|tt\.teamtailor\.com/auth/|"
+    r"app\.breezy\.hr/api/apply/)", re.IGNORECASE)
+_TITLE_SEGMENT_SPLIT_RE = re.compile(
+    r"\s+[-|\u2013\u2014\u2022\u00b7\u00bb]\s+|:\s+")
+
+
+def _name_key(text: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", (text or "").lower())
+
+
+def is_listing_page_title(title: str, company_name: str) -> bool:
+    """True if a fetched page title reads like a careers or listing page
+    ('Careers at Acme', 'Job Openings - Acme', 'Search Openings') or is just
+    the company's own name."""
+    lead = _TITLE_SEGMENT_SPLIT_RE.split((title or "").strip(), 1)[0]
+    if LISTING_TITLE_RE.search(lead):
+        return True
+    t = _name_key(title)
+    if not t:
+        return False
+    return t in (_name_key(company_name),
+                 _name_key(re.sub(r"\(.*?\)", "", company_name or "")))
+
+
+def _page_key(url: str) -> tuple[str, str, str]:
+    """Host, path and query of a URL for 'is this the board's own page'
+    comparisons. Lighter than canonicalize_url on purpose: that one strips
+    gh_jid-style parameters, which are what tell a posting apart from the
+    listing page it is embedded in."""
+    p = urlparse(urldefrag((url or "").strip())[0])
+    host = p.netloc.lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return host, re.sub(r"/{2,}", "/", p.path).rstrip("/"), p.query
+
+
+def is_link_item(name: str, item_id: str, url: str) -> bool:
+    """True for items minted from a bare page link (get_html_links Pass 1 and
+    the Playwright link fallback, id = sha(name|url)). Their title is whatever
+    the linked page calls itself. API, intercepted and item_selector items use
+    other id schemes and carry a title the board supplied, often with the
+    board's own URL as the item URL."""
+    return item_id == sha(name + "|" + (url or ""))
+
+
+def is_real_posting(board: dict, item_id: str, entry: dict) -> bool:
+    """Board-health test for one stored seen_jobs entry: is this a job posting,
+    as opposed to a junk listing URL, a garbage (navigation) title, the
+    board's own landing page, or a careers/listing page?"""
+    url = entry.get("url") or ""
+    title = entry.get("title") or ""
+    if entry.get("junk_url") or entry.get("garbage_title"):
+        return False
+    if is_junk_listing_url(url) or is_garbage_title(title):
+        return False
+    name = board.get("name", "")
+    if is_link_item(name, item_id, url):
+        if _page_key(url) == _page_key(board.get("url", "")):
+            return False
+        if is_listing_page_title(title, name):
+            return False
+        if SIGN_IN_TITLE_RE.match(title.strip()):
+            return False
+        if (SIGN_IN_OR_SHARE_URL_RE.match(url)
+                and _page_key(url)[0] != _page_key(board.get("url", ""))[0]):
+            return False
+    return True
+
+
+def last_real_sighting_by_board(seen: dict, boards: dict[str, dict]) -> dict[str, str]:
+    """Board name -> latest date (YYYY-MM-DD) a real posting was sighted,
+    from the seen_jobs store (which keeps every posting for 90 days after its
+    last sighting)."""
+    out: dict[str, str] = {}
+    for item_id, entry in seen.items():
+        name = entry.get("company")
+        board = boards.get(name)
+        if not board or not is_real_posting(board, item_id, entry):
+            continue
+        dt = parse_dt(entry.get("last_seen_utc") or entry.get("first_seen_utc"))
+        if not dt:
+            continue
+        day = dt.strftime("%Y-%m-%d")
+        if day > out.get(name, ""):
+            out[name] = day
+    return out
+
+
+def repair_unbacked_last_nonempty(h: dict, backed_date: str | None) -> bool:
+    """One-off correction of stamps written by the old counting.
+
+    Until 2026-10 any scraped link stamped last_nonempty, so a board that only
+    ever returned its landing page carries a recent last_nonempty it never
+    earned, and the 'never produced' line in the attention list could not
+    fire for it. Under the current counting a stamp is always backed by a real
+    posting in seen_jobs, and that posting stays there for 90 days. So a
+    recent stamp with no real stored posting on or near that date is a legacy
+    one: move it back to the last backed sighting, or clear it.
+
+    Call only for a board that scraped OK with zero real postings this run.
+    Returns True if the entry was changed. Adds no fields."""
+    stamp = h.get("last_nonempty")
+    if not stamp:
+        return False
+    try:
+        stamp_dt = datetime.strptime(stamp, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except Exception:
+        return False
+    today = datetime.now(timezone.utc)
+    if (today - stamp_dt).days > HEALTH_REPAIR_WINDOW_DAYS:
+        return False  # too old to check against the 90-day store; leave it
+    if backed_date:
+        try:
+            backed_dt = datetime.strptime(backed_date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        except Exception:
+            return False
+        # 2 days of slack: a run can straddle midnight UTC.
+        if backed_dt >= stamp_dt - timedelta(days=2):
+            return False
+        h["last_nonempty"] = backed_date
+        quiet_runs = min(h.get("runs", 0), (today - backed_dt).days)
+        h["empty_streak"] = max(h.get("empty_streak", 0), quiet_runs)
+    else:
+        del h["last_nonempty"]
+        h["empty_streak"] = h.get("runs", 0)
+    return True
 
 
 def load_seen() -> dict:
@@ -797,9 +1071,33 @@ def is_js_heavy(url: str) -> bool:
 # Getro rebuilt on Next.js and the old Playwright network-intercept caught
 # nothing for 10+ days (health ledger, 2026-07-20). The /jobs page now
 # server-renders the 20 newest postings inside __NEXT_DATA__, so a plain
-# requests fetch captures the daily delta, faster and more reliably than a
-# browser ever did. Each job carries the real portfolio company name and a
-# direct source URL, so digest entries read "[Board] Title - Company".
+# requests fetch captures them, faster and more reliably than a browser ever
+# did. Each job carries the real portfolio company name and a direct source
+# URL.
+#
+# 2026-10 (audit COV-3): 20 postings is a sliver of the large networks (Space
+# Talent 32,000 live postings, Climate Draft 11,000, Techstars 5,000; the 20
+# newest covered minutes to a few hours of posting time), so most commercial
+# roles were never seen. The board page itself loads further results from a
+# public, no-login search endpoint (the "findJobs" call in its JavaScript):
+#   POST https://api.getro.com/api/v2/collections/{network id}/search/jobs
+#   {"hitsPerPage": 20, "page": N, "filters": {"job_functions": [...]}, "query": ""}
+# It answers newest first, 20 per page (a larger hitsPerPage is ignored).
+# get_getro_jobs now also pages that search, filtered to GETRO_FUNCTIONS,
+# back to GETRO_WINDOW_DAYS.
+#
+# What keeps this from flooding the digest (every digest posting costs a
+# filter call downstream):
+#   1. Only postings created in the last GETRO_WINDOW_DAYS are read at all.
+#      The back catalogue is never fetched, so it can never be emailed, on
+#      the first run or any later one.
+#   2. GETRO_DIGEST_CAP: a Getro board can put at most that many postings in
+#      one digest, best first. The rest are stored in seen_jobs.json with
+#      over_cap and are not emailed on a later run either (see
+#      over_digest_cap and Pass 4).
+#   3. After the first run everything in the window is already in
+#      seen_jobs.json, so only postings created since the previous run are new.
+#   4. GETRO_MAX_PAGES bounds the requests per board per run.
 
 GETRO_HOSTS = {
     "jobs.dcvc.com", "jobs.energyimpactpartners.com", "jobs.g2vp.com",
@@ -814,45 +1112,324 @@ GETRO_HOSTS = {
     "jobs.spacetalent.org",
 }
 
+# Getro networks that were scraped as plain page links until 2026-10 (they
+# were never added to GETRO_HOSTS). Their stored postings are keyed on the
+# board's own posting URL (id = sha(name|url), url = https://{host}/companies/
+# {org}/jobs/{slug}). The Getro handler keeps exactly that id and URL for these
+# hosts, so nothing already in seen_jobs.json is emailed a second time.
+GETRO_PAGE_LINK_HOSTS = {
+    "jobs.climatedraft.org", "jobs.techstars.com", "jobs.schmidtmarine.org",
+}
+
+GETRO_SEARCH_URL = "https://api.getro.com/api/v2/collections/{cid}/search/jobs"
+GETRO_FUNCTIONS = ["Sales & Business Development"]   # Getro's own job-function label
+GETRO_WINDOW_DAYS = 7     # search postings older than this are never read
+GETRO_MAX_PAGES = 15      # hard cap on search pages per board per run (20 postings a page)
+GETRO_DIGEST_CAP = 10     # hard cap on postings one Getro board can put in one digest
+GETRO_ORG_BONUS_MAX = 4   # most a hiring company's industry tags add when ranking inside the cap
+# Getro's own seniority label; these are dropped from the search results.
+GETRO_JUNIOR_SENIORITY = {"internship", "entry_level", "associate"}
+_GETRO_LOCK = threading.Lock()   # one search request at a time across all boards
+# The search endpoint is undocumented. When it fails, a board keeps what it
+# could read (the embedded postings and any search pages already read) and the
+# failure goes into the digest's Errors section through the two lists below,
+# which main() empties at the start of a run and reads after the scrape. After
+# GETRO_SEARCH_FAIL_LIMIT failed searches, the search is skipped for the rest
+# of the run, so a closed or rate-limited endpoint costs two rounds of
+# retries and not sixteen.
+GETRO_SEARCH_FAIL_LIMIT = 2
+_GETRO_SEARCH_ERRORS: list[str] = []    # one line per board whose search failed
+_GETRO_SEARCH_SKIPPED: list[str] = []   # boards whose search was skipped after the limit
+_GETRO_SEARCH_STATE = {"failed": 0}     # failed searches this run
+_GETRO_STATE_LOCK = threading.Lock()
+
+
+class _GetroSearchOff(Exception):
+    """The search has failed GETRO_SEARCH_FAIL_LIMIT times this run and is
+    not called again until the next run."""
+
+
+def _getro_search_failed() -> None:
+    with _GETRO_STATE_LOCK:
+        _GETRO_SEARCH_STATE["failed"] += 1
+
+
+def _getro_search_off() -> bool:
+    return _GETRO_SEARCH_STATE["failed"] >= GETRO_SEARCH_FAIL_LIMIT
+
+
+def _getro_reset_run_state() -> None:
+    with _GETRO_STATE_LOCK:
+        _GETRO_SEARCH_ERRORS.clear()
+        _GETRO_SEARCH_SKIPPED.clear()
+        _GETRO_SEARCH_STATE["failed"] = 0
+
+
 _NEXT_DATA_RE = re.compile(
     r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
 
 
 def is_getro_url(url: str) -> bool:
     from urllib.parse import urlparse
-    return urlparse(url).netloc.lower() in GETRO_HOSTS
+    host = urlparse(url).netloc.lower()
+    return host in GETRO_HOSTS or host in GETRO_PAGE_LINK_HOSTS
+
+
+def _getro_ts(value) -> float:
+    """Getro's created_at as epoch seconds. It is an integer today. A numeric
+    string, a millisecond value or an ISO date is read too; anything else is
+    0.0 (age unknown), so every comparison and sort on it is number against
+    number whatever Getro sends."""
+    if isinstance(value, bool):
+        return 0.0
+    ts = 0.0
+    if isinstance(value, (int, float)):
+        ts = float(value)
+    elif isinstance(value, str) and value.strip():
+        try:
+            ts = float(value)
+        except ValueError:
+            dt = parse_dt(value.strip().replace("Z", "+00:00"))
+            ts = dt.timestamp() if dt else 0.0
+    if ts != ts or ts in (float("inf"), float("-inf")):
+        return 0.0
+    return ts / 1000 if ts > 1e11 else ts
+
+
+def _getro_search_page(network_id: str, page: int) -> list[dict]:
+    """One page of the network's public job search, newest first. Raises
+    RuntimeError after two failed attempts (HTTP error, timeout, a body that
+    is not JSON or not the expected shape) and _GetroSearchOff once the
+    search has been switched off for this run."""
+    body = {"hitsPerPage": 20, "page": page, "query": "",
+            "filters": {"job_functions": GETRO_FUNCTIONS}}
+    last_error: Exception | None = None
+    for attempt in range(2):
+        if attempt:
+            time.sleep(2.0)   # outside the lock, so other boards are not held up
+        with _GETRO_LOCK:
+            # Checked under the lock: boards that were already waiting here
+            # when the limit was reached do not call the endpoint either.
+            if _getro_search_off():
+                raise _GetroSearchOff()
+            try:
+                r = SESSION.post(
+                    GETRO_SEARCH_URL.format(cid=network_id), json=body, timeout=30,
+                    headers={"Accept": "application/json", "Content-Type": "application/json"},
+                )
+                r.raise_for_status()
+                jobs = r.json()["results"]["jobs"]
+                if not isinstance(jobs, list) or not all(isinstance(j, dict) for j in jobs):
+                    raise ValueError("results.jobs is not a list of postings")
+                time.sleep(0.2)
+                return jobs
+            except Exception as e:
+                last_error = e
+                if attempt:
+                    _getro_search_failed()
+    raise RuntimeError(f"Getro search failed for network {network_id}, page {page}: "
+                       f"{type(last_error).__name__}: {last_error}")
+
+
+def _getro_recent_commercial(network_id: str) -> tuple[list[dict], str | None]:
+    """Search postings in GETRO_FUNCTIONS created within GETRO_WINDOW_DAYS,
+    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages.
+
+    Returns (postings, error). It never raises: when a page fails, the
+    postings from the pages already read come back with the error text
+    ("" when the search was skipped because it is off for this run)."""
+    cutoff = datetime.now(timezone.utc).timestamp() - GETRO_WINDOW_DAYS * 86400
+    recent: list[dict] = []
+    for page in range(GETRO_MAX_PAGES):
+        try:
+            jobs = _getro_search_page(network_id, page)
+            if jobs and not any(_getro_ts(j.get("created_at")) for j in jobs):
+                # No readable date on a whole page: the window cannot be
+                # applied, so nothing from this page is taken.
+                _getro_search_failed()
+                raise RuntimeError(f"Getro search for network {network_id}, page {page}: "
+                                   f"no posting carries a readable created_at")
+            recent += [j for j in jobs
+                       if _getro_ts(j.get("created_at")) >= cutoff
+                       and (j.get("seniority") or "") not in GETRO_JUNIOR_SENIORITY]
+            # Featured postings can sit at the top whatever their age, so only
+            # the ordinary ones tell us whether the page has passed the window.
+            ordinary = [j for j in jobs if not j.get("featured")]
+            if len(jobs) < 20:
+                break
+            if ordinary and all(_getro_ts(j.get("created_at")) < cutoff for j in ordinary):
+                break
+        except _GetroSearchOff:
+            return recent, ""
+        except Exception as e:
+            return recent, (str(e) if isinstance(e, RuntimeError)
+                            else f"{type(e).__name__}: {e}")
+    return recent, None
 
 
 def get_getro_jobs(company: dict) -> list[dict]:
+    """The 20 newest postings embedded in the board page (every job function),
+    plus the last GETRO_WINDOW_DAYS of Sales & Business Development postings
+    from the network's public search. Every item carries digest_cap, which
+    Pass 4 enforces per run (see over_digest_cap).
+
+    Raises ValueError if the page is not a Getro page (the caller then falls
+    back to plain link extraction).
+
+    A failing search never fails the board: the embedded postings, which were
+    all this handler read before 2026-10, and any search pages already read
+    are returned as usual, and the failure is reported in the digest's Errors
+    section (_GETRO_SEARCH_ERRORS). The 7-day window picks the missed search
+    postings up on the next good run."""
     from urllib.parse import urlparse
     base = company["url"].rstrip("/")
     parsed = urlparse(base)
+    host = parsed.netloc.lower()
     page_url = base if parsed.path.endswith("/jobs") else f"{parsed.scheme}://{parsed.netloc}/jobs"
     html = fetch_html(page_url)
     m = _NEXT_DATA_RE.search(html)
     if not m:
         raise ValueError("Getro board: no __NEXT_DATA__ found (layout changed again?)")
     data = json.loads(m.group(1))
-    found = (data.get("props", {}).get("pageProps", {})
-                 .get("initialState", {}).get("jobs", {}).get("found", []))
-    results = []
-    for j in found:
-        org = (j.get("organization") or {}).get("name", "")
-        title = canonicalize_title(j.get("title") or "")
-        if not title:
-            continue
-        if org:
-            title = f"{title} - {org}"
-        url = j.get("url") or ""
-        if not url:
-            org_slug = (j.get("organization") or {}).get("slug", "")
-            url = f"{parsed.scheme}://{parsed.netloc}/companies/{org_slug}/jobs/{j.get('slug','')}"
-        results.append({
-            "id": sha(company["name"] + "|getro:" + str(j.get("id"))),
-            "url": canonicalize_url(url),
-            "title": title,
-        })
+    page_props = data.get("props", {}).get("pageProps", {})
+    found = page_props.get("initialState", {}).get("jobs", {}).get("found", [])
+    network_id = str((page_props.get("network") or {}).get("id") or "")
+
+    searched: list[dict] = []
+    if not network_id:
+        log.warning(f"  {company['name']}: Getro page carries no network id; "
+                    f"reading only the {len(found)} embedded postings")
+    else:
+        searched, search_error = _getro_recent_commercial(network_id)
+        if search_error == "":
+            with _GETRO_STATE_LOCK:
+                _GETRO_SEARCH_SKIPPED.append(company["name"])
+            log.warning(f"  {company['name']}: Getro search skipped (it failed "
+                        f"{GETRO_SEARCH_FAIL_LIMIT} times this run); kept the {len(found)} "
+                        f"embedded postings and {len(searched)} search postings already read")
+        elif search_error:
+            line = (f"{company['name']}: Getro commercial search failed, kept the "
+                    f"{len(found)} embedded postings and {len(searched)} search "
+                    f"postings already read ({search_error})")
+            log.error(line)
+            with _GETRO_STATE_LOCK:
+                _GETRO_SEARCH_ERRORS.append(line)
+
+    page_links = host in GETRO_PAGE_LINK_HOSTS
+    results: list[dict] = []
+    ids: set[str] = set()
+    for from_search, jobs in ((False, found), (True, searched)):
+        for j in jobs:
+            organization = j.get("organization") or {}
+            org = organization.get("name", "")
+            org_slug = organization.get("slug", "")
+            title = canonicalize_title(j.get("title") or "")
+            if not title:
+                continue
+            # How far the hiring company's own industry tags match the domain
+            # keyword list, capped at GETRO_ORG_BONUS_MAX so it can lift a
+            # posting past others of similar title score but never outweigh
+            # the title. Used only to rank postings inside the per-run cap;
+            # it never decides whether a posting scores.
+            org_tags = " ".join(str(t) for t in (organization.get("industry_tags") or [])).lower()
+            org_domain = _bucket_score(org_tags, DOMAIN_PATTERNS, cap=GETRO_ORG_BONUS_MAX)
+            if org:
+                title = f"{title} - {org}"
+            board_url = f"{parsed.scheme}://{parsed.netloc}/companies/{org_slug}/jobs/{j.get('slug','')}"
+            if page_links:
+                url = canonicalize_url(board_url)
+                item_id = sha(company["name"] + "|" + url)
+            else:
+                url = canonicalize_url(j.get("url") or board_url)
+                item_id = sha(company["name"] + "|getro:" + str(j.get("id")))
+            if item_id in ids:
+                continue
+            ids.add(item_id)
+            results.append({
+                "id": item_id,
+                "url": url,
+                "title": title,
+                "org": org,
+                "org_domain": org_domain,
+                "digest_cap": GETRO_DIGEST_CAP,
+                "from_search": from_search,
+                "created_at": _getro_ts(j.get("created_at")),
+            })
+    log.info(f"  {company['name']}: Getro, {len(found)} embedded + {len(searched)} "
+             f"commercial postings from the last {GETRO_WINDOW_DAYS} days")
     return results
+
+
+def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
+    """Ids of the postings a capped board may not email this run.
+
+    Only items that carry digest_cap take part (Getro boards). The candidates
+    are the postings Pass 4 would email: unseen ones whose title scores above
+    0, and stored zero-scored ones that score above 0 now (the re-evaluation
+    after a keyword change). The best digest_cap stay. Order: title score plus
+    the hiring company's industry-tag bonus (org_domain, 0 to
+    GETRO_ORG_BONUS_MAX), then postings from the commercial search, then
+    newest. A repeat of a posting already kept
+    (same URL, or same title at the same hiring company) does not use up a
+    place, because deduplicate() collapses it."""
+    ranked = []
+    cap = 0
+    for item in items:
+        if not item.get("digest_cap"):
+            continue
+        cap = item["digest_cap"]
+        entry = seen.get(item["id"])
+        if entry is None:
+            title = canonicalize_title(item.get("title") or "")
+            url = item.get("url", "")
+        elif entry.get("scored") is False:
+            title, url = entry.get("title", ""), entry.get("url", "")
+        else:
+            continue
+        if is_garbage_title(title):
+            continue
+        score = score_title(title, url)
+        if score > 0:
+            ranked.append((score + (item.get("org_domain") or 0), bool(item.get("from_search")),
+                           _getro_ts(item.get("created_at")), item["id"],
+                           (item.get("org") or "", normalise_title(title)), url))
+    # Sorted on the first four fields only (number, bool, number, id string),
+    # so the order never depends on comparing values of mixed types.
+    ranked.sort(key=lambda r: r[:4], reverse=True)
+    kept_keys: set[tuple[str, str]] = set()
+    kept_urls: set[str] = set()
+    held: set[str] = set()
+    for _rank, _search, _created, item_id, key, url in ranked:
+        if key in kept_keys or (url and url in kept_urls):
+            continue
+        if len(kept_keys) < cap:
+            kept_keys.add(key)
+            kept_urls.add(url)
+        else:
+            held.add(item_id)
+    return held
+
+
+def digest_cap_in_board_order(items: list[dict], seen: dict) -> set[str]:
+    """What main() uses if over_digest_cap raises: the cap still holds, without
+    the ranking. Of a capped board's postings that could be emailed this run
+    (unseen, or stored with scored False), the first digest_cap stay, search
+    postings before embedded ones, and the rest are held. Some of the ones
+    that stay may score 0, so the board emails at most digest_cap postings
+    and possibly fewer. It reads nothing but ids and flags."""
+    candidates = []
+    for item in items:
+        if not item.get("digest_cap"):
+            continue
+        entry = seen.get(item.get("id"))
+        if entry is None or entry.get("scored") is False:
+            candidates.append(item)
+    candidates.sort(key=lambda i: not i.get("from_search"))
+    held: set[str] = set()
+    for n, item in enumerate(candidates):
+        if n >= int(item["digest_cap"]):
+            held.add(item["id"])
+    return held
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1205,7 +1782,15 @@ def get_greenhouse_jobs(company: dict) -> list[dict]:
 
     results = []
     for job in data.get("jobs", []):
-        job_url = canonicalize_url(job.get("absolute_url") or job.get("url") or "")
+        # gh_jid is kept: boards that send postings through the company's own
+        # careers page (Spire Global, Captura, AST SpaceMobile, Saildrone and
+        # others) give every posting the URL {careers page}?gh_jid={job id}.
+        # With gh_jid stripped all of a board's postings shared one URL, which
+        # opened the listing page, and the pipeline (which dedups on job URL)
+        # took them for one posting. The item id is built from the Greenhouse
+        # job id, not the URL, so keeping gh_jid re-emails nothing.
+        job_url = canonicalize_url(job.get("absolute_url") or job.get("url") or "",
+                                   keep_params=("gh_jid",))
         title = canonicalize_title(job.get("title") or "")
         job_id = job.get("id") or sha(job_url or title)
         if not job_url:
@@ -1514,15 +2099,24 @@ def deduplicate(items: list[dict]) -> list[dict]:
     """
     Within a single company's results, collapse duplicate job titles
     (same normalised title seen on multiple boards) to first occurrence.
+    On a Getro network board the hiring company ("org") is part of the key,
+    so the same title at two different portfolio companies is two postings,
+    and one posting URL listed under two company names is one posting.
     """
     seen_norm: dict[str, bool] = {}
+    seen_urls: set[str] = set()
     out: list[dict] = []
     for item in items:
         title = item.get("title") or ""
         norm = normalise_title(title)
-        key = item["company"] + "|" + norm
+        key = item["company"] + "|" + (item.get("org") or "") + "|" + norm
         if norm and key in seen_norm:
             continue
+        if item.get("org") and item.get("url"):
+            url_key = item["company"] + "|" + item["url"]
+            if url_key in seen_urls:
+                continue
+            seen_urls.add(url_key)
         if norm:
             seen_norm[key] = True
         out.append(item)
@@ -1530,77 +2124,21 @@ def deduplicate(items: list[dict]) -> list[dict]:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# WEEKLY SEARCH SWEEP
+# MONTHLY MANUAL-CHECK RE-PROBE
 # ─────────────────────────────────────────────────────────────────────────────
-#
-# Runs once per week (checks a local cache file for last run date).
-# Searches a handful of ATS board domains for relevant roles in the EO /
-# geospatial / maritime / BD space that aren't from companies already in
-# your YAML watchlist.
-#
-# Requires the `googlesearch-python` package:
-#   pip install googlesearch-python
-#
-# If the package isn't installed the sweep is silently skipped and a
-# warning is logged. No hard dependency.
-# ─────────────────────────────────────────────────────────────────────────────
+# Companies migrate ATS: a board that needed manual checking last year may be
+# on Ashby today. Once every 30 days, fetch each manual_check company's page,
+# look for an ATS embed, verify it against the live API, and upgrade the YAML
+# entry in place (committed by the workflow) so the company joins the daily
+# scrape permanently.
 
-SEARCH_QUERIES = [
-    # Earth observation / satellite / geospatial
-    'site:jobs.lever.co "earth observation" "business development"',
-    'site:jobs.lever.co "satellite" "partnerships"',
-    'site:jobs.lever.co "geospatial" "director"',
-    'site:jobs.ashbyhq.com "earth observation" "business development"',
-    'site:jobs.ashbyhq.com "satellite" "partnerships"',
-    'site:boards.greenhouse.io "earth observation" "sales"',
-    'site:boards.greenhouse.io "geospatial" "partnerships"',
-    'site:jobs.lever.co "remote sensing" "commercial"',
-    'site:jobs.ashbyhq.com "geospatial" "head of commercial"',
-    'site:job-boards.greenhouse.io "satellite data" "director"',
-    'site:job-boards.greenhouse.io "geospatial" "business development"',
-    'site:apply.workable.com "earth observation" "partnerships"',
-    'site:apply.workable.com "satellite" "director"',
-    # Maritime / ocean
-    'site:jobs.lever.co "maritime" "business development"',
-    'site:jobs.lever.co "maritime" "director"',
-    'site:boards.greenhouse.io "maritime" "partnerships"',
-    'site:job-boards.greenhouse.io "maritime" "commercial"',
-    'site:jobs.lever.co "ocean" "business development"',
-    'site:jobs.ashbyhq.com "maritime" "head of"',
-    # Climate / carbon / ESG
-    'site:jobs.lever.co "climate" "partnerships" "director"',
-    'site:jobs.lever.co "carbon" "business development"',
-    'site:boards.greenhouse.io "climate risk" "director"',
-    'site:job-boards.greenhouse.io "sustainability" "partnerships"',
-    'site:jobs.ashbyhq.com "climate" "commercial"',
-    'site:apply.workable.com "climate" "business development"',
-    # Supply chain / trade intelligence
-    'site:jobs.lever.co "supply chain" "partnerships"',
-    'site:boards.greenhouse.io "trade intelligence" "director"',
-    'site:job-boards.greenhouse.io "supply chain visibility" "director"',
-    # Data licensing / commercialization
-    'site:jobs.lever.co "data licensing"',
-    'site:boards.greenhouse.io "data licensing"',
-    'site:jobs.lever.co "data commercialization"',
-    'site:job-boards.greenhouse.io "data partnerships" "director"',
-    # Rippling / SmartRecruiters (hosts added to the CSE 2026-07-09)
-    'site:ats.rippling.com "business development" "space"',
-    'site:ats.rippling.com "partnerships" "director"',
-    'site:jobs.smartrecruiters.com "earth observation" "commercial"',
-    'site:jobs.smartrecruiters.com "satellite" "business development"',
-    # Nonprofit commercialization (the GFW archetype: mission org, data
-    # product, revenue role)
-    'site:jobs.lever.co "nonprofit" "earned revenue" "director"',
-    'site:job-boards.greenhouse.io "nonprofit" "data" "partnerships"',
-    'site:jobs.lever.co "conservation" "business development"',
-    'site:boards.greenhouse.io "environmental data" "commercial"',
-    # Space economy commercial roles
-    'site:jobs.ashbyhq.com "space" "head of sales"',
-    'site:jobs.ashbyhq.com "launch" "business development"',
-    'site:job-boards.greenhouse.io "ground station" "sales"',
-    'site:jobs.lever.co "space" "government affairs" "director"',
-]
-
+# The weekly Google search sweep that used to live above this section was
+# retired on 2026-10-02. It ran on the Google Custom Search JSON API, which
+# answered HTTP 403 to all 44 queries on every run from 2026-07-10 on and
+# never returned one result (Google has closed that API to new customers and
+# shuts it down on 2027-01-01). Discovery of companies outside companies.yaml
+# comes from the Payload auto-add and the LinkedIn alerts in the pipeline.
+# search_cache.json stays because the 30-day gate below lives in it.
 
 def _load_search_cache() -> dict:
     if os.path.exists(SEARCH_CACHE_FILE):
@@ -1615,127 +2153,6 @@ def _save_search_cache(cache: dict) -> None:
         json.dump(cache, f, indent=2)
     os.replace(tmp, SEARCH_CACHE_FILE)
 
-
-def run_weekly_search_sweep(known_companies: list[dict]) -> list[dict]:
-    """
-    Runs Google searches against ATS boards to surface roles from companies
-    not in your YAML watchlist. Returns a list of new items (same shape as
-    main scraper items) to be scored and added to the digest.
-
-    Runs at most once per 7 days (tracked via search_cache.json).
-    """
-    cache = _load_search_cache()
-    last_run_str = cache.get("last_search_sweep")
-    if last_run_str:
-        last_run = datetime.fromisoformat(last_run_str)
-        if datetime.now(timezone.utc) - last_run < timedelta(days=7):
-            log.info("Search sweep: last run < 7 days ago, skipping.")
-            return []
-
-    cse_key = os.environ.get("GOOGLE_CSE_KEY")
-    cse_id = os.environ.get("GOOGLE_CSE_ID")
-    if not cse_key or not cse_id:
-        log.warning(
-            "Search sweep skipped: GOOGLE_CSE_KEY / GOOGLE_CSE_ID not set. "
-            "The old googlesearch-python HTML scraping was silently blocked "
-            "from CI; the JSON API needs these two secrets."
-        )
-        return []
-
-    def google_search(query: str, num_results: int = 10) -> list[str]:
-        """Google Custom Search JSON API. Free tier: 100 queries/day."""
-        r = SESSION.get(
-            "https://www.googleapis.com/customsearch/v1",
-            params={"key": cse_key, "cx": cse_id, "q": query, "num": num_results},
-            timeout=30,
-        )
-        r.raise_for_status()
-        return [item["link"] for item in r.json().get("items", [])]
-
-    known_domains = set()
-    for co in known_companies:
-        url = co.get("url", "")
-        try:
-            known_domains.add(urlparse(url).netloc.lower())
-        except Exception:
-            pass
-
-    seen_urls: set[str] = set(cache.get("seen_search_urls", []))
-    sweep_items: list[dict] = []
-
-    for query in SEARCH_QUERIES:
-        log.info(f"Search sweep: {query}")
-        try:
-            results = google_search(query, num_results=10)
-        except Exception as e:
-            log.warning(f"Search sweep query failed: {e}")
-            if "429" in str(e) or "quota" in str(e).lower():
-                log.warning("Search sweep: daily API quota exhausted, stopping early.")
-                break
-            continue
-
-        for url in results:
-            if url in seen_urls:
-                continue
-            seen_urls.add(url)
-
-            # Entire-web CSE returns anything; accept only known ATS hosts so
-            # sweep names stay derivable and junk domains die here (2026-07-20:
-            # a German research center and a jobs aggregator reached the
-            # dashboard with garbage company names).
-            if not re.match(r"https?://(jobs\.lever\.co|job-boards\.greenhouse\.io|boards\.greenhouse\.io|jobs\.ashbyhq\.com|apply\.workable\.com|ats\.rippling\.com|jobs\.smartrecruiters\.com)/", url):
-                continue
-
-            # Skip if this URL belongs to a domain already in YAML
-            try:
-                domain = urlparse(url).netloc.lower()
-            except Exception:
-                continue
-            if any(kd in domain or domain in kd for kd in known_domains):
-                continue
-
-            # Derive a company name from the URL path (best-effort)
-            parts = url.split("/")
-            inferred_name = parts[3] if len(parts) > 3 else domain
-
-            sweep_items.append({
-                "id": sha("__sweep__|" + url),
-                "url": url,
-                "title": None,
-                "company": f"[Sweep] {inferred_name}",
-            })
-
-        time.sleep(1)
-
-    # Fetch titles for sweep items concurrently
-    batch_fetch_titles(sweep_items)
-
-    cache["last_search_sweep"] = datetime.now(timezone.utc).isoformat()
-    cache["seen_search_urls"] = list(seen_urls)
-    _save_search_cache(cache)
-
-    scored = []
-    for item in sweep_items:
-        title = item.get("title") or ""
-        if is_garbage_title(title):
-            continue
-        s = score_title(title, item["url"])
-        if s > 0:
-            item["score"] = s
-            scored.append(item)
-
-    log.info(f"Search sweep complete: {len(scored)} relevant new results from {len(sweep_items)} URLs")
-    return scored
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# MONTHLY MANUAL-CHECK RE-PROBE
-# ─────────────────────────────────────────────────────────────────────────────
-# Companies migrate ATS: a board that needed manual checking last year may be
-# on Ashby today. Once every 30 days, fetch each manual_check company's page,
-# look for an ATS embed, verify it against the live API, and upgrade the YAML
-# entry in place (committed by the workflow) so the company joins the daily
-# scrape permanently.
 
 ATS_PROBE_PATTERNS = [
     # (page regex, yaml type, API verify template, yaml url template)
@@ -1870,12 +2287,9 @@ def build_html_email(
     rows = ""
     for company_name, items in sorted_companies:
         items_sorted = sorted(items, key=lambda x: x["score"], reverse=True)
-        # Flag sweep results with a subtle indicator
-        is_sweep = company_name.startswith("[Sweep]")
-        label_style = "color:#7c3aed;" if is_sweep else "color:#111;"
         rows += (
             f'<tr><td colspan="2" style="padding:12px 8px 4px;'
-            f'font-weight:bold;font-size:14px;{label_style}'
+            f'font-weight:bold;font-size:14px;color:#111;'
             f'border-top:2px solid #e5e7eb;">'
             f'{company_name}</td></tr>\n'
         )
@@ -1898,13 +2312,13 @@ def build_html_email(
 
     attention_section = ""
     if attention:
-        shown = attention[:20]
-        more = (f"<li style='font-size:12px;color:#92400e;'>...and {len(attention) - 20} more "
-                f"(see company_health.json)</li>" if len(attention) > 20 else "")
+        shown = attention[:ATTENTION_CAP]
+        more = (f"<li style='font-size:12px;color:#92400e;'>...and {len(attention) - ATTENTION_CAP} more "
+                f"(see company_health.json)</li>" if len(attention) > ATTENTION_CAP else "")
         att = "".join(f"<li style='font-size:12px;color:#92400e;'>{a}</li>" for a in shown)
         attention_section = (
             f"<p style='margin-top:24px;color:#b45309;font-size:13px;font-weight:bold;'>"
-            f"&#9888; Boards needing attention ({len(attention)})</p><ul>{att}{more}</ul>"
+            f"&#9888; {attention_header(attention)}</p><ul>{att}{more}</ul>"
         )
 
     error_section = ""
@@ -1950,7 +2364,6 @@ def build_html_email(
   <span style="background:#2563eb;color:#fff;border-radius:4px;padding:1px 5px;">&#9670; 2-3</span> good match &nbsp;
   <span style="background:#6b7280;color:#fff;border-radius:4px;padding:1px 5px;">&middot; 1</span> weak match &nbsp;
   <span style="background:#d1d5db;color:#fff;border-radius:4px;padding:1px 5px;">&middot;</span> unscored
-  &nbsp; <span style="color:#7c3aed;font-weight:bold;">Purple company name</span> = found via search sweep (not in watchlist)
 </p>
 <table width="100%" cellpadding="0" cellspacing="0">
 {rows}
@@ -1962,16 +2375,29 @@ def build_html_email(
     return html
 
 
-def send_email(subject: str, html_body: str, plain_body: str) -> None:
-    host = os.environ.get("SMTP_HOST")
-    port = int(os.environ.get("SMTP_PORT", "587"))
-    user = os.environ.get("SMTP_USER")
-    password = os.environ.get("SMTP_PASS")
-    to_email = os.environ.get("TO_EMAIL")
+def send_email(subject: str, html_body: str, plain_body: str) -> bool:
+    """Send the digest. Returns True once it is sent and raises on any
+    failure, so main() can leave seen_jobs.json untouched and exit non-zero.
 
-    if not all([host, user, password, to_email]):
-        log.warning("Email not configured (missing SMTP_HOST/SMTP_USER/SMTP_PASS/TO_EMAIL)")
-        return
+    Returns False only for a local run with no mail settings at all, which
+    stays a dry run. In GitHub Actions a missing or partial setting is a
+    failure: an unset secret loses the digest exactly like an SMTP error."""
+    settings = {
+        "SMTP_HOST": os.environ.get("SMTP_HOST"),
+        "SMTP_USER": os.environ.get("SMTP_USER"),
+        "SMTP_PASS": os.environ.get("SMTP_PASS"),
+        "TO_EMAIL": os.environ.get("TO_EMAIL"),
+    }
+    missing = [k for k, v in settings.items() if not v]
+    if missing:
+        if len(missing) == len(settings) and os.environ.get("GITHUB_ACTIONS") != "true":
+            log.warning("Email not configured (no SMTP_HOST/SMTP_USER/SMTP_PASS/TO_EMAIL): "
+                        "local dry run, nothing sent")
+            return False
+        raise RuntimeError("email settings missing: " + ", ".join(missing))
+    host, user = settings["SMTP_HOST"], settings["SMTP_USER"]
+    password, to_email = settings["SMTP_PASS"], settings["TO_EMAIL"]
+    port = int(os.environ.get("SMTP_PORT") or "587")
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
@@ -1980,16 +2406,23 @@ def send_email(subject: str, html_body: str, plain_body: str) -> None:
     msg.attach(MIMEText(plain_body, "plain", "utf-8"))
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
+    server = smtplib.SMTP(host, port, timeout=30)
     try:
-        with smtplib.SMTP(host, port, timeout=30) as server:
-            server.ehlo()
-            server.starttls()
-            server.ehlo()
-            server.login(user, password)
-            server.sendmail(user, [to_email], msg.as_string())
-        log.info(f"Email sent -> {to_email}")
-    except Exception as e:
-        log.error(f"Email send failed: {type(e).__name__}: {e}")
+        server.ehlo()
+        server.starttls()
+        server.ehlo()
+        server.login(user, password)
+        # One recipient, so sendmail raises if the server refuses it.
+        server.sendmail(user, [to_email], msg.as_string())
+    finally:
+        # The message is accepted once sendmail returns. A failed QUIT after
+        # that must not turn a delivered digest into a reported failure.
+        try:
+            server.quit()
+        except Exception:
+            pass
+    log.info(f"Email sent -> {to_email}")
+    return True
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -2022,6 +2455,7 @@ def main() -> None:
     errors: list[str] = []
     companies_ok: int = 0
     companies_failed: int = 0
+    _getro_reset_run_state()
 
     # manual_check companies are skipped during scraping, shown in Monday digest.
     manual_check_companies = [c for c in config["companies"] if c.get("type") == "manual_check"]
@@ -2067,9 +2501,10 @@ def main() -> None:
     with ThreadPoolExecutor(max_workers=MAX_SCRAPE_WORKERS) as ex:
         for res in ex.map(_scrape_requests, work):
             if res[0] == "ok":
+                # Health for a successful scrape is recorded after the title
+                # pass (Pass 5), once we know which items are real postings.
                 all_company_items.append((res[1], res[2]))
                 companies_ok += 1
-                update_health(health, res[1], "ok", len(res[2]))
             elif res[0] == "defer":
                 playwright_queue.append(res[1])
             elif res[0] == "err":
@@ -2100,31 +2535,88 @@ def main() -> None:
                 if res[0] == "ok":
                     all_company_items.append((res[1], res[2]))
                     companies_ok += 1
-                    update_health(health, res[1], "ok", len(res[2]))
                 else:
                     log.error(f"{res[1]}: {res[2]}")
                     errors.append(f"{res[1]}: {res[2]}")
                     companies_failed += 1
                     update_health(health, res[1], "err")
 
-    # Pass 2: identify all unseen items that need a title fetched.
+    # Getro boards whose commercial search failed still count as scraped (they
+    # returned their embedded postings), so the failure is reported here.
+    errors.extend(_GETRO_SEARCH_ERRORS)
+    if _GETRO_SEARCH_SKIPPED:
+        errors.append(
+            f"Getro commercial search skipped on {len(_GETRO_SEARCH_SKIPPED)} boards after it "
+            f"failed {GETRO_SEARCH_FAIL_LIMIT} times (embedded postings still read): "
+            + ", ".join(sorted(_GETRO_SEARCH_SKIPPED)))
+
+    # Pass 2: identify all unseen items that need a title fetched. An item
+    # stored on an earlier run with an EMPTY title (the fetch failed outright)
+    # is retried until MAX_TITLE_TRIES, so one timeout cannot bury a real
+    # posting. Items whose title came back as navigation text are stored with
+    # garbage_title and never fetched again (they used to be re-fetched every
+    # single run: 700-850 fetches a day for 40-90 new postings).
+    def _title_retry_due(entry: dict) -> bool:
+        return (bool(entry.get("garbage_title")) and not entry.get("title")
+                and entry.get("title_tries", 1) < MAX_TITLE_TRIES)
+
     unseen_needing_title: list[dict] = []
+    retry_ids: set[str] = set()
     for name, items in all_company_items:
         for item in items:
-            if (item["id"] not in seen and not item.get("title") and item.get("url")
-                    and not is_junk_listing_url(item["url"])):
+            if item.get("title") or not item.get("url") or is_junk_listing_url(item["url"]):
+                continue
+            entry = seen.get(item["id"])
+            if entry is None:
+                unseen_needing_title.append(item)
+            elif _title_retry_due(entry) and item["id"] not in retry_ids:
+                retry_ids.add(item["id"])
                 unseen_needing_title.append(item)
 
     # Pass 3: fetch all missing titles concurrently in one batch.
-    log.info(f"Fetching titles for {len(unseen_needing_title)} unseen items concurrently...")
+    log.info(f"Fetching titles for {len(unseen_needing_title)} unseen items concurrently "
+             f"({len(retry_ids)} of them retries of an earlier failed fetch)...")
     batch_fetch_titles(unseen_needing_title, max_workers=20)
     log.info("Title fetch complete.")
 
     # Pass 4: score, store, and build digest items.
     now_iso = datetime.now(timezone.utc).isoformat()
     for name, items in all_company_items:
+        # Per-run digest cap (Getro boards): worked out before the loop below
+        # starts adding this board's items to seen.
+        try:
+            held_back = over_digest_cap(items, seen)
+        except Exception as e:
+            # One board's ranking must not end the run for every board. The
+            # cap itself still applies (see digest_cap_in_board_order).
+            held_back = digest_cap_in_board_order(items, seen)
+            log.error(f"{name}: digest cap ranking failed, cap applied in board order: "
+                      f"{type(e).__name__}: {e}")
+            errors.append(f"{name}: digest cap ranking failed, cap applied in board order "
+                          f"({type(e).__name__}: {e})")
+        if held_back:
+            log.info(f"  {name}: {len(held_back)} postings over the per-run digest cap, "
+                     f"stored with over_cap and not emailed")
         for item in items:
             item_id = item["id"]
+
+            first_seen_iso = None
+
+            # Stored on an earlier run with a garbage or empty title. It stays
+            # put unless today's scrape carries a real title for it (a retry
+            # that worked, or the board's API now names it); then it falls
+            # through and is handled as the new posting it is.
+            if item_id in seen and seen[item_id].get("garbage_title"):
+                entry = seen[item_id]
+                entry["last_seen_utc"] = now_iso
+                title_now = canonicalize_title(item.get("title") or "")
+                if is_garbage_title(title_now):
+                    if item_id in retry_ids:
+                        entry["title_tries"] = entry.get("title_tries", 1) + 1
+                        entry["title"] = title_now
+                    continue
+                first_seen_iso = entry.get("first_seen_utc")
+                del seen[item_id]
 
             # Re-evaluate previously zero-scored items
             if item_id in seen:
@@ -2140,12 +2632,16 @@ def main() -> None:
                         )
                         entry["score"] = new_score
                         entry["scored"] = True
-                        new_items.append({
-                            "company": name,
-                            "url": entry["url"],
-                            "title": title,
-                            "score": new_score,
-                        })
+                        if item_id in held_back:
+                            entry["over_cap"] = True
+                        else:
+                            new_items.append({
+                                "company": name,
+                                "url": entry["url"],
+                                "title": title,
+                                "score": new_score,
+                                "org": item.get("org") or "",
+                            })
                 continue
 
             # Aggregator/browse URLs are never a single posting: suppress
@@ -2167,10 +2663,27 @@ def main() -> None:
             # New item -- title already populated by batch_fetch_titles above
             title = canonicalize_title(item.get("title") or "")
 
+            # Navigation text or no title at all: never a digest item. Stored
+            # with a flag (like junk_url above) so it is not fetched again on
+            # every run and so board health can tell it from a real posting.
+            # scored=True keeps it out of the zero-score re-evaluation above.
             if is_garbage_title(title):
+                seen[item_id] = {
+                    "company": name,
+                    "url": item["url"],
+                    "title": title,
+                    "score": 0,
+                    "scored": True,
+                    "garbage_title": True,
+                    "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                    "last_seen_utc": datetime.now(timezone.utc).isoformat(),
+                }
+                if not title:
+                    seen[item_id]["title_tries"] = 1
                 continue
 
             relevance = score_title(title, item.get("url", ""))
+            over_cap = relevance > 0 and item_id in held_back
 
             seen[item_id] = {
                 "company": name,
@@ -2178,41 +2691,56 @@ def main() -> None:
                 "title": title,
                 "score": relevance,
                 "scored": relevance > 0,
-                "first_seen_utc": datetime.now(timezone.utc).isoformat(),
+                "first_seen_utc": first_seen_iso or datetime.now(timezone.utc).isoformat(),
                 "last_seen_utc": datetime.now(timezone.utc).isoformat(),
             }
+            if over_cap:
+                # A real posting that scored, left out of the digest by the
+                # board's per-run cap. scored=True keeps the zero-score
+                # re-evaluation above from emailing it later.
+                seen[item_id]["over_cap"] = True
 
-            if relevance > 0:
+            if relevance > 0 and not over_cap:
                 new_items.append(
-                    {"company": name, "url": item["url"], "title": title, "score": relevance}
+                    {"company": name, "url": item["url"], "title": title, "score": relevance,
+                     "org": item.get("org") or ""}
                 )
 
-
-    # ── Weekly search sweep ───────────────────────────────────────────────
-    sweep_items = run_weekly_search_sweep(config["companies"])
-    for item in sweep_items:
-        item_id = item["id"]
-        if item_id not in seen:
-            seen[item_id] = {
-                "company": item["company"],
-                "url": item["url"],
-                "title": item.get("title", ""),
-                "score": item["score"],
-                "scored": True,
-                "first_seen_utc": datetime.now(timezone.utc).isoformat(),
-                "last_seen_utc": datetime.now(timezone.utc).isoformat(),
-            }
-            new_items.append(item)
+    # Pass 5: board health, now that titles are known. A board counts as
+    # producing only if it showed at least one real posting this run (new or
+    # already seen). Its own landing page, navigation text and junk listing
+    # URLs do not count, so a board that returns nothing else goes into the
+    # existing 'never produced' / 'no real postings for N runs' attention lines.
+    boards = {c["name"]: c for c in work}
+    backed: dict[str, str] | None = None
+    hollow = repaired = 0
+    for name, items in all_company_items:
+        board = boards[name]
+        n_real = sum(
+            1 for i in {it["id"] for it in items}
+            if i in seen and is_real_posting(board, i, seen[i])
+        )
+        update_health(health, name, "ok", n_real)
+        if n_real == 0:
+            if items:
+                hollow += 1
+            if health[name].get("last_nonempty"):
+                if backed is None:
+                    backed = last_real_sighting_by_board(seen, boards)
+                if repair_unbacked_last_nonempty(health[name], backed.get(name)):
+                    repaired += 1
+    log.info(f"Board health: {hollow} boards returned links but no real posting "
+             f"(counted as empty); {repaired} legacy last_nonempty stamps corrected")
 
     # ── Deduplicate same title across boards ─────────────────────────────
     new_items = deduplicate(new_items)
 
-    save_seen(seen)
+    # seen_jobs.json and company_health.json are written only after the
+    # digest is delivered (see the end of main).
     active_names = {c["name"] for c in work}
     ghosts = prune_health(health, active_names)
     if ghosts:
         log.info(f"Pruned {len(ghosts)} health entries for removed boards: {', '.join(sorted(ghosts)[:5])}...")
-    save_health(health)
     attention = build_attention_list(health, active_names)
     alarm = build_alarm_list(health, active_names)
     try:
@@ -2233,6 +2761,22 @@ def main() -> None:
 
     log.info(scrape_summary)
 
+    # Board-health footer for the plain-text part, which is the part the
+    # scoring pipeline reads. It goes on every digest, including the
+    # "No new jobs" one (it used to be left off that one). None of these lines
+    # starts with "[", so the pipeline's "[source] title / url" parser never
+    # takes one for a posting.
+    health_lines: list[str] = []
+    if alarm:
+        health_lines += ["", f"New boards crossing 30 empty runs this week ({len(alarm)}):"]
+        health_lines += [f"  {a}" for a in alarm]
+    if attention:
+        health_lines += ["", f"{attention_header(attention)}:"]
+        health_lines += [f"  {a}" for a in attention[:ATTENTION_CAP]]
+        if len(attention) > ATTENTION_CAP:
+            health_lines.append(
+                f"  ...and {len(attention) - ATTENTION_CAP} more (see company_health.json)")
+
     if new_items:
         subject = f"[Job Tracker] {len(new_items)} new posting{'s' if len(new_items)!=1 else ''} - {now_utc[:10]}"
         plain_lines = [
@@ -2244,18 +2788,14 @@ def main() -> None:
         for item in sorted(new_items, key=lambda x: x["score"], reverse=True):
             plain_lines.append(f"[{item['company']}] {item.get('title') or '(no title)'}")
             plain_lines.append(f"  {item['url']}")
-        if alarm:
-            plain_lines += ["", f"New boards crossing 30 empty runs this week ({len(alarm)}):"]
-            plain_lines += [f"  {a}" for a in alarm]
-        if attention:
-            plain_lines += ["", f"Boards needing attention ({len(attention)}):"]
-            plain_lines += [f"  {a}" for a in attention[:20]]
-            if len(attention) > 20:
-                plain_lines.append(f"  ...and {len(attention) - 20} more (see company_health.json)")
+        plain_lines += health_lines
         plain_body = "\n".join(plain_lines)
     else:
         subject = f"No new jobs today - {now_utc[:10]}"
-        plain_body = f"Job Tracker - {now_utc}\n{scrape_summary}\n\nNo new postings found."
+        plain_body = "\n".join(
+            [f"Job Tracker - {now_utc}", scrape_summary, "", "No new postings found."]
+            + health_lines
+        )
 
     html_body = build_html_email(new_items, errors, now_utc, scrape_summary, manual_check_companies, attention, alarm)
 
@@ -2264,8 +2804,23 @@ def main() -> None:
     with open("latest_digest.txt", "w", encoding="utf-8") as f:
         f.write(plain_body)
 
+    # Deliver first, record second. The send error used to be swallowed after
+    # seen_jobs.json had already been saved, so one SMTP failure marked that
+    # day's postings as seen and they were never sent again. Now a failed send
+    # writes nothing and exits non-zero: the workflow's commit step is skipped
+    # (it has no "if: always()"), its failure notification fires, and the next
+    # run finds the same postings as new.
     log.info("Sending email...")
-    send_email(subject, html_body, plain_body)
+    try:
+        send_email(subject, html_body, plain_body)
+    except Exception as e:
+        log.error(f"Email send failed: {type(e).__name__}: {e}")
+        log.error(f"Digest NOT delivered ({len(new_items)} new postings). seen_jobs.json and "
+                  f"company_health.json were not written, so the next run reports them again.")
+        raise SystemExit(1)
+
+    save_seen(seen)
+    save_health(health)
     log.info("Done.")
     print(plain_body)
 

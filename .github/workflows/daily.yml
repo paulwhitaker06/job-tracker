@@ -44,8 +44,6 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
-          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
-          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
         run: |
           echo "ABOUT TO RUN PYTHON"
           python -c "print('PYTHON PRINT WORKS')"
@@ -55,6 +53,11 @@ jobs:
           ls -la
 
       - name: Commit updated memory files
+        # Deliberately no "if: always()". check_jobs.py exits non-zero when
+        # the digest email cannot be sent (or on any crash), and this step
+        # must then be skipped: committing seen_jobs.json after a failed send
+        # would mark that day's postings as seen without Paul ever getting
+        # them. Skipped here, they are found again as new on the next run.
         run: |
           git config user.name "job-tracker-bot"
           git config user.email "job-tracker-bot@users.noreply.github.com"
@@ -81,7 +84,7 @@ jobs:
           password = os.environ.get("SMTP_PASS")
           to_email = os.environ.get("TO_EMAIL")
           if all([host, user, password, to_email]):
-              msg = MIMEText("The job tracker workflow failed. Check GitHub Actions for details:\nhttps://github.com/paulwhitaker06/job-tracker/actions")
+              msg = MIMEText("The job tracker workflow failed. Check GitHub Actions for details:\nhttps://github.com/paulwhitaker06/job-tracker/actions\n\nNothing was marked as seen on this run, so the next successful run reports the same postings.")
               msg["Subject"] = "⚠️ Job Tracker Failed Today"
               msg["From"] = user
               msg["To"] = to_email
