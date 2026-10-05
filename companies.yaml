@@ -2956,3 +2956,9 @@ companies:
     type: workable_api
     url: https://apply.workable.com/filtronic/
     # auto-added from Payload intel 2026-10-03
+
+  - name: Efficient Computer
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/efficientcomputer
+    board: efficientcomputer
+    # auto-added from Payload intel 2026-10-05

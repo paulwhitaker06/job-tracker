@@ -747,3 +747,28 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Honda** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
 | **Skyrora** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
 | **AMD** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-03 |
+| **Thrusters Unlimited** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Simple Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Reverion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Hertha Metals** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Novele** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Arkea Bio** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Sun King** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Daedal Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **NOX Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **VoltaBack** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Cotierra** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Lydian Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Northland Power** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **atNorth** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Vector Renewables** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Searles Valley Minerals Operations** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Zero Infinity Partners** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Bramble Partners** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Mesabi Metallics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Stegra** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **TerraPower** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **INEOS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Virtus Solis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Brae Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **LEGO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
