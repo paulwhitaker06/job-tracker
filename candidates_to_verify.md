@@ -772,3 +772,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Virtus Solis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
 | **Brae Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
 | **LEGO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-05 |
+| **Turkish Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
+| **Roketsan** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
+| **Karman Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
+| **Picogrid** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
+| **Azista Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
