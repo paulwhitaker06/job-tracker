@@ -26,6 +26,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Trust the checked-out repo
+        # In the container, git refuses the workspace ("detected dubious
+        # ownership") because it belongs to the host runner's user, so every
+        # git command in the commit step would fail. actions/checkout marks it
+        # safe only in a temporary HOME it throws away; this marks it safe in
+        # the job's real HOME, which every later step shares.
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
       - name: Install Python packages
         # Only pip packages now; browsers and system libraries are in the
         # image. A step timeout counts as a FAILURE, so the failure email sends.
