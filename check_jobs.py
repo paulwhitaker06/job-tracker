@@ -2812,7 +2812,7 @@ def main() -> None:
     # run finds the same postings as new.
     log.info("Sending email...")
     try:
-        send_email(subject, html_body, plain_body)
+        sent = send_email(subject, html_body, plain_body)
     except Exception as e:
         log.error(f"Email send failed: {type(e).__name__}: {e}")
         log.error(f"Digest NOT delivered ({len(new_items)} new postings). seen_jobs.json and "
@@ -2821,6 +2821,12 @@ def main() -> None:
 
     save_seen(seen)
     save_health(health)
+    # Tells the workflow a digest with postings went out, so its next step can
+    # start the morning brief now instead of leaving it for the brief's own
+    # scheduled triggers. "No new jobs" days and local runs write nothing.
+    if sent and new_items and os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as f:
+            f.write("digest_sent=true\n")
     log.info("Done.")
     print(plain_body)
 

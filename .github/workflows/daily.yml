@@ -42,6 +42,7 @@ jobs:
           python -m pip install --quiet --disable-pip-version-check requests pyyaml beautifulsoup4 playwright==1.63.0
 
       - name: Run script
+        id: scrape
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -69,6 +70,44 @@ jobs:
           git diff --staged --quiet || git commit -m "Update seen jobs"
           git pull --rebase origin main
           git push
+
+      - name: Start the morning brief
+        # Starts paul-job-pipeline's morning brief as soon as the digest is
+        # out. Its own triggers are fixed times (13:00 UTC, then GitHub crons
+        # at 14, 15 and 17 that drift), while this job starts hours after its
+        # 08:30 cron, so the digest often sat until a late cron or the next
+        # day's catch-up. A brief that already processed today's digest exits
+        # without doing anything, so the scheduled triggers stay as backstops.
+        # Runs only when check_jobs.py reports a digest with postings went
+        # out, and even if the commit step failed, since the email is sent by
+        # then. from_scraper=true makes the brief wait a few minutes for Gmail
+        # to show the digest and never send its "no digest today" notice
+        # (paul-job-pipeline #6). continue-on-error: an expired or revoked
+        # token must never fail the scraper; the brief then waits for its
+        # scheduled triggers. The token is a fine-grained PAT, Actions
+        # read/write on paul-job-pipeline only (Paul, 2026-10-07).
+        if: ${{ !cancelled() && steps.scrape.outputs.digest_sent == 'true' }}
+        continue-on-error: true
+        env:
+          TOKEN: ${{ secrets.PIPELINE_DISPATCH_TOKEN }}
+        run: |
+          python3 - <<'EOF'
+          import os, urllib.request, urllib.error
+          req = urllib.request.Request(
+              "https://api.github.com/repos/paulwhitaker06/paul-job-pipeline"
+              "/actions/workflows/cron-daily-morning-brief.yml/dispatches",
+              data=b'{"ref": "main", "inputs": {"from_scraper": "true"}}', method="POST",
+              headers={"Authorization": "Bearer " + os.environ.get("TOKEN", ""),
+                       "Accept": "application/vnd.github+json",
+                       "X-GitHub-Api-Version": "2022-11-28"})
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  print(f"Morning brief started (HTTP {r.status})")
+          except urllib.error.HTTPError as e:
+              print(f"::warning::Could not start the morning brief (HTTP {e.code}); "
+                    "it will run on its scheduled triggers. Check PIPELINE_DISPATCH_TOKEN.")
+              raise SystemExit(1)
+          EOF
 
       - name: Send failure notification
         if: failure()
