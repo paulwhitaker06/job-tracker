@@ -1,9 +1,0 @@
-# Per-run artifacts: regenerated each workflow run, no need to track history.
-latest_digest.html
-latest_digest.txt
-
-# Python / OS noise.
-__pycache__/
-*.pyc
-.DS_Store
-.venv/

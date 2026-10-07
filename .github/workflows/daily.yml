@@ -10,7 +10,15 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
-    # Job ceiling: a normal run takes ~55-65 min. Without this, a hang rides
+    # Runs inside Microsoft's Playwright image, which ships Chromium and every
+    # system library it needs. Before 2026-10-07 each run apt-installed those
+    # libraries and fonts from Ubuntu's mirrors, and that step hung twice on
+    # 2026-08-19 and timed out on 2026-10-07 (a 5.6 MB font package took 11
+    # minutes). Keep the image tag and the playwright pin below on the same
+    # version, or the Python package will look for browsers the image lacks.
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.63.0-noble
+    # Job ceiling: a normal run takes ~45-60 min. Without this, a hang rides
     # GitHub's 6-hour limit and ends as "cancelled", which skips the
     # if: failure() email below -- exactly what happened twice on 2026-08-19
     # (runs 32235450255 and 32294869961, both dead at 6h, both silent).
@@ -18,24 +26,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.11
-
-      - name: Install dependencies
-        # Step ceiling: 'playwright install --with-deps' hides a bare
-        # 'apt-get update' that hung indefinitely twice on 2026-08-19 (stuck
-        # after fetching noble-security InRelease). The apt update now runs
-        # explicitly with connect timeouts and retries, and the whole step
-        # dies in 12 minutes instead of 6 hours. A step timeout counts as a
-        # FAILURE, so the failure-notification email actually sends.
-        timeout-minutes: 12
+      - name: Install Python packages
+        # Only pip packages now; browsers and system libraries are in the
+        # image. A step timeout counts as a FAILURE, so the failure email sends.
+        timeout-minutes: 5
         run: |
-          pip install requests pyyaml beautifulsoup4 playwright
-          sudo apt-get -o Acquire::Retries=3 -o Acquire::http::Timeout=15 -o Acquire::https::Timeout=15 update
-          python -m playwright install-deps chromium
-          python -m playwright install chromium
+          python -m pip install --quiet --disable-pip-version-check requests pyyaml beautifulsoup4 playwright==1.63.0
 
       - name: Run script
         env:
@@ -75,7 +71,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: |
-          python - <<'EOF'
+          python3 - <<'EOF'
           import smtplib, os
           from email.mime.text import MIMEText
           host = os.environ.get("SMTP_HOST")
