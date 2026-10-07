@@ -2962,3 +2962,8 @@ companies:
     url: https://job-boards.greenhouse.io/efficientcomputer
     board: efficientcomputer
     # auto-added from Payload intel 2026-10-05
+
+  - name: Flexcompute
+    type: workable_api
+    url: https://apply.workable.com/flexcompute/
+    # auto-added from Payload intel 2026-10-07

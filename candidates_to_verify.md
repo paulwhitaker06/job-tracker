@@ -777,3 +777,7 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Karman Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
 | **Picogrid** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
 | **Azista Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-06 |
+| **ArbaLabs** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
+| **Space & Bean** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
+| **RapidFort** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
+| **Orbital Robotics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
