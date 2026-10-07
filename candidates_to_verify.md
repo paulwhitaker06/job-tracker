@@ -781,3 +781,5 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Space & Bean** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
 | **RapidFort** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
 | **Orbital Robotics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
+| **Xona** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
+| **Korea Advanced Institute of Science and Technology** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-07 |
