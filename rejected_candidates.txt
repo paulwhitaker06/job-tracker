@@ -1,0 +1,50 @@
+# Candidates that did NOT pass verification
+
+[WEAK] Amogy | https://amogy.co/careers/ | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] At One Ventures Portfolio | https://jobs.atoneventures.com/jobs | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] BeeHero | https://beehero.io/careers/ | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] Bridger Photonics | https://www.bridgerphotonics.com/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] Carbon Robotics | https://carbonrobotics.com/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] IUCN | https://www.iucn.org/about-iucn/jobs | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] Indigo Ag | https://www.indigoag.com/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] MacArthur Foundation | https://www.macfound.org/about/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] Moore Foundation | https://www.moore.org/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] NatureServe | https://www.natureserve.org/careers | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] Project Canary | https://www.projectcanary.com/careers/ | page loads, but no job-posting links detected (may need Playwright)
+[WEAK] ZeroNorth | https://zeronorth.com/careers/ | page loads, but no job-posting links detected (may need Playwright)
+[FAIL] AER Atmospheric Research | https://www.aer.com/careers/ | no jobs-related keywords on page
+[FAIL] Aquabyte | https://aquabyte.ai/careers/ | 404 not found
+[FAIL] Carbon Engineering (alt) | https://carbonengineering.com/jobs | 404 not found
+[FAIL] Ceres Imaging | https://www.ceresimaging.net/careers/ | 404 not found
+[FAIL] Climeworks (alt) | https://climeworks.com/jobs | 404 not found
+[FAIL] Coral Reef Alliance | https://coral.org/careers/ | 404 not found
+[FAIL] Ebb Carbon | https://www.ebbcarbon.com/careers | 404 not found
+[FAIL] Elemental Excelerator Portfolio | https://jobs.elementalexcelerator.com/jobs | 404 not found
+[FAIL] Fleetzero | https://fleetzero.com/careers | 404 not found
+[FAIL] Greeneye Technology | https://www.greeneye.technology/careers/ | connection error
+[FAIL] Holocene | https://www.holocene.company/careers | connection error
+[FAIL] Kairos Aerospace | https://kairosaerospace.com/careers/ | HTTP 403
+[FAIL] Kilimo | https://kilimo.com/careers/ | 404 not found
+[FAIL] Leidos | https://careers.leidos.com/ | HTTP 403
+[FAIL] LongPath Technologies | https://www.longpathtech.com/careers | 404 not found
+[FAIL] MCJ Collective Portfolio | https://jobs.mcjcollective.com/jobs | connection error
+[FAIL] NOAA | https://www.noaa.gov/careers | HTTP 403
+[FAIL] Nautilus Labs | https://nautiluslabs.com/careers/ | connection error
+[FAIL] Noya | https://www.noya.co/careers | 404 not found
+[FAIL] Placer.ai | https://www.placer.ai/careers | 404 not found
+[FAIL] Running Tide | https://www.runningtide.com/careers | connection error
+[FAIL] SAIC | https://jobs.saic.com/ | HTTP 403
+[FAIL] SOSV Portfolio | https://jobs.sosv.com/jobs | connection error
+[FAIL] Salient Predictions | https://salientpredictions.com/careers/ | 404 not found
+[FAIL] Seabound | https://www.seabound.co/careers | 404 not found
+[FAIL] Shone | https://www.shone.ai/careers | no jobs-related keywords on page
+[FAIL] Spiritus | https://spiritus.earth/careers | connection error
+[FAIL] Stockholm Environment Institute | https://www.sei.org/about-sei/vacancies/ | HTTP 403
+[FAIL] Systemiq Capital Portfolio | https://jobs.systemiq.earth/jobs | connection error
+[FAIL] UNEP | https://www.unep.org/jobs | HTTP 403
+[FAIL] USGS | https://www.usgs.gov/about/careers | 404 not found
+[FAIL] Understory | https://understoryweather.com/careers/ | 404 not found
+[FAIL] Verdox | https://verdox.com/careers/ | 404 not found
+[FAIL] Vesta | https://www.vesta.earth/careers | 404 not found
+[FAIL] Voyager Ventures Portfolio | https://jobs.voyagervc.com/jobs | connection error
+[FAIL] World Fund Portfolio | https://jobs.worldfund.vc/jobs | connection error
