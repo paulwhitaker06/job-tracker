@@ -786,3 +786,7 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Firefly's SciTec** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-08 |
 | **Mission Control** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-08 |
 | **Linse Capital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-08 |
+| **Kapta Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
+| **Golbriak Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
+| **EQT Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
+| **Tenerife** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
