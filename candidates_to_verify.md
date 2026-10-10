@@ -790,3 +790,9 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Golbriak Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
 | **EQT Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
 | **Tenerife** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-09 |
+| **GridCARE** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **Camus** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **Compass Datacenters** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **Verrus** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **Portland General Electric** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **SemiAnalysis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
