@@ -796,3 +796,6 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Verrus** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
 | **Portland General Electric** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
 | **SemiAnalysis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-10 |
+| **LGND** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-12 |
+| **VITO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-12 |
+| **Element84** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-12 |
