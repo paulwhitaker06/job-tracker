@@ -2967,3 +2967,9 @@ companies:
     type: workable_api
     url: https://apply.workable.com/flexcompute/
     # auto-added from Payload intel 2026-10-07
+
+  - name: Antora
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/antora
+    board: antora
+    # auto-added from Payload intel 2026-10-13
