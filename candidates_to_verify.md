@@ -837,3 +837,9 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Infinium** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-13 |
 | **Suzuki** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-13 |
 | **BYD** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-13 |
+| **In Orbit Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **Orca Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **JAOPS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **Universidad Catolica Boliviana San Pablo** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **Sinergise Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **ALTEC** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
