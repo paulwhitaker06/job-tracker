@@ -843,3 +843,4 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Universidad Catolica Boliviana San Pablo** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
 | **Sinergise Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
 | **ALTEC** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
+| **Omspace Rocket and Exploration** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-15 |
