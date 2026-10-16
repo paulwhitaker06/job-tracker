@@ -844,3 +844,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Sinergise Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
 | **ALTEC** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-14 |
 | **Omspace Rocket and Exploration** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-15 |
+| **RATLOG** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
+| **ClearSpace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
+| **Aliena** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
+| **Cosmochute** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
+| **Inflection Space Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
