@@ -849,3 +849,37 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Aliena** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
 | **Cosmochute** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
 | **Inflection Space Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-16 |
+| **Lux Aeterna** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Mission Control Space Services** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **UKSA** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Solar Foods** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Forbes-Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **1Komma5°** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Rabot Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Holyvolt** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Switched Source** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **EPYR** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **HyLight** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **CarbonFarm Technology** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **NEU Battery Materials** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **RX** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Giraffe Bio** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Ambio** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **OlsAro** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Molagri** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Deriva Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Concord New Energy Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **New Brunswick Power** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Connexin** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Cold Solutions Rwanda** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **CoTec Holdings** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Envoy Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **FlowCellutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Daisy Lab** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Zembl** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Bold Renewables** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Qcells** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **44.01** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **AENU** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Cloover** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Hometree** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
