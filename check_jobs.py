@@ -937,6 +937,7 @@ JOB_INDICATORS = [
     "/role/", "/roles/", "/posting/", "/postings/",
     "/recruitment/", "/jobdetail/", "/job-details/",
     "/jobs/view/", "/job-description/", "/work-with-us/", "/join-us/",
+    "/job_display/",
     "/o/", "/j/",
     "jobs.lever.co/", "jobs.ashbyhq.com/", "greenhouse.io/",
     "job-boards.greenhouse.io/", "job-boards.eu.greenhouse.io/",
@@ -1109,7 +1110,7 @@ GETRO_HOSTS = {
     "jobs.thirdsphere.com", "jobs.systemiq.earth",
     "jobs.worldfund.vc", "jobs.2150.vc", "careers.voyagervc.com",
     "careers.extantia.com", "techjobs.sosv.com", "jobs.congruentvc.com",
-    "jobs.spacetalent.org",
+    "jobs.spacetalent.org", "lowercarbon.getro.com",
 }
 
 # Getro networks that were scraped as plain page links until 2026-10 (they
@@ -1126,6 +1127,14 @@ GETRO_FUNCTIONS = ["Sales & Business Development"]   # Getro's own job-function 
 GETRO_WINDOW_DAYS = 7     # search postings older than this are never read
 GETRO_MAX_PAGES = 15      # hard cap on search pages per board per run (20 postings a page)
 GETRO_DIGEST_CAP = 10     # hard cap on postings one Getro board can put in one digest
+# Remote postings (2026-10-20, the post-WHOI watch is remote-only): a second
+# search per board asks Getro for remote Sales & BD postings, and remote
+# postings have a cap of their own, so the on-site ones, which outnumber
+# them four to one on Space Talent, can no longer crowd them out of the
+# digest. Getro's filter key is work_mode with a list value; "work_modes"
+# is silently ignored and a bare string is a 422.
+GETRO_REMOTE_FILTERS = {"work_mode": ["remote"]}
+GETRO_REMOTE_DIGEST_CAP = 10   # remote postings one Getro board can put in one digest
 GETRO_ORG_BONUS_MAX = 4   # most a hiring company's industry tags add when ranking inside the cap
 # Getro's own seniority label; these are dropped from the search results.
 GETRO_JUNIOR_SENIORITY = {"internship", "entry_level", "associate"}
@@ -1196,13 +1205,15 @@ def _getro_ts(value) -> float:
     return ts / 1000 if ts > 1e11 else ts
 
 
-def _getro_search_page(network_id: str, page: int) -> list[dict]:
+def _getro_search_page(network_id: str, page: int,
+                       filters: dict | None = None) -> list[dict]:
     """One page of the network's public job search, newest first. Raises
     RuntimeError after two failed attempts (HTTP error, timeout, a body that
     is not JSON or not the expected shape) and _GetroSearchOff once the
-    search has been switched off for this run."""
+    search has been switched off for this run. `filters` are added to the
+    job-function filter (GETRO_REMOTE_FILTERS for the remote pass)."""
     body = {"hitsPerPage": 20, "page": page, "query": "",
-            "filters": {"job_functions": GETRO_FUNCTIONS}}
+            "filters": {"job_functions": GETRO_FUNCTIONS, **(filters or {})}}
     last_error: Exception | None = None
     for attempt in range(2):
         if attempt:
@@ -1231,9 +1242,11 @@ def _getro_search_page(network_id: str, page: int) -> list[dict]:
                        f"{type(last_error).__name__}: {last_error}")
 
 
-def _getro_recent_commercial(network_id: str) -> tuple[list[dict], str | None]:
+def _getro_recent_commercial(network_id: str,
+                             filters: dict | None = None) -> tuple[list[dict], str | None]:
     """Search postings in GETRO_FUNCTIONS created within GETRO_WINDOW_DAYS,
-    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages.
+    junior seniority dropped. Reads at most GETRO_MAX_PAGES pages. `filters`
+    narrow the search further (the remote pass).
 
     Returns (postings, error). It never raises: when a page fails, the
     postings from the pages already read come back with the error text
@@ -1242,7 +1255,7 @@ def _getro_recent_commercial(network_id: str) -> tuple[list[dict], str | None]:
     recent: list[dict] = []
     for page in range(GETRO_MAX_PAGES):
         try:
-            jobs = _getro_search_page(network_id, page)
+            jobs = _getro_search_page(network_id, page, filters)
             if jobs and not any(_getro_ts(j.get("created_at")) for j in jobs):
                 # No readable date on a whole page: the window cannot be
                 # applied, so nothing from this page is taken.
@@ -1270,8 +1283,11 @@ def _getro_recent_commercial(network_id: str) -> tuple[list[dict], str | None]:
 def get_getro_jobs(company: dict) -> list[dict]:
     """The 20 newest postings embedded in the board page (every job function),
     plus the last GETRO_WINDOW_DAYS of Sales & Business Development postings
-    from the network's public search. Every item carries digest_cap, which
-    Pass 4 enforces per run (see over_digest_cap).
+    from the network's public search, read twice: every work mode, then
+    remote only (GETRO_REMOTE_FILTERS). Every item carries digest_cap, which
+    Pass 4 enforces per run (see over_digest_cap); a remote posting (Getro's
+    work_mode) counts against GETRO_REMOTE_DIGEST_CAP, the rest against
+    GETRO_DIGEST_CAP.
 
     Raises ValueError if the page is not a Getro page (the caller then falls
     back to plain link extraction).
@@ -1296,20 +1312,27 @@ def get_getro_jobs(company: dict) -> list[dict]:
     network_id = str((page_props.get("network") or {}).get("id") or "")
 
     searched: list[dict] = []
+    searched_remote: list[dict] = []
     if not network_id:
         log.warning(f"  {company['name']}: Getro page carries no network id; "
                     f"reading only the {len(found)} embedded postings")
     else:
         searched, search_error = _getro_recent_commercial(network_id)
+        if search_error is None:
+            # The remote pass runs only after a clean first pass: a search
+            # that just failed or was switched off is not asked again.
+            searched_remote, search_error = _getro_recent_commercial(
+                network_id, GETRO_REMOTE_FILTERS)
+        n_read = len(searched) + len(searched_remote)
         if search_error == "":
             with _GETRO_STATE_LOCK:
                 _GETRO_SEARCH_SKIPPED.append(company["name"])
             log.warning(f"  {company['name']}: Getro search skipped (it failed "
                         f"{GETRO_SEARCH_FAIL_LIMIT} times this run); kept the {len(found)} "
-                        f"embedded postings and {len(searched)} search postings already read")
+                        f"embedded postings and {n_read} search postings already read")
         elif search_error:
             line = (f"{company['name']}: Getro commercial search failed, kept the "
-                    f"{len(found)} embedded postings and {len(searched)} search "
+                    f"{len(found)} embedded postings and {n_read} search "
                     f"postings already read ({search_error})")
             log.error(line)
             with _GETRO_STATE_LOCK:
@@ -1318,9 +1341,13 @@ def get_getro_jobs(company: dict) -> list[dict]:
     page_links = host in GETRO_PAGE_LINK_HOSTS
     results: list[dict] = []
     ids: set[str] = set()
-    for from_search, jobs in ((False, found), (True, searched)):
+    n_remote = 0
+    for from_search, jobs in ((False, found), (True, searched_remote), (True, searched)):
         for j in jobs:
             organization = j.get("organization") or {}
+            # The embedded postings spell the field workMode, the search
+            # results work_mode.
+            remote = str(j.get("work_mode") or j.get("workMode") or "").lower() == "remote"
             org = organization.get("name", "")
             org_slug = organization.get("slug", "")
             title = canonicalize_title(j.get("title") or "")
@@ -1345,39 +1372,123 @@ def get_getro_jobs(company: dict) -> list[dict]:
             if item_id in ids:
                 continue
             ids.add(item_id)
+            n_remote += remote
             results.append({
                 "id": item_id,
                 "url": url,
                 "title": title,
                 "org": org,
                 "org_domain": org_domain,
-                "digest_cap": GETRO_DIGEST_CAP,
+                "digest_cap": GETRO_REMOTE_DIGEST_CAP if remote else GETRO_DIGEST_CAP,
+                "remote": remote,
                 "from_search": from_search,
                 "created_at": _getro_ts(j.get("created_at")),
             })
     log.info(f"  {company['name']}: Getro, {len(found)} embedded + {len(searched)} "
-             f"commercial postings from the last {GETRO_WINDOW_DAYS} days")
+             f"commercial postings from the last {GETRO_WINDOW_DAYS} days, "
+             f"{n_remote} remote ({len(searched_remote)} from the remote pass)")
+    return results
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HIMALAYAS (remote-only job board, public search API; 2026-10-20)
+# ─────────────────────────────────────────────────────────────────────────────
+# himalayas.app lists remote jobs only. Its pages are behind a bot wall (the
+# listing is a 403 to the scraper), but its search API is open and takes a
+# keyword, a country and a seniority filter in one call, which is what made it
+# the one general remote board worth reading for the post-WHOI watch: in the
+# four weeks before it was added it showed a dozen senior commercial roles in
+# Paul's sectors that the company boards did not carry (Elbit America, Aptiv,
+# Woolpert, SpaceKnow). The companies.yaml entry is
+#   type: himalayas_api, url: HIMALAYAS_SEARCH_URL, queries: [a list of
+#   sector keywords]; one request per keyword per run.
+# The API matches the keyword in descriptions too, so the digest cap and the
+# title score keep the noise out. Himalayas' terms: link back to the posting
+# (the digest links its guid) and do not republish the listings.
+HIMALAYAS_SEARCH_URL = "https://himalayas.app/jobs/api/search"
+HIMALAYAS_COUNTRY = "US"
+HIMALAYAS_SENIORITY = "Manager,Director,Executive"   # Himalayas' own labels
+HIMALAYAS_WINDOW_DAYS = 7      # postings older than this are never read
+HIMALAYAS_DIGEST_CAP = 10      # postings the board can put in one digest
+HIMALAYAS_QUERY_PAUSE = 1.0    # seconds between keyword requests
+
+
+def get_himalayas_jobs(company: dict) -> list[dict]:
+    """Remote postings from the Himalayas search API for each keyword in the
+    entry's `queries` list: US-eligible, Manager seniority or above, posted
+    within HIMALAYAS_WINDOW_DAYS. Every item is remote and carries
+    digest_cap (HIMALAYAS_DIGEST_CAP), which Pass 4 enforces per run."""
+    queries = [str(q).strip() for q in (company.get("queries") or []) if str(q).strip()]
+    if not queries:
+        raise ValueError("himalayas_api: the companies.yaml entry needs a 'queries' list")
+    base = (company.get("url") or HIMALAYAS_SEARCH_URL).rstrip("/")
+    cutoff = datetime.now(timezone.utc).timestamp() - HIMALAYAS_WINDOW_DAYS * 86400
+    results: list[dict] = []
+    ids: set[str] = set()
+    for n, q in enumerate(queries):
+        if n:
+            time.sleep(HIMALAYAS_QUERY_PAUSE)
+        r = SESSION.get(base, params={"q": q, "country": HIMALAYAS_COUNTRY,
+                                      "seniority": HIMALAYAS_SENIORITY,
+                                      "sort": "recent", "limit": 20},
+                        headers={"Accept": "application/json"}, timeout=30)
+        r.raise_for_status()
+        jobs = r.json().get("jobs")
+        if not isinstance(jobs, list):
+            raise ValueError(f"himalayas_api: no 'jobs' list for query {q!r}")
+        for j in jobs:
+            if not isinstance(j, dict):
+                continue
+            created = _getro_ts(j.get("pubDate"))   # epoch seconds, same reader
+            if created < cutoff:
+                continue
+            url = canonicalize_url(str(j.get("guid") or ""))
+            title = canonicalize_title(str(j.get("title") or ""))
+            if not url or not title:
+                continue
+            org = str(j.get("companyName") or "").strip()
+            item_id = sha(company["name"] + "|" + url)
+            if item_id in ids:
+                continue
+            ids.add(item_id)
+            results.append({
+                "id": item_id,
+                "url": url,
+                "title": f"{title} - {org}" if org else title,
+                "org": org,
+                "org_domain": 0,
+                "digest_cap": HIMALAYAS_DIGEST_CAP,
+                "remote": True,
+                "from_search": True,
+                "created_at": created,
+            })
+    log.info(f"  {company['name']}: Himalayas, {len(results)} remote postings from "
+             f"{len(queries)} keywords in the last {HIMALAYAS_WINDOW_DAYS} days")
     return results
 
 
 def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
     """Ids of the postings a capped board may not email this run.
 
-    Only items that carry digest_cap take part (Getro boards). The candidates
-    are the postings Pass 4 would email: unseen ones whose title scores above
-    0, and stored zero-scored ones that score above 0 now (the re-evaluation
-    after a keyword change). The best digest_cap stay. Order: title score plus
-    the hiring company's industry-tag bonus (org_domain, 0 to
-    GETRO_ORG_BONUS_MAX), then postings from the commercial search, then
-    newest. A repeat of a posting already kept
+    Only items that carry digest_cap take part (Getro and Himalayas boards).
+    The candidates are the postings Pass 4 would email: unseen ones whose
+    title scores above 0, and stored zero-scored ones that score above 0 now
+    (the re-evaluation after a keyword change). The best digest_cap stay.
+    Order: title score plus the hiring company's industry-tag bonus
+    (org_domain, 0 to GETRO_ORG_BONUS_MAX), then postings from the commercial
+    search, then newest. A repeat of a posting already kept
     (same URL, or same title at the same hiring company) does not use up a
-    place, because deduplicate() collapses it."""
+    place, because deduplicate() collapses it.
+
+    Remote postings (item["remote"]) and the rest are capped separately,
+    each by its own digest_cap, so a board's on-site postings never crowd
+    its remote ones out (2026-10-20)."""
     ranked = []
-    cap = 0
+    caps: dict[bool, int] = {}
     for item in items:
         if not item.get("digest_cap"):
             continue
-        cap = item["digest_cap"]
+        caps[bool(item.get("remote"))] = int(item["digest_cap"])
         entry = seen.get(item["id"])
         if entry is None:
             title = canonicalize_title(item.get("title") or "")
@@ -1392,19 +1503,22 @@ def over_digest_cap(items: list[dict], seen: dict) -> set[str]:
         if score > 0:
             ranked.append((score + (item.get("org_domain") or 0), bool(item.get("from_search")),
                            _getro_ts(item.get("created_at")), item["id"],
-                           (item.get("org") or "", normalise_title(title)), url))
+                           (item.get("org") or "", normalise_title(title)), url,
+                           bool(item.get("remote"))))
     # Sorted on the first four fields only (number, bool, number, id string),
     # so the order never depends on comparing values of mixed types.
     ranked.sort(key=lambda r: r[:4], reverse=True)
     kept_keys: set[tuple[str, str]] = set()
     kept_urls: set[str] = set()
+    kept_n: dict[bool, int] = {False: 0, True: 0}
     held: set[str] = set()
-    for _rank, _search, _created, item_id, key, url in ranked:
+    for _rank, _search, _created, item_id, key, url, remote in ranked:
         if key in kept_keys or (url and url in kept_urls):
             continue
-        if len(kept_keys) < cap:
+        if kept_n[remote] < caps.get(remote, 0):
             kept_keys.add(key)
             kept_urls.add(url)
+            kept_n[remote] += 1
         else:
             held.add(item_id)
     return held
@@ -1426,9 +1540,12 @@ def digest_cap_in_board_order(items: list[dict], seen: dict) -> set[str]:
             candidates.append(item)
     candidates.sort(key=lambda i: not i.get("from_search"))
     held: set[str] = set()
-    for n, item in enumerate(candidates):
-        if n >= int(item["digest_cap"]):
+    n: dict[bool, int] = {False: 0, True: 0}
+    for item in candidates:
+        remote = bool(item.get("remote"))
+        if n[remote] >= int(item["digest_cap"]):
             held.add(item["id"])
+        n[remote] += 1
     return held
 
 
@@ -2473,6 +2590,7 @@ def main() -> None:
         "bamboohr_api": get_bamboohr_jobs,
         "workday_api": get_workday_jobs,
         "rippling_api": get_rippling_jobs,
+        "himalayas_api": get_himalayas_jobs,
     }
 
     all_company_items: list[tuple[str, list[dict]]] = []

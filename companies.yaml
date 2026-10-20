@@ -166,9 +166,14 @@ companies:
     url: https://jobs.gohire.io/piersight-rfd9c90d/
 
   - name: Lowercarbon Capital Portfolio
-    type: html_links
+    type: manual_check
     url: https://lowercarbon.com/get-off-the-couch/
-    link_contains: jobs
+    note: 2026-10-20 page has carried no posting since 2026-09-18 (32 empty runs); the fund's Getro board is the 'Lowercarbon Capital Getro' entry
+
+  - name: Lowercarbon Capital Getro
+    type: html_links
+    url: https://lowercarbon.getro.com/jobs
+    note: 2026-10-20 Getro network 801, 1,750 live postings, climate-only portfolio; replaces the empty get-off-the-couch page
 
   - name: AENU Portfolio
     type: html_links
@@ -1067,8 +1072,9 @@ companies:
     url: https://jobs.energyimpactpartners.com/jobs
 
   - name: Pale Blue Dot Portfolio
-    type: html_links
+    type: manual_check
     url: https://jobs.pale.blue/jobs
+    note: 2026-10-20 the host now serves a Notion page, not a Getro board
 
   - name: Overture VC Portfolio
     type: html_links
@@ -1101,9 +1107,9 @@ companies:
     note: 2026-10-02 8,000+ postings load client-side from a token-gated POST; no per-job links in the HTML
 
   - name: Climate Draft
-    type: html_links
+    type: manual_check
     url: https://jobs.climatedraft.org/jobs
-    link_contains: /jobs/
+    note: 2026-10-20 the Getro board returns its not-found page since 2026-10-07 (13 failed runs); it was the biggest climate aggregator here, so check in a browser whether it moved and repoint
 
   - name: Space Crew
     type: playwright
@@ -1183,13 +1189,14 @@ companies:
     note: 2026-10-02 Cloudflare bot challenge blocks the scraper; titles intercepted earlier had no per-job URL
 
   - name: Terra.do Job Board
-    type: html_links
+    type: manual_check
     url: https://www.terra.do/climate-jobs/job-board/
+    note: 2026-10-20 the page renders its cards client-side; the only link the scraper could read was a membership page, so it reported nonempty with no postings
 
   - name: Trellis Jobs
-    type: html_links
+    type: manual_check
     url: https://jobs.trellis.net/
-    link_contains: ref=jobs.trellis.net
+    note: 2026-10-20 HTTP 403 to the scraper; never showed a posting in 103 runs
 
   - name: CTVC Climate Tech Jobs
     type: html_links
@@ -1203,6 +1210,8 @@ companies:
   - name: Space-Careers
     type: html_links
     url: https://www.space-careers.com/
+    link_contains: /job_display/
+    note: 2026-10-20 postings live under /job_display/; before that the scraper read only category pages and reported them as postings
 
   - name: Dendra Systems
     type: manual_check
@@ -1400,13 +1409,14 @@ companies:
     url: https://climatechangejobs.com
 
   - name: Rejobs Renewable Energy
-    type: html_links
+    type: manual_check
     url: https://rejobs.org/en
-    link_contains: /renewable-energy-jobs/
+    note: 2026-10-20 HTTP 403 to the scraper; never showed a posting in 103 runs
 
   - name: Work on Climate
-    type: html_links
+    type: manual_check
     url: https://workonclimate.org/
+    note: 2026-10-20 the page links only its volunteer roles; never showed a posting in 103 runs
 
   - name: My Climate Journey Jobs
     type: html_links
@@ -2103,6 +2113,26 @@ companies:
     type: html_links
     url: https://jobs.spacetalent.org/jobs
     note: Space Capital's Getro aggregator, 15k roles; newest-first so daily delta is what surfaces
+
+  - name: Himalayas Remote Jobs
+    type: himalayas_api
+    url: https://himalayas.app/jobs/api/search
+    note: 2026-10-20 remote-only board read through its public search API (pages are a 403); one request per keyword per run, US-eligible, Manager seniority and above
+    queries:
+      - satellite
+      - earth observation
+      - geospatial
+      - space
+      - maritime
+      - ocean
+      - climate
+      - carbon
+      - defense
+      - national security
+      - drone
+      - weather
+      - energy transition
+      - commodity
 
   - name: HawkEye 360
     type: greenhouse_api
