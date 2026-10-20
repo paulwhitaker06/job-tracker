@@ -79,13 +79,32 @@ Limits, all constants next to `get_getro_jobs`:
 | --- | --- | --- |
 | `GETRO_WINDOW_DAYS` | 7 | Search postings older than this are never read, so the back catalogue cannot reach the digest, on the first run or later. |
 | `GETRO_MAX_PAGES` | 15 | Search pages read per board per run (20 postings a page). |
-| `GETRO_DIGEST_CAP` | 10 | Postings one Getro board can put in one digest. Lower it to cut downstream cost. |
+| `GETRO_DIGEST_CAP` | 10 | On-site and hybrid postings one Getro board can put in one digest. Lower it to cut downstream cost. |
+| `GETRO_REMOTE_DIGEST_CAP` | 10 | Remote postings one Getro board can put in one digest, counted apart from the cap above. |
 
 When a board has more new scoring postings than the cap, the ones that stay
 are chosen by title score plus a bonus of up to 4 (`GETRO_ORG_BONUS_MAX`) for
 how well the hiring company's industry tags match the domain keywords, then
 postings from the commercial search, then newest. The rest are stored with `over_cap`. Postings re-scored after a keyword
 change count toward the same cap.
+
+Since 2026-10-20 the search runs twice per board: once as above, once with
+Getro's own remote filter (`GETRO_REMOTE_FILTERS`, `work_mode: ["remote"]`).
+A posting Getro marks remote counts against `GETRO_REMOTE_DIGEST_CAP`, every
+other posting against `GETRO_DIGEST_CAP`, so a board's on-site postings
+cannot crowd its remote ones out of the digest. The search after WHOI looks
+only for remote work.
+
+## Himalayas
+
+`himalayas.app` lists remote jobs only. Its pages refuse the scraper, so the
+`himalayas_api` entry in `companies.yaml` reads its public search API
+instead: one request per keyword in the entry's `queries` list, US-eligible,
+Himalayas seniority Manager or above, newest first, back
+`HIMALAYAS_WINDOW_DAYS` (7) days. Every posting is remote and the board is
+capped at `HIMALAYAS_DIGEST_CAP` (10) per digest by the same ranking as a
+Getro board. The digest links the posting's Himalayas page; the morning-brief
+pipeline reads that page through the same API.
 
 In the digest a Getro posting is listed under the board's name. The same title
 at two different hiring companies is two postings; the same posting URL or the
