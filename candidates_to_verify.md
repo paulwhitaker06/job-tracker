@@ -883,3 +883,10 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **AENU** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
 | **Cloover** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
 | **Hometree** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-19 |
+| **Reaction Dynamics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **Meridian International Center** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **SPACEAIMS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **KP Labs** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **OXG Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **OHB System** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **UARX Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
