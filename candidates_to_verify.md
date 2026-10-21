@@ -890,3 +890,10 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **OXG Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
 | **OHB System** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
 | **UARX Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-20 |
+| **HPE** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **KIOXIA** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **Grok** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **Space Robot** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **Project Omega** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **The Institute for a Resilient Space Economy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **Anywaves** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
