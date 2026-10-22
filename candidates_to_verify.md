@@ -897,3 +897,13 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Project Omega** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
 | **The Institute for a Resilient Space Economy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
 | **Anywaves** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-21 |
+| **ClimateAi** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **MARS Energy Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **NextEra Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Normative** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Sinxbot** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Atombeam** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Space Nuclear Power** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Meissa** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Atomic-6** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Dassault Aviation** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |

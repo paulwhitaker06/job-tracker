@@ -3036,3 +3036,24 @@ companies:
     type: workable_api
     url: https://apply.workable.com/tokamak-energy/
     # auto-added from Payload intel 2026-10-19
+
+  - name: Astroscale US
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/astroscale-us
+    # auto-added from Payload intel 2026-10-22
+
+  - name: Orbital Robotics
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/orbital-robotics
+    # auto-added from Payload intel 2026-10-22
+
+  - name: Element84
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/element84
+    # auto-added from Payload intel 2026-10-22
+
+  - name: Samara Aerospace
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/samaraaerospace
+    board: samaraaerospace
+    # auto-added from Payload intel 2026-10-22
