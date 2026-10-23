@@ -907,3 +907,9 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Meissa** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
 | **Atomic-6** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
 | **Dassault Aviation** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-22 |
+| **Zero Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **InTrack** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **Slingshot** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **Akkodis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **Marble Imaging** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **Odysseus Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |

@@ -3057,3 +3057,9 @@ companies:
     url: https://job-boards.greenhouse.io/samaraaerospace
     board: samaraaerospace
     # auto-added from Payload intel 2026-10-22
+
+  - name: Orbital Operations
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/orbitaloperations
+    board: orbitaloperations
+    # auto-added from Payload intel 2026-10-23
