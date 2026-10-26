@@ -913,3 +913,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Akkodis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
 | **Marble Imaging** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
 | **Odysseus Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-23 |
+| **Colare** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
+| **Ariane 6** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
+| **JHUAPL** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
+| **CSG** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
+| **Google DeepMind** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
