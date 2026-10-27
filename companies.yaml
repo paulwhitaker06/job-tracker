@@ -3063,3 +3063,25 @@ companies:
     url: https://job-boards.greenhouse.io/orbitaloperations
     board: orbitaloperations
     # auto-added from Payload intel 2026-10-23
+
+  - name: Peak Energy
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/peakenergy
+    board: peakenergy
+    # auto-added from Payload intel 2026-10-27
+
+  - name: Electric Plant
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/electricplant
+    # auto-added from Payload intel 2026-10-27
+
+  - name: Blackstone
+    type: workable_api
+    url: https://apply.workable.com/blackstone/
+    # auto-added from Payload intel 2026-10-27
+
+  - name: Stoke Space Technologies
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/stokespacetechnologies
+    board: stokespacetechnologies
+    # auto-added from Payload intel 2026-10-27

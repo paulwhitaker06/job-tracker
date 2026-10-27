@@ -918,3 +918,24 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **JHUAPL** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
 | **CSG** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
 | **Google DeepMind** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-26 |
+| **Elax Energie** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Optivolt** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Hephaestus Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **IMIO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Veckta** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Pascal** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Linkener** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Pivot Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Navitas Solar** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Lodestone Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Forge Nano** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Allplants** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **H2O Degree** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Sonnen** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Inovia Capital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Nauta Capital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Shell** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Equinor** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **Viridi** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **MP Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **OSMOS X** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
