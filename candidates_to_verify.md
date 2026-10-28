@@ -939,3 +939,15 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Viridi** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
 | **MP Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
 | **OSMOS X** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-27 |
+| **AstroAnalytica** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Goonhilly** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Magdrive** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Mutable Tactics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Third Planet Orbital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Space Mobility** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Astroscale UK** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Atelerix** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Craft Prospect** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Vector Photonics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Alpha Impulsion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **OSCPS Motion Sensing** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
