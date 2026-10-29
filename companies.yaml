@@ -3085,3 +3085,8 @@ companies:
     url: https://job-boards.greenhouse.io/stokespacetechnologies
     board: stokespacetechnologies
     # auto-added from Payload intel 2026-10-27
+
+  - name: Space Industries
+    type: workable_api
+    url: https://apply.workable.com/spaceindustries/
+    # auto-added from Payload intel 2026-10-29

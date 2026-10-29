@@ -951,3 +951,7 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Vector Photonics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
 | **Alpha Impulsion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
 | **OSCPS Motion Sensing** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-28 |
+| **Equatys** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
+| **Terrestar Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
+| **ThrustMe** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
+| **Auria Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
