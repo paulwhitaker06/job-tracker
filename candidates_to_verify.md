@@ -955,3 +955,6 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Terrestar Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
 | **ThrustMe** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
 | **Auria Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-29 |
+| **NUO Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
+| **MuRay** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
+| **Enabled Intelligence** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
