@@ -958,3 +958,15 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **NUO Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
 | **MuRay** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
 | **Enabled Intelligence** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-10-30 |
+| **Deutsche Bank** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Testnor** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Norse Navigation** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Rift Dynamics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **ESI Motion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Kongsberg Satellite Services** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Morehead State University** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **CNES** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Ligado Networks** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Concordia University** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Pixxel Federal** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
+| **Stellar Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-02 |
