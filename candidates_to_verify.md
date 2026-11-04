@@ -1011,3 +1011,6 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **SoftBank** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-03 |
 | **Interstellar Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-03 |
 | **Gebruder Weiss** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-03 |
+| **Launcher** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-04 |
+| **Intella** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-04 |
+| **Spacemanic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-04 |
