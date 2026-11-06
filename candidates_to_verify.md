@@ -1018,3 +1018,6 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Qualcomm Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-05 |
 | **Star Vision** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-05 |
 | **PAVE Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-05 |
+| **Cosmoserve Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
+| **Azista Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
+| **Pierson Ferdinand** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
