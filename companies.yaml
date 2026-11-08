@@ -1189,9 +1189,9 @@ companies:
     note: 2026-10-02 Cloudflare bot challenge blocks the scraper; titles intercepted earlier had no per-job URL
 
   - name: Terra.do Job Board
-    type: manual_check
-    url: https://www.terra.do/climate-jobs/job-board/
-    note: 2026-10-20 the page renders its cards client-side; the only link the scraper could read was a membership page, so it reported nonempty with no postings
+    type: lever_api
+    url: https://jobs.lever.co/cfsenergy
+    # auto-upgraded from manual_check 2026-11-08
 
   - name: Trellis Jobs
     type: manual_check
