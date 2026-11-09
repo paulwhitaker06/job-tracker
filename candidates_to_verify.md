@@ -1021,3 +1021,28 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Cosmoserve Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
 | **Azista Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
 | **Pierson Ferdinand** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-06 |
+| **Arrow Science and Technology** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **ispace-U.S.** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Harbinger** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Humble** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Vaeridion** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **FluoRok** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Green Voltis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **NON.energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Two Point O Capital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Atmospheric AI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **altM** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Econili** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Viridi CO2** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Return Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Lightyears** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Aquatic Labs** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Waste Absolute** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Gulf Energy Development** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Edko** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Creandum** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Array Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Shoals Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **DTE Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Walmart** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Revolution Wind** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
