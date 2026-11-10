@@ -1046,3 +1046,8 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **DTE Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
 | **Walmart** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
 | **Revolution Wind** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-09 |
+| **Lyra Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
+| **Rakuten AST** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
+| **Aurex** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
+| **BT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
+| **Kuaizhou Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
