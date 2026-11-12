@@ -3096,3 +3096,14 @@ companies:
     url: https://job-boards.greenhouse.io/omenai
     board: omenai
     # auto-added from Payload intel 2026-11-09
+
+  - name: Spaceium
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/spaceium
+    board: spaceium
+    # auto-added from Payload intel 2026-11-12
+
+  - name: SunDrive Solar
+    type: lever_api
+    url: https://jobs.lever.co/sundrivesolar
+    # auto-added from Payload intel 2026-11-12

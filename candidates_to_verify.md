@@ -1051,3 +1051,10 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Aurex** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
 | **BT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
 | **Kuaizhou Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-10 |
+| **NeuralSat** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **OwlO Cloud** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Bayern-Chemie** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Nitride Global** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Karman Line** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Space Machines Company** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Simera Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
