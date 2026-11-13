@@ -1058,3 +1058,22 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Karman Line** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
 | **Space Machines Company** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
 | **Simera Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-12 |
+| **Sagittarius Logistics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Nova Threshold** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Felicis Scout Fund** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Ingenuity VC** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Space Venture Studios** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Masten Space Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Outlook Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Trusted Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Falcon ExoDynamics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Gatehouse Satcom** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Satlab** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Astrobase** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Obruta Space Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Resonate Testing** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **SpaceMD** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **BRPH** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Oceaneering International** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Scanway Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Redwire Defense Tech** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |

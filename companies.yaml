@@ -3107,3 +3107,8 @@ companies:
     type: lever_api
     url: https://jobs.lever.co/sundrivesolar
     # auto-added from Payload intel 2026-11-12
+
+  - name: Constellation Space
+    type: ashby_api
+    url: https://api.ashbyhq.com/posting-api/job-board/constellationspace
+    # auto-added from Payload intel 2026-11-13
