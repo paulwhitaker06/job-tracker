@@ -3112,3 +3112,8 @@ companies:
     type: ashby_api
     url: https://api.ashbyhq.com/posting-api/job-board/constellationspace
     # auto-added from Payload intel 2026-11-13
+
+  - name: Calibrant Energy
+    type: workable_api
+    url: https://apply.workable.com/calibrant-energy/
+    # auto-added from Payload intel 2026-11-16

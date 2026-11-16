@@ -1077,3 +1077,32 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Oceaneering International** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
 | **Scanway Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
 | **Redwire Defense Tech** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-13 |
+| **Aptos Orbital** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Serco Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **QinetiQ** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Booz Allen Hamilton** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Peerless Technologies** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **ISRO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Roscosmos** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Optics11** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Coreshell** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Intergrid** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Atomarine** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **TriPica** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Lucidome Bio** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Aimer Farming** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Delorean** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **IntelliSmart Infrastructure** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **RelyEZ Energy Storage** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Just Climate** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **OPG** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **CNNC** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Bloom Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **California Resources** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Sublime Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **KKR** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Tokyo Gas** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Tapestry** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Vexcel** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **CoStar Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Kazakhstan** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
