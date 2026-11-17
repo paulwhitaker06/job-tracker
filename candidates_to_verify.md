@@ -1106,3 +1106,13 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Vexcel** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
 | **CoStar Group** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
 | **Kazakhstan** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-16 |
+| **Portal** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Ramon.Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Micron Technology** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Ingrasys** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Asynchronics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **NewSpace Systems** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **NTT** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Trinzic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **Blackswan Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **PYXALIS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
