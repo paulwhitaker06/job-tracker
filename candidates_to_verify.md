@@ -1116,3 +1116,15 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Trinzic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
 | **Blackswan Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
 | **PYXALIS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-17 |
+| **The Radiation Team** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **CUBECOM** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **QASCOM** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Cosmo Bee** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **EDGX** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **DeepSat** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **ABB** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **HEMERIA** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Spargo Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Lukasiewicz Institute of Aviation** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Nammo UK** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Radian Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
