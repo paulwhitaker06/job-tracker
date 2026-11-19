@@ -1128,3 +1128,10 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Lukasiewicz Institute of Aviation** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
 | **Nammo UK** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
 | **Radian Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-18 |
+| **Eutelsat Network Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **SUAS Aerospace** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **MBDA Deutschland** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **Common Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **LSAS Tec** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **SpaceDreamS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **i2CAT Research & Innovation Centre** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
