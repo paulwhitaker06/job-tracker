@@ -1135,3 +1135,10 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **LSAS Tec** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
 | **SpaceDreamS** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
 | **i2CAT Research & Innovation Centre** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-19 |
+| **RBC Signals** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **Washington Harbour Partners** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **Outpost Mission Services** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **AscendArc** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **Satelogic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **Dominion Dynamics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **Kayhan Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
