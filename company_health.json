@@ -3,4403 +3,4403 @@
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-30",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 82
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 83
  },
  "2150 VC Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "5 Gyres Institute": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "75F": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "80,000 Hours Job Board": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "AAC Clyde Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "AENU Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ALL.SPACE": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "AST SpaceMobile": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "ASTERRA": {
-  "empty_streak": 1,
+  "empty_streak": 2,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-18",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Aalo Atomics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Aclima": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Acre Sustainability Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Advanced Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Aerospace Corporation": {
   "empty_streak": 0,
-  "fail_streak": 4,
+  "fail_streak": 5,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-15",
   "last_ok": "2026-11-15",
-  "runs": 132
+  "runs": 133
  },
  "Aerospacelab": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "African Wildlife Foundation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Agile Space Industries": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "AgriWebb": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "AiDash": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "AirTrunk": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-05",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 106
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 107
  },
  "Airbase": {
-  "empty_streak": 110,
+  "empty_streak": 111,
   "fail_streak": 0,
   "first_tracked": "2026-08-01",
-  "last_ok": "2026-11-19",
-  "runs": 110
+  "last_ok": "2026-11-20",
+  "runs": 111
  },
  "Airbus Intelligence": {
   "empty_streak": 0,
-  "fail_streak": 4,
+  "fail_streak": 5,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-15",
   "last_ok": "2026-11-15",
-  "runs": 133
+  "runs": 134
  },
  "Aistech Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Albedo": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Allen Institute for AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Altana AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Amazon Conservation Association": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Amazon Conservation Team": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Amber Electric": {
   "crossed_30_on": "2026-11-11",
-  "empty_streak": 38,
+  "empty_streak": 39,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
   "last_nonempty": "2026-10-12",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "Amentum": {
   "crossed_30_on": "2026-09-24",
-  "empty_streak": 86,
+  "empty_streak": 87,
   "fail_streak": 0,
   "first_tracked": "2026-08-26",
-  "last_ok": "2026-11-19",
-  "runs": 86
+  "last_ok": "2026-11-20",
+  "runs": 87
  },
  "Amperesand": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-05",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 106
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 107
  },
  "Anduril": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-09",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 72
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 73
  },
  "Antares": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-31",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 111
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 112
  },
  "Antora": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-14",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 37
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 38
  },
  "Antora Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "AnySignal": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Apex Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Aquabyte": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Arable Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Arbol": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Armada": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-31",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 111
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 112
  },
  "Arnergy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Astranis": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Astrolab": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Astroscale US": {
-  "empty_streak": 4,
+  "empty_streak": 5,
   "fail_streak": 0,
   "first_tracked": "2026-10-23",
   "last_nonempty": "2026-11-15",
-  "last_ok": "2026-11-19",
-  "runs": 28
+  "last_ok": "2026-11-20",
+  "runs": 29
  },
  "At One Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Avantus": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Axelspace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Axiom Space": {
   "empty_streak": 0,
-  "fail_streak": 0,
+  "fail_streak": 1,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-19",
   "last_ok": "2026-11-19",
-  "runs": 133
+  "runs": 134
  },
  "BAE Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-29",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 113
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 114
  },
  "BSR (Business for Social Responsibility)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Baseload Capital": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Beacon": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Bedrock Ocean": {
-  "empty_streak": 2,
+  "empty_streak": 3,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-17",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "BeeHero": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Bentley Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Besxar": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Beyond Reach Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Bezos Earth Fund": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "BirdLife International": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "BlackSky": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Blackstone": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-28",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 23
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 24
  },
  "Blue Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-18",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 93
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 94
  },
  "Blue Frontier": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Blue Ventures": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "BlueHalo": {
-  "empty_streak": 1,
+  "empty_streak": 2,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-18",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "BlueShift": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Boltline": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "Booz Allen": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Bridger Photonics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Brimstone": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Burnbot": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Buzz Solutions": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "C16 Biosciences": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "C4ADS": {
   "crossed_30_on": "2026-11-01",
-  "empty_streak": 48,
+  "empty_streak": 49,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-02",
-  "last_ok": "2026-11-19",
-  "runs": 132
+  "last_ok": "2026-11-20",
+  "runs": 133
  },
  "CACI": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CARTO": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CDP (formerly Carbon Disclosure Project)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CGIAR": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CIBO Technologies": {
-  "empty_streak": 132,
+  "empty_streak": 133,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CREW Carbon": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "CTVC Climate Tech Jobs": {
-  "empty_streak": 15,
+  "empty_streak": 16,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-04",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Calibrant Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-17",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 3
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 4
  },
  "Cambium Networks": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 90
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 91
  },
  "Canada Rocket Company": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-06",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 105
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 106
  },
  "Capella Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Captura": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbon Direct": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbon Engineering": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbon Mapper": {
-  "empty_streak": 27,
+  "empty_streak": 28,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-23",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbon Robotics": {
   "empty_streak": 3,
-  "fail_streak": 31,
+  "fail_streak": 32,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-16",
   "last_ok": "2026-10-19",
-  "runs": 133
+  "runs": 134
  },
  "Carbon Trust": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbon180": {
   "crossed_30_on": "2026-11-18",
-  "empty_streak": 31,
+  "empty_streak": 32,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CarbonChain": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "CarbonCure": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Carbonfuture": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ceres Imaging": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Charm Industrial": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Chloris Geospatial": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Circ": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Clarity AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Clean Air Task Force": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Clean Energy Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climate Analytics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climate Change Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climate Group": {
   "crossed_30_on": "2026-11-04",
-  "empty_streak": 45,
+  "empty_streak": 46,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-05",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climate Policy Initiative": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ClimatePartner": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ClimateWorks Foundation": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climavision": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Climeworks": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Cloverly": {
   "empty_streak": 0,
-  "fail_streak": 38,
+  "fail_streak": 39,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-12",
   "last_ok": "2026-10-12",
-  "runs": 133
+  "runs": 134
  },
  "Commonwealth Fusion Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Conservation International": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Conservation Job Board": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Conservation Strategy Fund": {
   "crossed_30_on": "2026-10-15",
-  "empty_streak": 65,
+  "empty_streak": 66,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-15",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Conservation X Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Constellation": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-15",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 66
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 67
  },
  "Constellation Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-14",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 6
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 7
  },
  "Constellr": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Convective Capital Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Cotality": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Cowboy Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "CropX": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Cropin": {
   "crossed_30_on": "2026-11-04",
-  "empty_streak": 45,
+  "empty_streak": 46,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-05",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "CubicPV": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "D-Orbit": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "DCVC Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Dandelion Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Danti": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-11",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 70
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 71
  },
  "Dawn Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Dcubed": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Deep BV": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Defenders of Wildlife": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Descartes Underwriting": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Development Seed": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Dioxycle": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Dragonfly Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "E-Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "E3G": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ENPULSION": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 89
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 90
  },
  "ESS Inc": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ETL Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-11",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 100
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 101
  },
  "EVONA": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "EagleView": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Earth-i": {
+  "empty_streak": 134,
+  "fail_streak": 0,
+  "first_tracked": "2026-07-10",
+  "last_ok": "2026-11-20",
+  "runs": 134
+ },
+ "EarthBlox": {
   "empty_streak": 133,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
- },
- "EarthBlox": {
-  "empty_streak": 132,
-  "fail_streak": 0,
-  "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "EarthDaily": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "EarthDaily Analytics (Earth Daily Analytics)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "EarthOptics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Efficient Computer": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-06",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 45
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 46
  },
  "Electra": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Electric Hydrogen": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Electric Plant": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-28",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 23
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 24
  },
  "Element 84": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Element84": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 28
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 29
  },
  "Elemental Excelerator Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ellen MacArthur Foundation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "EnduroSat": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Energy Impact Partners Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Environmental Defense Fund": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Environmental Investigation Agency": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Equatic": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Equilibrium Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "EraDrive": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "Esri": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Everstream Analytics": {
-  "empty_streak": 24,
+  "empty_streak": 25,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-26",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Exolaunch": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Exotrail": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Extantia Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ExxonMobil": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "FIDO Tech": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "FOSSA Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Farmers Business Network": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Fathom": {
-  "empty_streak": 7,
+  "empty_streak": 8,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-12",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Fauna & Flora International": {
-  "empty_streak": 25,
+  "empty_streak": 26,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-25",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Fervo Energy": {
-  "empty_streak": 18,
+  "empty_streak": 19,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-01",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Filtronic": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "First Street": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Flatiron Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "Fleetzero": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Flexcompute": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 43
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 44
  },
  "Flowminder": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Forest Stewardship Council": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Forest Trends": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Form Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "FourKites": {
   "crossed_30_on": "2026-09-18",
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Foursquare": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Frankfurt Zoological Society": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Friends of the Earth": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Frontline Wildfire Defense": {
-  "empty_streak": 101,
+  "empty_streak": 102,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Fugro": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Fuse": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Future Earth": {
-  "empty_streak": 123,
+  "empty_streak": 124,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-07-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "G2 Venture Partners Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "GHGSat": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "GalaxEye": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Galaxia": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Genasys (acq. ZoneHaven)": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "GeoOptics": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "GeologicAI": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Gilat Satellite Networks": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Gilmour Space Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Globhe": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Graphyte": {
-  "empty_streak": 101,
+  "empty_streak": 102,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Green Project Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Greeneye Technology": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Greenly": {
   "crossed_30_on": "2026-10-14",
-  "empty_streak": 66,
+  "empty_streak": 67,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-14",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Greenpeace": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Greentown Labs (Green Town Labs)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Greentown Labs Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Greyparrot": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-05",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 106
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 107
  },
  "GridStor": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "Guidewheel": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "H2Pro": {
-  "empty_streak": 7,
+  "empty_streak": 8,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-12",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "HEO": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 58
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 59
  },
  "HERE Technologies": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "HawkEye 360": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 132
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 133
  },
  "Heirloom Carbon": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Helogen": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-02",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 79
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 80
  },
  "Himalayas Remote Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-21",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 30
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 31
  },
  "Hop Aero": {
-  "empty_streak": 110,
+  "empty_streak": 111,
   "fail_streak": 0,
   "first_tracked": "2026-08-01",
-  "last_ok": "2026-11-19",
-  "runs": 110
+  "last_ok": "2026-11-20",
+  "runs": 111
  },
  "Hortau": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Hubble Network": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-24",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 118
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 119
  },
  "Hydrosat": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ICEYE": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "INNOSPACE": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "IUCN": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Idealist": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Impulse Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Indigo Ag": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Infleqtion": {
   "crossed_30_on": "2026-09-28",
-  "empty_streak": 82,
+  "empty_streak": 83,
   "fail_streak": 0,
   "first_tracked": "2026-08-30",
-  "last_ok": "2026-11-19",
-  "runs": 82
+  "last_ok": "2026-11-20",
+  "runs": 83
  },
  "Inlyte Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "InnerPlant": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Insight M (formerly Kairos Aerospace)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-21",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 121
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 122
  },
  "Integrate": {
   "crossed_30_on": "2026-09-24",
-  "empty_streak": 86,
+  "empty_streak": 87,
   "fail_streak": 0,
   "first_tracked": "2026-08-26",
-  "last_ok": "2026-11-19",
-  "runs": 86
+  "last_ok": "2026-11-20",
+  "runs": 87
  },
  "International Fund for Animal Welfare (IFAW)": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Interos": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Intuitive Machines": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Invariant": {
   "crossed_30_on": "2026-09-13",
-  "empty_streak": 97,
+  "empty_streak": 98,
   "fail_streak": 0,
   "first_tracked": "2026-08-14",
-  "last_ok": "2026-11-19",
-  "runs": 97
+  "last_ok": "2026-11-20",
+  "runs": 98
  },
  "Inversion Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Isar Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Isometric": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Jupiter Intelligence": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "K2 Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Kairos Power": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "Karman Space & Defense": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Katalyst Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Kayrros": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Kepler Communications": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ketos": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Kuva Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Kymeta": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-09",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 72
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 73
  },
  "L3Harris": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Land Life Company": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "LatConnect 60": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Leaf Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "LeoLabs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Leonardo DRS": {
   "crossed_30_on": "2026-10-02",
-  "empty_streak": 78,
+  "empty_streak": 79,
   "fail_streak": 0,
   "first_tracked": "2026-09-03",
-  "last_ok": "2026-11-19",
-  "runs": 78
+  "last_ok": "2026-11-20",
+  "runs": 79
  },
  "Limelight Steel": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Lithos Carbon": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "LiveEO": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Lloyd's List Intelligence": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Lloyd's Register": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Loft Orbital": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Longshot": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Lowercarbon Capital Getro": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-21",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 30
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 31
  },
  "Lunar Outpost": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Lydian": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-05",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 106
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 107
  },
  "MITRE": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 132
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 133
  },
  "Mach Industries": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 90
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 91
  },
  "MaiaSpace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Mantel": {
   "crossed_30_on": "2026-09-30",
-  "empty_streak": 80,
+  "empty_streak": 81,
   "fail_streak": 0,
   "first_tracked": "2026-09-01",
-  "last_ok": "2026-11-19",
-  "runs": 80
+  "last_ok": "2026-11-20",
+  "runs": 81
  },
  "MapHubs": {
   "crossed_30_on": "2026-10-30",
-  "empty_streak": 50,
+  "empty_streak": 51,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-30",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mapbox": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Marine Conservation Institute": {
-  "empty_streak": 95,
+  "empty_streak": 96,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-16",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Marine Stewardship Council": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Maritime Launch Services": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Mast Reforestation": {
   "crossed_30_on": "2026-11-04",
-  "empty_streak": 45,
+  "empty_streak": 46,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-05",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mati Carbon": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Matter Intelligence": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Maxar": {
   "empty_streak": 0,
-  "fail_streak": 0,
+  "fail_streak": 1,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-19",
   "last_ok": "2026-11-19",
-  "runs": 133
+  "runs": 134
  },
  "Mesh Optical Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Meteomatics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mighty Earth": {
-  "empty_streak": 1,
+  "empty_streak": 2,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-18",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mission Control Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mitiga Solutions": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Mitti Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "Modo Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-29",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 113
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 114
  },
  "Momentus": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Moore Foundation": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Morrow": {
-  "empty_streak": 106,
+  "empty_streak": 107,
   "fail_streak": 0,
   "first_tracked": "2026-08-05",
-  "last_ok": "2026-11-19",
-  "runs": 106
+  "last_ok": "2026-11-20",
+  "runs": 107
  },
  "Muon Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "My Climate Journey Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "NanoAvionics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "National Audubon Society": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "NatureMetrics": {
   "crossed_30_on": "2026-11-17",
-  "empty_streak": 32,
+  "empty_streak": 33,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-18",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "NatureServe": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Near Space Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Neros Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-02",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 79
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 80
  },
  "NewOrbit": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Nextbillion.ai": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Nineteen Group": {
-  "empty_streak": 104,
+  "empty_streak": 105,
   "fail_streak": 0,
   "first_tracked": "2026-08-07",
-  "last_ok": "2026-11-19",
-  "runs": 104
+  "last_ok": "2026-11-20",
+  "runs": 105
  },
  "Nonprofit Jobs (Chronicle of Philanthropy)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "North Vector Dynamics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-03",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 108
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 109
  },
  "NorthStar Earth & Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Northwood Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "OVHcloud": {
   "crossed_30_on": "2026-10-29",
-  "empty_streak": 51,
+  "empty_streak": 52,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "Ocean Conservancy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ocean Conservation Careers": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ocean Infinity": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ocean Visions": {
-  "empty_streak": 3,
+  "empty_streak": 4,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-16",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "OceanScore": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Oklo": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Omen AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 10
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 11
  },
  "One Concern": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "One Tree Planted": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Open Cosmos": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "OpenGeoHub": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "OpenOcean Robotics": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Oracle": {
   "crossed_30_on": "2026-10-29",
-  "empty_streak": 51,
+  "empty_streak": 52,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "Orange": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Orbcomm": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Orbit Fab": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Orbital Lasers": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Orbital Micro Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Orbital Operations": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-24",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 27
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 28
  },
  "Orbital Paradigm": {
   "crossed_30_on": "2026-09-12",
-  "empty_streak": 98,
+  "empty_streak": 99,
   "fail_streak": 0,
   "first_tracked": "2026-08-13",
-  "last_ok": "2026-11-19",
-  "runs": 98
+  "last_ok": "2026-11-20",
+  "runs": 99
  },
  "Orbital Robotics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 28
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 29
  },
  "Orbital Sidekick": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Orca AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "OroraTech": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Orsted": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Outlier": {
   "crossed_30_on": "2026-10-01",
-  "empty_streak": 79,
+  "empty_streak": 80,
   "fail_streak": 0,
   "first_tracked": "2026-09-02",
-  "last_ok": "2026-11-19",
-  "runs": 79
+  "last_ok": "2026-11-20",
+  "runs": 80
  },
  "Outpost Space": {
   "empty_streak": 0,
-  "fail_streak": 20,
+  "fail_streak": 21,
   "first_tracked": "2026-07-22",
   "last_nonempty": "2026-10-30",
   "last_ok": "2026-10-30",
-  "runs": 120
+  "runs": 121
  },
  "Overstory": {
   "empty_streak": 20,
-  "fail_streak": 8,
+  "fail_streak": 9,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-15",
   "last_ok": "2026-11-11",
-  "runs": 133
+  "runs": 134
  },
  "Overture VC Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Overview Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-24",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 118
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 119
  },
  "PAL Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "PEFC International": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Pacific Fusion": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-01",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 80
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 81
  },
  "Packard Foundation": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Pano AI": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Panthera": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Patch": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Peak Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-28",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 23
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 24
  },
  "Pelagic Data Systems": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Persefoni": {
   "empty_streak": 0,
-  "fail_streak": 51,
+  "fail_streak": 52,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-29",
   "last_ok": "2026-09-29",
-  "runs": 133
+  "runs": 134
  },
  "Pew Charitable Trusts": {
   "empty_streak": 0,
-  "fail_streak": 2,
+  "fail_streak": 3,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-17",
   "last_ok": "2026-11-17",
-  "runs": 133
+  "runs": 134
  },
  "Phoenix Tailings": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "PickTrace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "Piersight": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Pix4D": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Pixalytics": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Placer.ai": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Plan A": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planblue": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planet A Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planet Labs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planetary Health Alliance": {
   "crossed_30_on": "2026-10-22",
-  "empty_streak": 58,
+  "empty_streak": 59,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planetary Technologies": {
-  "empty_streak": 16,
+  "empty_streak": 17,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-03",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Plant-for-the-Planet": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Planted Solar": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Plastic Bank": {
   "crossed_30_on": "2026-09-30",
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Plastic Odyssey": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Pole Star Global": {
-  "empty_streak": 5,
+  "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-14",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Portal Space Systems": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Precisely (MapInfo)": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Prelude Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Previsico": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Primer AI": {
   "empty_streak": 0,
-  "fail_streak": 28,
+  "fail_streak": 29,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-22",
   "last_ok": "2026-10-22",
-  "runs": 133
+  "runs": 134
  },
  "Privateer": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Project Canary": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Project Drawdown": {
   "crossed_30_on": "2026-10-04",
-  "empty_streak": 76,
+  "empty_streak": 77,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-04",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Project44": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "REGENT": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-01",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 80
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 81
  },
  "Radiant": {
   "crossed_30_on": "2026-09-17",
-  "empty_streak": 93,
+  "empty_streak": 94,
   "fail_streak": 0,
   "first_tracked": "2026-08-18",
-  "last_ok": "2026-11-19",
-  "runs": 93
+  "last_ok": "2026-11-20",
+  "runs": 94
  },
  "Rain Industries": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rainforest Action Network": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rainforest Alliance": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rainforest Connection": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rainmaker": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rare Conservation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Re:wild (formerly Global Wildlife Conservation)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Reditus Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Reef Renewal USA": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Reflex Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Relativity Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Rendezvous Robotics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Resilinc": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Restore America's Estuaries": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Riskthinking.AI": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "River Mobility": {
   "crossed_30_on": "2026-09-11",
-  "empty_streak": 99,
+  "empty_streak": 100,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "Rocket Factory Augsburg": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Rocky Mountain Institute": {
   "empty_streak": 0,
-  "fail_streak": 2,
+  "fail_streak": 3,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-17",
   "last_ok": "2026-11-17",
-  "runs": 133
+  "runs": 134
  },
  "Royal Society for Protection of Birds (RSPB)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rubicon Carbon": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Rumin8": {
   "empty_streak": 131,
-  "fail_streak": 2,
+  "fail_streak": 3,
   "first_tracked": "2026-07-10",
   "last_ok": "2026-11-17",
-  "runs": 133
+  "runs": 134
  },
  "S2G Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SB Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "SOSV Portfolio": {
   "empty_streak": 0,
-  "fail_streak": 58,
+  "fail_streak": 59,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-22",
   "last_ok": "2026-09-22",
-  "runs": 133
+  "runs": 134
  },
  "SSC Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Safe Software": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SafeGraph": {
-  "empty_streak": 80,
+  "empty_streak": 81,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-31",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Saildrone": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Samara Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 28
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 29
  },
  "SambaNova (climate AI infra)": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SatSure": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SatVu": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sateliot": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Satelligence": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Satellogic": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Satelytics": {
-  "empty_streak": 77,
+  "empty_streak": 78,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-03",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Satlantis": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sayari": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Schmidt Marine Jobs Board": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Schmidt Ocean Institute": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SciTec": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-13",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 98
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 99
  },
  "Science Based Targets initiative (SBTi)": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Scout Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Scripps Institution of Oceanography": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sea Machines": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sea Shepherd": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SeekOps": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Semios": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Seven Seas Ocean Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sidus Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sierra Club": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sierra Space": {
   "empty_streak": 0,
-  "fail_streak": 4,
+  "fail_streak": 5,
   "first_tracked": "2026-09-08",
   "last_nonempty": "2026-11-15",
   "last_ok": "2026-11-15",
-  "runs": 73
+  "runs": 74
  },
  "Signal Ocean": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sila Nanotechnologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-29",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 113
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 114
  },
  "Simera Sense": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 71
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 72
  },
  "Sinai Technologies": {
   "crossed_30_on": "2026-11-01",
-  "empty_streak": 48,
+  "empty_streak": 49,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-02",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Single.Earth": {
   "crossed_30_on": "2026-10-01",
-  "empty_streak": 79,
+  "empty_streak": 80,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-09-01",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SkyFi": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SkyTruth": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SkyWatch": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-04",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 47
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 48
  },
  "Skylight": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Skytek": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Slingshot Aerospace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sofar Ocean": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sonnedix": {
   "crossed_30_on": "2026-09-11",
-  "empty_streak": 99,
+  "empty_streak": 100,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "Source Agriculture": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sourcemap": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "South Pole": {
-  "empty_streak": 8,
+  "empty_streak": 9,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-11",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Space Cargo Unlimited": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Space Crew": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Space Industries": {
-  "empty_streak": 16,
+  "empty_streak": 17,
   "fail_streak": 0,
   "first_tracked": "2026-10-30",
   "last_nonempty": "2026-11-03",
-  "last_ok": "2026-11-19",
-  "runs": 21
+  "last_ok": "2026-11-20",
+  "runs": 22
  },
  "Space Intelligence": {
-  "empty_streak": 2,
+  "empty_streak": 3,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-17",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Space Kinetic": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-14",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 97
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 98
  },
  "Space Talent Job Board": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 132
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 133
  },
  "Space-Careers": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Spaceium": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-13",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 7
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 8
  },
  "Spexi": {
-  "empty_streak": 111,
+  "empty_streak": 112,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-07-30",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sphinx Defense": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-30",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 112
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 113
  },
  "Spire Global": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Spiritus": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Star Catcher": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-24",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 118
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 119
  },
  "Starcloud": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Starfish Space": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "Stoke Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Stoke Space Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-28",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 23
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 24
  },
  "SubC Imaging": {
-  "empty_streak": 93,
+  "empty_streak": 94,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-18",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SunDrive Solar": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-13",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 7
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 8
  },
  "Supercritical": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Surfrider Foundation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sust Global": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sustainable Fisheries Partnership": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sweep": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Sylvera": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "SynMax": {
   "crossed_30_on": "2026-09-13",
-  "empty_streak": 97,
+  "empty_streak": 98,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-13",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Synspective": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Syntetica": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "TRAFFIC": {
   "crossed_30_on": "2026-09-25",
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "TRL11": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-23",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 58
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 59
  },
  "Taranis": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Technosylva": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Techstars Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Telesat": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-22",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 90
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 91
  },
  "Teragen Energy": {
-  "empty_streak": 17,
+  "empty_streak": 18,
   "fail_streak": 0,
   "first_tracked": "2026-09-01",
   "last_nonempty": "2026-11-02",
-  "last_ok": "2026-11-19",
-  "runs": 80
+  "last_ok": "2026-11-20",
+  "runs": 81
  },
  "Terra.do Job Board": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-11-09",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 11
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 12
  },
  "Terradepth": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Terradot": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Terran Orbital": {
   "crossed_30_on": "2026-10-21",
-  "empty_streak": 59,
+  "empty_streak": 60,
   "fail_streak": 0,
   "first_tracked": "2026-09-22",
-  "last_ok": "2026-11-19",
-  "runs": 59
+  "last_ok": "2026-11-20",
+  "runs": 60
  },
  "The Exploration Company": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "The Nuclear Company": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-18",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 93
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 94
  },
  "The Ocean Cleanup": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "The Ocean Foundation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Third Sphere Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Tokamak Energy": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-10-20",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 31
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 32
  },
  "TomTom": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Tomorrow.io": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Topcon Positioning Systems": {
   "empty_streak": 0,
-  "fail_streak": 0,
+  "fail_streak": 1,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-19",
   "last_ok": "2026-11-19",
-  "runs": 133
+  "runs": 134
  },
  "Transcelestial": {
-  "empty_streak": 120,
+  "empty_streak": 121,
   "fail_streak": 0,
   "first_tracked": "2026-07-22",
-  "last_ok": "2026-11-19",
-  "runs": 120
+  "last_ok": "2026-11-20",
+  "runs": 121
  },
  "Travertine": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Treefera": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Trees for the Future": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Treeswift": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Trimble": {
   "crossed_30_on": "2026-11-16",
-  "empty_streak": 33,
+  "empty_streak": 34,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-17",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Trout Unlimited": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "True Anomaly": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "TrustPoint": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-11",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 70
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 71
  },
  "U-Space": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ultraviolette Automotive": {
   "crossed_30_on": "2026-10-29",
-  "empty_streak": 51,
+  "empty_streak": 52,
   "fail_streak": 0,
   "first_tracked": "2026-09-30",
-  "last_ok": "2026-11-19",
-  "runs": 51
+  "last_ok": "2026-11-20",
+  "runs": 52
  },
  "Umbra Space (Umbra Lab)": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Undo Carbon": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "United Launch Alliance": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Unseenlabs": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Urban Sky": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Ursa Major": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-26",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 86
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 87
  },
  "Ursa Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "VITO Remote Sensing": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vaisala": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Valar Atomics": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-08-12",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 99
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 100
  },
  "Varda Space Industries": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vast": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Vaulted Deep": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Verdox": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Veritree": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Verra": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Veson Nautical": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vesta": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vexcel Data Program": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vibrant Planet": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vortexa": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Voyager Technologies": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Voyager Ventures Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Vulcan EarthRanger": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Watershed": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "WattTime": {
   "crossed_30_on": "2026-09-17",
-  "empty_streak": 93,
+  "empty_streak": 94,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-08-17",
-  "last_ok": "2026-11-19",
-  "runs": 132
+  "last_ok": "2026-11-20",
+  "runs": 133
  },
  "WeForest": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "WeatherXM": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Western Resource Advocates": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Wild Salmon Center": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "WildAid": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Wildlife Conservation Network": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Wildlife Trust of India": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Wildlife Works": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Windfall Bio": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Windward": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Woods Hole Oceanographic Institution": {
   "empty_streak": 0,
-  "fail_streak": 2,
+  "fail_streak": 3,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-11-17",
   "last_ok": "2026-11-17",
-  "runs": 133
+  "runs": 134
  },
  "Work at a Startup (YC)": {
-  "empty_streak": 20,
+  "empty_streak": 21,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
   "last_nonempty": "2026-10-30",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "World Climate Foundation": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "World Fund Portfolio": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "World Labs": {
   "empty_streak": 3,
-  "fail_streak": 69,
+  "fail_streak": 70,
   "first_tracked": "2026-07-22",
   "last_nonempty": "2026-09-08",
   "last_ok": "2026-09-11",
-  "runs": 120
+  "runs": 121
  },
  "World Resources Institute": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "World Wildlife Fund": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Wyvern": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "XDI Systems": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "XOCEAN": {
-  "empty_streak": 133,
+  "empty_streak": 134,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Xeneta": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Xona Space": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Xplore": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Y Combinator Jobs": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Zeno Power": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-08",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 73
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 74
  },
  "Zero Gravity": {
   "crossed_30_on": "2026-10-17",
-  "empty_streak": 63,
+  "empty_streak": 64,
   "fail_streak": 0,
   "first_tracked": "2026-09-18",
-  "last_ok": "2026-11-19",
-  "runs": 63
+  "last_ok": "2026-11-20",
+  "runs": 64
  },
  "ZeroNorth": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "Zesty.ai": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-07-10",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 133
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 134
  },
  "ispace": {
   "empty_streak": 0,
   "fail_streak": 0,
   "first_tracked": "2026-09-11",
-  "last_nonempty": "2026-11-19",
-  "last_ok": "2026-11-19",
-  "runs": 70
+  "last_nonempty": "2026-11-20",
+  "last_ok": "2026-11-20",
+  "runs": 71
  }
 }
