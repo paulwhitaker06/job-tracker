@@ -3117,3 +3117,24 @@ companies:
     type: workable_api
     url: https://apply.workable.com/calibrant-energy/
     # auto-added from Payload intel 2026-11-16
+
+  - name: Proteus Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/proteusspace
+    board: proteusspace
+    # auto-added from Payload intel 2026-11-21
+
+  - name: Solestial
+    type: lever_api
+    url: https://jobs.lever.co/solestial
+    # auto-added from Payload intel 2026-11-21
+
+  - name: Gridcog
+    type: workable_api
+    url: https://apply.workable.com/gridcog/
+    # auto-added from Payload intel 2026-11-21
+
+  - name: Invinity
+    type: lever_api
+    url: https://jobs.lever.co/invinity
+    # auto-added from Payload intel 2026-11-21
