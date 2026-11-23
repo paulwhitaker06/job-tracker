@@ -1142,3 +1142,31 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Satelogic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
 | **Dominion Dynamics** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
 | **Kayhan Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-20 |
+| **AIKO** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Turion Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Texas A&M** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Halter** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **ProducePay** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Tropic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Orbem** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **ArkeaBio** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **InSoil** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Stark Future** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **General Flash** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Pulpex** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Bedrock Energy** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Traitomic** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Holosolis** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Darcy Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Aarden AI** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **HoriZn** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Nomadic Drones** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **esVolta** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Pathfinder Clean Energy Limited (PACE)** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Recove** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **AM Nutrition** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Polarium** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Social Investment Managers & Advisors (SIMA)** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Reinova Partners** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Enphase** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **Climeworks Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
