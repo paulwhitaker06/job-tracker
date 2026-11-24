@@ -1170,3 +1170,6 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **Reinova Partners** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
 | **Enphase** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
 | **Climeworks Solutions** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-23 |
+| **WISeSat.Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |
+| **Space-Eyes** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |
+| **Korea Aerospace Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |

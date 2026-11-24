@@ -3155,3 +3155,9 @@ companies:
     url: https://job-boards.greenhouse.io/quaise
     board: quaise
     # auto-added from Payload intel 2026-11-23
+
+  - name: Revolution Space
+    type: greenhouse_api
+    url: https://job-boards.greenhouse.io/revolutionspace
+    board: revolutionspace
+    # auto-added from Payload intel 2026-11-24
