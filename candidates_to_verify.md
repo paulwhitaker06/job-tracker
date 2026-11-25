@@ -1173,3 +1173,9 @@ Re-check notes, 2026-09-10 radar cross-check (no growth; every hit was an alias 
 | **WISeSat.Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |
 | **Space-Eyes** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |
 | **Korea Aerospace Industries** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-24 |
+| **EpochGeo** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
+| **Cerberus Capital Management** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
+| **Myriota** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
+| **Gulf Space Technology** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
+| **xOrbita** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
+| **Momentus Space** | | Payload intel mention; on the outreach radar pipeline | probes missed 2026-11-25 |
